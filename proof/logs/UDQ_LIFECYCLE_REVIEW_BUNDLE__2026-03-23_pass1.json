@@ -1,0 +1,58 @@
+{
+  "active_device_key": "labjack_u6_support:470001",
+  "active_adapter_id": "LABJACK-U6-470001",
+  "lifecycle_summary": {
+    "phase": "live",
+    "detected_device_count": 3,
+    "projected_point_count": 12,
+    "published_signal_count": 1,
+    "last_poll_snapshot_count": 8,
+    "disconnected_signal_count": 0,
+    "last_transition": "poll_active_adapter",
+    "needs_review": false
+  },
+  "binding_review_summary": {
+    "total_signal_binding_count": 1,
+    "total_output_binding_count": 0,
+    "resolved_signal_count": 1,
+    "auto_rebound_signal_count": 0,
+    "manual_review_signal_count": 0,
+    "unresolved_signal_count": 0,
+    "blocked_signal_count": 0,
+    "resolved_output_count": 0,
+    "unresolved_output_count": 0,
+    "highlighted_items": []
+  },
+  "variable_health_summary": {
+    "total_variable_count": 1,
+    "healthy_count": 1,
+    "substituted_count": 0,
+    "stale_count": 0,
+    "invalid_count": 0,
+    "unresolved_count": 0,
+    "degraded_count": 0,
+    "highlighted_variables": []
+  },
+  "reconciliation_summary": {
+    "outcome_kind": null,
+    "confidence": null,
+    "reason": null,
+    "remap_candidate_count": 0,
+    "auto_rebound_signal_count": 0,
+    "manual_review_required": false
+  },
+  "workbench_review_state": {
+    "total_workbench_count": 3,
+    "available_workbench_names": [
+      "LabJack Channel Mapper",
+      "LabJack U6 Stream Setup",
+      "LabJack U6 Device Info"
+    ],
+    "active_workbench_name": "LabJack Channel Mapper",
+    "highlighted_workbenches": [
+      "LabJack Channel Mapper",
+      "LabJack U6 Stream Setup",
+      "LabJack U6 Device Info"
+    ]
+  }
+}

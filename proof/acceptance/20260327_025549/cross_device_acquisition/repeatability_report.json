@@ -1,0 +1,51 @@
+{
+  "consistent_depth_metrics": true,
+  "consistent_fallback_metrics": true,
+  "consistent_replay_metrics": true,
+  "run_count": 3,
+  "runs": [
+    {
+      "activated_adapter_count": 3,
+      "degraded_transition_count": 5,
+      "fallback_tail_record_count": 119,
+      "fallback_tail_record_type_count": 3,
+      "persisted_record_count": 268,
+      "replay_tail_record_count": 41,
+      "replay_tail_record_type_count": 3,
+      "segment_count": 67,
+      "session_id": "SESSION-CROSS-DEVICE-CLOSURE-01",
+      "simultaneous_drop_event_count": 1,
+      "tag_definition_count": 21,
+      "valid_checkpoint_count": 3
+    },
+    {
+      "activated_adapter_count": 3,
+      "degraded_transition_count": 5,
+      "fallback_tail_record_count": 119,
+      "fallback_tail_record_type_count": 3,
+      "persisted_record_count": 268,
+      "replay_tail_record_count": 41,
+      "replay_tail_record_type_count": 3,
+      "segment_count": 67,
+      "session_id": "SESSION-CROSS-DEVICE-CLOSURE-02",
+      "simultaneous_drop_event_count": 1,
+      "tag_definition_count": 21,
+      "valid_checkpoint_count": 3
+    },
+    {
+      "activated_adapter_count": 3,
+      "degraded_transition_count": 5,
+      "fallback_tail_record_count": 119,
+      "fallback_tail_record_type_count": 3,
+      "persisted_record_count": 268,
+      "replay_tail_record_count": 41,
+      "replay_tail_record_type_count": 3,
+      "segment_count": 67,
+      "session_id": "SESSION-CROSS-DEVICE-CLOSURE-03",
+      "simultaneous_drop_event_count": 1,
+      "tag_definition_count": 21,
+      "valid_checkpoint_count": 3
+    }
+  ],
+  "verdict": "PASS"
+}

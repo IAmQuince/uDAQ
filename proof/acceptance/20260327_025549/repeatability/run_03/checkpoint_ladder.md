@@ -1,0 +1,19 @@
+# UniversalDAQ Checkpoint Ladder
+
+- checkpoint_available: True
+- valid_checkpoint_count: 4
+- latest_checkpoint_id: CHK-SESSION-REPEAT-003-245-132
+- last_committed_sequence_id: 132
+
+## Spacing
+
+- min_sequence_gap: 33
+- max_sequence_gap: 33
+- average_sequence_gap: 33.0
+
+## Ladder
+
+- CHK-SESSION-REPEAT-003-233-33: sequence=33 hash_valid=True path=proof/acceptance/20260327_025549/repeatability/run_03/runtime/sessions/SESSION-REPEAT-003/checkpoints/CHK-SESSION-REPEAT-003-233-33.json
+- CHK-SESSION-REPEAT-003-237-66: sequence=66 hash_valid=True path=proof/acceptance/20260327_025549/repeatability/run_03/runtime/sessions/SESSION-REPEAT-003/checkpoints/CHK-SESSION-REPEAT-003-237-66.json
+- CHK-SESSION-REPEAT-003-241-99: sequence=99 hash_valid=True path=proof/acceptance/20260327_025549/repeatability/run_03/runtime/sessions/SESSION-REPEAT-003/checkpoints/CHK-SESSION-REPEAT-003-241-99.json
+- CHK-SESSION-REPEAT-003-245-132: sequence=132 hash_valid=True path=proof/acceptance/20260327_025549/repeatability/run_03/runtime/sessions/SESSION-REPEAT-003/checkpoints/CHK-SESSION-REPEAT-003-245-132.json

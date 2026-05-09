@@ -1,0 +1,153 @@
+{
+  "package_id": "UDQ-PKG-20260327-SESSION-REVIEW-AND-LIGHTWEIGHT-REPORTING-R01",
+  "package_slug": "session-review-and-lightweight-reporting",
+  "review_count": 2,
+  "recent_sessions": [
+    {
+      "summary_id": "SUM-SESSION-PROF-SESSION-REVIEW-2-11",
+      "saved_at": 11,
+      "summary_label": "Wave 0",
+      "historical_label": "historical review only \u00b7 saved session \u00b7 profile_capture",
+      "session_source_label": "profile_capture",
+      "preferred_adapter_id": "DEMO-FIRST-SIGNAL-001",
+      "preferred_device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+      "preferred_channel_key": "DEMO-FIRST-SIGNAL-001:demo_wave_0",
+      "signal_freshness_label": "simulated",
+      "control_mode_label": "armed_control",
+      "alarm_posture": null,
+      "note_count": 2,
+      "completeness_label": "complete",
+      "flight_record_ready": true
+    },
+    {
+      "summary_id": "SUM-SESSION-PROF-SESSION-REVIEW-2-9",
+      "saved_at": 9,
+      "summary_label": "Wave 0",
+      "historical_label": "historical review only \u00b7 saved session \u00b7 profile_capture",
+      "session_source_label": "profile_capture",
+      "preferred_adapter_id": "DEMO-FIRST-SIGNAL-001",
+      "preferred_device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+      "preferred_channel_key": "DEMO-FIRST-SIGNAL-001:demo_wave_0",
+      "signal_freshness_label": "simulated",
+      "control_mode_label": "armed_control",
+      "alarm_posture": null,
+      "note_count": 1,
+      "completeness_label": "complete",
+      "flight_record_ready": true
+    }
+  ],
+  "selected_detail": {
+    "summary_id": "SUM-SESSION-PROF-SESSION-REVIEW-2-11",
+    "saved_at": 11,
+    "session_id": "SESSION-PROF-SESSION-REVIEW-2",
+    "summary_label": "Wave 0",
+    "historical_label": "historical review only \u00b7 saved session \u00b7 profile_capture",
+    "session_source_label": "profile_capture",
+    "completeness_label": "complete",
+    "preferred_adapter_id": "DEMO-FIRST-SIGNAL-001",
+    "preferred_device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+    "preferred_channel_key": "DEMO-FIRST-SIGNAL-001:demo_wave_0",
+    "control_mode_label": "armed_control",
+    "signal_freshness_label": "simulated",
+    "signal_provenance_label": "First Signal Demo Device / DEMO-FIRST-SIGNAL-001 / Wave 0",
+    "last_signal_value": "1.250",
+    "last_signal_units": "V",
+    "alarm_posture": null,
+    "recent_action_count": 8,
+    "flight_record_ready": true,
+    "trace_preview": "\u2588\u2585\u2581",
+    "last_event_summary": "operator note captured",
+    "operator_notes": [
+      {
+        "note_id": "NOTE-SESSION-PROF-SESSION-REVIEW-2-8-1",
+        "timestamp": 8,
+        "text": "Initial reviewable session",
+        "category": "operator_note",
+        "actor_id": "review-operator"
+      },
+      {
+        "note_id": "NOTE-SESSION-PROF-SESSION-REVIEW-2-10-2",
+        "timestamp": 10,
+        "text": "Second saved context for report generation",
+        "category": "operator_note",
+        "actor_id": "review-operator"
+      }
+    ]
+  },
+  "saved_state_ids": [
+    "SUM-SESSION-PROF-SESSION-REVIEW-2-9",
+    "SUM-SESSION-PROF-SESSION-REVIEW-2-11"
+  ],
+  "report_id": "RPT-SUM-SESSION-PROF-SESSION-REVIEW-2-11-12",
+  "report_summary_id": "SUM-SESSION-PROF-SESSION-REVIEW-2-11",
+  "report_markdown_preview": [
+    "# Lightweight Session Report",
+    "",
+    "- report_id: `RPT-SUM-SESSION-PROF-SESSION-REVIEW-2-11-12`",
+    "- package_id: `UDQ-PKG-20260327-SESSION-REVIEW-AND-LIGHTWEIGHT-REPORTING-R01`",
+    "- package_slug: `session-review-and-lightweight-reporting`",
+    "- summary_id: `SUM-SESSION-PROF-SESSION-REVIEW-2-11`",
+    "- generated_at: `12`",
+    "- review_posture: `historical review only \u00b7 saved session \u00b7 profile_capture`",
+    "",
+    "## Session summary",
+    "- saved_at: `11`",
+    "- session_id: `SESSION-PROF-SESSION-REVIEW-2`",
+    "- summary_label: `Wave 0`",
+    "- session_source_label: `profile_capture`",
+    "- completeness_label: `complete`",
+    "",
+    "## Selection",
+    "- preferred_adapter_id: `DEMO-FIRST-SIGNAL-001`"
+  ],
+  "report_payload": {
+    "report_id": "RPT-SUM-SESSION-PROF-SESSION-REVIEW-2-11-12",
+    "summary_id": "SUM-SESSION-PROF-SESSION-REVIEW-2-11",
+    "generated_at": 12,
+    "package_id": "UDQ-PKG-20260327-SESSION-REVIEW-AND-LIGHTWEIGHT-REPORTING-R01",
+    "package_slug": "session-review-and-lightweight-reporting",
+    "historical_label": "historical review only \u00b7 saved session \u00b7 profile_capture",
+    "session": {
+      "saved_at": 11,
+      "session_id": "SESSION-PROF-SESSION-REVIEW-2",
+      "summary_label": "Wave 0",
+      "session_source_label": "profile_capture",
+      "completeness_label": "complete"
+    },
+    "selection": {
+      "preferred_adapter_id": "DEMO-FIRST-SIGNAL-001",
+      "preferred_device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+      "preferred_channel_key": "DEMO-FIRST-SIGNAL-001:demo_wave_0"
+    },
+    "signal": {
+      "freshness_label": "simulated",
+      "provenance_label": "First Signal Demo Device / DEMO-FIRST-SIGNAL-001 / Wave 0",
+      "last_signal_value": "1.250",
+      "last_signal_units": "V",
+      "trace_preview": "\u2588\u2585\u2581"
+    },
+    "posture": {
+      "control_mode_label": "armed_control",
+      "alarm_posture": null,
+      "recent_action_count": 8,
+      "flight_record_ready": true
+    },
+    "notes": [
+      {
+        "note_id": "NOTE-SESSION-PROF-SESSION-REVIEW-2-8-1",
+        "timestamp": 8,
+        "text": "Initial reviewable session",
+        "category": "operator_note",
+        "actor_id": "review-operator"
+      },
+      {
+        "note_id": "NOTE-SESSION-PROF-SESSION-REVIEW-2-10-2",
+        "timestamp": 10,
+        "text": "Second saved context for report generation",
+        "category": "operator_note",
+        "actor_id": "review-operator"
+      }
+    ],
+    "last_event_summary": "operator note captured"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "artifact_count": 10,
+  "artifacts": [
+    {
+      "bytes": 77648,
+      "label": "diagnostics",
+      "relative_path": "20260325_00_simulated-u6-startup-open-smoke__diagnostics.json",
+      "sha256": "8605614235010732de7bf1f92ea933c09b2a5fef85e18445493d6102f7f3d2b5"
+    },
+    {
+      "bytes": 1272,
+      "label": "events",
+      "relative_path": "20260325_00_simulated-u6-startup-open-smoke__events.csv",
+      "sha256": "475e428d08983aa8289ac4506fa1311170a1979e87093bf55acbb2bb2ec38cec"
+    },
+    {
+      "bytes": 1731,
+      "label": "preflight_json",
+      "relative_path": "20260325_00_simulated-u6-startup-open-smoke__preflight-report.json",
+      "sha256": "0931a5b0107f1b24f8bc8fa4bbb7456a17f358bc22f233ac38c9a016f3f9a864"
+    },
+    {
+      "bytes": 1029,
+      "label": "preflight_text",
+      "relative_path": "20260325_00_simulated-u6-startup-open-smoke__preflight-report.txt",
+      "sha256": "4083ca4d9a882ae7c476b2519a78b390303603af881b30fd7535132f190f01b1"
+    },
+    {
+      "bytes": 837,
+      "label": "review_summary",
+      "relative_path": "20260325_00_simulated-u6-startup-open-smoke__review-summary.md",
+      "sha256": "856d4979c6221edd85a4f900d58254b8cebb053d6abea441e9a4579d42ba0ab7"
+    },
+    {
+      "bytes": 1864,
+      "label": "semantic_verdict_json",
+      "relative_path": "20260325_00_simulated-u6-startup-open-smoke__semantic-consistency-verdict.json",
+      "sha256": "fc199c1bbb34fb18dda359458ca33ef51605e785df02a1b87d47b5fa845ef265"
+    },
+    {
+      "bytes": 1170,
+      "label": "semantic_verdict_text",
+      "relative_path": "20260325_00_simulated-u6-startup-open-smoke__semantic-consistency-verdict.txt",
+      "sha256": "5cd358dae3dfe8b99b0a4f5257f543991f1015fe5af7ee3205e1ea3ad087f904"
+    },
+    {
+      "bytes": 594,
+      "label": "smoke",
+      "relative_path": "20260325_00_simulated-u6-startup-open-smoke__smoke.txt",
+      "sha256": "027a164ddee60e6fdbe140b489360fca82f01264666d0d4846a035f5f9a80c49"
+    },
+    {
+      "bytes": 746,
+      "label": "start_here",
+      "relative_path": "20260325_00_simulated-u6-startup-open-smoke__start-here.txt",
+      "sha256": "f987b551983eaab432b6c6bf6fac4d68c781b5b1ad07f7aeaa3b96d635dbe0f2"
+    },
+    {
+      "bytes": 3710,
+      "label": "summary",
+      "relative_path": "20260325_00_simulated-u6-startup-open-smoke__summary.txt",
+      "sha256": "2a09da9a762ddfcf25e76c47016325296e43e92e0907f1bb63ff9b230848fe5a"
+    }
+  ],
+  "bundle_dir": "/mnt/data/s3cfinal/proof/field_tests/20260325_00_simulated-u6-startup-open-smoke"
+}

@@ -1,0 +1,192 @@
+{
+  "rows": [
+    {
+      "decision_id": "UDQ-DEC-001",
+      "title": "Execution contract exists before implementation code",
+      "status": "CLOSED",
+      "decision_class": "governance_rule",
+      "affects_requirements": "UDQ-REQ-GOV-001; UDQ-REQ-IMPL-001",
+      "summary": "No feature implementation may be declared implementation-entry ready without an execution-contract entry derived from the active governed corpus.",
+      "resolution_vehicle": "UDQ-GOV-SPEC-003 r1; UDQ-GOV-SPEC-004 r1; universalDAQ_execution_contract_r1.json",
+      "affected_requirement_ids": [
+        "UDQ-REQ-GOV-001",
+        "UDQ-REQ-IMPL-001"
+      ]
+    },
+    {
+      "decision_id": "UDQ-DEC-002",
+      "title": "The first code sprint remains intentionally bounded",
+      "status": "CLOSED",
+      "decision_class": "scope_gate",
+      "affects_requirements": "UDQ-REQ-ARCH-001; UDQ-REQ-ARCH-002; UDQ-REQ-AUD-001; UDQ-REQ-AUD-002; UDQ-REQ-AUD-003; UDQ-REQ-EVT-001; UDQ-REQ-EVT-002; UDQ-REQ-GOV-001; UDQ-REQ-GOV-002; UDQ-REQ-GOV-003; UDQ-REQ-GOV-004; UDQ-REQ-HIS-001; UDQ-REQ-HIS-002; UDQ-REQ-IMPL-001; UDQ-REQ-OUT-001; UDQ-REQ-OUT-002; UDQ-REQ-PROF-001; UDQ-REQ-PROF-002; UDQ-REQ-REL-001; UDQ-REQ-SIG-001; UDQ-REQ-SIG-002; UDQ-REQ-UI-001; UDQ-REQ-UI-003; UDQ-REQ-UI-004; UDQ-REQ-UI-006",
+      "summary": "The first code sprint is constrained to the structural and conformance-aware behavioral spine documented in docs/handbook/IMPLEMENTATION_ENTRY.md.",
+      "resolution_vehicle": "docs/handbook/IMPLEMENTATION_ENTRY.md; UDQ-IMP-PLAN-001 r3",
+      "affected_requirement_ids": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-ARCH-002",
+        "UDQ-REQ-AUD-001",
+        "UDQ-REQ-AUD-002",
+        "UDQ-REQ-AUD-003",
+        "UDQ-REQ-EVT-001",
+        "UDQ-REQ-EVT-002",
+        "UDQ-REQ-GOV-001",
+        "UDQ-REQ-GOV-002",
+        "UDQ-REQ-GOV-003",
+        "UDQ-REQ-GOV-004",
+        "UDQ-REQ-HIS-001",
+        "UDQ-REQ-HIS-002",
+        "UDQ-REQ-IMPL-001",
+        "UDQ-REQ-OUT-001",
+        "UDQ-REQ-OUT-002",
+        "UDQ-REQ-PROF-001",
+        "UDQ-REQ-PROF-002",
+        "UDQ-REQ-REL-001",
+        "UDQ-REQ-SIG-001",
+        "UDQ-REQ-SIG-002",
+        "UDQ-REQ-UI-001",
+        "UDQ-REQ-UI-003",
+        "UDQ-REQ-UI-004",
+        "UDQ-REQ-UI-006"
+      ]
+    },
+    {
+      "decision_id": "UDQ-DEC-003",
+      "title": "Outputs command-state semantics are allowed, but physical actuation is not",
+      "status": "CLOSED",
+      "decision_class": "scope_refinement",
+      "affects_requirements": "UDQ-REQ-OUT-001; UDQ-REQ-OUT-002",
+      "summary": "The first code sprint may implement command-state structure, mismatch, and evidence scaffolding, but not physical output writes.",
+      "resolution_vehicle": "docs/handbook/IMPLEMENTATION_ENTRY.md; universalDAQ_execution_contract_r1.json",
+      "affected_requirement_ids": [
+        "UDQ-REQ-OUT-001",
+        "UDQ-REQ-OUT-002"
+      ]
+    },
+    {
+      "decision_id": "UDQ-DEC-004",
+      "title": "Remote command actuation remains blocked",
+      "status": "BLOCKING",
+      "decision_class": "safety_boundary",
+      "affects_requirements": "UDQ-REQ-REM-001; UDQ-REQ-REM-002",
+      "summary": "Remote command parity remains outside the first code sprint until local proof/evidence and authorization scaffolding exist in running code.",
+      "resolution_vehicle": "docs/handbook/IMPLEMENTATION_ENTRY.md; docs/handbook/NEXT_ACTIONS.md",
+      "affected_requirement_ids": [
+        "UDQ-REQ-REM-001",
+        "UDQ-REQ-REM-002"
+      ]
+    },
+    {
+      "decision_id": "UDQ-DEC-005",
+      "title": "Rules and sequences remain deferred beyond the first sprint",
+      "status": "DEFERRED",
+      "decision_class": "phasing",
+      "affects_requirements": "UDQ-REQ-RULE-001; UDQ-REQ-RULE-002; UDQ-REQ-SEQ-001; UDQ-REQ-SEQ-002",
+      "summary": "These areas remain semantically closed but are intentionally postponed until after the first code sprint establishes the baseline behavioral spine.",
+      "resolution_vehicle": "docs/handbook/IMPLEMENTATION_ENTRY.md; docs/handbook/NEXT_ACTIONS.md",
+      "affected_requirement_ids": [
+        "UDQ-REQ-RULE-001",
+        "UDQ-REQ-RULE-002",
+        "UDQ-REQ-SEQ-001",
+        "UDQ-REQ-SEQ-002"
+      ]
+    },
+    {
+      "decision_id": "UDQ-DEC-006",
+      "title": "Human-facing control-tower docs remain required",
+      "status": "CLOSED",
+      "decision_class": "human_interface",
+      "affects_requirements": "UDQ-REQ-GOV-004; UDQ-REQ-REL-001",
+      "summary": "Every package revision shall continue to include root-level status, entry, and next-action docs so a human can catch up quickly.",
+      "resolution_vehicle": "UDQ-GOV-SPEC-006 r1; root README set",
+      "affected_requirement_ids": [
+        "UDQ-REQ-GOV-004",
+        "UDQ-REQ-REL-001"
+      ]
+    },
+    {
+      "decision_id": "UDQ-DEC-007",
+      "title": "First code sprint must create traceability and proof scaffolding",
+      "status": "CLOSED",
+      "decision_class": "entry_gate",
+      "affects_requirements": "UDQ-REQ-AUD-001; UDQ-REQ-QUAL-001; UDQ-REQ-GOV-001; UDQ-REQ-IMPL-001",
+      "summary": "The first code sprint is not allowed to be feature-only; it must attach to requirement IDs, invariant hooks, and proof-bundle scaffolding.",
+      "resolution_vehicle": "docs/handbook/NEXT_ACTIONS.md; UDQ-QUAL-SPEC-002 r2",
+      "affected_requirement_ids": [
+        "UDQ-REQ-AUD-001",
+        "UDQ-REQ-QUAL-001",
+        "UDQ-REQ-GOV-001",
+        "UDQ-REQ-IMPL-001"
+      ]
+    },
+    {
+      "decision_id": "UDQ-DEC-008",
+      "title": "Implementation-facing UI package uses ui naming",
+      "status": "CLOSED",
+      "decision_class": "architecture",
+      "affects_requirements": "UDQ-REQ-UI-001; UDQ-REQ-UI-003; UDQ-REQ-UI-004; UDQ-REQ-UI-006",
+      "affected_requirement_ids": [
+        "UDQ-REQ-UI-001",
+        "UDQ-REQ-UI-003",
+        "UDQ-REQ-UI-004",
+        "UDQ-REQ-UI-006"
+      ],
+      "summary": "Use src/universaldaq/ui as the implementation-facing package name while retaining frontend/backend authority language at the architectural level where useful.",
+      "resolution_vehicle": "ADR-0001; UDQ-IMP-MAP-001"
+    },
+    {
+      "decision_id": "UDQ-DEC-009",
+      "title": "Typed domain model sprint precedes adapter and widget-heavy work",
+      "status": "CLOSED",
+      "decision_class": "implementation_strategy",
+      "affects_requirements": "UDQ-REQ-ARCH-001; UDQ-REQ-OUT-001; UDQ-REQ-PROF-001; UDQ-REQ-EVT-001",
+      "affected_requirement_ids": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-OUT-001",
+        "UDQ-REQ-PROF-001",
+        "UDQ-REQ-EVT-001"
+      ],
+      "summary": "The next sprint will implement pure typed models and convert placeholder behavior tests before adapter, remote, or heavy widget work begins.",
+      "resolution_vehicle": "ADR-0002; UDQ-IMP-GUIDE-001"
+    },
+    {
+      "decision_id": "UDQ-DEC-010",
+      "title": "Reserved packages remain guarded until scope expands",
+      "status": "CLOSED",
+      "decision_class": "governance_rule",
+      "affects_requirements": "UDQ-REQ-IMPL-001",
+      "affected_requirement_ids": [
+        "UDQ-REQ-IMPL-001"
+      ],
+      "summary": "Deferred packages remain present as reserved directories and must not gain active implementation files during the next sprint.",
+      "resolution_vehicle": "ADR-0003; tests/meta/test_meta_reserved_package_guardrails.py"
+    },
+    {
+      "decision_id": "UDQ-DEC-011",
+      "title": "One local gate and one CI gate are canonical",
+      "status": "CLOSED",
+      "decision_class": "process_rule",
+      "affects_requirements": "UDQ-REQ-AUD-001; UDQ-REQ-REL-001; UDQ-REQ-IMPL-001",
+      "affected_requirement_ids": [
+        "UDQ-REQ-AUD-001",
+        "UDQ-REQ-REL-001",
+        "UDQ-REQ-IMPL-001"
+      ],
+      "summary": "The preferred repo validation flow is the stable local gate mirrored by CI running in strict mode.",
+      "resolution_vehicle": "ADR-0004; .github/workflows/ci.yml; tools/dev/run_local_gate.py"
+    },
+    {
+      "decision_id": "UDQ-DEC-012",
+      "title": "Sprint 1 changes must open with a documentation impact map",
+      "status": "CLOSED",
+      "decision_class": "process_rule",
+      "affects_requirements": "UDQ-REQ-GOV-001; UDQ-REQ-IMPL-001; UDQ-REQ-QUAL-001",
+      "affected_requirement_ids": [
+        "UDQ-REQ-GOV-001",
+        "UDQ-REQ-IMPL-001",
+        "UDQ-REQ-QUAL-001"
+      ],
+      "summary": "Any bounded Sprint 1 change must declare its documentation impact, governing sources, and reconciliation outputs before it can be considered complete.",
+      "resolution_vehicle": "UDQ-GOV-SOP-001 r2; UDQ-GOV-TPL-001 r0; CONTRIBUTING.md; .github/PULL_REQUEST_TEMPLATE/typed_domain_model_sprint.md"
+    }
+  ]
+}

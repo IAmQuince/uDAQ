@@ -1,0 +1,8 @@
+UDQ Real U6 Direct-Open Probe — Artifact Manifest
+===============================================
+bundle_dir: C:\Users\iaq16\Documents\Code\uDAQ\20260325_06_reconnect-path-alignment-correction\proof\field_tests\20260325_04_real-u6-direct-open-probe
+artifact_count: 3
+
+- start_here: 20260325_04_real-u6-direct-open-probe__start-here.txt (376 bytes)
+- report_json: 20260325_04_real-u6-direct-open-probe__report.json (900 bytes)
+- report_text: 20260325_04_real-u6-direct-open-probe__report.txt (570 bytes)

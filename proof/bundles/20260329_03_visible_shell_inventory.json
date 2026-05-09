@@ -1,0 +1,183 @@
+{
+  "dependencies": {
+    "PySide6": false,
+    "pyqtgraph": false
+  },
+  "graph_engine_label": "pyqtgraph",
+  "launch_entry_point": "tools.ui.launch_operator_shell:main",
+  "live_runtime_inventory": {
+    "active_device_key": null,
+    "available_devices": [
+      {
+        "device_key": "generic_adapter_inventory:LIVE-SHELL-IO-001",
+        "display_name": "Visible Runtime Specimen",
+        "driver_name": "generic-runtime",
+        "hardware_mode": "simulated",
+        "live_capable": true,
+        "readable_point_count": 4,
+        "serial_number": "LIVE-001",
+        "transport": "in_memory",
+        "writable_point_count": 2
+      },
+      {
+        "device_key": "generic_adapter_inventory:SIM-READ-001",
+        "display_name": "SIM-READ-001",
+        "driver_name": "generic-runtime",
+        "hardware_mode": "simulated",
+        "live_capable": true,
+        "readable_point_count": 2,
+        "serial_number": null,
+        "transport": "generic-adapter",
+        "writable_point_count": 0
+      },
+      {
+        "device_key": "generic_adapter_inventory:SIM-WRITE-001",
+        "display_name": "SIM-WRITE-001",
+        "driver_name": "generic-runtime",
+        "hardware_mode": "simulated",
+        "live_capable": true,
+        "readable_point_count": 3,
+        "serial_number": null,
+        "transport": "generic-adapter",
+        "writable_point_count": 3
+      }
+    ],
+    "connection_state": "disconnected",
+    "event_log_tail": [
+      "capability survey found 3 device(s), 3 installed support pack(s), 0 limited or unavailable support pack(s)",
+      "capability survey found 3 device(s), 3 installed support pack(s), 0 limited or unavailable support pack(s)"
+    ],
+    "runtime_mode": "LIVE",
+    "runtime_source_label": "disconnected",
+    "signal_count": 0,
+    "support_pack_state": [
+      {
+        "pack_id": "universaldaq_arduino",
+        "state": "installed",
+        "summary": "support pack installed"
+      },
+      {
+        "pack_id": "universaldaq_labjack",
+        "state": "installed",
+        "summary": "support pack installed"
+      },
+      {
+        "pack_id": "universaldaq_rpi",
+        "state": "installed",
+        "summary": "support pack installed"
+      }
+    ],
+    "writable_target_count": 0
+  },
+  "menus": [
+    {
+      "actions": [
+        "file_save_graph_setup",
+        "file_load_graph_setup",
+        "file_export_session_report",
+        "file_exit"
+      ],
+      "label": "File",
+      "menu_id": "file"
+    },
+    {
+      "actions": [
+        "view_restore_default_layout",
+        "view_save_current_view",
+        "view_manage_saved_views",
+        "view_reset_panel_sizes",
+        "view_reset_layout_cache",
+        "view_toggle_device_explorer",
+        "view_toggle_signal_explorer",
+        "view_toggle_control_dock",
+        "view_toggle_bottom_log",
+        "view_toggle_trace_inspector",
+        "view_toggle_notes"
+      ],
+      "label": "View",
+      "menu_id": "view"
+    },
+    {
+      "actions": [
+        "workspace_operate",
+        "workspace_logic_designer",
+        "workspace_session_review",
+        "workspace_system"
+      ],
+      "label": "Workspace",
+      "menu_id": "workspace"
+    },
+    {
+      "actions": [
+        "mode_live",
+        "mode_replay",
+        "mode_fake",
+        "mode_user_demo"
+      ],
+      "label": "Mode",
+      "menu_id": "mode"
+    },
+    {
+      "actions": [
+        "settings_preferences",
+        "settings_autosave_toggle"
+      ],
+      "label": "Settings",
+      "menu_id": "settings"
+    },
+    {
+      "actions": [
+        "help_user_demo_guide",
+        "help_export_diagnostics",
+        "help_about"
+      ],
+      "label": "Help",
+      "menu_id": "help"
+    }
+  ],
+  "mode_actions": {
+    "mode": [
+      {
+        "action_id": "mode_live",
+        "checked": false,
+        "enabled": true
+      },
+      {
+        "action_id": "mode_replay",
+        "checked": false,
+        "enabled": false
+      },
+      {
+        "action_id": "mode_fake",
+        "checked": false,
+        "enabled": false
+      },
+      {
+        "action_id": "mode_user_demo",
+        "checked": true,
+        "enabled": true
+      }
+    ]
+  },
+  "persistent_info_bar_required": true,
+  "right_default_control_dock": true,
+  "shell_title": "UniversalDAQ",
+  "user_demo_scenarios": [
+    "trace_styling_demo",
+    "alarm_visualization_demo",
+    "signal_lineage_demo",
+    "logic_control_demo"
+  ],
+  "workspace_task_maps": [
+    "operate",
+    "logic_designer",
+    "system",
+    "session_review"
+  ],
+  "workspaces": [
+    "operate",
+    "logic_designer",
+    "session_review",
+    "system"
+  ]
+}

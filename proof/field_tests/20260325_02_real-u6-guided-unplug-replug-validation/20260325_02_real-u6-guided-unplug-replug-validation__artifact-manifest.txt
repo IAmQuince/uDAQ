@@ -1,0 +1,17 @@
+UDQ U6 Guided Field Validation — Artifact Manifest
+=================================================
+bundle_dir: C:\Users\iaq16\Documents\Code\uDAQ\20260325_06_reconnect-path-alignment-correction\proof\field_tests\20260325_02_real-u6-guided-unplug-replug-validation
+artifact_count: 10
+
+Artifacts
+---------
+- diagnostics: 20260325_02_real-u6-guided-unplug-replug-validation__diagnostics.json (163925 bytes, sha256=f78a048bc3e85fc40e1b9c35d19fc4a913a981034d5850b44d9d91cd97b3c04f)
+- events: 20260325_02_real-u6-guided-unplug-replug-validation__events.csv (11453 bytes, sha256=7ad759bf4064979adb36d39ce3964acfac3f4809498be87ea181de429a4daaca)
+- preflight_json: 20260325_02_real-u6-guided-unplug-replug-validation__preflight-report.json (2775 bytes, sha256=b5dd44f6ee10a01a5ef45c6b687e3f00f8c9f4109103ab9f4910fe0b26281157)
+- preflight_text: 20260325_02_real-u6-guided-unplug-replug-validation__preflight-report.txt (1486 bytes, sha256=f906c572ea05fff75d4e1ed9343e56333b0d4de6b1ebc8f154b785a8b6dda5c4)
+- review_summary: 20260325_02_real-u6-guided-unplug-replug-validation__review-summary.md (1203 bytes, sha256=da73bff54559cf10e818926e50135da86ee83c8cd5e465f2344282a0e56d3f19)
+- semantic_verdict_json: 20260325_02_real-u6-guided-unplug-replug-validation__semantic-consistency-verdict.json (2150 bytes, sha256=66839f5cfc4383839d4fdc1c97ee914a9e358c0114bf902c36a49613b31c5160)
+- semantic_verdict_text: 20260325_02_real-u6-guided-unplug-replug-validation__semantic-consistency-verdict.txt (1320 bytes, sha256=799dec78d3a8e0a4803136fc9934512478b70b6e8b4c78d6796bfe232a902e37)
+- smoke: 20260325_02_real-u6-guided-unplug-replug-validation__smoke.txt (593 bytes, sha256=a42ecebcdfad8bfddb881b750b38560f719e84e8065eaa26956d74897d59d6e5)
+- start_here: 20260325_02_real-u6-guided-unplug-replug-validation__start-here.txt (817 bytes, sha256=e4281eea500de1e03fcc09c4732f628d78167edad59e1edb1fed7799a992261e)
+- summary: 20260325_02_real-u6-guided-unplug-replug-validation__summary.txt (4870 bytes, sha256=3a55380fe02c0d64e0f0404909fc3ff56cf19eb28539db64921bdcea553fb22e)

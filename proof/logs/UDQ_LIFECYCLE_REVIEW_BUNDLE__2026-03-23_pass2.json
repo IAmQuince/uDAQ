@@ -1,0 +1,232 @@
+{
+  "active_device_key": "labjack_u6_support:470001",
+  "active_adapter_id": "LABJACK-U6-470001",
+  "lifecycle_summary": {
+    "phase": "live",
+    "detected_device_count": 3,
+    "projected_point_count": 12,
+    "published_signal_count": 1,
+    "last_poll_snapshot_count": 8,
+    "disconnected_signal_count": 0,
+    "last_transition": "poll_active_adapter",
+    "needs_review": false
+  },
+  "binding_review_summary": {
+    "total_signal_binding_count": 1,
+    "total_output_binding_count": 0,
+    "resolved_signal_count": 1,
+    "auto_rebound_signal_count": 0,
+    "manual_review_signal_count": 0,
+    "unresolved_signal_count": 0,
+    "blocked_signal_count": 0,
+    "resolved_output_count": 0,
+    "unresolved_output_count": 0,
+    "highlighted_items": []
+  },
+  "variable_health_summary": {
+    "total_variable_count": 1,
+    "healthy_count": 1,
+    "substituted_count": 0,
+    "stale_count": 0,
+    "invalid_count": 0,
+    "unresolved_count": 0,
+    "degraded_count": 0,
+    "highlighted_variables": []
+  },
+  "reconciliation_summary": {
+    "outcome_kind": null,
+    "confidence": null,
+    "reason": null,
+    "remap_candidate_count": 0,
+    "auto_rebound_signal_count": 0,
+    "manual_review_required": false
+  },
+  "workbench_review_state": {
+    "total_workbench_count": 3,
+    "available_workbench_names": [
+      "LabJack Channel Mapper",
+      "LabJack U6 Stream Setup",
+      "LabJack U6 Device Info"
+    ],
+    "active_workbench_name": "LabJack Channel Mapper",
+    "highlighted_workbenches": [
+      "LabJack Channel Mapper",
+      "LabJack U6 Stream Setup",
+      "LabJack U6 Device Info"
+    ]
+  },
+  "transition_trace": [
+    {
+      "evidence_id": "EVID-SHELL-PROF-DIAG-LIFECYCLE-DISCOVERY-3",
+      "timestamp": 3,
+      "summary": "device discovery completed",
+      "phase_before": "no_device",
+      "phase_after": "discovered",
+      "transition": "discover_devices",
+      "attributes": {
+        "device_count": "3",
+        "phase_after": "discovered",
+        "phase_before": "no_device",
+        "transition": "discover_devices"
+      }
+    },
+    {
+      "evidence_id": "EVID-SHELL-PROF-DIAG-LIFECYCLE-DEVICESELECT-4",
+      "timestamp": 4,
+      "summary": "detected device selected",
+      "phase_before": "discovered",
+      "phase_after": "ready_to_configure",
+      "transition": "activate_detected_device",
+      "attributes": {
+        "adapter_id": "LABJACK-U6-470001",
+        "device_key": "labjack_u6_support:470001",
+        "phase_after": "ready_to_configure",
+        "phase_before": "discovered",
+        "projected_points": "12",
+        "support_tier": "enhanced",
+        "transition": "activate_detected_device"
+      }
+    },
+    {
+      "evidence_id": "EVID-SHELL-PROF-DIAG-LIFECYCLE-BIND-5",
+      "timestamp": 5,
+      "summary": "logical signal bound to projected point",
+      "phase_before": "ready_to_configure",
+      "phase_after": "ready_to_configure",
+      "transition": "activate_detected_device",
+      "attributes": {
+        "logical_signal_id": "stack_voltage",
+        "phase_after": "ready_to_configure",
+        "phase_before": "ready_to_configure",
+        "point_key": "LABJACK-U6-470001:analog_in_0",
+        "transition": "activate_detected_device"
+      }
+    },
+    {
+      "evidence_id": "EVID-SHELL-PROF-DIAG-LIFECYCLE-VARIABLEDEF-6",
+      "timestamp": 6,
+      "summary": "variable definition registered",
+      "phase_before": "ready_to_configure",
+      "phase_after": "ready_to_configure",
+      "transition": "activate_detected_device",
+      "attributes": {
+        "phase_after": "ready_to_configure",
+        "phase_before": "ready_to_configure",
+        "source_kind": "signal",
+        "transition": "activate_detected_device",
+        "variable_id": "stack_voltage_copy"
+      }
+    },
+    {
+      "evidence_id": "EVID-SHELL-PROF-DIAG-LIFECYCLE-QUICKSTART-7",
+      "timestamp": 7,
+      "summary": "quick start initiated for active device",
+      "phase_before": "ready_to_configure",
+      "phase_after": "live",
+      "transition": "poll_active_adapter",
+      "attributes": {
+        "device_key": "labjack_u6_support:470001",
+        "phase": "live",
+        "phase_after": "live",
+        "phase_before": "ready_to_configure",
+        "published_signals": "1",
+        "transition": "poll_active_adapter"
+      }
+    }
+  ],
+  "incremental_runtime_summary": {
+    "bindings.point_definition.last_replace_skipped": 0,
+    "bindings.review.scope.output.count": 0,
+    "bindings.review.scope.signal.count": 1,
+    "lifecycle.changed_signal_ids.count": 1,
+    "lifecycle.changed_variable_ids.count": 0,
+    "lifecycle.projected_points.count": 12,
+    "lifecycle.projected_points.last_replace_skipped": 0,
+    "lifecycle.transition.changed": 1,
+    "lifecycle.transition.current_phase": "live",
+    "lifecycle.transition.last_trigger": "poll_active_adapter",
+    "lifecycle.transition.previous_phase": "ready_to_configure",
+    "variables.impacted.count": 1,
+    "variables.last_evaluated.count": 1
+  },
+  "runtime_performance": {
+    "counters": {
+      "adapters.activate_discovered.calls": 1,
+      "adapters.discover.calls": 1,
+      "adapters.discovery_provider.register.calls": 3,
+      "adapters.poll_single.calls": 1,
+      "adapters.register.calls": 3,
+      "adapters.snapshot.count": 8,
+      "adapters.support_pack.install.calls": 2,
+      "bindings.point_definition.replace.calls": 1,
+      "bindings.review.calls": 3,
+      "bindings.signal.bind.calls": 1,
+      "device_registry.reconciliation.new_device.calls": 1,
+      "device_registry.register_or_attach.calls": 1,
+      "signals.definition.register.calls": 1,
+      "signals.snapshot.publish.calls": 1,
+      "variables.definition.register.calls": 1,
+      "variables.evaluate.calls": 2,
+      "variables.snapshot.publish.calls": 2
+    },
+    "timings": {
+      "adapters.discover.ms": {
+        "count": 1,
+        "total_ms": 0.452113,
+        "average_ms": 0.452113,
+        "max_ms": 0.452113,
+        "min_ms": 0.452113
+      },
+      "adapters.poll_single.ms": {
+        "count": 1,
+        "total_ms": 0.053004,
+        "average_ms": 0.053004,
+        "max_ms": 0.053004,
+        "min_ms": 0.053004
+      },
+      "device_registry.register_or_attach.ms": {
+        "count": 1,
+        "total_ms": 0.043464,
+        "average_ms": 0.043464,
+        "max_ms": 0.043464,
+        "min_ms": 0.043464
+      },
+      "variables.evaluate.ms": {
+        "count": 2,
+        "total_ms": 0.038701,
+        "average_ms": 0.019351,
+        "max_ms": 0.020961,
+        "min_ms": 0.01774
+      }
+    },
+    "gauges": {
+      "adapters.discovered_devices.count": 3,
+      "adapters.discovery_provider.count": 2,
+      "adapters.inventory.count": 3,
+      "adapters.support_pack.count": 1,
+      "bindings.point_definition.count": 12,
+      "bindings.point_definition.last_replace_skipped": 0,
+      "bindings.review.manual_signal.count": 0,
+      "bindings.review.scope.output.count": 0,
+      "bindings.review.scope.signal.count": 1,
+      "bindings.review.unresolved_signal.count": 0,
+      "bindings.signal.count": 1,
+      "device_registry.connections.count": 1,
+      "device_registry.records.count": 1,
+      "lifecycle.changed_signal_ids.count": 1,
+      "lifecycle.changed_variable_ids.count": 0,
+      "lifecycle.projected_points.count": 12,
+      "lifecycle.projected_points.last_replace_skipped": 0,
+      "lifecycle.transition.changed": 1,
+      "lifecycle.transition.current_phase": "live",
+      "lifecycle.transition.last_trigger": "poll_active_adapter",
+      "lifecycle.transition.previous_phase": "ready_to_configure",
+      "signals.definition.count": 1,
+      "signals.snapshot.count": 1,
+      "variables.definition.count": 1,
+      "variables.impacted.count": 1,
+      "variables.last_evaluated.count": 1,
+      "variables.snapshot.count": 1
+    }
+  }
+}

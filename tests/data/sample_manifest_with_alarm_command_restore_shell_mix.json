@@ -1,0 +1,11 @@
+{
+  "manifest_id": "MAN-SAMPLE-001",
+  "export_id": "EXPORT-SAMPLE-002",
+  "artifact_class": "evidence_bundle",
+  "artifacts": [
+    {"relative_path": "manifest.json", "artifact_type": "manifest"},
+    {"relative_path": "records.csv", "artifact_type": "evidence_records"},
+    {"relative_path": "review.md", "artifact_type": "review_artifact"},
+    {"relative_path": "profiles.json", "artifact_type": "profile_snapshots"}
+  ]
+}

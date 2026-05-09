@@ -1,0 +1,40 @@
+UNIVERSALDAQ OPTIONAL SUPPORT-PACK RUN SUMMARY
+Date: 2026-03-23
+
+What was implemented
+1. Support-pack loading was moved to a generic optional loader in the core adapter boundary.
+2. The core now records support-pack load reports instead of assuming any pack is required.
+3. Support-pack descriptors were standardized with dependency hints, transport hints, and adapter-family metadata.
+4. The existing LabJack pack was updated to follow the standardized optional support-pack shape.
+5. A new Arduino support pack was added as a thin microcontroller-over-serial reference pack.
+6. A new Raspberry Pi support pack was added as a thin local-platform reference pack.
+7. Arduino and Raspberry Pi smoke runners were added beside the existing LabJack smoke runner.
+8. New tests were added to prove:
+   - optional packs load without disturbing generic discovery,
+   - Arduino and Raspberry Pi follow the same outer support-pack contract,
+   - the same bounded live-monitor slice works across LabJack, Arduino, and Raspberry Pi,
+   - the universal core still contains no direct optional support-pack imports.
+
+What this means structurally
+- UniversalDAQ core remains the platform.
+- LabJack, Arduino, and Raspberry Pi are sibling optional support packs.
+- The core can still boot and run with generic inventory even when no real hardware-specific discovery rows are provided.
+- Arduino is treated as a thin serial protocol family, not a giant special case.
+- Raspberry Pi is treated as a local platform pack, not a core mode.
+
+Runtime proof completed in this run
+- Full test suite passes.
+- Arduino smoke runner passes.
+- Raspberry Pi smoke runner passes.
+
+Immediate next code target
+1. Keep the same support-pack seam frozen.
+2. Build one shared bounded live-monitor workflow that includes:
+   - separated acquisition cadence vs. presentation cadence,
+   - bounded buffering,
+   - durable append-only sample/event journaling,
+   - normalized stale/degraded/reconnect behavior,
+   - runtime metrics for poll cost, queue depth, and dropped/coalesced publish work.
+3. Do not broaden into a streaming subsystem yet.
+4. Do not broaden into a major UI redesign yet.
+5. Keep output/actuation mostly deferred until the read/observe path is more trustworthy.

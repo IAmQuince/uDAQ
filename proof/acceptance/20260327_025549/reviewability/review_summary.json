@@ -1,0 +1,2329 @@
+{
+  "artifact_inventory": {
+    "checkpoint_latest_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/checkpoints/latest.json",
+    "checkpoint_rows": [
+      {
+        "checkpoint_id": "CHK-SESSION-POPULATED-REVIEW-33-33",
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/checkpoints/CHK-SESSION-POPULATED-REVIEW-33-33.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 33,
+        "session_id": "SESSION-POPULATED-REVIEW",
+        "state_hash": "e5a31743b55ceaaa44300a4696e485be67a2d1d9d234dbbdf0b3843d722cd2d9",
+        "timestamp": 33
+      },
+      {
+        "checkpoint_id": "CHK-SESSION-POPULATED-REVIEW-37-66",
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/checkpoints/CHK-SESSION-POPULATED-REVIEW-37-66.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 66,
+        "session_id": "SESSION-POPULATED-REVIEW",
+        "state_hash": "18095ed65d6d2987f5786aa24973c6bd5ba5ecfc80d2eaa96f319283b4fbea2d",
+        "timestamp": 37
+      },
+      {
+        "checkpoint_id": "CHK-SESSION-POPULATED-REVIEW-41-99",
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/checkpoints/CHK-SESSION-POPULATED-REVIEW-41-99.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 99,
+        "session_id": "SESSION-POPULATED-REVIEW",
+        "state_hash": "4719094278f267b1a013b3a947c6d3350ed9eb791c2245c6ad679d4259cdd114",
+        "timestamp": 41
+      },
+      {
+        "checkpoint_id": "CHK-SESSION-POPULATED-REVIEW-45-132",
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/checkpoints/CHK-SESSION-POPULATED-REVIEW-45-132.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 132,
+        "session_id": "SESSION-POPULATED-REVIEW",
+        "state_hash": "878590f3c333c3e0fca6a6683a704cb0a1fb589a9800d3768447a9c04d2769d7",
+        "timestamp": 45
+      }
+    ],
+    "journal_latest_segment_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0038.jsonl",
+    "journal_legacy_mirror_path": "proof/acceptance/20260327_025549/reviewability/runtime/session.jsonl",
+    "journal_manifest_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/manifest.json",
+    "segment_rows": [
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0001.jsonl",
+        "first_sequence_id": 1,
+        "last_sequence_id": 4,
+        "record_count": 4,
+        "relative_path": "segment-0001.jsonl",
+        "segment_id": "segment-0001",
+        "segment_ordinal": 1
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0002.jsonl",
+        "first_sequence_id": 5,
+        "last_sequence_id": 8,
+        "record_count": 4,
+        "relative_path": "segment-0002.jsonl",
+        "segment_id": "segment-0002",
+        "segment_ordinal": 2
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0003.jsonl",
+        "first_sequence_id": 9,
+        "last_sequence_id": 12,
+        "record_count": 4,
+        "relative_path": "segment-0003.jsonl",
+        "segment_id": "segment-0003",
+        "segment_ordinal": 3
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0004.jsonl",
+        "first_sequence_id": 13,
+        "last_sequence_id": 16,
+        "record_count": 4,
+        "relative_path": "segment-0004.jsonl",
+        "segment_id": "segment-0004",
+        "segment_ordinal": 4
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0005.jsonl",
+        "first_sequence_id": 17,
+        "last_sequence_id": 20,
+        "record_count": 4,
+        "relative_path": "segment-0005.jsonl",
+        "segment_id": "segment-0005",
+        "segment_ordinal": 5
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0006.jsonl",
+        "first_sequence_id": 21,
+        "last_sequence_id": 24,
+        "record_count": 4,
+        "relative_path": "segment-0006.jsonl",
+        "segment_id": "segment-0006",
+        "segment_ordinal": 6
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0007.jsonl",
+        "first_sequence_id": 25,
+        "last_sequence_id": 28,
+        "record_count": 4,
+        "relative_path": "segment-0007.jsonl",
+        "segment_id": "segment-0007",
+        "segment_ordinal": 7
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0008.jsonl",
+        "first_sequence_id": 29,
+        "last_sequence_id": 32,
+        "record_count": 4,
+        "relative_path": "segment-0008.jsonl",
+        "segment_id": "segment-0008",
+        "segment_ordinal": 8
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0009.jsonl",
+        "first_sequence_id": 33,
+        "last_sequence_id": 36,
+        "record_count": 4,
+        "relative_path": "segment-0009.jsonl",
+        "segment_id": "segment-0009",
+        "segment_ordinal": 9
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0010.jsonl",
+        "first_sequence_id": 37,
+        "last_sequence_id": 40,
+        "record_count": 4,
+        "relative_path": "segment-0010.jsonl",
+        "segment_id": "segment-0010",
+        "segment_ordinal": 10
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0011.jsonl",
+        "first_sequence_id": 41,
+        "last_sequence_id": 44,
+        "record_count": 4,
+        "relative_path": "segment-0011.jsonl",
+        "segment_id": "segment-0011",
+        "segment_ordinal": 11
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0012.jsonl",
+        "first_sequence_id": 45,
+        "last_sequence_id": 48,
+        "record_count": 4,
+        "relative_path": "segment-0012.jsonl",
+        "segment_id": "segment-0012",
+        "segment_ordinal": 12
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0013.jsonl",
+        "first_sequence_id": 49,
+        "last_sequence_id": 52,
+        "record_count": 4,
+        "relative_path": "segment-0013.jsonl",
+        "segment_id": "segment-0013",
+        "segment_ordinal": 13
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0014.jsonl",
+        "first_sequence_id": 53,
+        "last_sequence_id": 56,
+        "record_count": 4,
+        "relative_path": "segment-0014.jsonl",
+        "segment_id": "segment-0014",
+        "segment_ordinal": 14
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0015.jsonl",
+        "first_sequence_id": 57,
+        "last_sequence_id": 60,
+        "record_count": 4,
+        "relative_path": "segment-0015.jsonl",
+        "segment_id": "segment-0015",
+        "segment_ordinal": 15
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0016.jsonl",
+        "first_sequence_id": 61,
+        "last_sequence_id": 64,
+        "record_count": 4,
+        "relative_path": "segment-0016.jsonl",
+        "segment_id": "segment-0016",
+        "segment_ordinal": 16
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0017.jsonl",
+        "first_sequence_id": 65,
+        "last_sequence_id": 68,
+        "record_count": 4,
+        "relative_path": "segment-0017.jsonl",
+        "segment_id": "segment-0017",
+        "segment_ordinal": 17
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0018.jsonl",
+        "first_sequence_id": 69,
+        "last_sequence_id": 72,
+        "record_count": 4,
+        "relative_path": "segment-0018.jsonl",
+        "segment_id": "segment-0018",
+        "segment_ordinal": 18
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0019.jsonl",
+        "first_sequence_id": 73,
+        "last_sequence_id": 76,
+        "record_count": 4,
+        "relative_path": "segment-0019.jsonl",
+        "segment_id": "segment-0019",
+        "segment_ordinal": 19
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0020.jsonl",
+        "first_sequence_id": 77,
+        "last_sequence_id": 80,
+        "record_count": 4,
+        "relative_path": "segment-0020.jsonl",
+        "segment_id": "segment-0020",
+        "segment_ordinal": 20
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0021.jsonl",
+        "first_sequence_id": 81,
+        "last_sequence_id": 84,
+        "record_count": 4,
+        "relative_path": "segment-0021.jsonl",
+        "segment_id": "segment-0021",
+        "segment_ordinal": 21
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0022.jsonl",
+        "first_sequence_id": 85,
+        "last_sequence_id": 88,
+        "record_count": 4,
+        "relative_path": "segment-0022.jsonl",
+        "segment_id": "segment-0022",
+        "segment_ordinal": 22
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0023.jsonl",
+        "first_sequence_id": 89,
+        "last_sequence_id": 92,
+        "record_count": 4,
+        "relative_path": "segment-0023.jsonl",
+        "segment_id": "segment-0023",
+        "segment_ordinal": 23
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0024.jsonl",
+        "first_sequence_id": 93,
+        "last_sequence_id": 96,
+        "record_count": 4,
+        "relative_path": "segment-0024.jsonl",
+        "segment_id": "segment-0024",
+        "segment_ordinal": 24
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0025.jsonl",
+        "first_sequence_id": 97,
+        "last_sequence_id": 100,
+        "record_count": 4,
+        "relative_path": "segment-0025.jsonl",
+        "segment_id": "segment-0025",
+        "segment_ordinal": 25
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0026.jsonl",
+        "first_sequence_id": 101,
+        "last_sequence_id": 104,
+        "record_count": 4,
+        "relative_path": "segment-0026.jsonl",
+        "segment_id": "segment-0026",
+        "segment_ordinal": 26
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0027.jsonl",
+        "first_sequence_id": 105,
+        "last_sequence_id": 108,
+        "record_count": 4,
+        "relative_path": "segment-0027.jsonl",
+        "segment_id": "segment-0027",
+        "segment_ordinal": 27
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0028.jsonl",
+        "first_sequence_id": 109,
+        "last_sequence_id": 112,
+        "record_count": 4,
+        "relative_path": "segment-0028.jsonl",
+        "segment_id": "segment-0028",
+        "segment_ordinal": 28
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0029.jsonl",
+        "first_sequence_id": 113,
+        "last_sequence_id": 116,
+        "record_count": 4,
+        "relative_path": "segment-0029.jsonl",
+        "segment_id": "segment-0029",
+        "segment_ordinal": 29
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0030.jsonl",
+        "first_sequence_id": 117,
+        "last_sequence_id": 120,
+        "record_count": 4,
+        "relative_path": "segment-0030.jsonl",
+        "segment_id": "segment-0030",
+        "segment_ordinal": 30
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0031.jsonl",
+        "first_sequence_id": 121,
+        "last_sequence_id": 124,
+        "record_count": 4,
+        "relative_path": "segment-0031.jsonl",
+        "segment_id": "segment-0031",
+        "segment_ordinal": 31
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0032.jsonl",
+        "first_sequence_id": 125,
+        "last_sequence_id": 128,
+        "record_count": 4,
+        "relative_path": "segment-0032.jsonl",
+        "segment_id": "segment-0032",
+        "segment_ordinal": 32
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0033.jsonl",
+        "first_sequence_id": 129,
+        "last_sequence_id": 132,
+        "record_count": 4,
+        "relative_path": "segment-0033.jsonl",
+        "segment_id": "segment-0033",
+        "segment_ordinal": 33
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0034.jsonl",
+        "first_sequence_id": 133,
+        "last_sequence_id": 136,
+        "record_count": 4,
+        "relative_path": "segment-0034.jsonl",
+        "segment_id": "segment-0034",
+        "segment_ordinal": 34
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0035.jsonl",
+        "first_sequence_id": 137,
+        "last_sequence_id": 140,
+        "record_count": 4,
+        "relative_path": "segment-0035.jsonl",
+        "segment_id": "segment-0035",
+        "segment_ordinal": 35
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0036.jsonl",
+        "first_sequence_id": 141,
+        "last_sequence_id": 144,
+        "record_count": 4,
+        "relative_path": "segment-0036.jsonl",
+        "segment_id": "segment-0036",
+        "segment_ordinal": 36
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0037.jsonl",
+        "first_sequence_id": 145,
+        "last_sequence_id": 148,
+        "record_count": 4,
+        "relative_path": "segment-0037.jsonl",
+        "segment_id": "segment-0037",
+        "segment_ordinal": 37
+      },
+      {
+        "closed": false,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0038.jsonl",
+        "first_sequence_id": 149,
+        "last_sequence_id": 149,
+        "record_count": 1,
+        "relative_path": "segment-0038.jsonl",
+        "segment_id": "segment-0038",
+        "segment_ordinal": 38
+      }
+    ],
+    "session_id": "SESSION-POPULATED-REVIEW"
+  },
+  "characterization_summary": {
+    "average_checkpoint_sequence_gap": 33.0,
+    "average_records_per_segment": 3.92,
+    "bounded_run_window_ticks": 48,
+    "checkpoint_density_per_cycle": 0.222,
+    "max_segment_record_count": 4,
+    "meets_min_checkpoint_depth": true,
+    "meets_min_record_depth": true,
+    "meets_min_segment_depth": true,
+    "min_segment_record_count": 1,
+    "planned_cycle_count": 18,
+    "queryable_sample_points": [
+      "SIM-HIST-001:PT-101",
+      "SIM-HIST-001:TT-101"
+    ],
+    "queryable_variable_count": 2,
+    "runtime_event_diversity": 4
+  },
+  "checkpoint_summary": {
+    "checkpoint_available": true,
+    "checkpoint_id": "CHK-SESSION-POPULATED-REVIEW-45-132",
+    "checkpoint_ladder": [
+      {
+        "checkpoint_id": "CHK-SESSION-POPULATED-REVIEW-33-33",
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/checkpoints/CHK-SESSION-POPULATED-REVIEW-33-33.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 33,
+        "session_id": "SESSION-POPULATED-REVIEW",
+        "state_hash": "e5a31743b55ceaaa44300a4696e485be67a2d1d9d234dbbdf0b3843d722cd2d9",
+        "timestamp": 33
+      },
+      {
+        "checkpoint_id": "CHK-SESSION-POPULATED-REVIEW-37-66",
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/checkpoints/CHK-SESSION-POPULATED-REVIEW-37-66.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 66,
+        "session_id": "SESSION-POPULATED-REVIEW",
+        "state_hash": "18095ed65d6d2987f5786aa24973c6bd5ba5ecfc80d2eaa96f319283b4fbea2d",
+        "timestamp": 37
+      },
+      {
+        "checkpoint_id": "CHK-SESSION-POPULATED-REVIEW-41-99",
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/checkpoints/CHK-SESSION-POPULATED-REVIEW-41-99.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 99,
+        "session_id": "SESSION-POPULATED-REVIEW",
+        "state_hash": "4719094278f267b1a013b3a947c6d3350ed9eb791c2245c6ad679d4259cdd114",
+        "timestamp": 41
+      },
+      {
+        "checkpoint_id": "CHK-SESSION-POPULATED-REVIEW-45-132",
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/checkpoints/CHK-SESSION-POPULATED-REVIEW-45-132.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 132,
+        "session_id": "SESSION-POPULATED-REVIEW",
+        "state_hash": "878590f3c333c3e0fca6a6683a704cb0a1fb589a9800d3768447a9c04d2769d7",
+        "timestamp": 45
+      }
+    ],
+    "checkpoint_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/checkpoints/latest.json",
+    "checkpoint_spacing": {
+      "average_sequence_gap": 33.0,
+      "max_sequence_gap": 33,
+      "min_sequence_gap": 33
+    },
+    "last_committed_sequence_id": 132,
+    "state_hash": "878590f3c333c3e0fca6a6683a704cb0a1fb589a9800d3768447a9c04d2769d7",
+    "timestamp": 45,
+    "valid_checkpoint_count": 4
+  },
+  "history_index_report": {
+    "cycle_counts_by_phase": {
+      "live": 18
+    },
+    "runtime_event_counts_by_type": {
+      "checkpoint_boundary": 4,
+      "mode_transition": 18,
+      "operator_note": 19,
+      "quality_transition": 18
+    },
+    "sample_counts_by_point": {
+      "SIM-HIST-001:PT-101": 18,
+      "SIM-HIST-001:TT-101": 18
+    },
+    "segments": [
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0001.jsonl",
+        "first_sequence_id": 1,
+        "last_sequence_id": 4,
+        "record_count": 4,
+        "relative_path": "segment-0001.jsonl",
+        "segment_id": "segment-0001",
+        "segment_ordinal": 1
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0002.jsonl",
+        "first_sequence_id": 5,
+        "last_sequence_id": 8,
+        "record_count": 4,
+        "relative_path": "segment-0002.jsonl",
+        "segment_id": "segment-0002",
+        "segment_ordinal": 2
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0003.jsonl",
+        "first_sequence_id": 9,
+        "last_sequence_id": 12,
+        "record_count": 4,
+        "relative_path": "segment-0003.jsonl",
+        "segment_id": "segment-0003",
+        "segment_ordinal": 3
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0004.jsonl",
+        "first_sequence_id": 13,
+        "last_sequence_id": 16,
+        "record_count": 4,
+        "relative_path": "segment-0004.jsonl",
+        "segment_id": "segment-0004",
+        "segment_ordinal": 4
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0005.jsonl",
+        "first_sequence_id": 17,
+        "last_sequence_id": 20,
+        "record_count": 4,
+        "relative_path": "segment-0005.jsonl",
+        "segment_id": "segment-0005",
+        "segment_ordinal": 5
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0006.jsonl",
+        "first_sequence_id": 21,
+        "last_sequence_id": 24,
+        "record_count": 4,
+        "relative_path": "segment-0006.jsonl",
+        "segment_id": "segment-0006",
+        "segment_ordinal": 6
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0007.jsonl",
+        "first_sequence_id": 25,
+        "last_sequence_id": 28,
+        "record_count": 4,
+        "relative_path": "segment-0007.jsonl",
+        "segment_id": "segment-0007",
+        "segment_ordinal": 7
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0008.jsonl",
+        "first_sequence_id": 29,
+        "last_sequence_id": 32,
+        "record_count": 4,
+        "relative_path": "segment-0008.jsonl",
+        "segment_id": "segment-0008",
+        "segment_ordinal": 8
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0009.jsonl",
+        "first_sequence_id": 33,
+        "last_sequence_id": 36,
+        "record_count": 4,
+        "relative_path": "segment-0009.jsonl",
+        "segment_id": "segment-0009",
+        "segment_ordinal": 9
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0010.jsonl",
+        "first_sequence_id": 37,
+        "last_sequence_id": 40,
+        "record_count": 4,
+        "relative_path": "segment-0010.jsonl",
+        "segment_id": "segment-0010",
+        "segment_ordinal": 10
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0011.jsonl",
+        "first_sequence_id": 41,
+        "last_sequence_id": 44,
+        "record_count": 4,
+        "relative_path": "segment-0011.jsonl",
+        "segment_id": "segment-0011",
+        "segment_ordinal": 11
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0012.jsonl",
+        "first_sequence_id": 45,
+        "last_sequence_id": 48,
+        "record_count": 4,
+        "relative_path": "segment-0012.jsonl",
+        "segment_id": "segment-0012",
+        "segment_ordinal": 12
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0013.jsonl",
+        "first_sequence_id": 49,
+        "last_sequence_id": 52,
+        "record_count": 4,
+        "relative_path": "segment-0013.jsonl",
+        "segment_id": "segment-0013",
+        "segment_ordinal": 13
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0014.jsonl",
+        "first_sequence_id": 53,
+        "last_sequence_id": 56,
+        "record_count": 4,
+        "relative_path": "segment-0014.jsonl",
+        "segment_id": "segment-0014",
+        "segment_ordinal": 14
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0015.jsonl",
+        "first_sequence_id": 57,
+        "last_sequence_id": 60,
+        "record_count": 4,
+        "relative_path": "segment-0015.jsonl",
+        "segment_id": "segment-0015",
+        "segment_ordinal": 15
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0016.jsonl",
+        "first_sequence_id": 61,
+        "last_sequence_id": 64,
+        "record_count": 4,
+        "relative_path": "segment-0016.jsonl",
+        "segment_id": "segment-0016",
+        "segment_ordinal": 16
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0017.jsonl",
+        "first_sequence_id": 65,
+        "last_sequence_id": 68,
+        "record_count": 4,
+        "relative_path": "segment-0017.jsonl",
+        "segment_id": "segment-0017",
+        "segment_ordinal": 17
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0018.jsonl",
+        "first_sequence_id": 69,
+        "last_sequence_id": 72,
+        "record_count": 4,
+        "relative_path": "segment-0018.jsonl",
+        "segment_id": "segment-0018",
+        "segment_ordinal": 18
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0019.jsonl",
+        "first_sequence_id": 73,
+        "last_sequence_id": 76,
+        "record_count": 4,
+        "relative_path": "segment-0019.jsonl",
+        "segment_id": "segment-0019",
+        "segment_ordinal": 19
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0020.jsonl",
+        "first_sequence_id": 77,
+        "last_sequence_id": 80,
+        "record_count": 4,
+        "relative_path": "segment-0020.jsonl",
+        "segment_id": "segment-0020",
+        "segment_ordinal": 20
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0021.jsonl",
+        "first_sequence_id": 81,
+        "last_sequence_id": 84,
+        "record_count": 4,
+        "relative_path": "segment-0021.jsonl",
+        "segment_id": "segment-0021",
+        "segment_ordinal": 21
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0022.jsonl",
+        "first_sequence_id": 85,
+        "last_sequence_id": 88,
+        "record_count": 4,
+        "relative_path": "segment-0022.jsonl",
+        "segment_id": "segment-0022",
+        "segment_ordinal": 22
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0023.jsonl",
+        "first_sequence_id": 89,
+        "last_sequence_id": 92,
+        "record_count": 4,
+        "relative_path": "segment-0023.jsonl",
+        "segment_id": "segment-0023",
+        "segment_ordinal": 23
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0024.jsonl",
+        "first_sequence_id": 93,
+        "last_sequence_id": 96,
+        "record_count": 4,
+        "relative_path": "segment-0024.jsonl",
+        "segment_id": "segment-0024",
+        "segment_ordinal": 24
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0025.jsonl",
+        "first_sequence_id": 97,
+        "last_sequence_id": 100,
+        "record_count": 4,
+        "relative_path": "segment-0025.jsonl",
+        "segment_id": "segment-0025",
+        "segment_ordinal": 25
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0026.jsonl",
+        "first_sequence_id": 101,
+        "last_sequence_id": 104,
+        "record_count": 4,
+        "relative_path": "segment-0026.jsonl",
+        "segment_id": "segment-0026",
+        "segment_ordinal": 26
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0027.jsonl",
+        "first_sequence_id": 105,
+        "last_sequence_id": 108,
+        "record_count": 4,
+        "relative_path": "segment-0027.jsonl",
+        "segment_id": "segment-0027",
+        "segment_ordinal": 27
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0028.jsonl",
+        "first_sequence_id": 109,
+        "last_sequence_id": 112,
+        "record_count": 4,
+        "relative_path": "segment-0028.jsonl",
+        "segment_id": "segment-0028",
+        "segment_ordinal": 28
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0029.jsonl",
+        "first_sequence_id": 113,
+        "last_sequence_id": 116,
+        "record_count": 4,
+        "relative_path": "segment-0029.jsonl",
+        "segment_id": "segment-0029",
+        "segment_ordinal": 29
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0030.jsonl",
+        "first_sequence_id": 117,
+        "last_sequence_id": 120,
+        "record_count": 4,
+        "relative_path": "segment-0030.jsonl",
+        "segment_id": "segment-0030",
+        "segment_ordinal": 30
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0031.jsonl",
+        "first_sequence_id": 121,
+        "last_sequence_id": 124,
+        "record_count": 4,
+        "relative_path": "segment-0031.jsonl",
+        "segment_id": "segment-0031",
+        "segment_ordinal": 31
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0032.jsonl",
+        "first_sequence_id": 125,
+        "last_sequence_id": 128,
+        "record_count": 4,
+        "relative_path": "segment-0032.jsonl",
+        "segment_id": "segment-0032",
+        "segment_ordinal": 32
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0033.jsonl",
+        "first_sequence_id": 129,
+        "last_sequence_id": 132,
+        "record_count": 4,
+        "relative_path": "segment-0033.jsonl",
+        "segment_id": "segment-0033",
+        "segment_ordinal": 33
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0034.jsonl",
+        "first_sequence_id": 133,
+        "last_sequence_id": 136,
+        "record_count": 4,
+        "relative_path": "segment-0034.jsonl",
+        "segment_id": "segment-0034",
+        "segment_ordinal": 34
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0035.jsonl",
+        "first_sequence_id": 137,
+        "last_sequence_id": 140,
+        "record_count": 4,
+        "relative_path": "segment-0035.jsonl",
+        "segment_id": "segment-0035",
+        "segment_ordinal": 35
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0036.jsonl",
+        "first_sequence_id": 141,
+        "last_sequence_id": 144,
+        "record_count": 4,
+        "relative_path": "segment-0036.jsonl",
+        "segment_id": "segment-0036",
+        "segment_ordinal": 36
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0037.jsonl",
+        "first_sequence_id": 145,
+        "last_sequence_id": 148,
+        "record_count": 4,
+        "relative_path": "segment-0037.jsonl",
+        "segment_id": "segment-0037",
+        "segment_ordinal": 37
+      },
+      {
+        "closed": false,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0038.jsonl",
+        "first_sequence_id": 149,
+        "last_sequence_id": 149,
+        "record_count": 1,
+        "relative_path": "segment-0038.jsonl",
+        "segment_id": "segment-0038",
+        "segment_ordinal": 38
+      }
+    ],
+    "time_range": {
+      "max_timestamp": 48,
+      "min_timestamp": 0
+    },
+    "valid_checkpoint_sequence_ids": [
+      33,
+      66,
+      99,
+      132
+    ],
+    "variable_ids": [
+      "VAR-PT-AVG",
+      "VAR-TT-MEAN"
+    ]
+  },
+  "history_tier_summary": {
+    "cold": {
+      "checkpoint_count": 4,
+      "persisted_record_count": 149,
+      "segment_count": 38
+    },
+    "hot": {
+      "presentation_snapshot_available": true,
+      "recent_sample_count": 36,
+      "recent_signal_count": 2
+    },
+    "warm": {
+      "cycle_row_count": 18,
+      "runtime_event_count": 59,
+      "variable_row_count": 36
+    }
+  },
+  "recent_cycle_rows": [
+    {
+      "active_adapter_id": "SIM-HIST-001",
+      "active_device_key": "SIM-DEVICE-001",
+      "changed_signal_count": 2,
+      "changed_signal_ids": [
+        "PT-101",
+        "TT-101"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 2
+    },
+    {
+      "active_adapter_id": "SIM-HIST-001",
+      "active_device_key": "SIM-DEVICE-001",
+      "changed_signal_count": 2,
+      "changed_signal_ids": [
+        "PT-101",
+        "TT-101"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 2
+    },
+    {
+      "active_adapter_id": "SIM-HIST-001",
+      "active_device_key": "SIM-DEVICE-001",
+      "changed_signal_count": 2,
+      "changed_signal_ids": [
+        "PT-101",
+        "TT-101"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 2
+    },
+    {
+      "active_adapter_id": "SIM-HIST-001",
+      "active_device_key": "SIM-DEVICE-001",
+      "changed_signal_count": 2,
+      "changed_signal_ids": [
+        "PT-101",
+        "TT-101"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 2
+    },
+    {
+      "active_adapter_id": "SIM-HIST-001",
+      "active_device_key": "SIM-DEVICE-001",
+      "changed_signal_count": 2,
+      "changed_signal_ids": [
+        "PT-101",
+        "TT-101"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 2
+    },
+    {
+      "active_adapter_id": "SIM-HIST-001",
+      "active_device_key": "SIM-DEVICE-001",
+      "changed_signal_count": 2,
+      "changed_signal_ids": [
+        "PT-101",
+        "TT-101"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 2
+    },
+    {
+      "active_adapter_id": "SIM-HIST-001",
+      "active_device_key": "SIM-DEVICE-001",
+      "changed_signal_count": 2,
+      "changed_signal_ids": [
+        "PT-101",
+        "TT-101"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 2
+    },
+    {
+      "active_adapter_id": "SIM-HIST-001",
+      "active_device_key": "SIM-DEVICE-001",
+      "changed_signal_count": 2,
+      "changed_signal_ids": [
+        "PT-101",
+        "TT-101"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 2
+    },
+    {
+      "active_adapter_id": "SIM-HIST-001",
+      "active_device_key": "SIM-DEVICE-001",
+      "changed_signal_count": 2,
+      "changed_signal_ids": [
+        "PT-101",
+        "TT-101"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 2
+    },
+    {
+      "active_adapter_id": "SIM-HIST-001",
+      "active_device_key": "SIM-DEVICE-001",
+      "changed_signal_count": 2,
+      "changed_signal_ids": [
+        "PT-101",
+        "TT-101"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 2
+    },
+    {
+      "active_adapter_id": "SIM-HIST-001",
+      "active_device_key": "SIM-DEVICE-001",
+      "changed_signal_count": 2,
+      "changed_signal_ids": [
+        "PT-101",
+        "TT-101"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 2
+    },
+    {
+      "active_adapter_id": "SIM-HIST-001",
+      "active_device_key": "SIM-DEVICE-001",
+      "changed_signal_count": 2,
+      "changed_signal_ids": [
+        "PT-101",
+        "TT-101"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 2
+    },
+    {
+      "active_adapter_id": "SIM-HIST-001",
+      "active_device_key": "SIM-DEVICE-001",
+      "changed_signal_count": 2,
+      "changed_signal_ids": [
+        "PT-101",
+        "TT-101"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 2
+    },
+    {
+      "active_adapter_id": "SIM-HIST-001",
+      "active_device_key": "SIM-DEVICE-001",
+      "changed_signal_count": 2,
+      "changed_signal_ids": [
+        "PT-101",
+        "TT-101"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 2
+    },
+    {
+      "active_adapter_id": "SIM-HIST-001",
+      "active_device_key": "SIM-DEVICE-001",
+      "changed_signal_count": 2,
+      "changed_signal_ids": [
+        "PT-101",
+        "TT-101"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 2
+    },
+    {
+      "active_adapter_id": "SIM-HIST-001",
+      "active_device_key": "SIM-DEVICE-001",
+      "changed_signal_count": 2,
+      "changed_signal_ids": [
+        "PT-101",
+        "TT-101"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 2
+    }
+  ],
+  "recent_runtime_event_rows": [
+    {
+      "cycle": 43,
+      "event_type": "mode_transition",
+      "mode": "live",
+      "record_type": "runtime_event",
+      "timestamp": 43,
+      "window": "bounded-longrun-v1"
+    },
+    {
+      "event_type": "quality_transition",
+      "quality": "good",
+      "record_type": "runtime_event",
+      "tick": 43,
+      "timestamp": 43,
+      "window": "bounded-longrun-v1"
+    },
+    {
+      "event_type": "operator_note",
+      "message": "cycle-44",
+      "record_type": "runtime_event",
+      "timestamp": 44
+    },
+    {
+      "cycle": 44,
+      "event_type": "mode_transition",
+      "mode": "live",
+      "record_type": "runtime_event",
+      "timestamp": 44,
+      "window": "bounded-longrun-v1"
+    },
+    {
+      "event_type": "quality_transition",
+      "quality": "good",
+      "record_type": "runtime_event",
+      "tick": 44,
+      "timestamp": 44,
+      "window": "bounded-longrun-v1"
+    },
+    {
+      "event_type": "operator_note",
+      "message": "cycle-45",
+      "record_type": "runtime_event",
+      "timestamp": 45
+    },
+    {
+      "cycle": 45,
+      "event_type": "mode_transition",
+      "mode": "live",
+      "record_type": "runtime_event",
+      "timestamp": 45,
+      "window": "bounded-longrun-v1"
+    },
+    {
+      "event_type": "quality_transition",
+      "quality": "good",
+      "record_type": "runtime_event",
+      "tick": 45,
+      "timestamp": 45,
+      "window": "bounded-longrun-v1"
+    },
+    {
+      "boundary": "planned",
+      "cycle": 45,
+      "event_type": "checkpoint_boundary",
+      "offset": 16,
+      "record_type": "runtime_event",
+      "timestamp": 45
+    },
+    {
+      "event_type": "operator_note",
+      "message": "cycle-46",
+      "record_type": "runtime_event",
+      "timestamp": 46
+    },
+    {
+      "cycle": 46,
+      "event_type": "mode_transition",
+      "mode": "live",
+      "record_type": "runtime_event",
+      "timestamp": 46,
+      "window": "bounded-longrun-v1"
+    },
+    {
+      "event_type": "quality_transition",
+      "quality": "good",
+      "record_type": "runtime_event",
+      "tick": 46,
+      "timestamp": 46,
+      "window": "bounded-longrun-v1"
+    },
+    {
+      "event_type": "operator_note",
+      "message": "cycle-47",
+      "record_type": "runtime_event",
+      "timestamp": 47
+    },
+    {
+      "cycle": 47,
+      "event_type": "mode_transition",
+      "mode": "live",
+      "record_type": "runtime_event",
+      "timestamp": 47,
+      "window": "bounded-longrun-v1"
+    },
+    {
+      "event_type": "quality_transition",
+      "quality": "good",
+      "record_type": "runtime_event",
+      "tick": 47,
+      "timestamp": 47,
+      "window": "bounded-longrun-v1"
+    },
+    {
+      "event_type": "operator_note",
+      "message": "tail-verification-window-bounded-longrun-v1",
+      "record_type": "runtime_event",
+      "timestamp": 48
+    }
+  ],
+  "recent_sample_rows": [
+    {
+      "point_id": "PT-101",
+      "point_key": "SIM-HIST-001:PT-101",
+      "quality": "simulated",
+      "timestamp": 40,
+      "units": "psi",
+      "value": "3.5"
+    },
+    {
+      "point_id": "TT-101",
+      "point_key": "SIM-HIST-001:TT-101",
+      "quality": "simulated",
+      "timestamp": 40,
+      "units": "C",
+      "value": "25.1"
+    },
+    {
+      "point_id": "PT-101",
+      "point_key": "SIM-HIST-001:PT-101",
+      "quality": "simulated",
+      "timestamp": 41,
+      "units": "psi",
+      "value": "3.7"
+    },
+    {
+      "point_id": "TT-101",
+      "point_key": "SIM-HIST-001:TT-101",
+      "quality": "simulated",
+      "timestamp": 41,
+      "units": "C",
+      "value": "25.3"
+    },
+    {
+      "point_id": "PT-101",
+      "point_key": "SIM-HIST-001:PT-101",
+      "quality": "simulated",
+      "timestamp": 42,
+      "units": "psi",
+      "value": "4.0"
+    },
+    {
+      "point_id": "TT-101",
+      "point_key": "SIM-HIST-001:TT-101",
+      "quality": "simulated",
+      "timestamp": 42,
+      "units": "C",
+      "value": "25.6"
+    },
+    {
+      "point_id": "PT-101",
+      "point_key": "SIM-HIST-001:PT-101",
+      "quality": "simulated",
+      "timestamp": 43,
+      "units": "psi",
+      "value": "4.2"
+    },
+    {
+      "point_id": "TT-101",
+      "point_key": "SIM-HIST-001:TT-101",
+      "quality": "simulated",
+      "timestamp": 43,
+      "units": "C",
+      "value": "25.9"
+    },
+    {
+      "point_id": "PT-101",
+      "point_key": "SIM-HIST-001:PT-101",
+      "quality": "simulated",
+      "timestamp": 44,
+      "units": "psi",
+      "value": "4.4"
+    },
+    {
+      "point_id": "TT-101",
+      "point_key": "SIM-HIST-001:TT-101",
+      "quality": "simulated",
+      "timestamp": 44,
+      "units": "C",
+      "value": "26.2"
+    },
+    {
+      "point_id": "PT-101",
+      "point_key": "SIM-HIST-001:PT-101",
+      "quality": "simulated",
+      "timestamp": 45,
+      "units": "psi",
+      "value": "4.6"
+    },
+    {
+      "point_id": "TT-101",
+      "point_key": "SIM-HIST-001:TT-101",
+      "quality": "simulated",
+      "timestamp": 45,
+      "units": "C",
+      "value": "26.4"
+    },
+    {
+      "point_id": "PT-101",
+      "point_key": "SIM-HIST-001:PT-101",
+      "quality": "simulated",
+      "timestamp": 46,
+      "units": "psi",
+      "value": "4.9"
+    },
+    {
+      "point_id": "TT-101",
+      "point_key": "SIM-HIST-001:TT-101",
+      "quality": "simulated",
+      "timestamp": 46,
+      "units": "C",
+      "value": "26.7"
+    },
+    {
+      "point_id": "PT-101",
+      "point_key": "SIM-HIST-001:PT-101",
+      "quality": "simulated",
+      "timestamp": 47,
+      "units": "psi",
+      "value": "5.1"
+    },
+    {
+      "point_id": "TT-101",
+      "point_key": "SIM-HIST-001:TT-101",
+      "quality": "simulated",
+      "timestamp": 47,
+      "units": "C",
+      "value": "27.0"
+    }
+  ],
+  "recent_variable_rows": [
+    {
+      "changed": true,
+      "dependency_values": {
+        "PT-101": "3.5"
+      },
+      "missing_dependencies": [],
+      "quality": "good",
+      "state": "healthy",
+      "state_transition": false,
+      "timestamp": 40,
+      "value": "3.5",
+      "variable_id": "VAR-PT-AVG"
+    },
+    {
+      "changed": true,
+      "dependency_values": {
+        "TT-101": "25.1"
+      },
+      "missing_dependencies": [],
+      "quality": "good",
+      "state": "healthy",
+      "state_transition": false,
+      "timestamp": 40,
+      "value": "25.1",
+      "variable_id": "VAR-TT-MEAN"
+    },
+    {
+      "changed": true,
+      "dependency_values": {
+        "PT-101": "3.7"
+      },
+      "missing_dependencies": [],
+      "quality": "good",
+      "state": "healthy",
+      "state_transition": false,
+      "timestamp": 41,
+      "value": "3.7",
+      "variable_id": "VAR-PT-AVG"
+    },
+    {
+      "changed": true,
+      "dependency_values": {
+        "TT-101": "25.3"
+      },
+      "missing_dependencies": [],
+      "quality": "good",
+      "state": "healthy",
+      "state_transition": false,
+      "timestamp": 41,
+      "value": "25.3",
+      "variable_id": "VAR-TT-MEAN"
+    },
+    {
+      "changed": true,
+      "dependency_values": {
+        "PT-101": "4.0"
+      },
+      "missing_dependencies": [],
+      "quality": "good",
+      "state": "healthy",
+      "state_transition": false,
+      "timestamp": 42,
+      "value": "4.0",
+      "variable_id": "VAR-PT-AVG"
+    },
+    {
+      "changed": true,
+      "dependency_values": {
+        "TT-101": "25.6"
+      },
+      "missing_dependencies": [],
+      "quality": "good",
+      "state": "healthy",
+      "state_transition": false,
+      "timestamp": 42,
+      "value": "25.6",
+      "variable_id": "VAR-TT-MEAN"
+    },
+    {
+      "changed": true,
+      "dependency_values": {
+        "PT-101": "4.2"
+      },
+      "missing_dependencies": [],
+      "quality": "good",
+      "state": "healthy",
+      "state_transition": false,
+      "timestamp": 43,
+      "value": "4.2",
+      "variable_id": "VAR-PT-AVG"
+    },
+    {
+      "changed": true,
+      "dependency_values": {
+        "TT-101": "25.9"
+      },
+      "missing_dependencies": [],
+      "quality": "good",
+      "state": "healthy",
+      "state_transition": false,
+      "timestamp": 43,
+      "value": "25.9",
+      "variable_id": "VAR-TT-MEAN"
+    },
+    {
+      "changed": true,
+      "dependency_values": {
+        "PT-101": "4.4"
+      },
+      "missing_dependencies": [],
+      "quality": "good",
+      "state": "healthy",
+      "state_transition": false,
+      "timestamp": 44,
+      "value": "4.4",
+      "variable_id": "VAR-PT-AVG"
+    },
+    {
+      "changed": true,
+      "dependency_values": {
+        "TT-101": "26.2"
+      },
+      "missing_dependencies": [],
+      "quality": "good",
+      "state": "healthy",
+      "state_transition": false,
+      "timestamp": 44,
+      "value": "26.2",
+      "variable_id": "VAR-TT-MEAN"
+    },
+    {
+      "changed": true,
+      "dependency_values": {
+        "PT-101": "4.6"
+      },
+      "missing_dependencies": [],
+      "quality": "good",
+      "state": "healthy",
+      "state_transition": false,
+      "timestamp": 45,
+      "value": "4.6",
+      "variable_id": "VAR-PT-AVG"
+    },
+    {
+      "changed": true,
+      "dependency_values": {
+        "TT-101": "26.4"
+      },
+      "missing_dependencies": [],
+      "quality": "good",
+      "state": "healthy",
+      "state_transition": false,
+      "timestamp": 45,
+      "value": "26.4",
+      "variable_id": "VAR-TT-MEAN"
+    },
+    {
+      "changed": true,
+      "dependency_values": {
+        "PT-101": "4.9"
+      },
+      "missing_dependencies": [],
+      "quality": "good",
+      "state": "healthy",
+      "state_transition": false,
+      "timestamp": 46,
+      "value": "4.9",
+      "variable_id": "VAR-PT-AVG"
+    },
+    {
+      "changed": true,
+      "dependency_values": {
+        "TT-101": "26.7"
+      },
+      "missing_dependencies": [],
+      "quality": "good",
+      "state": "healthy",
+      "state_transition": false,
+      "timestamp": 46,
+      "value": "26.7",
+      "variable_id": "VAR-TT-MEAN"
+    },
+    {
+      "changed": true,
+      "dependency_values": {
+        "PT-101": "5.1"
+      },
+      "missing_dependencies": [],
+      "quality": "good",
+      "state": "healthy",
+      "state_transition": false,
+      "timestamp": 47,
+      "value": "5.1",
+      "variable_id": "VAR-PT-AVG"
+    },
+    {
+      "changed": true,
+      "dependency_values": {
+        "TT-101": "27.0"
+      },
+      "missing_dependencies": [],
+      "quality": "good",
+      "state": "healthy",
+      "state_transition": false,
+      "timestamp": 47,
+      "value": "27.0",
+      "variable_id": "VAR-TT-MEAN"
+    }
+  ],
+  "replay_report": {
+    "checkpoint_available": true,
+    "checkpoint_id": "CHK-SESSION-POPULATED-REVIEW-45-132",
+    "deterministic_input_hash": "40a78bc7b2e98e73791abb3ecca107ef1ecd0a0f9ccad1b7b6f1b90696b4f1e9",
+    "deterministic_replay": true,
+    "last_committed_sequence_id": 132,
+    "projected_state": {
+      "checkpoint_state_hash": "878590f3c333c3e0fca6a6683a704cb0a1fb589a9800d3768447a9c04d2769d7",
+      "tail_last_cycle": {
+        "active_adapter_id": "SIM-HIST-001",
+        "active_device_key": "SIM-DEVICE-001",
+        "changed_signal_count": 2,
+        "changed_signal_ids": [
+          "PT-101",
+          "TT-101"
+        ],
+        "impacted_variable_count": 0,
+        "needs_review": false,
+        "phase": "live",
+        "total_variable_count": 2
+      },
+      "tail_last_runtime_event": {
+        "event_type": "operator_note",
+        "message": "tail-verification-window-bounded-longrun-v1"
+      },
+      "tail_last_samples_by_point": {
+        "SIM-HIST-001:PT-101": {
+          "adapter_id": "SIM-HIST-001",
+          "point_id": "PT-101",
+          "point_key": "SIM-HIST-001:PT-101",
+          "quality": "simulated",
+          "timestamp": 47,
+          "value": "5.1"
+        },
+        "SIM-HIST-001:TT-101": {
+          "adapter_id": "SIM-HIST-001",
+          "point_id": "TT-101",
+          "point_key": "SIM-HIST-001:TT-101",
+          "quality": "simulated",
+          "timestamp": 47,
+          "value": "27.0"
+        }
+      },
+      "tail_last_sequence_id": 149,
+      "tail_last_variables_by_id": {
+        "VAR-PT-AVG": {
+          "changed": true,
+          "dependency_values": {
+            "PT-101": "5.1"
+          },
+          "missing_dependencies": [],
+          "quality": "good",
+          "state": "healthy",
+          "state_transition": false,
+          "timestamp": 47,
+          "value": "5.1",
+          "variable_id": "VAR-PT-AVG"
+        },
+        "VAR-TT-MEAN": {
+          "changed": true,
+          "dependency_values": {
+            "TT-101": "27.0"
+          },
+          "missing_dependencies": [],
+          "quality": "good",
+          "state": "healthy",
+          "state_transition": false,
+          "timestamp": 47,
+          "value": "27.0",
+          "variable_id": "VAR-TT-MEAN"
+        }
+      },
+      "tail_record_count": 17,
+      "tail_record_counts_by_type": {
+        "cycle": 2,
+        "runtime_event": 7,
+        "sample": 4,
+        "variable_update": 4
+      },
+      "tail_runtime_event_counts_by_type": {
+        "mode_transition": 2,
+        "operator_note": 3,
+        "quality_transition": 2
+      }
+    },
+    "replay_state_hash": "f7ec438e9a97a153f32c95bff14e2c5439cd0ada5c28b46f0394c54eb7e47d90",
+    "segment_index": [
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0001.jsonl",
+        "first_sequence_id": 1,
+        "last_sequence_id": 4,
+        "record_count": 4,
+        "relative_path": "segment-0001.jsonl",
+        "segment_id": "segment-0001",
+        "segment_ordinal": 1
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0002.jsonl",
+        "first_sequence_id": 5,
+        "last_sequence_id": 8,
+        "record_count": 4,
+        "relative_path": "segment-0002.jsonl",
+        "segment_id": "segment-0002",
+        "segment_ordinal": 2
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0003.jsonl",
+        "first_sequence_id": 9,
+        "last_sequence_id": 12,
+        "record_count": 4,
+        "relative_path": "segment-0003.jsonl",
+        "segment_id": "segment-0003",
+        "segment_ordinal": 3
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0004.jsonl",
+        "first_sequence_id": 13,
+        "last_sequence_id": 16,
+        "record_count": 4,
+        "relative_path": "segment-0004.jsonl",
+        "segment_id": "segment-0004",
+        "segment_ordinal": 4
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0005.jsonl",
+        "first_sequence_id": 17,
+        "last_sequence_id": 20,
+        "record_count": 4,
+        "relative_path": "segment-0005.jsonl",
+        "segment_id": "segment-0005",
+        "segment_ordinal": 5
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0006.jsonl",
+        "first_sequence_id": 21,
+        "last_sequence_id": 24,
+        "record_count": 4,
+        "relative_path": "segment-0006.jsonl",
+        "segment_id": "segment-0006",
+        "segment_ordinal": 6
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0007.jsonl",
+        "first_sequence_id": 25,
+        "last_sequence_id": 28,
+        "record_count": 4,
+        "relative_path": "segment-0007.jsonl",
+        "segment_id": "segment-0007",
+        "segment_ordinal": 7
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0008.jsonl",
+        "first_sequence_id": 29,
+        "last_sequence_id": 32,
+        "record_count": 4,
+        "relative_path": "segment-0008.jsonl",
+        "segment_id": "segment-0008",
+        "segment_ordinal": 8
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0009.jsonl",
+        "first_sequence_id": 33,
+        "last_sequence_id": 36,
+        "record_count": 4,
+        "relative_path": "segment-0009.jsonl",
+        "segment_id": "segment-0009",
+        "segment_ordinal": 9
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0010.jsonl",
+        "first_sequence_id": 37,
+        "last_sequence_id": 40,
+        "record_count": 4,
+        "relative_path": "segment-0010.jsonl",
+        "segment_id": "segment-0010",
+        "segment_ordinal": 10
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0011.jsonl",
+        "first_sequence_id": 41,
+        "last_sequence_id": 44,
+        "record_count": 4,
+        "relative_path": "segment-0011.jsonl",
+        "segment_id": "segment-0011",
+        "segment_ordinal": 11
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0012.jsonl",
+        "first_sequence_id": 45,
+        "last_sequence_id": 48,
+        "record_count": 4,
+        "relative_path": "segment-0012.jsonl",
+        "segment_id": "segment-0012",
+        "segment_ordinal": 12
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0013.jsonl",
+        "first_sequence_id": 49,
+        "last_sequence_id": 52,
+        "record_count": 4,
+        "relative_path": "segment-0013.jsonl",
+        "segment_id": "segment-0013",
+        "segment_ordinal": 13
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0014.jsonl",
+        "first_sequence_id": 53,
+        "last_sequence_id": 56,
+        "record_count": 4,
+        "relative_path": "segment-0014.jsonl",
+        "segment_id": "segment-0014",
+        "segment_ordinal": 14
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0015.jsonl",
+        "first_sequence_id": 57,
+        "last_sequence_id": 60,
+        "record_count": 4,
+        "relative_path": "segment-0015.jsonl",
+        "segment_id": "segment-0015",
+        "segment_ordinal": 15
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0016.jsonl",
+        "first_sequence_id": 61,
+        "last_sequence_id": 64,
+        "record_count": 4,
+        "relative_path": "segment-0016.jsonl",
+        "segment_id": "segment-0016",
+        "segment_ordinal": 16
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0017.jsonl",
+        "first_sequence_id": 65,
+        "last_sequence_id": 68,
+        "record_count": 4,
+        "relative_path": "segment-0017.jsonl",
+        "segment_id": "segment-0017",
+        "segment_ordinal": 17
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0018.jsonl",
+        "first_sequence_id": 69,
+        "last_sequence_id": 72,
+        "record_count": 4,
+        "relative_path": "segment-0018.jsonl",
+        "segment_id": "segment-0018",
+        "segment_ordinal": 18
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0019.jsonl",
+        "first_sequence_id": 73,
+        "last_sequence_id": 76,
+        "record_count": 4,
+        "relative_path": "segment-0019.jsonl",
+        "segment_id": "segment-0019",
+        "segment_ordinal": 19
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0020.jsonl",
+        "first_sequence_id": 77,
+        "last_sequence_id": 80,
+        "record_count": 4,
+        "relative_path": "segment-0020.jsonl",
+        "segment_id": "segment-0020",
+        "segment_ordinal": 20
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0021.jsonl",
+        "first_sequence_id": 81,
+        "last_sequence_id": 84,
+        "record_count": 4,
+        "relative_path": "segment-0021.jsonl",
+        "segment_id": "segment-0021",
+        "segment_ordinal": 21
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0022.jsonl",
+        "first_sequence_id": 85,
+        "last_sequence_id": 88,
+        "record_count": 4,
+        "relative_path": "segment-0022.jsonl",
+        "segment_id": "segment-0022",
+        "segment_ordinal": 22
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0023.jsonl",
+        "first_sequence_id": 89,
+        "last_sequence_id": 92,
+        "record_count": 4,
+        "relative_path": "segment-0023.jsonl",
+        "segment_id": "segment-0023",
+        "segment_ordinal": 23
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0024.jsonl",
+        "first_sequence_id": 93,
+        "last_sequence_id": 96,
+        "record_count": 4,
+        "relative_path": "segment-0024.jsonl",
+        "segment_id": "segment-0024",
+        "segment_ordinal": 24
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0025.jsonl",
+        "first_sequence_id": 97,
+        "last_sequence_id": 100,
+        "record_count": 4,
+        "relative_path": "segment-0025.jsonl",
+        "segment_id": "segment-0025",
+        "segment_ordinal": 25
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0026.jsonl",
+        "first_sequence_id": 101,
+        "last_sequence_id": 104,
+        "record_count": 4,
+        "relative_path": "segment-0026.jsonl",
+        "segment_id": "segment-0026",
+        "segment_ordinal": 26
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0027.jsonl",
+        "first_sequence_id": 105,
+        "last_sequence_id": 108,
+        "record_count": 4,
+        "relative_path": "segment-0027.jsonl",
+        "segment_id": "segment-0027",
+        "segment_ordinal": 27
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0028.jsonl",
+        "first_sequence_id": 109,
+        "last_sequence_id": 112,
+        "record_count": 4,
+        "relative_path": "segment-0028.jsonl",
+        "segment_id": "segment-0028",
+        "segment_ordinal": 28
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0029.jsonl",
+        "first_sequence_id": 113,
+        "last_sequence_id": 116,
+        "record_count": 4,
+        "relative_path": "segment-0029.jsonl",
+        "segment_id": "segment-0029",
+        "segment_ordinal": 29
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0030.jsonl",
+        "first_sequence_id": 117,
+        "last_sequence_id": 120,
+        "record_count": 4,
+        "relative_path": "segment-0030.jsonl",
+        "segment_id": "segment-0030",
+        "segment_ordinal": 30
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0031.jsonl",
+        "first_sequence_id": 121,
+        "last_sequence_id": 124,
+        "record_count": 4,
+        "relative_path": "segment-0031.jsonl",
+        "segment_id": "segment-0031",
+        "segment_ordinal": 31
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0032.jsonl",
+        "first_sequence_id": 125,
+        "last_sequence_id": 128,
+        "record_count": 4,
+        "relative_path": "segment-0032.jsonl",
+        "segment_id": "segment-0032",
+        "segment_ordinal": 32
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0033.jsonl",
+        "first_sequence_id": 129,
+        "last_sequence_id": 132,
+        "record_count": 4,
+        "relative_path": "segment-0033.jsonl",
+        "segment_id": "segment-0033",
+        "segment_ordinal": 33
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0034.jsonl",
+        "first_sequence_id": 133,
+        "last_sequence_id": 136,
+        "record_count": 4,
+        "relative_path": "segment-0034.jsonl",
+        "segment_id": "segment-0034",
+        "segment_ordinal": 34
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0035.jsonl",
+        "first_sequence_id": 137,
+        "last_sequence_id": 140,
+        "record_count": 4,
+        "relative_path": "segment-0035.jsonl",
+        "segment_id": "segment-0035",
+        "segment_ordinal": 35
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0036.jsonl",
+        "first_sequence_id": 141,
+        "last_sequence_id": 144,
+        "record_count": 4,
+        "relative_path": "segment-0036.jsonl",
+        "segment_id": "segment-0036",
+        "segment_ordinal": 36
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0037.jsonl",
+        "first_sequence_id": 145,
+        "last_sequence_id": 148,
+        "record_count": 4,
+        "relative_path": "segment-0037.jsonl",
+        "segment_id": "segment-0037",
+        "segment_ordinal": 37
+      },
+      {
+        "closed": false,
+        "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/journal/segment-0038.jsonl",
+        "first_sequence_id": 149,
+        "last_sequence_id": 149,
+        "record_count": 1,
+        "relative_path": "segment-0038.jsonl",
+        "segment_id": "segment-0038",
+        "segment_ordinal": 38
+      }
+    ],
+    "tail_contains_multiple_record_types": true,
+    "tail_first_sequence_id": 133,
+    "tail_last_sequence_id": 149,
+    "tail_record_count": 17,
+    "tail_record_counts_by_type": {
+      "cycle": 2,
+      "runtime_event": 7,
+      "sample": 4,
+      "variable_update": 4
+    },
+    "tail_record_type_count": 4,
+    "tail_runtime_event_counts_by_type": {
+      "mode_transition": 2,
+      "operator_note": 3,
+      "quality_transition": 2
+    }
+  },
+  "session_depth_summary": {
+    "checkpoint_count": 4,
+    "checkpoint_sequence_ids": [
+      33,
+      66,
+      99,
+      132
+    ],
+    "replay_tail_contains_multiple_record_types": true,
+    "replay_tail_record_count": 17,
+    "replay_tail_record_type_count": 4,
+    "segment_count": 38,
+    "segment_sequence_ranges": [
+      {
+        "first_sequence_id": 1,
+        "last_sequence_id": 4,
+        "record_count": 4,
+        "segment_id": "segment-0001"
+      },
+      {
+        "first_sequence_id": 5,
+        "last_sequence_id": 8,
+        "record_count": 4,
+        "segment_id": "segment-0002"
+      },
+      {
+        "first_sequence_id": 9,
+        "last_sequence_id": 12,
+        "record_count": 4,
+        "segment_id": "segment-0003"
+      },
+      {
+        "first_sequence_id": 13,
+        "last_sequence_id": 16,
+        "record_count": 4,
+        "segment_id": "segment-0004"
+      },
+      {
+        "first_sequence_id": 17,
+        "last_sequence_id": 20,
+        "record_count": 4,
+        "segment_id": "segment-0005"
+      },
+      {
+        "first_sequence_id": 21,
+        "last_sequence_id": 24,
+        "record_count": 4,
+        "segment_id": "segment-0006"
+      },
+      {
+        "first_sequence_id": 25,
+        "last_sequence_id": 28,
+        "record_count": 4,
+        "segment_id": "segment-0007"
+      },
+      {
+        "first_sequence_id": 29,
+        "last_sequence_id": 32,
+        "record_count": 4,
+        "segment_id": "segment-0008"
+      },
+      {
+        "first_sequence_id": 33,
+        "last_sequence_id": 36,
+        "record_count": 4,
+        "segment_id": "segment-0009"
+      },
+      {
+        "first_sequence_id": 37,
+        "last_sequence_id": 40,
+        "record_count": 4,
+        "segment_id": "segment-0010"
+      },
+      {
+        "first_sequence_id": 41,
+        "last_sequence_id": 44,
+        "record_count": 4,
+        "segment_id": "segment-0011"
+      },
+      {
+        "first_sequence_id": 45,
+        "last_sequence_id": 48,
+        "record_count": 4,
+        "segment_id": "segment-0012"
+      },
+      {
+        "first_sequence_id": 49,
+        "last_sequence_id": 52,
+        "record_count": 4,
+        "segment_id": "segment-0013"
+      },
+      {
+        "first_sequence_id": 53,
+        "last_sequence_id": 56,
+        "record_count": 4,
+        "segment_id": "segment-0014"
+      },
+      {
+        "first_sequence_id": 57,
+        "last_sequence_id": 60,
+        "record_count": 4,
+        "segment_id": "segment-0015"
+      },
+      {
+        "first_sequence_id": 61,
+        "last_sequence_id": 64,
+        "record_count": 4,
+        "segment_id": "segment-0016"
+      },
+      {
+        "first_sequence_id": 65,
+        "last_sequence_id": 68,
+        "record_count": 4,
+        "segment_id": "segment-0017"
+      },
+      {
+        "first_sequence_id": 69,
+        "last_sequence_id": 72,
+        "record_count": 4,
+        "segment_id": "segment-0018"
+      },
+      {
+        "first_sequence_id": 73,
+        "last_sequence_id": 76,
+        "record_count": 4,
+        "segment_id": "segment-0019"
+      },
+      {
+        "first_sequence_id": 77,
+        "last_sequence_id": 80,
+        "record_count": 4,
+        "segment_id": "segment-0020"
+      },
+      {
+        "first_sequence_id": 81,
+        "last_sequence_id": 84,
+        "record_count": 4,
+        "segment_id": "segment-0021"
+      },
+      {
+        "first_sequence_id": 85,
+        "last_sequence_id": 88,
+        "record_count": 4,
+        "segment_id": "segment-0022"
+      },
+      {
+        "first_sequence_id": 89,
+        "last_sequence_id": 92,
+        "record_count": 4,
+        "segment_id": "segment-0023"
+      },
+      {
+        "first_sequence_id": 93,
+        "last_sequence_id": 96,
+        "record_count": 4,
+        "segment_id": "segment-0024"
+      },
+      {
+        "first_sequence_id": 97,
+        "last_sequence_id": 100,
+        "record_count": 4,
+        "segment_id": "segment-0025"
+      },
+      {
+        "first_sequence_id": 101,
+        "last_sequence_id": 104,
+        "record_count": 4,
+        "segment_id": "segment-0026"
+      },
+      {
+        "first_sequence_id": 105,
+        "last_sequence_id": 108,
+        "record_count": 4,
+        "segment_id": "segment-0027"
+      },
+      {
+        "first_sequence_id": 109,
+        "last_sequence_id": 112,
+        "record_count": 4,
+        "segment_id": "segment-0028"
+      },
+      {
+        "first_sequence_id": 113,
+        "last_sequence_id": 116,
+        "record_count": 4,
+        "segment_id": "segment-0029"
+      },
+      {
+        "first_sequence_id": 117,
+        "last_sequence_id": 120,
+        "record_count": 4,
+        "segment_id": "segment-0030"
+      },
+      {
+        "first_sequence_id": 121,
+        "last_sequence_id": 124,
+        "record_count": 4,
+        "segment_id": "segment-0031"
+      },
+      {
+        "first_sequence_id": 125,
+        "last_sequence_id": 128,
+        "record_count": 4,
+        "segment_id": "segment-0032"
+      },
+      {
+        "first_sequence_id": 129,
+        "last_sequence_id": 132,
+        "record_count": 4,
+        "segment_id": "segment-0033"
+      },
+      {
+        "first_sequence_id": 133,
+        "last_sequence_id": 136,
+        "record_count": 4,
+        "segment_id": "segment-0034"
+      },
+      {
+        "first_sequence_id": 137,
+        "last_sequence_id": 140,
+        "record_count": 4,
+        "segment_id": "segment-0035"
+      },
+      {
+        "first_sequence_id": 141,
+        "last_sequence_id": 144,
+        "record_count": 4,
+        "segment_id": "segment-0036"
+      },
+      {
+        "first_sequence_id": 145,
+        "last_sequence_id": 148,
+        "record_count": 4,
+        "segment_id": "segment-0037"
+      },
+      {
+        "first_sequence_id": 149,
+        "last_sequence_id": 149,
+        "record_count": 1,
+        "segment_id": "segment-0038"
+      }
+    ],
+    "total_persisted_records": 149,
+    "valid_checkpoint_count": 4
+  },
+  "session_id": "SESSION-POPULATED-REVIEW",
+  "session_root": "/mnt/data/udq11_run/proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW"
+}

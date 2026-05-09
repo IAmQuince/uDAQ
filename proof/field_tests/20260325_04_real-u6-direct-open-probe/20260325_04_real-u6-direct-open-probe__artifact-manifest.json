@@ -1,0 +1,21 @@
+{
+  "artifact_count": 3,
+  "artifacts": [
+    {
+      "bytes": 376,
+      "label": "start_here",
+      "relative_path": "20260325_04_real-u6-direct-open-probe__start-here.txt"
+    },
+    {
+      "bytes": 900,
+      "label": "report_json",
+      "relative_path": "20260325_04_real-u6-direct-open-probe__report.json"
+    },
+    {
+      "bytes": 570,
+      "label": "report_text",
+      "relative_path": "20260325_04_real-u6-direct-open-probe__report.txt"
+    }
+  ],
+  "bundle_dir": "C:\\Users\\iaq16\\Documents\\Code\\uDAQ\\20260325_06_reconnect-path-alignment-correction\\proof\\field_tests\\20260325_04_real-u6-direct-open-probe"
+}

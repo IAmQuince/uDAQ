@@ -1,0 +1,111 @@
+{
+  "authorization_allowed": true,
+  "incremental_runtime_summary": {
+    "bindings.point_definition.last_replace_skipped": 1,
+    "bindings.review.scope.output.count": 0,
+    "bindings.review.scope.signal.count": 1,
+    "lifecycle.changed_signal_ids.count": 1,
+    "lifecycle.changed_variable_ids.count": 0,
+    "lifecycle.projected_points.count": 12,
+    "lifecycle.projected_points.last_replace_skipped": 1,
+    "lifecycle.transition.changed": 1,
+    "lifecycle.transition.current_phase": "live",
+    "lifecycle.transition.last_trigger": "poll_active_adapter",
+    "lifecycle.transition.previous_phase": "disconnected",
+    "variables.impacted.count": 1,
+    "variables.last_evaluated.count": 1
+  },
+  "object_counts": {
+    "adapter_count": 3,
+    "device_record_count": 1,
+    "discovered_device_count": 3,
+    "point_definition_count": 12,
+    "signal_binding_count": 1,
+    "signal_count": 1,
+    "variable_count": 1
+  },
+  "runtime_performance": {
+    "counters": {
+      "adapters.activate_discovered.calls": 1,
+      "adapters.discover.calls": 1,
+      "adapters.discovery_provider.register.calls": 3,
+      "adapters.mark_disconnected.calls": 1,
+      "adapters.poll_single.calls": 2,
+      "adapters.reconnect.calls": 1,
+      "adapters.register.calls": 3,
+      "adapters.snapshot.count": 16,
+      "adapters.support_pack.install.calls": 2,
+      "bindings.point_definition.replace.calls": 1,
+      "bindings.point_definition.replace.skipped": 1,
+      "bindings.review.calls": 6,
+      "bindings.signal.bind.calls": 1,
+      "device_registry.reconciliation.new_device.calls": 1,
+      "device_registry.register_or_attach.calls": 1,
+      "signals.definition.register.calls": 1,
+      "signals.snapshot.publish.calls": 3,
+      "variables.definition.register.calls": 1,
+      "variables.evaluate.calls": 4,
+      "variables.snapshot.publish.calls": 4
+    },
+    "gauges": {
+      "adapters.disconnected.count": 0,
+      "adapters.discovered_devices.count": 3,
+      "adapters.discovery_provider.count": 2,
+      "adapters.inventory.count": 3,
+      "adapters.support_pack.count": 1,
+      "bindings.point_definition.count": 12,
+      "bindings.point_definition.last_replace_skipped": 1,
+      "bindings.review.manual_signal.count": 0,
+      "bindings.review.scope.output.count": 0,
+      "bindings.review.scope.signal.count": 1,
+      "bindings.review.unresolved_signal.count": 0,
+      "bindings.signal.count": 1,
+      "device_registry.connections.count": 1,
+      "device_registry.records.count": 1,
+      "lifecycle.changed_signal_ids.count": 1,
+      "lifecycle.changed_variable_ids.count": 0,
+      "lifecycle.projected_points.count": 12,
+      "lifecycle.projected_points.last_replace_skipped": 1,
+      "lifecycle.transition.changed": 1,
+      "lifecycle.transition.current_phase": "live",
+      "lifecycle.transition.last_trigger": "poll_active_adapter",
+      "lifecycle.transition.previous_phase": "disconnected",
+      "signals.definition.count": 1,
+      "signals.snapshot.count": 1,
+      "variables.definition.count": 1,
+      "variables.impacted.count": 1,
+      "variables.last_evaluated.count": 1,
+      "variables.snapshot.count": 1
+    },
+    "timings": {
+      "adapters.discover.ms": {
+        "average_ms": 5.257067,
+        "count": 1,
+        "max_ms": 5.257067,
+        "min_ms": 5.257067,
+        "total_ms": 5.257067
+      },
+      "adapters.poll_single.ms": {
+        "average_ms": 0.106344,
+        "count": 2,
+        "max_ms": 0.111947,
+        "min_ms": 0.100742,
+        "total_ms": 0.212689
+      },
+      "device_registry.register_or_attach.ms": {
+        "average_ms": 0.074836,
+        "count": 1,
+        "max_ms": 0.074836,
+        "min_ms": 0.074836,
+        "total_ms": 0.074836
+      },
+      "variables.evaluate.ms": {
+        "average_ms": 0.038091,
+        "count": 4,
+        "max_ms": 0.051897,
+        "min_ms": 0.024653,
+        "total_ms": 0.152364
+      }
+    }
+  }
+}

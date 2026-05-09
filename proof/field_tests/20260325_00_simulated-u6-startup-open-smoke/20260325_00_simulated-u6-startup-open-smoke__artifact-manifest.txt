@@ -1,0 +1,17 @@
+UDQ U6 Guided Field Validation — Artifact Manifest
+=================================================
+bundle_dir: /mnt/data/s3cfinal/proof/field_tests/20260325_00_simulated-u6-startup-open-smoke
+artifact_count: 10
+
+Artifacts
+---------
+- diagnostics: 20260325_00_simulated-u6-startup-open-smoke__diagnostics.json (77648 bytes, sha256=8605614235010732de7bf1f92ea933c09b2a5fef85e18445493d6102f7f3d2b5)
+- events: 20260325_00_simulated-u6-startup-open-smoke__events.csv (1272 bytes, sha256=475e428d08983aa8289ac4506fa1311170a1979e87093bf55acbb2bb2ec38cec)
+- preflight_json: 20260325_00_simulated-u6-startup-open-smoke__preflight-report.json (1731 bytes, sha256=0931a5b0107f1b24f8bc8fa4bbb7456a17f358bc22f233ac38c9a016f3f9a864)
+- preflight_text: 20260325_00_simulated-u6-startup-open-smoke__preflight-report.txt (1029 bytes, sha256=4083ca4d9a882ae7c476b2519a78b390303603af881b30fd7535132f190f01b1)
+- review_summary: 20260325_00_simulated-u6-startup-open-smoke__review-summary.md (837 bytes, sha256=856d4979c6221edd85a4f900d58254b8cebb053d6abea441e9a4579d42ba0ab7)
+- semantic_verdict_json: 20260325_00_simulated-u6-startup-open-smoke__semantic-consistency-verdict.json (1864 bytes, sha256=fc199c1bbb34fb18dda359458ca33ef51605e785df02a1b87d47b5fa845ef265)
+- semantic_verdict_text: 20260325_00_simulated-u6-startup-open-smoke__semantic-consistency-verdict.txt (1170 bytes, sha256=5cd358dae3dfe8b99b0a4f5257f543991f1015fe5af7ee3205e1ea3ad087f904)
+- smoke: 20260325_00_simulated-u6-startup-open-smoke__smoke.txt (594 bytes, sha256=027a164ddee60e6fdbe140b489360fca82f01264666d0d4846a035f5f9a80c49)
+- start_here: 20260325_00_simulated-u6-startup-open-smoke__start-here.txt (746 bytes, sha256=f987b551983eaab432b6c6bf6fac4d68c781b5b1ad07f7aeaa3b96d635dbe0f2)
+- summary: 20260325_00_simulated-u6-startup-open-smoke__summary.txt (3710 bytes, sha256=2a09da9a762ddfcf25e76c47016325296e43e92e0907f1bb63ff9b230848fe5a)

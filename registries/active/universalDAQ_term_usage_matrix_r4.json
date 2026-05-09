@@ -1,0 +1,265 @@
+{
+  "rows": [
+    {
+      "term": "requested state",
+      "canonical_owner": "UDQ-GOV-GLO-001",
+      "allowed_aliases": "request value",
+      "forbidden_aliases": "actual state; confirmed state",
+      "confusable_with": "applied state; observed state",
+      "operational_docs": "UDQ-OUT-SPEC-001; UDQ-UI-SPEC-004; UDQ-REM-SPEC-001",
+      "review_status": "closed"
+    },
+    {
+      "term": "applied state",
+      "canonical_owner": "UDQ-GOV-GLO-001",
+      "allowed_aliases": "committed state",
+      "forbidden_aliases": "observed state",
+      "confusable_with": "requested state; observed state",
+      "operational_docs": "UDQ-OUT-SPEC-001; UDQ-HIS-SPEC-001",
+      "review_status": "closed"
+    },
+    {
+      "term": "observed state",
+      "canonical_owner": "UDQ-GOV-GLO-001",
+      "allowed_aliases": "readback state",
+      "forbidden_aliases": "applied state",
+      "confusable_with": "requested state; applied state",
+      "operational_docs": "UDQ-OUT-SPEC-001; UDQ-UI-SPEC-004; UDQ-HIS-SPEC-001",
+      "review_status": "closed"
+    },
+    {
+      "term": "ownership",
+      "canonical_owner": "UDQ-GOV-GLO-001",
+      "allowed_aliases": "runtime owner",
+      "forbidden_aliases": "screen owner",
+      "confusable_with": "authorization; request origin",
+      "operational_docs": "UDQ-OUT-SPEC-001; UDQ-SEQ-SPEC-001; UDQ-REM-SPEC-001",
+      "review_status": "closed"
+    },
+    {
+      "term": "authorization",
+      "canonical_owner": "UDQ-SEC-SPEC-001",
+      "allowed_aliases": "backend authorization",
+      "forbidden_aliases": "enabled button",
+      "confusable_with": "ownership; visibility",
+      "operational_docs": "UDQ-SEC-SPEC-001; UDQ-OUT-SPEC-001; UDQ-REM-SPEC-001",
+      "review_status": "closed"
+    },
+    {
+      "term": "profile",
+      "canonical_owner": "UDQ-GOV-GLO-001",
+      "allowed_aliases": "named profile",
+      "forbidden_aliases": "live runtime state",
+      "confusable_with": "autosave snapshot; workspace state",
+      "operational_docs": "UDQ-PROF-SPEC-001; UDQ-UI-MOD-001",
+      "review_status": "closed"
+    },
+    {
+      "term": "autosave",
+      "canonical_owner": "UDQ-GOV-GLO-001",
+      "allowed_aliases": "autosave snapshot",
+      "forbidden_aliases": "hidden apply",
+      "confusable_with": "profile; restore",
+      "operational_docs": "UDQ-PROF-SPEC-001",
+      "review_status": "closed"
+    },
+    {
+      "term": "restore",
+      "canonical_owner": "UDQ-GOV-GLO-001",
+      "allowed_aliases": "session restore",
+      "forbidden_aliases": "reapply machine state",
+      "confusable_with": "live revalidation; profile load",
+      "operational_docs": "UDQ-PROF-SPEC-001; UDQ-UI-MOD-001",
+      "review_status": "closed"
+    },
+    {
+      "term": "workspace state",
+      "canonical_owner": "UDQ-GOV-GLO-001",
+      "allowed_aliases": "workspace posture",
+      "forbidden_aliases": "machine state",
+      "confusable_with": "session persistence state; machine state",
+      "operational_docs": "UDQ-UI-MOD-001; UDQ-PROF-SPEC-001",
+      "review_status": "closed"
+    },
+    {
+      "term": "machine state",
+      "canonical_owner": "UDQ-GOV-GLO-001",
+      "allowed_aliases": "runtime machine truth",
+      "forbidden_aliases": "restored state",
+      "confusable_with": "workspace state; profile",
+      "operational_docs": "UDQ-OUT-SPEC-001; UDQ-UI-MOD-001",
+      "review_status": "closed"
+    },
+    {
+      "term": "live",
+      "canonical_owner": "UDQ-GOV-GLO-001",
+      "allowed_aliases": "current runtime",
+      "forbidden_aliases": "most recent cached",
+      "confusable_with": "historical; restored",
+      "operational_docs": "UDQ-UI-MOD-001; UDQ-UI-SPEC-004; UDQ-HIS-SPEC-001",
+      "review_status": "closed"
+    },
+    {
+      "term": "historical",
+      "canonical_owner": "UDQ-GOV-GLO-001",
+      "allowed_aliases": "recorded evidence",
+      "forbidden_aliases": "current live",
+      "confusable_with": "review mode; live trace",
+      "operational_docs": "UDQ-HIS-SPEC-001; UDQ-UI-SPEC-004",
+      "review_status": "closed"
+    },
+    {
+      "term": "review mode",
+      "canonical_owner": "UDQ-GOV-GLO-001",
+      "allowed_aliases": "review posture",
+      "forbidden_aliases": "live mode",
+      "confusable_with": "historical; live trace",
+      "operational_docs": "UDQ-UI-MOD-001; UDQ-UI-SPEC-004",
+      "review_status": "closed"
+    },
+    {
+      "term": "live trace",
+      "canonical_owner": "UDQ-GOV-GLO-001",
+      "allowed_aliases": "live explainability",
+      "forbidden_aliases": "historical review",
+      "confusable_with": "review mode; historical overlay",
+      "operational_docs": "UDQ-UI-SPEC-004; UDQ-HIS-SPEC-001; UDQ-LOG-SPEC-001",
+      "review_status": "closed"
+    },
+    {
+      "term": "event",
+      "canonical_owner": "UDQ-GOV-GLO-001",
+      "allowed_aliases": "historical occurrence",
+      "forbidden_aliases": "alarm state",
+      "confusable_with": "alarm",
+      "operational_docs": "UDQ-EVT-SPEC-001; UDQ-HIS-SPEC-001",
+      "review_status": "closed"
+    },
+    {
+      "term": "alarm",
+      "canonical_owner": "UDQ-GOV-GLO-001",
+      "allowed_aliases": "abnormal condition",
+      "forbidden_aliases": "mere message",
+      "confusable_with": "event; acknowledgment",
+      "operational_docs": "UDQ-EVT-SPEC-001; UDQ-HIS-SPEC-001",
+      "review_status": "closed"
+    },
+    {
+      "term": "acknowledgment",
+      "canonical_owner": "UDQ-GOV-GLO-001",
+      "allowed_aliases": "ack",
+      "forbidden_aliases": "clear history",
+      "confusable_with": "return-to-normal; suppression",
+      "operational_docs": "UDQ-EVT-SPEC-001; UDQ-HIS-SPEC-001",
+      "review_status": "closed"
+    },
+    {
+      "term": "remote",
+      "canonical_owner": "UDQ-GOV-GLO-001",
+      "allowed_aliases": "remote client",
+      "forbidden_aliases": "local-equivalent by default",
+      "confusable_with": "manual; supervision",
+      "operational_docs": "UDQ-REM-SPEC-001; UDQ-SEC-SPEC-001",
+      "review_status": "closed"
+    },
+    {
+      "term": "governance model",
+      "canonical_owner": "UDQ-GOV-SPEC-003",
+      "allowed_aliases": "control tower model",
+      "forbidden_aliases": "assistant memory; hidden master plan",
+      "confusable_with": "execution contract; executive summary",
+      "operational_docs": "UDQ-GOV-SPEC-003; docs/handbook/AUDIT_AND_GOVERNANCE.md",
+      "review_status": "closed"
+    },
+    {
+      "term": "execution contract",
+      "canonical_owner": "UDQ-GOV-SPEC-003",
+      "allowed_aliases": "implementation contract",
+      "forbidden_aliases": "code spec; prose-only requirement dump",
+      "confusable_with": "governance model; requirement matrix",
+      "operational_docs": "UDQ-GOV-SPEC-004; UDQ-IMP-PLAN-001; docs/handbook/AUDIT_AND_GOVERNANCE.md",
+      "review_status": "closed"
+    },
+    {
+      "term": "invariant",
+      "canonical_owner": "UDQ-GOV-SPEC-005",
+      "allowed_aliases": "runtime conformance rule",
+      "forbidden_aliases": "nice-to-have check; optional log",
+      "confusable_with": "test case; requirement",
+      "operational_docs": "UDQ-GOV-SPEC-005; UDQ-QUAL-SPEC-002",
+      "review_status": "closed"
+    },
+    {
+      "term": "coverage matrix",
+      "canonical_owner": "UDQ-GOV-SPEC-003",
+      "allowed_aliases": "implementation coverage matrix",
+      "forbidden_aliases": "completion claim",
+      "confusable_with": "requirement registry; execution contract",
+      "operational_docs": "UDQ-GOV-SPEC-003; UDQ-GOV-SPEC-006; docs/release/EXEC_SUMMARY.md",
+      "review_status": "closed"
+    },
+    {
+      "term": "decision log",
+      "canonical_owner": "UDQ-GOV-SPEC-003",
+      "allowed_aliases": "decision register",
+      "forbidden_aliases": "informal notes",
+      "confusable_with": "contradiction register; release notes",
+      "operational_docs": "UDQ-GOV-SPEC-003; docs/handbook/NEXT_ACTIONS.md",
+      "review_status": "closed"
+    },
+    {
+      "term": "executive summary",
+      "canonical_owner": "UDQ-GOV-SPEC-006",
+      "allowed_aliases": "project status summary",
+      "forbidden_aliases": "marketing summary",
+      "confusable_with": "release notes; human pass checklist",
+      "operational_docs": "UDQ-GOV-SPEC-006; docs/release/EXEC_SUMMARY.md",
+      "review_status": "closed"
+    },
+    {
+      "term": "implementation entry",
+      "canonical_owner": "UDQ-GOV-SPEC-003",
+      "allowed_aliases": "implementation-entry readiness",
+      "forbidden_aliases": "full implementation",
+      "confusable_with": "semantic closure; execution contract",
+      "operational_docs": "UDQ-GOV-SPEC-003; UDQ-REQ-MAT-001",
+      "review_status": "closed"
+    },
+    {
+      "term": "first code sprint",
+      "canonical_owner": "UDQ-GOV-SPEC-003",
+      "allowed_aliases": "bounded implementation slice",
+      "forbidden_aliases": "general implementation",
+      "confusable_with": "implementation entry; package disposition",
+      "operational_docs": "UDQ-GOV-SPEC-003; UDQ-IMP-PLAN-001",
+      "review_status": "closed"
+    },
+    {
+      "term": "runtime monitor",
+      "canonical_owner": "UDQ-GOV-SPEC-005",
+      "allowed_aliases": "invariant monitor",
+      "forbidden_aliases": "log line",
+      "confusable_with": "invariant; proof bundle",
+      "operational_docs": "UDQ-GOV-SPEC-005; UDQ-GOV-SPEC-004",
+      "review_status": "closed"
+    },
+    {
+      "term": "proof bundle",
+      "canonical_owner": "UDQ-QUAL-SPEC-002",
+      "allowed_aliases": "evidence bundle",
+      "forbidden_aliases": "narrative claim",
+      "confusable_with": "historian export; audit report",
+      "operational_docs": "UDQ-QUAL-SPEC-002; UDQ-PROOF-TPL-001",
+      "review_status": "closed"
+    },
+    {
+      "term": "entry gate",
+      "canonical_owner": "UDQ-AUD-SPEC-001",
+      "allowed_aliases": "implementation gate",
+      "forbidden_aliases": "informal checkpoint",
+      "confusable_with": "implementation entry; package disposition",
+      "operational_docs": "UDQ-AUD-SPEC-001; UDQ-REQ-MAT-001",
+      "review_status": "closed"
+    }
+  ]
+}

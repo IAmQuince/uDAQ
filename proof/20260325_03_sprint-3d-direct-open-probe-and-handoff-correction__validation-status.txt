@@ -1,0 +1,7 @@
+20260325_03_sprint-3d-direct-open-probe-and-handoff-correction
+- pytest selected subset: PASS (10 passed)
+- validate_package_entry_surfaces: PASS
+- validate_document_completeness: PASS
+- validate_windows_path_budget: PASS
+- validate_run_artifact_naming: PASS
+- truncation guard vs Sprint 3C baseline: PASS

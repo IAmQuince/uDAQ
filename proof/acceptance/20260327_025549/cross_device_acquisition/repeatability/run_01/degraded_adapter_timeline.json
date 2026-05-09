@@ -1,0 +1,74 @@
+{
+  "adapters_seen_degraded": [
+    "ARDUINO-UNO-ARD-401",
+    "LABJACK-U6-470201",
+    "RPI-RPI-LAB-401"
+  ],
+  "degraded_transition_count": 5,
+  "events": [
+    {
+      "action": "drop",
+      "active_adapter_ids_after": [
+        "RPI-RPI-LAB-401"
+      ],
+      "adapter_ids": [
+        "LABJACK-U6-470201",
+        "ARDUINO-UNO-ARD-401"
+      ],
+      "cycle_index": 5,
+      "tick": 504
+    },
+    {
+      "action": "restore",
+      "active_adapter_ids_after": [
+        "LABJACK-U6-470201",
+        "RPI-RPI-LAB-401"
+      ],
+      "adapter_ids": [
+        "LABJACK-U6-470201"
+      ],
+      "cycle_index": 6,
+      "tick": 505
+    },
+    {
+      "action": "restore",
+      "active_adapter_ids_after": [
+        "ARDUINO-UNO-ARD-401",
+        "LABJACK-U6-470201",
+        "RPI-RPI-LAB-401"
+      ],
+      "adapter_ids": [
+        "ARDUINO-UNO-ARD-401"
+      ],
+      "cycle_index": 7,
+      "tick": 506
+    },
+    {
+      "action": "drop",
+      "active_adapter_ids_after": [
+        "ARDUINO-UNO-ARD-401",
+        "LABJACK-U6-470201"
+      ],
+      "adapter_ids": [
+        "RPI-RPI-LAB-401"
+      ],
+      "cycle_index": 9,
+      "tick": 508
+    },
+    {
+      "action": "restore",
+      "active_adapter_ids_after": [
+        "ARDUINO-UNO-ARD-401",
+        "LABJACK-U6-470201",
+        "RPI-RPI-LAB-401"
+      ],
+      "adapter_ids": [
+        "RPI-RPI-LAB-401"
+      ],
+      "cycle_index": 10,
+      "tick": 509
+    }
+  ],
+  "max_degraded_adapter_count": 2,
+  "simultaneous_drop_event_count": 1
+}

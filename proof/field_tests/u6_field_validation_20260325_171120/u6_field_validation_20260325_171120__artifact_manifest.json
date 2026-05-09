@@ -1,0 +1,66 @@
+{
+  "artifact_count": 10,
+  "artifacts": [
+    {
+      "bytes": 91354,
+      "label": "diagnostics",
+      "relative_path": "u6_field_validation_20260325_171120__diagnostics.json",
+      "sha256": "6417e264a8ffd36da5cdd664bab35731a827116a8c821726f48f0ce3bd8f3255"
+    },
+    {
+      "bytes": 4668,
+      "label": "events",
+      "relative_path": "u6_field_validation_20260325_171120__events.csv",
+      "sha256": "848dd2ad2b2aabc95013161d8c98f17c6678fcec2cfeb89e43a6e4bb25a74690"
+    },
+    {
+      "bytes": 1613,
+      "label": "preflight_json",
+      "relative_path": "u6_field_validation_20260325_171120__preflight_report.json",
+      "sha256": "2163fb64b22911d0d1c4a9d6e505fbe994e82668aa26e0df83116c7e1dd93da3"
+    },
+    {
+      "bytes": 925,
+      "label": "preflight_text",
+      "relative_path": "u6_field_validation_20260325_171120__preflight_report.txt",
+      "sha256": "4a9db683a2d5144068a935ff6ad86219ceb9de5750a393debcc581eed0394dfe"
+    },
+    {
+      "bytes": 1030,
+      "label": "review_summary",
+      "relative_path": "u6_field_validation_summary.md",
+      "sha256": "e62fc052eee9bcdcd2e10e4f01d8f57ccb7cce39f35577ff6c0ae004193f43cd"
+    },
+    {
+      "bytes": 1864,
+      "label": "semantic_verdict_json",
+      "relative_path": "u6_field_validation_20260325_171120__semantic_consistency_verdict.json",
+      "sha256": "fc199c1bbb34fb18dda359458ca33ef51605e785df02a1b87d47b5fa845ef265"
+    },
+    {
+      "bytes": 1170,
+      "label": "semantic_verdict_text",
+      "relative_path": "u6_field_validation_20260325_171120__semantic_consistency_verdict.txt",
+      "sha256": "5cd358dae3dfe8b99b0a4f5257f543991f1015fe5af7ee3205e1ea3ad087f904"
+    },
+    {
+      "bytes": 594,
+      "label": "smoke",
+      "relative_path": "u6_field_validation_20260325_171120__smoke.txt",
+      "sha256": "9b33621c50f9c5a6a056c5f265f4654dda0d464493fc29b361c110001cdda790"
+    },
+    {
+      "bytes": 688,
+      "label": "start_here",
+      "relative_path": "START_HERE__U6_FIELD_VALIDATION.txt",
+      "sha256": "ea562622f346b57f4ebe567f1fdecba44138eb42c258f582866e5bfe138ec38d"
+    },
+    {
+      "bytes": 3853,
+      "label": "summary",
+      "relative_path": "u6_field_validation_20260325_171120__summary.txt",
+      "sha256": "e767aed0338ca7b80a8b3c78a71249584401e2b7613a9ea75b54b937d5507f9f"
+    }
+  ],
+  "bundle_dir": "/mnt/data/udq3a/proof/field_tests/u6_field_validation_20260325_171120"
+}

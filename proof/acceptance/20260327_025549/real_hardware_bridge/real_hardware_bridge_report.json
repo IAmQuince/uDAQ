@@ -1,0 +1,14 @@
+{
+  "active_adapter_id": null,
+  "driver_available": false,
+  "driver_name": "not-installed",
+  "generated_at_utc": "2026-03-27T02:55:52.872619+00:00",
+  "mode": "driver_unavailable",
+  "probe_result": null,
+  "reason": "LabJack driver unavailable (not-installed)",
+  "report_dir": "/mnt/data/udq11_run/proof/acceptance/20260327_025549/real_hardware_bridge",
+  "requested_serial_number": null,
+  "resolved_serial_number": null,
+  "session_id": "SESSION-REAL-HARDWARE-BRIDGE",
+  "verdict": "SKIP"
+}

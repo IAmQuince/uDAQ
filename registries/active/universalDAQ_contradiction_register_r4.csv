@@ -1,0 +1,5 @@
+issue_id,finding_summary,source_docs,status,resolution
+UDQ-CON-001,Requested/applied/observed terminology previously risked collapsing output command semantics.,UDQ-OUT-SPEC-001; UDQ-HIS-SPEC-001; UDQ-UI-SPEC-004,CLOSED,"Execution contract r1, invariant registry r1, and worked examples now make the distinction mandatory."
+UDQ-CON-002,Profile/workspace restore previously risked being read as machine-state restore.,UDQ-PROF-SPEC-001; UDQ-UI-MOD-001; UDQ-ARCH-NAR-002,CLOSED,"Restore anti-conflation is now in the execution contract, invariants, and implementation-entry docs."
+UDQ-CON-003,Graph live/review/history/live-trace language previously depended too much on narrative context.,UDQ-HIS-SPEC-001; UDQ-UI-SPEC-004; UDQ-UI-MOD-001,CLOSED,Graph mode distinctions are now first-slice requirements with explicit invariants and worked-example coverage.
+UDQ-CON-004,Implementation readiness language previously overhung blocked actuation scope.,docs/release/EXEC_SUMMARY.md; docs/handbook/NEXT_ACTIONS.md; UDQ-REQ-MAT-001,CLOSED,Sprint 2 split structural command-state readiness from physical actuation and documented the boundary explicitly.

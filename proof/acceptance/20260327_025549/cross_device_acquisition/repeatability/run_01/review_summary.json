@@ -1,0 +1,3875 @@
+{
+  "artifact_inventory": {
+    "checkpoint_latest_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/checkpoints/latest.json",
+    "checkpoint_rows": [
+      {
+        "checkpoint_id": "CHK-SESSION-CROSS-DEVICE-CLOSURE-01-503-83",
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/checkpoints/CHK-SESSION-CROSS-DEVICE-CLOSURE-01-503-83.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 83,
+        "session_id": "SESSION-CROSS-DEVICE-CLOSURE-01",
+        "state_hash": "eeaab4950031649d508f1f9dd8601ff23bb428de4f47bd7e4dc88e6f9599f9f9",
+        "timestamp": 503
+      },
+      {
+        "checkpoint_id": "CHK-SESSION-CROSS-DEVICE-CLOSURE-01-507-149",
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/checkpoints/CHK-SESSION-CROSS-DEVICE-CLOSURE-01-507-149.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 149,
+        "session_id": "SESSION-CROSS-DEVICE-CLOSURE-01",
+        "state_hash": "b016631323b5d64d28421686e61de82d59fef2c3579e25526f43e6d12577ebed",
+        "timestamp": 507
+      },
+      {
+        "checkpoint_id": "CHK-SESSION-CROSS-DEVICE-CLOSURE-01-511-227",
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/checkpoints/CHK-SESSION-CROSS-DEVICE-CLOSURE-01-511-227.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 227,
+        "session_id": "SESSION-CROSS-DEVICE-CLOSURE-01",
+        "state_hash": "55344825b9149f14fac0b7d54fbb6aa5dddb50cb77cb9783f719c56d7bf167b4",
+        "timestamp": 511
+      }
+    ],
+    "journal_latest_segment_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0067.jsonl",
+    "journal_legacy_mirror_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/session.jsonl",
+    "journal_manifest_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/manifest.json",
+    "segment_rows": [
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0001.jsonl",
+        "first_sequence_id": 1,
+        "last_sequence_id": 4,
+        "record_count": 4,
+        "relative_path": "segment-0001.jsonl",
+        "segment_id": "segment-0001",
+        "segment_ordinal": 1
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0002.jsonl",
+        "first_sequence_id": 5,
+        "last_sequence_id": 8,
+        "record_count": 4,
+        "relative_path": "segment-0002.jsonl",
+        "segment_id": "segment-0002",
+        "segment_ordinal": 2
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0003.jsonl",
+        "first_sequence_id": 9,
+        "last_sequence_id": 12,
+        "record_count": 4,
+        "relative_path": "segment-0003.jsonl",
+        "segment_id": "segment-0003",
+        "segment_ordinal": 3
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0004.jsonl",
+        "first_sequence_id": 13,
+        "last_sequence_id": 16,
+        "record_count": 4,
+        "relative_path": "segment-0004.jsonl",
+        "segment_id": "segment-0004",
+        "segment_ordinal": 4
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0005.jsonl",
+        "first_sequence_id": 17,
+        "last_sequence_id": 20,
+        "record_count": 4,
+        "relative_path": "segment-0005.jsonl",
+        "segment_id": "segment-0005",
+        "segment_ordinal": 5
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0006.jsonl",
+        "first_sequence_id": 21,
+        "last_sequence_id": 24,
+        "record_count": 4,
+        "relative_path": "segment-0006.jsonl",
+        "segment_id": "segment-0006",
+        "segment_ordinal": 6
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0007.jsonl",
+        "first_sequence_id": 25,
+        "last_sequence_id": 28,
+        "record_count": 4,
+        "relative_path": "segment-0007.jsonl",
+        "segment_id": "segment-0007",
+        "segment_ordinal": 7
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0008.jsonl",
+        "first_sequence_id": 29,
+        "last_sequence_id": 32,
+        "record_count": 4,
+        "relative_path": "segment-0008.jsonl",
+        "segment_id": "segment-0008",
+        "segment_ordinal": 8
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0009.jsonl",
+        "first_sequence_id": 33,
+        "last_sequence_id": 36,
+        "record_count": 4,
+        "relative_path": "segment-0009.jsonl",
+        "segment_id": "segment-0009",
+        "segment_ordinal": 9
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0010.jsonl",
+        "first_sequence_id": 37,
+        "last_sequence_id": 40,
+        "record_count": 4,
+        "relative_path": "segment-0010.jsonl",
+        "segment_id": "segment-0010",
+        "segment_ordinal": 10
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0011.jsonl",
+        "first_sequence_id": 41,
+        "last_sequence_id": 44,
+        "record_count": 4,
+        "relative_path": "segment-0011.jsonl",
+        "segment_id": "segment-0011",
+        "segment_ordinal": 11
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0012.jsonl",
+        "first_sequence_id": 45,
+        "last_sequence_id": 48,
+        "record_count": 4,
+        "relative_path": "segment-0012.jsonl",
+        "segment_id": "segment-0012",
+        "segment_ordinal": 12
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0013.jsonl",
+        "first_sequence_id": 49,
+        "last_sequence_id": 52,
+        "record_count": 4,
+        "relative_path": "segment-0013.jsonl",
+        "segment_id": "segment-0013",
+        "segment_ordinal": 13
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0014.jsonl",
+        "first_sequence_id": 53,
+        "last_sequence_id": 56,
+        "record_count": 4,
+        "relative_path": "segment-0014.jsonl",
+        "segment_id": "segment-0014",
+        "segment_ordinal": 14
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0015.jsonl",
+        "first_sequence_id": 57,
+        "last_sequence_id": 60,
+        "record_count": 4,
+        "relative_path": "segment-0015.jsonl",
+        "segment_id": "segment-0015",
+        "segment_ordinal": 15
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0016.jsonl",
+        "first_sequence_id": 61,
+        "last_sequence_id": 64,
+        "record_count": 4,
+        "relative_path": "segment-0016.jsonl",
+        "segment_id": "segment-0016",
+        "segment_ordinal": 16
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0017.jsonl",
+        "first_sequence_id": 65,
+        "last_sequence_id": 68,
+        "record_count": 4,
+        "relative_path": "segment-0017.jsonl",
+        "segment_id": "segment-0017",
+        "segment_ordinal": 17
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0018.jsonl",
+        "first_sequence_id": 69,
+        "last_sequence_id": 72,
+        "record_count": 4,
+        "relative_path": "segment-0018.jsonl",
+        "segment_id": "segment-0018",
+        "segment_ordinal": 18
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0019.jsonl",
+        "first_sequence_id": 73,
+        "last_sequence_id": 76,
+        "record_count": 4,
+        "relative_path": "segment-0019.jsonl",
+        "segment_id": "segment-0019",
+        "segment_ordinal": 19
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0020.jsonl",
+        "first_sequence_id": 77,
+        "last_sequence_id": 80,
+        "record_count": 4,
+        "relative_path": "segment-0020.jsonl",
+        "segment_id": "segment-0020",
+        "segment_ordinal": 20
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0021.jsonl",
+        "first_sequence_id": 81,
+        "last_sequence_id": 84,
+        "record_count": 4,
+        "relative_path": "segment-0021.jsonl",
+        "segment_id": "segment-0021",
+        "segment_ordinal": 21
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0022.jsonl",
+        "first_sequence_id": 85,
+        "last_sequence_id": 88,
+        "record_count": 4,
+        "relative_path": "segment-0022.jsonl",
+        "segment_id": "segment-0022",
+        "segment_ordinal": 22
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0023.jsonl",
+        "first_sequence_id": 89,
+        "last_sequence_id": 92,
+        "record_count": 4,
+        "relative_path": "segment-0023.jsonl",
+        "segment_id": "segment-0023",
+        "segment_ordinal": 23
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0024.jsonl",
+        "first_sequence_id": 93,
+        "last_sequence_id": 96,
+        "record_count": 4,
+        "relative_path": "segment-0024.jsonl",
+        "segment_id": "segment-0024",
+        "segment_ordinal": 24
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0025.jsonl",
+        "first_sequence_id": 97,
+        "last_sequence_id": 100,
+        "record_count": 4,
+        "relative_path": "segment-0025.jsonl",
+        "segment_id": "segment-0025",
+        "segment_ordinal": 25
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0026.jsonl",
+        "first_sequence_id": 101,
+        "last_sequence_id": 104,
+        "record_count": 4,
+        "relative_path": "segment-0026.jsonl",
+        "segment_id": "segment-0026",
+        "segment_ordinal": 26
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0027.jsonl",
+        "first_sequence_id": 105,
+        "last_sequence_id": 108,
+        "record_count": 4,
+        "relative_path": "segment-0027.jsonl",
+        "segment_id": "segment-0027",
+        "segment_ordinal": 27
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0028.jsonl",
+        "first_sequence_id": 109,
+        "last_sequence_id": 112,
+        "record_count": 4,
+        "relative_path": "segment-0028.jsonl",
+        "segment_id": "segment-0028",
+        "segment_ordinal": 28
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0029.jsonl",
+        "first_sequence_id": 113,
+        "last_sequence_id": 116,
+        "record_count": 4,
+        "relative_path": "segment-0029.jsonl",
+        "segment_id": "segment-0029",
+        "segment_ordinal": 29
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0030.jsonl",
+        "first_sequence_id": 117,
+        "last_sequence_id": 120,
+        "record_count": 4,
+        "relative_path": "segment-0030.jsonl",
+        "segment_id": "segment-0030",
+        "segment_ordinal": 30
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0031.jsonl",
+        "first_sequence_id": 121,
+        "last_sequence_id": 124,
+        "record_count": 4,
+        "relative_path": "segment-0031.jsonl",
+        "segment_id": "segment-0031",
+        "segment_ordinal": 31
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0032.jsonl",
+        "first_sequence_id": 125,
+        "last_sequence_id": 128,
+        "record_count": 4,
+        "relative_path": "segment-0032.jsonl",
+        "segment_id": "segment-0032",
+        "segment_ordinal": 32
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0033.jsonl",
+        "first_sequence_id": 129,
+        "last_sequence_id": 132,
+        "record_count": 4,
+        "relative_path": "segment-0033.jsonl",
+        "segment_id": "segment-0033",
+        "segment_ordinal": 33
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0034.jsonl",
+        "first_sequence_id": 133,
+        "last_sequence_id": 136,
+        "record_count": 4,
+        "relative_path": "segment-0034.jsonl",
+        "segment_id": "segment-0034",
+        "segment_ordinal": 34
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0035.jsonl",
+        "first_sequence_id": 137,
+        "last_sequence_id": 140,
+        "record_count": 4,
+        "relative_path": "segment-0035.jsonl",
+        "segment_id": "segment-0035",
+        "segment_ordinal": 35
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0036.jsonl",
+        "first_sequence_id": 141,
+        "last_sequence_id": 144,
+        "record_count": 4,
+        "relative_path": "segment-0036.jsonl",
+        "segment_id": "segment-0036",
+        "segment_ordinal": 36
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0037.jsonl",
+        "first_sequence_id": 145,
+        "last_sequence_id": 148,
+        "record_count": 4,
+        "relative_path": "segment-0037.jsonl",
+        "segment_id": "segment-0037",
+        "segment_ordinal": 37
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0038.jsonl",
+        "first_sequence_id": 149,
+        "last_sequence_id": 152,
+        "record_count": 4,
+        "relative_path": "segment-0038.jsonl",
+        "segment_id": "segment-0038",
+        "segment_ordinal": 38
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0039.jsonl",
+        "first_sequence_id": 153,
+        "last_sequence_id": 156,
+        "record_count": 4,
+        "relative_path": "segment-0039.jsonl",
+        "segment_id": "segment-0039",
+        "segment_ordinal": 39
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0040.jsonl",
+        "first_sequence_id": 157,
+        "last_sequence_id": 160,
+        "record_count": 4,
+        "relative_path": "segment-0040.jsonl",
+        "segment_id": "segment-0040",
+        "segment_ordinal": 40
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0041.jsonl",
+        "first_sequence_id": 161,
+        "last_sequence_id": 164,
+        "record_count": 4,
+        "relative_path": "segment-0041.jsonl",
+        "segment_id": "segment-0041",
+        "segment_ordinal": 41
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0042.jsonl",
+        "first_sequence_id": 165,
+        "last_sequence_id": 168,
+        "record_count": 4,
+        "relative_path": "segment-0042.jsonl",
+        "segment_id": "segment-0042",
+        "segment_ordinal": 42
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0043.jsonl",
+        "first_sequence_id": 169,
+        "last_sequence_id": 172,
+        "record_count": 4,
+        "relative_path": "segment-0043.jsonl",
+        "segment_id": "segment-0043",
+        "segment_ordinal": 43
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0044.jsonl",
+        "first_sequence_id": 173,
+        "last_sequence_id": 176,
+        "record_count": 4,
+        "relative_path": "segment-0044.jsonl",
+        "segment_id": "segment-0044",
+        "segment_ordinal": 44
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0045.jsonl",
+        "first_sequence_id": 177,
+        "last_sequence_id": 180,
+        "record_count": 4,
+        "relative_path": "segment-0045.jsonl",
+        "segment_id": "segment-0045",
+        "segment_ordinal": 45
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0046.jsonl",
+        "first_sequence_id": 181,
+        "last_sequence_id": 184,
+        "record_count": 4,
+        "relative_path": "segment-0046.jsonl",
+        "segment_id": "segment-0046",
+        "segment_ordinal": 46
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0047.jsonl",
+        "first_sequence_id": 185,
+        "last_sequence_id": 188,
+        "record_count": 4,
+        "relative_path": "segment-0047.jsonl",
+        "segment_id": "segment-0047",
+        "segment_ordinal": 47
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0048.jsonl",
+        "first_sequence_id": 189,
+        "last_sequence_id": 192,
+        "record_count": 4,
+        "relative_path": "segment-0048.jsonl",
+        "segment_id": "segment-0048",
+        "segment_ordinal": 48
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0049.jsonl",
+        "first_sequence_id": 193,
+        "last_sequence_id": 196,
+        "record_count": 4,
+        "relative_path": "segment-0049.jsonl",
+        "segment_id": "segment-0049",
+        "segment_ordinal": 49
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0050.jsonl",
+        "first_sequence_id": 197,
+        "last_sequence_id": 200,
+        "record_count": 4,
+        "relative_path": "segment-0050.jsonl",
+        "segment_id": "segment-0050",
+        "segment_ordinal": 50
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0051.jsonl",
+        "first_sequence_id": 201,
+        "last_sequence_id": 204,
+        "record_count": 4,
+        "relative_path": "segment-0051.jsonl",
+        "segment_id": "segment-0051",
+        "segment_ordinal": 51
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0052.jsonl",
+        "first_sequence_id": 205,
+        "last_sequence_id": 208,
+        "record_count": 4,
+        "relative_path": "segment-0052.jsonl",
+        "segment_id": "segment-0052",
+        "segment_ordinal": 52
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0053.jsonl",
+        "first_sequence_id": 209,
+        "last_sequence_id": 212,
+        "record_count": 4,
+        "relative_path": "segment-0053.jsonl",
+        "segment_id": "segment-0053",
+        "segment_ordinal": 53
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0054.jsonl",
+        "first_sequence_id": 213,
+        "last_sequence_id": 216,
+        "record_count": 4,
+        "relative_path": "segment-0054.jsonl",
+        "segment_id": "segment-0054",
+        "segment_ordinal": 54
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0055.jsonl",
+        "first_sequence_id": 217,
+        "last_sequence_id": 220,
+        "record_count": 4,
+        "relative_path": "segment-0055.jsonl",
+        "segment_id": "segment-0055",
+        "segment_ordinal": 55
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0056.jsonl",
+        "first_sequence_id": 221,
+        "last_sequence_id": 224,
+        "record_count": 4,
+        "relative_path": "segment-0056.jsonl",
+        "segment_id": "segment-0056",
+        "segment_ordinal": 56
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0057.jsonl",
+        "first_sequence_id": 225,
+        "last_sequence_id": 228,
+        "record_count": 4,
+        "relative_path": "segment-0057.jsonl",
+        "segment_id": "segment-0057",
+        "segment_ordinal": 57
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0058.jsonl",
+        "first_sequence_id": 229,
+        "last_sequence_id": 232,
+        "record_count": 4,
+        "relative_path": "segment-0058.jsonl",
+        "segment_id": "segment-0058",
+        "segment_ordinal": 58
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0059.jsonl",
+        "first_sequence_id": 233,
+        "last_sequence_id": 236,
+        "record_count": 4,
+        "relative_path": "segment-0059.jsonl",
+        "segment_id": "segment-0059",
+        "segment_ordinal": 59
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0060.jsonl",
+        "first_sequence_id": 237,
+        "last_sequence_id": 240,
+        "record_count": 4,
+        "relative_path": "segment-0060.jsonl",
+        "segment_id": "segment-0060",
+        "segment_ordinal": 60
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0061.jsonl",
+        "first_sequence_id": 241,
+        "last_sequence_id": 244,
+        "record_count": 4,
+        "relative_path": "segment-0061.jsonl",
+        "segment_id": "segment-0061",
+        "segment_ordinal": 61
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0062.jsonl",
+        "first_sequence_id": 245,
+        "last_sequence_id": 248,
+        "record_count": 4,
+        "relative_path": "segment-0062.jsonl",
+        "segment_id": "segment-0062",
+        "segment_ordinal": 62
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0063.jsonl",
+        "first_sequence_id": 249,
+        "last_sequence_id": 252,
+        "record_count": 4,
+        "relative_path": "segment-0063.jsonl",
+        "segment_id": "segment-0063",
+        "segment_ordinal": 63
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0064.jsonl",
+        "first_sequence_id": 253,
+        "last_sequence_id": 256,
+        "record_count": 4,
+        "relative_path": "segment-0064.jsonl",
+        "segment_id": "segment-0064",
+        "segment_ordinal": 64
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0065.jsonl",
+        "first_sequence_id": 257,
+        "last_sequence_id": 260,
+        "record_count": 4,
+        "relative_path": "segment-0065.jsonl",
+        "segment_id": "segment-0065",
+        "segment_ordinal": 65
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0066.jsonl",
+        "first_sequence_id": 261,
+        "last_sequence_id": 264,
+        "record_count": 4,
+        "relative_path": "segment-0066.jsonl",
+        "segment_id": "segment-0066",
+        "segment_ordinal": 66
+      },
+      {
+        "closed": false,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0067.jsonl",
+        "first_sequence_id": 265,
+        "last_sequence_id": 268,
+        "record_count": 4,
+        "relative_path": "segment-0067.jsonl",
+        "segment_id": "segment-0067",
+        "segment_ordinal": 67
+      }
+    ],
+    "session_id": "SESSION-CROSS-DEVICE-CLOSURE-01"
+  },
+  "checkpoint_summary": {
+    "checkpoint_available": true,
+    "checkpoint_id": "CHK-SESSION-CROSS-DEVICE-CLOSURE-01-511-227",
+    "checkpoint_ladder": [
+      {
+        "checkpoint_id": "CHK-SESSION-CROSS-DEVICE-CLOSURE-01-503-83",
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/checkpoints/CHK-SESSION-CROSS-DEVICE-CLOSURE-01-503-83.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 83,
+        "session_id": "SESSION-CROSS-DEVICE-CLOSURE-01",
+        "state_hash": "eeaab4950031649d508f1f9dd8601ff23bb428de4f47bd7e4dc88e6f9599f9f9",
+        "timestamp": 503
+      },
+      {
+        "checkpoint_id": "CHK-SESSION-CROSS-DEVICE-CLOSURE-01-507-149",
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/checkpoints/CHK-SESSION-CROSS-DEVICE-CLOSURE-01-507-149.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 149,
+        "session_id": "SESSION-CROSS-DEVICE-CLOSURE-01",
+        "state_hash": "b016631323b5d64d28421686e61de82d59fef2c3579e25526f43e6d12577ebed",
+        "timestamp": 507
+      },
+      {
+        "checkpoint_id": "CHK-SESSION-CROSS-DEVICE-CLOSURE-01-511-227",
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/checkpoints/CHK-SESSION-CROSS-DEVICE-CLOSURE-01-511-227.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 227,
+        "session_id": "SESSION-CROSS-DEVICE-CLOSURE-01",
+        "state_hash": "55344825b9149f14fac0b7d54fbb6aa5dddb50cb77cb9783f719c56d7bf167b4",
+        "timestamp": 511
+      }
+    ],
+    "checkpoint_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/checkpoints/latest.json",
+    "checkpoint_spacing": {
+      "average_sequence_gap": 72.0,
+      "max_sequence_gap": 78,
+      "min_sequence_gap": 66
+    },
+    "last_committed_sequence_id": 227,
+    "state_hash": "55344825b9149f14fac0b7d54fbb6aa5dddb50cb77cb9783f719c56d7bf167b4",
+    "timestamp": 511,
+    "valid_checkpoint_count": 3
+  },
+  "history_index_report": {
+    "cycle_counts_by_phase": {
+      "live": 14
+    },
+    "runtime_event_counts_by_type": {
+      "adapter_state_transition": 5,
+      "cross_device_health_summary": 14,
+      "cross_device_poll_cycle": 14,
+      "cross_device_tail_verification": 1,
+      "simultaneous_adapter_dropout": 1
+    },
+    "sample_counts_by_point": {
+      "ARDUINO-UNO-ARD-401:analog_in_0": 4,
+      "ARDUINO-UNO-ARD-401:analog_in_1": 4,
+      "ARDUINO-UNO-ARD-401:digital_in_2": 4,
+      "ARDUINO-UNO-ARD-401:digital_in_3": 4,
+      "ARDUINO-UNO-ARD-401:firmware_alive": 4,
+      "LABJACK-U6-470201:analog_in_0": 5,
+      "LABJACK-U6-470201:analog_in_1": 5,
+      "LABJACK-U6-470201:analog_in_2": 5,
+      "LABJACK-U6-470201:analog_in_3": 5,
+      "LABJACK-U6-470201:digital_in_0": 5,
+      "LABJACK-U6-470201:digital_in_1": 5,
+      "LABJACK-U6-470201:digital_in_2": 5,
+      "LABJACK-U6-470201:digital_in_3": 5,
+      "RPI-RPI-LAB-401:gpio_in_17": 5,
+      "RPI-RPI-LAB-401:gpio_in_27": 5,
+      "RPI-RPI-LAB-401:host_cpu_temp_c": 5,
+      "RPI-RPI-LAB-401:host_uptime_s": 5
+    },
+    "segments": [
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0001.jsonl",
+        "first_sequence_id": 1,
+        "last_sequence_id": 4,
+        "record_count": 4,
+        "relative_path": "segment-0001.jsonl",
+        "segment_id": "segment-0001",
+        "segment_ordinal": 1
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0002.jsonl",
+        "first_sequence_id": 5,
+        "last_sequence_id": 8,
+        "record_count": 4,
+        "relative_path": "segment-0002.jsonl",
+        "segment_id": "segment-0002",
+        "segment_ordinal": 2
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0003.jsonl",
+        "first_sequence_id": 9,
+        "last_sequence_id": 12,
+        "record_count": 4,
+        "relative_path": "segment-0003.jsonl",
+        "segment_id": "segment-0003",
+        "segment_ordinal": 3
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0004.jsonl",
+        "first_sequence_id": 13,
+        "last_sequence_id": 16,
+        "record_count": 4,
+        "relative_path": "segment-0004.jsonl",
+        "segment_id": "segment-0004",
+        "segment_ordinal": 4
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0005.jsonl",
+        "first_sequence_id": 17,
+        "last_sequence_id": 20,
+        "record_count": 4,
+        "relative_path": "segment-0005.jsonl",
+        "segment_id": "segment-0005",
+        "segment_ordinal": 5
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0006.jsonl",
+        "first_sequence_id": 21,
+        "last_sequence_id": 24,
+        "record_count": 4,
+        "relative_path": "segment-0006.jsonl",
+        "segment_id": "segment-0006",
+        "segment_ordinal": 6
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0007.jsonl",
+        "first_sequence_id": 25,
+        "last_sequence_id": 28,
+        "record_count": 4,
+        "relative_path": "segment-0007.jsonl",
+        "segment_id": "segment-0007",
+        "segment_ordinal": 7
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0008.jsonl",
+        "first_sequence_id": 29,
+        "last_sequence_id": 32,
+        "record_count": 4,
+        "relative_path": "segment-0008.jsonl",
+        "segment_id": "segment-0008",
+        "segment_ordinal": 8
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0009.jsonl",
+        "first_sequence_id": 33,
+        "last_sequence_id": 36,
+        "record_count": 4,
+        "relative_path": "segment-0009.jsonl",
+        "segment_id": "segment-0009",
+        "segment_ordinal": 9
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0010.jsonl",
+        "first_sequence_id": 37,
+        "last_sequence_id": 40,
+        "record_count": 4,
+        "relative_path": "segment-0010.jsonl",
+        "segment_id": "segment-0010",
+        "segment_ordinal": 10
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0011.jsonl",
+        "first_sequence_id": 41,
+        "last_sequence_id": 44,
+        "record_count": 4,
+        "relative_path": "segment-0011.jsonl",
+        "segment_id": "segment-0011",
+        "segment_ordinal": 11
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0012.jsonl",
+        "first_sequence_id": 45,
+        "last_sequence_id": 48,
+        "record_count": 4,
+        "relative_path": "segment-0012.jsonl",
+        "segment_id": "segment-0012",
+        "segment_ordinal": 12
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0013.jsonl",
+        "first_sequence_id": 49,
+        "last_sequence_id": 52,
+        "record_count": 4,
+        "relative_path": "segment-0013.jsonl",
+        "segment_id": "segment-0013",
+        "segment_ordinal": 13
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0014.jsonl",
+        "first_sequence_id": 53,
+        "last_sequence_id": 56,
+        "record_count": 4,
+        "relative_path": "segment-0014.jsonl",
+        "segment_id": "segment-0014",
+        "segment_ordinal": 14
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0015.jsonl",
+        "first_sequence_id": 57,
+        "last_sequence_id": 60,
+        "record_count": 4,
+        "relative_path": "segment-0015.jsonl",
+        "segment_id": "segment-0015",
+        "segment_ordinal": 15
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0016.jsonl",
+        "first_sequence_id": 61,
+        "last_sequence_id": 64,
+        "record_count": 4,
+        "relative_path": "segment-0016.jsonl",
+        "segment_id": "segment-0016",
+        "segment_ordinal": 16
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0017.jsonl",
+        "first_sequence_id": 65,
+        "last_sequence_id": 68,
+        "record_count": 4,
+        "relative_path": "segment-0017.jsonl",
+        "segment_id": "segment-0017",
+        "segment_ordinal": 17
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0018.jsonl",
+        "first_sequence_id": 69,
+        "last_sequence_id": 72,
+        "record_count": 4,
+        "relative_path": "segment-0018.jsonl",
+        "segment_id": "segment-0018",
+        "segment_ordinal": 18
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0019.jsonl",
+        "first_sequence_id": 73,
+        "last_sequence_id": 76,
+        "record_count": 4,
+        "relative_path": "segment-0019.jsonl",
+        "segment_id": "segment-0019",
+        "segment_ordinal": 19
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0020.jsonl",
+        "first_sequence_id": 77,
+        "last_sequence_id": 80,
+        "record_count": 4,
+        "relative_path": "segment-0020.jsonl",
+        "segment_id": "segment-0020",
+        "segment_ordinal": 20
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0021.jsonl",
+        "first_sequence_id": 81,
+        "last_sequence_id": 84,
+        "record_count": 4,
+        "relative_path": "segment-0021.jsonl",
+        "segment_id": "segment-0021",
+        "segment_ordinal": 21
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0022.jsonl",
+        "first_sequence_id": 85,
+        "last_sequence_id": 88,
+        "record_count": 4,
+        "relative_path": "segment-0022.jsonl",
+        "segment_id": "segment-0022",
+        "segment_ordinal": 22
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0023.jsonl",
+        "first_sequence_id": 89,
+        "last_sequence_id": 92,
+        "record_count": 4,
+        "relative_path": "segment-0023.jsonl",
+        "segment_id": "segment-0023",
+        "segment_ordinal": 23
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0024.jsonl",
+        "first_sequence_id": 93,
+        "last_sequence_id": 96,
+        "record_count": 4,
+        "relative_path": "segment-0024.jsonl",
+        "segment_id": "segment-0024",
+        "segment_ordinal": 24
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0025.jsonl",
+        "first_sequence_id": 97,
+        "last_sequence_id": 100,
+        "record_count": 4,
+        "relative_path": "segment-0025.jsonl",
+        "segment_id": "segment-0025",
+        "segment_ordinal": 25
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0026.jsonl",
+        "first_sequence_id": 101,
+        "last_sequence_id": 104,
+        "record_count": 4,
+        "relative_path": "segment-0026.jsonl",
+        "segment_id": "segment-0026",
+        "segment_ordinal": 26
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0027.jsonl",
+        "first_sequence_id": 105,
+        "last_sequence_id": 108,
+        "record_count": 4,
+        "relative_path": "segment-0027.jsonl",
+        "segment_id": "segment-0027",
+        "segment_ordinal": 27
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0028.jsonl",
+        "first_sequence_id": 109,
+        "last_sequence_id": 112,
+        "record_count": 4,
+        "relative_path": "segment-0028.jsonl",
+        "segment_id": "segment-0028",
+        "segment_ordinal": 28
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0029.jsonl",
+        "first_sequence_id": 113,
+        "last_sequence_id": 116,
+        "record_count": 4,
+        "relative_path": "segment-0029.jsonl",
+        "segment_id": "segment-0029",
+        "segment_ordinal": 29
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0030.jsonl",
+        "first_sequence_id": 117,
+        "last_sequence_id": 120,
+        "record_count": 4,
+        "relative_path": "segment-0030.jsonl",
+        "segment_id": "segment-0030",
+        "segment_ordinal": 30
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0031.jsonl",
+        "first_sequence_id": 121,
+        "last_sequence_id": 124,
+        "record_count": 4,
+        "relative_path": "segment-0031.jsonl",
+        "segment_id": "segment-0031",
+        "segment_ordinal": 31
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0032.jsonl",
+        "first_sequence_id": 125,
+        "last_sequence_id": 128,
+        "record_count": 4,
+        "relative_path": "segment-0032.jsonl",
+        "segment_id": "segment-0032",
+        "segment_ordinal": 32
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0033.jsonl",
+        "first_sequence_id": 129,
+        "last_sequence_id": 132,
+        "record_count": 4,
+        "relative_path": "segment-0033.jsonl",
+        "segment_id": "segment-0033",
+        "segment_ordinal": 33
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0034.jsonl",
+        "first_sequence_id": 133,
+        "last_sequence_id": 136,
+        "record_count": 4,
+        "relative_path": "segment-0034.jsonl",
+        "segment_id": "segment-0034",
+        "segment_ordinal": 34
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0035.jsonl",
+        "first_sequence_id": 137,
+        "last_sequence_id": 140,
+        "record_count": 4,
+        "relative_path": "segment-0035.jsonl",
+        "segment_id": "segment-0035",
+        "segment_ordinal": 35
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0036.jsonl",
+        "first_sequence_id": 141,
+        "last_sequence_id": 144,
+        "record_count": 4,
+        "relative_path": "segment-0036.jsonl",
+        "segment_id": "segment-0036",
+        "segment_ordinal": 36
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0037.jsonl",
+        "first_sequence_id": 145,
+        "last_sequence_id": 148,
+        "record_count": 4,
+        "relative_path": "segment-0037.jsonl",
+        "segment_id": "segment-0037",
+        "segment_ordinal": 37
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0038.jsonl",
+        "first_sequence_id": 149,
+        "last_sequence_id": 152,
+        "record_count": 4,
+        "relative_path": "segment-0038.jsonl",
+        "segment_id": "segment-0038",
+        "segment_ordinal": 38
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0039.jsonl",
+        "first_sequence_id": 153,
+        "last_sequence_id": 156,
+        "record_count": 4,
+        "relative_path": "segment-0039.jsonl",
+        "segment_id": "segment-0039",
+        "segment_ordinal": 39
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0040.jsonl",
+        "first_sequence_id": 157,
+        "last_sequence_id": 160,
+        "record_count": 4,
+        "relative_path": "segment-0040.jsonl",
+        "segment_id": "segment-0040",
+        "segment_ordinal": 40
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0041.jsonl",
+        "first_sequence_id": 161,
+        "last_sequence_id": 164,
+        "record_count": 4,
+        "relative_path": "segment-0041.jsonl",
+        "segment_id": "segment-0041",
+        "segment_ordinal": 41
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0042.jsonl",
+        "first_sequence_id": 165,
+        "last_sequence_id": 168,
+        "record_count": 4,
+        "relative_path": "segment-0042.jsonl",
+        "segment_id": "segment-0042",
+        "segment_ordinal": 42
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0043.jsonl",
+        "first_sequence_id": 169,
+        "last_sequence_id": 172,
+        "record_count": 4,
+        "relative_path": "segment-0043.jsonl",
+        "segment_id": "segment-0043",
+        "segment_ordinal": 43
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0044.jsonl",
+        "first_sequence_id": 173,
+        "last_sequence_id": 176,
+        "record_count": 4,
+        "relative_path": "segment-0044.jsonl",
+        "segment_id": "segment-0044",
+        "segment_ordinal": 44
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0045.jsonl",
+        "first_sequence_id": 177,
+        "last_sequence_id": 180,
+        "record_count": 4,
+        "relative_path": "segment-0045.jsonl",
+        "segment_id": "segment-0045",
+        "segment_ordinal": 45
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0046.jsonl",
+        "first_sequence_id": 181,
+        "last_sequence_id": 184,
+        "record_count": 4,
+        "relative_path": "segment-0046.jsonl",
+        "segment_id": "segment-0046",
+        "segment_ordinal": 46
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0047.jsonl",
+        "first_sequence_id": 185,
+        "last_sequence_id": 188,
+        "record_count": 4,
+        "relative_path": "segment-0047.jsonl",
+        "segment_id": "segment-0047",
+        "segment_ordinal": 47
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0048.jsonl",
+        "first_sequence_id": 189,
+        "last_sequence_id": 192,
+        "record_count": 4,
+        "relative_path": "segment-0048.jsonl",
+        "segment_id": "segment-0048",
+        "segment_ordinal": 48
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0049.jsonl",
+        "first_sequence_id": 193,
+        "last_sequence_id": 196,
+        "record_count": 4,
+        "relative_path": "segment-0049.jsonl",
+        "segment_id": "segment-0049",
+        "segment_ordinal": 49
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0050.jsonl",
+        "first_sequence_id": 197,
+        "last_sequence_id": 200,
+        "record_count": 4,
+        "relative_path": "segment-0050.jsonl",
+        "segment_id": "segment-0050",
+        "segment_ordinal": 50
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0051.jsonl",
+        "first_sequence_id": 201,
+        "last_sequence_id": 204,
+        "record_count": 4,
+        "relative_path": "segment-0051.jsonl",
+        "segment_id": "segment-0051",
+        "segment_ordinal": 51
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0052.jsonl",
+        "first_sequence_id": 205,
+        "last_sequence_id": 208,
+        "record_count": 4,
+        "relative_path": "segment-0052.jsonl",
+        "segment_id": "segment-0052",
+        "segment_ordinal": 52
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0053.jsonl",
+        "first_sequence_id": 209,
+        "last_sequence_id": 212,
+        "record_count": 4,
+        "relative_path": "segment-0053.jsonl",
+        "segment_id": "segment-0053",
+        "segment_ordinal": 53
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0054.jsonl",
+        "first_sequence_id": 213,
+        "last_sequence_id": 216,
+        "record_count": 4,
+        "relative_path": "segment-0054.jsonl",
+        "segment_id": "segment-0054",
+        "segment_ordinal": 54
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0055.jsonl",
+        "first_sequence_id": 217,
+        "last_sequence_id": 220,
+        "record_count": 4,
+        "relative_path": "segment-0055.jsonl",
+        "segment_id": "segment-0055",
+        "segment_ordinal": 55
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0056.jsonl",
+        "first_sequence_id": 221,
+        "last_sequence_id": 224,
+        "record_count": 4,
+        "relative_path": "segment-0056.jsonl",
+        "segment_id": "segment-0056",
+        "segment_ordinal": 56
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0057.jsonl",
+        "first_sequence_id": 225,
+        "last_sequence_id": 228,
+        "record_count": 4,
+        "relative_path": "segment-0057.jsonl",
+        "segment_id": "segment-0057",
+        "segment_ordinal": 57
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0058.jsonl",
+        "first_sequence_id": 229,
+        "last_sequence_id": 232,
+        "record_count": 4,
+        "relative_path": "segment-0058.jsonl",
+        "segment_id": "segment-0058",
+        "segment_ordinal": 58
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0059.jsonl",
+        "first_sequence_id": 233,
+        "last_sequence_id": 236,
+        "record_count": 4,
+        "relative_path": "segment-0059.jsonl",
+        "segment_id": "segment-0059",
+        "segment_ordinal": 59
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0060.jsonl",
+        "first_sequence_id": 237,
+        "last_sequence_id": 240,
+        "record_count": 4,
+        "relative_path": "segment-0060.jsonl",
+        "segment_id": "segment-0060",
+        "segment_ordinal": 60
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0061.jsonl",
+        "first_sequence_id": 241,
+        "last_sequence_id": 244,
+        "record_count": 4,
+        "relative_path": "segment-0061.jsonl",
+        "segment_id": "segment-0061",
+        "segment_ordinal": 61
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0062.jsonl",
+        "first_sequence_id": 245,
+        "last_sequence_id": 248,
+        "record_count": 4,
+        "relative_path": "segment-0062.jsonl",
+        "segment_id": "segment-0062",
+        "segment_ordinal": 62
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0063.jsonl",
+        "first_sequence_id": 249,
+        "last_sequence_id": 252,
+        "record_count": 4,
+        "relative_path": "segment-0063.jsonl",
+        "segment_id": "segment-0063",
+        "segment_ordinal": 63
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0064.jsonl",
+        "first_sequence_id": 253,
+        "last_sequence_id": 256,
+        "record_count": 4,
+        "relative_path": "segment-0064.jsonl",
+        "segment_id": "segment-0064",
+        "segment_ordinal": 64
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0065.jsonl",
+        "first_sequence_id": 257,
+        "last_sequence_id": 260,
+        "record_count": 4,
+        "relative_path": "segment-0065.jsonl",
+        "segment_id": "segment-0065",
+        "segment_ordinal": 65
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0066.jsonl",
+        "first_sequence_id": 261,
+        "last_sequence_id": 264,
+        "record_count": 4,
+        "relative_path": "segment-0066.jsonl",
+        "segment_id": "segment-0066",
+        "segment_ordinal": 66
+      },
+      {
+        "closed": false,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0067.jsonl",
+        "first_sequence_id": 265,
+        "last_sequence_id": 268,
+        "record_count": 4,
+        "relative_path": "segment-0067.jsonl",
+        "segment_id": "segment-0067",
+        "segment_ordinal": 67
+      }
+    ],
+    "time_range": {
+      "max_timestamp": 514,
+      "min_timestamp": 0
+    },
+    "valid_checkpoint_sequence_ids": [
+      83,
+      149,
+      227
+    ],
+    "variable_ids": [
+      "VAR-MIXED-ANALOG-DELTA",
+      "VAR-MIXED-ANALOG-SUM",
+      "VAR-MIXED-RPI-CPU-GATE"
+    ]
+  },
+  "history_tier_summary": {
+    "cold": {
+      "checkpoint_count": 3,
+      "persisted_record_count": 268,
+      "segment_count": 67
+    },
+    "hot": {
+      "presentation_snapshot_available": true,
+      "recent_sample_count": 80,
+      "recent_signal_count": 17
+    },
+    "warm": {
+      "cycle_row_count": 14,
+      "runtime_event_count": 35,
+      "variable_row_count": 3
+    }
+  },
+  "recent_cycle_rows": [
+    {
+      "active_adapter_id": "BROKER-MIXED-001",
+      "active_device_key": "MIXED-SOURCE-SESSION",
+      "changed_signal_count": 17,
+      "changed_signal_ids": [
+        "ARDUINO-UNO-ARD-401:analog_in_0",
+        "ARDUINO-UNO-ARD-401:analog_in_1",
+        "ARDUINO-UNO-ARD-401:digital_in_2",
+        "ARDUINO-UNO-ARD-401:digital_in_3",
+        "ARDUINO-UNO-ARD-401:firmware_alive",
+        "LABJACK-U6-470201:analog_in_0",
+        "LABJACK-U6-470201:analog_in_1",
+        "LABJACK-U6-470201:analog_in_2",
+        "LABJACK-U6-470201:analog_in_3",
+        "LABJACK-U6-470201:digital_in_0",
+        "LABJACK-U6-470201:digital_in_1",
+        "LABJACK-U6-470201:digital_in_2",
+        "LABJACK-U6-470201:digital_in_3",
+        "RPI-RPI-LAB-401:host_cpu_temp_c",
+        "RPI-RPI-LAB-401:host_uptime_s",
+        "RPI-RPI-LAB-401:gpio_in_17",
+        "RPI-RPI-LAB-401:gpio_in_27"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 3
+    },
+    {
+      "active_adapter_id": "BROKER-MIXED-001",
+      "active_device_key": "MIXED-SOURCE-SESSION",
+      "changed_signal_count": 17,
+      "changed_signal_ids": [
+        "ARDUINO-UNO-ARD-401:analog_in_0",
+        "ARDUINO-UNO-ARD-401:analog_in_1",
+        "ARDUINO-UNO-ARD-401:digital_in_2",
+        "ARDUINO-UNO-ARD-401:digital_in_3",
+        "ARDUINO-UNO-ARD-401:firmware_alive",
+        "LABJACK-U6-470201:analog_in_0",
+        "LABJACK-U6-470201:analog_in_1",
+        "LABJACK-U6-470201:analog_in_2",
+        "LABJACK-U6-470201:analog_in_3",
+        "LABJACK-U6-470201:digital_in_0",
+        "LABJACK-U6-470201:digital_in_1",
+        "LABJACK-U6-470201:digital_in_2",
+        "LABJACK-U6-470201:digital_in_3",
+        "RPI-RPI-LAB-401:host_cpu_temp_c",
+        "RPI-RPI-LAB-401:host_uptime_s",
+        "RPI-RPI-LAB-401:gpio_in_17",
+        "RPI-RPI-LAB-401:gpio_in_27"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 3
+    },
+    {
+      "active_adapter_id": "BROKER-MIXED-001",
+      "active_device_key": "MIXED-SOURCE-SESSION",
+      "changed_signal_count": 17,
+      "changed_signal_ids": [
+        "ARDUINO-UNO-ARD-401:analog_in_0",
+        "ARDUINO-UNO-ARD-401:analog_in_1",
+        "ARDUINO-UNO-ARD-401:digital_in_2",
+        "ARDUINO-UNO-ARD-401:digital_in_3",
+        "ARDUINO-UNO-ARD-401:firmware_alive",
+        "LABJACK-U6-470201:analog_in_0",
+        "LABJACK-U6-470201:analog_in_1",
+        "LABJACK-U6-470201:analog_in_2",
+        "LABJACK-U6-470201:analog_in_3",
+        "LABJACK-U6-470201:digital_in_0",
+        "LABJACK-U6-470201:digital_in_1",
+        "LABJACK-U6-470201:digital_in_2",
+        "LABJACK-U6-470201:digital_in_3",
+        "RPI-RPI-LAB-401:host_cpu_temp_c",
+        "RPI-RPI-LAB-401:host_uptime_s",
+        "RPI-RPI-LAB-401:gpio_in_17",
+        "RPI-RPI-LAB-401:gpio_in_27"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 3
+    },
+    {
+      "active_adapter_id": "BROKER-MIXED-001",
+      "active_device_key": "MIXED-SOURCE-SESSION",
+      "changed_signal_count": 17,
+      "changed_signal_ids": [
+        "ARDUINO-UNO-ARD-401:analog_in_0",
+        "ARDUINO-UNO-ARD-401:analog_in_1",
+        "ARDUINO-UNO-ARD-401:digital_in_2",
+        "ARDUINO-UNO-ARD-401:digital_in_3",
+        "ARDUINO-UNO-ARD-401:firmware_alive",
+        "LABJACK-U6-470201:analog_in_0",
+        "LABJACK-U6-470201:analog_in_1",
+        "LABJACK-U6-470201:analog_in_2",
+        "LABJACK-U6-470201:analog_in_3",
+        "LABJACK-U6-470201:digital_in_0",
+        "LABJACK-U6-470201:digital_in_1",
+        "LABJACK-U6-470201:digital_in_2",
+        "LABJACK-U6-470201:digital_in_3",
+        "RPI-RPI-LAB-401:host_cpu_temp_c",
+        "RPI-RPI-LAB-401:host_uptime_s",
+        "RPI-RPI-LAB-401:gpio_in_17",
+        "RPI-RPI-LAB-401:gpio_in_27"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 3
+    },
+    {
+      "active_adapter_id": "BROKER-MIXED-001",
+      "active_device_key": "MIXED-SOURCE-SESSION",
+      "changed_signal_count": 4,
+      "changed_signal_ids": [
+        "RPI-RPI-LAB-401:host_cpu_temp_c",
+        "RPI-RPI-LAB-401:host_uptime_s",
+        "RPI-RPI-LAB-401:gpio_in_17",
+        "RPI-RPI-LAB-401:gpio_in_27"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": true,
+      "phase": "live",
+      "total_variable_count": 3
+    },
+    {
+      "active_adapter_id": "BROKER-MIXED-001",
+      "active_device_key": "MIXED-SOURCE-SESSION",
+      "changed_signal_count": 12,
+      "changed_signal_ids": [
+        "LABJACK-U6-470201:analog_in_0",
+        "LABJACK-U6-470201:analog_in_1",
+        "LABJACK-U6-470201:analog_in_2",
+        "LABJACK-U6-470201:analog_in_3",
+        "LABJACK-U6-470201:digital_in_0",
+        "LABJACK-U6-470201:digital_in_1",
+        "LABJACK-U6-470201:digital_in_2",
+        "LABJACK-U6-470201:digital_in_3",
+        "RPI-RPI-LAB-401:host_cpu_temp_c",
+        "RPI-RPI-LAB-401:host_uptime_s",
+        "RPI-RPI-LAB-401:gpio_in_17",
+        "RPI-RPI-LAB-401:gpio_in_27"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": true,
+      "phase": "live",
+      "total_variable_count": 3
+    },
+    {
+      "active_adapter_id": "BROKER-MIXED-001",
+      "active_device_key": "MIXED-SOURCE-SESSION",
+      "changed_signal_count": 17,
+      "changed_signal_ids": [
+        "ARDUINO-UNO-ARD-401:analog_in_0",
+        "ARDUINO-UNO-ARD-401:analog_in_1",
+        "ARDUINO-UNO-ARD-401:digital_in_2",
+        "ARDUINO-UNO-ARD-401:digital_in_3",
+        "ARDUINO-UNO-ARD-401:firmware_alive",
+        "LABJACK-U6-470201:analog_in_0",
+        "LABJACK-U6-470201:analog_in_1",
+        "LABJACK-U6-470201:analog_in_2",
+        "LABJACK-U6-470201:analog_in_3",
+        "LABJACK-U6-470201:digital_in_0",
+        "LABJACK-U6-470201:digital_in_1",
+        "LABJACK-U6-470201:digital_in_2",
+        "LABJACK-U6-470201:digital_in_3",
+        "RPI-RPI-LAB-401:host_cpu_temp_c",
+        "RPI-RPI-LAB-401:host_uptime_s",
+        "RPI-RPI-LAB-401:gpio_in_17",
+        "RPI-RPI-LAB-401:gpio_in_27"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 3
+    },
+    {
+      "active_adapter_id": "BROKER-MIXED-001",
+      "active_device_key": "MIXED-SOURCE-SESSION",
+      "changed_signal_count": 17,
+      "changed_signal_ids": [
+        "ARDUINO-UNO-ARD-401:analog_in_0",
+        "ARDUINO-UNO-ARD-401:analog_in_1",
+        "ARDUINO-UNO-ARD-401:digital_in_2",
+        "ARDUINO-UNO-ARD-401:digital_in_3",
+        "ARDUINO-UNO-ARD-401:firmware_alive",
+        "LABJACK-U6-470201:analog_in_0",
+        "LABJACK-U6-470201:analog_in_1",
+        "LABJACK-U6-470201:analog_in_2",
+        "LABJACK-U6-470201:analog_in_3",
+        "LABJACK-U6-470201:digital_in_0",
+        "LABJACK-U6-470201:digital_in_1",
+        "LABJACK-U6-470201:digital_in_2",
+        "LABJACK-U6-470201:digital_in_3",
+        "RPI-RPI-LAB-401:host_cpu_temp_c",
+        "RPI-RPI-LAB-401:host_uptime_s",
+        "RPI-RPI-LAB-401:gpio_in_17",
+        "RPI-RPI-LAB-401:gpio_in_27"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 3
+    },
+    {
+      "active_adapter_id": "BROKER-MIXED-001",
+      "active_device_key": "MIXED-SOURCE-SESSION",
+      "changed_signal_count": 13,
+      "changed_signal_ids": [
+        "ARDUINO-UNO-ARD-401:analog_in_0",
+        "ARDUINO-UNO-ARD-401:analog_in_1",
+        "ARDUINO-UNO-ARD-401:digital_in_2",
+        "ARDUINO-UNO-ARD-401:digital_in_3",
+        "ARDUINO-UNO-ARD-401:firmware_alive",
+        "LABJACK-U6-470201:analog_in_0",
+        "LABJACK-U6-470201:analog_in_1",
+        "LABJACK-U6-470201:analog_in_2",
+        "LABJACK-U6-470201:analog_in_3",
+        "LABJACK-U6-470201:digital_in_0",
+        "LABJACK-U6-470201:digital_in_1",
+        "LABJACK-U6-470201:digital_in_2",
+        "LABJACK-U6-470201:digital_in_3"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": true,
+      "phase": "live",
+      "total_variable_count": 3
+    },
+    {
+      "active_adapter_id": "BROKER-MIXED-001",
+      "active_device_key": "MIXED-SOURCE-SESSION",
+      "changed_signal_count": 17,
+      "changed_signal_ids": [
+        "ARDUINO-UNO-ARD-401:analog_in_0",
+        "ARDUINO-UNO-ARD-401:analog_in_1",
+        "ARDUINO-UNO-ARD-401:digital_in_2",
+        "ARDUINO-UNO-ARD-401:digital_in_3",
+        "ARDUINO-UNO-ARD-401:firmware_alive",
+        "LABJACK-U6-470201:analog_in_0",
+        "LABJACK-U6-470201:analog_in_1",
+        "LABJACK-U6-470201:analog_in_2",
+        "LABJACK-U6-470201:analog_in_3",
+        "LABJACK-U6-470201:digital_in_0",
+        "LABJACK-U6-470201:digital_in_1",
+        "LABJACK-U6-470201:digital_in_2",
+        "LABJACK-U6-470201:digital_in_3",
+        "RPI-RPI-LAB-401:host_cpu_temp_c",
+        "RPI-RPI-LAB-401:host_uptime_s",
+        "RPI-RPI-LAB-401:gpio_in_17",
+        "RPI-RPI-LAB-401:gpio_in_27"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 3
+    },
+    {
+      "active_adapter_id": "BROKER-MIXED-001",
+      "active_device_key": "MIXED-SOURCE-SESSION",
+      "changed_signal_count": 17,
+      "changed_signal_ids": [
+        "ARDUINO-UNO-ARD-401:analog_in_0",
+        "ARDUINO-UNO-ARD-401:analog_in_1",
+        "ARDUINO-UNO-ARD-401:digital_in_2",
+        "ARDUINO-UNO-ARD-401:digital_in_3",
+        "ARDUINO-UNO-ARD-401:firmware_alive",
+        "LABJACK-U6-470201:analog_in_0",
+        "LABJACK-U6-470201:analog_in_1",
+        "LABJACK-U6-470201:analog_in_2",
+        "LABJACK-U6-470201:analog_in_3",
+        "LABJACK-U6-470201:digital_in_0",
+        "LABJACK-U6-470201:digital_in_1",
+        "LABJACK-U6-470201:digital_in_2",
+        "LABJACK-U6-470201:digital_in_3",
+        "RPI-RPI-LAB-401:host_cpu_temp_c",
+        "RPI-RPI-LAB-401:host_uptime_s",
+        "RPI-RPI-LAB-401:gpio_in_17",
+        "RPI-RPI-LAB-401:gpio_in_27"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 3
+    },
+    {
+      "active_adapter_id": "BROKER-MIXED-001",
+      "active_device_key": "MIXED-SOURCE-SESSION",
+      "changed_signal_count": 17,
+      "changed_signal_ids": [
+        "ARDUINO-UNO-ARD-401:analog_in_0",
+        "ARDUINO-UNO-ARD-401:analog_in_1",
+        "ARDUINO-UNO-ARD-401:digital_in_2",
+        "ARDUINO-UNO-ARD-401:digital_in_3",
+        "ARDUINO-UNO-ARD-401:firmware_alive",
+        "LABJACK-U6-470201:analog_in_0",
+        "LABJACK-U6-470201:analog_in_1",
+        "LABJACK-U6-470201:analog_in_2",
+        "LABJACK-U6-470201:analog_in_3",
+        "LABJACK-U6-470201:digital_in_0",
+        "LABJACK-U6-470201:digital_in_1",
+        "LABJACK-U6-470201:digital_in_2",
+        "LABJACK-U6-470201:digital_in_3",
+        "RPI-RPI-LAB-401:host_cpu_temp_c",
+        "RPI-RPI-LAB-401:host_uptime_s",
+        "RPI-RPI-LAB-401:gpio_in_17",
+        "RPI-RPI-LAB-401:gpio_in_27"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 3
+    },
+    {
+      "active_adapter_id": "BROKER-MIXED-001",
+      "active_device_key": "MIXED-SOURCE-SESSION",
+      "changed_signal_count": 17,
+      "changed_signal_ids": [
+        "ARDUINO-UNO-ARD-401:analog_in_0",
+        "ARDUINO-UNO-ARD-401:analog_in_1",
+        "ARDUINO-UNO-ARD-401:digital_in_2",
+        "ARDUINO-UNO-ARD-401:digital_in_3",
+        "ARDUINO-UNO-ARD-401:firmware_alive",
+        "LABJACK-U6-470201:analog_in_0",
+        "LABJACK-U6-470201:analog_in_1",
+        "LABJACK-U6-470201:analog_in_2",
+        "LABJACK-U6-470201:analog_in_3",
+        "LABJACK-U6-470201:digital_in_0",
+        "LABJACK-U6-470201:digital_in_1",
+        "LABJACK-U6-470201:digital_in_2",
+        "LABJACK-U6-470201:digital_in_3",
+        "RPI-RPI-LAB-401:host_cpu_temp_c",
+        "RPI-RPI-LAB-401:host_uptime_s",
+        "RPI-RPI-LAB-401:gpio_in_17",
+        "RPI-RPI-LAB-401:gpio_in_27"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 3
+    },
+    {
+      "active_adapter_id": "BROKER-MIXED-001",
+      "active_device_key": "MIXED-SOURCE-SESSION",
+      "changed_signal_count": 17,
+      "changed_signal_ids": [
+        "ARDUINO-UNO-ARD-401:analog_in_0",
+        "ARDUINO-UNO-ARD-401:analog_in_1",
+        "ARDUINO-UNO-ARD-401:digital_in_2",
+        "ARDUINO-UNO-ARD-401:digital_in_3",
+        "ARDUINO-UNO-ARD-401:firmware_alive",
+        "LABJACK-U6-470201:analog_in_0",
+        "LABJACK-U6-470201:analog_in_1",
+        "LABJACK-U6-470201:analog_in_2",
+        "LABJACK-U6-470201:analog_in_3",
+        "LABJACK-U6-470201:digital_in_0",
+        "LABJACK-U6-470201:digital_in_1",
+        "LABJACK-U6-470201:digital_in_2",
+        "LABJACK-U6-470201:digital_in_3",
+        "RPI-RPI-LAB-401:host_cpu_temp_c",
+        "RPI-RPI-LAB-401:host_uptime_s",
+        "RPI-RPI-LAB-401:gpio_in_17",
+        "RPI-RPI-LAB-401:gpio_in_27"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 3
+    }
+  ],
+  "recent_runtime_event_rows": [
+    {
+      "degraded_adapter_count": 0,
+      "event_type": "cross_device_health_summary",
+      "healthy_adapter_count": 3,
+      "record_type": "runtime_event",
+      "runtime_mode": "mixed_source_read_only",
+      "timestamp": 500
+    },
+    {
+      "adapter_count": 3,
+      "event_type": "cross_device_poll_cycle",
+      "record_type": "runtime_event",
+      "sample_count": 17,
+      "tag_count": 21,
+      "timestamp": 500
+    },
+    {
+      "degraded_adapter_count": 0,
+      "event_type": "cross_device_health_summary",
+      "healthy_adapter_count": 3,
+      "record_type": "runtime_event",
+      "runtime_mode": "mixed_source_read_only",
+      "timestamp": 501
+    },
+    {
+      "adapter_count": 3,
+      "event_type": "cross_device_poll_cycle",
+      "record_type": "runtime_event",
+      "sample_count": 17,
+      "tag_count": 21,
+      "timestamp": 501
+    },
+    {
+      "degraded_adapter_count": 0,
+      "event_type": "cross_device_health_summary",
+      "healthy_adapter_count": 3,
+      "record_type": "runtime_event",
+      "runtime_mode": "mixed_source_read_only",
+      "timestamp": 502
+    },
+    {
+      "adapter_count": 3,
+      "event_type": "cross_device_poll_cycle",
+      "record_type": "runtime_event",
+      "sample_count": 17,
+      "tag_count": 21,
+      "timestamp": 502
+    },
+    {
+      "degraded_adapter_count": 0,
+      "event_type": "cross_device_health_summary",
+      "healthy_adapter_count": 3,
+      "record_type": "runtime_event",
+      "runtime_mode": "mixed_source_read_only",
+      "timestamp": 503
+    },
+    {
+      "adapter_count": 3,
+      "event_type": "cross_device_poll_cycle",
+      "record_type": "runtime_event",
+      "sample_count": 17,
+      "tag_count": 21,
+      "timestamp": 503
+    },
+    {
+      "action": "drop",
+      "active_adapter_count_after": 1,
+      "adapter_ids": "ARDUINO-UNO-ARD-401,LABJACK-U6-470201",
+      "event_type": "adapter_state_transition",
+      "record_type": "runtime_event",
+      "timestamp": 504,
+      "transition_count": 2
+    },
+    {
+      "adapter_ids": "ARDUINO-UNO-ARD-401,LABJACK-U6-470201",
+      "drop_count": 2,
+      "event_type": "simultaneous_adapter_dropout",
+      "record_type": "runtime_event",
+      "timestamp": 504
+    },
+    {
+      "degraded_adapter_count": 2,
+      "event_type": "cross_device_health_summary",
+      "healthy_adapter_count": 1,
+      "record_type": "runtime_event",
+      "runtime_mode": "mixed_source_read_only",
+      "timestamp": 504
+    },
+    {
+      "adapter_count": 1,
+      "event_type": "cross_device_poll_cycle",
+      "record_type": "runtime_event",
+      "sample_count": 4,
+      "tag_count": 21,
+      "timestamp": 504
+    },
+    {
+      "action": "restore",
+      "active_adapter_count_after": 2,
+      "adapter_ids": "LABJACK-U6-470201",
+      "event_type": "adapter_state_transition",
+      "record_type": "runtime_event",
+      "timestamp": 505,
+      "transition_count": 1
+    },
+    {
+      "degraded_adapter_count": 1,
+      "event_type": "cross_device_health_summary",
+      "healthy_adapter_count": 2,
+      "record_type": "runtime_event",
+      "runtime_mode": "mixed_source_read_only",
+      "timestamp": 505
+    },
+    {
+      "adapter_count": 2,
+      "event_type": "cross_device_poll_cycle",
+      "record_type": "runtime_event",
+      "sample_count": 12,
+      "tag_count": 21,
+      "timestamp": 505
+    },
+    {
+      "action": "restore",
+      "active_adapter_count_after": 3,
+      "adapter_ids": "ARDUINO-UNO-ARD-401",
+      "event_type": "adapter_state_transition",
+      "record_type": "runtime_event",
+      "timestamp": 506,
+      "transition_count": 1
+    },
+    {
+      "degraded_adapter_count": 0,
+      "event_type": "cross_device_health_summary",
+      "healthy_adapter_count": 3,
+      "record_type": "runtime_event",
+      "runtime_mode": "mixed_source_read_only",
+      "timestamp": 506
+    },
+    {
+      "adapter_count": 3,
+      "event_type": "cross_device_poll_cycle",
+      "record_type": "runtime_event",
+      "sample_count": 17,
+      "tag_count": 21,
+      "timestamp": 506
+    },
+    {
+      "degraded_adapter_count": 0,
+      "event_type": "cross_device_health_summary",
+      "healthy_adapter_count": 3,
+      "record_type": "runtime_event",
+      "runtime_mode": "mixed_source_read_only",
+      "timestamp": 507
+    },
+    {
+      "adapter_count": 3,
+      "event_type": "cross_device_poll_cycle",
+      "record_type": "runtime_event",
+      "sample_count": 17,
+      "tag_count": 21,
+      "timestamp": 507
+    },
+    {
+      "action": "drop",
+      "active_adapter_count_after": 2,
+      "adapter_ids": "RPI-RPI-LAB-401",
+      "event_type": "adapter_state_transition",
+      "record_type": "runtime_event",
+      "timestamp": 508,
+      "transition_count": 1
+    },
+    {
+      "degraded_adapter_count": 1,
+      "event_type": "cross_device_health_summary",
+      "healthy_adapter_count": 2,
+      "record_type": "runtime_event",
+      "runtime_mode": "mixed_source_read_only",
+      "timestamp": 508
+    },
+    {
+      "adapter_count": 2,
+      "event_type": "cross_device_poll_cycle",
+      "record_type": "runtime_event",
+      "sample_count": 13,
+      "tag_count": 21,
+      "timestamp": 508
+    },
+    {
+      "action": "restore",
+      "active_adapter_count_after": 3,
+      "adapter_ids": "RPI-RPI-LAB-401",
+      "event_type": "adapter_state_transition",
+      "record_type": "runtime_event",
+      "timestamp": 509,
+      "transition_count": 1
+    },
+    {
+      "degraded_adapter_count": 0,
+      "event_type": "cross_device_health_summary",
+      "healthy_adapter_count": 3,
+      "record_type": "runtime_event",
+      "runtime_mode": "mixed_source_read_only",
+      "timestamp": 509
+    },
+    {
+      "adapter_count": 3,
+      "event_type": "cross_device_poll_cycle",
+      "record_type": "runtime_event",
+      "sample_count": 17,
+      "tag_count": 21,
+      "timestamp": 509
+    },
+    {
+      "degraded_adapter_count": 0,
+      "event_type": "cross_device_health_summary",
+      "healthy_adapter_count": 3,
+      "record_type": "runtime_event",
+      "runtime_mode": "mixed_source_read_only",
+      "timestamp": 510
+    },
+    {
+      "adapter_count": 3,
+      "event_type": "cross_device_poll_cycle",
+      "record_type": "runtime_event",
+      "sample_count": 17,
+      "tag_count": 21,
+      "timestamp": 510
+    },
+    {
+      "degraded_adapter_count": 0,
+      "event_type": "cross_device_health_summary",
+      "healthy_adapter_count": 3,
+      "record_type": "runtime_event",
+      "runtime_mode": "mixed_source_read_only",
+      "timestamp": 511
+    },
+    {
+      "adapter_count": 3,
+      "event_type": "cross_device_poll_cycle",
+      "record_type": "runtime_event",
+      "sample_count": 17,
+      "tag_count": 21,
+      "timestamp": 511
+    },
+    {
+      "degraded_adapter_count": 0,
+      "event_type": "cross_device_health_summary",
+      "healthy_adapter_count": 3,
+      "record_type": "runtime_event",
+      "runtime_mode": "mixed_source_read_only",
+      "timestamp": 512
+    },
+    {
+      "adapter_count": 3,
+      "event_type": "cross_device_poll_cycle",
+      "record_type": "runtime_event",
+      "sample_count": 17,
+      "tag_count": 21,
+      "timestamp": 512
+    },
+    {
+      "degraded_adapter_count": 0,
+      "event_type": "cross_device_health_summary",
+      "healthy_adapter_count": 3,
+      "record_type": "runtime_event",
+      "runtime_mode": "mixed_source_read_only",
+      "timestamp": 513
+    },
+    {
+      "adapter_count": 3,
+      "event_type": "cross_device_poll_cycle",
+      "record_type": "runtime_event",
+      "sample_count": 17,
+      "tag_count": 21,
+      "timestamp": 513
+    },
+    {
+      "activated_adapter_count": 3,
+      "degraded_transition_count": 5,
+      "event_type": "cross_device_tail_verification",
+      "record_type": "runtime_event",
+      "timestamp": 514
+    }
+  ],
+  "recent_sample_rows": [
+    {
+      "point_id": "host_cpu_temp_c",
+      "point_key": "RPI-RPI-LAB-401:host_cpu_temp_c",
+      "quality": "simulated",
+      "timestamp": 501,
+      "units": "degC",
+      "value": "48.2"
+    },
+    {
+      "point_id": "host_uptime_s",
+      "point_key": "RPI-RPI-LAB-401:host_uptime_s",
+      "quality": "simulated",
+      "timestamp": 501,
+      "units": "s",
+      "value": "3600"
+    },
+    {
+      "point_id": "analog_in_0",
+      "point_key": "ARDUINO-UNO-ARD-401:analog_in_0",
+      "quality": "simulated",
+      "timestamp": 502,
+      "units": "V",
+      "value": "0.812"
+    },
+    {
+      "point_id": "analog_in_1",
+      "point_key": "ARDUINO-UNO-ARD-401:analog_in_1",
+      "quality": "simulated",
+      "timestamp": 502,
+      "units": "V",
+      "value": "1.437"
+    },
+    {
+      "point_id": "digital_in_2",
+      "point_key": "ARDUINO-UNO-ARD-401:digital_in_2",
+      "quality": "simulated",
+      "timestamp": 502,
+      "units": "",
+      "value": "1"
+    },
+    {
+      "point_id": "digital_in_3",
+      "point_key": "ARDUINO-UNO-ARD-401:digital_in_3",
+      "quality": "simulated",
+      "timestamp": 502,
+      "units": "",
+      "value": "0"
+    },
+    {
+      "point_id": "firmware_alive",
+      "point_key": "ARDUINO-UNO-ARD-401:firmware_alive",
+      "quality": "simulated",
+      "timestamp": 502,
+      "units": "",
+      "value": "1"
+    },
+    {
+      "point_id": "analog_in_0",
+      "point_key": "LABJACK-U6-470201:analog_in_0",
+      "quality": "simulated",
+      "timestamp": 502,
+      "units": "V",
+      "value": "1.250"
+    },
+    {
+      "point_id": "analog_in_1",
+      "point_key": "LABJACK-U6-470201:analog_in_1",
+      "quality": "simulated",
+      "timestamp": 502,
+      "units": "V",
+      "value": "2.500"
+    },
+    {
+      "point_id": "analog_in_2",
+      "point_key": "LABJACK-U6-470201:analog_in_2",
+      "quality": "simulated",
+      "timestamp": 502,
+      "units": "V",
+      "value": "3.300"
+    },
+    {
+      "point_id": "analog_in_3",
+      "point_key": "LABJACK-U6-470201:analog_in_3",
+      "quality": "simulated",
+      "timestamp": 502,
+      "units": "V",
+      "value": "0.875"
+    },
+    {
+      "point_id": "digital_in_0",
+      "point_key": "LABJACK-U6-470201:digital_in_0",
+      "quality": "simulated",
+      "timestamp": 502,
+      "units": "",
+      "value": "0"
+    },
+    {
+      "point_id": "digital_in_1",
+      "point_key": "LABJACK-U6-470201:digital_in_1",
+      "quality": "simulated",
+      "timestamp": 502,
+      "units": "",
+      "value": "1"
+    },
+    {
+      "point_id": "digital_in_2",
+      "point_key": "LABJACK-U6-470201:digital_in_2",
+      "quality": "simulated",
+      "timestamp": 502,
+      "units": "",
+      "value": "0"
+    },
+    {
+      "point_id": "digital_in_3",
+      "point_key": "LABJACK-U6-470201:digital_in_3",
+      "quality": "simulated",
+      "timestamp": 502,
+      "units": "",
+      "value": "1"
+    },
+    {
+      "point_id": "gpio_in_17",
+      "point_key": "RPI-RPI-LAB-401:gpio_in_17",
+      "quality": "simulated",
+      "timestamp": 502,
+      "units": "",
+      "value": "1"
+    },
+    {
+      "point_id": "gpio_in_27",
+      "point_key": "RPI-RPI-LAB-401:gpio_in_27",
+      "quality": "simulated",
+      "timestamp": 502,
+      "units": "",
+      "value": "0"
+    },
+    {
+      "point_id": "host_cpu_temp_c",
+      "point_key": "RPI-RPI-LAB-401:host_cpu_temp_c",
+      "quality": "simulated",
+      "timestamp": 502,
+      "units": "degC",
+      "value": "48.2"
+    },
+    {
+      "point_id": "host_uptime_s",
+      "point_key": "RPI-RPI-LAB-401:host_uptime_s",
+      "quality": "simulated",
+      "timestamp": 502,
+      "units": "s",
+      "value": "3600"
+    },
+    {
+      "point_id": "analog_in_0",
+      "point_key": "ARDUINO-UNO-ARD-401:analog_in_0",
+      "quality": "simulated",
+      "timestamp": 503,
+      "units": "V",
+      "value": "0.812"
+    },
+    {
+      "point_id": "analog_in_1",
+      "point_key": "ARDUINO-UNO-ARD-401:analog_in_1",
+      "quality": "simulated",
+      "timestamp": 503,
+      "units": "V",
+      "value": "1.437"
+    },
+    {
+      "point_id": "digital_in_2",
+      "point_key": "ARDUINO-UNO-ARD-401:digital_in_2",
+      "quality": "simulated",
+      "timestamp": 503,
+      "units": "",
+      "value": "1"
+    },
+    {
+      "point_id": "digital_in_3",
+      "point_key": "ARDUINO-UNO-ARD-401:digital_in_3",
+      "quality": "simulated",
+      "timestamp": 503,
+      "units": "",
+      "value": "0"
+    },
+    {
+      "point_id": "firmware_alive",
+      "point_key": "ARDUINO-UNO-ARD-401:firmware_alive",
+      "quality": "simulated",
+      "timestamp": 503,
+      "units": "",
+      "value": "1"
+    },
+    {
+      "point_id": "analog_in_0",
+      "point_key": "LABJACK-U6-470201:analog_in_0",
+      "quality": "simulated",
+      "timestamp": 503,
+      "units": "V",
+      "value": "1.250"
+    },
+    {
+      "point_id": "analog_in_1",
+      "point_key": "LABJACK-U6-470201:analog_in_1",
+      "quality": "simulated",
+      "timestamp": 503,
+      "units": "V",
+      "value": "2.500"
+    },
+    {
+      "point_id": "analog_in_2",
+      "point_key": "LABJACK-U6-470201:analog_in_2",
+      "quality": "simulated",
+      "timestamp": 503,
+      "units": "V",
+      "value": "3.300"
+    },
+    {
+      "point_id": "analog_in_3",
+      "point_key": "LABJACK-U6-470201:analog_in_3",
+      "quality": "simulated",
+      "timestamp": 503,
+      "units": "V",
+      "value": "0.875"
+    },
+    {
+      "point_id": "digital_in_0",
+      "point_key": "LABJACK-U6-470201:digital_in_0",
+      "quality": "simulated",
+      "timestamp": 503,
+      "units": "",
+      "value": "0"
+    },
+    {
+      "point_id": "digital_in_1",
+      "point_key": "LABJACK-U6-470201:digital_in_1",
+      "quality": "simulated",
+      "timestamp": 503,
+      "units": "",
+      "value": "1"
+    },
+    {
+      "point_id": "digital_in_2",
+      "point_key": "LABJACK-U6-470201:digital_in_2",
+      "quality": "simulated",
+      "timestamp": 503,
+      "units": "",
+      "value": "0"
+    },
+    {
+      "point_id": "digital_in_3",
+      "point_key": "LABJACK-U6-470201:digital_in_3",
+      "quality": "simulated",
+      "timestamp": 503,
+      "units": "",
+      "value": "1"
+    },
+    {
+      "point_id": "gpio_in_17",
+      "point_key": "RPI-RPI-LAB-401:gpio_in_17",
+      "quality": "simulated",
+      "timestamp": 503,
+      "units": "",
+      "value": "1"
+    },
+    {
+      "point_id": "gpio_in_27",
+      "point_key": "RPI-RPI-LAB-401:gpio_in_27",
+      "quality": "simulated",
+      "timestamp": 503,
+      "units": "",
+      "value": "0"
+    },
+    {
+      "point_id": "host_cpu_temp_c",
+      "point_key": "RPI-RPI-LAB-401:host_cpu_temp_c",
+      "quality": "simulated",
+      "timestamp": 503,
+      "units": "degC",
+      "value": "48.2"
+    },
+    {
+      "point_id": "host_uptime_s",
+      "point_key": "RPI-RPI-LAB-401:host_uptime_s",
+      "quality": "simulated",
+      "timestamp": 503,
+      "units": "s",
+      "value": "3600"
+    },
+    {
+      "point_id": "gpio_in_17",
+      "point_key": "RPI-RPI-LAB-401:gpio_in_17",
+      "quality": "simulated",
+      "timestamp": 504,
+      "units": "",
+      "value": "1"
+    },
+    {
+      "point_id": "gpio_in_27",
+      "point_key": "RPI-RPI-LAB-401:gpio_in_27",
+      "quality": "simulated",
+      "timestamp": 504,
+      "units": "",
+      "value": "0"
+    },
+    {
+      "point_id": "host_cpu_temp_c",
+      "point_key": "RPI-RPI-LAB-401:host_cpu_temp_c",
+      "quality": "simulated",
+      "timestamp": 504,
+      "units": "degC",
+      "value": "48.2"
+    },
+    {
+      "point_id": "host_uptime_s",
+      "point_key": "RPI-RPI-LAB-401:host_uptime_s",
+      "quality": "simulated",
+      "timestamp": 504,
+      "units": "s",
+      "value": "3600"
+    },
+    {
+      "point_id": "analog_in_0",
+      "point_key": "LABJACK-U6-470201:analog_in_0",
+      "quality": "simulated",
+      "timestamp": 505,
+      "units": "V",
+      "value": "1.250"
+    },
+    {
+      "point_id": "analog_in_1",
+      "point_key": "LABJACK-U6-470201:analog_in_1",
+      "quality": "simulated",
+      "timestamp": 505,
+      "units": "V",
+      "value": "2.500"
+    },
+    {
+      "point_id": "analog_in_2",
+      "point_key": "LABJACK-U6-470201:analog_in_2",
+      "quality": "simulated",
+      "timestamp": 505,
+      "units": "V",
+      "value": "3.300"
+    },
+    {
+      "point_id": "analog_in_3",
+      "point_key": "LABJACK-U6-470201:analog_in_3",
+      "quality": "simulated",
+      "timestamp": 505,
+      "units": "V",
+      "value": "0.875"
+    },
+    {
+      "point_id": "digital_in_0",
+      "point_key": "LABJACK-U6-470201:digital_in_0",
+      "quality": "simulated",
+      "timestamp": 505,
+      "units": "",
+      "value": "0"
+    },
+    {
+      "point_id": "digital_in_1",
+      "point_key": "LABJACK-U6-470201:digital_in_1",
+      "quality": "simulated",
+      "timestamp": 505,
+      "units": "",
+      "value": "1"
+    },
+    {
+      "point_id": "digital_in_2",
+      "point_key": "LABJACK-U6-470201:digital_in_2",
+      "quality": "simulated",
+      "timestamp": 505,
+      "units": "",
+      "value": "0"
+    },
+    {
+      "point_id": "digital_in_3",
+      "point_key": "LABJACK-U6-470201:digital_in_3",
+      "quality": "simulated",
+      "timestamp": 505,
+      "units": "",
+      "value": "1"
+    }
+  ],
+  "recent_variable_rows": [
+    {
+      "changed": true,
+      "dependency_values": {
+        "arduino_uno_ard_401.analog_in_0": "0.812000",
+        "labjack_u6_470201.analog_in_0": "1.250000"
+      },
+      "missing_dependencies": [],
+      "quality": "good",
+      "state": "healthy",
+      "state_transition": true,
+      "timestamp": 500,
+      "value": "2.062000",
+      "variable_id": "VAR-MIXED-ANALOG-SUM"
+    },
+    {
+      "changed": true,
+      "dependency_values": {
+        "arduino_uno_ard_401.analog_in_0": "0.812000",
+        "labjack_u6_470201.analog_in_0": "1.250000"
+      },
+      "missing_dependencies": [],
+      "quality": "good",
+      "state": "healthy",
+      "state_transition": true,
+      "timestamp": 500,
+      "value": "0.438000",
+      "variable_id": "VAR-MIXED-ANALOG-DELTA"
+    },
+    {
+      "changed": true,
+      "dependency_values": {
+        "rpi_rpi_lab_401.host_cpu_temp_c": "48.200000"
+      },
+      "missing_dependencies": [],
+      "quality": "good",
+      "state": "healthy",
+      "state_transition": true,
+      "timestamp": 500,
+      "value": "1",
+      "variable_id": "VAR-MIXED-RPI-CPU-GATE"
+    }
+  ],
+  "replay_report": {
+    "checkpoint_available": true,
+    "checkpoint_id": "CHK-SESSION-CROSS-DEVICE-CLOSURE-01-511-227",
+    "deterministic_input_hash": "8bf58da1fbdd6268642b942aeb382aa944caa2561166387c7abd4962b0d4ac1a",
+    "deterministic_replay": true,
+    "last_committed_sequence_id": 227,
+    "projected_state": {
+      "checkpoint_state_hash": "55344825b9149f14fac0b7d54fbb6aa5dddb50cb77cb9783f719c56d7bf167b4",
+      "tail_last_cycle": {
+        "active_adapter_id": "BROKER-MIXED-001",
+        "active_device_key": "MIXED-SOURCE-SESSION",
+        "changed_signal_count": 17,
+        "changed_signal_ids": [
+          "ARDUINO-UNO-ARD-401:analog_in_0",
+          "ARDUINO-UNO-ARD-401:analog_in_1",
+          "ARDUINO-UNO-ARD-401:digital_in_2",
+          "ARDUINO-UNO-ARD-401:digital_in_3",
+          "ARDUINO-UNO-ARD-401:firmware_alive",
+          "LABJACK-U6-470201:analog_in_0",
+          "LABJACK-U6-470201:analog_in_1",
+          "LABJACK-U6-470201:analog_in_2",
+          "LABJACK-U6-470201:analog_in_3",
+          "LABJACK-U6-470201:digital_in_0",
+          "LABJACK-U6-470201:digital_in_1",
+          "LABJACK-U6-470201:digital_in_2",
+          "LABJACK-U6-470201:digital_in_3",
+          "RPI-RPI-LAB-401:host_cpu_temp_c",
+          "RPI-RPI-LAB-401:host_uptime_s",
+          "RPI-RPI-LAB-401:gpio_in_17",
+          "RPI-RPI-LAB-401:gpio_in_27"
+        ],
+        "impacted_variable_count": 0,
+        "needs_review": false,
+        "phase": "live",
+        "total_variable_count": 3
+      },
+      "tail_last_runtime_event": {
+        "activated_adapter_count": 3,
+        "degraded_transition_count": 5,
+        "event_type": "cross_device_tail_verification"
+      },
+      "tail_last_samples_by_point": {
+        "ARDUINO-UNO-ARD-401:analog_in_0": {
+          "adapter_id": "BROKER-MIXED-001",
+          "point_id": "analog_in_0",
+          "point_key": "ARDUINO-UNO-ARD-401:analog_in_0",
+          "quality": "simulated",
+          "timestamp": 513,
+          "value": "0.812"
+        },
+        "ARDUINO-UNO-ARD-401:analog_in_1": {
+          "adapter_id": "BROKER-MIXED-001",
+          "point_id": "analog_in_1",
+          "point_key": "ARDUINO-UNO-ARD-401:analog_in_1",
+          "quality": "simulated",
+          "timestamp": 513,
+          "value": "1.437"
+        },
+        "ARDUINO-UNO-ARD-401:digital_in_2": {
+          "adapter_id": "BROKER-MIXED-001",
+          "point_id": "digital_in_2",
+          "point_key": "ARDUINO-UNO-ARD-401:digital_in_2",
+          "quality": "simulated",
+          "timestamp": 513,
+          "value": "1"
+        },
+        "ARDUINO-UNO-ARD-401:digital_in_3": {
+          "adapter_id": "BROKER-MIXED-001",
+          "point_id": "digital_in_3",
+          "point_key": "ARDUINO-UNO-ARD-401:digital_in_3",
+          "quality": "simulated",
+          "timestamp": 513,
+          "value": "0"
+        },
+        "ARDUINO-UNO-ARD-401:firmware_alive": {
+          "adapter_id": "BROKER-MIXED-001",
+          "point_id": "firmware_alive",
+          "point_key": "ARDUINO-UNO-ARD-401:firmware_alive",
+          "quality": "simulated",
+          "timestamp": 513,
+          "value": "1"
+        },
+        "LABJACK-U6-470201:analog_in_0": {
+          "adapter_id": "BROKER-MIXED-001",
+          "point_id": "analog_in_0",
+          "point_key": "LABJACK-U6-470201:analog_in_0",
+          "quality": "simulated",
+          "timestamp": 513,
+          "value": "1.250"
+        },
+        "LABJACK-U6-470201:analog_in_1": {
+          "adapter_id": "BROKER-MIXED-001",
+          "point_id": "analog_in_1",
+          "point_key": "LABJACK-U6-470201:analog_in_1",
+          "quality": "simulated",
+          "timestamp": 513,
+          "value": "2.500"
+        },
+        "LABJACK-U6-470201:analog_in_2": {
+          "adapter_id": "BROKER-MIXED-001",
+          "point_id": "analog_in_2",
+          "point_key": "LABJACK-U6-470201:analog_in_2",
+          "quality": "simulated",
+          "timestamp": 513,
+          "value": "3.300"
+        },
+        "LABJACK-U6-470201:analog_in_3": {
+          "adapter_id": "BROKER-MIXED-001",
+          "point_id": "analog_in_3",
+          "point_key": "LABJACK-U6-470201:analog_in_3",
+          "quality": "simulated",
+          "timestamp": 513,
+          "value": "0.875"
+        },
+        "LABJACK-U6-470201:digital_in_0": {
+          "adapter_id": "BROKER-MIXED-001",
+          "point_id": "digital_in_0",
+          "point_key": "LABJACK-U6-470201:digital_in_0",
+          "quality": "simulated",
+          "timestamp": 513,
+          "value": "0"
+        },
+        "LABJACK-U6-470201:digital_in_1": {
+          "adapter_id": "BROKER-MIXED-001",
+          "point_id": "digital_in_1",
+          "point_key": "LABJACK-U6-470201:digital_in_1",
+          "quality": "simulated",
+          "timestamp": 513,
+          "value": "1"
+        },
+        "LABJACK-U6-470201:digital_in_2": {
+          "adapter_id": "BROKER-MIXED-001",
+          "point_id": "digital_in_2",
+          "point_key": "LABJACK-U6-470201:digital_in_2",
+          "quality": "simulated",
+          "timestamp": 513,
+          "value": "0"
+        },
+        "LABJACK-U6-470201:digital_in_3": {
+          "adapter_id": "BROKER-MIXED-001",
+          "point_id": "digital_in_3",
+          "point_key": "LABJACK-U6-470201:digital_in_3",
+          "quality": "simulated",
+          "timestamp": 513,
+          "value": "1"
+        },
+        "RPI-RPI-LAB-401:gpio_in_17": {
+          "adapter_id": "BROKER-MIXED-001",
+          "point_id": "gpio_in_17",
+          "point_key": "RPI-RPI-LAB-401:gpio_in_17",
+          "quality": "simulated",
+          "timestamp": 513,
+          "value": "1"
+        },
+        "RPI-RPI-LAB-401:gpio_in_27": {
+          "adapter_id": "BROKER-MIXED-001",
+          "point_id": "gpio_in_27",
+          "point_key": "RPI-RPI-LAB-401:gpio_in_27",
+          "quality": "simulated",
+          "timestamp": 513,
+          "value": "0"
+        },
+        "RPI-RPI-LAB-401:host_cpu_temp_c": {
+          "adapter_id": "BROKER-MIXED-001",
+          "point_id": "host_cpu_temp_c",
+          "point_key": "RPI-RPI-LAB-401:host_cpu_temp_c",
+          "quality": "simulated",
+          "timestamp": 513,
+          "value": "48.2"
+        },
+        "RPI-RPI-LAB-401:host_uptime_s": {
+          "adapter_id": "BROKER-MIXED-001",
+          "point_id": "host_uptime_s",
+          "point_key": "RPI-RPI-LAB-401:host_uptime_s",
+          "quality": "simulated",
+          "timestamp": 513,
+          "value": "3600"
+        }
+      },
+      "tail_last_sequence_id": 268,
+      "tail_last_variables_by_id": {},
+      "tail_record_count": 41,
+      "tail_record_counts_by_type": {
+        "cycle": 2,
+        "runtime_event": 5,
+        "sample": 34
+      },
+      "tail_runtime_event_counts_by_type": {
+        "cross_device_health_summary": 2,
+        "cross_device_poll_cycle": 2,
+        "cross_device_tail_verification": 1
+      }
+    },
+    "replay_state_hash": "d79c345e0ee4026087c7b511f6a8bf0e0c16517cec5959e03d894746ad6cc51a",
+    "segment_index": [
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0001.jsonl",
+        "first_sequence_id": 1,
+        "last_sequence_id": 4,
+        "record_count": 4,
+        "relative_path": "segment-0001.jsonl",
+        "segment_id": "segment-0001",
+        "segment_ordinal": 1
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0002.jsonl",
+        "first_sequence_id": 5,
+        "last_sequence_id": 8,
+        "record_count": 4,
+        "relative_path": "segment-0002.jsonl",
+        "segment_id": "segment-0002",
+        "segment_ordinal": 2
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0003.jsonl",
+        "first_sequence_id": 9,
+        "last_sequence_id": 12,
+        "record_count": 4,
+        "relative_path": "segment-0003.jsonl",
+        "segment_id": "segment-0003",
+        "segment_ordinal": 3
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0004.jsonl",
+        "first_sequence_id": 13,
+        "last_sequence_id": 16,
+        "record_count": 4,
+        "relative_path": "segment-0004.jsonl",
+        "segment_id": "segment-0004",
+        "segment_ordinal": 4
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0005.jsonl",
+        "first_sequence_id": 17,
+        "last_sequence_id": 20,
+        "record_count": 4,
+        "relative_path": "segment-0005.jsonl",
+        "segment_id": "segment-0005",
+        "segment_ordinal": 5
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0006.jsonl",
+        "first_sequence_id": 21,
+        "last_sequence_id": 24,
+        "record_count": 4,
+        "relative_path": "segment-0006.jsonl",
+        "segment_id": "segment-0006",
+        "segment_ordinal": 6
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0007.jsonl",
+        "first_sequence_id": 25,
+        "last_sequence_id": 28,
+        "record_count": 4,
+        "relative_path": "segment-0007.jsonl",
+        "segment_id": "segment-0007",
+        "segment_ordinal": 7
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0008.jsonl",
+        "first_sequence_id": 29,
+        "last_sequence_id": 32,
+        "record_count": 4,
+        "relative_path": "segment-0008.jsonl",
+        "segment_id": "segment-0008",
+        "segment_ordinal": 8
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0009.jsonl",
+        "first_sequence_id": 33,
+        "last_sequence_id": 36,
+        "record_count": 4,
+        "relative_path": "segment-0009.jsonl",
+        "segment_id": "segment-0009",
+        "segment_ordinal": 9
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0010.jsonl",
+        "first_sequence_id": 37,
+        "last_sequence_id": 40,
+        "record_count": 4,
+        "relative_path": "segment-0010.jsonl",
+        "segment_id": "segment-0010",
+        "segment_ordinal": 10
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0011.jsonl",
+        "first_sequence_id": 41,
+        "last_sequence_id": 44,
+        "record_count": 4,
+        "relative_path": "segment-0011.jsonl",
+        "segment_id": "segment-0011",
+        "segment_ordinal": 11
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0012.jsonl",
+        "first_sequence_id": 45,
+        "last_sequence_id": 48,
+        "record_count": 4,
+        "relative_path": "segment-0012.jsonl",
+        "segment_id": "segment-0012",
+        "segment_ordinal": 12
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0013.jsonl",
+        "first_sequence_id": 49,
+        "last_sequence_id": 52,
+        "record_count": 4,
+        "relative_path": "segment-0013.jsonl",
+        "segment_id": "segment-0013",
+        "segment_ordinal": 13
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0014.jsonl",
+        "first_sequence_id": 53,
+        "last_sequence_id": 56,
+        "record_count": 4,
+        "relative_path": "segment-0014.jsonl",
+        "segment_id": "segment-0014",
+        "segment_ordinal": 14
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0015.jsonl",
+        "first_sequence_id": 57,
+        "last_sequence_id": 60,
+        "record_count": 4,
+        "relative_path": "segment-0015.jsonl",
+        "segment_id": "segment-0015",
+        "segment_ordinal": 15
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0016.jsonl",
+        "first_sequence_id": 61,
+        "last_sequence_id": 64,
+        "record_count": 4,
+        "relative_path": "segment-0016.jsonl",
+        "segment_id": "segment-0016",
+        "segment_ordinal": 16
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0017.jsonl",
+        "first_sequence_id": 65,
+        "last_sequence_id": 68,
+        "record_count": 4,
+        "relative_path": "segment-0017.jsonl",
+        "segment_id": "segment-0017",
+        "segment_ordinal": 17
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0018.jsonl",
+        "first_sequence_id": 69,
+        "last_sequence_id": 72,
+        "record_count": 4,
+        "relative_path": "segment-0018.jsonl",
+        "segment_id": "segment-0018",
+        "segment_ordinal": 18
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0019.jsonl",
+        "first_sequence_id": 73,
+        "last_sequence_id": 76,
+        "record_count": 4,
+        "relative_path": "segment-0019.jsonl",
+        "segment_id": "segment-0019",
+        "segment_ordinal": 19
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0020.jsonl",
+        "first_sequence_id": 77,
+        "last_sequence_id": 80,
+        "record_count": 4,
+        "relative_path": "segment-0020.jsonl",
+        "segment_id": "segment-0020",
+        "segment_ordinal": 20
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0021.jsonl",
+        "first_sequence_id": 81,
+        "last_sequence_id": 84,
+        "record_count": 4,
+        "relative_path": "segment-0021.jsonl",
+        "segment_id": "segment-0021",
+        "segment_ordinal": 21
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0022.jsonl",
+        "first_sequence_id": 85,
+        "last_sequence_id": 88,
+        "record_count": 4,
+        "relative_path": "segment-0022.jsonl",
+        "segment_id": "segment-0022",
+        "segment_ordinal": 22
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0023.jsonl",
+        "first_sequence_id": 89,
+        "last_sequence_id": 92,
+        "record_count": 4,
+        "relative_path": "segment-0023.jsonl",
+        "segment_id": "segment-0023",
+        "segment_ordinal": 23
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0024.jsonl",
+        "first_sequence_id": 93,
+        "last_sequence_id": 96,
+        "record_count": 4,
+        "relative_path": "segment-0024.jsonl",
+        "segment_id": "segment-0024",
+        "segment_ordinal": 24
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0025.jsonl",
+        "first_sequence_id": 97,
+        "last_sequence_id": 100,
+        "record_count": 4,
+        "relative_path": "segment-0025.jsonl",
+        "segment_id": "segment-0025",
+        "segment_ordinal": 25
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0026.jsonl",
+        "first_sequence_id": 101,
+        "last_sequence_id": 104,
+        "record_count": 4,
+        "relative_path": "segment-0026.jsonl",
+        "segment_id": "segment-0026",
+        "segment_ordinal": 26
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0027.jsonl",
+        "first_sequence_id": 105,
+        "last_sequence_id": 108,
+        "record_count": 4,
+        "relative_path": "segment-0027.jsonl",
+        "segment_id": "segment-0027",
+        "segment_ordinal": 27
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0028.jsonl",
+        "first_sequence_id": 109,
+        "last_sequence_id": 112,
+        "record_count": 4,
+        "relative_path": "segment-0028.jsonl",
+        "segment_id": "segment-0028",
+        "segment_ordinal": 28
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0029.jsonl",
+        "first_sequence_id": 113,
+        "last_sequence_id": 116,
+        "record_count": 4,
+        "relative_path": "segment-0029.jsonl",
+        "segment_id": "segment-0029",
+        "segment_ordinal": 29
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0030.jsonl",
+        "first_sequence_id": 117,
+        "last_sequence_id": 120,
+        "record_count": 4,
+        "relative_path": "segment-0030.jsonl",
+        "segment_id": "segment-0030",
+        "segment_ordinal": 30
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0031.jsonl",
+        "first_sequence_id": 121,
+        "last_sequence_id": 124,
+        "record_count": 4,
+        "relative_path": "segment-0031.jsonl",
+        "segment_id": "segment-0031",
+        "segment_ordinal": 31
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0032.jsonl",
+        "first_sequence_id": 125,
+        "last_sequence_id": 128,
+        "record_count": 4,
+        "relative_path": "segment-0032.jsonl",
+        "segment_id": "segment-0032",
+        "segment_ordinal": 32
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0033.jsonl",
+        "first_sequence_id": 129,
+        "last_sequence_id": 132,
+        "record_count": 4,
+        "relative_path": "segment-0033.jsonl",
+        "segment_id": "segment-0033",
+        "segment_ordinal": 33
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0034.jsonl",
+        "first_sequence_id": 133,
+        "last_sequence_id": 136,
+        "record_count": 4,
+        "relative_path": "segment-0034.jsonl",
+        "segment_id": "segment-0034",
+        "segment_ordinal": 34
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0035.jsonl",
+        "first_sequence_id": 137,
+        "last_sequence_id": 140,
+        "record_count": 4,
+        "relative_path": "segment-0035.jsonl",
+        "segment_id": "segment-0035",
+        "segment_ordinal": 35
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0036.jsonl",
+        "first_sequence_id": 141,
+        "last_sequence_id": 144,
+        "record_count": 4,
+        "relative_path": "segment-0036.jsonl",
+        "segment_id": "segment-0036",
+        "segment_ordinal": 36
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0037.jsonl",
+        "first_sequence_id": 145,
+        "last_sequence_id": 148,
+        "record_count": 4,
+        "relative_path": "segment-0037.jsonl",
+        "segment_id": "segment-0037",
+        "segment_ordinal": 37
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0038.jsonl",
+        "first_sequence_id": 149,
+        "last_sequence_id": 152,
+        "record_count": 4,
+        "relative_path": "segment-0038.jsonl",
+        "segment_id": "segment-0038",
+        "segment_ordinal": 38
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0039.jsonl",
+        "first_sequence_id": 153,
+        "last_sequence_id": 156,
+        "record_count": 4,
+        "relative_path": "segment-0039.jsonl",
+        "segment_id": "segment-0039",
+        "segment_ordinal": 39
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0040.jsonl",
+        "first_sequence_id": 157,
+        "last_sequence_id": 160,
+        "record_count": 4,
+        "relative_path": "segment-0040.jsonl",
+        "segment_id": "segment-0040",
+        "segment_ordinal": 40
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0041.jsonl",
+        "first_sequence_id": 161,
+        "last_sequence_id": 164,
+        "record_count": 4,
+        "relative_path": "segment-0041.jsonl",
+        "segment_id": "segment-0041",
+        "segment_ordinal": 41
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0042.jsonl",
+        "first_sequence_id": 165,
+        "last_sequence_id": 168,
+        "record_count": 4,
+        "relative_path": "segment-0042.jsonl",
+        "segment_id": "segment-0042",
+        "segment_ordinal": 42
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0043.jsonl",
+        "first_sequence_id": 169,
+        "last_sequence_id": 172,
+        "record_count": 4,
+        "relative_path": "segment-0043.jsonl",
+        "segment_id": "segment-0043",
+        "segment_ordinal": 43
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0044.jsonl",
+        "first_sequence_id": 173,
+        "last_sequence_id": 176,
+        "record_count": 4,
+        "relative_path": "segment-0044.jsonl",
+        "segment_id": "segment-0044",
+        "segment_ordinal": 44
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0045.jsonl",
+        "first_sequence_id": 177,
+        "last_sequence_id": 180,
+        "record_count": 4,
+        "relative_path": "segment-0045.jsonl",
+        "segment_id": "segment-0045",
+        "segment_ordinal": 45
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0046.jsonl",
+        "first_sequence_id": 181,
+        "last_sequence_id": 184,
+        "record_count": 4,
+        "relative_path": "segment-0046.jsonl",
+        "segment_id": "segment-0046",
+        "segment_ordinal": 46
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0047.jsonl",
+        "first_sequence_id": 185,
+        "last_sequence_id": 188,
+        "record_count": 4,
+        "relative_path": "segment-0047.jsonl",
+        "segment_id": "segment-0047",
+        "segment_ordinal": 47
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0048.jsonl",
+        "first_sequence_id": 189,
+        "last_sequence_id": 192,
+        "record_count": 4,
+        "relative_path": "segment-0048.jsonl",
+        "segment_id": "segment-0048",
+        "segment_ordinal": 48
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0049.jsonl",
+        "first_sequence_id": 193,
+        "last_sequence_id": 196,
+        "record_count": 4,
+        "relative_path": "segment-0049.jsonl",
+        "segment_id": "segment-0049",
+        "segment_ordinal": 49
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0050.jsonl",
+        "first_sequence_id": 197,
+        "last_sequence_id": 200,
+        "record_count": 4,
+        "relative_path": "segment-0050.jsonl",
+        "segment_id": "segment-0050",
+        "segment_ordinal": 50
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0051.jsonl",
+        "first_sequence_id": 201,
+        "last_sequence_id": 204,
+        "record_count": 4,
+        "relative_path": "segment-0051.jsonl",
+        "segment_id": "segment-0051",
+        "segment_ordinal": 51
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0052.jsonl",
+        "first_sequence_id": 205,
+        "last_sequence_id": 208,
+        "record_count": 4,
+        "relative_path": "segment-0052.jsonl",
+        "segment_id": "segment-0052",
+        "segment_ordinal": 52
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0053.jsonl",
+        "first_sequence_id": 209,
+        "last_sequence_id": 212,
+        "record_count": 4,
+        "relative_path": "segment-0053.jsonl",
+        "segment_id": "segment-0053",
+        "segment_ordinal": 53
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0054.jsonl",
+        "first_sequence_id": 213,
+        "last_sequence_id": 216,
+        "record_count": 4,
+        "relative_path": "segment-0054.jsonl",
+        "segment_id": "segment-0054",
+        "segment_ordinal": 54
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0055.jsonl",
+        "first_sequence_id": 217,
+        "last_sequence_id": 220,
+        "record_count": 4,
+        "relative_path": "segment-0055.jsonl",
+        "segment_id": "segment-0055",
+        "segment_ordinal": 55
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0056.jsonl",
+        "first_sequence_id": 221,
+        "last_sequence_id": 224,
+        "record_count": 4,
+        "relative_path": "segment-0056.jsonl",
+        "segment_id": "segment-0056",
+        "segment_ordinal": 56
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0057.jsonl",
+        "first_sequence_id": 225,
+        "last_sequence_id": 228,
+        "record_count": 4,
+        "relative_path": "segment-0057.jsonl",
+        "segment_id": "segment-0057",
+        "segment_ordinal": 57
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0058.jsonl",
+        "first_sequence_id": 229,
+        "last_sequence_id": 232,
+        "record_count": 4,
+        "relative_path": "segment-0058.jsonl",
+        "segment_id": "segment-0058",
+        "segment_ordinal": 58
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0059.jsonl",
+        "first_sequence_id": 233,
+        "last_sequence_id": 236,
+        "record_count": 4,
+        "relative_path": "segment-0059.jsonl",
+        "segment_id": "segment-0059",
+        "segment_ordinal": 59
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0060.jsonl",
+        "first_sequence_id": 237,
+        "last_sequence_id": 240,
+        "record_count": 4,
+        "relative_path": "segment-0060.jsonl",
+        "segment_id": "segment-0060",
+        "segment_ordinal": 60
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0061.jsonl",
+        "first_sequence_id": 241,
+        "last_sequence_id": 244,
+        "record_count": 4,
+        "relative_path": "segment-0061.jsonl",
+        "segment_id": "segment-0061",
+        "segment_ordinal": 61
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0062.jsonl",
+        "first_sequence_id": 245,
+        "last_sequence_id": 248,
+        "record_count": 4,
+        "relative_path": "segment-0062.jsonl",
+        "segment_id": "segment-0062",
+        "segment_ordinal": 62
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0063.jsonl",
+        "first_sequence_id": 249,
+        "last_sequence_id": 252,
+        "record_count": 4,
+        "relative_path": "segment-0063.jsonl",
+        "segment_id": "segment-0063",
+        "segment_ordinal": 63
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0064.jsonl",
+        "first_sequence_id": 253,
+        "last_sequence_id": 256,
+        "record_count": 4,
+        "relative_path": "segment-0064.jsonl",
+        "segment_id": "segment-0064",
+        "segment_ordinal": 64
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0065.jsonl",
+        "first_sequence_id": 257,
+        "last_sequence_id": 260,
+        "record_count": 4,
+        "relative_path": "segment-0065.jsonl",
+        "segment_id": "segment-0065",
+        "segment_ordinal": 65
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0066.jsonl",
+        "first_sequence_id": 261,
+        "last_sequence_id": 264,
+        "record_count": 4,
+        "relative_path": "segment-0066.jsonl",
+        "segment_id": "segment-0066",
+        "segment_ordinal": 66
+      },
+      {
+        "closed": false,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01/journal/segment-0067.jsonl",
+        "first_sequence_id": 265,
+        "last_sequence_id": 268,
+        "record_count": 4,
+        "relative_path": "segment-0067.jsonl",
+        "segment_id": "segment-0067",
+        "segment_ordinal": 67
+      }
+    ],
+    "tail_contains_multiple_record_types": true,
+    "tail_first_sequence_id": 228,
+    "tail_last_sequence_id": 268,
+    "tail_record_count": 41,
+    "tail_record_counts_by_type": {
+      "cycle": 2,
+      "runtime_event": 5,
+      "sample": 34
+    },
+    "tail_record_type_count": 3,
+    "tail_runtime_event_counts_by_type": {
+      "cross_device_health_summary": 2,
+      "cross_device_poll_cycle": 2,
+      "cross_device_tail_verification": 1
+    }
+  },
+  "session_depth_summary": {
+    "checkpoint_count": 3,
+    "checkpoint_sequence_ids": [
+      83,
+      149,
+      227
+    ],
+    "replay_tail_contains_multiple_record_types": true,
+    "replay_tail_record_count": 41,
+    "replay_tail_record_type_count": 3,
+    "segment_count": 67,
+    "segment_sequence_ranges": [
+      {
+        "first_sequence_id": 1,
+        "last_sequence_id": 4,
+        "record_count": 4,
+        "segment_id": "segment-0001"
+      },
+      {
+        "first_sequence_id": 5,
+        "last_sequence_id": 8,
+        "record_count": 4,
+        "segment_id": "segment-0002"
+      },
+      {
+        "first_sequence_id": 9,
+        "last_sequence_id": 12,
+        "record_count": 4,
+        "segment_id": "segment-0003"
+      },
+      {
+        "first_sequence_id": 13,
+        "last_sequence_id": 16,
+        "record_count": 4,
+        "segment_id": "segment-0004"
+      },
+      {
+        "first_sequence_id": 17,
+        "last_sequence_id": 20,
+        "record_count": 4,
+        "segment_id": "segment-0005"
+      },
+      {
+        "first_sequence_id": 21,
+        "last_sequence_id": 24,
+        "record_count": 4,
+        "segment_id": "segment-0006"
+      },
+      {
+        "first_sequence_id": 25,
+        "last_sequence_id": 28,
+        "record_count": 4,
+        "segment_id": "segment-0007"
+      },
+      {
+        "first_sequence_id": 29,
+        "last_sequence_id": 32,
+        "record_count": 4,
+        "segment_id": "segment-0008"
+      },
+      {
+        "first_sequence_id": 33,
+        "last_sequence_id": 36,
+        "record_count": 4,
+        "segment_id": "segment-0009"
+      },
+      {
+        "first_sequence_id": 37,
+        "last_sequence_id": 40,
+        "record_count": 4,
+        "segment_id": "segment-0010"
+      },
+      {
+        "first_sequence_id": 41,
+        "last_sequence_id": 44,
+        "record_count": 4,
+        "segment_id": "segment-0011"
+      },
+      {
+        "first_sequence_id": 45,
+        "last_sequence_id": 48,
+        "record_count": 4,
+        "segment_id": "segment-0012"
+      },
+      {
+        "first_sequence_id": 49,
+        "last_sequence_id": 52,
+        "record_count": 4,
+        "segment_id": "segment-0013"
+      },
+      {
+        "first_sequence_id": 53,
+        "last_sequence_id": 56,
+        "record_count": 4,
+        "segment_id": "segment-0014"
+      },
+      {
+        "first_sequence_id": 57,
+        "last_sequence_id": 60,
+        "record_count": 4,
+        "segment_id": "segment-0015"
+      },
+      {
+        "first_sequence_id": 61,
+        "last_sequence_id": 64,
+        "record_count": 4,
+        "segment_id": "segment-0016"
+      },
+      {
+        "first_sequence_id": 65,
+        "last_sequence_id": 68,
+        "record_count": 4,
+        "segment_id": "segment-0017"
+      },
+      {
+        "first_sequence_id": 69,
+        "last_sequence_id": 72,
+        "record_count": 4,
+        "segment_id": "segment-0018"
+      },
+      {
+        "first_sequence_id": 73,
+        "last_sequence_id": 76,
+        "record_count": 4,
+        "segment_id": "segment-0019"
+      },
+      {
+        "first_sequence_id": 77,
+        "last_sequence_id": 80,
+        "record_count": 4,
+        "segment_id": "segment-0020"
+      },
+      {
+        "first_sequence_id": 81,
+        "last_sequence_id": 84,
+        "record_count": 4,
+        "segment_id": "segment-0021"
+      },
+      {
+        "first_sequence_id": 85,
+        "last_sequence_id": 88,
+        "record_count": 4,
+        "segment_id": "segment-0022"
+      },
+      {
+        "first_sequence_id": 89,
+        "last_sequence_id": 92,
+        "record_count": 4,
+        "segment_id": "segment-0023"
+      },
+      {
+        "first_sequence_id": 93,
+        "last_sequence_id": 96,
+        "record_count": 4,
+        "segment_id": "segment-0024"
+      },
+      {
+        "first_sequence_id": 97,
+        "last_sequence_id": 100,
+        "record_count": 4,
+        "segment_id": "segment-0025"
+      },
+      {
+        "first_sequence_id": 101,
+        "last_sequence_id": 104,
+        "record_count": 4,
+        "segment_id": "segment-0026"
+      },
+      {
+        "first_sequence_id": 105,
+        "last_sequence_id": 108,
+        "record_count": 4,
+        "segment_id": "segment-0027"
+      },
+      {
+        "first_sequence_id": 109,
+        "last_sequence_id": 112,
+        "record_count": 4,
+        "segment_id": "segment-0028"
+      },
+      {
+        "first_sequence_id": 113,
+        "last_sequence_id": 116,
+        "record_count": 4,
+        "segment_id": "segment-0029"
+      },
+      {
+        "first_sequence_id": 117,
+        "last_sequence_id": 120,
+        "record_count": 4,
+        "segment_id": "segment-0030"
+      },
+      {
+        "first_sequence_id": 121,
+        "last_sequence_id": 124,
+        "record_count": 4,
+        "segment_id": "segment-0031"
+      },
+      {
+        "first_sequence_id": 125,
+        "last_sequence_id": 128,
+        "record_count": 4,
+        "segment_id": "segment-0032"
+      },
+      {
+        "first_sequence_id": 129,
+        "last_sequence_id": 132,
+        "record_count": 4,
+        "segment_id": "segment-0033"
+      },
+      {
+        "first_sequence_id": 133,
+        "last_sequence_id": 136,
+        "record_count": 4,
+        "segment_id": "segment-0034"
+      },
+      {
+        "first_sequence_id": 137,
+        "last_sequence_id": 140,
+        "record_count": 4,
+        "segment_id": "segment-0035"
+      },
+      {
+        "first_sequence_id": 141,
+        "last_sequence_id": 144,
+        "record_count": 4,
+        "segment_id": "segment-0036"
+      },
+      {
+        "first_sequence_id": 145,
+        "last_sequence_id": 148,
+        "record_count": 4,
+        "segment_id": "segment-0037"
+      },
+      {
+        "first_sequence_id": 149,
+        "last_sequence_id": 152,
+        "record_count": 4,
+        "segment_id": "segment-0038"
+      },
+      {
+        "first_sequence_id": 153,
+        "last_sequence_id": 156,
+        "record_count": 4,
+        "segment_id": "segment-0039"
+      },
+      {
+        "first_sequence_id": 157,
+        "last_sequence_id": 160,
+        "record_count": 4,
+        "segment_id": "segment-0040"
+      },
+      {
+        "first_sequence_id": 161,
+        "last_sequence_id": 164,
+        "record_count": 4,
+        "segment_id": "segment-0041"
+      },
+      {
+        "first_sequence_id": 165,
+        "last_sequence_id": 168,
+        "record_count": 4,
+        "segment_id": "segment-0042"
+      },
+      {
+        "first_sequence_id": 169,
+        "last_sequence_id": 172,
+        "record_count": 4,
+        "segment_id": "segment-0043"
+      },
+      {
+        "first_sequence_id": 173,
+        "last_sequence_id": 176,
+        "record_count": 4,
+        "segment_id": "segment-0044"
+      },
+      {
+        "first_sequence_id": 177,
+        "last_sequence_id": 180,
+        "record_count": 4,
+        "segment_id": "segment-0045"
+      },
+      {
+        "first_sequence_id": 181,
+        "last_sequence_id": 184,
+        "record_count": 4,
+        "segment_id": "segment-0046"
+      },
+      {
+        "first_sequence_id": 185,
+        "last_sequence_id": 188,
+        "record_count": 4,
+        "segment_id": "segment-0047"
+      },
+      {
+        "first_sequence_id": 189,
+        "last_sequence_id": 192,
+        "record_count": 4,
+        "segment_id": "segment-0048"
+      },
+      {
+        "first_sequence_id": 193,
+        "last_sequence_id": 196,
+        "record_count": 4,
+        "segment_id": "segment-0049"
+      },
+      {
+        "first_sequence_id": 197,
+        "last_sequence_id": 200,
+        "record_count": 4,
+        "segment_id": "segment-0050"
+      },
+      {
+        "first_sequence_id": 201,
+        "last_sequence_id": 204,
+        "record_count": 4,
+        "segment_id": "segment-0051"
+      },
+      {
+        "first_sequence_id": 205,
+        "last_sequence_id": 208,
+        "record_count": 4,
+        "segment_id": "segment-0052"
+      },
+      {
+        "first_sequence_id": 209,
+        "last_sequence_id": 212,
+        "record_count": 4,
+        "segment_id": "segment-0053"
+      },
+      {
+        "first_sequence_id": 213,
+        "last_sequence_id": 216,
+        "record_count": 4,
+        "segment_id": "segment-0054"
+      },
+      {
+        "first_sequence_id": 217,
+        "last_sequence_id": 220,
+        "record_count": 4,
+        "segment_id": "segment-0055"
+      },
+      {
+        "first_sequence_id": 221,
+        "last_sequence_id": 224,
+        "record_count": 4,
+        "segment_id": "segment-0056"
+      },
+      {
+        "first_sequence_id": 225,
+        "last_sequence_id": 228,
+        "record_count": 4,
+        "segment_id": "segment-0057"
+      },
+      {
+        "first_sequence_id": 229,
+        "last_sequence_id": 232,
+        "record_count": 4,
+        "segment_id": "segment-0058"
+      },
+      {
+        "first_sequence_id": 233,
+        "last_sequence_id": 236,
+        "record_count": 4,
+        "segment_id": "segment-0059"
+      },
+      {
+        "first_sequence_id": 237,
+        "last_sequence_id": 240,
+        "record_count": 4,
+        "segment_id": "segment-0060"
+      },
+      {
+        "first_sequence_id": 241,
+        "last_sequence_id": 244,
+        "record_count": 4,
+        "segment_id": "segment-0061"
+      },
+      {
+        "first_sequence_id": 245,
+        "last_sequence_id": 248,
+        "record_count": 4,
+        "segment_id": "segment-0062"
+      },
+      {
+        "first_sequence_id": 249,
+        "last_sequence_id": 252,
+        "record_count": 4,
+        "segment_id": "segment-0063"
+      },
+      {
+        "first_sequence_id": 253,
+        "last_sequence_id": 256,
+        "record_count": 4,
+        "segment_id": "segment-0064"
+      },
+      {
+        "first_sequence_id": 257,
+        "last_sequence_id": 260,
+        "record_count": 4,
+        "segment_id": "segment-0065"
+      },
+      {
+        "first_sequence_id": 261,
+        "last_sequence_id": 264,
+        "record_count": 4,
+        "segment_id": "segment-0066"
+      },
+      {
+        "first_sequence_id": 265,
+        "last_sequence_id": 268,
+        "record_count": 4,
+        "segment_id": "segment-0067"
+      }
+    ],
+    "total_persisted_records": 268,
+    "valid_checkpoint_count": 3
+  },
+  "session_id": "SESSION-CROSS-DEVICE-CLOSURE-01",
+  "session_root": "/mnt/data/udq11_run/proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/runtime/sessions/SESSION-CROSS-DEVICE-CLOSURE-01"
+}

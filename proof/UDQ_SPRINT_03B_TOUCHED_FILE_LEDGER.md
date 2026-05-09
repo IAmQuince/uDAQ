@@ -1,0 +1,24 @@
+# UDQ Sprint 03B — Touched File Ledger
+
+- `README.md`
+- `docs/handbook/IMPLEMENTATION_ENTRY.md`
+- `docs/handbook/NEXT_ACTIONS.md`
+- `docs/handbook/TESTS_AND_TOOLS.md`
+- `docs/release/EXEC_SUMMARY.md`
+- `docs/release/RELEASE_MANIFEST.yaml`
+- `docs/release/RELEASE_NOTES.md`
+- `src/universaldaq/app/device_lifecycle_handler.py`
+- `src/universaldaq/runtime/semantics.py`
+- `src/universaldaq_labjack/real_u6.py`
+- `tests/contract/test_contract_runtime_evidence_semantics.py`
+- `tests/integration/test_integration_lifecycle_review_bundle_consistency.py`
+- `tests/integration/test_integration_u6_recovery_pipeline.py`
+- `tools/dev/_u6_field_test_support.py`
+- `tools/dev/_u6_live_support.py`
+- `tools/dev/run_u6_field_test_harness.bat`
+- `tools/dev/run_u6_field_test_harness.py`
+- `proof/UDQ_SPRINT_03B_EXECUTION_PLAN.md`
+- `proof/UDQ_SPRINT_03B_SCOPE_BOUNDARY.md`
+- `proof/UDQ_SPRINT_03B_REFERENCE_FAILURE_SPECIMEN.md`
+- `proof/UDQ_SPRINT_03B_CORRECTION_SUMMARY.md`
+- `proof/UDQ_SPRINT_03B_BASELINE_FILE_SNAPSHOT.json`

@@ -1,0 +1,49 @@
+{
+  "package_id": "UDQ-PKG-20260327-USABILITY-ENTRY-FIRST-SIGNAL-PATH-R01",
+  "package_slug": "usability-entry-first-signal-path",
+  "selected_device": {
+    "device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+    "display_name": "First Signal Demo Device",
+    "serial_number": "DEMO-001",
+    "support_tier": "generic"
+  },
+  "timings_ms": {
+    "discover_ms": 0.702,
+    "select_ms": 0.617,
+    "quick_start_ms": 11.865
+  },
+  "device_phase": "disconnected",
+  "published_signal_count": 1,
+  "first_signal_summary": {
+    "signal_id": "first_signal__generic_demo_first_signal_001",
+    "display_name": "Wave 0",
+    "point_key": "DEMO-FIRST-SIGNAL-001:demo_wave_0",
+    "point_class": "analog",
+    "latest_value": "2.000",
+    "latest_numeric_value": 2.0,
+    "quality_label": "disconnected",
+    "engineering_units": "V",
+    "trace_point_count": 2,
+    "auto_bound": true
+  },
+  "replay_tape": {
+    "signal_id": "first_signal__generic_demo_first_signal_001",
+    "display_name": "Wave 0",
+    "engineering_units": "V",
+    "quality_label": "disconnected",
+    "trace_points": [
+      {
+        "timestamp": 5,
+        "value": "2.750",
+        "numeric_value": 2.75
+      },
+      {
+        "timestamp": 6,
+        "value": "2.000",
+        "numeric_value": 2.0
+      }
+    ]
+  },
+  "shell_evidence_count": 9,
+  "runtime_transition_count": 9
+}

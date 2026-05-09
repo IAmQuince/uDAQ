@@ -1,0 +1,5 @@
+issue_id,duplication_class,source_documents,duplicate_object,disposition,resolution_vehicle,status
+UDQ-DUP-001,GOVERNED_BOILERPLATE,UDQ-AUD-TPL-001; UDQ-GAP-TPL-001; UDQ-PROOF-TPL-001,Shared template skeleton headings and field groups,Accepted as a controlled template family,Register only,ACCEPTED_INTENTIONAL
+UDQ-DUP-002,INTENTIONAL_REFERENCE_DUPLICATION,UDQ-ARCH-NAR-001; UDQ-ARCH-NAR-002,Safe-state precedence language,Retained in both architecture narratives with governed semantic ownership in glossary,UDQ-GOV-GLO-001 r1; UDQ-GOV-STD-002 r0,ACCEPTED_INTENTIONAL
+UDQ-DUP-003,SHADOW_DEFINITION,UDQ-PROF-SPEC-001; UDQ-ARCH-NAR-001; UDQ-UI-MOD-001,Restore and local continuity prose,Owning meaning moved to glossary; downstream docs now operationalize rather than define,UDQ-GOV-GLO-001 r1; UDQ-EXM-SPEC-001 r0,RESOLVED
+UDQ-DUP-004,INTENTIONAL_REFERENCE_DUPLICATION,UDQ-UI-NAR-001; UDQ-UI-ARCH-001,Signals to rules to actions to live-trace chain,Retained because doctrine and architecture both need local readability,universalDAQ_term_usage_matrix_r1,ACCEPTED_INTENTIONAL

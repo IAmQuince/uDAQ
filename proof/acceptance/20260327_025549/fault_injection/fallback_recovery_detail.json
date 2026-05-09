@@ -1,0 +1,234 @@
+{
+  "checkpoint_sequence_ids": [
+    33,
+    66,
+    99
+  ],
+  "corrupted_checkpoint_id": "CHK-SESSION-FAULT-INJECTION-115-132",
+  "fallback_candidate_count": 3,
+  "latest_checkpoint_corrupted": true,
+  "reconstructed_state_hash": "2cbd647db0c614f258026cc0b4ef48be894012ada36ea8187dd18bb76f1674a6",
+  "recovered_checkpoint_id": "CHK-SESSION-FAULT-INJECTION-111-99",
+  "recovered_checkpoint_rank": 3,
+  "recovered_last_committed_sequence_id": 99,
+  "replay_tail_contains_multiple_record_types": true,
+  "replay_tail_count": 34,
+  "replay_tail_counts_by_type": {
+    "cycle": 4,
+    "runtime_event": 14,
+    "sample": 8,
+    "variable_update": 8
+  },
+  "replay_tail_first_sequence_id": 100,
+  "replay_tail_last_sequence_id": 133,
+  "replay_tail_record_type_count": 4,
+  "segment_ranges": [
+    {
+      "first_sequence_id": 1,
+      "last_sequence_id": 4,
+      "record_count": 4,
+      "segment_id": "segment-0001"
+    },
+    {
+      "first_sequence_id": 5,
+      "last_sequence_id": 8,
+      "record_count": 4,
+      "segment_id": "segment-0002"
+    },
+    {
+      "first_sequence_id": 9,
+      "last_sequence_id": 12,
+      "record_count": 4,
+      "segment_id": "segment-0003"
+    },
+    {
+      "first_sequence_id": 13,
+      "last_sequence_id": 16,
+      "record_count": 4,
+      "segment_id": "segment-0004"
+    },
+    {
+      "first_sequence_id": 17,
+      "last_sequence_id": 20,
+      "record_count": 4,
+      "segment_id": "segment-0005"
+    },
+    {
+      "first_sequence_id": 21,
+      "last_sequence_id": 24,
+      "record_count": 4,
+      "segment_id": "segment-0006"
+    },
+    {
+      "first_sequence_id": 25,
+      "last_sequence_id": 28,
+      "record_count": 4,
+      "segment_id": "segment-0007"
+    },
+    {
+      "first_sequence_id": 29,
+      "last_sequence_id": 32,
+      "record_count": 4,
+      "segment_id": "segment-0008"
+    },
+    {
+      "first_sequence_id": 33,
+      "last_sequence_id": 36,
+      "record_count": 4,
+      "segment_id": "segment-0009"
+    },
+    {
+      "first_sequence_id": 37,
+      "last_sequence_id": 40,
+      "record_count": 4,
+      "segment_id": "segment-0010"
+    },
+    {
+      "first_sequence_id": 41,
+      "last_sequence_id": 44,
+      "record_count": 4,
+      "segment_id": "segment-0011"
+    },
+    {
+      "first_sequence_id": 45,
+      "last_sequence_id": 48,
+      "record_count": 4,
+      "segment_id": "segment-0012"
+    },
+    {
+      "first_sequence_id": 49,
+      "last_sequence_id": 52,
+      "record_count": 4,
+      "segment_id": "segment-0013"
+    },
+    {
+      "first_sequence_id": 53,
+      "last_sequence_id": 56,
+      "record_count": 4,
+      "segment_id": "segment-0014"
+    },
+    {
+      "first_sequence_id": 57,
+      "last_sequence_id": 60,
+      "record_count": 4,
+      "segment_id": "segment-0015"
+    },
+    {
+      "first_sequence_id": 61,
+      "last_sequence_id": 64,
+      "record_count": 4,
+      "segment_id": "segment-0016"
+    },
+    {
+      "first_sequence_id": 65,
+      "last_sequence_id": 68,
+      "record_count": 4,
+      "segment_id": "segment-0017"
+    },
+    {
+      "first_sequence_id": 69,
+      "last_sequence_id": 72,
+      "record_count": 4,
+      "segment_id": "segment-0018"
+    },
+    {
+      "first_sequence_id": 73,
+      "last_sequence_id": 76,
+      "record_count": 4,
+      "segment_id": "segment-0019"
+    },
+    {
+      "first_sequence_id": 77,
+      "last_sequence_id": 80,
+      "record_count": 4,
+      "segment_id": "segment-0020"
+    },
+    {
+      "first_sequence_id": 81,
+      "last_sequence_id": 84,
+      "record_count": 4,
+      "segment_id": "segment-0021"
+    },
+    {
+      "first_sequence_id": 85,
+      "last_sequence_id": 88,
+      "record_count": 4,
+      "segment_id": "segment-0022"
+    },
+    {
+      "first_sequence_id": 89,
+      "last_sequence_id": 92,
+      "record_count": 4,
+      "segment_id": "segment-0023"
+    },
+    {
+      "first_sequence_id": 93,
+      "last_sequence_id": 96,
+      "record_count": 4,
+      "segment_id": "segment-0024"
+    },
+    {
+      "first_sequence_id": 97,
+      "last_sequence_id": 100,
+      "record_count": 4,
+      "segment_id": "segment-0025"
+    },
+    {
+      "first_sequence_id": 101,
+      "last_sequence_id": 104,
+      "record_count": 4,
+      "segment_id": "segment-0026"
+    },
+    {
+      "first_sequence_id": 105,
+      "last_sequence_id": 108,
+      "record_count": 4,
+      "segment_id": "segment-0027"
+    },
+    {
+      "first_sequence_id": 109,
+      "last_sequence_id": 112,
+      "record_count": 4,
+      "segment_id": "segment-0028"
+    },
+    {
+      "first_sequence_id": 113,
+      "last_sequence_id": 116,
+      "record_count": 4,
+      "segment_id": "segment-0029"
+    },
+    {
+      "first_sequence_id": 117,
+      "last_sequence_id": 120,
+      "record_count": 4,
+      "segment_id": "segment-0030"
+    },
+    {
+      "first_sequence_id": 121,
+      "last_sequence_id": 124,
+      "record_count": 4,
+      "segment_id": "segment-0031"
+    },
+    {
+      "first_sequence_id": 125,
+      "last_sequence_id": 128,
+      "record_count": 4,
+      "segment_id": "segment-0032"
+    },
+    {
+      "first_sequence_id": 129,
+      "last_sequence_id": 132,
+      "record_count": 4,
+      "segment_id": "segment-0033"
+    },
+    {
+      "first_sequence_id": 133,
+      "last_sequence_id": 133,
+      "record_count": 1,
+      "segment_id": "segment-0034"
+    }
+  ],
+  "session_root": "/mnt/data/udq11_run/proof/acceptance/20260327_025549/fault_injection/runtime/sessions/SESSION-FAULT-INJECTION",
+  "state_hash_matches": true,
+  "verdict": "PASS"
+}

@@ -1,0 +1,17 @@
+UDQ U6 Guided Field Validation — Artifact Manifest
+=================================================
+bundle_dir: /mnt/data/s3cfinal/proof/field_tests/20260325_00_simulated-u6-guided-validation
+artifact_count: 10
+
+Artifacts
+---------
+- diagnostics: 20260325_00_simulated-u6-guided-validation__diagnostics.json (91890 bytes, sha256=a8f1daf90a73e5db4a5f866be9db2edaf70b9d902f8994006bbd292e9bf94da8)
+- events: 20260325_00_simulated-u6-guided-validation__events.csv (4795 bytes, sha256=94628c15bffb02c51e6710f29f74051ad9baa78c0cd66a5c0d0d143184055220)
+- preflight_json: 20260325_00_simulated-u6-guided-validation__preflight-report.json (1742 bytes, sha256=fbb63ae462722eeb2586b04fb3814d09d5d208ddba1b5d65b33f04be92fd540b)
+- preflight_text: 20260325_00_simulated-u6-guided-validation__preflight-report.txt (1040 bytes, sha256=312e8afdc9031d9ddc6ca18b851d5501f4a6dfb452433c0cd124a05120f3e90b)
+- review_summary: 20260325_00_simulated-u6-guided-validation__review-summary.md (1165 bytes, sha256=433a40f83fecf78e40611651f71199d1c6099218959f58e13b41e9fadbf2e8aa)
+- semantic_verdict_json: 20260325_00_simulated-u6-guided-validation__semantic-consistency-verdict.json (1864 bytes, sha256=fc199c1bbb34fb18dda359458ca33ef51605e785df02a1b87d47b5fa845ef265)
+- semantic_verdict_text: 20260325_00_simulated-u6-guided-validation__semantic-consistency-verdict.txt (1170 bytes, sha256=5cd358dae3dfe8b99b0a4f5257f543991f1015fe5af7ee3205e1ea3ad087f904)
+- smoke: 20260325_00_simulated-u6-guided-validation__smoke.txt (594 bytes, sha256=9b33621c50f9c5a6a056c5f265f4654dda0d464493fc29b361c110001cdda790)
+- start_here: 20260325_00_simulated-u6-guided-validation__start-here.txt (754 bytes, sha256=aa9123ff85ec17bc8e4c6211faa90c1f428f2d1add2c082ed0dab4979bdea77f)
+- summary: 20260325_00_simulated-u6-guided-validation__summary.txt (4089 bytes, sha256=11a48848e7f67d9b93d51a29085c0b077c1145f66d806855571070c3ce8b55c7)

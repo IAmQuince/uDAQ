@@ -1,0 +1,18 @@
+{
+  "average_checkpoint_sequence_gap": 33.0,
+  "average_records_per_segment": 3.92,
+  "bounded_run_window_ticks": 248,
+  "checkpoint_density_per_cycle": 0.222,
+  "max_segment_record_count": 4,
+  "meets_min_checkpoint_depth": true,
+  "meets_min_record_depth": true,
+  "meets_min_segment_depth": true,
+  "min_segment_record_count": 1,
+  "planned_cycle_count": 18,
+  "queryable_sample_points": [
+    "SIM-HIST-001:PT-101",
+    "SIM-HIST-001:TT-101"
+  ],
+  "queryable_variable_count": 2,
+  "runtime_event_diversity": 4
+}

@@ -1,0 +1,95 @@
+{
+  "workspace_task_maps": [
+    {
+      "graph_mode_default": "primary",
+      "hidden_or_contextual": [
+        "mapping drafts",
+        "logic palette",
+        "deep capability details"
+      ],
+      "persistent_status": [
+        "runtime posture",
+        "device/session",
+        "selected signal freshness",
+        "alarm summary",
+        "graph mode"
+      ],
+      "primary_goal": "monitor signals and execute guarded control actions",
+      "primary_surface": "live graph and active signal summary",
+      "secondary_surfaces": [
+        "explorers",
+        "trace inspector",
+        "events console",
+        "control column"
+      ],
+      "workspace_id": "operate"
+    },
+    {
+      "graph_mode_default": "compact_pip",
+      "hidden_or_contextual": [
+        "full graph chrome",
+        "deep session notes",
+        "device onboarding controls"
+      ],
+      "persistent_status": [
+        "runtime posture",
+        "graph mode",
+        "selected signal freshness",
+        "mapping authority state"
+      ],
+      "primary_goal": "author and inspect logic relationships",
+      "primary_surface": "logic canvas",
+      "secondary_surfaces": [
+        "signal explorer",
+        "logic inspector",
+        "PiP graph",
+        "events console"
+      ],
+      "workspace_id": "logic_designer"
+    },
+    {
+      "graph_mode_default": "compact_pip",
+      "hidden_or_contextual": [
+        "full graph chrome",
+        "trace styling controls"
+      ],
+      "persistent_status": [
+        "runtime posture",
+        "capability mode",
+        "read/write state",
+        "limited-access reason",
+        "mapping draft state"
+      ],
+      "primary_goal": "inspect devices, capability evidence, and mapping drafts",
+      "primary_surface": "device and mapping surfaces",
+      "secondary_surfaces": [
+        "device explorer",
+        "capability summary",
+        "PiP graph",
+        "events console"
+      ],
+      "workspace_id": "system"
+    },
+    {
+      "graph_mode_default": "primary",
+      "hidden_or_contextual": [
+        "mapping editor",
+        "control authoring controls"
+      ],
+      "persistent_status": [
+        "runtime posture",
+        "graph mode",
+        "selected signal freshness",
+        "recent event count"
+      ],
+      "primary_goal": "review recent activity and historical context",
+      "primary_surface": "session review detail",
+      "secondary_surfaces": [
+        "review graph overlay",
+        "notes",
+        "events console"
+      ],
+      "workspace_id": "session_review"
+    }
+  ]
+}

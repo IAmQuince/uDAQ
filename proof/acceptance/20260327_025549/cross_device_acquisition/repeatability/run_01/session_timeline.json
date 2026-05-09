@@ -1,0 +1,415 @@
+{
+  "checkpoint_sequence_ids": [
+    83,
+    149
+  ],
+  "corrupted_checkpoint_id": "CHK-SESSION-CROSS-DEVICE-CLOSURE-01-511-227",
+  "fallback_candidate_count": 2,
+  "recovered_checkpoint_id": "CHK-SESSION-CROSS-DEVICE-CLOSURE-01-507-149",
+  "replay_tail_first_sequence_id": 150,
+  "replay_tail_last_sequence_id": 268,
+  "segment_ranges": [
+    {
+      "first_sequence_id": 1,
+      "last_sequence_id": 4,
+      "record_count": 4,
+      "segment_id": "segment-0001"
+    },
+    {
+      "first_sequence_id": 5,
+      "last_sequence_id": 8,
+      "record_count": 4,
+      "segment_id": "segment-0002"
+    },
+    {
+      "first_sequence_id": 9,
+      "last_sequence_id": 12,
+      "record_count": 4,
+      "segment_id": "segment-0003"
+    },
+    {
+      "first_sequence_id": 13,
+      "last_sequence_id": 16,
+      "record_count": 4,
+      "segment_id": "segment-0004"
+    },
+    {
+      "first_sequence_id": 17,
+      "last_sequence_id": 20,
+      "record_count": 4,
+      "segment_id": "segment-0005"
+    },
+    {
+      "first_sequence_id": 21,
+      "last_sequence_id": 24,
+      "record_count": 4,
+      "segment_id": "segment-0006"
+    },
+    {
+      "first_sequence_id": 25,
+      "last_sequence_id": 28,
+      "record_count": 4,
+      "segment_id": "segment-0007"
+    },
+    {
+      "first_sequence_id": 29,
+      "last_sequence_id": 32,
+      "record_count": 4,
+      "segment_id": "segment-0008"
+    },
+    {
+      "first_sequence_id": 33,
+      "last_sequence_id": 36,
+      "record_count": 4,
+      "segment_id": "segment-0009"
+    },
+    {
+      "first_sequence_id": 37,
+      "last_sequence_id": 40,
+      "record_count": 4,
+      "segment_id": "segment-0010"
+    },
+    {
+      "first_sequence_id": 41,
+      "last_sequence_id": 44,
+      "record_count": 4,
+      "segment_id": "segment-0011"
+    },
+    {
+      "first_sequence_id": 45,
+      "last_sequence_id": 48,
+      "record_count": 4,
+      "segment_id": "segment-0012"
+    },
+    {
+      "first_sequence_id": 49,
+      "last_sequence_id": 52,
+      "record_count": 4,
+      "segment_id": "segment-0013"
+    },
+    {
+      "first_sequence_id": 53,
+      "last_sequence_id": 56,
+      "record_count": 4,
+      "segment_id": "segment-0014"
+    },
+    {
+      "first_sequence_id": 57,
+      "last_sequence_id": 60,
+      "record_count": 4,
+      "segment_id": "segment-0015"
+    },
+    {
+      "first_sequence_id": 61,
+      "last_sequence_id": 64,
+      "record_count": 4,
+      "segment_id": "segment-0016"
+    },
+    {
+      "first_sequence_id": 65,
+      "last_sequence_id": 68,
+      "record_count": 4,
+      "segment_id": "segment-0017"
+    },
+    {
+      "first_sequence_id": 69,
+      "last_sequence_id": 72,
+      "record_count": 4,
+      "segment_id": "segment-0018"
+    },
+    {
+      "first_sequence_id": 73,
+      "last_sequence_id": 76,
+      "record_count": 4,
+      "segment_id": "segment-0019"
+    },
+    {
+      "first_sequence_id": 77,
+      "last_sequence_id": 80,
+      "record_count": 4,
+      "segment_id": "segment-0020"
+    },
+    {
+      "first_sequence_id": 81,
+      "last_sequence_id": 84,
+      "record_count": 4,
+      "segment_id": "segment-0021"
+    },
+    {
+      "first_sequence_id": 85,
+      "last_sequence_id": 88,
+      "record_count": 4,
+      "segment_id": "segment-0022"
+    },
+    {
+      "first_sequence_id": 89,
+      "last_sequence_id": 92,
+      "record_count": 4,
+      "segment_id": "segment-0023"
+    },
+    {
+      "first_sequence_id": 93,
+      "last_sequence_id": 96,
+      "record_count": 4,
+      "segment_id": "segment-0024"
+    },
+    {
+      "first_sequence_id": 97,
+      "last_sequence_id": 100,
+      "record_count": 4,
+      "segment_id": "segment-0025"
+    },
+    {
+      "first_sequence_id": 101,
+      "last_sequence_id": 104,
+      "record_count": 4,
+      "segment_id": "segment-0026"
+    },
+    {
+      "first_sequence_id": 105,
+      "last_sequence_id": 108,
+      "record_count": 4,
+      "segment_id": "segment-0027"
+    },
+    {
+      "first_sequence_id": 109,
+      "last_sequence_id": 112,
+      "record_count": 4,
+      "segment_id": "segment-0028"
+    },
+    {
+      "first_sequence_id": 113,
+      "last_sequence_id": 116,
+      "record_count": 4,
+      "segment_id": "segment-0029"
+    },
+    {
+      "first_sequence_id": 117,
+      "last_sequence_id": 120,
+      "record_count": 4,
+      "segment_id": "segment-0030"
+    },
+    {
+      "first_sequence_id": 121,
+      "last_sequence_id": 124,
+      "record_count": 4,
+      "segment_id": "segment-0031"
+    },
+    {
+      "first_sequence_id": 125,
+      "last_sequence_id": 128,
+      "record_count": 4,
+      "segment_id": "segment-0032"
+    },
+    {
+      "first_sequence_id": 129,
+      "last_sequence_id": 132,
+      "record_count": 4,
+      "segment_id": "segment-0033"
+    },
+    {
+      "first_sequence_id": 133,
+      "last_sequence_id": 136,
+      "record_count": 4,
+      "segment_id": "segment-0034"
+    },
+    {
+      "first_sequence_id": 137,
+      "last_sequence_id": 140,
+      "record_count": 4,
+      "segment_id": "segment-0035"
+    },
+    {
+      "first_sequence_id": 141,
+      "last_sequence_id": 144,
+      "record_count": 4,
+      "segment_id": "segment-0036"
+    },
+    {
+      "first_sequence_id": 145,
+      "last_sequence_id": 148,
+      "record_count": 4,
+      "segment_id": "segment-0037"
+    },
+    {
+      "first_sequence_id": 149,
+      "last_sequence_id": 152,
+      "record_count": 4,
+      "segment_id": "segment-0038"
+    },
+    {
+      "first_sequence_id": 153,
+      "last_sequence_id": 156,
+      "record_count": 4,
+      "segment_id": "segment-0039"
+    },
+    {
+      "first_sequence_id": 157,
+      "last_sequence_id": 160,
+      "record_count": 4,
+      "segment_id": "segment-0040"
+    },
+    {
+      "first_sequence_id": 161,
+      "last_sequence_id": 164,
+      "record_count": 4,
+      "segment_id": "segment-0041"
+    },
+    {
+      "first_sequence_id": 165,
+      "last_sequence_id": 168,
+      "record_count": 4,
+      "segment_id": "segment-0042"
+    },
+    {
+      "first_sequence_id": 169,
+      "last_sequence_id": 172,
+      "record_count": 4,
+      "segment_id": "segment-0043"
+    },
+    {
+      "first_sequence_id": 173,
+      "last_sequence_id": 176,
+      "record_count": 4,
+      "segment_id": "segment-0044"
+    },
+    {
+      "first_sequence_id": 177,
+      "last_sequence_id": 180,
+      "record_count": 4,
+      "segment_id": "segment-0045"
+    },
+    {
+      "first_sequence_id": 181,
+      "last_sequence_id": 184,
+      "record_count": 4,
+      "segment_id": "segment-0046"
+    },
+    {
+      "first_sequence_id": 185,
+      "last_sequence_id": 188,
+      "record_count": 4,
+      "segment_id": "segment-0047"
+    },
+    {
+      "first_sequence_id": 189,
+      "last_sequence_id": 192,
+      "record_count": 4,
+      "segment_id": "segment-0048"
+    },
+    {
+      "first_sequence_id": 193,
+      "last_sequence_id": 196,
+      "record_count": 4,
+      "segment_id": "segment-0049"
+    },
+    {
+      "first_sequence_id": 197,
+      "last_sequence_id": 200,
+      "record_count": 4,
+      "segment_id": "segment-0050"
+    },
+    {
+      "first_sequence_id": 201,
+      "last_sequence_id": 204,
+      "record_count": 4,
+      "segment_id": "segment-0051"
+    },
+    {
+      "first_sequence_id": 205,
+      "last_sequence_id": 208,
+      "record_count": 4,
+      "segment_id": "segment-0052"
+    },
+    {
+      "first_sequence_id": 209,
+      "last_sequence_id": 212,
+      "record_count": 4,
+      "segment_id": "segment-0053"
+    },
+    {
+      "first_sequence_id": 213,
+      "last_sequence_id": 216,
+      "record_count": 4,
+      "segment_id": "segment-0054"
+    },
+    {
+      "first_sequence_id": 217,
+      "last_sequence_id": 220,
+      "record_count": 4,
+      "segment_id": "segment-0055"
+    },
+    {
+      "first_sequence_id": 221,
+      "last_sequence_id": 224,
+      "record_count": 4,
+      "segment_id": "segment-0056"
+    },
+    {
+      "first_sequence_id": 225,
+      "last_sequence_id": 228,
+      "record_count": 4,
+      "segment_id": "segment-0057"
+    },
+    {
+      "first_sequence_id": 229,
+      "last_sequence_id": 232,
+      "record_count": 4,
+      "segment_id": "segment-0058"
+    },
+    {
+      "first_sequence_id": 233,
+      "last_sequence_id": 236,
+      "record_count": 4,
+      "segment_id": "segment-0059"
+    },
+    {
+      "first_sequence_id": 237,
+      "last_sequence_id": 240,
+      "record_count": 4,
+      "segment_id": "segment-0060"
+    },
+    {
+      "first_sequence_id": 241,
+      "last_sequence_id": 244,
+      "record_count": 4,
+      "segment_id": "segment-0061"
+    },
+    {
+      "first_sequence_id": 245,
+      "last_sequence_id": 248,
+      "record_count": 4,
+      "segment_id": "segment-0062"
+    },
+    {
+      "first_sequence_id": 249,
+      "last_sequence_id": 252,
+      "record_count": 4,
+      "segment_id": "segment-0063"
+    },
+    {
+      "first_sequence_id": 253,
+      "last_sequence_id": 256,
+      "record_count": 4,
+      "segment_id": "segment-0064"
+    },
+    {
+      "first_sequence_id": 257,
+      "last_sequence_id": 260,
+      "record_count": 4,
+      "segment_id": "segment-0065"
+    },
+    {
+      "first_sequence_id": 261,
+      "last_sequence_id": 264,
+      "record_count": 4,
+      "segment_id": "segment-0066"
+    },
+    {
+      "first_sequence_id": 265,
+      "last_sequence_id": 268,
+      "record_count": 4,
+      "segment_id": "segment-0067"
+    }
+  ]
+}

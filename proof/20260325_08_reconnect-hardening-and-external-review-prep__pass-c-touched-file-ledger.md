@@ -1,0 +1,32 @@
+# 20260325_08 — Pass C Touched File Ledger
+
+## Touched surfaces
+- `README.md`
+- `docs/handbook/IMPLEMENTATION_ENTRY.md`
+- `docs/handbook/NEXT_ACTIONS.md`
+- `docs/release/EXEC_SUMMARY.md`
+- `docs/release/REVIEW_START_HERE__UDQ-PKG-20260325-IMPLEMENTATION-ENTRY-OPTIMIZATION-R02__ACTIVE.md`
+- `docs/active/UDQ-GOV-LOG-001__Controlled_Document_Index__r22__WIP.md`
+- `docs/active/UDQ-GOV-REG-003__Documentation_Update_Debt_Register__r3__WIP.md`
+- `proof/UDQ_PROOF_GUIDE.md`
+- `proof/UDQ_DOC_INDEX.md`
+- `proof/20260325_08_reconnect-hardening-and-external-review-prep__artifact-authority-map.md`
+- `proof/20260325_08_reconnect-hardening-and-external-review-prep__requirement-proof-crosswalk.md`
+- `proof/20260325_08_reconnect-hardening-and-external-review-prep__main-app-value-of-lane.md`
+- `proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-scope-boundary.md`
+- `proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-no-touch-zones.md`
+- `proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-review-reading-order.md`
+- `proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-review-narrative.md`
+- `proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-claim-evidence-audit.md`
+- `proof/20260325_08_reconnect-hardening-and-external-review-prep__document-classification-standard.md`
+- `proof/20260325_08_reconnect-hardening-and-external-review-prep__document-classification-matrix.md`
+- `proof/20260325_08_reconnect-hardening-and-external-review-prep__legacy-status-migration-map.md`
+- `proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-authoritative-reading-set.md`
+- `proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-open-items-and-deferred-work.md`
+- `proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-review-questions.md`
+- `proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-baseline-file-snapshot.json`
+- `proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-truncation-guard-report.json`
+- `proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-validation-status.txt`
+- `proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-documentation-integrity-report.md`
+- `proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-touched-file-ledger.md`
+- `tools/governance/validate_document_classification.py`

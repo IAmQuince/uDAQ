@@ -1,0 +1,13 @@
+20260326_05 richer recovery and longer bounded session sprint
+
+Acceptance runner:
+- PASS
+- report_dir: proof/acceptance/20260327_001239
+
+Targeted validation:
+- pytest tests/contract/test_contract_runtime_historian_population_reviewability.py
+- pytest tests/integration/test_integration_populated_historian_acceptance.py
+- pytest tests/integration/test_integration_evidence_acceptance_runner.py
+- pytest tests/contract/test_contract_runtime_replay_and_history_index.py
+- pytest tests/contract/test_contract_runtime_journal_survivability_and_recovery.py
+- result: 6 passed

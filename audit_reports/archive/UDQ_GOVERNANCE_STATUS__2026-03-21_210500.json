@@ -1,0 +1,7 @@
+{
+  "requirement_count": 45,
+  "invariant_count": 18,
+  "execution_contract_count": 28,
+  "ready_requirements": 25,
+  "ui_package_name": "src/universaldaq/ui"
+}

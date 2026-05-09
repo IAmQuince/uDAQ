@@ -1,0 +1,54 @@
+{
+  "rows": [
+    {
+      "issue_id": "UDQ-CON-001",
+      "issue_class": "CONTRADICTION",
+      "term_cluster": "active revision self-reference",
+      "source_documents": "UDQ-GOV-LOG-001 r14",
+      "finding_summary": "Active set table listed controlled index as r13 instead of r14.",
+      "ruling": "Controlled index shall truthfully identify its own active revision.",
+      "resolution_vehicle": "UDQ-GOV-LOG-001 r15",
+      "status": "RESOLVED"
+    },
+    {
+      "issue_id": "UDQ-CON-002",
+      "issue_class": "CONTRADICTION",
+      "term_cluster": "stale cross-reference",
+      "source_documents": "UDQ-GOV-RPT-001 r2",
+      "finding_summary": "Consistency assessment referenced UDQ-GOV-LOG-001 r6 as active-set source.",
+      "ruling": "Reports shall reference the current active controlled set.",
+      "resolution_vehicle": "UDQ-GOV-RPT-001 r3",
+      "status": "RESOLVED"
+    },
+    {
+      "issue_id": "UDQ-CON-003",
+      "issue_class": "AMBIGUITY",
+      "term_cluster": "profile/restore/machine-state separation",
+      "source_documents": "UDQ-GOV-GLO-001 r0; UDQ-PROF-SPEC-001 r0; UDQ-ARCH-NAR-001 r3; UDQ-UI-MOD-001 r1",
+      "finding_summary": "Owning semantics were not explicit enough to prevent future drift.",
+      "ruling": "Restore is not machine-state reassertion; workspace state and machine state remain distinct.",
+      "resolution_vehicle": "UDQ-GOV-GLO-001 r1; UDQ-GOV-STD-002 r0; UDQ-EXM-SPEC-001 r0",
+      "status": "RESOLVED"
+    },
+    {
+      "issue_id": "UDQ-CON-004",
+      "issue_class": "AMBIGUITY",
+      "term_cluster": "requested/applied/observed state",
+      "source_documents": "UDQ-GOV-GLO-001 r0; UDQ-OUT-SPEC-001 r1; UDQ-UI-NAR-001 r1; UDQ-REM-SPEC-001 r1",
+      "finding_summary": "The glossary did not own these distinctions strongly enough.",
+      "ruling": "Requested, applied, and observed state are separate facts with glossary ownership.",
+      "resolution_vehicle": "UDQ-GOV-GLO-001 r1; universalDAQ_term_usage_matrix_r1",
+      "status": "RESOLVED"
+    },
+    {
+      "issue_id": "UDQ-CON-005",
+      "issue_class": "AMBIGUITY",
+      "term_cluster": "live/historical/review/live-trace",
+      "source_documents": "UDQ-UI-SPEC-004 r0; UDQ-HIS-SPEC-001 r1; UDQ-UI-MOD-001 r1; UDQ-UI-NAR-001 r1",
+      "finding_summary": "Edges among these terms were intuitively consistent but not centrally codified.",
+      "ruling": "Live trace is live explainability; historical review is evidence exploration; review mode is the broader UI posture.",
+      "resolution_vehicle": "UDQ-GOV-GLO-001 r1; UDQ-EXM-SPEC-001 r0",
+      "status": "RESOLVED"
+    }
+  ]
+}

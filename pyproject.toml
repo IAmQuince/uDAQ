@@ -1,0 +1,102 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "universaldaq"
+version = "0.1.0"
+description = "UniversalDAQ bounded shell/service save-point reconciliation baseline"
+requires-python = ">=3.11"
+[project.optional-dependencies]
+dev = [
+  "mypy>=1.19",
+  "pytest>=8.0",
+  "ruff>=0.12.0",
+  "pre-commit>=4.0",
+]
+ui = [
+  "PySide6>=6.6",
+  "pyqtgraph>=0.13",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra --import-mode=importlib -p no:cacheprovider"
+testpaths = ["tests"]
+markers = [
+  "meta: metadata and traceability integrity checks",
+  "smoke: shallow package and load checks",
+  "contract: execution-contract aligned tests",
+  "scenario: worked-example aligned scenario tests",
+  "invariants: invariant and monitor-hook checks",
+  "regression: regression tests",
+  "integration: integration tests"
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.11"
+warn_unused_configs = true
+disallow_any_generics = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_return_any = true
+no_implicit_reexport = true
+strict_equality = true
+pretty = true
+show_error_codes = true
+exclude = [
+  "^audit_reports/",
+  "^proof/",
+]
+
+[[tool.mypy.overrides]]
+module = [
+  "tests.*",
+]
+disallow_untyped_defs = false
+
+
+[project.entry-points."universaldaq.support_packs"]
+labjack = "universaldaq_labjack.plugin:build_support_pack_registration"
+arduino = "universaldaq_arduino.plugin:build_support_pack_registration"
+rpi = "universaldaq_rpi.plugin:build_support_pack_registration"
+
+[project.scripts]
+udq-audit = "tools.audit.run_master_audit:main"
+udq-doc-impact = "tools.governance.validate_document_impact:main"
+udq-readme-control = "tools.governance.validate_readme_control:main"
+udq-doc-debt = "tools.governance.validate_document_debt:main"
+udq-gate = "tools.dev.run_local_gate:main"
+udq-shell-smoke = "tools.dev.run_shell_smoke:main"
+udq-labjack-u6-smoke = "tools.dev.run_labjack_u6_smoke:main"
+udq-arduino-smoke = "tools.dev.run_arduino_smoke:main"
+udq-rpi-smoke = "tools.dev.run_rpi_smoke:main"
+udq-evidence-acceptance = "tools.acceptance.run_evidence_acceptance:main"
+udq-fault-injection = "tools.acceptance.run_fault_injection:main"
+udq-verify-session-artifacts = "tools.acceptance.verify_session_artifacts:main"
+udq-populated-review-session = "tools.acceptance.build_populated_review_session:main"
+udq-repeatability-gate = "tools.acceptance.run_repeatability_gate:main"
+udq-real-hardware-bridge = "tools.acceptance.run_real_hardware_specimen_bridge:main"
+udq-cross-device-acquisition = "tools.acceptance.run_cross_device_acquisition_spine:main"
+udq-cross-device-recovery-closure = "tools.acceptance.run_cross_device_recovery_closure:main"
+udq-cross-device-command-arbitration = "tools.acceptance.run_cross_device_command_arbitration:main"
+udq-user-demo-inventory = "tools.diagnostics.dump_user_demo_inventory:main"
+udq-visible-shell = "tools.ui.launch_operator_shell:main"
+udq-visible-shell-inventory = "tools.diagnostics.dump_visible_shell_inventory:main"
+
+udq-desktop-bench = "tools.ui.run_desktop_bench_harness:main"
+udq-authoritative-binding-inventory = "tools.diagnostics.dump_authoritative_binding_inventory:main"

@@ -1,0 +1,36 @@
+UDQ Sprint 3A Validation Status
+===============================
+
+Package line: UDQ-PKG-20260325-IMPLEMENTATION-ENTRY-OPTIMIZATION-R02
+Sprint: 3A — Guided U6 Field Validation and Auto-Diagnostic Packaging
+
+Validation summary
+------------------
+- package-entry surfaces: PASS
+- document completeness: PASS
+- windows path budget: PASS
+- truncation guard against Sprint 3 baseline: PASS
+- shell smoke: PASS
+- guided simulated field-validation harness run: PASS
+- runtime-evidence consistency re-check against generated diagnostics JSON: PASS
+- targeted pytest subset: PASS (9 passed)
+
+Targeted pytest subset
+----------------------
+- tests/integration/test_integration_u6_field_test_harness.py
+- tests/integration/test_integration_runtime_evidence_bundle_v1.py
+- tests/integration/test_integration_u6_diag_and_live_smoke_scripts.py
+- tests/meta/test_meta_document_completeness_rules.py
+- tests/meta/test_meta_documentation_impact_rules.py
+
+Generated guided validation sample
+----------------------------------
+- proof/field_tests/u6_field_validation_20260325_171120/
+- semantic verdict: PASS
+- artifact manifest: present
+- preflight report: present
+- start-here report: present
+
+Shell smoke note
+----------------
+shell-smoke: profile=PROF-SMOKE page=review mode=live device_phase=live detected=4 command_allowed=False ack_states=(<AlarmLifecycleState.ASSERTED: 'asserted'>,) manifest=MAN-SMOKE-001

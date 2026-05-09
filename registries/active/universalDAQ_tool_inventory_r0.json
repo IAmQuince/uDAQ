@@ -1,0 +1,304 @@
+{
+  "rows": [
+    {
+      "path": "tools/README.md",
+      "tool_name": "README",
+      "subtree": "README.md",
+      "status": "active"
+    },
+    {
+      "path": "tools/__init__.py",
+      "tool_name": "__init__",
+      "subtree": "__init__.py",
+      "status": "active"
+    },
+    {
+      "path": "tools/audit/__init__.py",
+      "tool_name": "__init__",
+      "subtree": "audit",
+      "status": "active"
+    },
+    {
+      "path": "tools/audit/_shared.py",
+      "tool_name": "_shared",
+      "subtree": "audit",
+      "status": "active"
+    },
+    {
+      "path": "tools/audit/check_first_slice_readiness.py",
+      "tool_name": "check_first_slice_readiness",
+      "subtree": "audit",
+      "status": "active"
+    },
+    {
+      "path": "tools/audit/check_generated_snapshots.py",
+      "tool_name": "check_generated_snapshots",
+      "subtree": "audit",
+      "status": "active"
+    },
+    {
+      "path": "tools/audit/check_root_summary_sync.py",
+      "tool_name": "check_root_summary_sync",
+      "subtree": "audit",
+      "status": "active"
+    },
+    {
+      "path": "tools/audit/check_tests_tree.py",
+      "tool_name": "check_tests_tree",
+      "subtree": "audit",
+      "status": "active"
+    },
+    {
+      "path": "tools/audit/check_tools_tree.py",
+      "tool_name": "check_tools_tree",
+      "subtree": "audit",
+      "status": "active"
+    },
+    {
+      "path": "tools/audit/run_master_audit.py",
+      "tool_name": "run_master_audit",
+      "subtree": "audit",
+      "status": "active"
+    },
+    {
+      "path": "tools/dev/__init__.py",
+      "tool_name": "__init__",
+      "subtree": "dev",
+      "status": "active"
+    },
+    {
+      "path": "tools/dev/list_first_slice_invariants.py",
+      "tool_name": "list_first_slice_invariants",
+      "subtree": "dev",
+      "status": "active"
+    },
+    {
+      "path": "tools/dev/list_first_slice_requirements.py",
+      "tool_name": "list_first_slice_requirements",
+      "subtree": "dev",
+      "status": "active"
+    },
+    {
+      "path": "tools/dev/run_local_gate.py",
+      "tool_name": "run_local_gate",
+      "subtree": "dev",
+      "status": "active"
+    },
+    {
+      "path": "tools/dev/run_type_gate.py",
+      "tool_name": "run_type_gate",
+      "subtree": "dev",
+      "status": "active"
+    },
+    {
+      "path": "tools/diagnostics/.gitkeep",
+      "tool_name": ".gitkeep",
+      "subtree": "diagnostics",
+      "status": "active"
+    },
+    {
+      "path": "tools/diagnostics/__init__.py",
+      "tool_name": "__init__",
+      "subtree": "diagnostics",
+      "status": "active"
+    },
+    {
+      "path": "tools/diagnostics/dump_governance_status.py",
+      "tool_name": "dump_governance_status",
+      "subtree": "diagnostics",
+      "status": "active"
+    },
+    {
+      "path": "tools/diagnostics/dump_repo_inventory.py",
+      "tool_name": "dump_repo_inventory",
+      "subtree": "diagnostics",
+      "status": "active"
+    },
+    {
+      "path": "tools/diagnostics/dump_schema_inventory.py",
+      "tool_name": "dump_schema_inventory",
+      "subtree": "diagnostics",
+      "status": "active"
+    },
+    {
+      "path": "tools/diagnostics/emit_governance_snapshot_report.py",
+      "tool_name": "emit_governance_snapshot_report",
+      "subtree": "diagnostics",
+      "status": "active"
+    },
+    {
+      "path": "tools/diagnostics/emit_structure_report.py",
+      "tool_name": "emit_structure_report",
+      "subtree": "diagnostics",
+      "status": "active"
+    },
+    {
+      "path": "tools/diagnostics/emit_test_inventory.py",
+      "tool_name": "emit_test_inventory",
+      "subtree": "diagnostics",
+      "status": "active"
+    },
+    {
+      "path": "tools/diagnostics/run_precode_diagnostics.py",
+      "tool_name": "run_precode_diagnostics",
+      "subtree": "diagnostics",
+      "status": "active"
+    },
+    {
+      "path": "tools/governance/.gitkeep",
+      "tool_name": ".gitkeep",
+      "subtree": "governance",
+      "status": "active"
+    },
+    {
+      "path": "tools/governance/__init__.py",
+      "tool_name": "__init__",
+      "subtree": "governance",
+      "status": "active"
+    },
+    {
+      "path": "tools/governance/_shared.py",
+      "tool_name": "_shared",
+      "subtree": "governance",
+      "status": "active"
+    },
+    {
+      "path": "tools/governance/build_first_slice_execution_contract.py",
+      "tool_name": "build_first_slice_execution_contract",
+      "subtree": "governance",
+      "status": "active"
+    },
+    {
+      "path": "tools/governance/build_first_slice_invariant_snapshot.py",
+      "tool_name": "build_first_slice_invariant_snapshot",
+      "subtree": "governance",
+      "status": "active"
+    },
+    {
+      "path": "tools/governance/build_first_slice_requirement_pack.py",
+      "tool_name": "build_first_slice_requirement_pack",
+      "subtree": "governance",
+      "status": "active"
+    },
+    {
+      "path": "tools/governance/build_first_slice_worked_example_snapshot.py",
+      "tool_name": "build_first_slice_worked_example_snapshot",
+      "subtree": "governance",
+      "status": "active"
+    },
+    {
+      "path": "tools/governance/build_implementation_coverage_snapshot.py",
+      "tool_name": "build_implementation_coverage_snapshot",
+      "subtree": "governance",
+      "status": "active"
+    },
+    {
+      "path": "tools/governance/validate_document_impact.py",
+      "tool_name": "validate_document_impact",
+      "subtree": "governance",
+      "status": "active"
+    },
+    {
+      "path": "tools/package_build/.gitkeep",
+      "tool_name": ".gitkeep",
+      "subtree": "package_build",
+      "status": "active"
+    },
+    {
+      "path": "tools/package_build/__init__.py",
+      "tool_name": "__init__",
+      "subtree": "package_build",
+      "status": "active"
+    },
+    {
+      "path": "tools/package_build/build_precode_package.py",
+      "tool_name": "build_precode_package",
+      "subtree": "package_build",
+      "status": "active"
+    },
+    {
+      "path": "tools/package_build/clean_generated_artifacts.py",
+      "tool_name": "clean_generated_artifacts",
+      "subtree": "package_build",
+      "status": "active"
+    },
+    {
+      "path": "tools/package_build/stamp_generated_reports.py",
+      "tool_name": "stamp_generated_reports",
+      "subtree": "package_build",
+      "status": "active"
+    },
+    {
+      "path": "tools/proof/__init__.py",
+      "tool_name": "__init__",
+      "subtree": "proof",
+      "status": "active"
+    },
+    {
+      "path": "tools/proof/init_proof_bundle.py",
+      "tool_name": "init_proof_bundle",
+      "subtree": "proof",
+      "status": "active"
+    },
+    {
+      "path": "tools/proof/validate_proof_bundle.py",
+      "tool_name": "validate_proof_bundle",
+      "subtree": "proof",
+      "status": "active"
+    },
+    {
+      "path": "tools/traceability/.gitkeep",
+      "tool_name": ".gitkeep",
+      "subtree": "traceability",
+      "status": "active"
+    },
+    {
+      "path": "tools/traceability/__init__.py",
+      "tool_name": "__init__",
+      "subtree": "traceability",
+      "status": "active"
+    },
+    {
+      "path": "tools/traceability/_shared.py",
+      "tool_name": "_shared",
+      "subtree": "traceability",
+      "status": "active"
+    },
+    {
+      "path": "tools/traceability/dump_requirement_to_code_and_test_links.py",
+      "tool_name": "dump_requirement_to_code_and_test_links",
+      "subtree": "traceability",
+      "status": "active"
+    },
+    {
+      "path": "tools/traceability/generate_traceability_snapshot.py",
+      "tool_name": "generate_traceability_snapshot",
+      "subtree": "traceability",
+      "status": "active"
+    },
+    {
+      "path": "tools/traceability/report_traceability_gaps.py",
+      "tool_name": "report_traceability_gaps",
+      "subtree": "traceability",
+      "status": "active"
+    },
+    {
+      "path": "tools/traceability/validate_invariant_links.py",
+      "tool_name": "validate_invariant_links",
+      "subtree": "traceability",
+      "status": "active"
+    },
+    {
+      "path": "tools/traceability/validate_requirement_links.py",
+      "tool_name": "validate_requirement_links",
+      "subtree": "traceability",
+      "status": "active"
+    },
+    {
+      "path": "tools/traceability/validate_worked_example_links.py",
+      "tool_name": "validate_worked_example_links",
+      "subtree": "traceability",
+      "status": "active"
+    }
+  ]
+}

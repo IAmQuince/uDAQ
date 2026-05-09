@@ -1,0 +1,1931 @@
+{
+  "artifact_inventory": {
+    "checkpoint_latest_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/checkpoints/latest.json",
+    "checkpoint_rows": [
+      {
+        "checkpoint_id": "CHK-SESSION-CROSS-DEVICE-COMMANDS-602-18",
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/checkpoints/CHK-SESSION-CROSS-DEVICE-COMMANDS-602-18.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 18,
+        "session_id": "SESSION-CROSS-DEVICE-COMMANDS",
+        "state_hash": "85517d7cf3ceaa1c27e1ac0fb7364d4533a07857c37f0f0160da7c24292e0642",
+        "timestamp": 602
+      },
+      {
+        "checkpoint_id": "CHK-SESSION-CROSS-DEVICE-COMMANDS-604-37",
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/checkpoints/CHK-SESSION-CROSS-DEVICE-COMMANDS-604-37.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 37,
+        "session_id": "SESSION-CROSS-DEVICE-COMMANDS",
+        "state_hash": "930f53c2e9f75448c3289966fe2f5f0f16f5196a1c064b06ee91d8936a3c84a2",
+        "timestamp": 604
+      },
+      {
+        "checkpoint_id": "CHK-SESSION-CROSS-DEVICE-COMMANDS-606-59",
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/checkpoints/CHK-SESSION-CROSS-DEVICE-COMMANDS-606-59.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 59,
+        "session_id": "SESSION-CROSS-DEVICE-COMMANDS",
+        "state_hash": "fdc29ecbcdff451fcda323f176c7140052537bfc697e0fa72cc423bed0530909",
+        "timestamp": 606
+      },
+      {
+        "checkpoint_id": "CHK-SESSION-CROSS-DEVICE-COMMANDS-608-77",
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/checkpoints/CHK-SESSION-CROSS-DEVICE-COMMANDS-608-77.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 77,
+        "session_id": "SESSION-CROSS-DEVICE-COMMANDS",
+        "state_hash": "392033ad30885249aa7a3ddfd1f99327cdc99b4c3f45a711077bd2ee66782616",
+        "timestamp": 608
+      },
+      {
+        "checkpoint_id": "CHK-SESSION-CROSS-DEVICE-COMMANDS-610-99",
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/checkpoints/CHK-SESSION-CROSS-DEVICE-COMMANDS-610-99.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 99,
+        "session_id": "SESSION-CROSS-DEVICE-COMMANDS",
+        "state_hash": "6301b66dab50b542b53309a81e91dc46ebbc78d8bc7b45b21a53928da7992acd",
+        "timestamp": 610
+      }
+    ],
+    "journal_latest_segment_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0028.jsonl",
+    "journal_legacy_mirror_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/session.jsonl",
+    "journal_manifest_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/manifest.json",
+    "segment_rows": [
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0001.jsonl",
+        "first_sequence_id": 1,
+        "last_sequence_id": 4,
+        "record_count": 4,
+        "relative_path": "segment-0001.jsonl",
+        "segment_id": "segment-0001",
+        "segment_ordinal": 1
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0002.jsonl",
+        "first_sequence_id": 5,
+        "last_sequence_id": 8,
+        "record_count": 4,
+        "relative_path": "segment-0002.jsonl",
+        "segment_id": "segment-0002",
+        "segment_ordinal": 2
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0003.jsonl",
+        "first_sequence_id": 9,
+        "last_sequence_id": 12,
+        "record_count": 4,
+        "relative_path": "segment-0003.jsonl",
+        "segment_id": "segment-0003",
+        "segment_ordinal": 3
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0004.jsonl",
+        "first_sequence_id": 13,
+        "last_sequence_id": 16,
+        "record_count": 4,
+        "relative_path": "segment-0004.jsonl",
+        "segment_id": "segment-0004",
+        "segment_ordinal": 4
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0005.jsonl",
+        "first_sequence_id": 17,
+        "last_sequence_id": 20,
+        "record_count": 4,
+        "relative_path": "segment-0005.jsonl",
+        "segment_id": "segment-0005",
+        "segment_ordinal": 5
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0006.jsonl",
+        "first_sequence_id": 21,
+        "last_sequence_id": 24,
+        "record_count": 4,
+        "relative_path": "segment-0006.jsonl",
+        "segment_id": "segment-0006",
+        "segment_ordinal": 6
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0007.jsonl",
+        "first_sequence_id": 25,
+        "last_sequence_id": 28,
+        "record_count": 4,
+        "relative_path": "segment-0007.jsonl",
+        "segment_id": "segment-0007",
+        "segment_ordinal": 7
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0008.jsonl",
+        "first_sequence_id": 29,
+        "last_sequence_id": 32,
+        "record_count": 4,
+        "relative_path": "segment-0008.jsonl",
+        "segment_id": "segment-0008",
+        "segment_ordinal": 8
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0009.jsonl",
+        "first_sequence_id": 33,
+        "last_sequence_id": 36,
+        "record_count": 4,
+        "relative_path": "segment-0009.jsonl",
+        "segment_id": "segment-0009",
+        "segment_ordinal": 9
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0010.jsonl",
+        "first_sequence_id": 37,
+        "last_sequence_id": 40,
+        "record_count": 4,
+        "relative_path": "segment-0010.jsonl",
+        "segment_id": "segment-0010",
+        "segment_ordinal": 10
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0011.jsonl",
+        "first_sequence_id": 41,
+        "last_sequence_id": 44,
+        "record_count": 4,
+        "relative_path": "segment-0011.jsonl",
+        "segment_id": "segment-0011",
+        "segment_ordinal": 11
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0012.jsonl",
+        "first_sequence_id": 45,
+        "last_sequence_id": 48,
+        "record_count": 4,
+        "relative_path": "segment-0012.jsonl",
+        "segment_id": "segment-0012",
+        "segment_ordinal": 12
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0013.jsonl",
+        "first_sequence_id": 49,
+        "last_sequence_id": 52,
+        "record_count": 4,
+        "relative_path": "segment-0013.jsonl",
+        "segment_id": "segment-0013",
+        "segment_ordinal": 13
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0014.jsonl",
+        "first_sequence_id": 53,
+        "last_sequence_id": 56,
+        "record_count": 4,
+        "relative_path": "segment-0014.jsonl",
+        "segment_id": "segment-0014",
+        "segment_ordinal": 14
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0015.jsonl",
+        "first_sequence_id": 57,
+        "last_sequence_id": 60,
+        "record_count": 4,
+        "relative_path": "segment-0015.jsonl",
+        "segment_id": "segment-0015",
+        "segment_ordinal": 15
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0016.jsonl",
+        "first_sequence_id": 61,
+        "last_sequence_id": 64,
+        "record_count": 4,
+        "relative_path": "segment-0016.jsonl",
+        "segment_id": "segment-0016",
+        "segment_ordinal": 16
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0017.jsonl",
+        "first_sequence_id": 65,
+        "last_sequence_id": 68,
+        "record_count": 4,
+        "relative_path": "segment-0017.jsonl",
+        "segment_id": "segment-0017",
+        "segment_ordinal": 17
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0018.jsonl",
+        "first_sequence_id": 69,
+        "last_sequence_id": 72,
+        "record_count": 4,
+        "relative_path": "segment-0018.jsonl",
+        "segment_id": "segment-0018",
+        "segment_ordinal": 18
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0019.jsonl",
+        "first_sequence_id": 73,
+        "last_sequence_id": 76,
+        "record_count": 4,
+        "relative_path": "segment-0019.jsonl",
+        "segment_id": "segment-0019",
+        "segment_ordinal": 19
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0020.jsonl",
+        "first_sequence_id": 77,
+        "last_sequence_id": 80,
+        "record_count": 4,
+        "relative_path": "segment-0020.jsonl",
+        "segment_id": "segment-0020",
+        "segment_ordinal": 20
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0021.jsonl",
+        "first_sequence_id": 81,
+        "last_sequence_id": 84,
+        "record_count": 4,
+        "relative_path": "segment-0021.jsonl",
+        "segment_id": "segment-0021",
+        "segment_ordinal": 21
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0022.jsonl",
+        "first_sequence_id": 85,
+        "last_sequence_id": 88,
+        "record_count": 4,
+        "relative_path": "segment-0022.jsonl",
+        "segment_id": "segment-0022",
+        "segment_ordinal": 22
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0023.jsonl",
+        "first_sequence_id": 89,
+        "last_sequence_id": 92,
+        "record_count": 4,
+        "relative_path": "segment-0023.jsonl",
+        "segment_id": "segment-0023",
+        "segment_ordinal": 23
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0024.jsonl",
+        "first_sequence_id": 93,
+        "last_sequence_id": 96,
+        "record_count": 4,
+        "relative_path": "segment-0024.jsonl",
+        "segment_id": "segment-0024",
+        "segment_ordinal": 24
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0025.jsonl",
+        "first_sequence_id": 97,
+        "last_sequence_id": 100,
+        "record_count": 4,
+        "relative_path": "segment-0025.jsonl",
+        "segment_id": "segment-0025",
+        "segment_ordinal": 25
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0026.jsonl",
+        "first_sequence_id": 101,
+        "last_sequence_id": 104,
+        "record_count": 4,
+        "relative_path": "segment-0026.jsonl",
+        "segment_id": "segment-0026",
+        "segment_ordinal": 26
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0027.jsonl",
+        "first_sequence_id": 105,
+        "last_sequence_id": 108,
+        "record_count": 4,
+        "relative_path": "segment-0027.jsonl",
+        "segment_id": "segment-0027",
+        "segment_ordinal": 27
+      },
+      {
+        "closed": false,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0028.jsonl",
+        "first_sequence_id": 109,
+        "last_sequence_id": 109,
+        "record_count": 1,
+        "relative_path": "segment-0028.jsonl",
+        "segment_id": "segment-0028",
+        "segment_ordinal": 28
+      }
+    ],
+    "session_id": "SESSION-CROSS-DEVICE-COMMANDS"
+  },
+  "checkpoint_summary": {
+    "checkpoint_available": true,
+    "checkpoint_id": "CHK-SESSION-CROSS-DEVICE-COMMANDS-610-99",
+    "checkpoint_ladder": [
+      {
+        "checkpoint_id": "CHK-SESSION-CROSS-DEVICE-COMMANDS-602-18",
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/checkpoints/CHK-SESSION-CROSS-DEVICE-COMMANDS-602-18.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 18,
+        "session_id": "SESSION-CROSS-DEVICE-COMMANDS",
+        "state_hash": "85517d7cf3ceaa1c27e1ac0fb7364d4533a07857c37f0f0160da7c24292e0642",
+        "timestamp": 602
+      },
+      {
+        "checkpoint_id": "CHK-SESSION-CROSS-DEVICE-COMMANDS-604-37",
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/checkpoints/CHK-SESSION-CROSS-DEVICE-COMMANDS-604-37.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 37,
+        "session_id": "SESSION-CROSS-DEVICE-COMMANDS",
+        "state_hash": "930f53c2e9f75448c3289966fe2f5f0f16f5196a1c064b06ee91d8936a3c84a2",
+        "timestamp": 604
+      },
+      {
+        "checkpoint_id": "CHK-SESSION-CROSS-DEVICE-COMMANDS-606-59",
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/checkpoints/CHK-SESSION-CROSS-DEVICE-COMMANDS-606-59.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 59,
+        "session_id": "SESSION-CROSS-DEVICE-COMMANDS",
+        "state_hash": "fdc29ecbcdff451fcda323f176c7140052537bfc697e0fa72cc423bed0530909",
+        "timestamp": 606
+      },
+      {
+        "checkpoint_id": "CHK-SESSION-CROSS-DEVICE-COMMANDS-608-77",
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/checkpoints/CHK-SESSION-CROSS-DEVICE-COMMANDS-608-77.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 77,
+        "session_id": "SESSION-CROSS-DEVICE-COMMANDS",
+        "state_hash": "392033ad30885249aa7a3ddfd1f99327cdc99b4c3f45a711077bd2ee66782616",
+        "timestamp": 608
+      },
+      {
+        "checkpoint_id": "CHK-SESSION-CROSS-DEVICE-COMMANDS-610-99",
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/checkpoints/CHK-SESSION-CROSS-DEVICE-COMMANDS-610-99.json",
+        "hash_valid": true,
+        "last_committed_sequence_id": 99,
+        "session_id": "SESSION-CROSS-DEVICE-COMMANDS",
+        "state_hash": "6301b66dab50b542b53309a81e91dc46ebbc78d8bc7b45b21a53928da7992acd",
+        "timestamp": 610
+      }
+    ],
+    "checkpoint_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/checkpoints/latest.json",
+    "checkpoint_spacing": {
+      "average_sequence_gap": 20.25,
+      "max_sequence_gap": 22,
+      "min_sequence_gap": 18
+    },
+    "last_committed_sequence_id": 99,
+    "state_hash": "6301b66dab50b542b53309a81e91dc46ebbc78d8bc7b45b21a53928da7992acd",
+    "timestamp": 610,
+    "valid_checkpoint_count": 5
+  },
+  "history_index_report": {
+    "cycle_counts_by_phase": {
+      "live": 11
+    },
+    "runtime_event_counts_by_type": {
+      "adapter_command": 8,
+      "command_cycle_summary": 11,
+      "command_intent": 8,
+      "command_rejected_ownership_conflict": 2,
+      "command_rejected_unavailable": 3,
+      "command_tail_verification": 1,
+      "command_trace": 13,
+      "lease_revoked_on_degrade": 2,
+      "ownership_granted": 6,
+      "ownership_renewed": 2,
+      "safe_state_required": 1,
+      "simultaneous_adapter_drop": 1,
+      "target_degraded": 4,
+      "target_restored": 3
+    },
+    "sample_counts_by_point": {
+      "arduino_uno_ard_401:digital_out_0": 4,
+      "labjack_u6_470201:digital_out_0": 4,
+      "rpi_rpi_lab_401:gpio_out_0": 3
+    },
+    "segments": [
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0001.jsonl",
+        "first_sequence_id": 1,
+        "last_sequence_id": 4,
+        "record_count": 4,
+        "relative_path": "segment-0001.jsonl",
+        "segment_id": "segment-0001",
+        "segment_ordinal": 1
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0002.jsonl",
+        "first_sequence_id": 5,
+        "last_sequence_id": 8,
+        "record_count": 4,
+        "relative_path": "segment-0002.jsonl",
+        "segment_id": "segment-0002",
+        "segment_ordinal": 2
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0003.jsonl",
+        "first_sequence_id": 9,
+        "last_sequence_id": 12,
+        "record_count": 4,
+        "relative_path": "segment-0003.jsonl",
+        "segment_id": "segment-0003",
+        "segment_ordinal": 3
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0004.jsonl",
+        "first_sequence_id": 13,
+        "last_sequence_id": 16,
+        "record_count": 4,
+        "relative_path": "segment-0004.jsonl",
+        "segment_id": "segment-0004",
+        "segment_ordinal": 4
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0005.jsonl",
+        "first_sequence_id": 17,
+        "last_sequence_id": 20,
+        "record_count": 4,
+        "relative_path": "segment-0005.jsonl",
+        "segment_id": "segment-0005",
+        "segment_ordinal": 5
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0006.jsonl",
+        "first_sequence_id": 21,
+        "last_sequence_id": 24,
+        "record_count": 4,
+        "relative_path": "segment-0006.jsonl",
+        "segment_id": "segment-0006",
+        "segment_ordinal": 6
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0007.jsonl",
+        "first_sequence_id": 25,
+        "last_sequence_id": 28,
+        "record_count": 4,
+        "relative_path": "segment-0007.jsonl",
+        "segment_id": "segment-0007",
+        "segment_ordinal": 7
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0008.jsonl",
+        "first_sequence_id": 29,
+        "last_sequence_id": 32,
+        "record_count": 4,
+        "relative_path": "segment-0008.jsonl",
+        "segment_id": "segment-0008",
+        "segment_ordinal": 8
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0009.jsonl",
+        "first_sequence_id": 33,
+        "last_sequence_id": 36,
+        "record_count": 4,
+        "relative_path": "segment-0009.jsonl",
+        "segment_id": "segment-0009",
+        "segment_ordinal": 9
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0010.jsonl",
+        "first_sequence_id": 37,
+        "last_sequence_id": 40,
+        "record_count": 4,
+        "relative_path": "segment-0010.jsonl",
+        "segment_id": "segment-0010",
+        "segment_ordinal": 10
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0011.jsonl",
+        "first_sequence_id": 41,
+        "last_sequence_id": 44,
+        "record_count": 4,
+        "relative_path": "segment-0011.jsonl",
+        "segment_id": "segment-0011",
+        "segment_ordinal": 11
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0012.jsonl",
+        "first_sequence_id": 45,
+        "last_sequence_id": 48,
+        "record_count": 4,
+        "relative_path": "segment-0012.jsonl",
+        "segment_id": "segment-0012",
+        "segment_ordinal": 12
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0013.jsonl",
+        "first_sequence_id": 49,
+        "last_sequence_id": 52,
+        "record_count": 4,
+        "relative_path": "segment-0013.jsonl",
+        "segment_id": "segment-0013",
+        "segment_ordinal": 13
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0014.jsonl",
+        "first_sequence_id": 53,
+        "last_sequence_id": 56,
+        "record_count": 4,
+        "relative_path": "segment-0014.jsonl",
+        "segment_id": "segment-0014",
+        "segment_ordinal": 14
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0015.jsonl",
+        "first_sequence_id": 57,
+        "last_sequence_id": 60,
+        "record_count": 4,
+        "relative_path": "segment-0015.jsonl",
+        "segment_id": "segment-0015",
+        "segment_ordinal": 15
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0016.jsonl",
+        "first_sequence_id": 61,
+        "last_sequence_id": 64,
+        "record_count": 4,
+        "relative_path": "segment-0016.jsonl",
+        "segment_id": "segment-0016",
+        "segment_ordinal": 16
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0017.jsonl",
+        "first_sequence_id": 65,
+        "last_sequence_id": 68,
+        "record_count": 4,
+        "relative_path": "segment-0017.jsonl",
+        "segment_id": "segment-0017",
+        "segment_ordinal": 17
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0018.jsonl",
+        "first_sequence_id": 69,
+        "last_sequence_id": 72,
+        "record_count": 4,
+        "relative_path": "segment-0018.jsonl",
+        "segment_id": "segment-0018",
+        "segment_ordinal": 18
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0019.jsonl",
+        "first_sequence_id": 73,
+        "last_sequence_id": 76,
+        "record_count": 4,
+        "relative_path": "segment-0019.jsonl",
+        "segment_id": "segment-0019",
+        "segment_ordinal": 19
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0020.jsonl",
+        "first_sequence_id": 77,
+        "last_sequence_id": 80,
+        "record_count": 4,
+        "relative_path": "segment-0020.jsonl",
+        "segment_id": "segment-0020",
+        "segment_ordinal": 20
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0021.jsonl",
+        "first_sequence_id": 81,
+        "last_sequence_id": 84,
+        "record_count": 4,
+        "relative_path": "segment-0021.jsonl",
+        "segment_id": "segment-0021",
+        "segment_ordinal": 21
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0022.jsonl",
+        "first_sequence_id": 85,
+        "last_sequence_id": 88,
+        "record_count": 4,
+        "relative_path": "segment-0022.jsonl",
+        "segment_id": "segment-0022",
+        "segment_ordinal": 22
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0023.jsonl",
+        "first_sequence_id": 89,
+        "last_sequence_id": 92,
+        "record_count": 4,
+        "relative_path": "segment-0023.jsonl",
+        "segment_id": "segment-0023",
+        "segment_ordinal": 23
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0024.jsonl",
+        "first_sequence_id": 93,
+        "last_sequence_id": 96,
+        "record_count": 4,
+        "relative_path": "segment-0024.jsonl",
+        "segment_id": "segment-0024",
+        "segment_ordinal": 24
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0025.jsonl",
+        "first_sequence_id": 97,
+        "last_sequence_id": 100,
+        "record_count": 4,
+        "relative_path": "segment-0025.jsonl",
+        "segment_id": "segment-0025",
+        "segment_ordinal": 25
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0026.jsonl",
+        "first_sequence_id": 101,
+        "last_sequence_id": 104,
+        "record_count": 4,
+        "relative_path": "segment-0026.jsonl",
+        "segment_id": "segment-0026",
+        "segment_ordinal": 26
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0027.jsonl",
+        "first_sequence_id": 105,
+        "last_sequence_id": 108,
+        "record_count": 4,
+        "relative_path": "segment-0027.jsonl",
+        "segment_id": "segment-0027",
+        "segment_ordinal": 27
+      },
+      {
+        "closed": false,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0028.jsonl",
+        "first_sequence_id": 109,
+        "last_sequence_id": 109,
+        "record_count": 1,
+        "relative_path": "segment-0028.jsonl",
+        "segment_id": "segment-0028",
+        "segment_ordinal": 28
+      }
+    ],
+    "time_range": {
+      "max_timestamp": 700,
+      "min_timestamp": 0
+    },
+    "valid_checkpoint_sequence_ids": [
+      18,
+      37,
+      59,
+      77,
+      99
+    ],
+    "variable_ids": []
+  },
+  "history_tier_summary": {
+    "cold": {
+      "checkpoint_count": 5,
+      "persisted_record_count": 109,
+      "segment_count": 28
+    },
+    "hot": {
+      "presentation_snapshot_available": true,
+      "recent_sample_count": 11,
+      "recent_signal_count": 3
+    },
+    "warm": {
+      "cycle_row_count": 11,
+      "runtime_event_count": 65,
+      "variable_row_count": 0
+    }
+  },
+  "recent_cycle_rows": [
+    {
+      "active_adapter_id": "BROKER-COMMAND-001",
+      "active_device_key": "CROSS-DEVICE-COMMANDS",
+      "changed_signal_count": 3,
+      "changed_signal_ids": [
+        "labjack_u6_470201:digital_out_0",
+        "arduino_uno_ard_401:digital_out_0",
+        "rpi_rpi_lab_401:gpio_out_0"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 0
+    },
+    {
+      "active_adapter_id": "BROKER-COMMAND-001",
+      "active_device_key": "CROSS-DEVICE-COMMANDS",
+      "changed_signal_count": 3,
+      "changed_signal_ids": [
+        "labjack_u6_470201:digital_out_0",
+        "arduino_uno_ard_401:digital_out_0",
+        "rpi_rpi_lab_401:gpio_out_0"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 0
+    },
+    {
+      "active_adapter_id": "BROKER-COMMAND-001",
+      "active_device_key": "CROSS-DEVICE-COMMANDS",
+      "changed_signal_count": 3,
+      "changed_signal_ids": [
+        "labjack_u6_470201:digital_out_0",
+        "arduino_uno_ard_401:digital_out_0",
+        "rpi_rpi_lab_401:gpio_out_0"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 0
+    },
+    {
+      "active_adapter_id": "BROKER-COMMAND-001",
+      "active_device_key": "CROSS-DEVICE-COMMANDS",
+      "changed_signal_count": 2,
+      "changed_signal_ids": [
+        "labjack_u6_470201:digital_out_0",
+        "rpi_rpi_lab_401:gpio_out_0"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 0
+    },
+    {
+      "active_adapter_id": "BROKER-COMMAND-001",
+      "active_device_key": "CROSS-DEVICE-COMMANDS",
+      "changed_signal_count": 3,
+      "changed_signal_ids": [
+        "labjack_u6_470201:digital_out_0",
+        "arduino_uno_ard_401:digital_out_0",
+        "rpi_rpi_lab_401:gpio_out_0"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 0
+    },
+    {
+      "active_adapter_id": "BROKER-COMMAND-001",
+      "active_device_key": "CROSS-DEVICE-COMMANDS",
+      "changed_signal_count": 1,
+      "changed_signal_ids": [
+        "arduino_uno_ard_401:digital_out_0"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 0
+    },
+    {
+      "active_adapter_id": "BROKER-COMMAND-001",
+      "active_device_key": "CROSS-DEVICE-COMMANDS",
+      "changed_signal_count": 3,
+      "changed_signal_ids": [
+        "labjack_u6_470201:digital_out_0",
+        "arduino_uno_ard_401:digital_out_0",
+        "rpi_rpi_lab_401:gpio_out_0"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 0
+    },
+    {
+      "active_adapter_id": "BROKER-COMMAND-001",
+      "active_device_key": "CROSS-DEVICE-COMMANDS",
+      "changed_signal_count": 3,
+      "changed_signal_ids": [
+        "labjack_u6_470201:digital_out_0",
+        "arduino_uno_ard_401:digital_out_0",
+        "rpi_rpi_lab_401:gpio_out_0"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 0
+    },
+    {
+      "active_adapter_id": "BROKER-COMMAND-001",
+      "active_device_key": "CROSS-DEVICE-COMMANDS",
+      "changed_signal_count": 3,
+      "changed_signal_ids": [
+        "labjack_u6_470201:digital_out_0",
+        "arduino_uno_ard_401:digital_out_0",
+        "rpi_rpi_lab_401:gpio_out_0"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 0
+    },
+    {
+      "active_adapter_id": "BROKER-COMMAND-001",
+      "active_device_key": "CROSS-DEVICE-COMMANDS",
+      "changed_signal_count": 3,
+      "changed_signal_ids": [
+        "labjack_u6_470201:digital_out_0",
+        "arduino_uno_ard_401:digital_out_0",
+        "rpi_rpi_lab_401:gpio_out_0"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 0
+    },
+    {
+      "active_adapter_id": "BROKER-COMMAND-001",
+      "active_device_key": "CROSS-DEVICE-COMMANDS",
+      "changed_signal_count": 2,
+      "changed_signal_ids": [
+        "labjack_u6_470201:digital_out_0",
+        "rpi_rpi_lab_401:gpio_out_0"
+      ],
+      "impacted_variable_count": 0,
+      "needs_review": false,
+      "phase": "live",
+      "total_variable_count": 0
+    }
+  ],
+  "recent_runtime_event_rows": [
+    {
+      "actor": "runtime",
+      "adapter_id": "",
+      "adapter_outcome": "",
+      "adapter_point_id": "",
+      "adapter_reason": "",
+      "applied_value": "",
+      "authorization_state": "allowed",
+      "comparison_match": "",
+      "decision": "blocked",
+      "denial_reason_code": "",
+      "observed_value": "",
+      "output_id": "rpi_rpi_lab_401:gpio_out_0",
+      "record_type": "command_trace",
+      "rejection_phase": "arbitration",
+      "rejection_reason": "target is currently degraded or unavailable",
+      "request_id": "REQ-CMD-6-runtime-rpi_rpi_lab_401-gpio_out_0",
+      "requested_at": "606",
+      "requested_value": "0",
+      "timestamp": 606
+    },
+    {
+      "adapter_count": 3,
+      "command_count": 1,
+      "cycle_index": 6,
+      "event_type": "command_cycle_summary",
+      "record_type": "runtime_event",
+      "snapshot_count": 1,
+      "timestamp": 606
+    },
+    {
+      "event_type": "target_restored",
+      "output_id": "labjack_u6_470201:digital_out_0",
+      "owner": "",
+      "record_type": "runtime_event",
+      "summary": "adapter returned to the bounded command lane",
+      "timestamp": "607"
+    },
+    {
+      "event_type": "target_restored",
+      "output_id": "rpi_rpi_lab_401:gpio_out_0",
+      "owner": "",
+      "record_type": "runtime_event",
+      "summary": "adapter returned to the bounded command lane",
+      "timestamp": "607"
+    },
+    {
+      "event_type": "command_intent",
+      "metadata::requested_value": "0",
+      "output_id": "labjack_u6_470201:digital_out_0",
+      "owner": "runtime",
+      "record_type": "runtime_event",
+      "summary": "command intent admitted for bounded adapter dispatch",
+      "timestamp": "607"
+    },
+    {
+      "event_type": "ownership_granted",
+      "metadata::lease_expires_at": "609",
+      "output_id": "labjack_u6_470201:digital_out_0",
+      "owner": "runtime",
+      "record_type": "runtime_event",
+      "summary": "writer lease granted for accepted command",
+      "timestamp": "607"
+    },
+    {
+      "actor": "runtime",
+      "adapter_id": "labjack_u6_470201",
+      "adapter_outcome": "observed",
+      "adapter_point_id": "digital_out_0",
+      "adapter_reason": "",
+      "applied_value": "0",
+      "authorization_state": "allowed",
+      "comparison_match": "true",
+      "decision": "observed",
+      "denial_reason_code": "",
+      "observed_value": "0",
+      "output_id": "labjack_u6_470201:digital_out_0",
+      "record_type": "command_trace",
+      "rejection_phase": "",
+      "rejection_reason": "",
+      "request_id": "REQ-CMD-7-runtime-labjack_u6_470201-digital_out_0",
+      "requested_at": "607",
+      "requested_value": "0",
+      "timestamp": 607
+    },
+    {
+      "actor_id": "runtime",
+      "adapter_id": "labjack_u6_470201",
+      "observed_at": "607",
+      "observed_value": "0",
+      "outcome": "observed",
+      "output_id": "labjack_u6_470201:digital_out_0",
+      "point_id": "digital_out_0",
+      "reason": "",
+      "record_type": "adapter_command",
+      "request_id": "REQ-CMD-7-runtime-labjack_u6_470201-digital_out_0",
+      "requested_value": "0",
+      "timestamp": 607,
+      "transmitted_at": "607"
+    },
+    {
+      "adapter_count": 3,
+      "command_count": 1,
+      "cycle_index": 7,
+      "event_type": "command_cycle_summary",
+      "record_type": "runtime_event",
+      "snapshot_count": 3,
+      "timestamp": 607
+    },
+    {
+      "event_type": "command_rejected_ownership_conflict",
+      "metadata::active_owner": "runtime",
+      "output_id": "labjack_u6_470201:digital_out_0",
+      "owner": "manual",
+      "record_type": "runtime_event",
+      "summary": "command rejected because another owner currently holds the writable lease",
+      "timestamp": "608"
+    },
+    {
+      "actor": "manual",
+      "adapter_id": "",
+      "adapter_outcome": "",
+      "adapter_point_id": "",
+      "adapter_reason": "",
+      "applied_value": "",
+      "authorization_state": "allowed",
+      "comparison_match": "",
+      "decision": "blocked",
+      "denial_reason_code": "",
+      "observed_value": "",
+      "output_id": "labjack_u6_470201:digital_out_0",
+      "record_type": "command_trace",
+      "rejection_phase": "arbitration",
+      "rejection_reason": "ownership conflict with an active writer lease",
+      "request_id": "REQ-CMD-8-manual-labjack_u6_470201-digital_out_0",
+      "requested_at": "608",
+      "requested_value": "1",
+      "timestamp": 608
+    },
+    {
+      "adapter_count": 3,
+      "command_count": 1,
+      "cycle_index": 8,
+      "event_type": "command_cycle_summary",
+      "record_type": "runtime_event",
+      "snapshot_count": 3,
+      "timestamp": 608
+    },
+    {
+      "event_type": "command_intent",
+      "metadata::requested_value": "0",
+      "output_id": "arduino_uno_ard_401:digital_out_0",
+      "owner": "supervisor",
+      "record_type": "runtime_event",
+      "summary": "command intent admitted for bounded adapter dispatch",
+      "timestamp": "609"
+    },
+    {
+      "event_type": "ownership_granted",
+      "metadata::lease_expires_at": "611",
+      "output_id": "arduino_uno_ard_401:digital_out_0",
+      "owner": "supervisor",
+      "record_type": "runtime_event",
+      "summary": "writer lease granted for accepted command",
+      "timestamp": "609"
+    },
+    {
+      "actor": "supervisor",
+      "adapter_id": "arduino_uno_ard_401",
+      "adapter_outcome": "observed",
+      "adapter_point_id": "digital_out_0",
+      "adapter_reason": "",
+      "applied_value": "0",
+      "authorization_state": "allowed",
+      "comparison_match": "true",
+      "decision": "observed",
+      "denial_reason_code": "",
+      "observed_value": "0",
+      "output_id": "arduino_uno_ard_401:digital_out_0",
+      "record_type": "command_trace",
+      "rejection_phase": "",
+      "rejection_reason": "",
+      "request_id": "REQ-CMD-9-supervisor-arduino_uno_ard_401-digital_out_0",
+      "requested_at": "609",
+      "requested_value": "0",
+      "timestamp": 609
+    },
+    {
+      "actor_id": "supervisor",
+      "adapter_id": "arduino_uno_ard_401",
+      "observed_at": "609",
+      "observed_value": "0",
+      "outcome": "observed",
+      "output_id": "arduino_uno_ard_401:digital_out_0",
+      "point_id": "digital_out_0",
+      "reason": "",
+      "record_type": "adapter_command",
+      "request_id": "REQ-CMD-9-supervisor-arduino_uno_ard_401-digital_out_0",
+      "requested_value": "0",
+      "timestamp": 609,
+      "transmitted_at": "609"
+    },
+    {
+      "event_type": "command_intent",
+      "metadata::requested_value": "0",
+      "output_id": "rpi_rpi_lab_401:gpio_out_0",
+      "owner": "runtime",
+      "record_type": "runtime_event",
+      "summary": "command intent admitted for bounded adapter dispatch",
+      "timestamp": "609"
+    },
+    {
+      "event_type": "ownership_granted",
+      "metadata::lease_expires_at": "611",
+      "output_id": "rpi_rpi_lab_401:gpio_out_0",
+      "owner": "runtime",
+      "record_type": "runtime_event",
+      "summary": "writer lease granted for accepted command",
+      "timestamp": "609"
+    },
+    {
+      "actor": "runtime",
+      "adapter_id": "rpi_rpi_lab_401",
+      "adapter_outcome": "observed",
+      "adapter_point_id": "gpio_out_0",
+      "adapter_reason": "",
+      "applied_value": "0",
+      "authorization_state": "allowed",
+      "comparison_match": "true",
+      "decision": "observed",
+      "denial_reason_code": "",
+      "observed_value": "0",
+      "output_id": "rpi_rpi_lab_401:gpio_out_0",
+      "record_type": "command_trace",
+      "rejection_phase": "",
+      "rejection_reason": "",
+      "request_id": "REQ-CMD-9-runtime-rpi_rpi_lab_401-gpio_out_0",
+      "requested_at": "609",
+      "requested_value": "0",
+      "timestamp": 609
+    },
+    {
+      "actor_id": "runtime",
+      "adapter_id": "rpi_rpi_lab_401",
+      "observed_at": "609",
+      "observed_value": "0",
+      "outcome": "observed",
+      "output_id": "rpi_rpi_lab_401:gpio_out_0",
+      "point_id": "gpio_out_0",
+      "reason": "",
+      "record_type": "adapter_command",
+      "request_id": "REQ-CMD-9-runtime-rpi_rpi_lab_401-gpio_out_0",
+      "requested_value": "0",
+      "timestamp": 609,
+      "transmitted_at": "609"
+    },
+    {
+      "adapter_count": 3,
+      "command_count": 2,
+      "cycle_index": 9,
+      "event_type": "command_cycle_summary",
+      "record_type": "runtime_event",
+      "snapshot_count": 3,
+      "timestamp": 609
+    },
+    {
+      "event_type": "command_intent",
+      "metadata::requested_value": "1",
+      "output_id": "arduino_uno_ard_401:digital_out_0",
+      "owner": "supervisor",
+      "record_type": "runtime_event",
+      "summary": "command intent admitted for bounded adapter dispatch",
+      "timestamp": "610"
+    },
+    {
+      "event_type": "ownership_renewed",
+      "metadata::lease_expires_at": "612",
+      "metadata::prior_lease_expires_at": "611",
+      "output_id": "arduino_uno_ard_401:digital_out_0",
+      "owner": "supervisor",
+      "record_type": "runtime_event",
+      "summary": "writer lease renewed for same-owner superseding command",
+      "timestamp": "610"
+    },
+    {
+      "actor": "supervisor",
+      "adapter_id": "arduino_uno_ard_401",
+      "adapter_outcome": "observed",
+      "adapter_point_id": "digital_out_0",
+      "adapter_reason": "",
+      "applied_value": "1",
+      "authorization_state": "allowed",
+      "comparison_match": "true",
+      "decision": "observed",
+      "denial_reason_code": "",
+      "observed_value": "1",
+      "output_id": "arduino_uno_ard_401:digital_out_0",
+      "record_type": "command_trace",
+      "rejection_phase": "",
+      "rejection_reason": "",
+      "request_id": "REQ-CMD-10-supervisor-arduino_uno_ard_401-digital_out_0",
+      "requested_at": "610",
+      "requested_value": "1",
+      "timestamp": 610
+    },
+    {
+      "actor_id": "supervisor",
+      "adapter_id": "arduino_uno_ard_401",
+      "observed_at": "610",
+      "observed_value": "1",
+      "outcome": "observed",
+      "output_id": "arduino_uno_ard_401:digital_out_0",
+      "point_id": "digital_out_0",
+      "reason": "",
+      "record_type": "adapter_command",
+      "request_id": "REQ-CMD-10-supervisor-arduino_uno_ard_401-digital_out_0",
+      "requested_value": "1",
+      "timestamp": 610,
+      "transmitted_at": "610"
+    },
+    {
+      "adapter_count": 3,
+      "command_count": 1,
+      "cycle_index": 10,
+      "event_type": "command_cycle_summary",
+      "record_type": "runtime_event",
+      "snapshot_count": 3,
+      "timestamp": 610
+    },
+    {
+      "event_type": "target_degraded",
+      "output_id": "arduino_uno_ard_401:digital_out_0",
+      "owner": "",
+      "record_type": "runtime_event",
+      "summary": "adapter dropped out of the bounded command lane",
+      "timestamp": "611"
+    },
+    {
+      "event_type": "lease_revoked_on_degrade",
+      "metadata::prior_lease_expires_at": "612",
+      "output_id": "arduino_uno_ard_401:digital_out_0",
+      "owner": "supervisor",
+      "record_type": "runtime_event",
+      "summary": "degraded target revoked the active writer lease",
+      "timestamp": "611"
+    },
+    {
+      "event_type": "command_rejected_unavailable",
+      "output_id": "arduino_uno_ard_401:digital_out_0",
+      "owner": "manual",
+      "record_type": "runtime_event",
+      "summary": "command rejected because target is unavailable",
+      "timestamp": "611"
+    },
+    {
+      "actor": "manual",
+      "adapter_id": "",
+      "adapter_outcome": "",
+      "adapter_point_id": "",
+      "adapter_reason": "",
+      "applied_value": "",
+      "authorization_state": "allowed",
+      "comparison_match": "",
+      "decision": "blocked",
+      "denial_reason_code": "",
+      "observed_value": "",
+      "output_id": "arduino_uno_ard_401:digital_out_0",
+      "record_type": "command_trace",
+      "rejection_phase": "arbitration",
+      "rejection_reason": "target is currently degraded or unavailable",
+      "request_id": "REQ-CMD-11-manual-arduino_uno_ard_401-digital_out_0",
+      "requested_at": "611",
+      "requested_value": "0",
+      "timestamp": 611
+    },
+    {
+      "adapter_count": 3,
+      "command_count": 1,
+      "cycle_index": 11,
+      "event_type": "command_cycle_summary",
+      "record_type": "runtime_event",
+      "snapshot_count": 2,
+      "timestamp": 611
+    },
+    {
+      "command_attempt_count": 13,
+      "event_count": 34,
+      "event_type": "command_tail_verification",
+      "record_type": "runtime_event",
+      "timestamp": 700
+    }
+  ],
+  "recent_sample_rows": [
+    {
+      "point_id": "digital_out_0",
+      "point_key": "arduino_uno_ard_401:digital_out_0",
+      "quality": "simulated",
+      "timestamp": 601,
+      "units": "",
+      "value": "0"
+    },
+    {
+      "point_id": "digital_out_0",
+      "point_key": "labjack_u6_470201:digital_out_0",
+      "quality": "simulated",
+      "timestamp": 601,
+      "units": "",
+      "value": "1"
+    },
+    {
+      "point_id": "gpio_out_0",
+      "point_key": "rpi_rpi_lab_401:gpio_out_0",
+      "quality": "simulated",
+      "timestamp": 601,
+      "units": "",
+      "value": "0"
+    },
+    {
+      "point_id": "digital_out_0",
+      "point_key": "arduino_uno_ard_401:digital_out_0",
+      "quality": "simulated",
+      "timestamp": 602,
+      "units": "",
+      "value": "0"
+    },
+    {
+      "point_id": "digital_out_0",
+      "point_key": "labjack_u6_470201:digital_out_0",
+      "quality": "simulated",
+      "timestamp": 602,
+      "units": "",
+      "value": "0"
+    },
+    {
+      "point_id": "gpio_out_0",
+      "point_key": "rpi_rpi_lab_401:gpio_out_0",
+      "quality": "simulated",
+      "timestamp": 602,
+      "units": "",
+      "value": "0"
+    },
+    {
+      "point_id": "digital_out_0",
+      "point_key": "arduino_uno_ard_401:digital_out_0",
+      "quality": "simulated",
+      "timestamp": 603,
+      "units": "",
+      "value": "0"
+    },
+    {
+      "point_id": "digital_out_0",
+      "point_key": "arduino_uno_ard_401:digital_out_0",
+      "quality": "simulated",
+      "timestamp": 603,
+      "units": "",
+      "value": "0"
+    },
+    {
+      "point_id": "digital_out_0",
+      "point_key": "labjack_u6_470201:digital_out_0",
+      "quality": "simulated",
+      "timestamp": 603,
+      "units": "",
+      "value": "0"
+    },
+    {
+      "point_id": "gpio_out_0",
+      "point_key": "rpi_rpi_lab_401:gpio_out_0",
+      "quality": "simulated",
+      "timestamp": 603,
+      "units": "",
+      "value": "1"
+    },
+    {
+      "point_id": "digital_out_0",
+      "point_key": "labjack_u6_470201:digital_out_0",
+      "quality": "simulated",
+      "timestamp": 604,
+      "units": "",
+      "value": "0"
+    }
+  ],
+  "recent_variable_rows": [],
+  "replay_report": {
+    "checkpoint_available": true,
+    "checkpoint_id": "CHK-SESSION-CROSS-DEVICE-COMMANDS-610-99",
+    "deterministic_input_hash": "4d02e17fa76cb7b8d76d01aa2a9aed462211a24f4ddf8687cece2127ff9e752d",
+    "deterministic_replay": true,
+    "last_committed_sequence_id": 99,
+    "projected_state": {
+      "checkpoint_state_hash": "6301b66dab50b542b53309a81e91dc46ebbc78d8bc7b45b21a53928da7992acd",
+      "tail_last_cycle": {
+        "active_adapter_id": "BROKER-COMMAND-001",
+        "active_device_key": "CROSS-DEVICE-COMMANDS",
+        "changed_signal_count": 2,
+        "changed_signal_ids": [
+          "labjack_u6_470201:digital_out_0",
+          "rpi_rpi_lab_401:gpio_out_0"
+        ],
+        "impacted_variable_count": 0,
+        "needs_review": false,
+        "phase": "live",
+        "total_variable_count": 0
+      },
+      "tail_last_runtime_event": {
+        "command_attempt_count": 13,
+        "event_count": 34,
+        "event_type": "command_tail_verification"
+      },
+      "tail_last_samples_by_point": {
+        "arduino_uno_ard_401:digital_out_0": {
+          "adapter_id": "BROKER-COMMAND-001",
+          "point_id": "digital_out_0",
+          "point_key": "arduino_uno_ard_401:digital_out_0",
+          "quality": "simulated",
+          "timestamp": 610,
+          "value": "1"
+        },
+        "labjack_u6_470201:digital_out_0": {
+          "adapter_id": "BROKER-COMMAND-001",
+          "point_id": "digital_out_0",
+          "point_key": "labjack_u6_470201:digital_out_0",
+          "quality": "simulated",
+          "timestamp": 611,
+          "value": "0"
+        },
+        "rpi_rpi_lab_401:gpio_out_0": {
+          "adapter_id": "BROKER-COMMAND-001",
+          "point_id": "gpio_out_0",
+          "point_key": "rpi_rpi_lab_401:gpio_out_0",
+          "quality": "simulated",
+          "timestamp": 611,
+          "value": "0"
+        }
+      },
+      "tail_last_sequence_id": 109,
+      "tail_last_variables_by_id": {},
+      "tail_record_count": 10,
+      "tail_record_counts_by_type": {
+        "command_trace": 1,
+        "cycle": 1,
+        "runtime_event": 5,
+        "sample": 3
+      },
+      "tail_runtime_event_counts_by_type": {
+        "command_cycle_summary": 1,
+        "command_rejected_unavailable": 1,
+        "command_tail_verification": 1,
+        "lease_revoked_on_degrade": 1,
+        "target_degraded": 1
+      }
+    },
+    "replay_state_hash": "3bdb3bbd08347d6e2bed41080f32f45e2aaa54cc230d5a136a740e85fd33370c",
+    "segment_index": [
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0001.jsonl",
+        "first_sequence_id": 1,
+        "last_sequence_id": 4,
+        "record_count": 4,
+        "relative_path": "segment-0001.jsonl",
+        "segment_id": "segment-0001",
+        "segment_ordinal": 1
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0002.jsonl",
+        "first_sequence_id": 5,
+        "last_sequence_id": 8,
+        "record_count": 4,
+        "relative_path": "segment-0002.jsonl",
+        "segment_id": "segment-0002",
+        "segment_ordinal": 2
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0003.jsonl",
+        "first_sequence_id": 9,
+        "last_sequence_id": 12,
+        "record_count": 4,
+        "relative_path": "segment-0003.jsonl",
+        "segment_id": "segment-0003",
+        "segment_ordinal": 3
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0004.jsonl",
+        "first_sequence_id": 13,
+        "last_sequence_id": 16,
+        "record_count": 4,
+        "relative_path": "segment-0004.jsonl",
+        "segment_id": "segment-0004",
+        "segment_ordinal": 4
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0005.jsonl",
+        "first_sequence_id": 17,
+        "last_sequence_id": 20,
+        "record_count": 4,
+        "relative_path": "segment-0005.jsonl",
+        "segment_id": "segment-0005",
+        "segment_ordinal": 5
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0006.jsonl",
+        "first_sequence_id": 21,
+        "last_sequence_id": 24,
+        "record_count": 4,
+        "relative_path": "segment-0006.jsonl",
+        "segment_id": "segment-0006",
+        "segment_ordinal": 6
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0007.jsonl",
+        "first_sequence_id": 25,
+        "last_sequence_id": 28,
+        "record_count": 4,
+        "relative_path": "segment-0007.jsonl",
+        "segment_id": "segment-0007",
+        "segment_ordinal": 7
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0008.jsonl",
+        "first_sequence_id": 29,
+        "last_sequence_id": 32,
+        "record_count": 4,
+        "relative_path": "segment-0008.jsonl",
+        "segment_id": "segment-0008",
+        "segment_ordinal": 8
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0009.jsonl",
+        "first_sequence_id": 33,
+        "last_sequence_id": 36,
+        "record_count": 4,
+        "relative_path": "segment-0009.jsonl",
+        "segment_id": "segment-0009",
+        "segment_ordinal": 9
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0010.jsonl",
+        "first_sequence_id": 37,
+        "last_sequence_id": 40,
+        "record_count": 4,
+        "relative_path": "segment-0010.jsonl",
+        "segment_id": "segment-0010",
+        "segment_ordinal": 10
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0011.jsonl",
+        "first_sequence_id": 41,
+        "last_sequence_id": 44,
+        "record_count": 4,
+        "relative_path": "segment-0011.jsonl",
+        "segment_id": "segment-0011",
+        "segment_ordinal": 11
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0012.jsonl",
+        "first_sequence_id": 45,
+        "last_sequence_id": 48,
+        "record_count": 4,
+        "relative_path": "segment-0012.jsonl",
+        "segment_id": "segment-0012",
+        "segment_ordinal": 12
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0013.jsonl",
+        "first_sequence_id": 49,
+        "last_sequence_id": 52,
+        "record_count": 4,
+        "relative_path": "segment-0013.jsonl",
+        "segment_id": "segment-0013",
+        "segment_ordinal": 13
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0014.jsonl",
+        "first_sequence_id": 53,
+        "last_sequence_id": 56,
+        "record_count": 4,
+        "relative_path": "segment-0014.jsonl",
+        "segment_id": "segment-0014",
+        "segment_ordinal": 14
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0015.jsonl",
+        "first_sequence_id": 57,
+        "last_sequence_id": 60,
+        "record_count": 4,
+        "relative_path": "segment-0015.jsonl",
+        "segment_id": "segment-0015",
+        "segment_ordinal": 15
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0016.jsonl",
+        "first_sequence_id": 61,
+        "last_sequence_id": 64,
+        "record_count": 4,
+        "relative_path": "segment-0016.jsonl",
+        "segment_id": "segment-0016",
+        "segment_ordinal": 16
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0017.jsonl",
+        "first_sequence_id": 65,
+        "last_sequence_id": 68,
+        "record_count": 4,
+        "relative_path": "segment-0017.jsonl",
+        "segment_id": "segment-0017",
+        "segment_ordinal": 17
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0018.jsonl",
+        "first_sequence_id": 69,
+        "last_sequence_id": 72,
+        "record_count": 4,
+        "relative_path": "segment-0018.jsonl",
+        "segment_id": "segment-0018",
+        "segment_ordinal": 18
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0019.jsonl",
+        "first_sequence_id": 73,
+        "last_sequence_id": 76,
+        "record_count": 4,
+        "relative_path": "segment-0019.jsonl",
+        "segment_id": "segment-0019",
+        "segment_ordinal": 19
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0020.jsonl",
+        "first_sequence_id": 77,
+        "last_sequence_id": 80,
+        "record_count": 4,
+        "relative_path": "segment-0020.jsonl",
+        "segment_id": "segment-0020",
+        "segment_ordinal": 20
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0021.jsonl",
+        "first_sequence_id": 81,
+        "last_sequence_id": 84,
+        "record_count": 4,
+        "relative_path": "segment-0021.jsonl",
+        "segment_id": "segment-0021",
+        "segment_ordinal": 21
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0022.jsonl",
+        "first_sequence_id": 85,
+        "last_sequence_id": 88,
+        "record_count": 4,
+        "relative_path": "segment-0022.jsonl",
+        "segment_id": "segment-0022",
+        "segment_ordinal": 22
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0023.jsonl",
+        "first_sequence_id": 89,
+        "last_sequence_id": 92,
+        "record_count": 4,
+        "relative_path": "segment-0023.jsonl",
+        "segment_id": "segment-0023",
+        "segment_ordinal": 23
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0024.jsonl",
+        "first_sequence_id": 93,
+        "last_sequence_id": 96,
+        "record_count": 4,
+        "relative_path": "segment-0024.jsonl",
+        "segment_id": "segment-0024",
+        "segment_ordinal": 24
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0025.jsonl",
+        "first_sequence_id": 97,
+        "last_sequence_id": 100,
+        "record_count": 4,
+        "relative_path": "segment-0025.jsonl",
+        "segment_id": "segment-0025",
+        "segment_ordinal": 25
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0026.jsonl",
+        "first_sequence_id": 101,
+        "last_sequence_id": 104,
+        "record_count": 4,
+        "relative_path": "segment-0026.jsonl",
+        "segment_id": "segment-0026",
+        "segment_ordinal": 26
+      },
+      {
+        "closed": true,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0027.jsonl",
+        "first_sequence_id": 105,
+        "last_sequence_id": 108,
+        "record_count": 4,
+        "relative_path": "segment-0027.jsonl",
+        "segment_id": "segment-0027",
+        "segment_ordinal": 27
+      },
+      {
+        "closed": false,
+        "display_path": "proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS/journal/segment-0028.jsonl",
+        "first_sequence_id": 109,
+        "last_sequence_id": 109,
+        "record_count": 1,
+        "relative_path": "segment-0028.jsonl",
+        "segment_id": "segment-0028",
+        "segment_ordinal": 28
+      }
+    ],
+    "tail_contains_multiple_record_types": true,
+    "tail_first_sequence_id": 100,
+    "tail_last_sequence_id": 109,
+    "tail_record_count": 10,
+    "tail_record_counts_by_type": {
+      "command_trace": 1,
+      "cycle": 1,
+      "runtime_event": 5,
+      "sample": 3
+    },
+    "tail_record_type_count": 4,
+    "tail_runtime_event_counts_by_type": {
+      "command_cycle_summary": 1,
+      "command_rejected_unavailable": 1,
+      "command_tail_verification": 1,
+      "lease_revoked_on_degrade": 1,
+      "target_degraded": 1
+    }
+  },
+  "session_depth_summary": {
+    "checkpoint_count": 5,
+    "checkpoint_sequence_ids": [
+      18,
+      37,
+      59,
+      77,
+      99
+    ],
+    "replay_tail_contains_multiple_record_types": true,
+    "replay_tail_record_count": 10,
+    "replay_tail_record_type_count": 4,
+    "segment_count": 28,
+    "segment_sequence_ranges": [
+      {
+        "first_sequence_id": 1,
+        "last_sequence_id": 4,
+        "record_count": 4,
+        "segment_id": "segment-0001"
+      },
+      {
+        "first_sequence_id": 5,
+        "last_sequence_id": 8,
+        "record_count": 4,
+        "segment_id": "segment-0002"
+      },
+      {
+        "first_sequence_id": 9,
+        "last_sequence_id": 12,
+        "record_count": 4,
+        "segment_id": "segment-0003"
+      },
+      {
+        "first_sequence_id": 13,
+        "last_sequence_id": 16,
+        "record_count": 4,
+        "segment_id": "segment-0004"
+      },
+      {
+        "first_sequence_id": 17,
+        "last_sequence_id": 20,
+        "record_count": 4,
+        "segment_id": "segment-0005"
+      },
+      {
+        "first_sequence_id": 21,
+        "last_sequence_id": 24,
+        "record_count": 4,
+        "segment_id": "segment-0006"
+      },
+      {
+        "first_sequence_id": 25,
+        "last_sequence_id": 28,
+        "record_count": 4,
+        "segment_id": "segment-0007"
+      },
+      {
+        "first_sequence_id": 29,
+        "last_sequence_id": 32,
+        "record_count": 4,
+        "segment_id": "segment-0008"
+      },
+      {
+        "first_sequence_id": 33,
+        "last_sequence_id": 36,
+        "record_count": 4,
+        "segment_id": "segment-0009"
+      },
+      {
+        "first_sequence_id": 37,
+        "last_sequence_id": 40,
+        "record_count": 4,
+        "segment_id": "segment-0010"
+      },
+      {
+        "first_sequence_id": 41,
+        "last_sequence_id": 44,
+        "record_count": 4,
+        "segment_id": "segment-0011"
+      },
+      {
+        "first_sequence_id": 45,
+        "last_sequence_id": 48,
+        "record_count": 4,
+        "segment_id": "segment-0012"
+      },
+      {
+        "first_sequence_id": 49,
+        "last_sequence_id": 52,
+        "record_count": 4,
+        "segment_id": "segment-0013"
+      },
+      {
+        "first_sequence_id": 53,
+        "last_sequence_id": 56,
+        "record_count": 4,
+        "segment_id": "segment-0014"
+      },
+      {
+        "first_sequence_id": 57,
+        "last_sequence_id": 60,
+        "record_count": 4,
+        "segment_id": "segment-0015"
+      },
+      {
+        "first_sequence_id": 61,
+        "last_sequence_id": 64,
+        "record_count": 4,
+        "segment_id": "segment-0016"
+      },
+      {
+        "first_sequence_id": 65,
+        "last_sequence_id": 68,
+        "record_count": 4,
+        "segment_id": "segment-0017"
+      },
+      {
+        "first_sequence_id": 69,
+        "last_sequence_id": 72,
+        "record_count": 4,
+        "segment_id": "segment-0018"
+      },
+      {
+        "first_sequence_id": 73,
+        "last_sequence_id": 76,
+        "record_count": 4,
+        "segment_id": "segment-0019"
+      },
+      {
+        "first_sequence_id": 77,
+        "last_sequence_id": 80,
+        "record_count": 4,
+        "segment_id": "segment-0020"
+      },
+      {
+        "first_sequence_id": 81,
+        "last_sequence_id": 84,
+        "record_count": 4,
+        "segment_id": "segment-0021"
+      },
+      {
+        "first_sequence_id": 85,
+        "last_sequence_id": 88,
+        "record_count": 4,
+        "segment_id": "segment-0022"
+      },
+      {
+        "first_sequence_id": 89,
+        "last_sequence_id": 92,
+        "record_count": 4,
+        "segment_id": "segment-0023"
+      },
+      {
+        "first_sequence_id": 93,
+        "last_sequence_id": 96,
+        "record_count": 4,
+        "segment_id": "segment-0024"
+      },
+      {
+        "first_sequence_id": 97,
+        "last_sequence_id": 100,
+        "record_count": 4,
+        "segment_id": "segment-0025"
+      },
+      {
+        "first_sequence_id": 101,
+        "last_sequence_id": 104,
+        "record_count": 4,
+        "segment_id": "segment-0026"
+      },
+      {
+        "first_sequence_id": 105,
+        "last_sequence_id": 108,
+        "record_count": 4,
+        "segment_id": "segment-0027"
+      },
+      {
+        "first_sequence_id": 109,
+        "last_sequence_id": 109,
+        "record_count": 1,
+        "segment_id": "segment-0028"
+      }
+    ],
+    "total_persisted_records": 109,
+    "valid_checkpoint_count": 5
+  },
+  "session_id": "SESSION-CROSS-DEVICE-COMMANDS",
+  "session_root": "/mnt/data/udq11_run/proof/acceptance/20260327_025549/cross_device_command_arbitration/runtime/sessions/SESSION-CROSS-DEVICE-COMMANDS"
+}

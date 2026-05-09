@@ -1,0 +1,19 @@
+UDQ Sprint 03B Validation Status
+================================
+
+Targeted pytest subset:
+- 13 passed
+
+Validators:
+- validate_package_entry_surfaces: PASS
+- validate_document_completeness: PASS
+- validate_windows_path_budget: PASS
+- guard_against_truncation (vs Sprint 03A baseline): PASS
+
+Executable checks:
+- run_shell_smoke.py: PASS
+- guided simulated U6 field harness: PASS
+
+Interpretation:
+- Sprint 03B code, docs, and package-entry surfaces are internally consistent.
+- The reconnect/evidence correction still requires a real-hardware rerun of the same guided harness for field closure.

@@ -1,0 +1,2177 @@
+{
+  "rows": [
+    {
+      "path": "tests/contract/test_contract_action_permission_resolution.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-014",
+      "verifies_requirements": [
+        "UDQ-REQ-SEC-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-002"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "action permission resolution"
+    },
+    {
+      "path": "tests/contract/test_contract_adapter_capability_inventory.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-ADAPT-001",
+      "verifies_requirements": [
+        "UDQ-REQ-DEV-001",
+        "UDQ-REQ-DEV-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TIME-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "adapter capability inventory report"
+    },
+    {
+      "path": "tests/contract/test_contract_adapter_command_handoff_taxonomy.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-ADAPT-002",
+      "verifies_requirements": [
+        "UDQ-REQ-DEV-001",
+        "UDQ-REQ-MOD-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "adapter command handoff outcome matrix"
+    },
+    {
+      "path": "tests/contract/test_contract_adapter_manager_recovery_polling.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-026",
+      "verifies_requirements": [
+        "UDQ-REQ-DEV-001",
+        "UDQ-REQ-DIAG-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TIME-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "disconnected active adapter can be polled explicitly for bounded recovery attempts"
+    },
+    {
+      "path": "tests/contract/test_contract_alarm_lifecycle_semantics.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-003",
+      "verifies_requirements": [
+        "UDQ-REQ-EVT-001",
+        "UDQ-REQ-EVT-002",
+        "UDQ-REQ-HIS-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TRANS-003",
+        "UDQ-INV-EVID-002"
+      ],
+      "worked_example_reference": "UDQ-EXM-004",
+      "expected_proof_output": "alarm lifecycle evidence trace"
+    },
+    {
+      "path": "tests/contract/test_contract_ambiguous_same_family_without_serial_requires_review.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-023",
+      "verifies_requirements": [
+        "UDQ-REQ-DEV-001",
+        "UDQ-REQ-UI-006"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "ambiguous identical-device review proof"
+    },
+    {
+      "path": "tests/contract/test_contract_arduino_serial_support_pack.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-031",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-DEV-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "arduino serial support pack exposes the shared support-pack contract"
+    },
+    {
+      "path": "tests/contract/test_contract_authorization_vs_ui_enablement.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-005",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-002",
+        "UDQ-REQ-SEC-001",
+        "UDQ-REQ-SEC-002",
+        "UDQ-REQ-UI-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-004"
+      ],
+      "worked_example_reference": "UDQ-EXM-001",
+      "expected_proof_output": "authorization vs UI enablement trace"
+    },
+    {
+      "path": "tests/contract/test_contract_binding_review_auto_rebind_on_reprojected_device.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-021",
+      "verifies_requirements": [
+        "UDQ-REQ-SIG-001",
+        "UDQ-REQ-DEV-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-005"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "binding review auto-rebinds to reprojected point inventory for same stable device identity"
+    },
+    {
+      "path": "tests/contract/test_contract_binding_review_scopes_to_device_identity.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-022",
+      "verifies_requirements": [
+        "UDQ-REQ-SIG-001",
+        "UDQ-REQ-DEV-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-005"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "binding review scopes counts to the affected device identity"
+    },
+    {
+      "path": "tests/contract/test_contract_denial_reason_visibility.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-015",
+      "verifies_requirements": [
+        "UDQ-REQ-SEC-001",
+        "UDQ-REQ-SEC-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "authorization denial reasons"
+    },
+    {
+      "path": "tests/contract/test_contract_events_alarm_spine.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-014",
+      "verifies_requirements": [
+        "UDQ-REQ-EVT-001",
+        "UDQ-REQ-EVT-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TRANS-003"
+      ],
+      "worked_example_reference": "UDQ-EXM-011",
+      "expected_proof_output": "transition-based alarm raises once, does not spam on repeated active cycles, and clears on recovery"
+    },
+    {
+      "path": "tests/contract/test_contract_export_intent_scope_resolution.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-007",
+      "verifies_requirements": [
+        "UDQ-REQ-EXP-001",
+        "UDQ-REQ-HIS-002",
+        "UDQ-REQ-UI-006"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-003",
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "export intent scope resolution"
+    },
+    {
+      "path": "tests/contract/test_contract_export_permission_by_artifact_class.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-016",
+      "verifies_requirements": [
+        "UDQ-REQ-SEC-002",
+        "UDQ-REQ-EXP-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "artifact-class export permissions"
+    },
+    {
+      "path": "tests/contract/test_contract_generic_discovery_without_plugin_requirement.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-018",
+      "verifies_requirements": [
+        "UDQ-REQ-DEV-001",
+        "UDQ-REQ-UI-006"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "generic discovery inventory without vendor pack requirement"
+    },
+    {
+      "path": "tests/contract/test_contract_graph_mode_semantics.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-004",
+      "verifies_requirements": [
+        "UDQ-REQ-UI-003",
+        "UDQ-REQ-UI-004",
+        "UDQ-REQ-UI-006",
+        "UDQ-REQ-HIS-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-003",
+        "UDQ-INV-TRANS-004",
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": "UDQ-EXM-005",
+      "expected_proof_output": "graph mode trace"
+    },
+    {
+      "path": "tests/contract/test_contract_known_device_identity_matching.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-020",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-PROF-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "known-device identity match proof"
+    },
+    {
+      "path": "tests/contract/test_contract_labjack_extension_metadata_isolation.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-019",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-ARCH-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "vendor metadata isolation proof for LabJack pilot"
+    },
+    {
+      "path": "tests/contract/test_contract_manifest_provenance_completeness.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-008",
+      "verifies_requirements": [
+        "UDQ-REQ-EXP-001",
+        "UDQ-REQ-EXP-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "manifest provenance completeness"
+    },
+    {
+      "path": "tests/contract/test_contract_multi_instance_device_records_remain_distinct.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-022",
+      "verifies_requirements": [
+        "UDQ-REQ-DEV-001",
+        "UDQ-REQ-DEV-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "multi-instance device identity proof"
+    },
+    {
+      "path": "tests/contract/test_contract_optional_support_pack_loader.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-030",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-DEV-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "optional support packs load lazily and leave generic discovery intact"
+    },
+    {
+      "path": "tests/contract/test_contract_point_projection_skips_identical_inventory_replace.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-025",
+      "verifies_requirements": [
+        "UDQ-REQ-DEV-001",
+        "UDQ-REQ-ARCH-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-003"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "identical point inventory replacement is skipped for efficiency"
+    },
+    {
+      "path": "tests/contract/test_contract_raspberry_pi_support_pack.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-032",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-DEV-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "raspberry pi support pack exposes the shared support-pack contract"
+    },
+    {
+      "path": "tests/contract/test_contract_real_labjack_u6_adapter.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-025",
+      "verifies_requirements": [
+        "UDQ-REQ-DEV-001",
+        "UDQ-REQ-DEV-002",
+        "UDQ-REQ-DIAG-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TIME-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "real labjack U6 bounded capability, lifecycle, and poll proof"
+    },
+    {
+      "path": "tests/contract/test_contract_requested_applied_observed.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-001",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-OUT-001",
+        "UDQ-REQ-OUT-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-TRANS-001",
+        "UDQ-INV-TIME-002"
+      ],
+      "worked_example_reference": "UDQ-EXM-001",
+      "expected_proof_output": "requested/applied/observed trace"
+    },
+    {
+      "path": "tests/contract/test_contract_restore_origin_metadata.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-007",
+      "verifies_requirements": [
+        "UDQ-REQ-PROF-001",
+        "UDQ-REQ-PROF-002",
+        "UDQ-REQ-ARCH-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-002",
+        "UDQ-INV-TRANS-002",
+        "UDQ-INV-EVID-003"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "restore-origin metadata with no machine write intent"
+    },
+    {
+      "path": "tests/contract/test_contract_restore_vs_machine_state.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-002",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-002",
+        "UDQ-REQ-PROF-001",
+        "UDQ-REQ-PROF-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-002",
+        "UDQ-INV-TRANS-002",
+        "UDQ-INV-EVID-003"
+      ],
+      "worked_example_reference": "UDQ-EXM-003",
+      "expected_proof_output": "restore-origin trace"
+    },
+    {
+      "path": "tests/contract/test_contract_review_artifact_non_mutating.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-009",
+      "verifies_requirements": [
+        "UDQ-REQ-EXP-001",
+        "UDQ-REQ-ARCH-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "review artifact export is non-mutating"
+    },
+    {
+      "path": "tests/contract/test_contract_role_permission_mapping.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-013",
+      "verifies_requirements": [
+        "UDQ-REQ-SEC-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-002"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "role permission mapping"
+    },
+    {
+      "path": "tests/contract/test_contract_runtime_evidence_semantics.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-097",
+      "verifies_requirements": [
+        "UDQ-REQ-DIAG-001",
+        "UDQ-REQ-ARCH-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-003"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "runtime evidence semantics maps layered state tokens into one reviewer-facing family without flattening the source layers"
+    },
+    {
+      "path": "tests/contract/test_contract_runtime_quality_optimization_pass.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-096",
+      "verifies_requirements": [
+        "UDQ-REQ-DIAG-001",
+        "UDQ-REQ-ARCH-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TIME-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "runtime optimization pass keeps sample counts bounded, supports metrics-free operation, and flushes deferred operational entries on snapshot"
+    },
+    {
+      "path": "tests/contract/test_contract_runtime_quality_queue_and_journal.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-084",
+      "verifies_requirements": [
+        "UDQ-REQ-DIAG-001",
+        "UDQ-REQ-ARCH-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TIME-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "bounded runtime queue drops oldest records and append-only journal persists ordered jsonl rows"
+    },
+    {
+      "path": "tests/contract/test_contract_runtime_spine_processing.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-085",
+      "verifies_requirements": [
+        "UDQ-REQ-DIAG-001",
+        "UDQ-REQ-ARCH-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TIME-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "runtime spine drains acquisition work, bounds presentation staging, and records cycle/journal activity across repeated live polls"
+    },
+    {
+      "path": "tests/contract/test_contract_safe_expression_evaluator_limits.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-024",
+      "verifies_requirements": [
+        "UDQ-REQ-SIG-001",
+        "UDQ-REQ-SEC-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-005"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "bounded expression evaluator safeguards"
+    },
+    {
+      "path": "tests/contract/test_contract_shell_controller_navigation_and_return_to_live.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-006",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-UI-003",
+        "UDQ-REQ-UI-004",
+        "UDQ-REQ-UI-006"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-003",
+        "UDQ-INV-TRANS-004",
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "shell controller navigation and return-to-live trace"
+    },
+    {
+      "path": "tests/contract/test_contract_support_pack_discovery_is_registry_driven.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-031",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-DEV-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "support-pack discovery resolves through generic module discovery rather than a hard-coded vendor list"
+    },
+    {
+      "path": "tests/contract/test_contract_variable_disconnect_state_is_degraded.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-024",
+      "verifies_requirements": [
+        "UDQ-REQ-SIG-001",
+        "UDQ-REQ-ARCH-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-005"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "connected lineage loss is classified as degraded rather than stale"
+    },
+    {
+      "path": "tests/contract/test_contract_variable_expression_evaluation.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-021",
+      "verifies_requirements": [
+        "UDQ-REQ-SIG-001",
+        "UDQ-REQ-ARCH-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-005"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "variable evaluation contract proof"
+    },
+    {
+      "path": "tests/contract/test_contract_variable_impacted_evaluation_scope.py",
+      "category": "contract",
+      "test_id": "UDQ-TST-CON-023",
+      "verifies_requirements": [
+        "UDQ-REQ-SIG-001",
+        "UDQ-REQ-ARCH-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-005"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "impacted-variable evaluation touches only the affected dependency closure"
+    },
+    {
+      "path": "tests/integration/test_integration_controller_adapter_flow.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-ADAPT-001",
+      "verifies_requirements": [
+        "UDQ-REQ-DEV-001",
+        "UDQ-REQ-DIAG-001",
+        "UDQ-REQ-MOD-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-TIME-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "controller-to-adapter integration flow"
+    },
+    {
+      "path": "tests/integration/test_integration_controller_security_events_flow.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-007",
+      "verifies_requirements": [
+        "UDQ-REQ-SEC-002",
+        "UDQ-REQ-EVT-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TRANS-003"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "controller security events flow"
+    },
+    {
+      "path": "tests/integration/test_integration_controller_security_export_flow.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-008",
+      "verifies_requirements": [
+        "UDQ-REQ-SEC-002",
+        "UDQ-REQ-EXP-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "controller security export flow"
+    },
+    {
+      "path": "tests/integration/test_integration_controller_security_outputs_flow.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-006",
+      "verifies_requirements": [
+        "UDQ-REQ-SEC-002",
+        "UDQ-REQ-OUT-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "controller security outputs flow"
+    },
+    {
+      "path": "tests/integration/test_integration_device_discovery_to_shell_viewmodel.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-011",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-UI-006"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-003"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "discovery to shell viewmodel integration flow"
+    },
+    {
+      "path": "tests/integration/test_integration_evidence_bundle_workflow.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-003",
+      "verifies_requirements": [
+        "UDQ-REQ-OUT-001",
+        "UDQ-REQ-EVT-001",
+        "UDQ-REQ-HIS-001",
+        "UDQ-REQ-EXP-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-TRANS-003",
+        "UDQ-INV-EVID-002",
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "evidence bundle workflow"
+    },
+    {
+      "path": "tests/integration/test_integration_export_bundle_workflow.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-005",
+      "verifies_requirements": [
+        "UDQ-REQ-HIS-001",
+        "UDQ-REQ-EXP-001",
+        "UDQ-REQ-EXP-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "end-to-end export bundle workflow"
+    },
+    {
+      "path": "tests/integration/test_integration_labjack_u6_smoke_script.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-013",
+      "verifies_requirements": [
+        "UDQ-REQ-DEV-001",
+        "UDQ-REQ-DIAG-001",
+        "UDQ-REQ-UI-007"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TIME-001",
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "labjack U6 smoke path in simulated mode"
+    },
+    {
+      "path": "tests/integration/test_integration_lifecycle_review_bundle_consistency.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-012",
+      "verifies_requirements": [
+        "UDQ-REQ-UI-006",
+        "UDQ-REQ-DIAG-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-003"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "lifecycle review bundle counts stay consistent with session summaries and runtime diagnostics"
+    },
+    {
+      "path": "tests/integration/test_integration_lifecycle_review_bundle_surface.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-011",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-UI-006"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-003"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "lifecycle review bundle exposes shell-visible review counts and workbench state"
+    },
+    {
+      "path": "tests/integration/test_integration_profile_roundtrip.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-001",
+      "verifies_requirements": [
+        "UDQ-REQ-PROF-001",
+        "UDQ-REQ-PROF-002",
+        "UDQ-REQ-ARCH-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-002",
+        "UDQ-INV-TRANS-002",
+        "UDQ-INV-EVID-003"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "profile round-trip diagnostic"
+    },
+    {
+      "path": "tests/integration/test_integration_runtime_evidence_bundle_v1.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-027",
+      "verifies_requirements": [
+        "UDQ-REQ-DIAG-001",
+        "UDQ-REQ-UI-006"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-003",
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "lifecycle review bundle exposes one canonical runtime evidence route and field-test summaries surface the derived reviewer rollup"
+    },
+    {
+      "path": "tests/integration/test_integration_runtime_evidence_consistency.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INTEG-025",
+      "verifies_requirements": [
+        "UDQ-REQ-SIG-001",
+        "UDQ-REQ-SIG-002",
+        "UDQ-REQ-HIS-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-005"
+      ],
+      "worked_example_reference": "UDQ-EXM-002",
+      "expected_proof_output": "runtime evidence consistency verdict"
+    },
+    {
+      "path": "tests/integration/test_integration_runtime_quality_monitoring.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-013",
+      "verifies_requirements": [
+        "UDQ-REQ-DIAG-001",
+        "UDQ-REQ-SIG-001",
+        "UDQ-REQ-UI-006"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-003",
+        "UDQ-INV-TIME-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "runtime quality layer journals live samples and exposes bounded runtime status in lifecycle review output"
+    },
+    {
+      "path": "tests/integration/test_integration_runtime_spine_review_status.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-014",
+      "verifies_requirements": [
+        "UDQ-REQ-DIAG-001",
+        "UDQ-REQ-SIG-001",
+        "UDQ-REQ-UI-006"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-003",
+        "UDQ-INV-TIME-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "lifecycle review exposes bounded runtime spine status after repeated live polls through an optional support pack path"
+    },
+    {
+      "path": "tests/integration/test_integration_shared_live_slice_across_support_packs.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-012",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-SIG-001",
+        "UDQ-REQ-UI-006"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-STATE-005"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "shared live-monitor slice works across labjack, arduino, and raspberry pi support packs"
+    },
+    {
+      "path": "tests/integration/test_integration_shell_controller_profile_and_bundle_flow.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-005",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-PROF-001",
+        "UDQ-REQ-HIS-001",
+        "UDQ-REQ-UI-007"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-002",
+        "UDQ-INV-STATE-003",
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "controller profile/autosave and bundle flow"
+    },
+    {
+      "path": "tests/integration/test_integration_shell_restore_flow.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-002",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-ARCH-002",
+        "UDQ-REQ-UI-006",
+        "UDQ-REQ-PROF-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-002",
+        "UDQ-INV-STATE-003",
+        "UDQ-INV-EVID-003"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "shell restore workflow"
+    },
+    {
+      "path": "tests/integration/test_integration_shell_smoke.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-004",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-AUD-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "shell smoke diagnostic"
+    },
+    {
+      "path": "tests/integration/test_integration_shell_viewmodel_consistency_after_recovery.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-013",
+      "verifies_requirements": [
+        "UDQ-REQ-UI-006",
+        "UDQ-REQ-ARCH-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "shell viewmodel remains consistent with review bundle after disconnect and recovery"
+    },
+    {
+      "path": "tests/integration/test_integration_u6_command_spine.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-022",
+      "verifies_requirements": [
+        "UDQ-REQ-EVT-002",
+        "UDQ-REQ-OUT-001",
+        "UDQ-REQ-DIAG-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": "UDQ-EXM-013",
+      "expected_proof_output": "bounded U6 live slice admits alarm acknowledgment and rejects unsupported dry-run output through the command spine"
+    },
+    {
+      "path": "tests/integration/test_integration_u6_diag_and_live_smoke_scripts.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-020",
+      "verifies_requirements": [
+        "UDQ-REQ-DEV-001",
+        "UDQ-REQ-DIAG-001",
+        "UDQ-REQ-SIG-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TIME-001",
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "bounded U6 diagnostic and live-value smoke scripts run in simulated mode and produce proof files"
+    },
+    {
+      "path": "tests/integration/test_integration_u6_events_alarm_spine.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-021",
+      "verifies_requirements": [
+        "UDQ-REQ-EVT-001",
+        "UDQ-REQ-EVT-002",
+        "UDQ-REQ-DIAG-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TRANS-003"
+      ],
+      "worked_example_reference": "UDQ-EXM-012",
+      "expected_proof_output": "bounded U6 live slice emits event/alarm transitions for disconnect, acknowledge, and reconnect through the canonical journal path"
+    },
+    {
+      "path": "tests/integration/test_integration_u6_field_test_harness.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-026",
+      "verifies_requirements": [
+        "UDQ-REQ-DIAG-001",
+        "UDQ-REQ-GOV-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "guided U6 field-validation evidence bundle in simulated mode"
+    },
+    {
+      "path": "tests/integration/test_integration_u6_recovery_pipeline.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-021",
+      "verifies_requirements": [
+        "UDQ-REQ-DEV-001",
+        "UDQ-REQ-DIAG-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TIME-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "same-run U6 recovery emits reconnect-stage runtime events and returns to live after disconnect"
+    },
+    {
+      "path": "tests/integration/test_integration_u6_rule_sequence_spine.py",
+      "category": "integration",
+      "test_id": "UDQ-TST-INT-023",
+      "verifies_requirements": [
+        "UDQ-REQ-EVT-002",
+        "UDQ-REQ-OUT-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "bounded U6 orchestration spine emits one admitted acknowledgment command and one rejected dry-run command without bypassing command admission"
+    },
+    {
+      "path": "tests/invariants/test_invariant_alarm_order.py",
+      "category": "invariants",
+      "test_id": "UDQ-TST-INV-003",
+      "verifies_requirements": [
+        "UDQ-REQ-EVT-001",
+        "UDQ-REQ-EVT-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TRANS-003",
+        "UDQ-INV-EVID-002"
+      ],
+      "worked_example_reference": "UDQ-EXM-004",
+      "expected_proof_output": "alarm-order invariant report"
+    },
+    {
+      "path": "tests/invariants/test_invariant_authorization_denial_never_reaches_adapter_handoff.py",
+      "category": "invariants",
+      "test_id": "UDQ-TST-INV-ADAPT-001",
+      "verifies_requirements": [
+        "UDQ-REQ-MOD-002",
+        "UDQ-REQ-SEC-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-004",
+        "UDQ-INV-TRANS-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "authorization denial stays upstream of adapter handoff"
+    },
+    {
+      "path": "tests/invariants/test_invariant_authorization_evidence_is_attributable.py",
+      "category": "invariants",
+      "test_id": "UDQ-TST-INV-009",
+      "verifies_requirements": [
+        "UDQ-REQ-SEC-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "authorization evidence attribution"
+    },
+    {
+      "path": "tests/invariants/test_invariant_command_path.py",
+      "category": "invariants",
+      "test_id": "UDQ-TST-INV-001",
+      "verifies_requirements": [
+        "UDQ-REQ-OUT-001",
+        "UDQ-REQ-OUT-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TRANS-001",
+        "UDQ-INV-EVID-001"
+      ],
+      "worked_example_reference": "UDQ-EXM-001",
+      "expected_proof_output": "command-path invariant report"
+    },
+    {
+      "path": "tests/invariants/test_invariant_core_operates_without_vendor_support_pack.py",
+      "category": "invariants",
+      "test_id": "UDQ-TST-INV-012",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-REL-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "core no-vendor support-pack invariant proof"
+    },
+    {
+      "path": "tests/invariants/test_invariant_denial_is_distinct_from_arbitration_block.py",
+      "category": "invariants",
+      "test_id": "UDQ-TST-INV-008",
+      "verifies_requirements": [
+        "UDQ-REQ-SEC-002",
+        "UDQ-REQ-OUT-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TRANS-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "auth denial distinct from arbitration block"
+    },
+    {
+      "path": "tests/invariants/test_invariant_denied_actions_are_non_actuating.py",
+      "category": "invariants",
+      "test_id": "UDQ-TST-INV-007",
+      "verifies_requirements": [
+        "UDQ-REQ-SEC-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "denied actions non-actuating"
+    },
+    {
+      "path": "tests/invariants/test_invariant_evidence_requirements.py",
+      "category": "invariants",
+      "test_id": "UDQ-TST-INV-005",
+      "verifies_requirements": [
+        "UDQ-REQ-HIS-001",
+        "UDQ-REQ-HIS-002",
+        "UDQ-REQ-GOV-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-001",
+        "UDQ-INV-EVID-002",
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": "UDQ-EXM-004",
+      "expected_proof_output": "evidence invariant report"
+    },
+    {
+      "path": "tests/invariants/test_invariant_export_manifest_matches_bundle_contents.py",
+      "category": "invariants",
+      "test_id": "UDQ-TST-INV-006",
+      "verifies_requirements": [
+        "UDQ-REQ-EXP-001",
+        "UDQ-REQ-EXP-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "manifest matches bundle contents"
+    },
+    {
+      "path": "tests/invariants/test_invariant_graph_mode_separation.py",
+      "category": "invariants",
+      "test_id": "UDQ-TST-INV-004",
+      "verifies_requirements": [
+        "UDQ-REQ-UI-003",
+        "UDQ-REQ-UI-004",
+        "UDQ-REQ-UI-006"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-003",
+        "UDQ-INV-TRANS-004",
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": "UDQ-EXM-005",
+      "expected_proof_output": "graph-mode invariant report"
+    },
+    {
+      "path": "tests/invariants/test_invariant_logical_signals_survive_point_rebinding.py",
+      "category": "invariants",
+      "test_id": "UDQ-TST-INV-014",
+      "verifies_requirements": [
+        "UDQ-REQ-SIG-001",
+        "UDQ-REQ-DEV-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-005"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "logical signal remains stable across point rebind proof"
+    },
+    {
+      "path": "tests/invariants/test_invariant_missing_support_pack_dependency_does_not_break_core_startup.py",
+      "category": "invariants",
+      "test_id": "UDQ-TST-INV-015",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-REL-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-STATE-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "missing support-pack dependencies degrade to load reports without breaking core startup"
+    },
+    {
+      "path": "tests/invariants/test_invariant_no_direct_labjack_imports_in_core.py",
+      "category": "invariants",
+      "test_id": "UDQ-TST-INV-013",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-002",
+        "UDQ-REQ-ARCH-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "no direct LabJack imports in universal core"
+    },
+    {
+      "path": "tests/invariants/test_invariant_no_direct_optional_support_pack_imports_in_core.py",
+      "category": "invariants",
+      "test_id": "UDQ-TST-INV-014",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-ARCH-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "no direct optional support-pack imports in universal core"
+    },
+    {
+      "path": "tests/invariants/test_invariant_no_vendor_markers_in_core.py",
+      "category": "invariants",
+      "test_id": "UDQ-TST-INV-016",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-ARCH-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "vendor-specific markers do not leak into universal core python modules"
+    },
+    {
+      "path": "tests/invariants/test_invariant_restore_path.py",
+      "category": "invariants",
+      "test_id": "UDQ-TST-INV-002",
+      "verifies_requirements": [
+        "UDQ-REQ-PROF-001",
+        "UDQ-REQ-PROF-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TRANS-002",
+        "UDQ-INV-EVID-003"
+      ],
+      "worked_example_reference": "UDQ-EXM-003",
+      "expected_proof_output": "restore-path invariant report"
+    },
+    {
+      "path": "tests/invariants/test_invariant_ui_enablement_is_not_authorization.py",
+      "category": "invariants",
+      "test_id": "UDQ-TST-INV-006",
+      "verifies_requirements": [
+        "UDQ-REQ-SEC-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-002"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "ui enablement distinct from authorization"
+    },
+    {
+      "path": "tests/meta/test_meta_ci_and_local_gate_presence.py",
+      "category": "meta",
+      "test_id": "UDQ-TST-META-006",
+      "verifies_requirements": [
+        "UDQ-REQ-GOV-001",
+        "UDQ-REQ-IMPL-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "ci-and-gate presence report"
+    },
+    {
+      "path": "tests/meta/test_meta_controller_decomposition.py",
+      "category": "meta",
+      "test_id": "UDQ-TST-META-023",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-GOV-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "controller concentration reduction and extracted handler assets"
+    },
+    {
+      "path": "tests/meta/test_meta_document_completeness_rules.py",
+      "category": "meta",
+      "test_id": "UDQ-TST-META-021",
+      "verifies_requirements": [
+        "UDQ-REQ-GOV-001",
+        "UDQ-REQ-GOV-003",
+        "UDQ-REQ-QUAL-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "document completeness validation"
+    },
+    {
+      "path": "tests/meta/test_meta_documentation_debt_rules.py",
+      "category": "meta",
+      "test_id": "UDQ-TST-META-015",
+      "verifies_requirements": [
+        "UDQ-REQ-GOV-001",
+        "UDQ-REQ-GOV-003",
+        "UDQ-REQ-IMPL-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "documentation debt register validation"
+    },
+    {
+      "path": "tests/meta/test_meta_documentation_impact_rules.py",
+      "category": "meta",
+      "test_id": "UDQ-TST-META-010",
+      "verifies_requirements": [
+        "UDQ-REQ-GOV-001",
+        "UDQ-REQ-IMPL-001",
+        "UDQ-REQ-QUAL-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "documentation impact control validation"
+    },
+    {
+      "path": "tests/meta/test_meta_execution_contract_links.py",
+      "category": "meta",
+      "test_id": "UDQ-TST-META-003",
+      "verifies_requirements": [
+        "UDQ-REQ-AUD-002",
+        "UDQ-REQ-GOV-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "execution-contract link audit"
+    },
+    {
+      "path": "tests/meta/test_meta_first_slice_readiness_consistency.py",
+      "category": "meta",
+      "test_id": "UDQ-TST-META-004",
+      "verifies_requirements": [
+        "UDQ-REQ-AUD-003",
+        "UDQ-REQ-GOV-003"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "readiness consistency report"
+    },
+    {
+      "path": "tests/meta/test_meta_invariant_references.py",
+      "category": "meta",
+      "test_id": "UDQ-TST-META-002",
+      "verifies_requirements": [
+        "UDQ-REQ-AUD-001",
+        "UDQ-REQ-GOV-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "traceability gap report"
+    },
+    {
+      "path": "tests/meta/test_meta_no_archived_reference_ids.py",
+      "category": "meta",
+      "test_id": "UDQ-TST-META-005",
+      "verifies_requirements": [
+        "UDQ-REQ-GOV-004",
+        "UDQ-REQ-REL-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "inactive-reference audit"
+    },
+    {
+      "path": "tests/meta/test_meta_no_root_audit_wrappers.py",
+      "category": "meta",
+      "test_id": "UDQ-TST-META-013",
+      "verifies_requirements": [
+        "UDQ-REQ-AUD-001",
+        "UDQ-REQ-REL-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "root audit wrapper cleanup audit"
+    },
+    {
+      "path": "tests/meta/test_meta_package_build_exclusions.py",
+      "category": "meta",
+      "test_id": "UDQ-TST-META-009",
+      "verifies_requirements": [
+        "UDQ-REQ-REL-001",
+        "UDQ-REQ-IMPL-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "package-build exclusion audit"
+    },
+    {
+      "path": "tests/meta/test_meta_package_entry_surfaces.py",
+      "category": "meta",
+      "test_id": "UDQ-TST-META-022",
+      "verifies_requirements": [
+        "UDQ-REQ-GOV-001",
+        "UDQ-REQ-GOV-003"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "package entry validation"
+    },
+    {
+      "path": "tests/meta/test_meta_pass2_reviewer_guide_present.py",
+      "category": "meta",
+      "test_id": "UDQ-TST-META-015",
+      "verifies_requirements": [
+        "UDQ-REQ-REL-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "pass-2 reviewer guide and summary are present"
+    },
+    {
+      "path": "tests/meta/test_meta_readme_control.py",
+      "category": "meta",
+      "test_id": "UDQ-TST-META-011",
+      "verifies_requirements": [
+        "UDQ-REQ-GOV-001",
+        "UDQ-REQ-IMPL-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "README control validation"
+    },
+    {
+      "path": "tests/meta/test_meta_release_package_hygiene.py",
+      "category": "meta",
+      "test_id": "UDQ-TST-META-014",
+      "verifies_requirements": [
+        "UDQ-REQ-REL-001",
+        "UDQ-REQ-QUAL-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "package hygiene audit"
+    },
+    {
+      "path": "tests/meta/test_meta_requirement_references.py",
+      "category": "meta",
+      "test_id": "UDQ-TST-META-001",
+      "verifies_requirements": [
+        "UDQ-REQ-AUD-001",
+        "UDQ-REQ-GOV-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "traceability gap report"
+    },
+    {
+      "path": "tests/meta/test_meta_reserved_package_guardrails.py",
+      "category": "meta",
+      "test_id": "UDQ-TST-META-007",
+      "verifies_requirements": [
+        "UDQ-REQ-IMPL-001",
+        "UDQ-REQ-GOV-003"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "reserved-package guardrail report"
+    },
+    {
+      "path": "tests/meta/test_meta_root_layer_allowlist.py",
+      "category": "meta",
+      "test_id": "UDQ-TST-META-012",
+      "verifies_requirements": [
+        "UDQ-REQ-REL-001",
+        "UDQ-REQ-IMPL-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "root layer allowlist audit"
+    },
+    {
+      "path": "tests/meta/test_meta_run_artifact_naming.py",
+      "category": "meta",
+      "test_id": "UDQ-TST-META-023",
+      "verifies_requirements": [
+        "UDQ-REQ-GOV-001",
+        "UDQ-REQ-IMPL-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "run artifact naming validation"
+    },
+    {
+      "path": "tests/meta/test_meta_schema_conventions.py",
+      "category": "meta",
+      "test_id": "UDQ-TST-META-008",
+      "verifies_requirements": [
+        "UDQ-REQ-GOV-002",
+        "UDQ-REQ-IMPL-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "schema-convention report"
+    },
+    {
+      "path": "tests/meta/test_meta_tools_registry_config_usage.py",
+      "category": "meta",
+      "test_id": "UDQ-TST-META-017",
+      "verifies_requirements": [
+        "UDQ-REQ-GOV-001",
+        "UDQ-REQ-QUAL-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "tool registry path centralization audit"
+    },
+    {
+      "path": "tests/regression/test_regression_controller_workspace_and_command_spines.py",
+      "category": "regression",
+      "test_id": "UDQ-TST-REG-011",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-PROF-001",
+        "UDQ-REQ-EVT-001",
+        "UDQ-REQ-UI-007"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-002",
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "workspace/profile/command public spines remain stable after controller decomposition"
+    },
+    {
+      "path": "tests/regression/test_regression_multi_provider_discovery_collects_all_providers.py",
+      "category": "regression",
+      "test_id": "UDQ-TST-REG-001",
+      "verifies_requirements": [
+        "UDQ-REQ-DEV-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "multi-provider discovery aggregation regression"
+    },
+    {
+      "path": "tests/regression/test_regression_partial_recovery_only_marks_affected_bindings.py",
+      "category": "regression",
+      "test_id": "UDQ-TST-REG-005",
+      "verifies_requirements": [
+        "UDQ-REQ-SIG-001",
+        "UDQ-REQ-UI-006"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-005"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "partial recovery marks only affected bindings unresolved"
+    },
+    {
+      "path": "tests/regression/test_regression_published_signal_count_tracks_resolved_bindings.py",
+      "category": "regression",
+      "test_id": "UDQ-TST-REG-012",
+      "verifies_requirements": [
+        "UDQ-REQ-DEV-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TRANS-003"
+      ],
+      "worked_example_reference": "UDQ-EXM-013",
+      "expected_proof_output": "published signal count tracks resolved bindings rather than only changed signals during bounded live polls"
+    },
+    {
+      "path": "tests/regression/test_regression_repeated_reconnect_does_not_duplicate_projected_points.py",
+      "category": "regression",
+      "test_id": "UDQ-TST-REG-004",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "reconnect reprojection does not duplicate device point definitions"
+    },
+    {
+      "path": "tests/regression/test_regression_review_summary_clears_stale_disconnect_artifacts.py",
+      "category": "regression",
+      "test_id": "UDQ-TST-REG-006",
+      "verifies_requirements": [
+        "UDQ-REQ-UI-006"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "successful reconnect clears disconnect-only review artifacts"
+    },
+    {
+      "path": "tests/regression/test_regression_unknown_discovered_device_is_controlled.py",
+      "category": "regression",
+      "test_id": "UDQ-TST-REG-002",
+      "verifies_requirements": [
+        "UDQ-REQ-DEV-001",
+        "UDQ-REQ-UI-006"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "unknown discovered device controlled failure regression"
+    },
+    {
+      "path": "tests/regression/test_regression_unsupported_export_artifact_denied_without_keyerror.py",
+      "category": "regression",
+      "test_id": "UDQ-TST-REG-003",
+      "verifies_requirements": [
+        "UDQ-REQ-SEC-002",
+        "UDQ-REQ-EXP-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "unsupported export artifact safe denial regression"
+    },
+    {
+      "path": "tests/scenario/test_scenario_adapter_poll_and_snapshot_flow.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-ADAPT-001",
+      "verifies_requirements": [
+        "UDQ-REQ-DEV-001",
+        "UDQ-REQ-DIAG-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TIME-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "adapter poll snapshot flow"
+    },
+    {
+      "path": "tests/scenario/test_scenario_alarm_ack_command_spine.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-CMD-001",
+      "verifies_requirements": [
+        "UDQ-REQ-EVT-002",
+        "UDQ-REQ-OUT-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "alarm acknowledgment enters through the canonical command admission spine"
+    },
+    {
+      "path": "tests/scenario/test_scenario_alarm_assert_ack_rtn.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-004",
+      "verifies_requirements": [
+        "UDQ-REQ-EVT-001",
+        "UDQ-REQ-EVT-002",
+        "UDQ-REQ-HIS-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TRANS-003",
+        "UDQ-INV-EVID-002"
+      ],
+      "worked_example_reference": "UDQ-EXM-004",
+      "expected_proof_output": "alarm lifecycle proof bundle"
+    },
+    {
+      "path": "tests/scenario/test_scenario_blocked_command.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-001",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-OUT-001",
+        "UDQ-REQ-SEC-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-TRANS-001",
+        "UDQ-INV-EVID-001"
+      ],
+      "worked_example_reference": "UDQ-EXM-001",
+      "expected_proof_output": "blocked command proof bundle"
+    },
+    {
+      "path": "tests/scenario/test_scenario_command_applied_observed_mismatch.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-002",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-OUT-002",
+        "UDQ-REQ-EVT-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TIME-002",
+        "UDQ-INV-EVID-001"
+      ],
+      "worked_example_reference": "UDQ-EXM-002",
+      "expected_proof_output": "mismatch proof bundle"
+    },
+    {
+      "path": "tests/scenario/test_scenario_device_reconnect_different_port_rebind.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-017",
+      "verifies_requirements": [
+        "UDQ-REQ-DEV-001",
+        "UDQ-REQ-DEV-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "same-device reconnect on new port proof"
+    },
+    {
+      "path": "tests/scenario/test_scenario_empty_scope_warning_bundle.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-008",
+      "verifies_requirements": [
+        "UDQ-REQ-EXP-001",
+        "UDQ-REQ-HIS-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "empty-scope warning bundle"
+    },
+    {
+      "path": "tests/scenario/test_scenario_export_denied_is_non_mutating.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-013",
+      "verifies_requirements": [
+        "UDQ-REQ-SEC-002",
+        "UDQ-REQ-EXP-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "denied export non-mutation"
+    },
+    {
+      "path": "tests/scenario/test_scenario_graph_live_review_live_trace.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-005",
+      "verifies_requirements": [
+        "UDQ-REQ-UI-003",
+        "UDQ-REQ-UI-004",
+        "UDQ-REQ-UI-006",
+        "UDQ-REQ-HIS-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-003",
+        "UDQ-INV-TRANS-004",
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": "UDQ-EXM-005",
+      "expected_proof_output": "graph mode proof bundle"
+    },
+    {
+      "path": "tests/scenario/test_scenario_missing_signal_degrades_variable.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-018",
+      "verifies_requirements": [
+        "UDQ-REQ-SIG-001",
+        "UDQ-REQ-ARCH-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-005"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "missing-signal degradation proof"
+    },
+    {
+      "path": "tests/scenario/test_scenario_observer_cannot_ack_alarm.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-011",
+      "verifies_requirements": [
+        "UDQ-REQ-SEC-002",
+        "UDQ-REQ-EVT-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TRANS-003"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "observer alarm-ack denial"
+    },
+    {
+      "path": "tests/scenario/test_scenario_observer_cannot_issue_command.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-010",
+      "verifies_requirements": [
+        "UDQ-REQ-SEC-002",
+        "UDQ-REQ-OUT-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "observer command denial"
+    },
+    {
+      "path": "tests/scenario/test_scenario_operator_can_ack_and_export.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-012",
+      "verifies_requirements": [
+        "UDQ-REQ-SEC-002",
+        "UDQ-REQ-EVT-002",
+        "UDQ-REQ-EXP-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "operator allowed ack and export"
+    },
+    {
+      "path": "tests/scenario/test_scenario_operator_command_handoff_to_adapter.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-ADAPT-002",
+      "verifies_requirements": [
+        "UDQ-REQ-DEV-001",
+        "UDQ-REQ-MOD-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-STATE-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "adapter handoff command trace"
+    },
+    {
+      "path": "tests/scenario/test_scenario_rejected_dry_run_command.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-CMD-002",
+      "verifies_requirements": [
+        "UDQ-REQ-OUT-001",
+        "UDQ-REQ-MOD-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "unsupported dry-run command is rejected with a clear capability reason"
+    },
+    {
+      "path": "tests/scenario/test_scenario_restore_without_output_reassertion.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-003",
+      "verifies_requirements": [
+        "UDQ-REQ-PROF-001",
+        "UDQ-REQ-PROF-002",
+        "UDQ-REQ-ARCH-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-002",
+        "UDQ-INV-TRANS-002",
+        "UDQ-INV-EVID-003"
+      ],
+      "worked_example_reference": "UDQ-EXM-003",
+      "expected_proof_output": "restore proof bundle"
+    },
+    {
+      "path": "tests/scenario/test_scenario_review_export_from_history_range.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-007",
+      "verifies_requirements": [
+        "UDQ-REQ-HIS-002",
+        "UDQ-REQ-EXP-001",
+        "UDQ-REQ-EXP-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TRANS-004",
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "review export from history range"
+    },
+    {
+      "path": "tests/scenario/test_scenario_rule_sequence_spine.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-RSEQ-001",
+      "verifies_requirements": [
+        "UDQ-REQ-EVT-002",
+        "UDQ-REQ-OUT-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "rules and sequences emit governed command intent through the official command-admission path"
+    },
+    {
+      "path": "tests/scenario/test_scenario_shell_restore_review_live_bundle.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-006",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-PROF-001",
+        "UDQ-REQ-HIS-001",
+        "UDQ-REQ-UI-006"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-STATE-002",
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "shell review/live evidence bundle"
+    },
+    {
+      "path": "tests/scenario/test_scenario_u6_advanced_setup_disconnect_reconnect.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-011",
+      "verifies_requirements": [
+        "UDQ-REQ-UI-006",
+        "UDQ-REQ-ARCH-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "u6 advanced setup disconnect and reconnect flow"
+    },
+    {
+      "path": "tests/scenario/test_scenario_u6_quick_start_onboarding_flow.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-010",
+      "verifies_requirements": [
+        "UDQ-REQ-UI-006",
+        "UDQ-REQ-ARCH-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-003"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "u6 quick-start onboarding flow"
+    },
+    {
+      "path": "tests/scenario/test_scenario_vertical_slice_ambiguous_rebind_requires_manual_review.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-014",
+      "verifies_requirements": [
+        "UDQ-REQ-UI-006",
+        "UDQ-REQ-DEV-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-005"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "ambiguous projected replacement points require manual review instead of silent auto-rebind"
+    },
+    {
+      "path": "tests/scenario/test_scenario_vertical_slice_binding_variable_disconnect_reconnect.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-012",
+      "verifies_requirements": [
+        "UDQ-REQ-UI-006",
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-SIG-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-STATE-005"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "vertical slice from discovery through binding, variable health, disconnect, and reconnect"
+    },
+    {
+      "path": "tests/scenario/test_scenario_vertical_slice_partial_recovery_after_inventory_drift.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-013",
+      "verifies_requirements": [
+        "UDQ-REQ-UI-006",
+        "UDQ-REQ-SIG-001",
+        "UDQ-REQ-ARCH-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-STATE-005"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "partial lifecycle recovery after projected inventory drift leaves only affected bindings unresolved"
+    },
+    {
+      "path": "tests/scenario/test_scenario_vertical_slice_repeated_disconnect_reconnect_stability.py",
+      "category": "scenario",
+      "test_id": "UDQ-TST-SCN-015",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-UI-006"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "repeated disconnect/reconnect cycles do not duplicate projected points or inflate review summaries"
+    },
+    {
+      "path": "tests/smoke/test_smoke_adapter_inventory_diagnostic.py",
+      "category": "smoke",
+      "test_id": "UDQ-TST-SMK-ADAPT-001",
+      "verifies_requirements": [
+        "UDQ-REQ-DIAG-001",
+        "UDQ-REQ-DEV-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TIME-001",
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "adapter inventory diagnostic dump"
+    },
+    {
+      "path": "tests/smoke/test_smoke_auth_diagnostic_inventory.py",
+      "category": "smoke",
+      "test_id": "UDQ-TST-SMK-003",
+      "verifies_requirements": [
+        "UDQ-REQ-SEC-001",
+        "UDQ-REQ-SEC-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "authorization diagnostic inventory"
+    },
+    {
+      "path": "tests/smoke/test_smoke_device_discovery_inventory.py",
+      "category": "smoke",
+      "test_id": "UDQ-TST-SMK-004",
+      "verifies_requirements": [
+        "UDQ-REQ-AUD-001",
+        "UDQ-REQ-ARCH-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "device discovery inventory smoke output"
+    },
+    {
+      "path": "tests/smoke/test_smoke_export_diagnostic_inventory.py",
+      "category": "smoke",
+      "test_id": "UDQ-TST-SMK-006",
+      "verifies_requirements": [
+        "UDQ-REQ-HIS-001",
+        "UDQ-REQ-EXP-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "export inventory diagnostic"
+    },
+    {
+      "path": "tests/smoke/test_smoke_first_slice_snapshots_load.py",
+      "category": "smoke",
+      "test_id": "UDQ-TST-SMK-003",
+      "verifies_requirements": [
+        "UDQ-REQ-IMPL-001",
+        "UDQ-REQ-GOV-003"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "snapshot-load smoke output"
+    },
+    {
+      "path": "tests/smoke/test_smoke_governance_assets_load.py",
+      "category": "smoke",
+      "test_id": "UDQ-TST-SMK-002",
+      "verifies_requirements": [
+        "UDQ-REQ-GOV-001",
+        "UDQ-REQ-GOV-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "registry-load smoke output"
+    },
+    {
+      "path": "tests/smoke/test_smoke_lifecycle_inventory_diagnostic.py",
+      "category": "smoke",
+      "test_id": "UDQ-TST-SMK-010",
+      "verifies_requirements": [
+        "UDQ-REQ-DIAG-001",
+        "UDQ-REQ-DEV-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "lifecycle inventory diagnostic snapshot"
+    },
+    {
+      "path": "tests/smoke/test_smoke_lifecycle_transition_history_diagnostic.py",
+      "category": "smoke",
+      "test_id": "UDQ-TST-SMK-012",
+      "verifies_requirements": [
+        "UDQ-REQ-DIAG-001",
+        "UDQ-REQ-UI-006"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "lifecycle transition history diagnostic snapshot"
+    },
+    {
+      "path": "tests/smoke/test_smoke_package_layout.py",
+      "category": "smoke",
+      "test_id": "UDQ-TST-SMK-001",
+      "verifies_requirements": [
+        "UDQ-REQ-AUD-001",
+        "UDQ-REQ-REL-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "package layout audit"
+    },
+    {
+      "path": "tests/smoke/test_smoke_runtime_performance_inventory.py",
+      "category": "smoke",
+      "test_id": "UDQ-TST-SMK-011",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-DIAG-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "runtime performance inventory diagnostic snapshot"
+    },
+    {
+      "path": "tests/smoke/test_smoke_shell_state_inventory_diagnostic.py",
+      "category": "smoke",
+      "test_id": "UDQ-TST-SMK-005",
+      "verifies_requirements": [
+        "UDQ-REQ-IMPL-001",
+        "UDQ-REQ-HIS-001",
+        "UDQ-REQ-EXP-001",
+        "UDQ-REQ-UI-006"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "shell state inventory diagnostic output"
+    },
+    {
+      "path": "tests/smoke/test_smoke_src_package_markers.py",
+      "category": "smoke",
+      "test_id": "UDQ-TST-SMK-004",
+      "verifies_requirements": [
+        "UDQ-REQ-IMPL-001",
+        "UDQ-REQ-ARCH-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "module-marker smoke output"
+    }
+  ],
+  "missing_test_declarations": []
+}

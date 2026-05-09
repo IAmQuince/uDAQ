@@ -1,0 +1,348 @@
+{
+  "package_id": "UDQ-PKG-20260327-OPERATOR-FLOW-AND-CHANNEL-CONTROL-HARDENING-R01",
+  "package_slug": "operator-flow-and-channel-control-hardening",
+  "selected_device": {
+    "device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+    "display_name": "First Signal Demo Device",
+    "serial_number": "DEMO-001",
+    "support_tier": "generic"
+  },
+  "timings_ms": {
+    "discover_ms": 0.599,
+    "select_ms": 0.559,
+    "quick_start_ms": 17.807,
+    "reconnect_ms": 13.866
+  },
+  "first_plotted_point_at": 6,
+  "device_phase": "live",
+  "published_signal_count": 1,
+  "first_signal_summary": {
+    "signal_id": "first_signal__generic_demo_first_signal_001",
+    "display_name": "Wave 0",
+    "point_key": "DEMO-FIRST-SIGNAL-001:demo_wave_0",
+    "point_class": "analog",
+    "latest_value": "2.750",
+    "latest_numeric_value": 2.75,
+    "quality_label": "simulated",
+    "freshness_label": "simulated",
+    "engineering_units": "V",
+    "trace_point_count": 13,
+    "auto_bound": true,
+    "source_adapter_id": "DEMO-FIRST-SIGNAL-001",
+    "device_identity_key": "generic::DEMO-FIRST-SIGNAL-001",
+    "source_transport": "in_memory",
+    "hardware_channel": "demo_wave_0",
+    "provenance_label": "First Signal Demo Device / DEMO-FIRST-SIGNAL-001 / Wave 0",
+    "channel_metadata": {
+      "binding_origin": "auto_bound",
+      "binding_policy": "auto_rebind_if_confident",
+      "definition_meta::demo": "true",
+      "definition_meta::device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+      "definition_meta::point_class": "analog",
+      "definition_meta::provider_id": "generic_adapter_inventory",
+      "definition_meta::support_tier": "generic",
+      "definition_meta::units": "V",
+      "definition_meta::waveform": "sine",
+      "device_display_name": "First Signal Demo Device",
+      "device_identity_key": "generic::DEMO-FIRST-SIGNAL-001",
+      "device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+      "device_serial_number": "DEMO-001",
+      "friendly_name": "Wave 0",
+      "point_class": "analog",
+      "point_meta::demo": "true",
+      "point_meta::waveform": "sine",
+      "source_adapter_id": "DEMO-FIRST-SIGNAL-001",
+      "source_point_id": "demo_wave_0",
+      "source_transport": "in_memory"
+    }
+  },
+  "trusted_session_summary": {
+    "lifecycle_state": "live",
+    "graph_status_label": "live",
+    "live_numeric_visible": true,
+    "graph_visible": true,
+    "trace_point_count": 13,
+    "trace_span_seconds": 48,
+    "latest_value_age_seconds": 0,
+    "disconnect_count": 1,
+    "reconnect_count": 1,
+    "session_event_count": 15,
+    "ready_for_operator": true,
+    "last_event_summary": "adapter poll completed",
+    "sparkline": "\u2586\u2585\u2583\u2581\u2581\u2581\u2583\u2585\u2586\u2586\u2588\u2588\u2586",
+    "signal_quality_label": "simulated",
+    "signal_freshness_label": "simulated",
+    "control_mode_label": "armed_control",
+    "active_alarm_count": 0,
+    "unacknowledged_alarm_count": 0,
+    "highest_active_severity": null,
+    "recent_action_count": 8,
+    "flight_record_ready": true,
+    "truthfulness_warnings": [],
+    "signal_provenance": {
+      "source_device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+      "source_adapter_id": "DEMO-FIRST-SIGNAL-001",
+      "device_identity_key": "generic::DEMO-FIRST-SIGNAL-001",
+      "source_transport": "in_memory",
+      "hardware_channel": "demo_wave_0",
+      "provenance_label": "First Signal Demo Device / DEMO-FIRST-SIGNAL-001 / Wave 0",
+      "channel_metadata": {
+        "device_identity_key": "generic::DEMO-FIRST-SIGNAL-001",
+        "device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+        "device_display_name": "First Signal Demo Device",
+        "device_serial_number": "DEMO-001",
+        "source_adapter_id": "DEMO-FIRST-SIGNAL-001",
+        "source_point_id": "demo_wave_0",
+        "point_class": "analog",
+        "source_transport": "in_memory",
+        "binding_policy": "auto_rebind_if_confident",
+        "binding_origin": "auto_bound",
+        "friendly_name": "Wave 0",
+        "point_meta::demo": "true",
+        "point_meta::waveform": "sine",
+        "definition_meta::device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+        "definition_meta::support_tier": "generic",
+        "definition_meta::provider_id": "generic_adapter_inventory",
+        "definition_meta::point_class": "analog",
+        "definition_meta::units": "V",
+        "definition_meta::demo": "true",
+        "definition_meta::waveform": "sine"
+      }
+    },
+    "alarm_summary": {
+      "definition_count": 0,
+      "active_alarm_count": 0,
+      "unacknowledged_alarm_count": 0,
+      "highest_active_severity": null,
+      "recent_domain_event_count": 0
+    },
+    "active_alarm_rows": [],
+    "recent_domain_events": [],
+    "recent_events": [
+      {
+        "timestamp": 12,
+        "category": "poll",
+        "summary": "adapter poll completed",
+        "phase_after": "live"
+      },
+      {
+        "timestamp": 13,
+        "category": "poll",
+        "summary": "adapter poll completed",
+        "phase_after": "live"
+      },
+      {
+        "timestamp": 50,
+        "category": "disconnect",
+        "summary": "active device marked disconnected",
+        "phase_after": "disconnected"
+      },
+      {
+        "timestamp": 51,
+        "category": "reconnect",
+        "summary": "active device reconnected",
+        "phase_after": "live"
+      },
+      {
+        "timestamp": 52,
+        "category": "poll",
+        "summary": "adapter poll completed",
+        "phase_after": "live"
+      },
+      {
+        "timestamp": 53,
+        "category": "poll",
+        "summary": "adapter poll completed",
+        "phase_after": "live"
+      }
+    ],
+    "recent_actions": [
+      {
+        "timestamp": 10,
+        "category": "device",
+        "summary": "adapter poll completed",
+        "outcome": "recorded",
+        "actor_id": null,
+        "target_kind": "shell_session",
+        "target_id": "SESSION-PROF-TRUSTED-SESSION-2"
+      },
+      {
+        "timestamp": 11,
+        "category": "device",
+        "summary": "adapter poll completed",
+        "outcome": "recorded",
+        "actor_id": null,
+        "target_kind": "shell_session",
+        "target_id": "SESSION-PROF-TRUSTED-SESSION-2"
+      },
+      {
+        "timestamp": 12,
+        "category": "device",
+        "summary": "adapter poll completed",
+        "outcome": "recorded",
+        "actor_id": null,
+        "target_kind": "shell_session",
+        "target_id": "SESSION-PROF-TRUSTED-SESSION-2"
+      },
+      {
+        "timestamp": 13,
+        "category": "device",
+        "summary": "adapter poll completed",
+        "outcome": "recorded",
+        "actor_id": null,
+        "target_kind": "shell_session",
+        "target_id": "SESSION-PROF-TRUSTED-SESSION-2"
+      },
+      {
+        "timestamp": 50,
+        "category": "device",
+        "summary": "active device marked disconnected",
+        "outcome": "recorded",
+        "actor_id": null,
+        "target_kind": "shell_session",
+        "target_id": "SESSION-PROF-TRUSTED-SESSION-2"
+      },
+      {
+        "timestamp": 51,
+        "category": "device",
+        "summary": "active device reconnected",
+        "outcome": "recorded",
+        "actor_id": null,
+        "target_kind": "shell_session",
+        "target_id": "SESSION-PROF-TRUSTED-SESSION-2"
+      },
+      {
+        "timestamp": 52,
+        "category": "device",
+        "summary": "adapter poll completed",
+        "outcome": "recorded",
+        "actor_id": null,
+        "target_kind": "shell_session",
+        "target_id": "SESSION-PROF-TRUSTED-SESSION-2"
+      },
+      {
+        "timestamp": 53,
+        "category": "device",
+        "summary": "adapter poll completed",
+        "outcome": "recorded",
+        "actor_id": null,
+        "target_kind": "shell_session",
+        "target_id": "SESSION-PROF-TRUSTED-SESSION-2"
+      }
+    ],
+    "trace_numeric_points": [
+      2.75,
+      2.0,
+      1.25,
+      0.701,
+      0.5,
+      0.701,
+      1.25,
+      2.0,
+      2.75,
+      2.75,
+      3.5,
+      3.299,
+      2.75
+    ]
+  },
+  "replay_tape": {
+    "signal_id": "first_signal__generic_demo_first_signal_001",
+    "display_name": "Wave 0",
+    "engineering_units": "V",
+    "quality_label": "simulated",
+    "freshness_label": "simulated",
+    "provenance_label": "First Signal Demo Device / DEMO-FIRST-SIGNAL-001 / Wave 0",
+    "channel_metadata": {
+      "device_identity_key": "generic::DEMO-FIRST-SIGNAL-001",
+      "device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+      "device_display_name": "First Signal Demo Device",
+      "device_serial_number": "DEMO-001",
+      "source_adapter_id": "DEMO-FIRST-SIGNAL-001",
+      "source_point_id": "demo_wave_0",
+      "point_class": "analog",
+      "source_transport": "in_memory",
+      "binding_policy": "auto_rebind_if_confident",
+      "binding_origin": "auto_bound",
+      "friendly_name": "Wave 0",
+      "point_meta::demo": "true",
+      "point_meta::waveform": "sine",
+      "definition_meta::device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+      "definition_meta::support_tier": "generic",
+      "definition_meta::provider_id": "generic_adapter_inventory",
+      "definition_meta::point_class": "analog",
+      "definition_meta::units": "V",
+      "definition_meta::demo": "true",
+      "definition_meta::waveform": "sine"
+    },
+    "trace_points": [
+      {
+        "timestamp": 5,
+        "value": "2.750",
+        "numeric_value": 2.75
+      },
+      {
+        "timestamp": 6,
+        "value": "2.000",
+        "numeric_value": 2.0
+      },
+      {
+        "timestamp": 7,
+        "value": "1.250",
+        "numeric_value": 1.25
+      },
+      {
+        "timestamp": 8,
+        "value": "0.701",
+        "numeric_value": 0.701
+      },
+      {
+        "timestamp": 9,
+        "value": "0.500",
+        "numeric_value": 0.5
+      },
+      {
+        "timestamp": 10,
+        "value": "0.701",
+        "numeric_value": 0.701
+      },
+      {
+        "timestamp": 11,
+        "value": "1.250",
+        "numeric_value": 1.25
+      },
+      {
+        "timestamp": 12,
+        "value": "2.000",
+        "numeric_value": 2.0
+      },
+      {
+        "timestamp": 13,
+        "value": "2.750",
+        "numeric_value": 2.75
+      },
+      {
+        "timestamp": 50,
+        "value": "2.750",
+        "numeric_value": 2.75
+      },
+      {
+        "timestamp": 51,
+        "value": "3.500",
+        "numeric_value": 3.5
+      },
+      {
+        "timestamp": 52,
+        "value": "3.299",
+        "numeric_value": 3.299
+      },
+      {
+        "timestamp": 53,
+        "value": "2.750",
+        "numeric_value": 2.75
+      }
+    ]
+  },
+  "shell_evidence_count": 15,
+  "runtime_transition_count": 15
+}

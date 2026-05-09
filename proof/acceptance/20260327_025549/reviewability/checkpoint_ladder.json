@@ -1,0 +1,52 @@
+{
+  "checkpoint_available": true,
+  "checkpoint_id": "CHK-SESSION-POPULATED-REVIEW-45-132",
+  "checkpoint_ladder": [
+    {
+      "checkpoint_id": "CHK-SESSION-POPULATED-REVIEW-33-33",
+      "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/checkpoints/CHK-SESSION-POPULATED-REVIEW-33-33.json",
+      "hash_valid": true,
+      "last_committed_sequence_id": 33,
+      "session_id": "SESSION-POPULATED-REVIEW",
+      "state_hash": "e5a31743b55ceaaa44300a4696e485be67a2d1d9d234dbbdf0b3843d722cd2d9",
+      "timestamp": 33
+    },
+    {
+      "checkpoint_id": "CHK-SESSION-POPULATED-REVIEW-37-66",
+      "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/checkpoints/CHK-SESSION-POPULATED-REVIEW-37-66.json",
+      "hash_valid": true,
+      "last_committed_sequence_id": 66,
+      "session_id": "SESSION-POPULATED-REVIEW",
+      "state_hash": "18095ed65d6d2987f5786aa24973c6bd5ba5ecfc80d2eaa96f319283b4fbea2d",
+      "timestamp": 37
+    },
+    {
+      "checkpoint_id": "CHK-SESSION-POPULATED-REVIEW-41-99",
+      "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/checkpoints/CHK-SESSION-POPULATED-REVIEW-41-99.json",
+      "hash_valid": true,
+      "last_committed_sequence_id": 99,
+      "session_id": "SESSION-POPULATED-REVIEW",
+      "state_hash": "4719094278f267b1a013b3a947c6d3350ed9eb791c2245c6ad679d4259cdd114",
+      "timestamp": 41
+    },
+    {
+      "checkpoint_id": "CHK-SESSION-POPULATED-REVIEW-45-132",
+      "display_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/checkpoints/CHK-SESSION-POPULATED-REVIEW-45-132.json",
+      "hash_valid": true,
+      "last_committed_sequence_id": 132,
+      "session_id": "SESSION-POPULATED-REVIEW",
+      "state_hash": "878590f3c333c3e0fca6a6683a704cb0a1fb589a9800d3768447a9c04d2769d7",
+      "timestamp": 45
+    }
+  ],
+  "checkpoint_path": "proof/acceptance/20260327_025549/reviewability/runtime/sessions/SESSION-POPULATED-REVIEW/checkpoints/latest.json",
+  "checkpoint_spacing": {
+    "average_sequence_gap": 33.0,
+    "max_sequence_gap": 33,
+    "min_sequence_gap": 33
+  },
+  "last_committed_sequence_id": 132,
+  "state_hash": "878590f3c333c3e0fca6a6683a704cb0a1fb589a9800d3768447a9c04d2769d7",
+  "timestamp": 45,
+  "valid_checkpoint_count": 4
+}

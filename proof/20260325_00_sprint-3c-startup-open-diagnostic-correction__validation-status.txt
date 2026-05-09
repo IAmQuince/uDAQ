@@ -1,0 +1,16 @@
+Sprint 3C validation status
+===========================
+
+pytest_subset: PASS (tests/contract/test_contract_real_labjack_u6_adapter.py, tests/integration/test_integration_u6_field_test_harness.py, tests/meta/test_meta_run_artifact_naming.py)
+package_entry_surfaces: PASS
+document_completeness: PASS
+windows_path_budget: PASS
+truncation_guard_vs_sprint3b_baseline: PASS
+simulated_guided_validation_harness: PASS
+simulated_startup_open_smoke_harness: PASS
+artifact_naming_validation: PASS
+
+Notes
+-----
+- Sprint 3C remains a startup/open diagnostic correction pass.
+- Real hardware closure still requires the user's next startup-open smoke on Windows with the U6 attached.

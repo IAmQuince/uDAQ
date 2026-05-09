@@ -1,0 +1,46 @@
+requirement_id,intended_module_area,linked_test_ids,linked_test_paths,implementation_entry_status
+UDQ-REQ-ARCH-001,src/universaldaq/app + src/universaldaq/common,UDQ-TST-CON-001; UDQ-TST-SCN-001; UDQ-TST-SCN-002; UDQ-TST-SMK-004,tests/contract/test_contract_requested_applied_observed.py; tests/scenario/test_scenario_blocked_command.py; tests/scenario/test_scenario_command_applied_observed_mismatch.py; tests/smoke/test_smoke_src_package_markers.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-ARCH-002,src/universaldaq/app + src/universaldaq/common,UDQ-TST-CON-002; UDQ-TST-CON-005; UDQ-TST-SCN-003,tests/contract/test_contract_authorization_vs_ui_enablement.py; tests/contract/test_contract_restore_vs_machine_state.py; tests/scenario/test_scenario_restore_without_output_reassertion.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-SIG-001,src/universaldaq/signals,,,READY_FOR_IMPLEMENTATION
+UDQ-REQ-SIG-002,src/universaldaq/signals,,,READY_FOR_IMPLEMENTATION
+UDQ-REQ-OUT-001,src/universaldaq/outputs + src/universaldaq/common,UDQ-TST-CON-001; UDQ-TST-INV-001; UDQ-TST-SCN-001,tests/contract/test_contract_requested_applied_observed.py; tests/invariants/test_invariant_command_path.py; tests/scenario/test_scenario_blocked_command.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-OUT-002,src/universaldaq/outputs + src/universaldaq/common,UDQ-TST-CON-001; UDQ-TST-INV-001; UDQ-TST-SCN-002,tests/contract/test_contract_requested_applied_observed.py; tests/invariants/test_invariant_command_path.py; tests/scenario/test_scenario_command_applied_observed_mismatch.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-RULE-001,src/universaldaq/rules,,,DEFERRED
+UDQ-REQ-RULE-002,src/universaldaq/rules,,,DEFERRED
+UDQ-REQ-MOD-001,src/universaldaq/adapters,,,SEMANTICALLY_CLOSED
+UDQ-REQ-MOD-002,src/universaldaq/adapters,,,SEMANTICALLY_CLOSED
+UDQ-REQ-SEQ-001,src/universaldaq/sequences,,,DEFERRED
+UDQ-REQ-SEQ-002,src/universaldaq/sequences,,,DEFERRED
+UDQ-REQ-HIS-001,src/universaldaq/historian,UDQ-TST-CON-003; UDQ-TST-INV-005; UDQ-TST-SCN-004,tests/contract/test_contract_alarm_lifecycle_semantics.py; tests/invariants/test_invariant_evidence_requirements.py; tests/scenario/test_scenario_alarm_assert_ack_rtn.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-HIS-002,src/universaldaq/historian,UDQ-TST-CON-004; UDQ-TST-INV-005; UDQ-TST-SCN-005,tests/contract/test_contract_graph_mode_semantics.py; tests/invariants/test_invariant_evidence_requirements.py; tests/scenario/test_scenario_graph_live_review_live_trace.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-REM-001,src/universaldaq/remote,,,BLOCKED_BY_DECISION
+UDQ-REQ-REM-002,src/universaldaq/remote,,,BLOCKED_BY_DECISION
+UDQ-REQ-EVT-001,src/universaldaq/events,UDQ-TST-CON-003; UDQ-TST-INV-003; UDQ-TST-SCN-002; UDQ-TST-SCN-004,tests/contract/test_contract_alarm_lifecycle_semantics.py; tests/invariants/test_invariant_alarm_order.py; tests/scenario/test_scenario_alarm_assert_ack_rtn.py; tests/scenario/test_scenario_command_applied_observed_mismatch.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-EVT-002,src/universaldaq/events,UDQ-TST-CON-003; UDQ-TST-INV-003; UDQ-TST-SCN-004,tests/contract/test_contract_alarm_lifecycle_semantics.py; tests/invariants/test_invariant_alarm_order.py; tests/scenario/test_scenario_alarm_assert_ack_rtn.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-DIAG-001,src/universaldaq/diagnostics,,,SEMANTICALLY_CLOSED
+UDQ-REQ-DIAG-002,src/universaldaq/diagnostics,,,SEMANTICALLY_CLOSED
+UDQ-REQ-PROF-001,src/universaldaq/profiles,UDQ-TST-CON-002; UDQ-TST-INV-002; UDQ-TST-SCN-003,tests/contract/test_contract_restore_vs_machine_state.py; tests/invariants/test_invariant_restore_path.py; tests/scenario/test_scenario_restore_without_output_reassertion.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-PROF-002,src/universaldaq/profiles,UDQ-TST-CON-002; UDQ-TST-INV-002; UDQ-TST-SCN-003,tests/contract/test_contract_restore_vs_machine_state.py; tests/invariants/test_invariant_restore_path.py; tests/scenario/test_scenario_restore_without_output_reassertion.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-DEV-001,src/universaldaq/adapters,,,SEMANTICALLY_CLOSED
+UDQ-REQ-DEV-002,src/universaldaq/adapters,,,SEMANTICALLY_CLOSED
+UDQ-REQ-EXP-001,src/universaldaq/exports,,,SEMANTICALLY_CLOSED
+UDQ-REQ-EXP-002,src/universaldaq/exports,,,SEMANTICALLY_CLOSED
+UDQ-REQ-SEC-001,src/universaldaq/security + src/universaldaq/common,UDQ-TST-CON-005; UDQ-TST-SCN-001,tests/contract/test_contract_authorization_vs_ui_enablement.py; tests/scenario/test_scenario_blocked_command.py,CONTRACT_DEFINED
+UDQ-REQ-SEC-002,src/universaldaq/security + src/universaldaq/events,UDQ-TST-CON-005,tests/contract/test_contract_authorization_vs_ui_enablement.py,CONTRACT_DEFINED
+UDQ-REQ-UI-001,src/universaldaq/app + src/universaldaq/ui,UDQ-TST-CON-005,tests/contract/test_contract_authorization_vs_ui_enablement.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-UI-002,src/universaldaq/ui,,,SEMANTICALLY_CLOSED
+UDQ-REQ-UI-003,src/universaldaq/ui + src/universaldaq/historian,UDQ-TST-CON-004; UDQ-TST-INV-004; UDQ-TST-SCN-005,tests/contract/test_contract_graph_mode_semantics.py; tests/invariants/test_invariant_graph_mode_separation.py; tests/scenario/test_scenario_graph_live_review_live_trace.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-UI-004,src/universaldaq/ui + src/universaldaq/historian + src/universaldaq/events,UDQ-TST-CON-004; UDQ-TST-INV-004; UDQ-TST-SCN-005,tests/contract/test_contract_graph_mode_semantics.py; tests/invariants/test_invariant_graph_mode_separation.py; tests/scenario/test_scenario_graph_live_review_live_trace.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-UI-005,src/universaldaq/ui,,,SEMANTICALLY_CLOSED
+UDQ-REQ-UI-006,src/universaldaq/ui + src/universaldaq/common,UDQ-TST-CON-004; UDQ-TST-INV-004; UDQ-TST-SCN-005,tests/contract/test_contract_graph_mode_semantics.py; tests/invariants/test_invariant_graph_mode_separation.py; tests/scenario/test_scenario_graph_live_review_live_trace.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-UI-007,src/universaldaq/ui,,,SEMANTICALLY_CLOSED
+UDQ-REQ-AUD-001,tools/traceability + registries/active + audit_reports/active,UDQ-TST-META-001; UDQ-TST-META-002; UDQ-TST-SMK-001,tests/meta/test_meta_invariant_references.py; tests/meta/test_meta_requirement_references.py; tests/smoke/test_smoke_package_layout.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-AUD-002,tools/traceability + registries/active + audit_reports/active,UDQ-TST-META-003,tests/meta/test_meta_execution_contract_links.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-AUD-003,tools/traceability + registries/active + audit_reports/active,UDQ-TST-META-004,tests/meta/test_meta_first_slice_readiness_consistency.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-REL-001,tools/traceability + registries/active + audit_reports/active,UDQ-TST-META-005; UDQ-TST-META-009; UDQ-TST-SMK-001,tests/meta/test_meta_no_archived_reference_ids.py; tests/meta/test_meta_package_build_exclusions.py; tests/smoke/test_smoke_package_layout.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-QUAL-001,proof/bundles,UDQ-TST-META-010,tests/meta/test_meta_documentation_impact_rules.py,CONTRACT_DEFINED
+UDQ-REQ-GOV-001,tools/traceability + registries/active + audit_reports/active,UDQ-TST-INV-005; UDQ-TST-META-001; UDQ-TST-META-002; UDQ-TST-META-006; UDQ-TST-META-010; UDQ-TST-SMK-002,tests/invariants/test_invariant_evidence_requirements.py; tests/meta/test_meta_ci_and_local_gate_presence.py; tests/meta/test_meta_documentation_impact_rules.py; tests/meta/test_meta_invariant_references.py; tests/meta/test_meta_requirement_references.py; tests/smoke/test_smoke_governance_assets_load.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-GOV-002,tools/traceability + registries/active + audit_reports/active,UDQ-TST-META-003; UDQ-TST-META-008; UDQ-TST-SMK-002,tests/meta/test_meta_execution_contract_links.py; tests/meta/test_meta_schema_conventions.py; tests/smoke/test_smoke_governance_assets_load.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-GOV-003,tools/traceability + registries/active + audit_reports/active,UDQ-TST-META-004; UDQ-TST-META-007; UDQ-TST-SMK-003,tests/meta/test_meta_first_slice_readiness_consistency.py; tests/meta/test_meta_reserved_package_guardrails.py; tests/smoke/test_smoke_first_slice_snapshots_load.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-GOV-004,tools/traceability + registries/active + audit_reports/active,UDQ-TST-META-005,tests/meta/test_meta_no_archived_reference_ids.py,READY_FOR_IMPLEMENTATION
+UDQ-REQ-IMPL-001,tools/traceability + registries/active + audit_reports/active,UDQ-TST-META-006; UDQ-TST-META-007; UDQ-TST-META-008; UDQ-TST-META-009; UDQ-TST-META-010; UDQ-TST-SMK-003; UDQ-TST-SMK-004,tests/meta/test_meta_ci_and_local_gate_presence.py; tests/meta/test_meta_documentation_impact_rules.py; tests/meta/test_meta_package_build_exclusions.py; tests/meta/test_meta_reserved_package_guardrails.py; tests/meta/test_meta_schema_conventions.py; tests/smoke/test_smoke_first_slice_snapshots_load.py; tests/smoke/test_smoke_src_package_markers.py,READY_FOR_IMPLEMENTATION

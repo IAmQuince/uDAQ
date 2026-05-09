@@ -1,0 +1,23 @@
+{
+  "trace": [
+    {
+      "t": 0,
+      "event": "request_issued"
+    },
+    {
+      "t": 1,
+      "event": "authorization_checked",
+      "result": "allowed"
+    },
+    {
+      "t": 2,
+      "event": "arbitration_result",
+      "result": "blocked"
+    },
+    {
+      "t": 3,
+      "event": "rejection_recorded",
+      "reason": "interlock"
+    }
+  ]
+}

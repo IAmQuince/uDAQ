@@ -1,0 +1,27 @@
+term,canonical_owner,allowed_aliases,disallowed_aliases,commonly_confused_with,principal_documents,status
+requested state,UDQ-GOV-GLO-001::4.2,request state; pending requested value,actual state; applied state; final state,applied state; observed state,UDQ-GOV-GLO-001; UDQ-OUT-SPEC-001; UDQ-UI-NAR-001,ACTIVE
+applied state,UDQ-GOV-GLO-001::4.3,backend-applied state; committed state,requested state; observed state,requested state; observed state,UDQ-GOV-GLO-001; UDQ-OUT-SPEC-001; UDQ-REM-SPEC-001,ACTIVE
+observed state,UDQ-GOV-GLO-001::4.4,readback; confirmed state,applied state; requested state,applied state,UDQ-GOV-GLO-001; UDQ-OUT-SPEC-001; UDQ-UI-SPEC-004,ACTIVE
+ownership,UDQ-GOV-GLO-001::4.5,governing source,UI guess; local assumption,authority,UDQ-GOV-GLO-001; UDQ-ARCH-NAR-002; UDQ-UI-NAR-001,ACTIVE
+arbitration,UDQ-GOV-GLO-001::4.6,backend arbitration,direct write,authorization,UDQ-GOV-GLO-001; UDQ-OUT-SPEC-001; UDQ-SEC-SPEC-001,ACTIVE
+profile,UDQ-GOV-GLO-001::8.1,saved profile; configuration profile,machine state snapshot,workspace state; machine state,UDQ-GOV-GLO-001; UDQ-PROF-SPEC-001; UDQ-ARCH-NAR-002,ACTIVE
+autosave,UDQ-GOV-GLO-001::8.2,session autosave,implicit apply,save; restore,UDQ-GOV-GLO-001; UDQ-PROF-SPEC-001,ACTIVE
+restore,UDQ-GOV-GLO-001::8.3,session restore; profile restore,reassert machine state,apply; machine state recovery,UDQ-GOV-GLO-001; UDQ-PROF-SPEC-001; UDQ-ARCH-NAR-001,ACTIVE
+workspace state,UDQ-GOV-GLO-001::8.4,layout state; UI state,machine state,profile; machine state,UDQ-GOV-GLO-001; UDQ-UI-MOD-001; UDQ-PROF-SPEC-001,ACTIVE
+machine state,UDQ-GOV-GLO-001::8.5,runtime state; backend runtime truth,restored state,workspace state; profile,UDQ-GOV-GLO-001; UDQ-ARCH-NAR-002; UDQ-OUT-SPEC-001,ACTIVE
+live,UDQ-GOV-GLO-001::5.2,live runtime,cached last known,historical; stale,UDQ-GOV-GLO-001; UDQ-UI-NAR-001; UDQ-UI-SPEC-004,ACTIVE
+historical,UDQ-GOV-GLO-001::5.3,recorded; historian-backed,live,review mode,UDQ-GOV-GLO-001; UDQ-HIS-SPEC-001; UDQ-UI-SPEC-004,ACTIVE
+review mode,UDQ-GOV-GLO-001::5.4,review posture,live trace,historical; live trace,UDQ-GOV-GLO-001; UDQ-UI-MOD-001; UDQ-UI-SPEC-004,ACTIVE
+live trace,UDQ-GOV-GLO-001::5.5,live explainability,historical review,review mode,UDQ-GOV-GLO-001; UDQ-UI-ARCH-001; UDQ-UI-SPEC-004,ACTIVE
+stale,UDQ-GOV-GLO-001::5.6,last-known stale,live,disconnected; invalid,UDQ-GOV-GLO-001; UDQ-SIG-SPEC-001; UDQ-UI-SPEC-002,ACTIVE
+invalid,UDQ-GOV-GLO-001::5.7,failed validation,disconnected,stale; disconnected,UDQ-GOV-GLO-001; UDQ-SIG-SPEC-001; UDQ-UI-SPEC-002,ACTIVE
+disconnected,UDQ-GOV-GLO-001::5.8,offline,invalid,stale; degraded,UDQ-GOV-GLO-001; UDQ-DIAG-SPEC-001; UDQ-UI-SPEC-002,ACTIVE
+degraded,UDQ-GOV-GLO-001::5.9,reduced capability,fully healthy,stale; disconnected,UDQ-GOV-GLO-001; UDQ-DIAG-SPEC-001,ACTIVE
+simulated,UDQ-GOV-GLO-001::5.10,test; injected,live,derived,UDQ-GOV-GLO-001; UDQ-SIG-SPEC-001; UDQ-UI-SPEC-002,ACTIVE
+blocked,UDQ-GOV-GLO-001::5.11,blocked outcome,denied without reason,inhibit; interlock,UDQ-GOV-GLO-001; UDQ-OUT-SPEC-001; UDQ-LOG-SPEC-001,ACTIVE
+interlock,UDQ-GOV-GLO-001::6.1,hard block,permissive,inhibit; permissive,UDQ-GOV-GLO-001; UDQ-OUT-SPEC-001; UDQ-SEC-SPEC-001,ACTIVE
+permissive,UDQ-GOV-GLO-001::6.2,enabling condition,interlock,interlock,UDQ-GOV-GLO-001; UDQ-OUT-SPEC-001,ACTIVE
+inhibit,UDQ-GOV-GLO-001::6.3,suppressed; inhibited,interlock by default,interlock; blocked,UDQ-GOV-GLO-001; UDQ-OUT-SPEC-001; UDQ-UI-SPEC-002,ACTIVE
+event,UDQ-GOV-GLO-001::7.1,recorded occurrence,alarm by default,alarm,UDQ-GOV-GLO-001; UDQ-EVT-SPEC-001; UDQ-HIS-SPEC-001,ACTIVE
+alarm,UDQ-GOV-GLO-001::7.2,abnormal condition,generic event,event,UDQ-GOV-GLO-001; UDQ-EVT-SPEC-001; UDQ-UI-SPEC-001,ACTIVE
+acknowledgment,UDQ-GOV-GLO-001::7.3,acknowledge; ack,erase history,clear; return to normal,UDQ-GOV-GLO-001; UDQ-EVT-SPEC-001; UDQ-HIS-SPEC-001,ACTIVE

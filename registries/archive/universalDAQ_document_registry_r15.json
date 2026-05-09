@@ -1,0 +1,758 @@
+{
+  "documents": [
+    {
+      "document_id": "UDQ-ARCH-NAR-001",
+      "revision": "r3",
+      "title": "System Controls Narrative",
+      "status": "WIP",
+      "document_class": "",
+      "filename": "UDQ-ARCH-NAR-001__System_Controls_Narrative__r3__WIP.md",
+      "path": "docs/UDQ-ARCH-NAR-001__System_Controls_Narrative__r3__WIP.md",
+      "depends_on": [
+        "UDQ-GOV-STD-001",
+        "UDQ-UI-ARCH-001",
+        "UDQ-UI-MOD-001",
+        "UDQ-UI-NAR-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-ARCH-NAR-002",
+      "revision": "r3",
+      "title": "Platform Controls Narrative",
+      "status": "WIP",
+      "document_class": "",
+      "filename": "UDQ-ARCH-NAR-002__Platform_Controls_Narrative__r3__WIP.md",
+      "path": "docs/UDQ-ARCH-NAR-002__Platform_Controls_Narrative__r3__WIP.md",
+      "depends_on": [
+        "UDQ-ARCH-NAR-001",
+        "UDQ-GOV-STD-001",
+        "UDQ-UI-ARCH-001",
+        "UDQ-UI-MOD-001",
+        "UDQ-UI-NAR-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-AUD-CHK-001",
+      "revision": "r2",
+      "title": "Local VSCode Review Checklist",
+      "status": "WIP",
+      "document_class": "checklist",
+      "filename": "UDQ-AUD-CHK-001__Local_VSCode_Review_Checklist__r2__WIP.md",
+      "path": "docs/UDQ-AUD-CHK-001__Local_VSCode_Review_Checklist__r2__WIP.md",
+      "depends_on": [
+        "UDQ-AUD-SPEC-001",
+        "UDQ-AUD-SPEC-002",
+        "UDQ-GOV-LOG-001",
+        "UDQ-QUAL-SPEC-002"
+      ]
+    },
+    {
+      "document_id": "UDQ-AUD-SPEC-001",
+      "revision": "r3",
+      "title": "Package Audit Specification",
+      "status": "WIP",
+      "document_class": "audit_spec",
+      "filename": "UDQ-AUD-SPEC-001__Package_Audit_Specification__r3__WIP.md",
+      "path": "docs/UDQ-AUD-SPEC-001__Package_Audit_Specification__r3__WIP.md",
+      "depends_on": [
+        "UDQ-GOV-STD-001",
+        "UDQ-GOV-SPEC-002",
+        "UDQ-AUD-SPEC-002",
+        "UDQ-REL-SPEC-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-AUD-SPEC-002",
+      "revision": "r2",
+      "title": "Placeholder and Anti-Pattern Scan Policy",
+      "status": "WIP",
+      "document_class": "scan_policy",
+      "filename": "UDQ-AUD-SPEC-002__Placeholder_and_Anti_Pattern_Scan_Policy__r2__WIP.md",
+      "path": "docs/UDQ-AUD-SPEC-002__Placeholder_and_Anti_Pattern_Scan_Policy__r2__WIP.md",
+      "depends_on": [
+        "UDQ-GOV-STD-001",
+        "UDQ-GOV-SPEC-002",
+        "UDQ-AUD-SPEC-001",
+        "UDQ-REL-SPEC-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-AUD-TPL-001",
+      "revision": "r0",
+      "title": "Package Audit Report Template",
+      "status": "WIP",
+      "document_class": "",
+      "filename": "UDQ-AUD-TPL-001__Package_Audit_Report_Template__r0__WIP.md",
+      "path": "docs/UDQ-AUD-TPL-001__Package_Audit_Report_Template__r0__WIP.md",
+      "depends_on": [
+        "UDQ-AUD-SPEC-001",
+        "UDQ-REL-SPEC-001",
+        "UDQ-SCM-STD-001",
+        "UDQ-GOV-SPEC-002"
+      ]
+    },
+    {
+      "document_id": "UDQ-AUD-TPL-002",
+      "revision": "r0",
+      "title": "Placeholder and Anti-Pattern Scan Report Template",
+      "status": "WIP",
+      "document_class": "report-template",
+      "filename": "UDQ-AUD-TPL-002__Placeholder_and_Anti_Pattern_Scan_Report_Template__r0__WIP.md",
+      "path": "docs/UDQ-AUD-TPL-002__Placeholder_and_Anti_Pattern_Scan_Report_Template__r0__WIP.md",
+      "depends_on": [
+        "UDQ-AUD-SPEC-002",
+        "UDQ-GOV-SPEC-002"
+      ]
+    },
+    {
+      "document_id": "UDQ-DEV-SPEC-001",
+      "revision": "r0",
+      "title": "Device Adapter and Protocol Abstraction Specification",
+      "status": "WIP",
+      "document_class": "",
+      "filename": "UDQ-DEV-SPEC-001__Device_Adapter_and_Protocol_Abstraction_Specification__r0__WIP.md",
+      "path": "docs/UDQ-DEV-SPEC-001__Device_Adapter_and_Protocol_Abstraction_Specification__r0__WIP.md",
+      "depends_on": [
+        "UDQ-DIAG-SPEC-001",
+        "UDQ-GOV-STD-001",
+        "UDQ-OUT-SPEC-001",
+        "UDQ-PROT-SPEC-001",
+        "UDQ-SIG-SPEC-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-DIAG-SPEC-001",
+      "revision": "r0",
+      "title": "Diagnostics, Watchdog, and Health Model Specification",
+      "status": "WIP",
+      "document_class": "",
+      "filename": "UDQ-DIAG-SPEC-001__Diagnostics_Watchdog_and_Health_Model_Specification__r0__WIP.md",
+      "path": "docs/UDQ-DIAG-SPEC-001__Diagnostics_Watchdog_and_Health_Model_Specification__r0__WIP.md",
+      "depends_on": [
+        "UDQ-GOV-STD-001",
+        "UDQ-HIS-SPEC-001",
+        "UDQ-PROT-SPEC-001",
+        "UDQ-REM-SPEC-001",
+        "UDQ-UI-MOD-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-EVT-SPEC-001",
+      "revision": "r0",
+      "title": "Alarms, Events, and Acknowledgment Specification",
+      "status": "WIP",
+      "document_class": "",
+      "filename": "UDQ-EVT-SPEC-001__Alarms_Events_and_Acknowledgment_Specification__r0__WIP.md",
+      "path": "docs/UDQ-EVT-SPEC-001__Alarms_Events_and_Acknowledgment_Specification__r0__WIP.md",
+      "depends_on": [
+        "UDQ-GOV-STD-001",
+        "UDQ-HIS-SPEC-001",
+        "UDQ-OUT-SPEC-001",
+        "UDQ-REM-SPEC-001",
+        "UDQ-UI-MOD-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-EXP-SPEC-001",
+      "revision": "r0",
+      "title": "Export, Review, and Evidence Bundle Specification",
+      "status": "WIP",
+      "document_class": "",
+      "filename": "UDQ-EXP-SPEC-001__Export_Review_and_Evidence_Bundle_Specification__r0__WIP.md",
+      "path": "docs/UDQ-EXP-SPEC-001__Export_Review_and_Evidence_Bundle_Specification__r0__WIP.md",
+      "depends_on": [
+        "UDQ-AUD-SPEC-001",
+        "UDQ-GOV-STD-001",
+        "UDQ-HIS-SPEC-001",
+        "UDQ-REL-SPEC-001",
+        "UDQ-SCM-STD-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-GAP-RPT-001",
+      "revision": "r3",
+      "title": "Open Implementation Gaps",
+      "status": "WIP",
+      "document_class": "gap_report",
+      "filename": "UDQ-GAP-RPT-001__Open_Implementation_Gaps__r3__WIP.md",
+      "path": "docs/UDQ-GAP-RPT-001__Open_Implementation_Gaps__r3__WIP.md",
+      "depends_on": [
+        "UDQ-REQ-MAT-001",
+        "UDQ-QUAL-DEF-001",
+        "UDQ-QUAL-SPEC-002",
+        "UDQ-AUD-SPEC-001",
+        "UDQ-AUD-SPEC-002",
+        "UDQ-SCM-STD-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-GAP-TPL-001",
+      "revision": "r0",
+      "title": "Implementation Gap Assessment Template",
+      "status": "WIP",
+      "document_class": "",
+      "filename": "UDQ-GAP-TPL-001__Implementation_Gap_Assessment_Template__r0__WIP.md",
+      "path": "docs/UDQ-GAP-TPL-001__Implementation_Gap_Assessment_Template__r0__WIP.md",
+      "depends_on": [
+        "UDQ-GAP-RPT-001",
+        "UDQ-QUAL-SPEC-002",
+        "UDQ-GOV-SPEC-002"
+      ]
+    },
+    {
+      "document_id": "UDQ-GOV-GLO-001",
+      "revision": "r0",
+      "title": "Canonical Glossary and Ontology",
+      "status": "WIP",
+      "document_class": "glossary",
+      "filename": "UDQ-GOV-GLO-001__Canonical_Glossary_and_Ontology__r0__WIP.md",
+      "path": "docs/UDQ-GOV-GLO-001__Canonical_Glossary_and_Ontology__r0__WIP.md",
+      "depends_on": [
+        "UDQ-GOV-STD-001",
+        "UDQ-GOV-SPEC-002"
+      ]
+    },
+    {
+      "document_id": "UDQ-GOV-LOG-001",
+      "revision": "r14",
+      "title": "Controlled Document Index",
+      "status": "WIP",
+      "document_class": "controlled_index",
+      "filename": "UDQ-GOV-LOG-001__Controlled_Document_Index__r14__WIP.md",
+      "path": "docs/UDQ-GOV-LOG-001__Controlled_Document_Index__r14__WIP.md",
+      "depends_on": [
+        "UDQ-GOV-STD-001",
+        "UDQ-GOV-SPEC-002"
+      ]
+    },
+    {
+      "document_id": "UDQ-GOV-MAP-001",
+      "revision": "r0",
+      "title": "Document Architecture and Dependency Map",
+      "status": "WIP",
+      "document_class": "governance-map",
+      "filename": "UDQ-GOV-MAP-001__Document_Architecture_and_Dependency_Map__r0__WIP.md",
+      "path": "docs/UDQ-GOV-MAP-001__Document_Architecture_and_Dependency_Map__r0__WIP.md",
+      "depends_on": [
+        "UDQ-GOV-STD-001",
+        "UDQ-GOV-SPEC-002",
+        "UDQ-GOV-GLO-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-GOV-RPT-001",
+      "revision": "r2",
+      "title": "Cross-Document Consistency Assessment",
+      "status": "WIP",
+      "document_class": "",
+      "filename": "UDQ-GOV-RPT-001__Cross_Document_Consistency_Assessment__r2__WIP.md",
+      "path": "docs/UDQ-GOV-RPT-001__Cross_Document_Consistency_Assessment__r2__WIP.md",
+      "depends_on": [
+        "UDQ-GOV-STD-001",
+        "UDQ-GOV-SPEC-002",
+        "UDQ-GOV-MAP-001",
+        "UDQ-GOV-GLO-001",
+        "UDQ-GOV-LOG-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-GOV-SPEC-002",
+      "revision": "r4",
+      "title": "Machine Readable Document and Cross Reference Scheme",
+      "status": "WIP",
+      "document_class": "governance_spec",
+      "filename": "UDQ-GOV-SPEC-002__Machine_Readable_Document_and_Cross_Reference_Scheme__r4__WIP.md",
+      "path": "docs/UDQ-GOV-SPEC-002__Machine_Readable_Document_and_Cross_Reference_Scheme__r4__WIP.md",
+      "depends_on": [
+        "UDQ-GOV-STD-001",
+        "UDQ-AUD-SPEC-001",
+        "UDQ-AUD-SPEC-002"
+      ]
+    },
+    {
+      "document_id": "UDQ-GOV-STD-001",
+      "revision": "r3",
+      "title": "Document Control Scheme",
+      "status": "WIP",
+      "document_class": "",
+      "filename": "UDQ-GOV-STD-001__Document_Control_Scheme__r3__WIP.md",
+      "path": "docs/UDQ-GOV-STD-001__Document_Control_Scheme__r3__WIP.md",
+      "depends_on": [
+        "[]"
+      ]
+    },
+    {
+      "document_id": "UDQ-HIS-SPEC-001",
+      "revision": "r1",
+      "title": "Historian, Events, and Evidence Specification",
+      "status": "WIP",
+      "document_class": "subsystem_spec",
+      "filename": "UDQ-HIS-SPEC-001__Historian_Events_and_Evidence_Specification__r1__WIP.md",
+      "path": "docs/UDQ-HIS-SPEC-001__Historian_Events_and_Evidence_Specification__r1__WIP.md",
+      "depends_on": [
+        "UDQ-ARCH-NAR-001",
+        "UDQ-ARCH-NAR-002",
+        "UDQ-REQ-MAT-001",
+        "UDQ-QUAL-DEF-001",
+        "UDQ-UI-NAR-001",
+        "UDQ-UI-ARCH-001",
+        "UDQ-UI-MOD-001",
+        "UDQ-SIG-SPEC-001",
+        "UDQ-OUT-SPEC-001",
+        "UDQ-SEQ-SPEC-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-LOG-SPEC-001",
+      "revision": "r1",
+      "title": "Rules, Conditions, and Actions Specification",
+      "status": "WIP",
+      "document_class": "subsystem_spec",
+      "filename": "UDQ-LOG-SPEC-001__Rules_Conditions_and_Actions_Specification__r1__WIP.md",
+      "path": "docs/UDQ-LOG-SPEC-001__Rules_Conditions_and_Actions_Specification__r1__WIP.md",
+      "depends_on": [
+        "UDQ-GOV-STD-001",
+        "UDQ-GOV-LOG-001",
+        "UDQ-ARCH-NAR-001",
+        "UDQ-ARCH-NAR-002",
+        "UDQ-REQ-MAT-001",
+        "UDQ-QUAL-DEF-001",
+        "UDQ-UI-NAR-001",
+        "UDQ-UI-ARCH-001",
+        "UDQ-UI-MOD-001",
+        "UDQ-UI-INV-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-OUT-SPEC-001",
+      "revision": "r1",
+      "title": "Outputs, Command Arbitration, and Safe-State Specification",
+      "status": "WIP",
+      "document_class": "subsystem_spec",
+      "filename": "UDQ-OUT-SPEC-001__Outputs_Command_Arbitration_and_Safe_State_Specification__r1__WIP.md",
+      "path": "docs/UDQ-OUT-SPEC-001__Outputs_Command_Arbitration_and_Safe_State_Specification__r1__WIP.md",
+      "depends_on": []
+    },
+    {
+      "document_id": "UDQ-PROF-SPEC-001",
+      "revision": "r0",
+      "title": "Profiles, Persistence, Autosave, and Restore Specification",
+      "status": "WIP",
+      "document_class": "",
+      "filename": "UDQ-PROF-SPEC-001__Profiles_Persistence_Autosave_and_Restore_Specification__r0__WIP.md",
+      "path": "docs/UDQ-PROF-SPEC-001__Profiles_Persistence_Autosave_and_Restore_Specification__r0__WIP.md",
+      "depends_on": [
+        "UDQ-GOV-STD-001",
+        "UDQ-REL-SPEC-001",
+        "UDQ-UI-ARCH-001",
+        "UDQ-UI-MOD-001",
+        "UDQ-UI-NAR-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-PROOF-TPL-001",
+      "revision": "r0",
+      "title": "Implementation Proof Bundle Template",
+      "status": "WIP",
+      "document_class": "",
+      "filename": "UDQ-PROOF-TPL-001__Implementation_Proof_Bundle_Template__r0__WIP.md",
+      "path": "docs/UDQ-PROOF-TPL-001__Implementation_Proof_Bundle_Template__r0__WIP.md",
+      "depends_on": [
+        "UDQ-QUAL-SPEC-002",
+        "UDQ-REQ-MAT-001",
+        "UDQ-SCM-STD-001",
+        "UDQ-GOV-SPEC-002"
+      ]
+    },
+    {
+      "document_id": "UDQ-PROT-SPEC-001",
+      "revision": "r1",
+      "title": "Modbus Integration Specification",
+      "status": "WIP",
+      "document_class": "subsystem_spec",
+      "filename": "UDQ-PROT-SPEC-001__Modbus_Integration_Specification__r1__WIP.md",
+      "path": "docs/UDQ-PROT-SPEC-001__Modbus_Integration_Specification__r1__WIP.md",
+      "depends_on": [
+        "UDQ-ARCH-NAR-001",
+        "UDQ-ARCH-NAR-002",
+        "UDQ-UI-NAR-001",
+        "UDQ-UI-ARCH-001",
+        "UDQ-UI-MOD-001",
+        "UDQ-SIG-SPEC-001",
+        "UDQ-LOG-SPEC-001",
+        "UDQ-OUT-SPEC-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-QUAL-DEF-001",
+      "revision": "r2",
+      "title": "Definition of Complete by Subsystem",
+      "status": "WIP",
+      "document_class": "",
+      "filename": "UDQ-QUAL-DEF-001__Definition_of_Complete_by_Subsystem__r2__WIP.md",
+      "path": "docs/UDQ-QUAL-DEF-001__Definition_of_Complete_by_Subsystem__r2__WIP.md",
+      "depends_on": [
+        "UDQ-ARCH-NAR-001",
+        "UDQ-ARCH-NAR-002",
+        "UDQ-GOV-STD-001",
+        "UDQ-REQ-MAT-001",
+        "UDQ-UI-ARCH-001",
+        "UDQ-UI-MOD-001",
+        "UDQ-UI-NAR-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-QUAL-SPEC-002",
+      "revision": "r0",
+      "title": "Implementation Proof Model",
+      "status": "WIP",
+      "document_class": "",
+      "filename": "UDQ-QUAL-SPEC-002__Implementation_Proof_Model__r0__WIP.md",
+      "path": "docs/UDQ-QUAL-SPEC-002__Implementation_Proof_Model__r0__WIP.md",
+      "depends_on": [
+        "UDQ-REQ-MAT-001",
+        "UDQ-QUAL-DEF-001",
+        "UDQ-GOV-SPEC-002",
+        "UDQ-HIS-SPEC-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-REL-SPEC-001",
+      "revision": "r0",
+      "title": "Release Package Composition and Baseline Specification",
+      "status": "WIP",
+      "document_class": "",
+      "filename": "UDQ-REL-SPEC-001__Release_Package_Composition_and_Baseline_Specification__r0__WIP.md",
+      "path": "docs/UDQ-REL-SPEC-001__Release_Package_Composition_and_Baseline_Specification__r0__WIP.md",
+      "depends_on": [
+        "UDQ-SCM-STD-001",
+        "UDQ-AUD-SPEC-001",
+        "UDQ-GOV-LOG-001",
+        "UDQ-GOV-SPEC-002"
+      ]
+    },
+    {
+      "document_id": "UDQ-REL-TPL-001",
+      "revision": "r1",
+      "title": "Release Manifest Template",
+      "status": "WIP",
+      "document_class": "release_template",
+      "filename": "UDQ-REL-TPL-001__Release_Manifest_Template__r1__WIP.md",
+      "path": "docs/UDQ-REL-TPL-001__Release_Manifest_Template__r1__WIP.md",
+      "depends_on": [
+        "UDQ-REL-SPEC-001",
+        "UDQ-SCM-STD-001",
+        "UDQ-GOV-SPEC-002"
+      ]
+    },
+    {
+      "document_id": "UDQ-REL-TPL-002",
+      "revision": "r0",
+      "title": "Release Notes and Update Summary Template",
+      "status": "WIP",
+      "document_class": "",
+      "filename": "UDQ-REL-TPL-002__Release_Notes_and_Update_Summary_Template__r0__WIP.md",
+      "path": "docs/UDQ-REL-TPL-002__Release_Notes_and_Update_Summary_Template__r0__WIP.md",
+      "depends_on": [
+        "UDQ-REL-SPEC-001",
+        "UDQ-SCM-STD-001",
+        "UDQ-QUAL-SPEC-002"
+      ]
+    },
+    {
+      "document_id": "UDQ-REM-SPEC-001",
+      "revision": "r1",
+      "title": "Remote Observation and Supervision Specification",
+      "status": "WIP",
+      "document_class": "subsystem_spec",
+      "filename": "UDQ-REM-SPEC-001__Remote_Observation_and_Supervision_Specification__r1__WIP.md",
+      "path": "docs/UDQ-REM-SPEC-001__Remote_Observation_and_Supervision_Specification__r1__WIP.md",
+      "depends_on": [
+        "UDQ-ARCH-NAR-001",
+        "UDQ-ARCH-NAR-002",
+        "UDQ-UI-NAR-001",
+        "UDQ-UI-ARCH-001",
+        "UDQ-UI-MOD-001",
+        "UDQ-SIG-SPEC-001",
+        "UDQ-OUT-SPEC-001",
+        "UDQ-HIS-SPEC-001",
+        "UDQ-LOG-SPEC-001",
+        "UDQ-PROT-SPEC-001",
+        "UDQ-SEQ-SPEC-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-REQ-MAT-001",
+      "revision": "r4",
+      "title": "Requirements Traceability Matrix",
+      "status": "WIP",
+      "document_class": "requirement-matrix",
+      "filename": "UDQ-REQ-MAT-001__Requirements_Traceability_Matrix__r4__WIP.md",
+      "path": "docs/UDQ-REQ-MAT-001__Requirements_Traceability_Matrix__r4__WIP.md",
+      "depends_on": [
+        "UDQ-ARCH-NAR-001",
+        "UDQ-ARCH-NAR-002",
+        "UDQ-QUAL-DEF-001",
+        "UDQ-UI-NAR-001",
+        "UDQ-UI-ARCH-001",
+        "UDQ-UI-MOD-001",
+        "UDQ-LOG-SPEC-001",
+        "UDQ-SIG-SPEC-001",
+        "UDQ-OUT-SPEC-001",
+        "UDQ-PROT-SPEC-001",
+        "UDQ-SEQ-SPEC-001",
+        "UDQ-HIS-SPEC-001",
+        "UDQ-REM-SPEC-001",
+        "UDQ-EVT-SPEC-001",
+        "UDQ-DIAG-SPEC-001",
+        "UDQ-PROF-SPEC-001",
+        "UDQ-DEV-SPEC-001",
+        "UDQ-EXP-SPEC-001",
+        "UDQ-SEC-SPEC-001",
+        "UDQ-UI-SPEC-000",
+        "UDQ-UI-SPEC-001",
+        "UDQ-UI-SPEC-002",
+        "UDQ-UI-SPEC-003",
+        "UDQ-UI-SPEC-004",
+        "UDQ-UI-SPEC-005",
+        "UDQ-QUAL-SPEC-002",
+        "UDQ-AUD-SPEC-001",
+        "UDQ-AUD-SPEC-002",
+        "UDQ-SCM-STD-001",
+        "UDQ-REL-SPEC-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-SCM-STD-001",
+      "revision": "r0",
+      "title": "Code and Package Version Control Scheme",
+      "status": "WIP",
+      "document_class": "",
+      "filename": "UDQ-SCM-STD-001__Code_and_Package_Version_Control_Scheme__r0__WIP.md",
+      "path": "docs/UDQ-SCM-STD-001__Code_and_Package_Version_Control_Scheme__r0__WIP.md",
+      "depends_on": [
+        "UDQ-GOV-STD-001",
+        "UDQ-GOV-SPEC-002",
+        "UDQ-QUAL-SPEC-002",
+        "UDQ-AUD-SPEC-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-SEC-SPEC-001",
+      "revision": "r0",
+      "title": "Roles, Permissions, and Command Authorization Specification",
+      "status": "WIP",
+      "document_class": "",
+      "filename": "UDQ-SEC-SPEC-001__Roles_Permissions_and_Command_Authorization_Specification__r0__WIP.md",
+      "path": "docs/UDQ-SEC-SPEC-001__Roles_Permissions_and_Command_Authorization_Specification__r0__WIP.md",
+      "depends_on": [
+        "UDQ-GOV-STD-001",
+        "UDQ-HIS-SPEC-001",
+        "UDQ-OUT-SPEC-001",
+        "UDQ-REM-SPEC-001",
+        "UDQ-UI-MOD-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-SEQ-SPEC-001",
+      "revision": "r1",
+      "title": "Sequences and Workflows Specification",
+      "status": "WIP",
+      "document_class": "subsystem_spec",
+      "filename": "UDQ-SEQ-SPEC-001__Sequences_and_Workflows_Specification__r1__WIP.md",
+      "path": "docs/UDQ-SEQ-SPEC-001__Sequences_and_Workflows_Specification__r1__WIP.md",
+      "depends_on": [
+        "UDQ-ARCH-NAR-001",
+        "UDQ-ARCH-NAR-002",
+        "UDQ-UI-NAR-001",
+        "UDQ-UI-ARCH-001",
+        "UDQ-UI-MOD-001",
+        "UDQ-LOG-SPEC-001",
+        "UDQ-SIG-SPEC-001",
+        "UDQ-OUT-SPEC-001",
+        "UDQ-PROT-SPEC-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-SIG-SPEC-001",
+      "revision": "r1",
+      "title": "Signals and Derived Signals Specification",
+      "status": "WIP",
+      "document_class": "subsystem_spec",
+      "filename": "UDQ-SIG-SPEC-001__Signals_and_Derived_Signals_Specification__r1__WIP.md",
+      "path": "docs/UDQ-SIG-SPEC-001__Signals_and_Derived_Signals_Specification__r1__WIP.md",
+      "depends_on": [
+        "UDQ-ARCH-NAR-001",
+        "UDQ-ARCH-NAR-002",
+        "UDQ-REQ-MAT-001",
+        "UDQ-QUAL-DEF-001",
+        "UDQ-UI-NAR-001",
+        "UDQ-UI-ARCH-001",
+        "UDQ-UI-MOD-001",
+        "UDQ-LOG-SPEC-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-UI-ARCH-001",
+      "revision": "r1",
+      "title": "UI Functional Architecture",
+      "status": "WIP",
+      "document_class": "ui_architecture",
+      "filename": "UDQ-UI-ARCH-001__UI_Functional_Architecture__r1__WIP.md",
+      "path": "docs/UDQ-UI-ARCH-001__UI_Functional_Architecture__r1__WIP.md",
+      "depends_on": [
+        "UDQ-UI-NAR-001",
+        "UDQ-UI-INV-001",
+        "UDQ-ARCH-NAR-001",
+        "UDQ-ARCH-NAR-002",
+        "UDQ-REQ-MAT-001",
+        "UDQ-QUAL-DEF-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-UI-INV-001",
+      "revision": "r2",
+      "title": "Controlled Document Header",
+      "status": "WIP",
+      "document_class": "inventory_map",
+      "filename": "UDQ-UI-INV-001__Genesys_Feature_Inventory_and_Preservation_Map__r2__WIP.md",
+      "path": "docs/UDQ-UI-INV-001__Genesys_Feature_Inventory_and_Preservation_Map__r2__WIP.md",
+      "depends_on": []
+    },
+    {
+      "document_id": "UDQ-UI-MOD-001",
+      "revision": "r1",
+      "title": "UI State and Interaction Model",
+      "status": "WIP",
+      "document_class": "ui_state_model",
+      "filename": "UDQ-UI-MOD-001__UI_State_and_Interaction_Model__r1__WIP.md",
+      "path": "docs/UDQ-UI-MOD-001__UI_State_and_Interaction_Model__r1__WIP.md",
+      "depends_on": [
+        "UDQ-GOV-STD-001",
+        "UDQ-GOV-LOG-001",
+        "UDQ-ARCH-NAR-001",
+        "UDQ-ARCH-NAR-002",
+        "UDQ-REQ-MAT-001",
+        "UDQ-QUAL-DEF-001",
+        "UDQ-UI-INV-001",
+        "UDQ-UI-NAR-001",
+        "UDQ-UI-ARCH-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-UI-NAR-001",
+      "revision": "r1",
+      "title": "UI Controls Philosophy and HMI Doctrine",
+      "status": "WIP",
+      "document_class": "ui_doctrine",
+      "filename": "UDQ-UI-NAR-001__UI_Controls_Philosophy_and_HMI_Doctrine__r1__WIP.md",
+      "path": "docs/UDQ-UI-NAR-001__UI_Controls_Philosophy_and_HMI_Doctrine__r1__WIP.md",
+      "depends_on": [
+        "UDQ-GOV-STD-001",
+        "UDQ-GOV-LOG-001",
+        "UDQ-ARCH-NAR-001",
+        "UDQ-ARCH-NAR-002",
+        "UDQ-REQ-MAT-001",
+        "UDQ-QUAL-DEF-001",
+        "UDQ-UI-INV-001",
+        "UDQ-UI-ARCH-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-UI-SPEC-000",
+      "revision": "r0",
+      "title": "UI Navigation and Shell Behavior Specification",
+      "status": "WIP",
+      "document_class": "ui-detail-spec",
+      "filename": "UDQ-UI-SPEC-000__UI_Navigation_and_Shell_Behavior_Specification__r0__WIP.md",
+      "path": "docs/UDQ-UI-SPEC-000__UI_Navigation_and_Shell_Behavior_Specification__r0__WIP.md",
+      "depends_on": [
+        "UDQ-UI-NAR-001",
+        "UDQ-UI-ARCH-001",
+        "UDQ-UI-MOD-001",
+        "UDQ-PROF-SPEC-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-UI-SPEC-001",
+      "revision": "r0",
+      "title": "Workspace Page Specifications",
+      "status": "WIP",
+      "document_class": "ui-detail-spec",
+      "filename": "UDQ-UI-SPEC-001__Workspace_Page_Specifications__r0__WIP.md",
+      "path": "docs/UDQ-UI-SPEC-001__Workspace_Page_Specifications__r0__WIP.md",
+      "depends_on": [
+        "UDQ-UI-ARCH-001",
+        "UDQ-UI-SPEC-000",
+        "UDQ-DEV-SPEC-001",
+        "UDQ-SIG-SPEC-001",
+        "UDQ-OUT-SPEC-001",
+        "UDQ-LOG-SPEC-001",
+        "UDQ-SEQ-SPEC-001",
+        "UDQ-DIAG-SPEC-001",
+        "UDQ-HIS-SPEC-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-UI-SPEC-002",
+      "revision": "r0",
+      "title": "Widget Status and Visual Language Specification",
+      "status": "WIP",
+      "document_class": "ui-detail-spec",
+      "filename": "UDQ-UI-SPEC-002__Widget_Status_and_Visual_Language_Specification__r0__WIP.md",
+      "path": "docs/UDQ-UI-SPEC-002__Widget_Status_and_Visual_Language_Specification__r0__WIP.md",
+      "depends_on": [
+        "UDQ-UI-NAR-001",
+        "UDQ-UI-MOD-001",
+        "UDQ-EVT-SPEC-001",
+        "UDQ-DIAG-SPEC-001",
+        "UDQ-SEC-SPEC-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-UI-SPEC-003",
+      "revision": "r0",
+      "title": "Rules Editor Visual and DSL Roundtrip Specification",
+      "status": "WIP",
+      "document_class": "ui-detail-spec",
+      "filename": "UDQ-UI-SPEC-003__Rules_Editor_Visual_and_DSL_Roundtrip_Specification__r0__WIP.md",
+      "path": "docs/UDQ-UI-SPEC-003__Rules_Editor_Visual_and_DSL_Roundtrip_Specification__r0__WIP.md",
+      "depends_on": [
+        "UDQ-LOG-SPEC-001",
+        "UDQ-SIG-SPEC-001",
+        "UDQ-OUT-SPEC-001",
+        "UDQ-UI-SPEC-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-UI-SPEC-004",
+      "revision": "r0",
+      "title": "Graphing History Review and Live Trace Specification",
+      "status": "WIP",
+      "document_class": "ui-detail-spec",
+      "filename": "UDQ-UI-SPEC-004__Graphing_History_Review_and_Live_Trace_Specification__r0__WIP.md",
+      "path": "docs/UDQ-UI-SPEC-004__Graphing_History_Review_and_Live_Trace_Specification__r0__WIP.md",
+      "depends_on": [
+        "UDQ-HIS-SPEC-001",
+        "UDQ-EVT-SPEC-001",
+        "UDQ-UI-SPEC-001",
+        "UDQ-OUT-SPEC-001"
+      ]
+    },
+    {
+      "document_id": "UDQ-UI-SPEC-005",
+      "revision": "r0",
+      "title": "Remote UI Surface Specification",
+      "status": "WIP",
+      "document_class": "ui-detail-spec",
+      "filename": "UDQ-UI-SPEC-005__Remote_UI_Surface_Specification__r0__WIP.md",
+      "path": "docs/UDQ-UI-SPEC-005__Remote_UI_Surface_Specification__r0__WIP.md",
+      "depends_on": [
+        "UDQ-REM-SPEC-001",
+        "UDQ-SEC-SPEC-001",
+        "UDQ-UI-SPEC-001",
+        "UDQ-UI-SPEC-002"
+      ]
+    }
+  ]
+}

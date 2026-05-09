@@ -1,0 +1,33 @@
+UDQ U6 Guided Field Validation — Preflight
+=========================================
+generated_at_utc: 2026-03-25T21:59:57Z
+package_id: UDQ-PKG-20260325-IMPLEMENTATION-ENTRY-OPTIMIZATION-R02
+requested_mode: real
+validation_flow: startup_open_smoke
+run_stem: 20260325_01_real-u6-startup-open-smoke
+entered_mode: real
+serial_number: 360011665
+active_adapter_id: LABJACK-U6-REAL-360011665
+profile_id: PROF-U6-FIELDTEST
+python_version: 3.13.5
+platform: Windows-11-10.0.26200-SP0
+output_directory: C:\Users\iaq16\Documents\Code\uDAQ\20260325_06_reconnect-path-alignment-correction\proof\field_tests\20260325_01_real-u6-startup-open-smoke
+journal_path: C:\Users\iaq16\Documents\Code\uDAQ\20260325_06_reconnect-path-alignment-correction\proof\U6_FIELD_TEST_JOURNAL.jsonl
+stale_artifact_count_in_output_root: 4
+discovery_strategy: prevalidated_probe_rows
+
+Direct-open probe
+-----------------
+- success: True
+- resolved_serial_number: 360011665
+- open_strategy: constructor_first_found
+- open_stage: first_read
+- ain0_value: 2.451817
+- error_type: None
+- error_message: None
+
+Discovered devices
+------------------
+- generic_adapter_inventory:SIM-READ-001: SIM-READ-001 (provider=generic_adapter_inventory, serial=)
+- generic_adapter_inventory:SIM-WRITE-001: SIM-WRITE-001 (provider=generic_adapter_inventory, serial=)
+- labjack_u6_support:360011665: LabJack U6 (360011665) (provider=labjack_u6_support, serial=360011665)

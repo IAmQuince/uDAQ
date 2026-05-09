@@ -1,0 +1,17 @@
+{
+  "export_id": "EXPORT-SAMPLE-001",
+  "artifact_class": "review_artifact",
+  "scope": {
+    "graph_mode": "history",
+    "selected_range": [100, 130],
+    "selected_pages": ["review"],
+    "selected_trace_ids": ["SIG-SAMPLE-001"],
+    "overlays": ["commands"],
+    "include_commands": true,
+    "include_alarms": true,
+    "include_restores": true,
+    "include_shell_evidence": true,
+    "include_profiles": true,
+    "include_diagnostics": false
+  }
+}

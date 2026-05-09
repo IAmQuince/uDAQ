@@ -1,0 +1,58 @@
+{
+  "rows": [
+    {
+      "decision_id": "UDQ-DEC-001",
+      "title": "Execution contract exists before implementation code",
+      "status": "CLOSED",
+      "decision_class": "governance_rule",
+      "affects_requirements": "UDQ-REQ-GOV-001; UDQ-REQ-IMPL-001",
+      "summary": "No feature implementation may be declared implementation-entry ready without an execution-contract entry derived from the active governed corpus.",
+      "resolution_vehicle": "UDQ-GOV-SPEC-003 r0; UDQ-GOV-SPEC-004 r0; universalDAQ_execution_contract_r0.json"
+    },
+    {
+      "decision_id": "UDQ-DEC-002",
+      "title": "First code slice shall be governance-aware baseline shell signal historian only",
+      "status": "CLOSED",
+      "decision_class": "scope_gate",
+      "affects_requirements": "UDQ-REQ-ARCH-001; UDQ-REQ-SIG-001; UDQ-REQ-HIS-001; UDQ-REQ-PROF-001; UDQ-REQ-UI-003",
+      "summary": "The first code sprint is intentionally narrow and excludes output actuation, remote command execution, and full rules/sequences behavior.",
+      "resolution_vehicle": "README_NEXT_ACTIONS.md; UDQ-IMP-PLAN-001 r2"
+    },
+    {
+      "decision_id": "UDQ-DEC-003",
+      "title": "Output actuation scope remains deferred until Sprint 2 closure",
+      "status": "OPEN",
+      "decision_class": "downstream_scope",
+      "affects_requirements": "UDQ-REQ-OUT-001; UDQ-REQ-OUT-002; UDQ-REQ-SEC-001; UDQ-REQ-SEC-002",
+      "summary": "The package still needs tighter execution-contract and invariant closure around arbitration, authorization, and observed mismatch proof before physical output code begins.",
+      "resolution_vehicle": "Sprint 2 target"
+    },
+    {
+      "decision_id": "UDQ-DEC-004",
+      "title": "Remote supervision stays observation-only for first implementation entry",
+      "status": "OPEN",
+      "decision_class": "safety_boundary",
+      "affects_requirements": "UDQ-REQ-REM-001; UDQ-REQ-REM-002",
+      "summary": "Remote parity is still conceptually governed, but implementation entry remains blocked until command authorization and event evidence closure are complete.",
+      "resolution_vehicle": "Sprint 2 target"
+    },
+    {
+      "decision_id": "UDQ-DEC-005",
+      "title": "Rules and sequences remain semantically closed but contract-light",
+      "status": "DEFERRED",
+      "decision_class": "phasing",
+      "affects_requirements": "UDQ-REQ-RULE-001; UDQ-REQ-RULE-002; UDQ-REQ-SEQ-001; UDQ-REQ-SEQ-002",
+      "summary": "The semantics are mostly stable, but the next package should deepen invariant and worked-example coverage before these areas are treated as implementation-entry ready.",
+      "resolution_vehicle": "Sprint 2 target"
+    },
+    {
+      "decision_id": "UDQ-DEC-006",
+      "title": "Executive summary becomes a required package artifact",
+      "status": "CLOSED",
+      "decision_class": "human_interface",
+      "affects_requirements": "UDQ-REQ-GOV-004; UDQ-REQ-REL-001",
+      "summary": "Every package revision shall include a root-level executive summary and a generated governance status report so a human can catch up quickly.",
+      "resolution_vehicle": "UDQ-GOV-SPEC-006 r0; README_EXEC_SUMMARY.md; audit_reports/active/UDQ_EXECUTIVE_SUMMARY__*.md"
+    }
+  ]
+}

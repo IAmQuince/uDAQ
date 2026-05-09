@@ -1,0 +1,19 @@
+START HERE — UDQ U6 Guided Field Validation
+===========================================
+Semantic verdict: PASS
+Headline: Runtime evidence consistency checks passed.
+
+Open these in order:
+1. u6_field_validation_summary.md
+2. u6_field_validation_20260325_171120__semantic_consistency_verdict.txt
+3. u6_field_validation_20260325_171120__summary.txt
+4. u6_field_validation_20260325_171120__preflight_report.txt
+5. u6_field_validation_20260325_171120__events.csv
+6. u6_field_validation_20260325_171120__diagnostics.json
+
+Most useful quick facts:
+- Mode requested: simulated
+- Mode entered: simulated
+- Disconnect count: 0
+- Recovery count: 0
+- Stabilization state family: live_ready_healthy

@@ -1,0 +1,20 @@
+UDQ U6 Guided Field Validation — Semantic Consistency Verdict
+===========================================================
+verdict: PASS
+summary: Runtime evidence consistency checks passed.
+check_count: 10
+fail_count: 0
+advisory_count: 0
+
+Checks
+------
+- PASS: rollup_matches_canonical_state — rollup state family `live_ready_healthy` matches canonical runtime state family.
+- PASS: reviewer_summary_matches_canonical_bundle — reviewer summary matches the canonical bundle renderer.
+- PASS: final_phase_matches_rollup — final phase posture matches the reviewer rollup state family.
+- PASS: phase_expectations_hold — all strict phase expectations passed.
+- PASS: operator_markers_are_distinct — operator and harness markers remain distinct from runtime event rows.
+- PASS: disconnect_has_runtime_evidence — disconnect count is supported by runtime-event or phase evidence.
+- PASS: recovery_has_runtime_evidence — recovery count is supported by runtime-event or stabilization evidence.
+- PASS: phase_records_complete — required phase records are present.
+- PASS: real_mode_disconnect_observed — real hardware disconnect window produced an observable disturbance.
+- PASS: real_mode_stabilization_observed — real hardware run returned to a healthy live posture during stabilization.

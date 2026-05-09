@@ -1,0 +1,27 @@
+{
+  "authoritative_inventory": {
+    "device_identity_key": "generic::SIM-READ-001",
+    "output_count": 0,
+    "rows": [
+      {
+        "authority_kind": "backend_applied",
+        "binding_policy": "auto_rebind_if_confident",
+        "destination_endpoint": "",
+        "device_identity_key": "generic::SIM-READ-001",
+        "direction": "device_input_to_internal_signal",
+        "enabled": true,
+        "engineering_units": "psi",
+        "logical_display_name": "PT-101",
+        "logical_id": "first_signal__generic_sim_read_001",
+        "note": "authoritative runtime binding read from backend services",
+        "provenance_label": "PT-101",
+        "row_id": "signal::first_signal__generic_sim_read_001",
+        "source_endpoint": "PT-101 (PT-101)",
+        "status": "applied"
+      }
+    ],
+    "signal_count": 1,
+    "total_count": 1
+  },
+  "note": "Applied bindings are backend-authoritative read models. Shell drafts remain non-authoritative until controller-backed apply is implemented."
+}

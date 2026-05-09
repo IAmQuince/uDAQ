@@ -1,0 +1,75 @@
+{
+  "consistent_depth_metrics": true,
+  "consistent_replay_metrics": true,
+  "minimum_valid_checkpoint_count": 4,
+  "run_count": 3,
+  "runs": [
+    {
+      "checkpoint_sequence_ids": [
+        33,
+        66,
+        99,
+        132
+      ],
+      "persisted_record_count": 149,
+      "replay_tail_record_count": 17,
+      "replay_tail_record_type_count": 4,
+      "sample_counts_by_point": {
+        "SIM-HIST-001:PT-101": 18,
+        "SIM-HIST-001:TT-101": 18
+      },
+      "segment_count": 38,
+      "session_id": "SESSION-REPEAT-001",
+      "valid_checkpoint_count": 4,
+      "variable_ids": [
+        "VAR-PT-AVG",
+        "VAR-TT-MEAN"
+      ]
+    },
+    {
+      "checkpoint_sequence_ids": [
+        33,
+        66,
+        99,
+        132
+      ],
+      "persisted_record_count": 149,
+      "replay_tail_record_count": 17,
+      "replay_tail_record_type_count": 4,
+      "sample_counts_by_point": {
+        "SIM-HIST-001:PT-101": 18,
+        "SIM-HIST-001:TT-101": 18
+      },
+      "segment_count": 38,
+      "session_id": "SESSION-REPEAT-002",
+      "valid_checkpoint_count": 4,
+      "variable_ids": [
+        "VAR-PT-AVG",
+        "VAR-TT-MEAN"
+      ]
+    },
+    {
+      "checkpoint_sequence_ids": [
+        33,
+        66,
+        99,
+        132
+      ],
+      "persisted_record_count": 149,
+      "replay_tail_record_count": 17,
+      "replay_tail_record_type_count": 4,
+      "sample_counts_by_point": {
+        "SIM-HIST-001:PT-101": 18,
+        "SIM-HIST-001:TT-101": 18
+      },
+      "segment_count": 38,
+      "session_id": "SESSION-REPEAT-003",
+      "valid_checkpoint_count": 4,
+      "variable_ids": [
+        "VAR-PT-AVG",
+        "VAR-TT-MEAN"
+      ]
+    }
+  ],
+  "verdict": "PASS"
+}

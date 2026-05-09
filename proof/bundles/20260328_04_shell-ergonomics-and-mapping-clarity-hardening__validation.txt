@@ -1,0 +1,7 @@
+Validation run for 20260328_04_shell-ergonomics-and-mapping-clarity-hardening
+$ python -m py_compile src/universaldaq/ui/qt_shell.py src/universaldaq/ui/shell_views.py src/universaldaq/ui/visible_shell.py src/universaldaq/ui/__init__.py
+$ PYTHONPATH=src pytest -q tests/meta/test_meta_package_entry_surfaces.py tests/meta/test_meta_pass2_reviewer_guide_present.py tests/meta/test_meta_release_package_hygiene.py tests/integration/test_integration_visible_shell_launcher_dependency_guard.py tests/integration/test_integration_shell_restore_flow.py tests/contract/test_contract_visible_shell_spec.py tests/contract/test_contract_shell_views_and_mapping_helpers.py tests/integration/test_integration_shell_smoke.py
+.................                                                        [100%]
+17 passed in 4.72s
+$ python -m tools.governance.validate_package_entry_surfaces --package-root .
+package-entry validation: PASS

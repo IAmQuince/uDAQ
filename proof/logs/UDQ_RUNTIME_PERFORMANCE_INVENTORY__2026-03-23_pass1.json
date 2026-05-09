@@ -1,0 +1,84 @@
+{
+  "authorization_allowed": true,
+  "object_counts": {
+    "adapter_count": 2,
+    "device_record_count": 1,
+    "discovered_device_count": 2,
+    "signal_binding_count": 1,
+    "signal_count": 1,
+    "variable_count": 1
+  },
+  "runtime_performance": {
+    "counters": {
+      "adapters.discover.calls": 1,
+      "adapters.discovery_provider.register.calls": 2,
+      "adapters.poll_all.calls": 1,
+      "adapters.poll_result.count": 2,
+      "adapters.register.calls": 2,
+      "adapters.snapshot.count": 5,
+      "adapters.support_pack.install.calls": 1,
+      "bindings.point_definition.register.calls": 1,
+      "bindings.signal.bind.calls": 1,
+      "device_registry.disconnect.calls": 1,
+      "device_registry.reconciliation.new_device.calls": 1,
+      "device_registry.register_or_attach.calls": 1,
+      "signals.definition.register.calls": 1,
+      "signals.snapshot.publish.calls": 1,
+      "variables.definition.register.calls": 1,
+      "variables.evaluate.calls": 1,
+      "variables.snapshot.publish.calls": 1
+    },
+    "gauges": {
+      "adapters.discovered_devices.count": 2,
+      "adapters.discovery_provider.count": 2,
+      "adapters.inventory.count": 2,
+      "adapters.last_poll_results.count": 2,
+      "adapters.support_pack.count": 1,
+      "bindings.point_definition.count": 1,
+      "bindings.signal.count": 1,
+      "device_registry.connections.count": 1,
+      "device_registry.records.count": 1,
+      "signals.definition.count": 1,
+      "signals.snapshot.count": 1,
+      "variables.definition.count": 1,
+      "variables.snapshot.count": 1
+    },
+    "timings": {
+      "adapters.discover.ms": {
+        "average_ms": 0.428524,
+        "count": 1,
+        "max_ms": 0.428524,
+        "min_ms": 0.428524,
+        "total_ms": 0.428524
+      },
+      "adapters.poll_all.ms": {
+        "average_ms": 0.071294,
+        "count": 1,
+        "max_ms": 0.071294,
+        "min_ms": 0.071294,
+        "total_ms": 0.071294
+      },
+      "device_registry.disconnect.ms": {
+        "average_ms": 0.016478,
+        "count": 1,
+        "max_ms": 0.016478,
+        "min_ms": 0.016478,
+        "total_ms": 0.016478
+      },
+      "device_registry.register_or_attach.ms": {
+        "average_ms": 0.044969,
+        "count": 1,
+        "max_ms": 0.044969,
+        "min_ms": 0.044969,
+        "total_ms": 0.044969
+      },
+      "variables.evaluate.ms": {
+        "average_ms": 0.086729,
+        "count": 1,
+        "max_ms": 0.086729,
+        "min_ms": 0.086729,
+        "total_ms": 0.086729
+      }
+    }
+  }
+}

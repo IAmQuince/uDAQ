@@ -1,0 +1,15 @@
+Next recommended work
+- validate the implementation-entry optimization package against the bounded proof line and audit/tooling gates
+- continue the bounded runtime diagnostics and evidence coherence work after this optimization baseline is accepted
+- keep the universal core / optional support-pack boundary explicit in code review, tests, and proof artifacts
+
+Suggested next technical direction
+- preserve the same public/controller compatibility surface
+- continue low-risk runtime-quality cleanup before larger service-topology changes
+- only revisit the deferred architecture simplifications after bounded compatibility evidence is stronger
+
+What not to do next
+- do not reopen U6 recovery work unless a new concrete issue appears
+- do not let vendor-specific assumptions drift into core runtime or orchestration code
+- do not broaden into streaming, large UI/editor work, or a broad automation engine casually
+- do not let package-entry docs, release docs, and active governance surfaces drift apart again

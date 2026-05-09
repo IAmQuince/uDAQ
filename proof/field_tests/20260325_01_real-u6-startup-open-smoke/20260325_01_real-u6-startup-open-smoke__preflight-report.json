@@ -1,0 +1,78 @@
+{
+  "active_adapter_id": "LABJACK-U6-REAL-360011665",
+  "direct_open_probe": {
+    "ain0_value": "2.451817",
+    "calibration_loaded": true,
+    "close_succeeded": false,
+    "detail_rows": [
+      {
+        "serial_arg": null,
+        "stage": "open",
+        "status": "success",
+        "strategy": "constructor_first_found"
+      },
+      {
+        "stage": "calibration",
+        "status": "success",
+        "strategy": "constructor_first_found"
+      }
+    ],
+    "driver_name": "u6",
+    "error_message": null,
+    "error_type": null,
+    "firmware_version": "1.39",
+    "hardware_revision": "2.00",
+    "open_stage": "first_read",
+    "open_strategy": "constructor_first_found",
+    "requested_serial_number": null,
+    "resolved_serial_number": "360011665",
+    "success": true
+  },
+  "discovered_devices": [
+    {
+      "device_key": "generic_adapter_inventory:SIM-READ-001",
+      "display_name": "SIM-READ-001",
+      "provider_id": "generic_adapter_inventory",
+      "serial_number": "",
+      "transport": "generic-adapter"
+    },
+    {
+      "device_key": "generic_adapter_inventory:SIM-WRITE-001",
+      "display_name": "SIM-WRITE-001",
+      "provider_id": "generic_adapter_inventory",
+      "serial_number": "",
+      "transport": "generic-adapter"
+    },
+    {
+      "device_key": "labjack_u6_support:360011665",
+      "display_name": "LabJack U6 (360011665)",
+      "provider_id": "labjack_u6_support",
+      "serial_number": "360011665",
+      "transport": "usb"
+    }
+  ],
+  "discovery_strategy": "prevalidated_probe_rows",
+  "entered_mode": "real",
+  "generated_at_utc": "2026-03-25T21:59:57Z",
+  "journal_path": "C:\\Users\\iaq16\\Documents\\Code\\uDAQ\\20260325_06_reconnect-path-alignment-correction\\proof\\U6_FIELD_TEST_JOURNAL.jsonl",
+  "output_directory": "C:\\Users\\iaq16\\Documents\\Code\\uDAQ\\20260325_06_reconnect-path-alignment-correction\\proof\\field_tests\\20260325_01_real-u6-startup-open-smoke",
+  "package_identity": {
+    "disposition": "IMPLEMENTATION_ENTRY_OPTIMIZATION",
+    "package_date": "2026-03-25",
+    "package_id": "UDQ-PKG-20260325-IMPLEMENTATION-ENTRY-OPTIMIZATION-R02",
+    "package_slug": "implementation-entry-optimization",
+    "run_id": "R02"
+  },
+  "platform": "Windows-11-10.0.26200-SP0",
+  "platform_release": "11",
+  "platform_system": "Windows",
+  "profile_id": "PROF-U6-FIELDTEST",
+  "python_implementation": "CPython",
+  "python_version": "3.13.5",
+  "real_hardware_requested": true,
+  "requested_mode": "real",
+  "run_stem": "20260325_01_real-u6-startup-open-smoke",
+  "serial_number": "360011665",
+  "stale_artifact_count_in_output_root": 4,
+  "validation_flow": "startup_open_smoke"
+}

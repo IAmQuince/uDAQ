@@ -1,0 +1,2767 @@
+{
+  "captures": [
+    {
+      "active_adapter_id": "LABJACK-U6-REAL-360011665",
+      "active_alarm_count": 0,
+      "adapter_status": {
+        "adapter_id": "LABJACK-U6-REAL-360011665",
+        "backend_connected": true,
+        "consecutive_failures": 0,
+        "disconnect_count": 0,
+        "disconnect_incident_active": false,
+        "hardware_mode": "real",
+        "has_successful_startup_open": true,
+        "last_backend_reopen_at": null,
+        "last_close_reason": "backend_open",
+        "last_disconnect_at": null,
+        "last_disconnect_reason": null,
+        "last_failure_at": null,
+        "last_failure_reason": null,
+        "last_open_stage": "opened",
+        "last_open_strategy": "backend_factory",
+        "last_reconnect_attempt_at": null,
+        "last_reconnect_failure_at": null,
+        "last_recovery_at": null,
+        "last_recovery_failure_reason": null,
+        "last_recovery_failure_stage": null,
+        "last_recovery_reason": null,
+        "last_success_at": "105",
+        "last_transition_at": "105",
+        "lifecycle_state": "ready",
+        "post_disconnect_successful_poll_count": 0,
+        "reconnect_attempts": 0,
+        "reconnect_backend_open_failure_count": 0,
+        "reconnect_backend_open_success_count": 0,
+        "recovery_count": 0,
+        "recovery_stage": "startup_open_attempted",
+        "serial_number": "360011665",
+        "session_had_disconnect": false,
+        "session_recovered_after_disconnect": false,
+        "startup_classification": "real_device_connected",
+        "startup_open_attempts": 1,
+        "startup_open_failure_count": 0,
+        "startup_open_success_count": 1,
+        "successful_poll_count": 8
+      },
+      "event_alarm_summary": {
+        "active_alarm_count": 0,
+        "definition_count": 1,
+        "highest_active_severity": null,
+        "recent_domain_event_count": 0,
+        "unacknowledged_alarm_count": 0
+      },
+      "incremental_runtime_summary": {
+        "bindings.point_definition.last_replace_skipped": 0,
+        "bindings.review.scope.output.count": 0,
+        "bindings.review.scope.signal.count": 3,
+        "events.active_alarm_count": 0,
+        "events.recent_domain_event_count": 0,
+        "events.unacknowledged_alarm_count": 0,
+        "lifecycle.changed_signal_ids.count": 3,
+        "lifecycle.projected_points.count": 3,
+        "lifecycle.projected_points.last_replace_skipped": 0,
+        "lifecycle.transition.changed": 0,
+        "lifecycle.transition.current_phase": "live",
+        "lifecycle.transition.last_trigger": "poll_active_adapter",
+        "lifecycle.transition.previous_phase": "live",
+        "runtime.acquisition.queue.depth": 0,
+        "runtime.acquisition.queue.dropped": 0,
+        "runtime.acquisition.queue.high_watermark": 1,
+        "runtime.journal.queue.depth": 0,
+        "runtime.journal.queue.dropped": 0,
+        "runtime.presentation.coalesced_total": 0,
+        "runtime.presentation.publish_total": 8,
+        "runtime.variable.recent_count": 29,
+        "runtime.variable.transition_total": 8,
+        "runtime.variables.evaluated_count": 4,
+        "runtime.variables.impacted_count": 4,
+        "runtime.variables.requested_change_count": 0,
+        "runtime.variables.skipped_count": 1,
+        "runtime.variables.state_changed_count": 0,
+        "runtime.variables.value_changed_count": 3
+      },
+      "lifecycle_summary_phase": "live",
+      "observed_at_utc": "2026-03-25T21:59:57Z",
+      "phase_name": "baseline",
+      "poll_cycles": 6,
+      "recent_event_count": 0,
+      "recent_runtime_event_count": 0,
+      "runtime_status": {
+        "acquisition_queue_depth": 0,
+        "acquisition_queue_dropped": 0,
+        "acquisition_queue_high_watermark": 1,
+        "acquisition_queue_max_age_ticks": 0,
+        "journal_flush_count": 8,
+        "journal_path": "proof\\U6_FIELD_TEST_JOURNAL.jsonl",
+        "journal_queue_depth": 0,
+        "journal_queue_dropped": 0,
+        "journal_queue_max_age_ticks": 0,
+        "journal_write_count": 61,
+        "presentation_coalesced_count": 0,
+        "presentation_publish_count": 8,
+        "presentation_queue_depth": 0,
+        "presentation_queue_dropped": 0,
+        "presentation_queue_high_watermark": 1,
+        "presentation_queue_max_age_ticks": 0,
+        "recent_cycle_count": 8,
+        "recent_runtime_event_count": 0,
+        "recent_sample_count": 24,
+        "recent_signal_count": 3,
+        "recent_variable_count": 29,
+        "recent_variable_transition_count": 8
+      },
+      "semantic_reviewer_label": "live / ready / healthy",
+      "semantic_state_family": "live_ready_healthy",
+      "timestamp_end": 105,
+      "timestamp_start": 100,
+      "ui_phase": "live"
+    }
+  ],
+  "final_review_bundle": {
+    "action_claim_summary": {
+      "active_claim_count": 0,
+      "completed_count": 0,
+      "recent_claim_row_count": 0,
+      "rejected_count": 0,
+      "suppressed_count": 0
+    },
+    "active_adapter_id": "LABJACK-U6-REAL-360011665",
+    "active_adapter_status": {
+      "adapter_id": "LABJACK-U6-REAL-360011665",
+      "backend_connected": true,
+      "consecutive_failures": 0,
+      "disconnect_count": 0,
+      "disconnect_incident_active": false,
+      "hardware_mode": "real",
+      "has_successful_startup_open": true,
+      "last_backend_reopen_at": null,
+      "last_close_reason": "backend_open",
+      "last_disconnect_at": null,
+      "last_disconnect_reason": null,
+      "last_failure_at": null,
+      "last_failure_reason": null,
+      "last_open_stage": "opened",
+      "last_open_strategy": "backend_factory",
+      "last_reconnect_attempt_at": null,
+      "last_reconnect_failure_at": null,
+      "last_recovery_at": null,
+      "last_recovery_failure_reason": null,
+      "last_recovery_failure_stage": null,
+      "last_recovery_reason": null,
+      "last_success_at": "105",
+      "last_transition_at": "105",
+      "lifecycle_state": "ready",
+      "post_disconnect_successful_poll_count": 0,
+      "reconnect_attempts": 0,
+      "reconnect_backend_open_failure_count": 0,
+      "reconnect_backend_open_success_count": 0,
+      "recovery_count": 0,
+      "recovery_stage": "startup_open_attempted",
+      "serial_number": "360011665",
+      "session_had_disconnect": false,
+      "session_recovered_after_disconnect": false,
+      "startup_classification": "real_device_connected",
+      "startup_open_attempts": 1,
+      "startup_open_failure_count": 0,
+      "startup_open_success_count": 1,
+      "successful_poll_count": 8
+    },
+    "active_alarm_rows": [],
+    "active_device_key": "labjack_u6_support:360011665",
+    "binding_review_summary": {
+      "auto_rebound_signal_count": 0,
+      "blocked_signal_count": 0,
+      "highlighted_items": [],
+      "manual_review_signal_count": 0,
+      "resolved_output_count": 0,
+      "resolved_signal_count": 3,
+      "total_output_binding_count": 0,
+      "total_signal_binding_count": 3,
+      "unresolved_output_count": 0,
+      "unresolved_signal_count": 0
+    },
+    "canonical_runtime_evidence_bundle_v1": {
+      "bundle_version": "v1",
+      "diagnostic_snapshots": {
+        "active_adapter_status": {
+          "adapter_id": "LABJACK-U6-REAL-360011665",
+          "backend_connected": true,
+          "consecutive_failures": 0,
+          "disconnect_count": 0,
+          "disconnect_incident_active": false,
+          "hardware_mode": "real",
+          "has_successful_startup_open": true,
+          "last_backend_reopen_at": null,
+          "last_close_reason": "backend_open",
+          "last_disconnect_at": null,
+          "last_disconnect_reason": null,
+          "last_failure_at": null,
+          "last_failure_reason": null,
+          "last_open_stage": "opened",
+          "last_open_strategy": "backend_factory",
+          "last_reconnect_attempt_at": null,
+          "last_reconnect_failure_at": null,
+          "last_recovery_at": null,
+          "last_recovery_failure_reason": null,
+          "last_recovery_failure_stage": null,
+          "last_recovery_reason": null,
+          "last_success_at": "105",
+          "last_transition_at": "105",
+          "lifecycle_state": "ready",
+          "post_disconnect_successful_poll_count": 0,
+          "reconnect_attempts": 0,
+          "reconnect_backend_open_failure_count": 0,
+          "reconnect_backend_open_success_count": 0,
+          "recovery_count": 0,
+          "recovery_stage": "startup_open_attempted",
+          "serial_number": "360011665",
+          "session_had_disconnect": false,
+          "session_recovered_after_disconnect": false,
+          "startup_classification": "real_device_connected",
+          "startup_open_attempts": 1,
+          "startup_open_failure_count": 0,
+          "startup_open_success_count": 1,
+          "successful_poll_count": 8
+        },
+        "recent_diagnostic_rows": [
+          {
+            "changed": true,
+            "coherence": {
+              "appears_in_csv_json": true,
+              "appears_in_summary": false,
+              "audience": "engineering",
+              "category": "diagnostic_snapshot",
+              "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+              "owner_module": "src/universaldaq/runtime/services.py",
+              "pm_rollup_visible": false,
+              "source_surface": "runtime_variable_rows"
+            },
+            "dependency_values": {
+              "a": "2.455451",
+              "b": "0.000200",
+              "c": "-1.257129"
+            },
+            "missing_dependencies": [],
+            "quality": "good",
+            "state": "healthy",
+            "state_transition": false,
+            "timestamp": 100,
+            "value": "0.3995073333333334",
+            "variable_id": "avg_abc"
+          },
+          {
+            "changed": true,
+            "coherence": {
+              "appears_in_csv_json": true,
+              "appears_in_summary": false,
+              "audience": "engineering",
+              "category": "diagnostic_snapshot",
+              "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+              "owner_module": "src/universaldaq/runtime/services.py",
+              "pm_rollup_visible": false,
+              "source_surface": "runtime_variable_rows"
+            },
+            "dependency_values": {
+              "live_input_a": "2.450790"
+            },
+            "missing_dependencies": [],
+            "quality": "good",
+            "state": "healthy",
+            "state_transition": false,
+            "timestamp": 101,
+            "value": "2.450790",
+            "variable_id": "mon_input_a"
+          },
+          {
+            "changed": true,
+            "coherence": {
+              "appears_in_csv_json": true,
+              "appears_in_summary": false,
+              "audience": "engineering",
+              "category": "diagnostic_snapshot",
+              "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+              "owner_module": "src/universaldaq/runtime/services.py",
+              "pm_rollup_visible": false,
+              "source_surface": "runtime_variable_rows"
+            },
+            "dependency_values": {
+              "a": "2.450790",
+              "b": "0.000200"
+            },
+            "missing_dependencies": [],
+            "quality": "good",
+            "state": "healthy",
+            "state_transition": false,
+            "timestamp": 101,
+            "value": "2.45059",
+            "variable_id": "delta_ab"
+          },
+          {
+            "changed": true,
+            "coherence": {
+              "appears_in_csv_json": true,
+              "appears_in_summary": false,
+              "audience": "engineering",
+              "category": "diagnostic_snapshot",
+              "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+              "owner_module": "src/universaldaq/runtime/services.py",
+              "pm_rollup_visible": false,
+              "source_surface": "runtime_variable_rows"
+            },
+            "dependency_values": {
+              "a": "2.450790",
+              "b": "0.000200",
+              "c": "1.664395"
+            },
+            "missing_dependencies": [],
+            "quality": "good",
+            "state": "healthy",
+            "state_transition": false,
+            "timestamp": 101,
+            "value": "1.3717949999999999",
+            "variable_id": "avg_abc"
+          },
+          {
+            "changed": true,
+            "coherence": {
+              "appears_in_csv_json": true,
+              "appears_in_summary": false,
+              "audience": "engineering",
+              "category": "diagnostic_snapshot",
+              "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+              "owner_module": "src/universaldaq/runtime/services.py",
+              "pm_rollup_visible": false,
+              "source_surface": "runtime_variable_rows"
+            },
+            "dependency_values": {
+              "live_input_a": "2.450553"
+            },
+            "missing_dependencies": [],
+            "quality": "good",
+            "state": "healthy",
+            "state_transition": false,
+            "timestamp": 102,
+            "value": "2.450553",
+            "variable_id": "mon_input_a"
+          },
+          {
+            "changed": true,
+            "coherence": {
+              "appears_in_csv_json": true,
+              "appears_in_summary": false,
+              "audience": "engineering",
+              "category": "diagnostic_snapshot",
+              "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+              "owner_module": "src/universaldaq/runtime/services.py",
+              "pm_rollup_visible": false,
+              "source_surface": "runtime_variable_rows"
+            },
+            "dependency_values": {
+              "a": "2.450553",
+              "b": "0.000121"
+            },
+            "missing_dependencies": [],
+            "quality": "good",
+            "state": "healthy",
+            "state_transition": false,
+            "timestamp": 102,
+            "value": "2.450432",
+            "variable_id": "delta_ab"
+          },
+          {
+            "changed": true,
+            "coherence": {
+              "appears_in_csv_json": true,
+              "appears_in_summary": false,
+              "audience": "engineering",
+              "category": "diagnostic_snapshot",
+              "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+              "owner_module": "src/universaldaq/runtime/services.py",
+              "pm_rollup_visible": false,
+              "source_surface": "runtime_variable_rows"
+            },
+            "dependency_values": {
+              "a": "2.450553",
+              "b": "0.000121",
+              "c": "1.691967"
+            },
+            "missing_dependencies": [],
+            "quality": "good",
+            "state": "healthy",
+            "state_transition": false,
+            "timestamp": 102,
+            "value": "1.3808803333333335",
+            "variable_id": "avg_abc"
+          },
+          {
+            "changed": true,
+            "coherence": {
+              "appears_in_csv_json": true,
+              "appears_in_summary": false,
+              "audience": "engineering",
+              "category": "diagnostic_snapshot",
+              "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+              "owner_module": "src/universaldaq/runtime/services.py",
+              "pm_rollup_visible": false,
+              "source_surface": "runtime_variable_rows"
+            },
+            "dependency_values": {
+              "live_input_a": "2.450474"
+            },
+            "missing_dependencies": [],
+            "quality": "good",
+            "state": "healthy",
+            "state_transition": false,
+            "timestamp": 103,
+            "value": "2.450474",
+            "variable_id": "mon_input_a"
+          },
+          {
+            "changed": true,
+            "coherence": {
+              "appears_in_csv_json": true,
+              "appears_in_summary": false,
+              "audience": "engineering",
+              "category": "diagnostic_snapshot",
+              "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+              "owner_module": "src/universaldaq/runtime/services.py",
+              "pm_rollup_visible": false,
+              "source_surface": "runtime_variable_rows"
+            },
+            "dependency_values": {
+              "a": "2.450474",
+              "b": "0.000121"
+            },
+            "missing_dependencies": [],
+            "quality": "good",
+            "state": "healthy",
+            "state_transition": false,
+            "timestamp": 103,
+            "value": "2.450353",
+            "variable_id": "delta_ab"
+          },
+          {
+            "changed": true,
+            "coherence": {
+              "appears_in_csv_json": true,
+              "appears_in_summary": false,
+              "audience": "engineering",
+              "category": "diagnostic_snapshot",
+              "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+              "owner_module": "src/universaldaq/runtime/services.py",
+              "pm_rollup_visible": false,
+              "source_surface": "runtime_variable_rows"
+            },
+            "dependency_values": {
+              "a": "2.450474",
+              "b": "0.000121",
+              "c": "1.696708"
+            },
+            "missing_dependencies": [],
+            "quality": "good",
+            "state": "healthy",
+            "state_transition": false,
+            "timestamp": 103,
+            "value": "1.3824343333333333",
+            "variable_id": "avg_abc"
+          },
+          {
+            "changed": true,
+            "coherence": {
+              "appears_in_csv_json": true,
+              "appears_in_summary": false,
+              "audience": "engineering",
+              "category": "diagnostic_snapshot",
+              "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+              "owner_module": "src/universaldaq/runtime/services.py",
+              "pm_rollup_visible": false,
+              "source_surface": "runtime_variable_rows"
+            },
+            "dependency_values": {
+              "live_input_a": "2.450790"
+            },
+            "missing_dependencies": [],
+            "quality": "good",
+            "state": "healthy",
+            "state_transition": false,
+            "timestamp": 104,
+            "value": "2.450790",
+            "variable_id": "mon_input_a"
+          },
+          {
+            "changed": true,
+            "coherence": {
+              "appears_in_csv_json": true,
+              "appears_in_summary": false,
+              "audience": "engineering",
+              "category": "diagnostic_snapshot",
+              "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+              "owner_module": "src/universaldaq/runtime/services.py",
+              "pm_rollup_visible": false,
+              "source_surface": "runtime_variable_rows"
+            },
+            "dependency_values": {
+              "a": "2.450790",
+              "b": "0.000200"
+            },
+            "missing_dependencies": [],
+            "quality": "good",
+            "state": "healthy",
+            "state_transition": false,
+            "timestamp": 104,
+            "value": "2.45059",
+            "variable_id": "delta_ab"
+          },
+          {
+            "changed": true,
+            "coherence": {
+              "appears_in_csv_json": true,
+              "appears_in_summary": false,
+              "audience": "engineering",
+              "category": "diagnostic_snapshot",
+              "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+              "owner_module": "src/universaldaq/runtime/services.py",
+              "pm_rollup_visible": false,
+              "source_surface": "runtime_variable_rows"
+            },
+            "dependency_values": {
+              "a": "2.450790",
+              "b": "0.000200",
+              "c": "1.703976"
+            },
+            "missing_dependencies": [],
+            "quality": "good",
+            "state": "healthy",
+            "state_transition": false,
+            "timestamp": 104,
+            "value": "1.3849886666666666",
+            "variable_id": "avg_abc"
+          },
+          {
+            "changed": true,
+            "coherence": {
+              "appears_in_csv_json": true,
+              "appears_in_summary": false,
+              "audience": "engineering",
+              "category": "diagnostic_snapshot",
+              "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+              "owner_module": "src/universaldaq/runtime/services.py",
+              "pm_rollup_visible": false,
+              "source_surface": "runtime_variable_rows"
+            },
+            "dependency_values": {
+              "live_input_a": "2.450869"
+            },
+            "missing_dependencies": [],
+            "quality": "good",
+            "state": "healthy",
+            "state_transition": false,
+            "timestamp": 105,
+            "value": "2.450869",
+            "variable_id": "mon_input_a"
+          },
+          {
+            "changed": true,
+            "coherence": {
+              "appears_in_csv_json": true,
+              "appears_in_summary": false,
+              "audience": "engineering",
+              "category": "diagnostic_snapshot",
+              "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+              "owner_module": "src/universaldaq/runtime/services.py",
+              "pm_rollup_visible": false,
+              "source_surface": "runtime_variable_rows"
+            },
+            "dependency_values": {
+              "a": "2.450869",
+              "b": "0.000121"
+            },
+            "missing_dependencies": [],
+            "quality": "good",
+            "state": "healthy",
+            "state_transition": false,
+            "timestamp": 105,
+            "value": "2.450748",
+            "variable_id": "delta_ab"
+          },
+          {
+            "changed": true,
+            "coherence": {
+              "appears_in_csv_json": true,
+              "appears_in_summary": false,
+              "audience": "engineering",
+              "category": "diagnostic_snapshot",
+              "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+              "owner_module": "src/universaldaq/runtime/services.py",
+              "pm_rollup_visible": false,
+              "source_surface": "runtime_variable_rows"
+            },
+            "dependency_values": {
+              "a": "2.450869",
+              "b": "0.000121",
+              "c": "1.706346"
+            },
+            "missing_dependencies": [],
+            "quality": "good",
+            "state": "healthy",
+            "state_transition": false,
+            "timestamp": 105,
+            "value": "1.3857786666666667",
+            "variable_id": "avg_abc"
+          }
+        ],
+        "runtime_performance": {
+          "counters": {
+            "adapters.activate_discovered.calls": 1,
+            "adapters.discover.calls": 1,
+            "adapters.discovery_provider.register.calls": 5,
+            "adapters.poll_single.calls": 8,
+            "adapters.reconnect.calls": 7,
+            "adapters.register.calls": 3,
+            "adapters.snapshot.count": 24,
+            "adapters.support_pack.install.calls": 4,
+            "adapters.support_pack.load_report.calls": 3,
+            "bindings.point_definition.replace.calls": 1,
+            "bindings.review.calls": 12,
+            "bindings.signal.bind.calls": 3,
+            "device_registry.reconciliation.new_device.calls": 1,
+            "device_registry.register_or_attach.calls": 1,
+            "runtime.acquisition.capture.count": 8,
+            "runtime.acquisition.snapshot.count": 24,
+            "runtime.journal.enqueue.count": 61,
+            "runtime.journal.flush.count": 8,
+            "runtime.journal.write.count": 61,
+            "runtime.presentation.publish.count": 8,
+            "runtime.presentation.stage.count": 8,
+            "runtime.processing.cycle.count": 8,
+            "runtime.variable.changed.count": 29,
+            "runtime.variable.noop.count": 7,
+            "runtime.variable.transition.count": 8,
+            "signals.definition.register.calls": 3,
+            "signals.snapshot.publish.calls": 24,
+            "variables.definition.register.calls": 4,
+            "variables.evaluate.calls": 36,
+            "variables.snapshot.publish.calls": 36
+          },
+          "gauges": {
+            "adapters.disconnected.count": 0,
+            "adapters.discovered_devices.count": 3,
+            "adapters.discovery_provider.count": 4,
+            "adapters.inventory.count": 3,
+            "adapters.support_pack.count": 3,
+            "adapters.support_pack.load_report.count": 3,
+            "bindings.point_definition.count": 3,
+            "bindings.point_definition.last_replace_skipped": 0,
+            "bindings.review.manual_signal.count": 0,
+            "bindings.review.scope.output.count": 0,
+            "bindings.review.scope.signal.count": 3,
+            "bindings.review.unresolved_signal.count": 0,
+            "bindings.signal.count": 3,
+            "device_registry.connections.count": 1,
+            "device_registry.records.count": 1,
+            "events.active_alarm_count": 0,
+            "events.recent_domain_event_count": 0,
+            "events.unacknowledged_alarm_count": 0,
+            "lifecycle.changed_signal_ids.count": 3,
+            "lifecycle.projected_points.count": 3,
+            "lifecycle.projected_points.last_replace_skipped": 0,
+            "lifecycle.requested_changed_variable_ids.count": 0,
+            "lifecycle.transition.changed": 0,
+            "lifecycle.transition.current_phase": "live",
+            "lifecycle.transition.last_trigger": "poll_active_adapter",
+            "lifecycle.transition.previous_phase": "live",
+            "runtime.acquisition.last_snapshot_count": 3,
+            "runtime.acquisition.queue.depth": 0,
+            "runtime.acquisition.queue.dropped": 0,
+            "runtime.acquisition.queue.high_watermark": 1,
+            "runtime.acquisition.queue.max_age_ticks": 0,
+            "runtime.buffer.sample_count": 24,
+            "runtime.buffer.signal_count": 3,
+            "runtime.cycle.recent_count": 8,
+            "runtime.journal.file_path": "C:\\Users\\iaq16\\Documents\\Code\\uDAQ\\20260325_06_reconnect-path-alignment-correction\\proof\\U6_FIELD_TEST_JOURNAL.jsonl",
+            "runtime.journal.flush_total": 8,
+            "runtime.journal.last_flush_written_count": 7,
+            "runtime.journal.queue.depth": 0,
+            "runtime.journal.queue.dropped": 0,
+            "runtime.journal.queue.max_age_ticks": 0,
+            "runtime.presentation.coalesced_total": 0,
+            "runtime.presentation.last_changed_signal_count": 3,
+            "runtime.presentation.last_impacted_variable_count": 0,
+            "runtime.presentation.last_snapshot_count": 3,
+            "runtime.presentation.publish_total": 8,
+            "runtime.presentation.queue.depth": 0,
+            "runtime.presentation.queue.dropped": 0,
+            "runtime.presentation.queue.high_watermark": 1,
+            "runtime.presentation.queue.max_age_ticks": 0,
+            "runtime.processing.changed_signal_count": 3,
+            "runtime.processing.impacted_variable_count": 0,
+            "runtime.processing.skipped_variable_count": 4,
+            "runtime.variable.changed_last_count": 3,
+            "runtime.variable.recent_count": 29,
+            "runtime.variable.skipped_last_count": 1,
+            "runtime.variable.state_transition_last_count": 0,
+            "runtime.variable.transition_total": 8,
+            "runtime.variable.value_change_last_count": 3,
+            "runtime.variables.requested_change_count": 0,
+            "runtime.variables.state_changed_count": 0,
+            "runtime.variables.value_changed_count": 3,
+            "signals.changed.count": 3,
+            "signals.definition.count": 3,
+            "signals.skipped.count": 0,
+            "signals.snapshot.count": 3,
+            "variables.definition.count": 4,
+            "variables.impacted.count": 4,
+            "variables.last_evaluated.count": 4,
+            "variables.skipped.count": 1,
+            "variables.snapshot.count": 4
+          },
+          "timings": {
+            "adapters.discover.ms": {
+              "average_ms": 0.0926,
+              "count": 1,
+              "max_ms": 0.0926,
+              "min_ms": 0.0926,
+              "total_ms": 0.0926
+            },
+            "adapters.poll_single.ms": {
+              "average_ms": 4.935638,
+              "count": 8,
+              "max_ms": 5.0294,
+              "min_ms": 4.6859,
+              "total_ms": 39.4851
+            },
+            "device_registry.register_or_attach.ms": {
+              "average_ms": 0.0273,
+              "count": 1,
+              "max_ms": 0.0273,
+              "min_ms": 0.0273,
+              "total_ms": 0.0273
+            },
+            "runtime.acquisition.capture.ms": {
+              "average_ms": 0.012612,
+              "count": 8,
+              "max_ms": 0.0149,
+              "min_ms": 0.0079,
+              "total_ms": 0.1009
+            },
+            "runtime.acquisition.poll.ms": {
+              "average_ms": 4.94935,
+              "count": 8,
+              "max_ms": 5.0475,
+              "min_ms": 4.701,
+              "total_ms": 39.5948
+            },
+            "runtime.journal.flush.ms": {
+              "average_ms": 0.494713,
+              "count": 8,
+              "max_ms": 0.5963,
+              "min_ms": 0.3657,
+              "total_ms": 3.9577
+            },
+            "runtime.processing.cycle.ms": {
+              "average_ms": 0.559262,
+              "count": 8,
+              "max_ms": 0.6854,
+              "min_ms": 0.4082,
+              "total_ms": 4.4741
+            },
+            "variables.evaluate.ms": {
+              "average_ms": 0.039383,
+              "count": 36,
+              "max_ms": 0.1163,
+              "min_ms": 0.0093,
+              "total_ms": 1.4178
+            }
+          }
+        },
+        "runtime_status": {
+          "acquisition_queue_depth": 0,
+          "acquisition_queue_dropped": 0,
+          "acquisition_queue_high_watermark": 1,
+          "acquisition_queue_max_age_ticks": 0,
+          "journal_flush_count": 8,
+          "journal_path": "proof\\U6_FIELD_TEST_JOURNAL.jsonl",
+          "journal_queue_depth": 0,
+          "journal_queue_dropped": 0,
+          "journal_queue_max_age_ticks": 0,
+          "journal_write_count": 61,
+          "presentation_coalesced_count": 0,
+          "presentation_publish_count": 8,
+          "presentation_queue_depth": 0,
+          "presentation_queue_dropped": 0,
+          "presentation_queue_high_watermark": 1,
+          "presentation_queue_max_age_ticks": 0,
+          "recent_cycle_count": 8,
+          "recent_runtime_event_count": 0,
+          "recent_sample_count": 24,
+          "recent_signal_count": 3,
+          "recent_variable_count": 29,
+          "recent_variable_transition_count": 8
+        }
+      },
+      "identity": {
+        "active_adapter_id": "LABJACK-U6-REAL-360011665",
+        "active_device_key": "labjack_u6_support:360011665"
+      },
+      "metric_layers": {
+        "engineering_metrics": {
+          "acquisition_queue_depth": 0,
+          "acquisition_queue_dropped": 0,
+          "adapter_consecutive_failures": 0,
+          "adapter_reconnect_attempts": 0,
+          "journal_flush_count": 8,
+          "journal_queue_dropped": 0,
+          "journal_write_count": 61,
+          "presentation_coalesced_count": 0,
+          "presentation_publish_count": 8,
+          "recent_cycle_count": 8,
+          "recent_sample_count": 24,
+          "recent_variable_transition_count": 8
+        },
+        "internal_metrics": {
+          "selected_counters": {
+            "runtime.acquisition.capture.count": 8,
+            "runtime.acquisition.snapshot.count": 24,
+            "runtime.journal.enqueue.count": 61,
+            "runtime.journal.flush.count": 8,
+            "runtime.journal.write.count": 61,
+            "runtime.presentation.publish.count": 8,
+            "runtime.presentation.stage.count": 8,
+            "runtime.processing.cycle.count": 8,
+            "runtime.variable.changed.count": 29,
+            "runtime.variable.noop.count": 7,
+            "runtime.variable.transition.count": 8
+          },
+          "selected_gauges": {
+            "runtime.acquisition.last_snapshot_count": 3,
+            "runtime.acquisition.queue.depth": 0,
+            "runtime.acquisition.queue.dropped": 0,
+            "runtime.acquisition.queue.high_watermark": 1,
+            "runtime.acquisition.queue.max_age_ticks": 0,
+            "runtime.buffer.sample_count": 24,
+            "runtime.buffer.signal_count": 3,
+            "runtime.cycle.recent_count": 8,
+            "runtime.journal.file_path": "C:\\Users\\iaq16\\Documents\\Code\\uDAQ\\20260325_06_reconnect-path-alignment-correction\\proof\\U6_FIELD_TEST_JOURNAL.jsonl",
+            "runtime.journal.flush_total": 8,
+            "runtime.journal.last_flush_written_count": 7,
+            "runtime.journal.queue.depth": 0,
+            "runtime.journal.queue.dropped": 0,
+            "runtime.journal.queue.max_age_ticks": 0,
+            "runtime.presentation.coalesced_total": 0,
+            "runtime.presentation.last_changed_signal_count": 3,
+            "runtime.presentation.last_impacted_variable_count": 0,
+            "runtime.presentation.last_snapshot_count": 3,
+            "runtime.presentation.publish_total": 8,
+            "runtime.presentation.queue.depth": 0,
+            "runtime.presentation.queue.dropped": 0,
+            "runtime.presentation.queue.high_watermark": 1,
+            "runtime.presentation.queue.max_age_ticks": 0,
+            "runtime.processing.changed_signal_count": 3,
+            "runtime.processing.impacted_variable_count": 0,
+            "runtime.processing.skipped_variable_count": 4,
+            "runtime.variable.changed_last_count": 3,
+            "runtime.variable.recent_count": 29,
+            "runtime.variable.skipped_last_count": 1,
+            "runtime.variable.state_transition_last_count": 0,
+            "runtime.variable.transition_total": 8,
+            "runtime.variable.value_change_last_count": 3,
+            "runtime.variables.requested_change_count": 0,
+            "runtime.variables.state_changed_count": 0,
+            "runtime.variables.value_changed_count": 3
+          },
+          "selected_timings": {
+            "runtime.acquisition.capture.ms": {
+              "average_ms": 0.012612,
+              "count": 8,
+              "max_ms": 0.0149,
+              "min_ms": 0.0079,
+              "total_ms": 0.1009
+            },
+            "runtime.acquisition.poll.ms": {
+              "average_ms": 4.94935,
+              "count": 8,
+              "max_ms": 5.0475,
+              "min_ms": 4.701,
+              "total_ms": 39.5948
+            },
+            "runtime.journal.flush.ms": {
+              "average_ms": 0.494713,
+              "count": 8,
+              "max_ms": 0.5963,
+              "min_ms": 0.3657,
+              "total_ms": 3.9577
+            },
+            "runtime.processing.cycle.ms": {
+              "average_ms": 0.559262,
+              "count": 8,
+              "max_ms": 0.6854,
+              "min_ms": 0.4082,
+              "total_ms": 4.4741
+            }
+          }
+        },
+        "reviewer_metrics": {
+          "active_alarm_count": 0,
+          "disconnect_count": 0,
+          "highest_active_severity": null,
+          "needs_review": false,
+          "recent_operator_action_count": 0,
+          "recent_runtime_event_count": 0,
+          "recovery_count": 0,
+          "reviewer_label": "live / ready / healthy",
+          "state_family": "live_ready_healthy",
+          "unacknowledged_alarm_count": 0
+        }
+      },
+      "package_surface": "lifecycle_review_bundle",
+      "provenance": {
+        "runtime_truth_surface_inventory": [
+          {
+            "audience": "reviewer_and_engineering",
+            "authority": "derived_review_surface",
+            "owner_module": "src/universaldaq/app/lifecycle_orchestrator.py",
+            "purpose": "bounded lifecycle posture for the active shell session",
+            "surface": "lifecycle_summary"
+          },
+          {
+            "audience": "engineering_with_reviewer_support",
+            "authority": "device_support_pack_surface",
+            "owner_module": "src/universaldaq/app/device_lifecycle_handler.py",
+            "purpose": "device/support-pack runtime condition and recovery counters",
+            "surface": "active_adapter_status"
+          },
+          {
+            "audience": "engineering",
+            "authority": "canonical_runtime_snapshot",
+            "owner_module": "src/universaldaq/runtime/services.py",
+            "purpose": "bounded queue, journal, and presentation status counters",
+            "surface": "runtime_status"
+          },
+          {
+            "audience": "reviewer_and_engineering",
+            "authority": "runtime_event_surface",
+            "owner_module": "src/universaldaq/runtime/services.py",
+            "purpose": "meaningful runtime transitions recorded by the bounded runtime spine",
+            "surface": "recent_runtime_event_rows"
+          },
+          {
+            "audience": "reviewer_and_engineering",
+            "authority": "alarm_event_surface",
+            "owner_module": "src/universaldaq/events/services.py",
+            "purpose": "alarm lifecycle transitions and acknowledgments",
+            "surface": "recent_event_rows"
+          },
+          {
+            "audience": "reviewer_and_engineering",
+            "authority": "operator_action_surface",
+            "owner_module": "src/universaldaq/commands/services.py",
+            "purpose": "governed command/operator actions admitted or rejected by the shell",
+            "surface": "recent_command_rows"
+          },
+          {
+            "audience": "engineering",
+            "authority": "automation_claim_surface",
+            "owner_module": "src/universaldaq/automation/claims.py",
+            "purpose": "bounded automation claim/suppression continuity",
+            "surface": "recent_action_claim_rows"
+          },
+          {
+            "audience": "engineering",
+            "authority": "runtime_metrics_snapshot",
+            "owner_module": "src/universaldaq/common/metrics.py",
+            "purpose": "timings, counters, and gauges used for diagnostics and proof",
+            "surface": "runtime_performance"
+          },
+          {
+            "audience": "reviewer",
+            "authority": "derived_rollup",
+            "owner_module": "src/universaldaq/app/automation_review_handler.py",
+            "purpose": "reviewer-facing statement rendered from canonical runtime evidence",
+            "surface": "reviewer_runtime_rollup"
+          }
+        ],
+        "vocabulary_alignment": {
+          "adapter_family_matches_lifecycle_family": true,
+          "adapter_family_matches_ui_family": true,
+          "adapter_state_family": "live_ready_healthy",
+          "lifecycle_summary_state_family": "live_ready_healthy",
+          "ui_family_matches_lifecycle_family": true,
+          "ui_matches_lifecycle_phase": true,
+          "ui_state_family": "live_ready_healthy"
+        }
+      },
+      "recent_alarm_events": [],
+      "recent_automation_claims": [],
+      "recent_operator_actions": [],
+      "recent_runtime_events": [],
+      "reviewer_rollup": {
+        "active_adapter_id": "LABJACK-U6-REAL-360011665",
+        "active_alarm_count": 0,
+        "adapter_lifecycle_state": "ready",
+        "disconnect_count": 0,
+        "recent_alarm_event_types": [],
+        "recent_operator_action_count": 0,
+        "recent_runtime_event_types": [],
+        "recovery_count": 0,
+        "reviewer_label": "live / ready / healthy",
+        "state_family": "live_ready_healthy",
+        "summary": "Runtime posture is live / ready / healthy; alarms=0, disconnects=0, recoveries=0."
+      },
+      "runtime_state": {
+        "adapter_lifecycle_state": "ready",
+        "authoritative_layer": "lifecycle_summary_phase",
+        "canonical_state_family": "live_ready_healthy",
+        "lifecycle_summary_phase": "live",
+        "reviewer_label": "live / ready / healthy",
+        "ui_phase": "live"
+      },
+      "summaries": {
+        "action_claim_summary": {
+          "active_claim_count": 0,
+          "completed_count": 0,
+          "recent_claim_row_count": 0,
+          "rejected_count": 0,
+          "suppressed_count": 0
+        },
+        "binding_review_summary": {
+          "auto_rebound_signal_count": 0,
+          "blocked_signal_count": 0,
+          "highlighted_items": [],
+          "manual_review_signal_count": 0,
+          "resolved_output_count": 0,
+          "resolved_signal_count": 3,
+          "total_output_binding_count": 0,
+          "total_signal_binding_count": 3,
+          "unresolved_output_count": 0,
+          "unresolved_signal_count": 0
+        },
+        "command_summary": {
+          "admitted_count": 0,
+          "command_count": 0,
+          "dry_run_count": 0,
+          "last_command_id": null,
+          "last_rejection_code": null,
+          "rejected_count": 0
+        },
+        "event_alarm_summary": {
+          "active_alarm_count": 0,
+          "definition_count": 1,
+          "highest_active_severity": null,
+          "recent_domain_event_count": 0,
+          "unacknowledged_alarm_count": 0
+        },
+        "lifecycle_summary": {
+          "detected_device_count": 3,
+          "disconnected_signal_count": 0,
+          "last_poll_snapshot_count": 3,
+          "last_transition": "poll_active_adapter",
+          "needs_review": false,
+          "phase": "live",
+          "projected_point_count": 3,
+          "published_signal_count": 3
+        },
+        "variable_health_summary": {
+          "degraded_count": 0,
+          "healthy_count": 4,
+          "highlighted_variables": [],
+          "invalid_count": 0,
+          "stale_count": 0,
+          "substituted_count": 0,
+          "total_variable_count": 4,
+          "unresolved_count": 0
+        }
+      }
+    },
+    "command_summary": {
+      "admitted_count": 0,
+      "command_count": 0,
+      "dry_run_count": 0,
+      "last_command_id": null,
+      "last_rejection_code": null,
+      "rejected_count": 0
+    },
+    "event_alarm_summary": {
+      "active_alarm_count": 0,
+      "definition_count": 1,
+      "highest_active_severity": null,
+      "recent_domain_event_count": 0,
+      "unacknowledged_alarm_count": 0
+    },
+    "incremental_runtime_summary": {
+      "bindings.point_definition.last_replace_skipped": 0,
+      "bindings.review.scope.output.count": 0,
+      "bindings.review.scope.signal.count": 3,
+      "events.active_alarm_count": 0,
+      "events.recent_domain_event_count": 0,
+      "events.unacknowledged_alarm_count": 0,
+      "lifecycle.changed_signal_ids.count": 3,
+      "lifecycle.projected_points.count": 3,
+      "lifecycle.projected_points.last_replace_skipped": 0,
+      "lifecycle.transition.changed": 0,
+      "lifecycle.transition.current_phase": "live",
+      "lifecycle.transition.last_trigger": "poll_active_adapter",
+      "lifecycle.transition.previous_phase": "live",
+      "runtime.acquisition.queue.depth": 0,
+      "runtime.acquisition.queue.dropped": 0,
+      "runtime.acquisition.queue.high_watermark": 1,
+      "runtime.journal.queue.depth": 0,
+      "runtime.journal.queue.dropped": 0,
+      "runtime.presentation.coalesced_total": 0,
+      "runtime.presentation.publish_total": 8,
+      "runtime.variable.recent_count": 29,
+      "runtime.variable.transition_total": 8,
+      "runtime.variables.evaluated_count": 4,
+      "runtime.variables.impacted_count": 4,
+      "runtime.variables.requested_change_count": 0,
+      "runtime.variables.skipped_count": 1,
+      "runtime.variables.state_changed_count": 0,
+      "runtime.variables.value_changed_count": 3
+    },
+    "lifecycle_summary": {
+      "detected_device_count": 3,
+      "disconnected_signal_count": 0,
+      "last_poll_snapshot_count": 3,
+      "last_transition": "poll_active_adapter",
+      "needs_review": false,
+      "phase": "live",
+      "projected_point_count": 3,
+      "published_signal_count": 3
+    },
+    "recent_action_claim_rows": [],
+    "recent_command_rows": [],
+    "recent_event_rows": [],
+    "recent_rule_rows": [],
+    "recent_runtime_event_rows": [],
+    "recent_sequence_rows": [],
+    "reconciliation_summary": {
+      "auto_rebound_signal_count": 0,
+      "confidence": null,
+      "manual_review_required": false,
+      "outcome_kind": null,
+      "reason": null,
+      "remap_candidate_count": 0
+    },
+    "reviewer_runtime_rollup": {
+      "active_adapter_id": "LABJACK-U6-REAL-360011665",
+      "active_alarm_count": 0,
+      "adapter_lifecycle_state": "ready",
+      "disconnect_count": 0,
+      "recent_alarm_event_types": [],
+      "recent_operator_action_count": 0,
+      "recent_runtime_event_types": [],
+      "recovery_count": 0,
+      "reviewer_label": "live / ready / healthy",
+      "state_family": "live_ready_healthy",
+      "summary": "Runtime posture is live / ready / healthy; alarms=0, disconnects=0, recoveries=0."
+    },
+    "rule_summary": {
+      "enabled_rule_count": 0,
+      "recent_rule_row_count": 0,
+      "rule_count": 0,
+      "suppressed_total": 0,
+      "triggered_total": 0
+    },
+    "runtime_event_taxonomy": {
+      "bundle_version": "v1",
+      "category_rules": {
+        "alarm_event": {
+          "appears_in_csv_json": true,
+          "appears_in_summary": true,
+          "audience": "reviewer_and_engineering",
+          "meaning": "alarm lifecycle transition or active alarm status surface",
+          "pm_rollup_visible": true
+        },
+        "automation_claim": {
+          "appears_in_csv_json": true,
+          "appears_in_summary": false,
+          "audience": "engineering",
+          "meaning": "bounded automation claim, suppression, or resolution record",
+          "pm_rollup_visible": false
+        },
+        "diagnostic_snapshot": {
+          "appears_in_csv_json": true,
+          "appears_in_summary": false,
+          "audience": "engineering",
+          "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+          "pm_rollup_visible": false
+        },
+        "operator_action": {
+          "appears_in_csv_json": true,
+          "appears_in_summary": true,
+          "audience": "reviewer_and_engineering",
+          "meaning": "human or commanded action admitted through the governed shell path",
+          "pm_rollup_visible": true
+        },
+        "runtime_event": {
+          "appears_in_csv_json": true,
+          "appears_in_summary": true,
+          "audience": "reviewer_and_engineering",
+          "meaning": "meaningful runtime-observed transition or state change",
+          "pm_rollup_visible": true
+        }
+      },
+      "recent_alarm_events": [],
+      "recent_automation_claims": [],
+      "recent_diagnostic_rows": [
+        {
+          "changed": true,
+          "coherence": {
+            "appears_in_csv_json": true,
+            "appears_in_summary": false,
+            "audience": "engineering",
+            "category": "diagnostic_snapshot",
+            "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+            "owner_module": "src/universaldaq/runtime/services.py",
+            "pm_rollup_visible": false,
+            "source_surface": "runtime_variable_rows"
+          },
+          "dependency_values": {
+            "a": "2.455451",
+            "b": "0.000200",
+            "c": "-1.257129"
+          },
+          "missing_dependencies": [],
+          "quality": "good",
+          "state": "healthy",
+          "state_transition": false,
+          "timestamp": 100,
+          "value": "0.3995073333333334",
+          "variable_id": "avg_abc"
+        },
+        {
+          "changed": true,
+          "coherence": {
+            "appears_in_csv_json": true,
+            "appears_in_summary": false,
+            "audience": "engineering",
+            "category": "diagnostic_snapshot",
+            "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+            "owner_module": "src/universaldaq/runtime/services.py",
+            "pm_rollup_visible": false,
+            "source_surface": "runtime_variable_rows"
+          },
+          "dependency_values": {
+            "live_input_a": "2.450790"
+          },
+          "missing_dependencies": [],
+          "quality": "good",
+          "state": "healthy",
+          "state_transition": false,
+          "timestamp": 101,
+          "value": "2.450790",
+          "variable_id": "mon_input_a"
+        },
+        {
+          "changed": true,
+          "coherence": {
+            "appears_in_csv_json": true,
+            "appears_in_summary": false,
+            "audience": "engineering",
+            "category": "diagnostic_snapshot",
+            "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+            "owner_module": "src/universaldaq/runtime/services.py",
+            "pm_rollup_visible": false,
+            "source_surface": "runtime_variable_rows"
+          },
+          "dependency_values": {
+            "a": "2.450790",
+            "b": "0.000200"
+          },
+          "missing_dependencies": [],
+          "quality": "good",
+          "state": "healthy",
+          "state_transition": false,
+          "timestamp": 101,
+          "value": "2.45059",
+          "variable_id": "delta_ab"
+        },
+        {
+          "changed": true,
+          "coherence": {
+            "appears_in_csv_json": true,
+            "appears_in_summary": false,
+            "audience": "engineering",
+            "category": "diagnostic_snapshot",
+            "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+            "owner_module": "src/universaldaq/runtime/services.py",
+            "pm_rollup_visible": false,
+            "source_surface": "runtime_variable_rows"
+          },
+          "dependency_values": {
+            "a": "2.450790",
+            "b": "0.000200",
+            "c": "1.664395"
+          },
+          "missing_dependencies": [],
+          "quality": "good",
+          "state": "healthy",
+          "state_transition": false,
+          "timestamp": 101,
+          "value": "1.3717949999999999",
+          "variable_id": "avg_abc"
+        },
+        {
+          "changed": true,
+          "coherence": {
+            "appears_in_csv_json": true,
+            "appears_in_summary": false,
+            "audience": "engineering",
+            "category": "diagnostic_snapshot",
+            "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+            "owner_module": "src/universaldaq/runtime/services.py",
+            "pm_rollup_visible": false,
+            "source_surface": "runtime_variable_rows"
+          },
+          "dependency_values": {
+            "live_input_a": "2.450553"
+          },
+          "missing_dependencies": [],
+          "quality": "good",
+          "state": "healthy",
+          "state_transition": false,
+          "timestamp": 102,
+          "value": "2.450553",
+          "variable_id": "mon_input_a"
+        },
+        {
+          "changed": true,
+          "coherence": {
+            "appears_in_csv_json": true,
+            "appears_in_summary": false,
+            "audience": "engineering",
+            "category": "diagnostic_snapshot",
+            "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+            "owner_module": "src/universaldaq/runtime/services.py",
+            "pm_rollup_visible": false,
+            "source_surface": "runtime_variable_rows"
+          },
+          "dependency_values": {
+            "a": "2.450553",
+            "b": "0.000121"
+          },
+          "missing_dependencies": [],
+          "quality": "good",
+          "state": "healthy",
+          "state_transition": false,
+          "timestamp": 102,
+          "value": "2.450432",
+          "variable_id": "delta_ab"
+        },
+        {
+          "changed": true,
+          "coherence": {
+            "appears_in_csv_json": true,
+            "appears_in_summary": false,
+            "audience": "engineering",
+            "category": "diagnostic_snapshot",
+            "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+            "owner_module": "src/universaldaq/runtime/services.py",
+            "pm_rollup_visible": false,
+            "source_surface": "runtime_variable_rows"
+          },
+          "dependency_values": {
+            "a": "2.450553",
+            "b": "0.000121",
+            "c": "1.691967"
+          },
+          "missing_dependencies": [],
+          "quality": "good",
+          "state": "healthy",
+          "state_transition": false,
+          "timestamp": 102,
+          "value": "1.3808803333333335",
+          "variable_id": "avg_abc"
+        },
+        {
+          "changed": true,
+          "coherence": {
+            "appears_in_csv_json": true,
+            "appears_in_summary": false,
+            "audience": "engineering",
+            "category": "diagnostic_snapshot",
+            "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+            "owner_module": "src/universaldaq/runtime/services.py",
+            "pm_rollup_visible": false,
+            "source_surface": "runtime_variable_rows"
+          },
+          "dependency_values": {
+            "live_input_a": "2.450474"
+          },
+          "missing_dependencies": [],
+          "quality": "good",
+          "state": "healthy",
+          "state_transition": false,
+          "timestamp": 103,
+          "value": "2.450474",
+          "variable_id": "mon_input_a"
+        },
+        {
+          "changed": true,
+          "coherence": {
+            "appears_in_csv_json": true,
+            "appears_in_summary": false,
+            "audience": "engineering",
+            "category": "diagnostic_snapshot",
+            "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+            "owner_module": "src/universaldaq/runtime/services.py",
+            "pm_rollup_visible": false,
+            "source_surface": "runtime_variable_rows"
+          },
+          "dependency_values": {
+            "a": "2.450474",
+            "b": "0.000121"
+          },
+          "missing_dependencies": [],
+          "quality": "good",
+          "state": "healthy",
+          "state_transition": false,
+          "timestamp": 103,
+          "value": "2.450353",
+          "variable_id": "delta_ab"
+        },
+        {
+          "changed": true,
+          "coherence": {
+            "appears_in_csv_json": true,
+            "appears_in_summary": false,
+            "audience": "engineering",
+            "category": "diagnostic_snapshot",
+            "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+            "owner_module": "src/universaldaq/runtime/services.py",
+            "pm_rollup_visible": false,
+            "source_surface": "runtime_variable_rows"
+          },
+          "dependency_values": {
+            "a": "2.450474",
+            "b": "0.000121",
+            "c": "1.696708"
+          },
+          "missing_dependencies": [],
+          "quality": "good",
+          "state": "healthy",
+          "state_transition": false,
+          "timestamp": 103,
+          "value": "1.3824343333333333",
+          "variable_id": "avg_abc"
+        },
+        {
+          "changed": true,
+          "coherence": {
+            "appears_in_csv_json": true,
+            "appears_in_summary": false,
+            "audience": "engineering",
+            "category": "diagnostic_snapshot",
+            "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+            "owner_module": "src/universaldaq/runtime/services.py",
+            "pm_rollup_visible": false,
+            "source_surface": "runtime_variable_rows"
+          },
+          "dependency_values": {
+            "live_input_a": "2.450790"
+          },
+          "missing_dependencies": [],
+          "quality": "good",
+          "state": "healthy",
+          "state_transition": false,
+          "timestamp": 104,
+          "value": "2.450790",
+          "variable_id": "mon_input_a"
+        },
+        {
+          "changed": true,
+          "coherence": {
+            "appears_in_csv_json": true,
+            "appears_in_summary": false,
+            "audience": "engineering",
+            "category": "diagnostic_snapshot",
+            "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+            "owner_module": "src/universaldaq/runtime/services.py",
+            "pm_rollup_visible": false,
+            "source_surface": "runtime_variable_rows"
+          },
+          "dependency_values": {
+            "a": "2.450790",
+            "b": "0.000200"
+          },
+          "missing_dependencies": [],
+          "quality": "good",
+          "state": "healthy",
+          "state_transition": false,
+          "timestamp": 104,
+          "value": "2.45059",
+          "variable_id": "delta_ab"
+        },
+        {
+          "changed": true,
+          "coherence": {
+            "appears_in_csv_json": true,
+            "appears_in_summary": false,
+            "audience": "engineering",
+            "category": "diagnostic_snapshot",
+            "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+            "owner_module": "src/universaldaq/runtime/services.py",
+            "pm_rollup_visible": false,
+            "source_surface": "runtime_variable_rows"
+          },
+          "dependency_values": {
+            "a": "2.450790",
+            "b": "0.000200",
+            "c": "1.703976"
+          },
+          "missing_dependencies": [],
+          "quality": "good",
+          "state": "healthy",
+          "state_transition": false,
+          "timestamp": 104,
+          "value": "1.3849886666666666",
+          "variable_id": "avg_abc"
+        },
+        {
+          "changed": true,
+          "coherence": {
+            "appears_in_csv_json": true,
+            "appears_in_summary": false,
+            "audience": "engineering",
+            "category": "diagnostic_snapshot",
+            "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+            "owner_module": "src/universaldaq/runtime/services.py",
+            "pm_rollup_visible": false,
+            "source_surface": "runtime_variable_rows"
+          },
+          "dependency_values": {
+            "live_input_a": "2.450869"
+          },
+          "missing_dependencies": [],
+          "quality": "good",
+          "state": "healthy",
+          "state_transition": false,
+          "timestamp": 105,
+          "value": "2.450869",
+          "variable_id": "mon_input_a"
+        },
+        {
+          "changed": true,
+          "coherence": {
+            "appears_in_csv_json": true,
+            "appears_in_summary": false,
+            "audience": "engineering",
+            "category": "diagnostic_snapshot",
+            "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+            "owner_module": "src/universaldaq/runtime/services.py",
+            "pm_rollup_visible": false,
+            "source_surface": "runtime_variable_rows"
+          },
+          "dependency_values": {
+            "a": "2.450869",
+            "b": "0.000121"
+          },
+          "missing_dependencies": [],
+          "quality": "good",
+          "state": "healthy",
+          "state_transition": false,
+          "timestamp": 105,
+          "value": "2.450748",
+          "variable_id": "delta_ab"
+        },
+        {
+          "changed": true,
+          "coherence": {
+            "appears_in_csv_json": true,
+            "appears_in_summary": false,
+            "audience": "engineering",
+            "category": "diagnostic_snapshot",
+            "meaning": "snapshot/counter/buffer/journal evidence describing runtime condition without claiming a discrete event",
+            "owner_module": "src/universaldaq/runtime/services.py",
+            "pm_rollup_visible": false,
+            "source_surface": "runtime_variable_rows"
+          },
+          "dependency_values": {
+            "a": "2.450869",
+            "b": "0.000121",
+            "c": "1.706346"
+          },
+          "missing_dependencies": [],
+          "quality": "good",
+          "state": "healthy",
+          "state_transition": false,
+          "timestamp": 105,
+          "value": "1.3857786666666667",
+          "variable_id": "avg_abc"
+        }
+      ],
+      "recent_operator_actions": [],
+      "recent_runtime_events": []
+    },
+    "runtime_metric_layers": {
+      "engineering_metrics": {
+        "acquisition_queue_depth": 0,
+        "acquisition_queue_dropped": 0,
+        "adapter_consecutive_failures": 0,
+        "adapter_reconnect_attempts": 0,
+        "journal_flush_count": 8,
+        "journal_queue_dropped": 0,
+        "journal_write_count": 61,
+        "presentation_coalesced_count": 0,
+        "presentation_publish_count": 8,
+        "recent_cycle_count": 8,
+        "recent_sample_count": 24,
+        "recent_variable_transition_count": 8
+      },
+      "internal_metrics": {
+        "selected_counters": {
+          "runtime.acquisition.capture.count": 8,
+          "runtime.acquisition.snapshot.count": 24,
+          "runtime.journal.enqueue.count": 61,
+          "runtime.journal.flush.count": 8,
+          "runtime.journal.write.count": 61,
+          "runtime.presentation.publish.count": 8,
+          "runtime.presentation.stage.count": 8,
+          "runtime.processing.cycle.count": 8,
+          "runtime.variable.changed.count": 29,
+          "runtime.variable.noop.count": 7,
+          "runtime.variable.transition.count": 8
+        },
+        "selected_gauges": {
+          "runtime.acquisition.last_snapshot_count": 3,
+          "runtime.acquisition.queue.depth": 0,
+          "runtime.acquisition.queue.dropped": 0,
+          "runtime.acquisition.queue.high_watermark": 1,
+          "runtime.acquisition.queue.max_age_ticks": 0,
+          "runtime.buffer.sample_count": 24,
+          "runtime.buffer.signal_count": 3,
+          "runtime.cycle.recent_count": 8,
+          "runtime.journal.file_path": "C:\\Users\\iaq16\\Documents\\Code\\uDAQ\\20260325_06_reconnect-path-alignment-correction\\proof\\U6_FIELD_TEST_JOURNAL.jsonl",
+          "runtime.journal.flush_total": 8,
+          "runtime.journal.last_flush_written_count": 7,
+          "runtime.journal.queue.depth": 0,
+          "runtime.journal.queue.dropped": 0,
+          "runtime.journal.queue.max_age_ticks": 0,
+          "runtime.presentation.coalesced_total": 0,
+          "runtime.presentation.last_changed_signal_count": 3,
+          "runtime.presentation.last_impacted_variable_count": 0,
+          "runtime.presentation.last_snapshot_count": 3,
+          "runtime.presentation.publish_total": 8,
+          "runtime.presentation.queue.depth": 0,
+          "runtime.presentation.queue.dropped": 0,
+          "runtime.presentation.queue.high_watermark": 1,
+          "runtime.presentation.queue.max_age_ticks": 0,
+          "runtime.processing.changed_signal_count": 3,
+          "runtime.processing.impacted_variable_count": 0,
+          "runtime.processing.skipped_variable_count": 4,
+          "runtime.variable.changed_last_count": 3,
+          "runtime.variable.recent_count": 29,
+          "runtime.variable.skipped_last_count": 1,
+          "runtime.variable.state_transition_last_count": 0,
+          "runtime.variable.transition_total": 8,
+          "runtime.variable.value_change_last_count": 3,
+          "runtime.variables.requested_change_count": 0,
+          "runtime.variables.state_changed_count": 0,
+          "runtime.variables.value_changed_count": 3
+        },
+        "selected_timings": {
+          "runtime.acquisition.capture.ms": {
+            "average_ms": 0.012612,
+            "count": 8,
+            "max_ms": 0.0149,
+            "min_ms": 0.0079,
+            "total_ms": 0.1009
+          },
+          "runtime.acquisition.poll.ms": {
+            "average_ms": 4.94935,
+            "count": 8,
+            "max_ms": 5.0475,
+            "min_ms": 4.701,
+            "total_ms": 39.5948
+          },
+          "runtime.journal.flush.ms": {
+            "average_ms": 0.494713,
+            "count": 8,
+            "max_ms": 0.5963,
+            "min_ms": 0.3657,
+            "total_ms": 3.9577
+          },
+          "runtime.processing.cycle.ms": {
+            "average_ms": 0.559262,
+            "count": 8,
+            "max_ms": 0.6854,
+            "min_ms": 0.4082,
+            "total_ms": 4.4741
+          }
+        }
+      },
+      "reviewer_metrics": {
+        "active_alarm_count": 0,
+        "disconnect_count": 0,
+        "highest_active_severity": null,
+        "needs_review": false,
+        "recent_operator_action_count": 0,
+        "recent_runtime_event_count": 0,
+        "recovery_count": 0,
+        "reviewer_label": "live / ready / healthy",
+        "state_family": "live_ready_healthy",
+        "unacknowledged_alarm_count": 0
+      }
+    },
+    "runtime_performance": {
+      "counters": {
+        "adapters.activate_discovered.calls": 1,
+        "adapters.discover.calls": 1,
+        "adapters.discovery_provider.register.calls": 5,
+        "adapters.poll_single.calls": 8,
+        "adapters.reconnect.calls": 7,
+        "adapters.register.calls": 3,
+        "adapters.snapshot.count": 24,
+        "adapters.support_pack.install.calls": 4,
+        "adapters.support_pack.load_report.calls": 3,
+        "bindings.point_definition.replace.calls": 1,
+        "bindings.review.calls": 12,
+        "bindings.signal.bind.calls": 3,
+        "device_registry.reconciliation.new_device.calls": 1,
+        "device_registry.register_or_attach.calls": 1,
+        "runtime.acquisition.capture.count": 8,
+        "runtime.acquisition.snapshot.count": 24,
+        "runtime.journal.enqueue.count": 61,
+        "runtime.journal.flush.count": 8,
+        "runtime.journal.write.count": 61,
+        "runtime.presentation.publish.count": 8,
+        "runtime.presentation.stage.count": 8,
+        "runtime.processing.cycle.count": 8,
+        "runtime.variable.changed.count": 29,
+        "runtime.variable.noop.count": 7,
+        "runtime.variable.transition.count": 8,
+        "signals.definition.register.calls": 3,
+        "signals.snapshot.publish.calls": 24,
+        "variables.definition.register.calls": 4,
+        "variables.evaluate.calls": 36,
+        "variables.snapshot.publish.calls": 36
+      },
+      "gauges": {
+        "adapters.disconnected.count": 0,
+        "adapters.discovered_devices.count": 3,
+        "adapters.discovery_provider.count": 4,
+        "adapters.inventory.count": 3,
+        "adapters.support_pack.count": 3,
+        "adapters.support_pack.load_report.count": 3,
+        "bindings.point_definition.count": 3,
+        "bindings.point_definition.last_replace_skipped": 0,
+        "bindings.review.manual_signal.count": 0,
+        "bindings.review.scope.output.count": 0,
+        "bindings.review.scope.signal.count": 3,
+        "bindings.review.unresolved_signal.count": 0,
+        "bindings.signal.count": 3,
+        "device_registry.connections.count": 1,
+        "device_registry.records.count": 1,
+        "events.active_alarm_count": 0,
+        "events.recent_domain_event_count": 0,
+        "events.unacknowledged_alarm_count": 0,
+        "lifecycle.changed_signal_ids.count": 3,
+        "lifecycle.projected_points.count": 3,
+        "lifecycle.projected_points.last_replace_skipped": 0,
+        "lifecycle.requested_changed_variable_ids.count": 0,
+        "lifecycle.transition.changed": 0,
+        "lifecycle.transition.current_phase": "live",
+        "lifecycle.transition.last_trigger": "poll_active_adapter",
+        "lifecycle.transition.previous_phase": "live",
+        "runtime.acquisition.last_snapshot_count": 3,
+        "runtime.acquisition.queue.depth": 0,
+        "runtime.acquisition.queue.dropped": 0,
+        "runtime.acquisition.queue.high_watermark": 1,
+        "runtime.acquisition.queue.max_age_ticks": 0,
+        "runtime.buffer.sample_count": 24,
+        "runtime.buffer.signal_count": 3,
+        "runtime.cycle.recent_count": 8,
+        "runtime.journal.file_path": "C:\\Users\\iaq16\\Documents\\Code\\uDAQ\\20260325_06_reconnect-path-alignment-correction\\proof\\U6_FIELD_TEST_JOURNAL.jsonl",
+        "runtime.journal.flush_total": 8,
+        "runtime.journal.last_flush_written_count": 7,
+        "runtime.journal.queue.depth": 0,
+        "runtime.journal.queue.dropped": 0,
+        "runtime.journal.queue.max_age_ticks": 0,
+        "runtime.presentation.coalesced_total": 0,
+        "runtime.presentation.last_changed_signal_count": 3,
+        "runtime.presentation.last_impacted_variable_count": 0,
+        "runtime.presentation.last_snapshot_count": 3,
+        "runtime.presentation.publish_total": 8,
+        "runtime.presentation.queue.depth": 0,
+        "runtime.presentation.queue.dropped": 0,
+        "runtime.presentation.queue.high_watermark": 1,
+        "runtime.presentation.queue.max_age_ticks": 0,
+        "runtime.processing.changed_signal_count": 3,
+        "runtime.processing.impacted_variable_count": 0,
+        "runtime.processing.skipped_variable_count": 4,
+        "runtime.variable.changed_last_count": 3,
+        "runtime.variable.recent_count": 29,
+        "runtime.variable.skipped_last_count": 1,
+        "runtime.variable.state_transition_last_count": 0,
+        "runtime.variable.transition_total": 8,
+        "runtime.variable.value_change_last_count": 3,
+        "runtime.variables.requested_change_count": 0,
+        "runtime.variables.state_changed_count": 0,
+        "runtime.variables.value_changed_count": 3,
+        "signals.changed.count": 3,
+        "signals.definition.count": 3,
+        "signals.skipped.count": 0,
+        "signals.snapshot.count": 3,
+        "variables.definition.count": 4,
+        "variables.impacted.count": 4,
+        "variables.last_evaluated.count": 4,
+        "variables.skipped.count": 1,
+        "variables.snapshot.count": 4
+      },
+      "timings": {
+        "adapters.discover.ms": {
+          "average_ms": 0.0926,
+          "count": 1,
+          "max_ms": 0.0926,
+          "min_ms": 0.0926,
+          "total_ms": 0.0926
+        },
+        "adapters.poll_single.ms": {
+          "average_ms": 4.935638,
+          "count": 8,
+          "max_ms": 5.0294,
+          "min_ms": 4.6859,
+          "total_ms": 39.4851
+        },
+        "device_registry.register_or_attach.ms": {
+          "average_ms": 0.0273,
+          "count": 1,
+          "max_ms": 0.0273,
+          "min_ms": 0.0273,
+          "total_ms": 0.0273
+        },
+        "runtime.acquisition.capture.ms": {
+          "average_ms": 0.012612,
+          "count": 8,
+          "max_ms": 0.0149,
+          "min_ms": 0.0079,
+          "total_ms": 0.1009
+        },
+        "runtime.acquisition.poll.ms": {
+          "average_ms": 4.94935,
+          "count": 8,
+          "max_ms": 5.0475,
+          "min_ms": 4.701,
+          "total_ms": 39.5948
+        },
+        "runtime.journal.flush.ms": {
+          "average_ms": 0.494713,
+          "count": 8,
+          "max_ms": 0.5963,
+          "min_ms": 0.3657,
+          "total_ms": 3.9577
+        },
+        "runtime.processing.cycle.ms": {
+          "average_ms": 0.559262,
+          "count": 8,
+          "max_ms": 0.6854,
+          "min_ms": 0.4082,
+          "total_ms": 4.4741
+        },
+        "variables.evaluate.ms": {
+          "average_ms": 0.039383,
+          "count": 36,
+          "max_ms": 0.1163,
+          "min_ms": 0.0093,
+          "total_ms": 1.4178
+        }
+      }
+    },
+    "runtime_status": {
+      "acquisition_queue_depth": 0,
+      "acquisition_queue_dropped": 0,
+      "acquisition_queue_high_watermark": 1,
+      "acquisition_queue_max_age_ticks": 0,
+      "journal_flush_count": 8,
+      "journal_path": "proof\\U6_FIELD_TEST_JOURNAL.jsonl",
+      "journal_queue_depth": 0,
+      "journal_queue_dropped": 0,
+      "journal_queue_max_age_ticks": 0,
+      "journal_write_count": 61,
+      "presentation_coalesced_count": 0,
+      "presentation_publish_count": 8,
+      "presentation_queue_depth": 0,
+      "presentation_queue_dropped": 0,
+      "presentation_queue_high_watermark": 1,
+      "presentation_queue_max_age_ticks": 0,
+      "recent_cycle_count": 8,
+      "recent_runtime_event_count": 0,
+      "recent_sample_count": 24,
+      "recent_signal_count": 3,
+      "recent_variable_count": 29,
+      "recent_variable_transition_count": 8
+    },
+    "runtime_truth_surface_inventory": [
+      {
+        "audience": "reviewer_and_engineering",
+        "authority": "derived_review_surface",
+        "owner_module": "src/universaldaq/app/lifecycle_orchestrator.py",
+        "purpose": "bounded lifecycle posture for the active shell session",
+        "surface": "lifecycle_summary"
+      },
+      {
+        "audience": "engineering_with_reviewer_support",
+        "authority": "device_support_pack_surface",
+        "owner_module": "src/universaldaq/app/device_lifecycle_handler.py",
+        "purpose": "device/support-pack runtime condition and recovery counters",
+        "surface": "active_adapter_status"
+      },
+      {
+        "audience": "engineering",
+        "authority": "canonical_runtime_snapshot",
+        "owner_module": "src/universaldaq/runtime/services.py",
+        "purpose": "bounded queue, journal, and presentation status counters",
+        "surface": "runtime_status"
+      },
+      {
+        "audience": "reviewer_and_engineering",
+        "authority": "runtime_event_surface",
+        "owner_module": "src/universaldaq/runtime/services.py",
+        "purpose": "meaningful runtime transitions recorded by the bounded runtime spine",
+        "surface": "recent_runtime_event_rows"
+      },
+      {
+        "audience": "reviewer_and_engineering",
+        "authority": "alarm_event_surface",
+        "owner_module": "src/universaldaq/events/services.py",
+        "purpose": "alarm lifecycle transitions and acknowledgments",
+        "surface": "recent_event_rows"
+      },
+      {
+        "audience": "reviewer_and_engineering",
+        "authority": "operator_action_surface",
+        "owner_module": "src/universaldaq/commands/services.py",
+        "purpose": "governed command/operator actions admitted or rejected by the shell",
+        "surface": "recent_command_rows"
+      },
+      {
+        "audience": "engineering",
+        "authority": "automation_claim_surface",
+        "owner_module": "src/universaldaq/automation/claims.py",
+        "purpose": "bounded automation claim/suppression continuity",
+        "surface": "recent_action_claim_rows"
+      },
+      {
+        "audience": "engineering",
+        "authority": "runtime_metrics_snapshot",
+        "owner_module": "src/universaldaq/common/metrics.py",
+        "purpose": "timings, counters, and gauges used for diagnostics and proof",
+        "surface": "runtime_performance"
+      },
+      {
+        "audience": "reviewer",
+        "authority": "derived_rollup",
+        "owner_module": "src/universaldaq/app/automation_review_handler.py",
+        "purpose": "reviewer-facing statement rendered from canonical runtime evidence",
+        "surface": "reviewer_runtime_rollup"
+      }
+    ],
+    "runtime_variable_rows": [
+      {
+        "changed": true,
+        "dependency_values": {
+          "a": "2.455451",
+          "b": "0.000200",
+          "c": "-1.257129"
+        },
+        "missing_dependencies": [],
+        "quality": "good",
+        "state": "healthy",
+        "state_transition": false,
+        "timestamp": 100,
+        "value": "0.3995073333333334",
+        "variable_id": "avg_abc"
+      },
+      {
+        "changed": true,
+        "dependency_values": {
+          "live_input_a": "2.450790"
+        },
+        "missing_dependencies": [],
+        "quality": "good",
+        "state": "healthy",
+        "state_transition": false,
+        "timestamp": 101,
+        "value": "2.450790",
+        "variable_id": "mon_input_a"
+      },
+      {
+        "changed": true,
+        "dependency_values": {
+          "a": "2.450790",
+          "b": "0.000200"
+        },
+        "missing_dependencies": [],
+        "quality": "good",
+        "state": "healthy",
+        "state_transition": false,
+        "timestamp": 101,
+        "value": "2.45059",
+        "variable_id": "delta_ab"
+      },
+      {
+        "changed": true,
+        "dependency_values": {
+          "a": "2.450790",
+          "b": "0.000200",
+          "c": "1.664395"
+        },
+        "missing_dependencies": [],
+        "quality": "good",
+        "state": "healthy",
+        "state_transition": false,
+        "timestamp": 101,
+        "value": "1.3717949999999999",
+        "variable_id": "avg_abc"
+      },
+      {
+        "changed": true,
+        "dependency_values": {
+          "live_input_a": "2.450553"
+        },
+        "missing_dependencies": [],
+        "quality": "good",
+        "state": "healthy",
+        "state_transition": false,
+        "timestamp": 102,
+        "value": "2.450553",
+        "variable_id": "mon_input_a"
+      },
+      {
+        "changed": true,
+        "dependency_values": {
+          "a": "2.450553",
+          "b": "0.000121"
+        },
+        "missing_dependencies": [],
+        "quality": "good",
+        "state": "healthy",
+        "state_transition": false,
+        "timestamp": 102,
+        "value": "2.450432",
+        "variable_id": "delta_ab"
+      },
+      {
+        "changed": true,
+        "dependency_values": {
+          "a": "2.450553",
+          "b": "0.000121",
+          "c": "1.691967"
+        },
+        "missing_dependencies": [],
+        "quality": "good",
+        "state": "healthy",
+        "state_transition": false,
+        "timestamp": 102,
+        "value": "1.3808803333333335",
+        "variable_id": "avg_abc"
+      },
+      {
+        "changed": true,
+        "dependency_values": {
+          "live_input_a": "2.450474"
+        },
+        "missing_dependencies": [],
+        "quality": "good",
+        "state": "healthy",
+        "state_transition": false,
+        "timestamp": 103,
+        "value": "2.450474",
+        "variable_id": "mon_input_a"
+      },
+      {
+        "changed": true,
+        "dependency_values": {
+          "a": "2.450474",
+          "b": "0.000121"
+        },
+        "missing_dependencies": [],
+        "quality": "good",
+        "state": "healthy",
+        "state_transition": false,
+        "timestamp": 103,
+        "value": "2.450353",
+        "variable_id": "delta_ab"
+      },
+      {
+        "changed": true,
+        "dependency_values": {
+          "a": "2.450474",
+          "b": "0.000121",
+          "c": "1.696708"
+        },
+        "missing_dependencies": [],
+        "quality": "good",
+        "state": "healthy",
+        "state_transition": false,
+        "timestamp": 103,
+        "value": "1.3824343333333333",
+        "variable_id": "avg_abc"
+      },
+      {
+        "changed": true,
+        "dependency_values": {
+          "live_input_a": "2.450790"
+        },
+        "missing_dependencies": [],
+        "quality": "good",
+        "state": "healthy",
+        "state_transition": false,
+        "timestamp": 104,
+        "value": "2.450790",
+        "variable_id": "mon_input_a"
+      },
+      {
+        "changed": true,
+        "dependency_values": {
+          "a": "2.450790",
+          "b": "0.000200"
+        },
+        "missing_dependencies": [],
+        "quality": "good",
+        "state": "healthy",
+        "state_transition": false,
+        "timestamp": 104,
+        "value": "2.45059",
+        "variable_id": "delta_ab"
+      },
+      {
+        "changed": true,
+        "dependency_values": {
+          "a": "2.450790",
+          "b": "0.000200",
+          "c": "1.703976"
+        },
+        "missing_dependencies": [],
+        "quality": "good",
+        "state": "healthy",
+        "state_transition": false,
+        "timestamp": 104,
+        "value": "1.3849886666666666",
+        "variable_id": "avg_abc"
+      },
+      {
+        "changed": true,
+        "dependency_values": {
+          "live_input_a": "2.450869"
+        },
+        "missing_dependencies": [],
+        "quality": "good",
+        "state": "healthy",
+        "state_transition": false,
+        "timestamp": 105,
+        "value": "2.450869",
+        "variable_id": "mon_input_a"
+      },
+      {
+        "changed": true,
+        "dependency_values": {
+          "a": "2.450869",
+          "b": "0.000121"
+        },
+        "missing_dependencies": [],
+        "quality": "good",
+        "state": "healthy",
+        "state_transition": false,
+        "timestamp": 105,
+        "value": "2.450748",
+        "variable_id": "delta_ab"
+      },
+      {
+        "changed": true,
+        "dependency_values": {
+          "a": "2.450869",
+          "b": "0.000121",
+          "c": "1.706346"
+        },
+        "missing_dependencies": [],
+        "quality": "good",
+        "state": "healthy",
+        "state_transition": false,
+        "timestamp": 105,
+        "value": "1.3857786666666667",
+        "variable_id": "avg_abc"
+      }
+    ],
+    "runtime_vocabulary": {
+      "alignment": {
+        "adapter_family_matches_lifecycle_family": true,
+        "adapter_family_matches_ui_family": true,
+        "adapter_state_family": "live_ready_healthy",
+        "lifecycle_summary_state_family": "live_ready_healthy",
+        "ui_family_matches_lifecycle_family": true,
+        "ui_matches_lifecycle_phase": true,
+        "ui_state_family": "live_ready_healthy"
+      },
+      "bundle_version": "v1",
+      "canonical_state": {
+        "adapter_lifecycle_state": "ready",
+        "authoritative_layer": "lifecycle_summary_phase",
+        "canonical_state_family": "live_ready_healthy",
+        "lifecycle_summary_phase": "live",
+        "reviewer_label": "live / ready / healthy",
+        "ui_phase": "live"
+      },
+      "layer_rules": [
+        {
+          "authority_scope": "shell-facing posture and operator review surface",
+          "canonical_when": "the shell is rendering current session posture",
+          "layer": "ui_phase",
+          "notes": "This layer should stay readable for operators and reviewers and does not need to expose support-pack implementation detail."
+        },
+        {
+          "authority_scope": "bounded lifecycle review summary",
+          "canonical_when": "a reviewer needs the current runtime posture for the active bounded slice",
+          "layer": "lifecycle_summary_phase",
+          "notes": "This layer is the preferred human-facing runtime state for lifecycle review bundles."
+        },
+        {
+          "authority_scope": "device/support-pack runtime condition",
+          "canonical_when": "device-specific condition is needed to explain degradation, disconnects, or recovery stages",
+          "layer": "adapter_lifecycle_state",
+          "notes": "This layer may use provider-specific states such as ready or degraded while still mapping cleanly into platform families."
+        },
+        {
+          "authority_scope": "cross-layer semantic reconciliation",
+          "canonical_when": "multiple layers must be compared without implying contradiction",
+          "layer": "state_family",
+          "notes": "This layer intentionally normalizes families, not every concrete state token."
+        },
+        {
+          "authority_scope": "PM/reviewer rollup language",
+          "canonical_when": "a package needs one concise runtime phrase that remains traceable back to runtime and adapter truth",
+          "layer": "reviewer_label",
+          "notes": "This layer is derived and must never override deeper technical evidence."
+        }
+      ],
+      "state_family_labels": {
+        "configuration_pre_run": "pre-run / configure",
+        "degraded": "degraded",
+        "disconnected": "disconnected",
+        "faulted": "faulted",
+        "initializing": "initializing",
+        "live_ready_healthy": "live / ready / healthy",
+        "recovering": "recovering",
+        "shutting_down": "shutting down",
+        "stopped": "stopped",
+        "unknown": "unknown"
+      },
+      "state_family_map": {
+        "configuration": "configuration_pre_run",
+        "configured": "configuration_pre_run",
+        "configuring": "configuration_pre_run",
+        "connected": "live_ready_healthy",
+        "degraded": "degraded",
+        "disconnected": "disconnected",
+        "discovered": "configuration_pre_run",
+        "failed": "faulted",
+        "faulted": "faulted",
+        "healthy": "live_ready_healthy",
+        "initializing": "initializing",
+        "live": "live_ready_healthy",
+        "no_device": "configuration_pre_run",
+        "ready": "live_ready_healthy",
+        "ready_to_configure": "configuration_pre_run",
+        "recovering": "recovering",
+        "shutting_down": "shutting_down",
+        "starting": "initializing",
+        "startup": "initializing",
+        "stopped": "stopped",
+        "stopping": "shutting_down",
+        "unknown": "unknown"
+      }
+    },
+    "sequence_summary": {
+      "completed_count": 0,
+      "failed_count": 0,
+      "recent_sequence_row_count": 0,
+      "running_count": 0,
+      "sequence_count": 0
+    },
+    "transition_trace": [
+      {
+        "attributes": {
+          "device_key": "labjack_u6_support:360011665",
+          "phase": "live",
+          "phase_after": "live",
+          "phase_before": "ready_to_configure",
+          "published_signals": "3",
+          "transition": "poll_active_adapter"
+        },
+        "evidence_id": "EVID-SHELL-PROF-U6-FIELDTEST-QUICKSTART-16",
+        "phase_after": "live",
+        "phase_before": "ready_to_configure",
+        "summary": "quick start initiated for active device",
+        "timestamp": 16,
+        "transition": "poll_active_adapter"
+      },
+      {
+        "attributes": {
+          "adapter_count": "1",
+          "phase_after": "live",
+          "phase_before": "live",
+          "published_signals": "3",
+          "snapshot_count": "3",
+          "transition": "poll_active_adapter"
+        },
+        "evidence_id": "EVID-SHELL-PROF-U6-FIELDTEST-ADAPTERPOLL-17",
+        "phase_after": "live",
+        "phase_before": "live",
+        "summary": "adapter poll completed",
+        "timestamp": 17,
+        "transition": "poll_active_adapter"
+      },
+      {
+        "attributes": {
+          "adapter_count": "1",
+          "phase_after": "live",
+          "phase_before": "live",
+          "published_signals": "3",
+          "snapshot_count": "3",
+          "transition": "poll_active_adapter"
+        },
+        "evidence_id": "EVID-SHELL-PROF-U6-FIELDTEST-ADAPTERPOLL-100",
+        "phase_after": "live",
+        "phase_before": "live",
+        "summary": "adapter poll completed",
+        "timestamp": 100,
+        "transition": "poll_active_adapter"
+      },
+      {
+        "attributes": {
+          "adapter_count": "1",
+          "phase_after": "live",
+          "phase_before": "live",
+          "published_signals": "3",
+          "snapshot_count": "3",
+          "transition": "poll_active_adapter"
+        },
+        "evidence_id": "EVID-SHELL-PROF-U6-FIELDTEST-ADAPTERPOLL-101",
+        "phase_after": "live",
+        "phase_before": "live",
+        "summary": "adapter poll completed",
+        "timestamp": 101,
+        "transition": "poll_active_adapter"
+      },
+      {
+        "attributes": {
+          "adapter_count": "1",
+          "phase_after": "live",
+          "phase_before": "live",
+          "published_signals": "3",
+          "snapshot_count": "3",
+          "transition": "poll_active_adapter"
+        },
+        "evidence_id": "EVID-SHELL-PROF-U6-FIELDTEST-ADAPTERPOLL-102",
+        "phase_after": "live",
+        "phase_before": "live",
+        "summary": "adapter poll completed",
+        "timestamp": 102,
+        "transition": "poll_active_adapter"
+      },
+      {
+        "attributes": {
+          "adapter_count": "1",
+          "phase_after": "live",
+          "phase_before": "live",
+          "published_signals": "3",
+          "snapshot_count": "3",
+          "transition": "poll_active_adapter"
+        },
+        "evidence_id": "EVID-SHELL-PROF-U6-FIELDTEST-ADAPTERPOLL-103",
+        "phase_after": "live",
+        "phase_before": "live",
+        "summary": "adapter poll completed",
+        "timestamp": 103,
+        "transition": "poll_active_adapter"
+      },
+      {
+        "attributes": {
+          "adapter_count": "1",
+          "phase_after": "live",
+          "phase_before": "live",
+          "published_signals": "3",
+          "snapshot_count": "3",
+          "transition": "poll_active_adapter"
+        },
+        "evidence_id": "EVID-SHELL-PROF-U6-FIELDTEST-ADAPTERPOLL-104",
+        "phase_after": "live",
+        "phase_before": "live",
+        "summary": "adapter poll completed",
+        "timestamp": 104,
+        "transition": "poll_active_adapter"
+      },
+      {
+        "attributes": {
+          "adapter_count": "1",
+          "phase_after": "live",
+          "phase_before": "live",
+          "published_signals": "3",
+          "snapshot_count": "3",
+          "transition": "poll_active_adapter"
+        },
+        "evidence_id": "EVID-SHELL-PROF-U6-FIELDTEST-ADAPTERPOLL-105",
+        "phase_after": "live",
+        "phase_before": "live",
+        "summary": "adapter poll completed",
+        "timestamp": 105,
+        "transition": "poll_active_adapter"
+      }
+    ],
+    "variable_health_summary": {
+      "degraded_count": 0,
+      "healthy_count": 4,
+      "highlighted_variables": [],
+      "invalid_count": 0,
+      "stale_count": 0,
+      "substituted_count": 0,
+      "total_variable_count": 4,
+      "unresolved_count": 0
+    },
+    "variable_snapshot_rows": [
+      {
+        "dependency_values": {
+          "a": "2.450869",
+          "b": "0.000121",
+          "c": "1.706346"
+        },
+        "quality": "good",
+        "state": "healthy",
+        "timestamp": 105,
+        "value": "1.3857786666666667",
+        "variable_id": "avg_abc"
+      },
+      {
+        "dependency_values": {
+          "avg": "1.3857786666666667"
+        },
+        "quality": "good",
+        "state": "healthy",
+        "timestamp": 105,
+        "value": "True",
+        "variable_id": "avg_nonnegative"
+      },
+      {
+        "dependency_values": {
+          "a": "2.450869",
+          "b": "0.000121"
+        },
+        "quality": "good",
+        "state": "healthy",
+        "timestamp": 105,
+        "value": "2.450748",
+        "variable_id": "delta_ab"
+      },
+      {
+        "dependency_values": {
+          "live_input_a": "2.450869"
+        },
+        "quality": "good",
+        "state": "healthy",
+        "timestamp": 105,
+        "value": "2.450869",
+        "variable_id": "mon_input_a"
+      }
+    ],
+    "workbench_review_state": {
+      "active_workbench_name": "LabJack Channel Mapper",
+      "available_workbench_names": [
+        "LabJack Channel Mapper",
+        "LabJack U6 Stream Setup",
+        "LabJack U6 Device Info"
+      ],
+      "highlighted_workbenches": [
+        "LabJack Channel Mapper",
+        "LabJack U6 Stream Setup",
+        "LabJack U6 Device Info"
+      ],
+      "total_workbench_count": 3
+    }
+  },
+  "incident_summary": {
+    "disconnect_count": 0,
+    "last_disconnect_at": null,
+    "last_disconnect_reason": null,
+    "last_recovery_at": null,
+    "last_recovery_reason": null,
+    "recovery_count": 0,
+    "session_had_disconnect": false,
+    "session_recovered_after_disconnect": false
+  },
+  "operator_events": [
+    {
+      "detail": "guided field validation started",
+      "event_type": "harness_start",
+      "phase_name": "preflight",
+      "source": "harness",
+      "timestamp": 100
+    },
+    {
+      "detail": "startup-open smoke completed after healthy baseline was confirmed",
+      "event_type": "harness_startup_smoke_complete",
+      "phase_name": "baseline",
+      "source": "harness",
+      "timestamp": 126
+    },
+    {
+      "detail": "diagnostic packaging started",
+      "event_type": "harness_packaging",
+      "phase_name": "finalization",
+      "source": "harness",
+      "timestamp": 126
+    }
+  ],
+  "phase_records": [
+    {
+      "acceptable_state_families": [
+        "live_ready_healthy"
+      ],
+      "active_alarm_count": 0,
+      "adapter_lifecycle_state": "ready",
+      "expected_state_family": "live_ready_healthy",
+      "expected_state_label": "live / ready / healthy",
+      "lifecycle_summary_phase": "live",
+      "note": "observed state family falls within the accepted phase set",
+      "observed_at_utc": "2026-03-25T21:59:57Z",
+      "observed_reviewer_label": "live / ready / healthy",
+      "observed_state_family": "live_ready_healthy",
+      "phase_end_timestamp": 105,
+      "phase_label": "Baseline nominal sampling",
+      "phase_name": "baseline",
+      "phase_start_timestamp": 100,
+      "poll_cycles": 6,
+      "rationale": "The bounded slice should reach a healthy live posture before the disturbance is introduced.",
+      "recent_event_count": 0,
+      "recent_runtime_event_count": 0,
+      "status": "PASS",
+      "strict_expectation": true,
+      "ui_phase": "live"
+    }
+  ],
+  "preflight_report": {
+    "active_adapter_id": "LABJACK-U6-REAL-360011665",
+    "direct_open_probe": {
+      "ain0_value": "2.451817",
+      "calibration_loaded": true,
+      "close_succeeded": false,
+      "detail_rows": [
+        {
+          "serial_arg": null,
+          "stage": "open",
+          "status": "success",
+          "strategy": "constructor_first_found"
+        },
+        {
+          "stage": "calibration",
+          "status": "success",
+          "strategy": "constructor_first_found"
+        }
+      ],
+      "driver_name": "u6",
+      "error_message": null,
+      "error_type": null,
+      "firmware_version": "1.39",
+      "hardware_revision": "2.00",
+      "open_stage": "first_read",
+      "open_strategy": "constructor_first_found",
+      "requested_serial_number": null,
+      "resolved_serial_number": "360011665",
+      "success": true
+    },
+    "discovered_devices": [
+      {
+        "device_key": "generic_adapter_inventory:SIM-READ-001",
+        "display_name": "SIM-READ-001",
+        "provider_id": "generic_adapter_inventory",
+        "serial_number": "",
+        "transport": "generic-adapter"
+      },
+      {
+        "device_key": "generic_adapter_inventory:SIM-WRITE-001",
+        "display_name": "SIM-WRITE-001",
+        "provider_id": "generic_adapter_inventory",
+        "serial_number": "",
+        "transport": "generic-adapter"
+      },
+      {
+        "device_key": "labjack_u6_support:360011665",
+        "display_name": "LabJack U6 (360011665)",
+        "provider_id": "labjack_u6_support",
+        "serial_number": "360011665",
+        "transport": "usb"
+      }
+    ],
+    "discovery_strategy": "prevalidated_probe_rows",
+    "entered_mode": "real",
+    "generated_at_utc": "2026-03-25T21:59:57Z",
+    "journal_path": "C:\\Users\\iaq16\\Documents\\Code\\uDAQ\\20260325_06_reconnect-path-alignment-correction\\proof\\U6_FIELD_TEST_JOURNAL.jsonl",
+    "output_directory": "C:\\Users\\iaq16\\Documents\\Code\\uDAQ\\20260325_06_reconnect-path-alignment-correction\\proof\\field_tests\\20260325_01_real-u6-startup-open-smoke",
+    "package_identity": {
+      "disposition": "IMPLEMENTATION_ENTRY_OPTIMIZATION",
+      "package_date": "2026-03-25",
+      "package_id": "UDQ-PKG-20260325-IMPLEMENTATION-ENTRY-OPTIMIZATION-R02",
+      "package_slug": "implementation-entry-optimization",
+      "run_id": "R02"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "platform_release": "11",
+    "platform_system": "Windows",
+    "profile_id": "PROF-U6-FIELDTEST",
+    "python_implementation": "CPython",
+    "python_version": "3.13.5",
+    "real_hardware_requested": true,
+    "requested_mode": "real",
+    "run_stem": "20260325_01_real-u6-startup-open-smoke",
+    "serial_number": "360011665",
+    "stale_artifact_count_in_output_root": 4,
+    "validation_flow": "startup_open_smoke"
+  },
+  "recovery_analysis": {
+    "active_adapter_rebound_observed": false,
+    "backend_reopen_failure_count": 0,
+    "backend_reopen_observed": false,
+    "last_recovery_failure_reason": null,
+    "last_recovery_failure_stage": null,
+    "post_disconnect_successful_poll_observed": false,
+    "reconnect_attempt_started": false,
+    "recovered": false,
+    "recovery_stage": "startup_open_attempted",
+    "rediscovery_observed": "not_required",
+    "rediscovery_required": false,
+    "runtime_event_types": [],
+    "stabilization_observed": false,
+    "stabilization_reviewer_label": null,
+    "stabilization_state_family": null
+  },
+  "semantic_consistency": {
+    "advisory_count": 1,
+    "check_count": 10,
+    "checks": [
+      {
+        "message": "rollup state family `live_ready_healthy` matches canonical runtime state family.",
+        "name": "rollup_matches_canonical_state",
+        "severity": "PASS",
+        "status": "PASS"
+      },
+      {
+        "message": "reviewer summary matches the canonical bundle renderer.",
+        "name": "reviewer_summary_matches_canonical_bundle",
+        "severity": "PASS",
+        "status": "PASS"
+      },
+      {
+        "message": "final phase posture matches the reviewer rollup state family.",
+        "name": "final_phase_matches_rollup",
+        "severity": "PASS",
+        "status": "PASS"
+      },
+      {
+        "message": "all strict phase expectations passed.",
+        "name": "phase_expectations_hold",
+        "severity": "PASS",
+        "status": "PASS"
+      },
+      {
+        "message": "operator and harness markers remain distinct from runtime event rows.",
+        "name": "operator_markers_are_distinct",
+        "severity": "PASS",
+        "status": "PASS"
+      },
+      {
+        "message": "no disconnect evidence was required for this run.",
+        "name": "disconnect_has_runtime_evidence",
+        "severity": "PASS",
+        "status": "PASS"
+      },
+      {
+        "message": "no recovery evidence was required for this run.",
+        "name": "recovery_has_runtime_evidence",
+        "severity": "PASS",
+        "status": "PASS"
+      },
+      {
+        "message": "required phase records are present.",
+        "name": "phase_records_complete",
+        "severity": "PASS",
+        "status": "PASS"
+      },
+      {
+        "message": "startup-open smoke reached a healthy live baseline posture.",
+        "name": "real_mode_startup_baseline_present",
+        "severity": "PASS",
+        "status": "PASS"
+      },
+      {
+        "message": "startup-open run did not retain explicit startup/open-class runtime rows in the recent event window.",
+        "name": "startup_open_has_runtime_evidence",
+        "severity": "ADVISORY",
+        "status": "ADVISORY"
+      }
+    ],
+    "fail_count": 0,
+    "summary": "Runtime evidence consistency passed with advisories.",
+    "verdict": "PASS WITH ADVISORIES"
+  },
+  "session_metadata": {
+    "active_adapter_id": "LABJACK-U6-REAL-360011665",
+    "baseline_gate_passed": true,
+    "direct_open_probe": {
+      "ain0_value": "2.451817",
+      "calibration_loaded": true,
+      "close_succeeded": false,
+      "detail_rows": [
+        {
+          "serial_arg": null,
+          "stage": "open",
+          "status": "success",
+          "strategy": "constructor_first_found"
+        },
+        {
+          "stage": "calibration",
+          "status": "success",
+          "strategy": "constructor_first_found"
+        }
+      ],
+      "driver_name": "u6",
+      "error_message": null,
+      "error_type": null,
+      "firmware_version": "1.39",
+      "hardware_revision": "2.00",
+      "open_stage": "first_read",
+      "open_strategy": "constructor_first_found",
+      "requested_serial_number": null,
+      "resolved_serial_number": "360011665",
+      "success": true
+    },
+    "discovered_devices": [
+      {
+        "device_key": "generic_adapter_inventory:SIM-READ-001",
+        "display_name": "SIM-READ-001",
+        "provider_id": "generic_adapter_inventory",
+        "serial_number": "",
+        "transport": "generic-adapter"
+      },
+      {
+        "device_key": "generic_adapter_inventory:SIM-WRITE-001",
+        "display_name": "SIM-WRITE-001",
+        "provider_id": "generic_adapter_inventory",
+        "serial_number": "",
+        "transport": "generic-adapter"
+      },
+      {
+        "device_key": "labjack_u6_support:360011665",
+        "display_name": "LabJack U6 (360011665)",
+        "provider_id": "labjack_u6_support",
+        "serial_number": "360011665",
+        "transport": "usb"
+      }
+    ],
+    "discovery_strategy": "prevalidated_probe_rows",
+    "entered_mode": "real",
+    "journal_path": "C:\\Users\\iaq16\\Documents\\Code\\uDAQ\\20260325_06_reconnect-path-alignment-correction\\proof\\U6_FIELD_TEST_JOURNAL.jsonl",
+    "package_id": "UDQ-PKG-20260325-IMPLEMENTATION-ENTRY-OPTIMIZATION-R02",
+    "requested_mode": "real",
+    "run_stem": "20260325_01_real-u6-startup-open-smoke",
+    "serial_number": "360011665",
+    "validation_flow": "startup_open_smoke"
+  }
+}

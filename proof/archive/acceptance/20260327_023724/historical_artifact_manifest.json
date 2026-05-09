@@ -1,0 +1,43 @@
+{
+  "archived_acceptance_run": "20260327_023724",
+  "retention_reason": "superseded acceptance run demoted to archive summary to keep one canonical active acceptance lane",
+  "preserved_files": [
+    "acceptance_report.md",
+    "acceptance_report.json"
+  ],
+  "omitted_raw_subtrees": [
+    {
+      "name": "cross_device_acquisition",
+      "files": 343,
+      "bytes": 2219228
+    },
+    {
+      "name": "cross_device_command_arbitration",
+      "files": 38,
+      "bytes": 261632
+    },
+    {
+      "name": "fault_injection",
+      "files": 45,
+      "bytes": 211957
+    },
+    {
+      "name": "real_hardware_bridge",
+      "files": 2,
+      "bytes": 990
+    },
+    {
+      "name": "repeatability",
+      "files": 167,
+      "bytes": 947586
+    },
+    {
+      "name": "reviewability",
+      "files": 55,
+      "bytes": 315437
+    }
+  ],
+  "omitted_file_count": 650,
+  "omitted_byte_count": 3956830,
+  "canonical_active_acceptance_run": "20260327_025549"
+}

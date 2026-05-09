@@ -1,0 +1,99 @@
+UDQ U6 Guided Field Validation Summary
+=====================================
+bundle_dir: C:\Users\iaq16\Documents\Code\uDAQ\20260325_06_reconnect-path-alignment-correction\proof\field_tests\20260325_02_real-u6-guided-unplug-replug-validation
+validation_flow: guided_unplug_replug_validation
+run_stem: 20260325_02_real-u6-guided-unplug-replug-validation
+mode_requested: real
+mode_entered: real
+serial_number: 360011665
+capture_count: 4
+discovery_strategy: prevalidated_probe_rows
+semantic_verdict: PASS
+semantic_verdict_reason: Runtime evidence consistency checks passed.
+
+Session Inventory
+-----------------
+discovered_support_pack_device_count: 3
+- generic_adapter_inventory:SIM-READ-001: SIM-READ-001 (provider=generic_adapter_inventory, serial=)
+- generic_adapter_inventory:SIM-WRITE-001: SIM-WRITE-001 (provider=generic_adapter_inventory, serial=)
+- labjack_u6_support:360011665: LabJack U6 (360011665) (provider=labjack_u6_support, serial=360011665)
+
+Direct-open probe
+-----------------
+success: True
+resolved_serial_number: 360011665
+open_strategy: constructor_first_found
+open_stage: first_read
+ain0_value: 2.449210
+error_message: None
+
+Incident Summary
+----------------
+disconnect_count: 1
+recovery_count: 1
+session_had_disconnect: True
+session_recovered_after_disconnect: True
+last_disconnect_at: 126
+last_disconnect_reason: real LabJack U6 backend init failed [open/open_all_match_serial]: open via open_all_match_serial: requested serial not returned by openAllU6
+last_recovery_at: 152
+last_recovery_reason: real_device_recovered
+
+Recovery Analysis
+-----------------
+reconnect_attempt_started: True
+backend_reopen_observed: True
+active_adapter_rebound_observed: True
+post_disconnect_successful_poll_observed: True
+recovered: True
+recovery_stage: recovered
+stabilization_state_family: live_ready_healthy
+last_recovery_failure_stage: None
+last_recovery_failure_reason: None
+
+Phase Timeline
+--------------
+- baseline: status=PASS observed=live / ready / healthy (family=live_ready_healthy) expected=live / ready / healthy
+- device_loss_window: status=PASS observed=disconnected (family=disconnected) expected=disconnected
+- recovery_window: status=PASS observed=live / ready / healthy (family=live_ready_healthy) expected=recovering
+- post_recovery_stabilization: status=PASS observed=live / ready / healthy (family=live_ready_healthy) expected=live / ready / healthy
+
+Reviewer Runtime Rollup
+-----------------------
+state_family: live_ready_healthy
+reviewer_label: live / ready / healthy
+summary: Runtime posture is live / ready / healthy; alarms=0, disconnects=1, recoveries=1.
+
+Canonical Runtime Evidence Bundle
+---------------------------------
+bundle_version: v1
+recent_runtime_event_count: 16
+recent_alarm_event_count: 0
+recent_operator_action_count: 0
+
+Semantic Consistency Checks
+---------------------------
+- PASS: rollup_matches_canonical_state — rollup state family `live_ready_healthy` matches canonical runtime state family.
+- PASS: reviewer_summary_matches_canonical_bundle — reviewer summary matches the canonical bundle renderer.
+- PASS: final_phase_matches_rollup — final phase posture matches the reviewer rollup state family.
+- PASS: phase_expectations_hold — all strict phase expectations passed.
+- PASS: operator_markers_are_distinct — operator and harness markers remain distinct from runtime event rows.
+- PASS: disconnect_has_runtime_evidence — disconnect count is supported by runtime-event or phase evidence.
+- PASS: recovery_has_runtime_evidence — recovery count is supported by runtime-event or stabilization evidence.
+- PASS: phase_records_complete — required phase records are present.
+- PASS: real_mode_disconnect_observed — real hardware disconnect window produced an observable disturbance.
+- PASS: real_mode_stabilization_observed — real hardware run returned to a healthy live posture during stabilization.
+
+Output Files
+------------
+20260325_02_real-u6-guided-unplug-replug-validation__start-here.txt
+20260325_02_real-u6-guided-unplug-replug-validation__summary.txt
+20260325_02_real-u6-guided-unplug-replug-validation__review-summary.md
+20260325_02_real-u6-guided-unplug-replug-validation__preflight-report.json
+20260325_02_real-u6-guided-unplug-replug-validation__preflight-report.txt
+20260325_02_real-u6-guided-unplug-replug-validation__events.csv
+20260325_02_real-u6-guided-unplug-replug-validation__diagnostics.json
+20260325_02_real-u6-guided-unplug-replug-validation__semantic-consistency-verdict.json
+20260325_02_real-u6-guided-unplug-replug-validation__semantic-consistency-verdict.txt
+20260325_02_real-u6-guided-unplug-replug-validation__artifact-manifest.json
+20260325_02_real-u6-guided-unplug-replug-validation__artifact-manifest.txt
+20260325_02_real-u6-guided-unplug-replug-validation__smoke.txt

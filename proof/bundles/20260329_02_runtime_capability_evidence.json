@@ -1,0 +1,111 @@
+{
+  "enhanced": {
+    "devices": [
+      {
+        "activation_available": true,
+        "capability_mode": "generic_baseline",
+        "device_key": "generic_adapter_inventory:SIM-READ-001",
+        "display_name": "SIM-READ-001",
+        "identity_state": "generic_identity",
+        "limited_access_reason": "running in generic baseline mode; richer protocol or vendor-specific semantics may require an optional support pack",
+        "metadata": {
+          "adapter_kind": "simulated",
+          "operation_mode": "polled"
+        },
+        "provider_id": "generic_adapter_inventory",
+        "read_state": "readable",
+        "readable_point_count": 2,
+        "support_tier": "generic",
+        "transport": "generic-adapter",
+        "writable_point_count": 0,
+        "write_state": "not_writable"
+      },
+      {
+        "activation_available": true,
+        "capability_mode": "generic_baseline",
+        "device_key": "generic_adapter_inventory:SIM-WRITE-001",
+        "display_name": "SIM-WRITE-001",
+        "identity_state": "generic_identity",
+        "limited_access_reason": "running in generic baseline mode; richer protocol or vendor-specific semantics may require an optional support pack",
+        "metadata": {
+          "adapter_kind": "simulated",
+          "operation_mode": "polled"
+        },
+        "provider_id": "generic_adapter_inventory",
+        "read_state": "readable",
+        "readable_point_count": 3,
+        "support_tier": "generic",
+        "transport": "generic-adapter",
+        "writable_point_count": 3,
+        "write_state": "writable"
+      },
+      {
+        "activation_available": false,
+        "capability_mode": "enhanced_support_pack",
+        "device_key": "labjack_u6_support:470001",
+        "display_name": "LabJack U6 (470001)",
+        "identity_state": "known_identity",
+        "limited_access_reason": "device presence is known but no activation path is currently available",
+        "metadata": {
+          "driver_available": "false",
+          "driver_name": "not-installed",
+          "hardware_mode": "simulated"
+        },
+        "provider_id": "labjack_u6_support",
+        "read_state": "unknown",
+        "readable_point_count": 0,
+        "support_tier": "enhanced",
+        "transport": "usb",
+        "writable_point_count": 0,
+        "write_state": "unknown"
+      }
+    ],
+    "summary": "generic discovery available with 3 device(s); no optional support packs loaded",
+    "support_packs": []
+  },
+  "generic": {
+    "devices": [
+      {
+        "activation_available": true,
+        "capability_mode": "generic_baseline",
+        "device_key": "generic_adapter_inventory:SIM-READ-001",
+        "display_name": "SIM-READ-001",
+        "identity_state": "generic_identity",
+        "limited_access_reason": "running in generic baseline mode; richer protocol or vendor-specific semantics may require an optional support pack",
+        "metadata": {
+          "adapter_kind": "simulated",
+          "operation_mode": "polled"
+        },
+        "provider_id": "generic_adapter_inventory",
+        "read_state": "readable",
+        "readable_point_count": 2,
+        "support_tier": "generic",
+        "transport": "generic-adapter",
+        "writable_point_count": 0,
+        "write_state": "not_writable"
+      },
+      {
+        "activation_available": true,
+        "capability_mode": "generic_baseline",
+        "device_key": "generic_adapter_inventory:SIM-WRITE-001",
+        "display_name": "SIM-WRITE-001",
+        "identity_state": "generic_identity",
+        "limited_access_reason": "running in generic baseline mode; richer protocol or vendor-specific semantics may require an optional support pack",
+        "metadata": {
+          "adapter_kind": "simulated",
+          "operation_mode": "polled"
+        },
+        "provider_id": "generic_adapter_inventory",
+        "read_state": "readable",
+        "readable_point_count": 3,
+        "support_tier": "generic",
+        "transport": "generic-adapter",
+        "writable_point_count": 3,
+        "write_state": "writable"
+      }
+    ],
+    "summary": "generic discovery available with 2 device(s); no optional support packs loaded",
+    "support_packs": []
+  },
+  "policy_note": "optional support packs enrich discovery and semantics, but generic baseline discovery remains present without them"
+}

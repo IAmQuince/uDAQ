@@ -1,0 +1,69 @@
+{
+  "advisory_count": 0,
+  "check_count": 10,
+  "checks": [
+    {
+      "message": "rollup state family `live_ready_healthy` matches canonical runtime state family.",
+      "name": "rollup_matches_canonical_state",
+      "severity": "PASS",
+      "status": "PASS"
+    },
+    {
+      "message": "reviewer summary matches the canonical bundle renderer.",
+      "name": "reviewer_summary_matches_canonical_bundle",
+      "severity": "PASS",
+      "status": "PASS"
+    },
+    {
+      "message": "final phase posture matches the reviewer rollup state family.",
+      "name": "final_phase_matches_rollup",
+      "severity": "PASS",
+      "status": "PASS"
+    },
+    {
+      "message": "all strict phase expectations passed.",
+      "name": "phase_expectations_hold",
+      "severity": "PASS",
+      "status": "PASS"
+    },
+    {
+      "message": "operator and harness markers remain distinct from runtime event rows.",
+      "name": "operator_markers_are_distinct",
+      "severity": "PASS",
+      "status": "PASS"
+    },
+    {
+      "message": "disconnect count is supported by runtime-event or phase evidence.",
+      "name": "disconnect_has_runtime_evidence",
+      "severity": "PASS",
+      "status": "PASS"
+    },
+    {
+      "message": "recovery count is supported by runtime-event or stabilization evidence.",
+      "name": "recovery_has_runtime_evidence",
+      "severity": "PASS",
+      "status": "PASS"
+    },
+    {
+      "message": "required phase records are present.",
+      "name": "phase_records_complete",
+      "severity": "PASS",
+      "status": "PASS"
+    },
+    {
+      "message": "real hardware disconnect window produced an observable disturbance.",
+      "name": "real_mode_disconnect_observed",
+      "severity": "PASS",
+      "status": "PASS"
+    },
+    {
+      "message": "real hardware run returned to a healthy live posture during stabilization.",
+      "name": "real_mode_stabilization_observed",
+      "severity": "PASS",
+      "status": "PASS"
+    }
+  ],
+  "fail_count": 0,
+  "summary": "Runtime evidence consistency checks passed.",
+  "verdict": "PASS"
+}

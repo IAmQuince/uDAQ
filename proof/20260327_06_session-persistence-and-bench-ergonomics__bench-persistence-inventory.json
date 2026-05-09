@@ -1,0 +1,125 @@
+{
+  "package_id": "UDQ-PKG-20260327-SESSION-PERSISTENCE-AND-BENCH-ERGONOMICS-R01",
+  "package_slug": "session-persistence-and-bench-ergonomics",
+  "saved_state": {
+    "schema_version": 1,
+    "saved_at": 9,
+    "profile_snapshot": {
+      "profile_id": "PROF-BENCH-PERSIST",
+      "workspace_state": {
+        "page": "graphing",
+        "review_mode": "live",
+        "visible_traces": []
+      }
+    },
+    "preferred_adapter_id": "DEMO-FIRST-SIGNAL-001",
+    "preferred_device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+    "preferred_channel_key": "DEMO-FIRST-SIGNAL-001:demo_wave_0",
+    "historical_summary": {
+      "summary_id": "SUM-SESSION-PROF-BENCH-PERSIST-2-9",
+      "saved_at": 9,
+      "session_id": "SESSION-PROF-BENCH-PERSIST-2",
+      "profile_id": "PROF-BENCH-PERSIST",
+      "workspace_state": {
+        "page": "graphing",
+        "review_mode": "live",
+        "visible_traces": []
+      },
+      "preferred_adapter_id": "DEMO-FIRST-SIGNAL-001",
+      "preferred_device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+      "preferred_channel_key": "DEMO-FIRST-SIGNAL-001:demo_wave_0",
+      "control_mode_label": "armed_control",
+      "signal_freshness_label": "simulated",
+      "last_signal_display_name": "Wave 0",
+      "last_signal_value": "1.250",
+      "last_signal_units": "V",
+      "alarm_posture": null,
+      "recent_action_count": 6,
+      "flight_record_ready": true,
+      "operator_notes": [
+        {
+          "note_id": "NOTE-SESSION-PROF-BENCH-PERSIST-2-8-1",
+          "timestamp": 8,
+          "text": "Started bench persistence check",
+          "category": "bench_note",
+          "actor_id": "bench-operator"
+        }
+      ]
+    },
+    "pending_note_draft": "Check tubing before reconnect",
+    "restored_historical_only": true
+  },
+  "restored_view_model": {
+    "preferred_adapter_id": "DEMO-FIRST-SIGNAL-001",
+    "preferred_device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+    "preferred_channel_key": "DEMO-FIRST-SIGNAL-001:demo_wave_0",
+    "restored_historical_context_label": "restored context remains historical until a live reconnect occurs",
+    "session_note_count": 1,
+    "pending_note_draft": "Check tubing before reconnect"
+  },
+  "recent_summary_ids": [
+    "SUM-SESSION-PROF-BENCH-PERSIST-2-9"
+  ],
+  "flight_record": {
+    "session_id": "SESSION-PROF-BENCH-PERSIST-11",
+    "actor": {
+      "actor_id": "bench-operator",
+      "role_class": "operator",
+      "origin": "local-shell"
+    },
+    "control_posture": "armed_control",
+    "first_signal_replay_tape": null,
+    "trusted_session_inventory": {
+      "lifecycle_state": "no_device",
+      "graph_status_label": "pending",
+      "live_numeric_visible": false,
+      "graph_visible": false,
+      "trace_point_count": 0,
+      "trace_span_seconds": null,
+      "latest_value_age_seconds": null,
+      "disconnect_count": 0,
+      "reconnect_count": 0,
+      "session_event_count": 0,
+      "ready_for_operator": false,
+      "last_event_summary": null,
+      "sparkline": "",
+      "signal_quality_label": null,
+      "signal_freshness_label": "pending",
+      "control_mode_label": "armed_control",
+      "active_alarm_count": 0,
+      "unacknowledged_alarm_count": 0,
+      "highest_active_severity": null,
+      "recent_action_count": 0,
+      "flight_record_ready": false,
+      "truthfulness_warnings": [],
+      "signal_provenance": {
+        "source_device_key": null,
+        "source_adapter_id": null,
+        "device_identity_key": null,
+        "source_transport": null,
+        "hardware_channel": null,
+        "provenance_label": null,
+        "channel_metadata": {}
+      },
+      "alarm_summary": {
+        "definition_count": 0,
+        "active_alarm_count": 0,
+        "unacknowledged_alarm_count": 0,
+        "highest_active_severity": null,
+        "recent_domain_event_count": 0
+      },
+      "active_alarm_rows": [],
+      "recent_domain_events": [],
+      "recent_events": [],
+      "recent_actions": [],
+      "trace_numeric_points": []
+    },
+    "authorization_history": [],
+    "command_trace_count": 0,
+    "alarm_lifecycle_count": 0,
+    "shell_evidence_count": 0,
+    "operator_note_count": 1,
+    "last_persisted_session_summary_id": "SUM-SESSION-PROF-BENCH-PERSIST-2-9",
+    "preferred_channel_key": "DEMO-FIRST-SIGNAL-001:demo_wave_0"
+  }
+}

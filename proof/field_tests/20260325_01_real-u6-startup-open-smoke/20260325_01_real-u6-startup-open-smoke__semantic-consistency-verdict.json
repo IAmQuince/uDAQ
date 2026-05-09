@@ -1,0 +1,69 @@
+{
+  "advisory_count": 1,
+  "check_count": 10,
+  "checks": [
+    {
+      "message": "rollup state family `live_ready_healthy` matches canonical runtime state family.",
+      "name": "rollup_matches_canonical_state",
+      "severity": "PASS",
+      "status": "PASS"
+    },
+    {
+      "message": "reviewer summary matches the canonical bundle renderer.",
+      "name": "reviewer_summary_matches_canonical_bundle",
+      "severity": "PASS",
+      "status": "PASS"
+    },
+    {
+      "message": "final phase posture matches the reviewer rollup state family.",
+      "name": "final_phase_matches_rollup",
+      "severity": "PASS",
+      "status": "PASS"
+    },
+    {
+      "message": "all strict phase expectations passed.",
+      "name": "phase_expectations_hold",
+      "severity": "PASS",
+      "status": "PASS"
+    },
+    {
+      "message": "operator and harness markers remain distinct from runtime event rows.",
+      "name": "operator_markers_are_distinct",
+      "severity": "PASS",
+      "status": "PASS"
+    },
+    {
+      "message": "no disconnect evidence was required for this run.",
+      "name": "disconnect_has_runtime_evidence",
+      "severity": "PASS",
+      "status": "PASS"
+    },
+    {
+      "message": "no recovery evidence was required for this run.",
+      "name": "recovery_has_runtime_evidence",
+      "severity": "PASS",
+      "status": "PASS"
+    },
+    {
+      "message": "required phase records are present.",
+      "name": "phase_records_complete",
+      "severity": "PASS",
+      "status": "PASS"
+    },
+    {
+      "message": "startup-open smoke reached a healthy live baseline posture.",
+      "name": "real_mode_startup_baseline_present",
+      "severity": "PASS",
+      "status": "PASS"
+    },
+    {
+      "message": "startup-open run did not retain explicit startup/open-class runtime rows in the recent event window.",
+      "name": "startup_open_has_runtime_evidence",
+      "severity": "ADVISORY",
+      "status": "ADVISORY"
+    }
+  ],
+  "fail_count": 0,
+  "summary": "Runtime evidence consistency passed with advisories.",
+  "verdict": "PASS WITH ADVISORIES"
+}

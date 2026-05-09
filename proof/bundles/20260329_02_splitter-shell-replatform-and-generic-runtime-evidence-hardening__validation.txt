@@ -1,0 +1,30 @@
+UniversalDAQ validation log
+Package: UDQ-PKG-20260329-SPLITTER-SHELL-REPLATFORM-AND-GENERIC-RUNTIME-EVIDENCE-HARDENING-R01
+Run: 20260329_02_splitter-shell-replatform-and-generic-runtime-evidence-hardening
+
+Completed:
+- python -m py_compile src/universaldaq/ui/layout_state.py src/universaldaq/adapters/capability_reports.py src/universaldaq/ui/qt_shell.py src/universaldaq/ui/visible_shell.py tools/diagnostics/dump_runtime_capability_evidence.py tools/diagnostics/dump_shell_geometry_policy.py
+- python -m pytest -q tests/invariants/test_invariant_no_device_sdk_imports_in_shell_or_app.py tests/meta/test_meta_readme_control.py tests/meta/test_meta_package_entry_surfaces.py tests/contract/test_contract_runtime_capability_survey_generic_baseline.py tests/contract/test_contract_runtime_capability_survey_evidence_states.py tests/contract/test_contract_shell_layout_state_policy.py tests/smoke/test_smoke_runtime_capability_evidence.py tests/smoke/test_smoke_shell_geometry_policy.py
+- python -m tools.governance.validate_readme_control --package-root .
+- python -m tools.governance.validate_package_entry_surfaces --package-root .
+- python -m tools.dev.run_boundary_smoke --package-root .
+- python -m tools.diagnostics.dump_runtime_capability_evidence
+- python -m tools.diagnostics.dump_shell_geometry_policy
+
+Results:
+- py_compile: PASS
+- targeted pytest subset: PASS (14 passed)
+- readme-control validation: PASS
+- package-entry validation: PASS
+- boundary smoke: PASS
+- runtime capability evidence diagnostic: PASS
+- shell geometry policy diagnostic: PASS
+
+Not runtime-verified here:
+- full PySide6 widget behavior
+- actual splitter-host interaction on a Qt-enabled bench
+- real screen restore behavior under Windows DPI scaling
+
+Generated proof artifacts:
+- proof/bundles/20260329_02_runtime_capability_evidence.json
+- proof/bundles/20260329_02_shell_geometry_policy.json

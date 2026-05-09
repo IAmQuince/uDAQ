@@ -1,0 +1,15 @@
+{
+  "checklist": [
+    "Launch the shell and confirm it fits entirely within the usable screen.",
+    "Resize the left explorer, center region, right control column, and bottom events region.",
+    "Switch to Logic Designer and confirm the graph enters Compact PiP mode.",
+    "Drag and resize the PiP graph; then switch back to Operate and confirm Primary graph mode returns.",
+    "Use Restore Default Layout, Reset Panel Sizes, and Reset Layout Cache; confirm each behaves distinctly.",
+    "Inspect the System workspace and confirm Mapping Drafts remain explicitly non-authoritative.",
+    "Close the shell normally so the desktop bench diagnostics artifact is written automatically."
+  ],
+  "diagnostics_path": "/mnt/data/udq_run04/proof/bundles/20260329_04_desktop_bench_diagnostics.json",
+  "launch_command": "python -m tools.ui.run_desktop_bench_harness --package-root \"/mnt/data/udq_run04\" --diagnostics-path \"/mnt/data/udq_run04/proof/bundles/20260329_04_desktop_bench_diagnostics.json\"",
+  "package_root": "/mnt/data/udq_run04",
+  "runbook_path": "/mnt/data/udq_run04/proof/bundles/20260329_04_desktop_bench_diagnostics.md"
+}

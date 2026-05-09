@@ -1,0 +1,150 @@
+{
+  "package_id": "UDQ-PKG-2026-03-22-shell-semantics",
+  "generated_at": "2026-03-22T11:06:30-04:00",
+  "public_api": {
+    "app": {
+      "module_id": "UDQ-CODE-PKG-APP",
+      "exports": [
+        "AUTOSAVE_PROFILE_ID",
+        "BootstrappedShell",
+        "LAST_SESSION_PROFILE_ID",
+        "MODULE_DECLARATION",
+        "ShellActionResult",
+        "ShellBootstrapper",
+        "ShellController",
+        "ShellServiceRegistry",
+        "ShellSession",
+        "SprintOneModelSlice",
+        "build_default_service_registry"
+      ]
+    },
+    "signals": {
+      "module_id": "UDQ-CODE-PKG-SIGNALS",
+      "exports": [
+        "DerivedEvaluationResult",
+        "DerivedSignalDefinition",
+        "MODULE_DECLARATION",
+        "SignalDefinition",
+        "SignalRegistry",
+        "SignalSnapshot",
+        "dependency_graph",
+        "find_cycles",
+        "validate_derived_signals",
+        "validate_for_activation"
+      ]
+    },
+    "outputs": {
+      "module_id": "UDQ-CODE-PKG-OUTPUTS",
+      "exports": [
+        "ArbitrationOutcome",
+        "CommandTrace",
+        "CommandTraceFactory",
+        "MODULE_DECLARATION",
+        "OutputAppliedState",
+        "OutputArbiter",
+        "OutputCommandService",
+        "OutputComparison",
+        "OutputObservedState",
+        "OutputRequest",
+        "validate_command_trace"
+      ]
+    },
+    "events": {
+      "module_id": "UDQ-CODE-PKG-EVENTS",
+      "exports": [
+        "AlarmLifecycle",
+        "AlarmLifecycleService",
+        "AlarmTransition",
+        "MODULE_DECLARATION"
+      ]
+    },
+    "profiles": {
+      "module_id": "UDQ-CODE-PKG-PROFILES",
+      "exports": [
+        "FileProfileStore",
+        "InMemoryProfileStore",
+        "MODULE_DECLARATION",
+        "ProfileSnapshot",
+        "RestorePlan",
+        "RestorePlanner",
+        "RestoreResult",
+        "WorkspaceState",
+        "deserialize_profile_snapshot",
+        "deserialize_workspace_state",
+        "serialize_profile_snapshot",
+        "serialize_workspace_state"
+      ]
+    },
+    "historian": {
+      "module_id": "UDQ-CODE-PKG-HISTORIAN",
+      "exports": [
+        "EvidenceBundle",
+        "EvidenceBundleService",
+        "MODULE_DECLARATION",
+        "ProofBundleSummary",
+        "summarize_bundle"
+      ]
+    },
+    "ui": {
+      "module_id": "UDQ-CODE-PKG-UI",
+      "exports": [
+        "AuthoritySurface",
+        "GraphModeSession",
+        "GraphPanelViewModel",
+        "MODULE_DECLARATION",
+        "ShellViewModel",
+        "ShellViewModelBuilder",
+        "UISessionFactory",
+        "UISessionState"
+      ]
+    }
+  },
+  "service_inventory": {
+    "signals": "SignalRegistry",
+    "outputs": "OutputCommandService",
+    "events": "AlarmLifecycleService",
+    "profiles": "InMemoryProfileStore",
+    "historian": "EvidenceBundleService"
+  },
+  "sample_asset_coverage": {
+    "runtime/sample_configs": {
+      "count": 1,
+      "entries": [
+        ".gitkeep"
+      ]
+    },
+    "runtime/sample_exports": {
+      "count": 1,
+      "entries": [
+        ".gitkeep"
+      ]
+    },
+    "runtime/sample_profiles": {
+      "count": 1,
+      "entries": [
+        ".gitkeep"
+      ]
+    },
+    "tests/data": {
+      "count": 9,
+      "entries": [
+        "first_slice_execution_contract.json",
+        "first_slice_invariant_registry.json",
+        "first_slice_requirement_pack.json",
+        "first_slice_worked_examples.json",
+        "sample_alarm_lifecycle_trace.json",
+        "sample_applied_observed_mismatch_trace.json",
+        "sample_blocked_command_trace.json",
+        "sample_graph_mode_trace.json",
+        "sample_restore_workspace_state.json"
+      ]
+    }
+  },
+  "status": {
+    "bounded_public_surface_frozen": true,
+    "device_writes_present": false,
+    "remote_runtime_present": false,
+    "rules_runtime_present": false,
+    "sequence_runtime_present": false
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "available_screen": {
+    "height": 1040,
+    "width": 1920,
+    "x": 0,
+    "y": 0
+  },
+  "default_compact_pip_rect": {
+    "height": 235,
+    "width": 476,
+    "x": 1132,
+    "y": 683
+  },
+  "default_primary_pip_rect": {
+    "height": 588,
+    "width": 1008,
+    "x": 416,
+    "y": 216
+  },
+  "default_window_rect": {
+    "height": 873,
+    "width": 1612,
+    "x": 154,
+    "y": 83
+  },
+  "graph_presentation": "compact_pip",
+  "layout_schema_version": 3,
+  "pip_bounds": {
+    "height": 840,
+    "width": 1400,
+    "x": 220,
+    "y": 90
+  },
+  "pip_clamped": true,
+  "requested_pip_rect": {
+    "height": 260,
+    "width": 420,
+    "x": 1500,
+    "y": 850
+  },
+  "requested_window_rect": {
+    "height": 920,
+    "width": 1500,
+    "x": 1600,
+    "y": 40
+  },
+  "resolved_pip_rect": {
+    "height": 260,
+    "width": 420,
+    "x": 1188,
+    "y": 658
+  },
+  "resolved_window_rect": {
+    "height": 920,
+    "width": 1500,
+    "x": 420,
+    "y": 40
+  },
+  "suggested_center_splitter_sizes": [
+    820,
+    220
+  ],
+  "suggested_outer_splitter_sizes": [
+    400,
+    1180,
+    340
+  ],
+  "window_rect_clamped": true,
+  "window_rect_reason": "requested geometry exceeded available screen bounds or minimum-size policy",
+  "workspace": "logic_designer"
+}

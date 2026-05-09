@@ -1,0 +1,12 @@
+Validation status for 20260326_01 evidence survivability and recovery sprint
+
+Executed successfully:
+- pytest -q tests/contract tests/integration
+- pytest -q tests/invariants tests/meta tests/scenario tests/smoke
+- pytest -q tests/regression
+
+Result summary:
+- contract + integration: 92 passed
+- invariants + meta + scenario + smoke: 85 passed
+- regression: 8 passed
+- total validated tests across these runs: 185 passed

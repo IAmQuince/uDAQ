@@ -1,0 +1,152 @@
+{
+  "active_device_key": "labjack_u6_support:470001",
+  "binding_review_summary": {
+    "auto_rebound_signal_count": 0,
+    "blocked_signal_count": 0,
+    "highlighted_items": [],
+    "manual_review_signal_count": 0,
+    "resolved_output_count": 0,
+    "resolved_signal_count": 1,
+    "total_output_binding_count": 0,
+    "total_signal_binding_count": 1,
+    "unresolved_output_count": 0,
+    "unresolved_signal_count": 0
+  },
+  "incremental_runtime_summary": {
+    "bindings.point_definition.last_replace_skipped": 1,
+    "bindings.review.scope.output.count": 0,
+    "bindings.review.scope.signal.count": 1,
+    "lifecycle.changed_signal_ids.count": 1,
+    "lifecycle.changed_variable_ids.count": 0,
+    "lifecycle.projected_points.count": 12,
+    "lifecycle.projected_points.last_replace_skipped": 1,
+    "lifecycle.transition.changed": 1,
+    "lifecycle.transition.current_phase": "live",
+    "lifecycle.transition.last_trigger": "poll_active_adapter",
+    "lifecycle.transition.previous_phase": "disconnected",
+    "variables.impacted.count": 1,
+    "variables.last_evaluated.count": 1
+  },
+  "phase": "live",
+  "transition_trace": [
+    {
+      "attributes": {
+        "device_count": "3",
+        "phase_after": "discovered",
+        "phase_before": "no_device",
+        "transition": "discover_devices"
+      },
+      "evidence_id": "EVID-SHELL-PROF-DIAG-TRANSITIONS-DISCOVERY-3",
+      "phase_after": "discovered",
+      "phase_before": "no_device",
+      "summary": "device discovery completed",
+      "timestamp": 3,
+      "transition": "discover_devices"
+    },
+    {
+      "attributes": {
+        "adapter_id": "LABJACK-U6-470001",
+        "device_key": "labjack_u6_support:470001",
+        "phase_after": "ready_to_configure",
+        "phase_before": "discovered",
+        "projected_points": "12",
+        "support_tier": "enhanced",
+        "transition": "activate_detected_device"
+      },
+      "evidence_id": "EVID-SHELL-PROF-DIAG-TRANSITIONS-DEVICESELECT-4",
+      "phase_after": "ready_to_configure",
+      "phase_before": "discovered",
+      "summary": "detected device selected",
+      "timestamp": 4,
+      "transition": "activate_detected_device"
+    },
+    {
+      "attributes": {
+        "logical_signal_id": "stack_voltage",
+        "phase_after": "ready_to_configure",
+        "phase_before": "ready_to_configure",
+        "point_key": "LABJACK-U6-470001:analog_in_0",
+        "transition": "activate_detected_device"
+      },
+      "evidence_id": "EVID-SHELL-PROF-DIAG-TRANSITIONS-BIND-5",
+      "phase_after": "ready_to_configure",
+      "phase_before": "ready_to_configure",
+      "summary": "logical signal bound to projected point",
+      "timestamp": 5,
+      "transition": "activate_detected_device"
+    },
+    {
+      "attributes": {
+        "phase_after": "ready_to_configure",
+        "phase_before": "ready_to_configure",
+        "source_kind": "signal",
+        "transition": "activate_detected_device",
+        "variable_id": "stack_voltage_copy"
+      },
+      "evidence_id": "EVID-SHELL-PROF-DIAG-TRANSITIONS-VARIABLEDEF-6",
+      "phase_after": "ready_to_configure",
+      "phase_before": "ready_to_configure",
+      "summary": "variable definition registered",
+      "timestamp": 6,
+      "transition": "activate_detected_device"
+    },
+    {
+      "attributes": {
+        "device_key": "labjack_u6_support:470001",
+        "phase": "live",
+        "phase_after": "live",
+        "phase_before": "ready_to_configure",
+        "published_signals": "1",
+        "transition": "poll_active_adapter"
+      },
+      "evidence_id": "EVID-SHELL-PROF-DIAG-TRANSITIONS-QUICKSTART-7",
+      "phase_after": "live",
+      "phase_before": "ready_to_configure",
+      "summary": "quick start initiated for active device",
+      "timestamp": 7,
+      "transition": "poll_active_adapter"
+    },
+    {
+      "attributes": {
+        "adapter_id": "LABJACK-U6-470001",
+        "device_key": "labjack_u6_support:470001",
+        "disconnected_signals": "1",
+        "phase_after": "disconnected",
+        "phase_before": "live",
+        "transition": "mark_active_device_disconnected"
+      },
+      "evidence_id": "EVID-SHELL-PROF-DIAG-TRANSITIONS-DISCONNECT-8",
+      "phase_after": "disconnected",
+      "phase_before": "live",
+      "summary": "active device marked disconnected",
+      "timestamp": 8,
+      "transition": "mark_active_device_disconnected"
+    },
+    {
+      "attributes": {
+        "adapter_id": "LABJACK-U6-470001",
+        "device_key": "labjack_u6_support:470001",
+        "phase_after": "live",
+        "phase_before": "disconnected",
+        "published_signals": "1",
+        "transition": "poll_active_adapter"
+      },
+      "evidence_id": "EVID-SHELL-PROF-DIAG-TRANSITIONS-RECONNECT-9",
+      "phase_after": "live",
+      "phase_before": "disconnected",
+      "summary": "active device reconnected",
+      "timestamp": 9,
+      "transition": "poll_active_adapter"
+    }
+  ],
+  "variable_health_summary": {
+    "degraded_count": 0,
+    "healthy_count": 1,
+    "highlighted_variables": [],
+    "invalid_count": 0,
+    "stale_count": 0,
+    "substituted_count": 0,
+    "total_variable_count": 1,
+    "unresolved_count": 0
+  }
+}

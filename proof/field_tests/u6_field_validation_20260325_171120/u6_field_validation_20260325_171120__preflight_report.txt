@@ -1,0 +1,20 @@
+UDQ U6 Guided Field Validation — Preflight
+=========================================
+generated_at_utc: 2026-03-25T17:11:20Z
+package_id: UDQ-PKG-20260325-IMPLEMENTATION-ENTRY-OPTIMIZATION-R02
+requested_mode: simulated
+entered_mode: simulated
+serial_number: AUTO
+active_adapter_id: LABJACK-U6-470211
+profile_id: PROF-U6-FIELDTEST
+python_version: 3.13.5
+platform: Linux-4.4.0-x86_64-with-glibc2.41
+output_directory: /mnt/data/udq3a/proof/field_tests/u6_field_validation_20260325_171120
+journal_path: /mnt/data/udq3a/proof/U6_FIELD_TEST_JOURNAL.jsonl
+stale_artifact_count_in_output_root: 0
+
+Discovered devices
+------------------
+- generic_adapter_inventory:SIM-READ-001: SIM-READ-001 (provider=generic_adapter_inventory, serial=)
+- generic_adapter_inventory:SIM-WRITE-001: SIM-WRITE-001 (provider=generic_adapter_inventory, serial=)
+- labjack_u6_support:470211: LabJack U6 (470211) (provider=labjack_u6_support, serial=470211)

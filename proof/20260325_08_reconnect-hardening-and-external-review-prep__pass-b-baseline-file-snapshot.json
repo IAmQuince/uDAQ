@@ -1,0 +1,54 @@
+{
+  "entries": [
+    {
+      "path": "README.md",
+      "bytes": 6441,
+      "lines": 81,
+      "ends_with_newline": true
+    },
+    {
+      "path": "docs/handbook/IMPLEMENTATION_ENTRY.md",
+      "bytes": 5649,
+      "lines": 69,
+      "ends_with_newline": true
+    },
+    {
+      "path": "docs/handbook/NEXT_ACTIONS.md",
+      "bytes": 5198,
+      "lines": 83,
+      "ends_with_newline": true
+    },
+    {
+      "path": "docs/release/EXEC_SUMMARY.md",
+      "bytes": 4051,
+      "lines": 41,
+      "ends_with_newline": true
+    },
+    {
+      "path": "docs/release/RELEASE_NOTES.md",
+      "bytes": 8160,
+      "lines": 88,
+      "ends_with_newline": true
+    },
+    {
+      "path": "docs/release/REVIEW_START_HERE__UDQ-PKG-20260325-IMPLEMENTATION-ENTRY-OPTIMIZATION-R02__ACTIVE.md",
+      "bytes": 4155,
+      "lines": 62,
+      "ends_with_newline": true
+    },
+    {
+      "path": "proof/UDQ_PROOF_GUIDE.md",
+      "bytes": 2517,
+      "lines": 83,
+      "ends_with_newline": true
+    },
+    {
+      "path": "proof/UDQ_DOC_INDEX.md",
+      "bytes": 1709,
+      "lines": 41,
+      "ends_with_newline": true
+    }
+  ],
+  "entry_count": 8,
+  "source_root": "/mnt/data/20260325_08_reconnect-hardening-and-external-review-prep.zip"
+}

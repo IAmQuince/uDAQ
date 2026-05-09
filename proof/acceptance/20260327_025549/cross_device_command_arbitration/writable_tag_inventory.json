@@ -1,0 +1,31 @@
+{
+  "rows": [
+    {
+      "adapter_id": "labjack_u6_470201",
+      "display_name": "digital_out_0",
+      "output_id": "labjack_u6_470201:digital_out_0",
+      "point_id": "digital_out_0",
+      "safe_state_policy": "return_to_safe",
+      "safe_state_value": "0",
+      "tag_key": "labjack_u6_470201:digital_out_0"
+    },
+    {
+      "adapter_id": "arduino_uno_ard_401",
+      "display_name": "digital_out_0",
+      "output_id": "arduino_uno_ard_401:digital_out_0",
+      "point_id": "digital_out_0",
+      "safe_state_policy": "reject_commands",
+      "safe_state_value": "0",
+      "tag_key": "arduino_uno_ard_401:digital_out_0"
+    },
+    {
+      "adapter_id": "rpi_rpi_lab_401",
+      "display_name": "gpio_out_0",
+      "output_id": "rpi_rpi_lab_401:gpio_out_0",
+      "point_id": "gpio_out_0",
+      "safe_state_policy": "hold_last",
+      "safe_state_value": "0",
+      "tag_key": "rpi_rpi_lab_401:gpio_out_0"
+    }
+  ]
+}

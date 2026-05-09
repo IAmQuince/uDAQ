@@ -1,0 +1,32 @@
+{
+  "rows": [
+    {
+      "issue_id": "UDQ-DUP-001",
+      "duplicate_object": "Authority boundary language across architecture, outputs, and security docs",
+      "source_docs": "UDQ-ARCH-NAR-002; UDQ-OUT-SPEC-001; UDQ-SEC-SPEC-001",
+      "status": "ACCEPTED_INTENTIONAL",
+      "resolution": "Retained as intentional reinforcement; canonical meaning remains glossary-owned and execution-contract-enforced."
+    },
+    {
+      "issue_id": "UDQ-DUP-002",
+      "duplicate_object": "Restore vs machine-state separation language across profiles and UI model docs",
+      "source_docs": "UDQ-PROF-SPEC-001; UDQ-UI-MOD-001; UDQ-ARCH-NAR-002",
+      "status": "CLOSED",
+      "resolution": "Shadow-definition risk reduced by routing the meaning through invariant and worked-example references."
+    },
+    {
+      "issue_id": "UDQ-DUP-003",
+      "duplicate_object": "Graph mode separation language across historian and UI docs",
+      "source_docs": "UDQ-HIS-SPEC-001; UDQ-UI-SPEC-004",
+      "status": "ACCEPTED_INTENTIONAL",
+      "resolution": "Retained as intentional reinforcement because both data and operator-view semantics are involved."
+    },
+    {
+      "issue_id": "UDQ-DUP-004",
+      "duplicate_object": "Human-facing summary language across root docs and generated reports",
+      "source_docs": "docs/release/EXEC_SUMMARY.md; docs/handbook/IMPLEMENTATION_ENTRY.md; audit_reports/active/*",
+      "status": "CLOSED",
+      "resolution": "Synchronization rules now live in UDQ-GOV-SPEC-006 and are audited."
+    }
+  ]
+}

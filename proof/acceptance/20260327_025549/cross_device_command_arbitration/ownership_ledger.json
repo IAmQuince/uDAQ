@@ -1,0 +1,107 @@
+{
+  "rows": [
+    {
+      "event_type": "ownership_granted",
+      "metadata::lease_expires_at": "603",
+      "output_id": "labjack_u6_470201:digital_out_0",
+      "owner": "manual",
+      "summary": "writer lease granted for accepted command",
+      "timestamp": "601"
+    },
+    {
+      "event_type": "ownership_renewed",
+      "metadata::lease_expires_at": "604",
+      "metadata::prior_lease_expires_at": "603",
+      "output_id": "labjack_u6_470201:digital_out_0",
+      "owner": "manual",
+      "summary": "writer lease renewed for same-owner superseding command",
+      "timestamp": "602"
+    },
+    {
+      "event_type": "ownership_granted",
+      "metadata::lease_expires_at": "605",
+      "output_id": "rpi_rpi_lab_401:gpio_out_0",
+      "owner": "runtime",
+      "summary": "writer lease granted for accepted command",
+      "timestamp": "603"
+    },
+    {
+      "event_type": "lease_expired",
+      "output_id": "labjack_u6_470201:digital_out_0",
+      "owner": "manual",
+      "summary": "writer lease expired before the next command attempt",
+      "timestamp": "605"
+    },
+    {
+      "event_type": "ownership_granted",
+      "metadata::lease_expires_at": "607",
+      "output_id": "arduino_uno_ard_401:digital_out_0",
+      "owner": "manual",
+      "summary": "writer lease granted for accepted command",
+      "timestamp": "605"
+    },
+    {
+      "event_type": "lease_revoked_on_degrade",
+      "metadata::prior_lease_expires_at": "605",
+      "output_id": "rpi_rpi_lab_401:gpio_out_0",
+      "owner": "runtime",
+      "summary": "degraded target revoked the active writer lease",
+      "timestamp": "606"
+    },
+    {
+      "event_type": "ownership_granted",
+      "metadata::lease_expires_at": "609",
+      "output_id": "labjack_u6_470201:digital_out_0",
+      "owner": "runtime",
+      "summary": "writer lease granted for accepted command",
+      "timestamp": "607"
+    },
+    {
+      "event_type": "lease_expired",
+      "output_id": "arduino_uno_ard_401:digital_out_0",
+      "owner": "manual",
+      "summary": "writer lease expired before the next command attempt",
+      "timestamp": "608"
+    },
+    {
+      "event_type": "ownership_granted",
+      "metadata::lease_expires_at": "611",
+      "output_id": "arduino_uno_ard_401:digital_out_0",
+      "owner": "supervisor",
+      "summary": "writer lease granted for accepted command",
+      "timestamp": "609"
+    },
+    {
+      "event_type": "ownership_granted",
+      "metadata::lease_expires_at": "611",
+      "output_id": "rpi_rpi_lab_401:gpio_out_0",
+      "owner": "runtime",
+      "summary": "writer lease granted for accepted command",
+      "timestamp": "609"
+    },
+    {
+      "event_type": "lease_expired",
+      "output_id": "labjack_u6_470201:digital_out_0",
+      "owner": "runtime",
+      "summary": "writer lease expired before the next command attempt",
+      "timestamp": "610"
+    },
+    {
+      "event_type": "ownership_renewed",
+      "metadata::lease_expires_at": "612",
+      "metadata::prior_lease_expires_at": "611",
+      "output_id": "arduino_uno_ard_401:digital_out_0",
+      "owner": "supervisor",
+      "summary": "writer lease renewed for same-owner superseding command",
+      "timestamp": "610"
+    },
+    {
+      "event_type": "lease_revoked_on_degrade",
+      "metadata::prior_lease_expires_at": "612",
+      "output_id": "arduino_uno_ard_401:digital_out_0",
+      "owner": "supervisor",
+      "summary": "degraded target revoked the active writer lease",
+      "timestamp": "611"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+severity,code,summary
+INFO,FOUNDATION-HARDENING,"Hardening sprint added semantic precedence, contradiction/duplication governance, and implementation handoff docs."
+INFO,CONTRADICTION-CLOSED,Two concrete documentation contradictions were resolved in the active controlled set.
+INFO,DUPLICATION-CLASSIFIED,Meaningful duplication is now classified rather than left informal.
+WARN,IMPLEMENTATION-DEFERRED,"Code registry, smoke baseline, and proof bundles remain intentionally deferred."

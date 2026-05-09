@@ -1,0 +1,136 @@
+{
+  "rows": [
+    {
+      "path": "registries/active/universalDAQ_requirement_registry_r9.json",
+      "top_level_keys": [
+        "requirements"
+      ],
+      "sample_field_shapes": {
+        "requirement_id": "str",
+        "statement": "str",
+        "primary_sources": "str",
+        "downstream_specs": "str",
+        "verification_expectation": "str",
+        "evidence_expectation": "str",
+        "implementation_entry_status": "str",
+        "contradiction_status": "str",
+        "duplication_status": "str",
+        "first_implementation_slice": "str",
+        "semantic_closure_status": "str",
+        "execution_contract_status": "str",
+        "worked_example_status": "str",
+        "invariant_status": "str",
+        "decision_status": "str",
+        "intended_module_area": "str",
+        "semantic_tags": "list",
+        "scaffold_status": "str",
+        "linked_test_ids": "list",
+        "snapshot_status": "str"
+      }
+    },
+    {
+      "path": "registries/active/universalDAQ_execution_contract_r2.json",
+      "top_level_keys": [
+        "package_id",
+        "package_disposition",
+        "allowed_slice_name",
+        "entries"
+      ],
+      "sample_field_shapes": {
+        "requirement_id": "str",
+        "title": "str",
+        "subsystem": "str",
+        "governed_by": "list",
+        "semantic_tags": "list",
+        "readiness_status": "str",
+        "open_decision_ids": "list",
+        "worked_example_ids": "list",
+        "expected_invariant_ids": "list",
+        "expected_proof_type": "str",
+        "intended_module_area": "str",
+        "prohibited_conflations": "list",
+        "implementation_notes": "str",
+        "entry_gate_status": "str",
+        "linked_test_ids": "list",
+        "snapshot_status": "str",
+        "scaffold_status": "str"
+      }
+    },
+    {
+      "path": "registries/active/universalDAQ_decision_log_r1.json",
+      "top_level_keys": [
+        "rows"
+      ],
+      "sample_field_shapes": {
+        "decision_id": "str",
+        "title": "str",
+        "status": "str",
+        "decision_class": "str",
+        "affects_requirements": "str",
+        "summary": "str",
+        "resolution_vehicle": "str",
+        "affected_requirement_ids": "list"
+      }
+    },
+    {
+      "path": "tests/data/first_slice_requirement_pack.json",
+      "top_level_keys": [
+        "package_id",
+        "slice_id",
+        "requirements"
+      ],
+      "sample_field_shapes": {
+        "requirement_id": "str",
+        "statement": "str",
+        "primary_sources": "str",
+        "downstream_specs": "str",
+        "verification_expectation": "str",
+        "evidence_expectation": "str",
+        "implementation_entry_status": "str",
+        "contradiction_status": "str",
+        "duplication_status": "str",
+        "first_implementation_slice": "str",
+        "semantic_closure_status": "str",
+        "execution_contract_status": "str",
+        "worked_example_status": "str",
+        "invariant_status": "str",
+        "decision_status": "str",
+        "intended_module_area": "str",
+        "semantic_tags": "list",
+        "scaffold_status": "str",
+        "linked_test_ids": "list",
+        "snapshot_status": "str",
+        "primary_source_ids": "list",
+        "downstream_spec_ids": "list",
+        "intended_module_areas": "list"
+      }
+    },
+    {
+      "path": "tests/data/first_slice_execution_contract.json",
+      "top_level_keys": [
+        "package_id",
+        "entries"
+      ],
+      "sample_field_shapes": {
+        "requirement_id": "str",
+        "title": "str",
+        "subsystem": "str",
+        "governed_by": "list",
+        "semantic_tags": "list",
+        "readiness_status": "str",
+        "open_decision_ids": "list",
+        "worked_example_ids": "list",
+        "expected_invariant_ids": "list",
+        "expected_proof_type": "str",
+        "intended_module_area": "str",
+        "prohibited_conflations": "list",
+        "implementation_notes": "str",
+        "entry_gate_status": "str",
+        "linked_test_ids": "list",
+        "snapshot_status": "str",
+        "scaffold_status": "str",
+        "intended_module_areas": "list"
+      }
+    }
+  ]
+}

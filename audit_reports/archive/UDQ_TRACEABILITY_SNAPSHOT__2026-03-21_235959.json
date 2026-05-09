@@ -1,0 +1,353 @@
+{
+  "rows": [
+    {
+      "path": "tests/contract/test_contract_alarm_lifecycle_semantics.py",
+      "test_id": "UDQ-TST-CON-003",
+      "verifies_requirements": [
+        "UDQ-REQ-EVT-001",
+        "UDQ-REQ-EVT-002",
+        "UDQ-REQ-HIS-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TRANS-003",
+        "UDQ-INV-EVID-002"
+      ],
+      "worked_example_reference": "UDQ-EXM-004",
+      "expected_proof_output": "alarm lifecycle evidence trace"
+    },
+    {
+      "path": "tests/contract/test_contract_authorization_vs_ui_enablement.py",
+      "test_id": "UDQ-TST-CON-005",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-002",
+        "UDQ-REQ-SEC-001",
+        "UDQ-REQ-SEC-002",
+        "UDQ-REQ-UI-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-004"
+      ],
+      "worked_example_reference": "UDQ-EXM-001",
+      "expected_proof_output": "authorization vs UI enablement trace"
+    },
+    {
+      "path": "tests/contract/test_contract_graph_mode_semantics.py",
+      "test_id": "UDQ-TST-CON-004",
+      "verifies_requirements": [
+        "UDQ-REQ-UI-003",
+        "UDQ-REQ-UI-004",
+        "UDQ-REQ-UI-006",
+        "UDQ-REQ-HIS-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-003",
+        "UDQ-INV-TRANS-004",
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": "UDQ-EXM-005",
+      "expected_proof_output": "graph mode trace"
+    },
+    {
+      "path": "tests/contract/test_contract_requested_applied_observed.py",
+      "test_id": "UDQ-TST-CON-001",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-OUT-001",
+        "UDQ-REQ-OUT-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-TRANS-001",
+        "UDQ-INV-TIME-002"
+      ],
+      "worked_example_reference": "UDQ-EXM-001",
+      "expected_proof_output": "requested/applied/observed trace"
+    },
+    {
+      "path": "tests/contract/test_contract_restore_vs_machine_state.py",
+      "test_id": "UDQ-TST-CON-002",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-002",
+        "UDQ-REQ-PROF-001",
+        "UDQ-REQ-PROF-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-002",
+        "UDQ-INV-TRANS-002",
+        "UDQ-INV-EVID-003"
+      ],
+      "worked_example_reference": "UDQ-EXM-003",
+      "expected_proof_output": "restore-origin trace"
+    },
+    {
+      "path": "tests/invariants/test_invariant_alarm_order.py",
+      "test_id": "UDQ-TST-INV-003",
+      "verifies_requirements": [
+        "UDQ-REQ-EVT-001",
+        "UDQ-REQ-EVT-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TRANS-003",
+        "UDQ-INV-EVID-002"
+      ],
+      "worked_example_reference": "UDQ-EXM-004",
+      "expected_proof_output": "alarm-order invariant report"
+    },
+    {
+      "path": "tests/invariants/test_invariant_command_path.py",
+      "test_id": "UDQ-TST-INV-001",
+      "verifies_requirements": [
+        "UDQ-REQ-OUT-001",
+        "UDQ-REQ-OUT-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TRANS-001",
+        "UDQ-INV-EVID-001"
+      ],
+      "worked_example_reference": "UDQ-EXM-001",
+      "expected_proof_output": "command-path invariant report"
+    },
+    {
+      "path": "tests/invariants/test_invariant_evidence_requirements.py",
+      "test_id": "UDQ-TST-INV-005",
+      "verifies_requirements": [
+        "UDQ-REQ-HIS-001",
+        "UDQ-REQ-HIS-002",
+        "UDQ-REQ-GOV-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-001",
+        "UDQ-INV-EVID-002",
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": "UDQ-EXM-004",
+      "expected_proof_output": "evidence invariant report"
+    },
+    {
+      "path": "tests/invariants/test_invariant_graph_mode_separation.py",
+      "test_id": "UDQ-TST-INV-004",
+      "verifies_requirements": [
+        "UDQ-REQ-UI-003",
+        "UDQ-REQ-UI-004",
+        "UDQ-REQ-UI-006"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-003",
+        "UDQ-INV-TRANS-004",
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": "UDQ-EXM-005",
+      "expected_proof_output": "graph-mode invariant report"
+    },
+    {
+      "path": "tests/invariants/test_invariant_restore_path.py",
+      "test_id": "UDQ-TST-INV-002",
+      "verifies_requirements": [
+        "UDQ-REQ-PROF-001",
+        "UDQ-REQ-PROF-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TRANS-002",
+        "UDQ-INV-EVID-003"
+      ],
+      "worked_example_reference": "UDQ-EXM-003",
+      "expected_proof_output": "restore-path invariant report"
+    },
+    {
+      "path": "tests/meta/test_meta_execution_contract_links.py",
+      "test_id": "UDQ-TST-META-003",
+      "verifies_requirements": [
+        "UDQ-REQ-AUD-002",
+        "UDQ-REQ-GOV-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "execution-contract link audit"
+    },
+    {
+      "path": "tests/meta/test_meta_first_slice_readiness_consistency.py",
+      "test_id": "UDQ-TST-META-004",
+      "verifies_requirements": [
+        "UDQ-REQ-AUD-003",
+        "UDQ-REQ-GOV-003"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "readiness consistency report"
+    },
+    {
+      "path": "tests/meta/test_meta_invariant_references.py",
+      "test_id": "UDQ-TST-META-002",
+      "verifies_requirements": [
+        "UDQ-REQ-AUD-001",
+        "UDQ-REQ-GOV-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "traceability gap report"
+    },
+    {
+      "path": "tests/meta/test_meta_no_archived_reference_ids.py",
+      "test_id": "UDQ-TST-META-005",
+      "verifies_requirements": [
+        "UDQ-REQ-GOV-004",
+        "UDQ-REQ-REL-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "inactive-reference audit"
+    },
+    {
+      "path": "tests/meta/test_meta_requirement_references.py",
+      "test_id": "UDQ-TST-META-001",
+      "verifies_requirements": [
+        "UDQ-REQ-AUD-001",
+        "UDQ-REQ-GOV-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "traceability gap report"
+    },
+    {
+      "path": "tests/scenario/test_scenario_alarm_assert_ack_rtn.py",
+      "test_id": "UDQ-TST-SCN-004",
+      "verifies_requirements": [
+        "UDQ-REQ-EVT-001",
+        "UDQ-REQ-EVT-002",
+        "UDQ-REQ-HIS-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TRANS-003",
+        "UDQ-INV-EVID-002"
+      ],
+      "worked_example_reference": "UDQ-EXM-004",
+      "expected_proof_output": "alarm lifecycle proof bundle"
+    },
+    {
+      "path": "tests/scenario/test_scenario_blocked_command.py",
+      "test_id": "UDQ-TST-SCN-001",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-OUT-001",
+        "UDQ-REQ-SEC-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-TRANS-001",
+        "UDQ-INV-EVID-001"
+      ],
+      "worked_example_reference": "UDQ-EXM-001",
+      "expected_proof_output": "blocked command proof bundle"
+    },
+    {
+      "path": "tests/scenario/test_scenario_command_applied_observed_mismatch.py",
+      "test_id": "UDQ-TST-SCN-002",
+      "verifies_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-OUT-002",
+        "UDQ-REQ-EVT-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-TIME-002",
+        "UDQ-INV-EVID-001"
+      ],
+      "worked_example_reference": "UDQ-EXM-002",
+      "expected_proof_output": "mismatch proof bundle"
+    },
+    {
+      "path": "tests/scenario/test_scenario_graph_live_review_live_trace.py",
+      "test_id": "UDQ-TST-SCN-005",
+      "verifies_requirements": [
+        "UDQ-REQ-UI-003",
+        "UDQ-REQ-UI-004",
+        "UDQ-REQ-UI-006",
+        "UDQ-REQ-HIS-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-003",
+        "UDQ-INV-TRANS-004",
+        "UDQ-INV-EVID-004"
+      ],
+      "worked_example_reference": "UDQ-EXM-005",
+      "expected_proof_output": "graph mode proof bundle"
+    },
+    {
+      "path": "tests/scenario/test_scenario_restore_without_output_reassertion.py",
+      "test_id": "UDQ-TST-SCN-003",
+      "verifies_requirements": [
+        "UDQ-REQ-PROF-001",
+        "UDQ-REQ-PROF-002",
+        "UDQ-REQ-ARCH-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-STATE-002",
+        "UDQ-INV-TRANS-002",
+        "UDQ-INV-EVID-003"
+      ],
+      "worked_example_reference": "UDQ-EXM-003",
+      "expected_proof_output": "restore proof bundle"
+    },
+    {
+      "path": "tests/smoke/test_smoke_first_slice_snapshots_load.py",
+      "test_id": "UDQ-TST-SMK-003",
+      "verifies_requirements": [
+        "UDQ-REQ-IMPL-001",
+        "UDQ-REQ-GOV-003"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "snapshot-load smoke output"
+    },
+    {
+      "path": "tests/smoke/test_smoke_governance_assets_load.py",
+      "test_id": "UDQ-TST-SMK-002",
+      "verifies_requirements": [
+        "UDQ-REQ-GOV-001",
+        "UDQ-REQ-GOV-002"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "registry-load smoke output"
+    },
+    {
+      "path": "tests/smoke/test_smoke_package_layout.py",
+      "test_id": "UDQ-TST-SMK-001",
+      "verifies_requirements": [
+        "UDQ-REQ-AUD-001",
+        "UDQ-REQ-REL-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "package layout audit"
+    },
+    {
+      "path": "tests/smoke/test_smoke_src_package_markers.py",
+      "test_id": "UDQ-TST-SMK-004",
+      "verifies_requirements": [
+        "UDQ-REQ-IMPL-001",
+        "UDQ-REQ-ARCH-001"
+      ],
+      "checks_invariants": [
+        "UDQ-INV-EVID-006"
+      ],
+      "worked_example_reference": null,
+      "expected_proof_output": "module-marker smoke output"
+    }
+  ]
+}

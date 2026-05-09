@@ -1,0 +1,10 @@
+20260325_06 reconnect-path alignment correction — validation status
+
+pytest subset: PASS (16 passed)
+package-entry validation: PASS
+validate_document_completeness: PASS
+validate_windows_path_budget: PASS
+validate_run_artifact_naming: PASS
+truncation guard vs 20260325_03 baseline: PASS
+run_shell_smoke.py: PASS
+proof artifact naming: PASS

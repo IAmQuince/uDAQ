@@ -1,0 +1,172 @@
+{
+  "package_id": "UDQ-PKG-20260327-PERFORMANCE-BASELINE-AND-USABILITY-GATE-R01",
+  "package_slug": "performance-baseline-and-usability-gate",
+  "package_date": "2026-03-27",
+  "runs": {
+    "package_entry": {
+      "returncode": 0,
+      "elapsed_s": 4.547,
+      "summary": "package-entry validation: PASS"
+    },
+    "document_completeness": {
+      "returncode": 0,
+      "elapsed_s": 4.451,
+      "summary": "PASS"
+    },
+    "document_classification": {
+      "returncode": 0,
+      "elapsed_s": 4.456,
+      "summary": "document-classification validation: PASS"
+    },
+    "document_impact": {
+      "returncode": 0,
+      "elapsed_s": 4.202,
+      "summary": "document-impact validation: PASS"
+    },
+    "active_lane_boundedness": {
+      "returncode": 0,
+      "elapsed_s": 4.416,
+      "summary": "active-lane boundedness: PASS"
+    },
+    "windows_path_budget": {
+      "returncode": 0,
+      "elapsed_s": 4.72,
+      "summary": "windows-path-budget: PASS"
+    },
+    "shell_smoke": {
+      "returncode": 0,
+      "elapsed_s": 5.08,
+      "summary": "shell-smoke: profile=PROF-SMOKE page=review mode=live device_phase=live detected=4 command_allowed=False ack_states=(<AlarmLifecycleState.ASSERTED: 'asserted'>,) manifest=MAN-SMOKE-001"
+    },
+    "runtime_inventory": {
+      "returncode": 0,
+      "elapsed_s": 5.089,
+      "summary": "}"
+    }
+  },
+  "focused_pytest": {
+    "returncode": 0,
+    "elapsed_s": 34.539,
+    "summary": "13 passed in 25.76s"
+  },
+  "package_build": {
+    "returncode": 0,
+    "elapsed_s": 5.955306940000014,
+    "byte_count": 2151996
+  },
+  "runtime_internal_metrics": {
+    "processing_cycle_avg_ms": 16.388028,
+    "journal_flush_avg_ms": 10.505189,
+    "discover_avg_ms": 1.158308,
+    "poll_avg_ms": 0.086384,
+    "capture_avg_ms": 0.02239,
+    "projected_points": 12,
+    "adapter_count": 3,
+    "discovered_device_count": 3
+  },
+  "memory_snapshots_kb": {
+    "shell_smoke_maxrss_kb": 312120,
+    "runtime_inventory_maxrss_kb": 311508,
+    "package_build_maxrss_kb": 308688
+  },
+  "dir_stats": {
+    "audit_reports": {
+      "file_count": 134,
+      "byte_count": 1011368
+    },
+    "docs": {
+      "file_count": 214,
+      "byte_count": 1068509
+    },
+    "proof": {
+      "file_count": 395,
+      "byte_count": 5839560
+    },
+    "registries": {
+      "file_count": 100,
+      "byte_count": 1832971
+    },
+    "runtime": {
+      "file_count": 4,
+      "byte_count": 63
+    },
+    "src": {
+      "file_count": 233,
+      "byte_count": 1481952
+    },
+    "tests": {
+      "file_count": 231,
+      "byte_count": 534192
+    },
+    "tools": {
+      "file_count": 122,
+      "byte_count": 493141
+    }
+  },
+  "top_cost_centers_by_bytes": [
+    {
+      "name": "proof",
+      "file_count": 395,
+      "byte_count": 5839560
+    },
+    {
+      "name": "registries",
+      "file_count": 100,
+      "byte_count": 1832971
+    },
+    {
+      "name": "src",
+      "file_count": 233,
+      "byte_count": 1481952
+    },
+    {
+      "name": "docs",
+      "file_count": 214,
+      "byte_count": 1068509
+    },
+    {
+      "name": "audit_reports",
+      "file_count": 134,
+      "byte_count": 1011368
+    }
+  ],
+  "top_cost_centers_by_files": [
+    {
+      "name": "proof",
+      "file_count": 395,
+      "byte_count": 5839560
+    },
+    {
+      "name": "src",
+      "file_count": 233,
+      "byte_count": 1481952
+    },
+    {
+      "name": "tests",
+      "file_count": 231,
+      "byte_count": 534192
+    },
+    {
+      "name": "docs",
+      "file_count": 214,
+      "byte_count": 1068509
+    },
+    {
+      "name": "audit_reports",
+      "file_count": 134,
+      "byte_count": 1011368
+    }
+  ],
+  "blocker_assessment": {
+    "critical_runtime_blocker": false,
+    "decision": "GO_TO_USABILITY_ENTRY",
+    "recommended_next_sprint": "20260327_03_usability-entry-first-signal-path",
+    "rationale": [
+      "All focused validators passed on the new package line.",
+      "Shell smoke passed and remained in the low single-digit seconds externally.",
+      "Runtime inventory passed and internal runtime operations remained in low-millisecond ranges.",
+      "The heaviest measured path in this sprint was the focused pytest slice rather than the runtime baseline path.",
+      "The largest remaining storage concentration is proof/history weight, not a newly emergent runtime-path failure."
+    ]
+  }
+}

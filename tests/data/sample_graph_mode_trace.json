@@ -1,0 +1,20 @@
+{
+  "trace": [
+    {
+      "t": 0,
+      "mode": "live"
+    },
+    {
+      "t": 4,
+      "mode": "review"
+    },
+    {
+      "t": 6,
+      "mode": "live-trace"
+    },
+    {
+      "t": 9,
+      "mode": "live"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+requirement_id,subsystem,semantic_closure_status,execution_contract_status,invariant_status,worked_example_status,decision_status,implementation_entry_status,intended_module_area,first_implementation_slice
+UDQ-REQ-ARCH-001,Architecture,CLOSED,DEFINED,DEFINED,COVERED,CLOSED,INVARIANT_DEFINED,src/universaldaq/app + src/universaldaq/common,baseline-shell-signal-historian
+UDQ-REQ-ARCH-002,Architecture,CLOSED,DEFINED,DEFINED,COVERED,CLOSED,INVARIANT_DEFINED,src/universaldaq/app + src/universaldaq/common,baseline-shell-signal-historian
+UDQ-REQ-SIG-001,Signals,CLOSED,DEFINED,PLANNED,PLANNED,CLOSED,INVARIANT_DEFINED,src/universaldaq/signals,baseline-shell-signal-historian
+UDQ-REQ-SIG-002,Signals,CLOSED,DEFINED,DEFINED,PLANNED,CLOSED,INVARIANT_DEFINED,src/universaldaq/signals,baseline-shell-signal-historian
+UDQ-REQ-OUT-001,Outputs,CLOSED,PLANNED,DEFINED,COVERED,OPEN,BLOCKED_BY_DECISION,src/universaldaq/outputs,deferred-control-surface
+UDQ-REQ-OUT-002,Outputs,CLOSED,PLANNED,DEFINED,COVERED,OPEN,BLOCKED_BY_DECISION,src/universaldaq/outputs,deferred-control-surface
+UDQ-REQ-RULE-001,Rules,CLOSED,PLANNED,PLANNED,PLANNED,DEFERRED,DEFERRED,src/universaldaq/rules,later-slice
+UDQ-REQ-RULE-002,Rules,CLOSED,PLANNED,PLANNED,PLANNED,DEFERRED,DEFERRED,src/universaldaq/rules,later-slice
+UDQ-REQ-MOD-001,Models,CLOSED,PLANNED,PLANNED,PLANNED,CLOSED,SEMANTICALLY_CLOSED,src/universaldaq/adapters,later-slice
+UDQ-REQ-MOD-002,Models,CLOSED,PLANNED,PLANNED,PLANNED,CLOSED,SEMANTICALLY_CLOSED,src/universaldaq/adapters,deferred-control-surface
+UDQ-REQ-SEQ-001,Sequences,CLOSED,PLANNED,PLANNED,PLANNED,DEFERRED,DEFERRED,src/universaldaq/sequences,deferred-control-surface
+UDQ-REQ-SEQ-002,Sequences,CLOSED,PLANNED,PLANNED,PLANNED,DEFERRED,DEFERRED,src/universaldaq/sequences,deferred-control-surface
+UDQ-REQ-HIS-001,Historian,CLOSED,DEFINED,DEFINED,COVERED,CLOSED,INVARIANT_DEFINED,src/universaldaq/historian,baseline-shell-signal-historian
+UDQ-REQ-HIS-002,Historian,CLOSED,DEFINED,DEFINED,COVERED,CLOSED,INVARIANT_DEFINED,src/universaldaq/historian,baseline-shell-signal-historian
+UDQ-REQ-REM-001,Remote,CLOSED,PLANNED,PLANNED,PLANNED,OPEN,BLOCKED_BY_DECISION,src/universaldaq/remote,deferred-control-surface
+UDQ-REQ-REM-002,Remote,CLOSED,PLANNED,PLANNED,PLANNED,OPEN,BLOCKED_BY_DECISION,src/universaldaq/remote,deferred-control-surface
+UDQ-REQ-EVT-001,Events,CLOSED,PLANNED,DEFINED,COVERED,CLOSED,SEMANTICALLY_CLOSED,src/universaldaq/events,deferred-control-surface
+UDQ-REQ-EVT-002,Events,CLOSED,PLANNED,DEFINED,COVERED,CLOSED,SEMANTICALLY_CLOSED,src/universaldaq/events,deferred-control-surface
+UDQ-REQ-DIAG-001,Diagnostics,CLOSED,PLANNED,DEFINED,PLANNED,CLOSED,SEMANTICALLY_CLOSED,src/universaldaq/diagnostics,later-slice
+UDQ-REQ-DIAG-002,Diagnostics,CLOSED,PLANNED,DEFINED,PLANNED,CLOSED,SEMANTICALLY_CLOSED,src/universaldaq/diagnostics,later-slice
+UDQ-REQ-PROF-001,Profiles,CLOSED,DEFINED,DEFINED,COVERED,CLOSED,INVARIANT_DEFINED,src/universaldaq/profiles,baseline-shell-signal-historian
+UDQ-REQ-PROF-002,Profiles,CLOSED,DEFINED,DEFINED,COVERED,CLOSED,INVARIANT_DEFINED,src/universaldaq/profiles,baseline-shell-signal-historian
+UDQ-REQ-DEV-001,Devices,CLOSED,PLANNED,PLANNED,PLANNED,CLOSED,SEMANTICALLY_CLOSED,src/universaldaq/adapters,later-slice
+UDQ-REQ-DEV-002,Devices,CLOSED,PLANNED,PLANNED,PLANNED,CLOSED,SEMANTICALLY_CLOSED,src/universaldaq/adapters,later-slice
+UDQ-REQ-EXP-001,Exports,CLOSED,PLANNED,PLANNED,PLANNED,CLOSED,SEMANTICALLY_CLOSED,src/universaldaq/exports,later-slice
+UDQ-REQ-EXP-002,Exports,CLOSED,PLANNED,PLANNED,PLANNED,CLOSED,SEMANTICALLY_CLOSED,src/universaldaq/exports,later-slice
+UDQ-REQ-SEC-001,Security,CLOSED,PLANNED,DEFINED,COVERED,OPEN,BLOCKED_BY_DECISION,src/universaldaq/security,deferred-control-surface
+UDQ-REQ-SEC-002,Security,CLOSED,PLANNED,PLANNED,PLANNED,OPEN,BLOCKED_BY_DECISION,src/universaldaq/security,deferred-control-surface
+UDQ-REQ-UI-001,UI,CLOSED,PLANNED,PLANNED,PLANNED,CLOSED,SEMANTICALLY_CLOSED,src/universaldaq/ui,later-slice
+UDQ-REQ-UI-002,UI,CLOSED,PLANNED,PLANNED,PLANNED,CLOSED,SEMANTICALLY_CLOSED,src/universaldaq/ui,later-slice
+UDQ-REQ-UI-003,UI,CLOSED,DEFINED,DEFINED,COVERED,CLOSED,INVARIANT_DEFINED,src/universaldaq/ui,baseline-shell-signal-historian
+UDQ-REQ-UI-004,UI,CLOSED,DEFINED,DEFINED,COVERED,CLOSED,INVARIANT_DEFINED,src/universaldaq/ui,baseline-shell-signal-historian
+UDQ-REQ-UI-005,UI,CLOSED,PLANNED,PLANNED,PLANNED,CLOSED,SEMANTICALLY_CLOSED,src/universaldaq/ui,later-slice
+UDQ-REQ-UI-006,UI,CLOSED,DEFINED,DEFINED,COVERED,CLOSED,INVARIANT_DEFINED,src/universaldaq/ui,baseline-shell-signal-historian
+UDQ-REQ-UI-007,UI,CLOSED,PLANNED,PLANNED,PLANNED,CLOSED,SEMANTICALLY_CLOSED,src/universaldaq/ui,later-slice
+UDQ-REQ-AUD-001,Audit,CLOSED,DEFINED,PLANNED,PLANNED,CLOSED,CONTRACT_DEFINED,tools/traceability + registries/active + audit_reports/active,package-governance
+UDQ-REQ-AUD-002,Audit,CLOSED,DEFINED,PLANNED,PLANNED,CLOSED,CONTRACT_DEFINED,tools/traceability + registries/active + audit_reports/active,package-governance
+UDQ-REQ-AUD-003,Audit,CLOSED,DEFINED,PLANNED,PLANNED,CLOSED,CONTRACT_DEFINED,tools/traceability + registries/active + audit_reports/active,package-governance
+UDQ-REQ-REL-001,Release,CLOSED,DEFINED,PLANNED,PLANNED,CLOSED,CONTRACT_DEFINED,tools/traceability + registries/active + audit_reports/active,package-governance
+UDQ-REQ-QUAL-001,Quality,CLOSED,PLANNED,PLANNED,PLANNED,CLOSED,SEMANTICALLY_CLOSED,proof/bundles,later-slice
+UDQ-REQ-GOV-001,Governance,CLOSED,DEFINED,PLANNED,PLANNED,CLOSED,CONTRACT_DEFINED,tools/traceability + registries/active + audit_reports/active,package-governance
+UDQ-REQ-GOV-002,Governance,CLOSED,DEFINED,PLANNED,PLANNED,CLOSED,CONTRACT_DEFINED,tools/traceability + registries/active + audit_reports/active,package-governance
+UDQ-REQ-GOV-003,Governance,CLOSED,DEFINED,PLANNED,PLANNED,CLOSED,CONTRACT_DEFINED,tools/traceability + registries/active + audit_reports/active,package-governance
+UDQ-REQ-GOV-004,Governance,CLOSED,DEFINED,PLANNED,PLANNED,CLOSED,CONTRACT_DEFINED,tools/traceability + registries/active + audit_reports/active,package-governance
+UDQ-REQ-IMPL-001,Implementation,CLOSED,DEFINED,PLANNED,PLANNED,CLOSED,CONTRACT_DEFINED,tools/traceability + registries/active + audit_reports/active,package-governance

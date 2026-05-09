@@ -1,0 +1,18 @@
+UDQ U6 Guided Field Validation Smoke
+===================================
+{
+  "active_adapter_id": "LABJACK-U6-REAL-360011665",
+  "active_adapter_rebound_observed": true,
+  "backend_reopen_observed": true,
+  "capture_count": 4,
+  "disconnect_count": 1,
+  "entered_mode": "real",
+  "final_adapter_state": "ready",
+  "final_lifecycle_summary_phase": "live",
+  "final_recovery_failure_stage": null,
+  "final_state_family": "live_ready_healthy",
+  "final_ui_phase": "live",
+  "post_disconnect_successful_poll_observed": true,
+  "recovery_count": 1,
+  "semantic_verdict": "PASS"
+}

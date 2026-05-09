@@ -1,0 +1,280 @@
+{
+  "rows": [
+    {
+      "invariant_id": "UDQ-INV-STATE-001",
+      "title": "Requested applied and observed state shall remain distinct modeled concepts",
+      "category": "STATE",
+      "severity": "CRITICAL",
+      "governed_by": [
+        "UDQ-GOV-GLO-001",
+        "UDQ-OUT-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-SIG-002"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-001",
+        "UDQ-EXM-002"
+      ],
+      "future_runtime_hook": "command_state_pipeline",
+      "expected_proof": "state transition trace plus conformance assertion report",
+      "failure_disposition": "FAIL_RUNTIME_CONFORMANCE"
+    },
+    {
+      "invariant_id": "UDQ-INV-STATE-002",
+      "title": "Restored profile and workspace state shall not be treated as live machine state",
+      "category": "STATE",
+      "severity": "CRITICAL",
+      "governed_by": [
+        "UDQ-GOV-GLO-001",
+        "UDQ-PROF-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-PROF-001",
+        "UDQ-REQ-PROF-002",
+        "UDQ-REQ-ARCH-002"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-003"
+      ],
+      "future_runtime_hook": "profile_restore_pipeline",
+      "expected_proof": "restore scenario trace, event log, no-write assertion",
+      "failure_disposition": "FAIL_RUNTIME_CONFORMANCE"
+    },
+    {
+      "invariant_id": "UDQ-INV-STATE-003",
+      "title": "Graph live historical review and live-trace modes shall remain explicitly distinguishable",
+      "category": "STATE",
+      "severity": "HIGH",
+      "governed_by": [
+        "UDQ-UI-SPEC-004",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-UI-003",
+        "UDQ-REQ-UI-004",
+        "UDQ-REQ-UI-006"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-005"
+      ],
+      "future_runtime_hook": "graph_mode_model",
+      "expected_proof": "UI scenario trace plus screenshots",
+      "failure_disposition": "FLAG_AND_REJECT_CLAIM"
+    },
+    {
+      "invariant_id": "UDQ-INV-TRANS-001",
+      "title": "Authorization must precede command arbitration and apply publication",
+      "category": "TRANSITION",
+      "severity": "CRITICAL",
+      "governed_by": [
+        "UDQ-SEC-SPEC-001",
+        "UDQ-OUT-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-SEC-001",
+        "UDQ-REQ-OUT-001"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-001"
+      ],
+      "future_runtime_hook": "authorization_gate",
+      "expected_proof": "decision trace and rejected-command evidence",
+      "failure_disposition": "FAIL_RUNTIME_CONFORMANCE"
+    },
+    {
+      "invariant_id": "UDQ-INV-TRANS-002",
+      "title": "Restore workflows shall not reassert outputs as a side effect of UI or profile recovery",
+      "category": "TRANSITION",
+      "severity": "CRITICAL",
+      "governed_by": [
+        "UDQ-PROF-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-PROF-001",
+        "UDQ-REQ-PROF-002"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-003"
+      ],
+      "future_runtime_hook": "restore_controller",
+      "expected_proof": "restore-origin event bundle with explicit no-output-write assertion",
+      "failure_disposition": "FAIL_RUNTIME_CONFORMANCE"
+    },
+    {
+      "invariant_id": "UDQ-INV-TRANS-003",
+      "title": "Alarm acknowledge cannot precede alarm assert",
+      "category": "TRANSITION",
+      "severity": "HIGH",
+      "governed_by": [
+        "UDQ-EVT-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-EVT-001",
+        "UDQ-REQ-EVT-002"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-004"
+      ],
+      "future_runtime_hook": "event_lifecycle_engine",
+      "expected_proof": "alarm lifecycle trace",
+      "failure_disposition": "REJECT_EVENT_SEQUENCE"
+    },
+    {
+      "invariant_id": "UDQ-INV-TRANS-004",
+      "title": "Return-to-normal cannot exist without prior asserted state",
+      "category": "TRANSITION",
+      "severity": "HIGH",
+      "governed_by": [
+        "UDQ-EVT-SPEC-001",
+        "UDQ-HIS-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-EVT-001",
+        "UDQ-REQ-HIS-001",
+        "UDQ-REQ-HIS-002"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-004"
+      ],
+      "future_runtime_hook": "event_lifecycle_engine",
+      "expected_proof": "historian event sequence export",
+      "failure_disposition": "REJECT_EVENT_SEQUENCE"
+    },
+    {
+      "invariant_id": "UDQ-INV-TIME-001",
+      "title": "Stale degraded and disconnected timing thresholds shall remain distinct and explicit",
+      "category": "TIMING",
+      "severity": "HIGH",
+      "governed_by": [
+        "UDQ-DIAG-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-DIAG-001",
+        "UDQ-REQ-DIAG-002"
+      ],
+      "related_worked_examples": [],
+      "future_runtime_hook": "signal_health_monitor",
+      "expected_proof": "threshold configuration plus timing trace",
+      "failure_disposition": "FLAG_FOR_REVIEW"
+    },
+    {
+      "invariant_id": "UDQ-INV-TIME-002",
+      "title": "Command timeout outcomes shall be explicit rather than silently abandoned",
+      "category": "TIMING",
+      "severity": "HIGH",
+      "governed_by": [
+        "UDQ-OUT-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-OUT-002",
+        "UDQ-REQ-EVT-001"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-002"
+      ],
+      "future_runtime_hook": "command_timeout_monitor",
+      "expected_proof": "timeout event trace and outcome classification",
+      "failure_disposition": "FLAG_AND_REJECT_CLAIM"
+    },
+    {
+      "invariant_id": "UDQ-INV-EVID-001",
+      "title": "Critical commands shall emit a durable event and historian evidence trail",
+      "category": "EVIDENCE",
+      "severity": "CRITICAL",
+      "governed_by": [
+        "UDQ-HIS-SPEC-001",
+        "UDQ-QUAL-SPEC-002",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-HIS-001",
+        "UDQ-REQ-HIS-002",
+        "UDQ-REQ-OUT-001"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-001",
+        "UDQ-EXM-002"
+      ],
+      "future_runtime_hook": "command_event_publisher",
+      "expected_proof": "proof bundle with event export and trace hash",
+      "failure_disposition": "FAIL_EVIDENCE_COVERAGE"
+    },
+    {
+      "invariant_id": "UDQ-INV-EVID-002",
+      "title": "Rejected commands shall record a concrete reason and origin",
+      "category": "EVIDENCE",
+      "severity": "HIGH",
+      "governed_by": [
+        "UDQ-OUT-SPEC-001",
+        "UDQ-HIS-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-OUT-001",
+        "UDQ-REQ-HIS-001"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-001"
+      ],
+      "future_runtime_hook": "command_rejection_logger",
+      "expected_proof": "rejection reason event and audit export",
+      "failure_disposition": "FAIL_EVIDENCE_COVERAGE"
+    },
+    {
+      "invariant_id": "UDQ-INV-EVID-003",
+      "title": "Restore-originated actions shall be explicitly labeled as restore-originated",
+      "category": "EVIDENCE",
+      "severity": "HIGH",
+      "governed_by": [
+        "UDQ-PROF-SPEC-001",
+        "UDQ-HIS-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-PROF-001",
+        "UDQ-REQ-PROF-002",
+        "UDQ-REQ-HIS-001"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-003"
+      ],
+      "future_runtime_hook": "restore_event_publisher",
+      "expected_proof": "restore bundle with labeled origin chain",
+      "failure_disposition": "FLAG_AND_REJECT_CLAIM"
+    },
+    {
+      "invariant_id": "UDQ-INV-EVID-004",
+      "title": "Alarm lifecycle changes shall reach historian evidence without silent omission",
+      "category": "EVIDENCE",
+      "severity": "HIGH",
+      "governed_by": [
+        "UDQ-EVT-SPEC-001",
+        "UDQ-HIS-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-EVT-001",
+        "UDQ-REQ-EVT-002",
+        "UDQ-REQ-HIS-001",
+        "UDQ-REQ-HIS-002"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-004"
+      ],
+      "future_runtime_hook": "alarm_event_publisher",
+      "expected_proof": "alarm historian export plus lifecycle trace",
+      "failure_disposition": "FAIL_EVIDENCE_COVERAGE"
+    }
+  ]
+}

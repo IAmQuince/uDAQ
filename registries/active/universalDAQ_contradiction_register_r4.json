@@ -1,0 +1,32 @@
+{
+  "rows": [
+    {
+      "issue_id": "UDQ-CON-001",
+      "finding_summary": "Requested/applied/observed terminology previously risked collapsing output command semantics.",
+      "source_docs": "UDQ-OUT-SPEC-001; UDQ-HIS-SPEC-001; UDQ-UI-SPEC-004",
+      "status": "CLOSED",
+      "resolution": "Execution contract r1, invariant registry r1, and worked examples now make the distinction mandatory."
+    },
+    {
+      "issue_id": "UDQ-CON-002",
+      "finding_summary": "Profile/workspace restore previously risked being read as machine-state restore.",
+      "source_docs": "UDQ-PROF-SPEC-001; UDQ-UI-MOD-001; UDQ-ARCH-NAR-002",
+      "status": "CLOSED",
+      "resolution": "Restore anti-conflation is now in the execution contract, invariants, and implementation-entry docs."
+    },
+    {
+      "issue_id": "UDQ-CON-003",
+      "finding_summary": "Graph live/review/history/live-trace language previously depended too much on narrative context.",
+      "source_docs": "UDQ-HIS-SPEC-001; UDQ-UI-SPEC-004; UDQ-UI-MOD-001",
+      "status": "CLOSED",
+      "resolution": "Graph mode distinctions are now first-slice requirements with explicit invariants and worked-example coverage."
+    },
+    {
+      "issue_id": "UDQ-CON-004",
+      "finding_summary": "Implementation readiness language previously overhung blocked actuation scope.",
+      "source_docs": "docs/release/EXEC_SUMMARY.md; docs/handbook/NEXT_ACTIONS.md; UDQ-REQ-MAT-001",
+      "status": "CLOSED",
+      "resolution": "Sprint 2 split structural command-state readiness from physical actuation and documented the boundary explicitly."
+    }
+  ]
+}

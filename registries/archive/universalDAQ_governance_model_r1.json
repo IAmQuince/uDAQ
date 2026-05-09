@@ -1,0 +1,92 @@
+{
+  "package_id": "UDQ-PKG-2026-03-21-implementation-entry-sprint2",
+  "package_disposition": "IMPLEMENTATION_ENTRY_READY",
+  "audit_profile": "implementation-entry",
+  "generated_at": "2026-03-21T23:58:12",
+  "first_code_slice": {
+    "slice_id": "UDQ-SLICE-001",
+    "name": "first bounded code sprint",
+    "in_scope_requirement_ids": [
+      "UDQ-REQ-ARCH-001",
+      "UDQ-REQ-ARCH-002",
+      "UDQ-REQ-SIG-001",
+      "UDQ-REQ-SIG-002",
+      "UDQ-REQ-OUT-001",
+      "UDQ-REQ-OUT-002",
+      "UDQ-REQ-HIS-001",
+      "UDQ-REQ-HIS-002",
+      "UDQ-REQ-EVT-001",
+      "UDQ-REQ-EVT-002",
+      "UDQ-REQ-PROF-001",
+      "UDQ-REQ-PROF-002",
+      "UDQ-REQ-UI-001",
+      "UDQ-REQ-UI-003",
+      "UDQ-REQ-UI-004",
+      "UDQ-REQ-UI-006",
+      "UDQ-REQ-AUD-001",
+      "UDQ-REQ-AUD-002",
+      "UDQ-REQ-AUD-003",
+      "UDQ-REQ-REL-001",
+      "UDQ-REQ-GOV-001",
+      "UDQ-REQ-GOV-002",
+      "UDQ-REQ-GOV-003",
+      "UDQ-REQ-GOV-004",
+      "UDQ-REQ-IMPL-001"
+    ],
+    "contract_defined_follow_on_requirement_ids": [
+      "UDQ-REQ-SEC-001",
+      "UDQ-REQ-SEC-002",
+      "UDQ-REQ-QUAL-001"
+    ],
+    "blocked_requirement_ids": [
+      "UDQ-REQ-MOD-002",
+      "UDQ-REQ-REM-001",
+      "UDQ-REQ-REM-002"
+    ],
+    "deferred_requirement_ids": [
+      "UDQ-REQ-RULE-001",
+      "UDQ-REQ-RULE-002",
+      "UDQ-REQ-SEQ-001",
+      "UDQ-REQ-SEQ-002"
+    ],
+    "forbidden_expansions": [
+      "physical output actuation",
+      "remote command actuation",
+      "broad rules execution",
+      "sequence runtime persistence/resume",
+      "deep protocol/device implementation"
+    ],
+    "module_areas": [
+      "src/universaldaq/app + src/universaldaq/common",
+      "src/universaldaq/app + src/universaldaq/ui",
+      "src/universaldaq/events",
+      "src/universaldaq/ui + src/universaldaq/common",
+      "src/universaldaq/ui + src/universaldaq/historian",
+      "src/universaldaq/ui + src/universaldaq/historian + src/universaldaq/events",
+      "src/universaldaq/historian",
+      "src/universaldaq/outputs + src/universaldaq/common",
+      "src/universaldaq/profiles",
+      "src/universaldaq/signals",
+      "tools/traceability + registries/active + audit_reports/active"
+    ]
+  },
+  "entity_counts": {
+    "documents_active": 59,
+    "documents_archive": 53,
+    "requirements": 45,
+    "execution_contract_entries": 28,
+    "invariants": 18,
+    "worked_examples": 5,
+    "decisions": 7
+  },
+  "relationships_summary": {
+    "cross_reference_edge_count": 861,
+    "critical_anti_conflations": [
+      "requested state != applied state",
+      "applied state != observed state",
+      "workspace/profile restore != machine state restore",
+      "authorization != UI enablement",
+      "review/history/live-trace != live runtime state"
+    ]
+  }
+}

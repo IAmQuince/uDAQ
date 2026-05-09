@@ -1,0 +1,262 @@
+{
+  "autosave_preferences": {
+    "enabled": true,
+    "interval_seconds": 120,
+    "save_legend_preferences": true,
+    "save_named_graph_setups": true,
+    "save_trace_styles": true
+  },
+  "available_workspaces": [
+    "operate",
+    "logic_designer",
+    "session_review",
+    "system"
+  ],
+  "default_workspace": "operate",
+  "dock_layout": {
+    "allow_floating_panels": true,
+    "bottom_panel_visible": true,
+    "control_dock_side": "right",
+    "explorer_dock_side": "left",
+    "restore_default_layout_available": true
+  },
+  "generated_at": 0,
+  "highlighted_trace_style": {
+    "alarm_overlay_policy": "severity_outline",
+    "axis_assignment": "primary",
+    "blink_mode": "off",
+    "color": "#f5b041",
+    "glow_edge": true,
+    "line_pattern": "solid",
+    "line_width": 3,
+    "marker_size": 0,
+    "marker_style": "none",
+    "opacity_percent": 100,
+    "persistable": true,
+    "selected_highlight": true
+  },
+  "legend_preferences": {
+    "interactive": true,
+    "mode": "compact",
+    "show_alarm_badges": true,
+    "show_axis_indicator": true,
+    "show_current_value": true,
+    "show_units": true
+  },
+  "persistent_info_bar": {
+    "alarm_summary_label": "alarms: 1 active / highest warning",
+    "connection_label": "no device",
+    "control_posture_label": "view_only",
+    "device_label": "DEMO-FIRST-SIGNAL-001",
+    "freshness_label": "simulated",
+    "historical_context_label": "demo runtime context only",
+    "mode_badge": "USER-DEMO",
+    "runtime_label": "user-demo",
+    "signal_label": "garage_temp_filtered",
+    "visible": true,
+    "workspace_label": "Operate"
+  },
+  "signal_lenses": [
+    {
+      "default_for_workspace": "operate",
+      "description": "Device-centric hardware and transport names.",
+      "display_name": "Hardware",
+      "lens_id": "hardware"
+    },
+    {
+      "default_for_workspace": null,
+      "description": "Raw point values and original signal identities.",
+      "display_name": "Raw",
+      "lens_id": "raw"
+    },
+    {
+      "default_for_workspace": "logic_designer",
+      "description": "User-facing canonical tag and logical variable names.",
+      "display_name": "Logical",
+      "lens_id": "logical"
+    },
+    {
+      "default_for_workspace": null,
+      "description": "Calculated variables, filtered values, and computed outputs.",
+      "display_name": "Derived",
+      "lens_id": "derived"
+    },
+    {
+      "default_for_workspace": null,
+      "description": "Control-module outputs, setpoints, and gated write targets.",
+      "display_name": "Control",
+      "lens_id": "control"
+    },
+    {
+      "default_for_workspace": "session_review",
+      "description": "Named graph and operator setups curated by the user.",
+      "display_name": "Saved Sets",
+      "lens_id": "saved"
+    }
+  ],
+  "trace_style_catalog": {
+    "alarm_critical": {
+      "alarm_overlay_policy": "critical_outline",
+      "axis_assignment": "primary",
+      "blink_mode": "critical_only",
+      "color": "#5dade2",
+      "glow_edge": true,
+      "line_pattern": "solid",
+      "line_width": 3,
+      "marker_size": 0,
+      "marker_style": "none",
+      "opacity_percent": 100,
+      "persistable": true,
+      "selected_highlight": false
+    },
+    "alarm_warning": {
+      "alarm_overlay_policy": "warning_outline",
+      "axis_assignment": "primary",
+      "blink_mode": "off",
+      "color": "#5dade2",
+      "glow_edge": true,
+      "line_pattern": "solid",
+      "line_width": 2,
+      "marker_size": 0,
+      "marker_style": "none",
+      "opacity_percent": 100,
+      "persistable": true,
+      "selected_highlight": false
+    },
+    "default": {
+      "alarm_overlay_policy": "severity_outline",
+      "axis_assignment": "primary",
+      "blink_mode": "off",
+      "color": "#5dade2",
+      "glow_edge": false,
+      "line_pattern": "solid",
+      "line_width": 2,
+      "marker_size": 0,
+      "marker_style": "none",
+      "opacity_percent": 100,
+      "persistable": true,
+      "selected_highlight": false
+    },
+    "secondary_axis": {
+      "alarm_overlay_policy": "severity_outline",
+      "axis_assignment": "secondary",
+      "blink_mode": "off",
+      "color": "#af7ac5",
+      "glow_edge": false,
+      "line_pattern": "dashed",
+      "line_width": 2,
+      "marker_size": 0,
+      "marker_style": "none",
+      "opacity_percent": 100,
+      "persistable": true,
+      "selected_highlight": false
+    },
+    "selected": {
+      "alarm_overlay_policy": "severity_outline",
+      "axis_assignment": "primary",
+      "blink_mode": "off",
+      "color": "#f5b041",
+      "glow_edge": true,
+      "line_pattern": "solid",
+      "line_width": 3,
+      "marker_size": 0,
+      "marker_style": "none",
+      "opacity_percent": 100,
+      "persistable": true,
+      "selected_highlight": true
+    }
+  },
+  "user_demo_mode": {
+    "active": true,
+    "active_scenario_id": "logic_control_demo",
+    "active_scenario_label": "Logic / Control Demo",
+    "available": true,
+    "menu_path": "Mode > User-Demo",
+    "pseudo_live": true,
+    "runtime_label": "simulated",
+    "scenario_count": 4,
+    "scenarios": [
+      {
+        "alarm_enabled": false,
+        "control_enabled": false,
+        "description": "Pseudo-live signals focused on line styles, legend behavior, axis assignment, and selection emphasis.",
+        "display_name": "Trace Styling Demo",
+        "logic_enabled": false,
+        "scenario_id": "trace_styling_demo",
+        "showcased_features": [
+          "trace_style",
+          "interactive_legend",
+          "axis_assignment",
+          "selection_highlight"
+        ],
+        "signal_count": 8,
+        "source_classes": [
+          "raw",
+          "logical",
+          "derived"
+        ]
+      },
+      {
+        "alarm_enabled": true,
+        "control_enabled": false,
+        "description": "Signals that deliberately traverse warning, high, and critical alarm tiers with visible trace overlays.",
+        "display_name": "Alarm Visualization Demo",
+        "logic_enabled": false,
+        "scenario_id": "alarm_visualization_demo",
+        "showcased_features": [
+          "alarm_overlay",
+          "legend_badges",
+          "event_correlation"
+        ],
+        "signal_count": 6,
+        "source_classes": [
+          "logical",
+          "derived"
+        ]
+      },
+      {
+        "alarm_enabled": false,
+        "control_enabled": false,
+        "description": "One raw source rendered through hardware, logical, derived, and control naming lenses without losing shared identity.",
+        "display_name": "Signal Lineage Demo",
+        "logic_enabled": false,
+        "scenario_id": "signal_lineage_demo",
+        "showcased_features": [
+          "hardware_view",
+          "logical_view",
+          "derived_view",
+          "control_view"
+        ],
+        "signal_count": 5,
+        "source_classes": [
+          "hardware",
+          "raw",
+          "logical",
+          "derived",
+          "control"
+        ]
+      },
+      {
+        "alarm_enabled": true,
+        "control_enabled": true,
+        "description": "Pseudo RPi-style inputs mapped through transforms into pseudo LabJack-style DAC outputs while the operator watches values update live.",
+        "display_name": "Logic / Control Demo",
+        "logic_enabled": true,
+        "scenario_id": "logic_control_demo",
+        "showcased_features": [
+          "logic_canvas",
+          "pseudo_live_control",
+          "watch_values",
+          "graph_feedback"
+        ],
+        "signal_count": 10,
+        "source_classes": [
+          "hardware",
+          "logical",
+          "control"
+        ]
+      }
+    ],
+    "write_scope_label": "demo_only"
+  }
+}

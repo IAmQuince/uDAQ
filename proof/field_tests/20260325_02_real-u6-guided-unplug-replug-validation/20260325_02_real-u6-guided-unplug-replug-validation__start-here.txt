@@ -1,0 +1,19 @@
+START HERE — UDQ U6 Guided Field Validation
+===========================================
+Semantic verdict: PASS
+Headline: Runtime evidence consistency checks passed.
+
+Open these in order:
+1. 20260325_02_real-u6-guided-unplug-replug-validation__review-summary.md
+2. 20260325_02_real-u6-guided-unplug-replug-validation__semantic-consistency-verdict.txt
+3. 20260325_02_real-u6-guided-unplug-replug-validation__summary.txt
+4. 20260325_02_real-u6-guided-unplug-replug-validation__preflight-report.txt
+5. 20260325_02_real-u6-guided-unplug-replug-validation__events.csv
+6. 20260325_02_real-u6-guided-unplug-replug-validation__diagnostics.json
+
+Most useful quick facts:
+- Mode requested: real
+- Mode entered: real
+- Disconnect count: 1
+- Recovery count: 1
+- Stabilization state family: live_ready_healthy

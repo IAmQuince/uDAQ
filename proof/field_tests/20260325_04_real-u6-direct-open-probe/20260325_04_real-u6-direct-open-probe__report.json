@@ -1,0 +1,33 @@
+{
+  "generated_at_utc": "2026-03-25T21:59:37Z",
+  "probe": {
+    "ain0_value": "2.453318",
+    "calibration_loaded": true,
+    "close_succeeded": true,
+    "detail_rows": [
+      {
+        "serial_arg": null,
+        "stage": "open",
+        "status": "success",
+        "strategy": "constructor_first_found"
+      },
+      {
+        "stage": "calibration",
+        "status": "success",
+        "strategy": "constructor_first_found"
+      }
+    ],
+    "driver_name": "u6",
+    "error_message": null,
+    "error_type": null,
+    "firmware_version": "1.39",
+    "hardware_revision": "2.00",
+    "open_stage": "first_read",
+    "open_strategy": "constructor_first_found",
+    "requested_serial_number": null,
+    "resolved_serial_number": "360011665",
+    "success": true
+  },
+  "requested_serial_number": "AUTO",
+  "run_stem": "20260325_04_real-u6-direct-open-probe"
+}

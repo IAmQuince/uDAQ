@@ -1,0 +1,36 @@
+name: Implementation change
+about: Track a bounded implementation change with documentation impact
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the bounded change.
+    validations:
+      required: true
+  - type: textarea
+    id: governing_sources
+    attributes:
+      label: Governing sources
+      description: Active docs, ADRs, requirement IDs, and invariant IDs.
+    validations:
+      required: true
+  - type: textarea
+    id: impact_map
+    attributes:
+      label: Documentation impact map
+      description: Modules, docs, registries, tests, and proof outputs affected.
+    validations:
+      required: true
+  - type: textarea
+    id: review_ledger
+    attributes:
+      label: Documentation review ledger plan
+      description: State where the running ledger will live and how reviewed assets will be classified.
+    validations:
+      required: true
+  - type: textarea
+    id: completion
+    attributes:
+      label: Completion evidence
+      description: Expected validation commands and proof outputs.

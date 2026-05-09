@@ -1,0 +1,25 @@
+20260325_08 reconnect hardening and external-review prep — Pass A validation status
+============================================================================
+
+Targeted pytest subset: PASS (13 passed)
+validate_package_entry_surfaces: PASS
+validate_document_completeness: PASS
+validate_windows_path_budget: PASS
+validate_run_artifact_naming: PASS
+truncation guard vs 20260325_07 baseline: PASS
+run_shell_smoke.py: PASS
+
+Authoritative specimen re-checks
+--------------------------------
+startup-open smoke semantic verdict: PASS
+startup-open smoke advisory_count: 0
+guided unplug/replug semantic verdict: PASS
+guided unplug/replug advisory_count: 0
+
+Pass A note
+-----------
+Pass A intentionally left the green reconnect/recovery behavior unchanged.
+The only logic change in this pass was semantic-check alignment so successful
+startup-open counters on the final adapter status are accepted as authoritative
+startup-open evidence even when explicit startup/open rows have already rolled
+out of the bounded recent runtime-event window.

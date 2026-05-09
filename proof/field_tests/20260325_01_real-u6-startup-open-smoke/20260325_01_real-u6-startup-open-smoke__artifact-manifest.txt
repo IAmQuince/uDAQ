@@ -1,0 +1,17 @@
+UDQ U6 Guided Field Validation — Artifact Manifest
+=================================================
+bundle_dir: C:\Users\iaq16\Documents\Code\uDAQ\20260325_06_reconnect-path-alignment-correction\proof\field_tests\20260325_01_real-u6-startup-open-smoke
+artifact_count: 10
+
+Artifacts
+---------
+- diagnostics: 20260325_01_real-u6-startup-open-smoke__diagnostics.json (105462 bytes, sha256=da88f64e3c81513638c5e1e3cd86845e4f1679c0e813c9282ab1e6a3fd211795)
+- events: 20260325_01_real-u6-startup-open-smoke__events.csv (1253 bytes, sha256=91e6befdb8947c493909abf8504a2c7ea8bed861b32870c392370b9379e82f95)
+- preflight_json: 20260325_01_real-u6-startup-open-smoke__preflight-report.json (2736 bytes, sha256=0361edc8ee6abf366a02d59ae1560595ae57032ca309d9705ff255504f937730)
+- preflight_text: 20260325_01_real-u6-startup-open-smoke__preflight-report.txt (1447 bytes, sha256=61cd600e038cc0c1996fc8b9eeaa9c1b1ff99891b61168bb969fbb6f2451ae76)
+- review_summary: 20260325_01_real-u6-startup-open-smoke__review-summary.md (861 bytes, sha256=194db48aa687fb0686706c207129526949c35bd4d85a99a87ecc86a89bc1154f)
+- semantic_verdict_json: 20260325_01_real-u6-startup-open-smoke__semantic-consistency-verdict.json (2167 bytes, sha256=fbc4fd699d76ded8923a674d8ea34d068ad5efde43716cfb375c8ea41c95b459)
+- semantic_verdict_text: 20260325_01_real-u6-startup-open-smoke__semantic-consistency-verdict.txt (1333 bytes, sha256=6420106f357c525fb3fd3eb91908f4ffe837b1ea62aa0d9e156dc06ebcf80864)
+- smoke: 20260325_01_real-u6-startup-open-smoke__smoke.txt (612 bytes, sha256=6993086bf35b96e87a154ae96deb631f40551f6b041276c35d032707f318294d)
+- start_here: 20260325_01_real-u6-startup-open-smoke__start-here.txt (750 bytes, sha256=aef2b9c33ba0e3926aa496c29fbd18619ff007d33a2b7ffd4fcf49ae10ee5804)
+- summary: 20260325_01_real-u6-startup-open-smoke__summary.txt (4193 bytes, sha256=94912a7c283e64559d5602116bf461b107b149c64e173b53fe4ce61e01d80feb)

@@ -1,0 +1,29 @@
+name: Documentation or governance change
+about: Track a controlled-document or registry update
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the documentation or governance update.
+    validations:
+      required: true
+  - type: textarea
+    id: affected_docs
+    attributes:
+      label: Affected controlled docs and registries
+      description: Include revised document IDs and registry artifacts.
+    validations:
+      required: true
+  - type: textarea
+    id: review_ledger
+    attributes:
+      label: Documentation review ledger
+      description: Record where the review ledger will live and which assets are expected to be updated, reviewed, or deferred.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation
+      description: Commands or checks used to confirm consistency.

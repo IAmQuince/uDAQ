@@ -1,0 +1,19 @@
+{
+  "trace": [
+    {
+      "t": 0,
+      "event": "request_issued"
+    },
+    {
+      "t": 1,
+      "event": "apply_published",
+      "state": "on"
+    },
+    {
+      "t": 5,
+      "event": "observed_mismatch",
+      "observed": "off",
+      "expected": "on"
+    }
+  ]
+}

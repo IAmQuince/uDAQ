@@ -1,0 +1,505 @@
+{
+  "rows": [
+    {
+      "invariant_id": "UDQ-INV-STATE-001",
+      "title": "Requested, applied, and observed state shall remain distinct modeled concepts",
+      "category": "STATE",
+      "severity": "CRITICAL",
+      "governed_by": [
+        "UDQ-GOV-GLO-001",
+        "UDQ-OUT-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-OUT-001",
+        "UDQ-REQ-OUT-002"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-001",
+        "UDQ-EXM-002"
+      ],
+      "future_runtime_hook": "command_state_pipeline",
+      "expected_proof": "state transition trace plus conformance assertion report",
+      "failure_disposition": "FAIL_RUNTIME_CONFORMANCE",
+      "ready_for_runtime_monitoring": true,
+      "linked_test_ids": [
+        "UDQ-TST-CON-001",
+        "UDQ-TST-SCN-001"
+      ],
+      "scaffold_status": "IMPLEMENTED"
+    },
+    {
+      "invariant_id": "UDQ-INV-STATE-002",
+      "title": "Restored profile and workspace state shall not be treated as live machine state",
+      "category": "STATE",
+      "severity": "CRITICAL",
+      "governed_by": [
+        "UDQ-GOV-GLO-001",
+        "UDQ-PROF-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-PROF-001",
+        "UDQ-REQ-PROF-002",
+        "UDQ-REQ-ARCH-002"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-003"
+      ],
+      "future_runtime_hook": "profile_restore_pipeline",
+      "expected_proof": "restore scenario trace, event log, no-write assertion",
+      "failure_disposition": "FAIL_RUNTIME_CONFORMANCE",
+      "ready_for_runtime_monitoring": true,
+      "linked_test_ids": [
+        "UDQ-TST-CON-002",
+        "UDQ-TST-SCN-003"
+      ],
+      "scaffold_status": "IMPLEMENTED"
+    },
+    {
+      "invariant_id": "UDQ-INV-STATE-003",
+      "title": "Graph live, review, history, and live-trace modes shall remain explicitly distinguishable",
+      "category": "STATE",
+      "severity": "HIGH",
+      "governed_by": [
+        "UDQ-UI-SPEC-004",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-UI-001",
+        "UDQ-REQ-UI-003",
+        "UDQ-REQ-UI-004",
+        "UDQ-REQ-UI-006",
+        "UDQ-REQ-HIS-002"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-005"
+      ],
+      "future_runtime_hook": "graph_mode_model",
+      "expected_proof": "UI scenario trace plus screenshots",
+      "failure_disposition": "FLAG_AND_REJECT_CLAIM",
+      "ready_for_runtime_monitoring": true,
+      "linked_test_ids": [
+        "UDQ-TST-CON-004",
+        "UDQ-TST-SCN-005",
+        "UDQ-TST-INV-004"
+      ],
+      "scaffold_status": "IMPLEMENTED"
+    },
+    {
+      "invariant_id": "UDQ-INV-STATE-004",
+      "title": "Authorization shall remain distinct from UI enablement or visibility",
+      "category": "STATE",
+      "severity": "CRITICAL",
+      "governed_by": [
+        "UDQ-SEC-SPEC-001",
+        "UDQ-UI-SPEC-002",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-ARCH-002",
+        "UDQ-REQ-SEC-001",
+        "UDQ-REQ-SEC-002"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-001"
+      ],
+      "future_runtime_hook": "authorization_surface",
+      "expected_proof": "authorization decision trace and UI-state contrast evidence",
+      "failure_disposition": "FAIL_RUNTIME_CONFORMANCE",
+      "ready_for_runtime_monitoring": true,
+      "linked_test_ids": [
+        "UDQ-TST-CON-005"
+      ],
+      "scaffold_status": "IMPLEMENTED"
+    },
+    {
+      "invariant_id": "UDQ-INV-STATE-005",
+      "title": "Signal identity shall remain stable across display-name edits and restore cycles",
+      "category": "STATE",
+      "severity": "HIGH",
+      "governed_by": [
+        "UDQ-SIG-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-SIG-001"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-003"
+      ],
+      "future_runtime_hook": "signal_registry_model",
+      "expected_proof": "signal registry export and rename-safe restore trace",
+      "failure_disposition": "FLAG_AND_REJECT_CLAIM",
+      "ready_for_runtime_monitoring": true,
+      "linked_test_ids": [],
+      "scaffold_status": "DECLARED_ONLY"
+    },
+    {
+      "invariant_id": "UDQ-INV-TRANS-001",
+      "title": "Command request must pass authorization and arbitration before apply is published",
+      "category": "TRANSITION",
+      "severity": "CRITICAL",
+      "governed_by": [
+        "UDQ-OUT-SPEC-001",
+        "UDQ-SEC-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-OUT-001",
+        "UDQ-REQ-SEC-001"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-001",
+        "UDQ-EXM-002"
+      ],
+      "future_runtime_hook": "command_request_path",
+      "expected_proof": "command-path trace with pre-apply checkpoints",
+      "failure_disposition": "FAIL_RUNTIME_CONFORMANCE",
+      "ready_for_runtime_monitoring": true,
+      "linked_test_ids": [
+        "UDQ-TST-CON-001",
+        "UDQ-TST-SCN-001",
+        "UDQ-TST-INV-001"
+      ],
+      "scaffold_status": "IMPLEMENTED"
+    },
+    {
+      "invariant_id": "UDQ-INV-TRANS-002",
+      "title": "Restore operations shall not directly publish physical command apply events",
+      "category": "TRANSITION",
+      "severity": "CRITICAL",
+      "governed_by": [
+        "UDQ-PROF-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-PROF-001",
+        "UDQ-REQ-PROF-002"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-003"
+      ],
+      "future_runtime_hook": "restore_event_path",
+      "expected_proof": "restore-origin event and no-apply assertion",
+      "failure_disposition": "FAIL_RUNTIME_CONFORMANCE",
+      "ready_for_runtime_monitoring": true,
+      "linked_test_ids": [
+        "UDQ-TST-CON-002",
+        "UDQ-TST-SCN-003",
+        "UDQ-TST-INV-002"
+      ],
+      "scaffold_status": "IMPLEMENTED"
+    },
+    {
+      "invariant_id": "UDQ-INV-TRANS-003",
+      "title": "Alarm lifecycle ordering shall preserve assert, acknowledge, and return-to-normal truth",
+      "category": "TRANSITION",
+      "severity": "CRITICAL",
+      "governed_by": [
+        "UDQ-EVT-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-EVT-001",
+        "UDQ-REQ-EVT-002"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-004"
+      ],
+      "future_runtime_hook": "alarm_lifecycle_model",
+      "expected_proof": "alarm lifecycle trace and historian event set",
+      "failure_disposition": "FAIL_RUNTIME_CONFORMANCE",
+      "ready_for_runtime_monitoring": true,
+      "linked_test_ids": [
+        "UDQ-TST-CON-003",
+        "UDQ-TST-SCN-004",
+        "UDQ-TST-INV-003"
+      ],
+      "scaffold_status": "IMPLEMENTED"
+    },
+    {
+      "invariant_id": "UDQ-INV-TRANS-004",
+      "title": "Graph mode transitions shall remain explicit and reversible",
+      "category": "TRANSITION",
+      "severity": "HIGH",
+      "governed_by": [
+        "UDQ-UI-SPEC-004",
+        "UDQ-HIS-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-HIS-002",
+        "UDQ-REQ-UI-003"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-005"
+      ],
+      "future_runtime_hook": "graph_transition_model",
+      "expected_proof": "mode transition trace and return-to-live trace",
+      "failure_disposition": "FLAG_AND_REJECT_CLAIM",
+      "ready_for_runtime_monitoring": true,
+      "linked_test_ids": [
+        "UDQ-TST-CON-004",
+        "UDQ-TST-SCN-005",
+        "UDQ-TST-INV-004"
+      ],
+      "scaffold_status": "IMPLEMENTED"
+    },
+    {
+      "invariant_id": "UDQ-INV-TRANS-005",
+      "title": "Derived-signal activation shall be dependency-tracked and cycle-checked before publish",
+      "category": "TRANSITION",
+      "severity": "HIGH",
+      "governed_by": [
+        "UDQ-SIG-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-SIG-002"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-002"
+      ],
+      "future_runtime_hook": "derived_signal_activation",
+      "expected_proof": "dependency graph and validation trace",
+      "failure_disposition": "FLAG_AND_REJECT_CLAIM",
+      "ready_for_runtime_monitoring": true,
+      "linked_test_ids": [],
+      "scaffold_status": "DECLARED_ONLY"
+    },
+    {
+      "invariant_id": "UDQ-INV-TIME-001",
+      "title": "Stale, degraded, and disconnected timing semantics shall remain distinct",
+      "category": "TIMING",
+      "severity": "HIGH",
+      "governed_by": [
+        "UDQ-DIAG-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-UI-006"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-005"
+      ],
+      "future_runtime_hook": "health_timing_model",
+      "expected_proof": "timing-threshold declaration and transition trace",
+      "failure_disposition": "FLAG_AND_REJECT_CLAIM",
+      "ready_for_runtime_monitoring": false,
+      "linked_test_ids": [],
+      "scaffold_status": "DECLARED_ONLY"
+    },
+    {
+      "invariant_id": "UDQ-INV-TIME-002",
+      "title": "Observed confirmation and mismatch timing shall be modeled explicitly",
+      "category": "TIMING",
+      "severity": "HIGH",
+      "governed_by": [
+        "UDQ-OUT-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-OUT-002",
+        "UDQ-REQ-EVT-001"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-002"
+      ],
+      "future_runtime_hook": "observed_confirmation_model",
+      "expected_proof": "timeout/mismatch timing declaration and event trace",
+      "failure_disposition": "FLAG_AND_REJECT_CLAIM",
+      "ready_for_runtime_monitoring": false,
+      "linked_test_ids": [
+        "UDQ-TST-CON-001",
+        "UDQ-TST-SCN-002"
+      ],
+      "scaffold_status": "IMPLEMENTED"
+    },
+    {
+      "invariant_id": "UDQ-INV-EVID-001",
+      "title": "Critical commands shall emit attributable event evidence",
+      "category": "EVIDENCE",
+      "severity": "CRITICAL",
+      "governed_by": [
+        "UDQ-HIS-SPEC-001",
+        "UDQ-SEC-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-OUT-001",
+        "UDQ-REQ-SEC-002",
+        "UDQ-REQ-HIS-001"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-001",
+        "UDQ-EXM-002"
+      ],
+      "future_runtime_hook": "command_event_evidence",
+      "expected_proof": "event log plus command trace",
+      "failure_disposition": "FAIL_RUNTIME_CONFORMANCE",
+      "ready_for_runtime_monitoring": true,
+      "linked_test_ids": [
+        "UDQ-TST-SCN-001",
+        "UDQ-TST-SCN-002",
+        "UDQ-TST-INV-001",
+        "UDQ-TST-INV-005"
+      ],
+      "scaffold_status": "IMPLEMENTED"
+    },
+    {
+      "invariant_id": "UDQ-INV-EVID-002",
+      "title": "Alarm lifecycle transitions shall emit complete historian/event evidence",
+      "category": "EVIDENCE",
+      "severity": "CRITICAL",
+      "governed_by": [
+        "UDQ-EVT-SPEC-001",
+        "UDQ-HIS-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-EVT-001",
+        "UDQ-REQ-EVT-002",
+        "UDQ-REQ-HIS-001"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-004"
+      ],
+      "future_runtime_hook": "alarm_evidence_pipeline",
+      "expected_proof": "historian export and lifecycle event sequence",
+      "failure_disposition": "FAIL_RUNTIME_CONFORMANCE",
+      "ready_for_runtime_monitoring": true,
+      "linked_test_ids": [
+        "UDQ-TST-CON-003",
+        "UDQ-TST-SCN-004",
+        "UDQ-TST-INV-003",
+        "UDQ-TST-INV-005"
+      ],
+      "scaffold_status": "IMPLEMENTED"
+    },
+    {
+      "invariant_id": "UDQ-INV-EVID-003",
+      "title": "Restore-origin operations shall be labeled as restore-originated",
+      "category": "EVIDENCE",
+      "severity": "HIGH",
+      "governed_by": [
+        "UDQ-PROF-SPEC-001",
+        "UDQ-HIS-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-PROF-001",
+        "UDQ-REQ-HIS-001"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-003"
+      ],
+      "future_runtime_hook": "restore_evidence_pipeline",
+      "expected_proof": "restore-origin event and audit trace",
+      "failure_disposition": "FLAG_AND_REJECT_CLAIM",
+      "ready_for_runtime_monitoring": true,
+      "linked_test_ids": [
+        "UDQ-TST-CON-002",
+        "UDQ-TST-SCN-003",
+        "UDQ-TST-INV-002"
+      ],
+      "scaffold_status": "IMPLEMENTED"
+    },
+    {
+      "invariant_id": "UDQ-INV-EVID-004",
+      "title": "Graph mode changes and overlays shall leave an evidence trail when exported or reviewed",
+      "category": "EVIDENCE",
+      "severity": "HIGH",
+      "governed_by": [
+        "UDQ-HIS-SPEC-001",
+        "UDQ-UI-SPEC-004",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-HIS-001",
+        "UDQ-REQ-HIS-002",
+        "UDQ-REQ-UI-003",
+        "UDQ-REQ-UI-004"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-005"
+      ],
+      "future_runtime_hook": "graph_review_evidence",
+      "expected_proof": "review/export metadata and screenshots",
+      "failure_disposition": "FLAG_AND_REJECT_CLAIM",
+      "ready_for_runtime_monitoring": false,
+      "linked_test_ids": [
+        "UDQ-TST-CON-004",
+        "UDQ-TST-SCN-005",
+        "UDQ-TST-INV-004"
+      ],
+      "scaffold_status": "IMPLEMENTED"
+    },
+    {
+      "invariant_id": "UDQ-INV-EVID-005",
+      "title": "Derived-signal validation results shall be preserved as reviewable evidence",
+      "category": "EVIDENCE",
+      "severity": "MEDIUM",
+      "governed_by": [
+        "UDQ-SIG-SPEC-001",
+        "UDQ-HIS-SPEC-001",
+        "UDQ-GOV-SPEC-005"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-SIG-002"
+      ],
+      "related_worked_examples": [
+        "UDQ-EXM-002"
+      ],
+      "future_runtime_hook": "derived_signal_validation_evidence",
+      "expected_proof": "validation report and dependency graph export",
+      "failure_disposition": "FLAG_AND_REJECT_CLAIM",
+      "ready_for_runtime_monitoring": false,
+      "linked_test_ids": [],
+      "scaffold_status": "DECLARED_ONLY"
+    },
+    {
+      "invariant_id": "UDQ-INV-EVID-006",
+      "title": "Package governance artifacts shall remain synchronized and auditable",
+      "category": "EVIDENCE",
+      "severity": "HIGH",
+      "governed_by": [
+        "UDQ-AUD-SPEC-001",
+        "UDQ-REL-SPEC-001",
+        "UDQ-GOV-SPEC-006"
+      ],
+      "related_requirements": [
+        "UDQ-REQ-AUD-001",
+        "UDQ-REQ-AUD-002",
+        "UDQ-REQ-AUD-003",
+        "UDQ-REQ-REL-001",
+        "UDQ-REQ-GOV-001",
+        "UDQ-REQ-GOV-002",
+        "UDQ-REQ-GOV-003",
+        "UDQ-REQ-GOV-004",
+        "UDQ-REQ-IMPL-001"
+      ],
+      "related_worked_examples": [],
+      "future_runtime_hook": "package_governance_audit",
+      "expected_proof": "audit report and synchronized registries",
+      "failure_disposition": "REJECT_PACKAGE_CLAIM",
+      "ready_for_runtime_monitoring": true,
+      "linked_test_ids": [
+        "UDQ-TST-META-001",
+        "UDQ-TST-META-002",
+        "UDQ-TST-META-003",
+        "UDQ-TST-META-004",
+        "UDQ-TST-META-005",
+        "UDQ-TST-SMK-001",
+        "UDQ-TST-SMK-002",
+        "UDQ-TST-SMK-003",
+        "UDQ-TST-SMK-004",
+        "UDQ-TST-INV-005"
+      ],
+      "scaffold_status": "IMPLEMENTED"
+    }
+  ]
+}

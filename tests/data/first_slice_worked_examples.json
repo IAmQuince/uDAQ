@@ -1,0 +1,151 @@
+{
+  "examples": [
+    {
+      "worked_example_id": "UDQ-EXM-001",
+      "title": "Requested command blocked before apply",
+      "requirement_ids": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-OUT-001",
+        "UDQ-REQ-SEC-001"
+      ],
+      "expected_invariant_ids": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-TRANS-001",
+        "UDQ-INV-EVID-001"
+      ],
+      "expected_evidence": [
+        "request event",
+        "rejection reason",
+        "no-apply assertion"
+      ]
+    },
+    {
+      "worked_example_id": "UDQ-EXM-002",
+      "title": "Requested command accepted, applied, then observed mismatch is surfaced",
+      "requirement_ids": [
+        "UDQ-REQ-ARCH-001",
+        "UDQ-REQ-OUT-002",
+        "UDQ-REQ-EVT-001"
+      ],
+      "expected_invariant_ids": [
+        "UDQ-INV-TIME-002",
+        "UDQ-INV-EVID-001"
+      ],
+      "expected_evidence": [
+        "command trace",
+        "mismatch event",
+        "timing basis"
+      ]
+    },
+    {
+      "worked_example_id": "UDQ-EXM-003",
+      "title": "Workspace/profile restore rebuilds operator context without reasserting machine state",
+      "requirement_ids": [
+        "UDQ-REQ-PROF-001",
+        "UDQ-REQ-PROF-002",
+        "UDQ-REQ-ARCH-002"
+      ],
+      "expected_invariant_ids": [
+        "UDQ-INV-STATE-002",
+        "UDQ-INV-TRANS-002",
+        "UDQ-INV-EVID-003"
+      ],
+      "expected_evidence": [
+        "restore-origin event",
+        "no-write assertion",
+        "rebuilt workspace trace"
+      ]
+    },
+    {
+      "worked_example_id": "UDQ-EXM-004",
+      "title": "Alarm lifecycle assert, acknowledge, return-to-normal with evidence",
+      "requirement_ids": [
+        "UDQ-REQ-EVT-001",
+        "UDQ-REQ-EVT-002",
+        "UDQ-REQ-HIS-001"
+      ],
+      "expected_invariant_ids": [
+        "UDQ-INV-TRANS-003",
+        "UDQ-INV-EVID-002"
+      ],
+      "expected_evidence": [
+        "alarm lifecycle events",
+        "acknowledgment actor/time",
+        "historian trace"
+      ]
+    },
+    {
+      "worked_example_id": "UDQ-EXM-005",
+      "title": "Graph mode separation between live, review, history, and live trace",
+      "requirement_ids": [
+        "UDQ-REQ-UI-003",
+        "UDQ-REQ-UI-004",
+        "UDQ-REQ-UI-006",
+        "UDQ-REQ-HIS-002"
+      ],
+      "expected_invariant_ids": [
+        "UDQ-INV-STATE-003",
+        "UDQ-INV-TRANS-004",
+        "UDQ-INV-EVID-004"
+      ],
+      "expected_evidence": [
+        "mode-change trace",
+        "screenshots",
+        "review/live return trace"
+      ]
+    },
+    {
+      "worked_example_id": "UDQ-EXM-011",
+      "title": "Alarm raises once on degraded transition and clears on recovery",
+      "requirement_ids": [
+        "UDQ-REQ-EVT-001",
+        "UDQ-REQ-EVT-002"
+      ],
+      "expected_invariant_ids": [
+        "UDQ-INV-TRANS-003"
+      ],
+      "expected_evidence": [
+        "alarm_raised event",
+        "no duplicate alarm spam",
+        "alarm_cleared event"
+      ]
+    },
+    {
+      "worked_example_id": "UDQ-EXM-012",
+      "title": "Bounded U6 disconnect acknowledge reconnect event and alarm path",
+      "requirement_ids": [
+        "UDQ-REQ-EVT-001",
+        "UDQ-REQ-EVT-002",
+        "UDQ-REQ-DIAG-001"
+      ],
+      "expected_invariant_ids": [
+        "UDQ-INV-TRANS-003"
+      ],
+      "expected_evidence": [
+        "disconnect alarm",
+        "acknowledgment event",
+        "reconnect clear evidence"
+      ]
+    },
+    {
+      "worked_example_id": "UDQ-EXM-013",
+      "title": "Bounded U6 command and published-signal proof path",
+      "requirement_ids": [
+        "UDQ-REQ-EVT-002",
+        "UDQ-REQ-OUT-001",
+        "UDQ-REQ-DIAG-001",
+        "UDQ-REQ-DEV-001"
+      ],
+      "expected_invariant_ids": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-EVID-004",
+        "UDQ-INV-TRANS-003"
+      ],
+      "expected_evidence": [
+        "acknowledged alarm command",
+        "rejected unsupported dry-run command",
+        "published signal count proof"
+      ]
+    }
+  ]
+}

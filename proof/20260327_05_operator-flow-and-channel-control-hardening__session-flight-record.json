@@ -1,0 +1,294 @@
+{
+  "session_id": "SESSION-PROF-SESSION-FLIGHT-RECORD-2",
+  "actor": {
+    "actor_id": "flight-record-operator",
+    "role_class": "operator",
+    "origin": "local-shell"
+  },
+  "control_posture": "armed_control",
+  "first_signal_replay_tape": {
+    "signal_id": "first_signal__generic_demo_first_signal_001",
+    "display_name": "Wave 0",
+    "engineering_units": "V",
+    "quality_label": "simulated",
+    "freshness_label": "simulated",
+    "provenance_label": "First Signal Demo Device / DEMO-FIRST-SIGNAL-001 / Wave 0",
+    "channel_metadata": {
+      "device_identity_key": "generic::DEMO-FIRST-SIGNAL-001",
+      "device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+      "device_display_name": "First Signal Demo Device",
+      "device_serial_number": "DEMO-001",
+      "source_adapter_id": "DEMO-FIRST-SIGNAL-001",
+      "source_point_id": "demo_wave_0",
+      "point_class": "analog",
+      "source_transport": "in_memory",
+      "binding_policy": "auto_rebind_if_confident",
+      "binding_origin": "auto_bound",
+      "friendly_name": "Wave 0",
+      "point_meta::demo": "true",
+      "point_meta::waveform": "sine",
+      "definition_meta::device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+      "definition_meta::support_tier": "generic",
+      "definition_meta::provider_id": "generic_adapter_inventory",
+      "definition_meta::point_class": "analog",
+      "definition_meta::units": "V",
+      "definition_meta::demo": "true",
+      "definition_meta::waveform": "sine"
+    },
+    "trace_points": [
+      {
+        "timestamp": 5,
+        "value": "2.750",
+        "numeric_value": 2.75
+      },
+      {
+        "timestamp": 6,
+        "value": "2.000",
+        "numeric_value": 2.0
+      },
+      {
+        "timestamp": 7,
+        "value": "1.250",
+        "numeric_value": 1.25
+      },
+      {
+        "timestamp": 8,
+        "value": "0.701",
+        "numeric_value": 0.701
+      },
+      {
+        "timestamp": 9,
+        "value": "0.500",
+        "numeric_value": 0.5
+      },
+      {
+        "timestamp": 10,
+        "value": "0.701",
+        "numeric_value": 0.701
+      },
+      {
+        "timestamp": 11,
+        "value": "1.250",
+        "numeric_value": 1.25
+      },
+      {
+        "timestamp": 12,
+        "value": "2.000",
+        "numeric_value": 2.0
+      },
+      {
+        "timestamp": 13,
+        "value": "2.750",
+        "numeric_value": 2.75
+      }
+    ]
+  },
+  "trusted_session_inventory": {
+    "lifecycle_state": "live",
+    "graph_status_label": "live",
+    "live_numeric_visible": true,
+    "graph_visible": true,
+    "trace_point_count": 9,
+    "trace_span_seconds": 8,
+    "latest_value_age_seconds": 0,
+    "disconnect_count": 0,
+    "reconnect_count": 0,
+    "session_event_count": 11,
+    "ready_for_operator": true,
+    "last_event_summary": "adapter poll completed",
+    "sparkline": "\u2588\u2586\u2583\u2582\u2581\u2582\u2583\u2586\u2588",
+    "signal_quality_label": "simulated",
+    "signal_freshness_label": "simulated",
+    "control_mode_label": "armed_control",
+    "active_alarm_count": 1,
+    "unacknowledged_alarm_count": 1,
+    "highest_active_severity": "warning",
+    "recent_action_count": 8,
+    "flight_record_ready": true,
+    "truthfulness_warnings": [],
+    "signal_provenance": {
+      "source_device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+      "source_adapter_id": "DEMO-FIRST-SIGNAL-001",
+      "device_identity_key": "generic::DEMO-FIRST-SIGNAL-001",
+      "source_transport": "in_memory",
+      "hardware_channel": "demo_wave_0",
+      "provenance_label": "First Signal Demo Device / DEMO-FIRST-SIGNAL-001 / Wave 0",
+      "channel_metadata": {
+        "device_identity_key": "generic::DEMO-FIRST-SIGNAL-001",
+        "device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+        "device_display_name": "First Signal Demo Device",
+        "device_serial_number": "DEMO-001",
+        "source_adapter_id": "DEMO-FIRST-SIGNAL-001",
+        "source_point_id": "demo_wave_0",
+        "point_class": "analog",
+        "source_transport": "in_memory",
+        "binding_policy": "auto_rebind_if_confident",
+        "binding_origin": "auto_bound",
+        "friendly_name": "Wave 0",
+        "point_meta::demo": "true",
+        "point_meta::waveform": "sine",
+        "definition_meta::device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+        "definition_meta::support_tier": "generic",
+        "definition_meta::provider_id": "generic_adapter_inventory",
+        "definition_meta::point_class": "analog",
+        "definition_meta::units": "V",
+        "definition_meta::demo": "true",
+        "definition_meta::waveform": "sine"
+      }
+    },
+    "alarm_summary": {
+      "definition_count": 1,
+      "active_alarm_count": 1,
+      "unacknowledged_alarm_count": 1,
+      "highest_active_severity": "warning",
+      "recent_domain_event_count": 0
+    },
+    "active_alarm_rows": [
+      {
+        "alarm_id": "ALM-FLIGHT-001",
+        "summary": "Flight record warning",
+        "severity": "warning",
+        "source_kind": "manual",
+        "source_id": "flight_record",
+        "active": true,
+        "acknowledged": false,
+        "first_raised_at": 20,
+        "last_changed_at": 20,
+        "last_cleared_at": null
+      }
+    ],
+    "recent_domain_events": [],
+    "recent_events": [
+      {
+        "timestamp": 8,
+        "category": "poll",
+        "summary": "adapter poll completed",
+        "phase_after": "live"
+      },
+      {
+        "timestamp": 9,
+        "category": "poll",
+        "summary": "adapter poll completed",
+        "phase_after": "live"
+      },
+      {
+        "timestamp": 10,
+        "category": "poll",
+        "summary": "adapter poll completed",
+        "phase_after": "live"
+      },
+      {
+        "timestamp": 11,
+        "category": "poll",
+        "summary": "adapter poll completed",
+        "phase_after": "live"
+      },
+      {
+        "timestamp": 12,
+        "category": "poll",
+        "summary": "adapter poll completed",
+        "phase_after": "live"
+      },
+      {
+        "timestamp": 13,
+        "category": "poll",
+        "summary": "adapter poll completed",
+        "phase_after": "live"
+      }
+    ],
+    "recent_actions": [
+      {
+        "timestamp": 6,
+        "category": "device",
+        "summary": "adapter poll completed",
+        "outcome": "recorded",
+        "actor_id": null,
+        "target_kind": "shell_session",
+        "target_id": "SESSION-PROF-SESSION-FLIGHT-RECORD-2"
+      },
+      {
+        "timestamp": 7,
+        "category": "device",
+        "summary": "adapter poll completed",
+        "outcome": "recorded",
+        "actor_id": null,
+        "target_kind": "shell_session",
+        "target_id": "SESSION-PROF-SESSION-FLIGHT-RECORD-2"
+      },
+      {
+        "timestamp": 8,
+        "category": "device",
+        "summary": "adapter poll completed",
+        "outcome": "recorded",
+        "actor_id": null,
+        "target_kind": "shell_session",
+        "target_id": "SESSION-PROF-SESSION-FLIGHT-RECORD-2"
+      },
+      {
+        "timestamp": 9,
+        "category": "device",
+        "summary": "adapter poll completed",
+        "outcome": "recorded",
+        "actor_id": null,
+        "target_kind": "shell_session",
+        "target_id": "SESSION-PROF-SESSION-FLIGHT-RECORD-2"
+      },
+      {
+        "timestamp": 10,
+        "category": "device",
+        "summary": "adapter poll completed",
+        "outcome": "recorded",
+        "actor_id": null,
+        "target_kind": "shell_session",
+        "target_id": "SESSION-PROF-SESSION-FLIGHT-RECORD-2"
+      },
+      {
+        "timestamp": 11,
+        "category": "device",
+        "summary": "adapter poll completed",
+        "outcome": "recorded",
+        "actor_id": null,
+        "target_kind": "shell_session",
+        "target_id": "SESSION-PROF-SESSION-FLIGHT-RECORD-2"
+      },
+      {
+        "timestamp": 12,
+        "category": "device",
+        "summary": "adapter poll completed",
+        "outcome": "recorded",
+        "actor_id": null,
+        "target_kind": "shell_session",
+        "target_id": "SESSION-PROF-SESSION-FLIGHT-RECORD-2"
+      },
+      {
+        "timestamp": 13,
+        "category": "device",
+        "summary": "adapter poll completed",
+        "outcome": "recorded",
+        "actor_id": null,
+        "target_kind": "shell_session",
+        "target_id": "SESSION-PROF-SESSION-FLIGHT-RECORD-2"
+      }
+    ],
+    "trace_numeric_points": [
+      2.75,
+      2.0,
+      1.25,
+      0.701,
+      0.5,
+      0.701,
+      1.25,
+      2.0,
+      2.75
+    ]
+  },
+  "authorization_history": [],
+  "command_trace_count": 0,
+  "alarm_lifecycle_count": 1,
+  "shell_evidence_count": 11,
+  "package_id": "UDQ-PKG-20260327-OPERATOR-FLOW-AND-CHANNEL-CONTROL-HARDENING-R01",
+  "package_slug": "operator-flow-and-channel-control-hardening",
+  "timings_ms": {
+    "discover_ms": 0.597
+  }
+}

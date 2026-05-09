@@ -1,0 +1,52 @@
+{
+  "checkpoint_available": true,
+  "checkpoint_id": "CHK-SESSION-REPEAT-001-45-132",
+  "checkpoint_ladder": [
+    {
+      "checkpoint_id": "CHK-SESSION-REPEAT-001-33-33",
+      "display_path": "proof/acceptance/20260327_025549/repeatability/run_01/runtime/sessions/SESSION-REPEAT-001/checkpoints/CHK-SESSION-REPEAT-001-33-33.json",
+      "hash_valid": true,
+      "last_committed_sequence_id": 33,
+      "session_id": "SESSION-REPEAT-001",
+      "state_hash": "5b107352235f57e5977ff5cd92c0b9801c0cf387926c228c16521c28c8cea31e",
+      "timestamp": 33
+    },
+    {
+      "checkpoint_id": "CHK-SESSION-REPEAT-001-37-66",
+      "display_path": "proof/acceptance/20260327_025549/repeatability/run_01/runtime/sessions/SESSION-REPEAT-001/checkpoints/CHK-SESSION-REPEAT-001-37-66.json",
+      "hash_valid": true,
+      "last_committed_sequence_id": 66,
+      "session_id": "SESSION-REPEAT-001",
+      "state_hash": "97fd326ba1493c4954718eb2dbae43ca6afa03ad71566bfcf13313a3c58eedc9",
+      "timestamp": 37
+    },
+    {
+      "checkpoint_id": "CHK-SESSION-REPEAT-001-41-99",
+      "display_path": "proof/acceptance/20260327_025549/repeatability/run_01/runtime/sessions/SESSION-REPEAT-001/checkpoints/CHK-SESSION-REPEAT-001-41-99.json",
+      "hash_valid": true,
+      "last_committed_sequence_id": 99,
+      "session_id": "SESSION-REPEAT-001",
+      "state_hash": "81c8f9e7e7119ad44834b3ab50350dd35740e673fee6ae0e37c18320e49d212b",
+      "timestamp": 41
+    },
+    {
+      "checkpoint_id": "CHK-SESSION-REPEAT-001-45-132",
+      "display_path": "proof/acceptance/20260327_025549/repeatability/run_01/runtime/sessions/SESSION-REPEAT-001/checkpoints/CHK-SESSION-REPEAT-001-45-132.json",
+      "hash_valid": true,
+      "last_committed_sequence_id": 132,
+      "session_id": "SESSION-REPEAT-001",
+      "state_hash": "ec5e609caa3ebfd1de8ec53116d5d9cd2d6fb19b4661a7e9f2d21eff971ac504",
+      "timestamp": 45
+    }
+  ],
+  "checkpoint_path": "proof/acceptance/20260327_025549/repeatability/run_01/runtime/sessions/SESSION-REPEAT-001/checkpoints/latest.json",
+  "checkpoint_spacing": {
+    "average_sequence_gap": 33.0,
+    "max_sequence_gap": 33,
+    "min_sequence_gap": 33
+  },
+  "last_committed_sequence_id": 132,
+  "state_hash": "ec5e609caa3ebfd1de8ec53116d5d9cd2d6fb19b4661a7e9f2d21eff971ac504",
+  "timestamp": 45,
+  "valid_checkpoint_count": 4
+}

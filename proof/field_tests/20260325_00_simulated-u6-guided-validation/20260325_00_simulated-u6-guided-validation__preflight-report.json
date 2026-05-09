@@ -1,0 +1,49 @@
+{
+  "active_adapter_id": "LABJACK-U6-470211",
+  "discovered_devices": [
+    {
+      "device_key": "generic_adapter_inventory:SIM-READ-001",
+      "display_name": "SIM-READ-001",
+      "provider_id": "generic_adapter_inventory",
+      "serial_number": "",
+      "transport": "generic-adapter"
+    },
+    {
+      "device_key": "generic_adapter_inventory:SIM-WRITE-001",
+      "display_name": "SIM-WRITE-001",
+      "provider_id": "generic_adapter_inventory",
+      "serial_number": "",
+      "transport": "generic-adapter"
+    },
+    {
+      "device_key": "labjack_u6_support:470211",
+      "display_name": "LabJack U6 (470211)",
+      "provider_id": "labjack_u6_support",
+      "serial_number": "470211",
+      "transport": "usb"
+    }
+  ],
+  "entered_mode": "simulated",
+  "generated_at_utc": "2026-03-25T18:34:19Z",
+  "journal_path": "/mnt/data/s3cfinal/proof/U6_FIELD_TEST_JOURNAL.jsonl",
+  "output_directory": "/mnt/data/s3cfinal/proof/field_tests/20260325_00_simulated-u6-guided-validation",
+  "package_identity": {
+    "disposition": "IMPLEMENTATION_ENTRY_OPTIMIZATION",
+    "package_date": "2026-03-25",
+    "package_id": "UDQ-PKG-20260325-IMPLEMENTATION-ENTRY-OPTIMIZATION-R02",
+    "package_slug": "implementation-entry-optimization",
+    "run_id": "R02"
+  },
+  "platform": "Linux-4.4.0-x86_64-with-glibc2.41",
+  "platform_release": "4.4.0",
+  "platform_system": "Linux",
+  "profile_id": "PROF-U6-FIELDTEST",
+  "python_implementation": "CPython",
+  "python_version": "3.13.5",
+  "real_hardware_requested": false,
+  "requested_mode": "simulated",
+  "run_stem": "20260325_00_simulated-u6-guided-validation",
+  "serial_number": "AUTO",
+  "stale_artifact_count_in_output_root": 1,
+  "validation_flow": "guided_unplug_replug_validation"
+}

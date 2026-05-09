@@ -1,0 +1,58 @@
+{
+  "entries": [
+    {
+      "path": "README.md",
+      "bytes": 5780,
+      "lines": 85,
+      "ends_with_newline": true
+    },
+    {
+      "path": "docs/handbook/IMPLEMENTATION_ENTRY.md",
+      "bytes": 4853,
+      "lines": 79,
+      "ends_with_newline": true
+    },
+    {
+      "path": "docs/handbook/NEXT_ACTIONS.md",
+      "bytes": 5686,
+      "lines": 82,
+      "ends_with_newline": true
+    },
+    {
+      "path": "docs/release/EXEC_SUMMARY.md",
+      "bytes": 3668,
+      "lines": 53,
+      "ends_with_newline": true
+    },
+    {
+      "path": "docs/release/REVIEW_START_HERE__UDQ-PKG-20260325-IMPLEMENTATION-ENTRY-OPTIMIZATION-R02__ACTIVE.md",
+      "bytes": 3526,
+      "lines": 55,
+      "ends_with_newline": true
+    },
+    {
+      "path": "proof/UDQ_PROOF_GUIDE.md",
+      "bytes": 2163,
+      "lines": 43,
+      "ends_with_newline": true
+    },
+    {
+      "path": "proof/UDQ_DOC_INDEX.md",
+      "bytes": 1833,
+      "lines": 33,
+      "ends_with_newline": true
+    },
+    {
+      "path": "docs/active/UDQ-GOV-REG-003__Documentation_Update_Debt_Register__r3__WIP.md",
+      "bytes": 10281,
+      "lines": 63,
+      "ends_with_newline": true
+    },
+    {
+      "path": "docs/active/UDQ-GOV-LOG-001__Controlled_Document_Index__r22__WIP.md",
+      "bytes": 2277,
+      "lines": 62,
+      "ends_with_newline": true
+    }
+  ]
+}

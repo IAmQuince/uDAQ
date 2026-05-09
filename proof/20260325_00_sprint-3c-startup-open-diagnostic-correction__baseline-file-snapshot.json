@@ -1,0 +1,3930 @@
+{
+  "snapshot_version": "v1",
+  "file_count": 981,
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/docs_change.yml",
+      "size_bytes": 908
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/implementation_change.yml",
+      "size_bytes": 1077
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE/typed_domain_model_sprint.md",
+      "size_bytes": 1493
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size_bytes": 964
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 112
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "size_bytes": 385
+    },
+    {
+      "path": "CODEOWNERS",
+      "size_bytes": 158
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size_bytes": 3247
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 6441
+    },
+    {
+      "path": "audit_reports/active/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "audit_reports/active/UDQ_GOVERNANCE_STATUS__2026-03-22_110633.md",
+      "size_bytes": 178
+    },
+    {
+      "path": "audit_reports/active/UDQ_IMPLEMENTATION_COVERAGE_SNAPSHOT__2026-03-22_110635.json",
+      "size_bytes": 18838
+    },
+    {
+      "path": "audit_reports/active/UDQ_MASTER_AUDIT__2026-03-25_153232.md",
+      "size_bytes": 256
+    },
+    {
+      "path": "audit_reports/active/UDQ_REPO_INVENTORY__2026-03-22_110631.json",
+      "size_bytes": 88734
+    },
+    {
+      "path": "audit_reports/active/UDQ_SAVEPOINT_BASELINE__2026-03-22_110629.json",
+      "size_bytes": 3848
+    },
+    {
+      "path": "audit_reports/active/UDQ_SCHEMA_INVENTORY__2026-03-22_110632.json",
+      "size_bytes": 4151
+    },
+    {
+      "path": "audit_reports/active/UDQ_VALIDATION_STATUS__2026-03-22_115700.md",
+      "size_bytes": 284
+    },
+    {
+      "path": "audit_reports/archive/UDQ_EXECUTIVE_SUMMARY__2026-03-21_231429.md",
+      "size_bytes": 1093
+    },
+    {
+      "path": "audit_reports/archive/UDQ_EXECUTIVE_SUMMARY__2026-03-21_235812.md",
+      "size_bytes": 516
+    },
+    {
+      "path": "audit_reports/archive/UDQ_EXECUTIVE_SUMMARY__2026-03-21_235959.md",
+      "size_bytes": 296
+    },
+    {
+      "path": "audit_reports/archive/UDQ_FIRST_SLICE_SCAFFOLD_STATUS__2026-03-21_235959.md",
+      "size_bytes": 402
+    },
+    {
+      "path": "audit_reports/archive/UDQ_GOVERNANCE_STATUS__2026-03-21_210500.json",
+      "size_bytes": 161
+    },
+    {
+      "path": "audit_reports/archive/UDQ_GOVERNANCE_STATUS__2026-03-21_231429.md",
+      "size_bytes": 915
+    },
+    {
+      "path": "audit_reports/archive/UDQ_GOVERNANCE_STATUS__2026-03-21_235812.md",
+      "size_bytes": 504
+    },
+    {
+      "path": "audit_reports/archive/UDQ_GOVERNANCE_STATUS__2026-03-21_235959.json",
+      "size_bytes": 206
+    },
+    {
+      "path": "audit_reports/archive/UDQ_GOVERNANCE_STATUS__2026-03-21_235959.md",
+      "size_bytes": 179
+    },
+    {
+      "path": "audit_reports/archive/UDQ_IMPLEMENTATION_COVERAGE_SNAPSHOT__2026-03-21_235959.json",
+      "size_bytes": 18812
+    },
+    {
+      "path": "audit_reports/archive/UDQ_IMPLEMENTATION_ENTRY_STATUS__2026-03-21_235812.md",
+      "size_bytes": 598
+    },
+    {
+      "path": "audit_reports/archive/UDQ_IMPLEMENTATION_ENTRY_STATUS__2026-03-21_235959.md",
+      "size_bytes": 176
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT_FINDINGS__2026-03-21_223002.csv",
+      "size_bytes": 2623
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT_FINDINGS__2026-03-21_223029.csv",
+      "size_bytes": 63
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT_FINDINGS__2026-03-21_224940.csv",
+      "size_bytes": 63
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT_FINDINGS__2026-03-21_231557.csv",
+      "size_bytes": 63
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT_FINDINGS__2026-03-21_231618.csv",
+      "size_bytes": 63
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT_FINDINGS__2026-03-21_234539.csv",
+      "size_bytes": 332
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT_FINDINGS__2026-03-21_234602.csv",
+      "size_bytes": 39
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT_INVENTORY__2026-03-21_223002.csv",
+      "size_bytes": 5036
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT_INVENTORY__2026-03-21_223029.csv",
+      "size_bytes": 5036
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT_INVENTORY__2026-03-21_224940.csv",
+      "size_bytes": 7532
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT_INVENTORY__2026-03-21_231557.csv",
+      "size_bytes": 9189
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT_INVENTORY__2026-03-21_231618.csv",
+      "size_bytes": 9189
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT_INVENTORY__2026-03-21_234539.csv",
+      "size_bytes": 10139
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT_INVENTORY__2026-03-21_234602.csv",
+      "size_bytes": 10139
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-21_210500.md",
+      "size_bytes": 206
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-21_223002.json",
+      "size_bytes": 40399
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-21_223002.md",
+      "size_bytes": 3101
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-21_223029.json",
+      "size_bytes": 35915
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-21_223029.md",
+      "size_bytes": 202
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-21_224940.json",
+      "size_bytes": 64467
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-21_224940.md",
+      "size_bytes": 222
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-21_231557.json",
+      "size_bytes": 77304
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-21_231557.md",
+      "size_bytes": 235
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-21_231618.json",
+      "size_bytes": 77304
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-21_231618.md",
+      "size_bytes": 235
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-21_234539.json",
+      "size_bytes": 18776
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-21_234539.md",
+      "size_bytes": 184
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-21_234602.json",
+      "size_bytes": 18305
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-21_234602.md",
+      "size_bytes": 202
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-21_235959.md",
+      "size_bytes": 195
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_083000.md",
+      "size_bytes": 189
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_103013.md",
+      "size_bytes": 187
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_103016.md",
+      "size_bytes": 189
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_103041.md",
+      "size_bytes": 189
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_103118.md",
+      "size_bytes": 189
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_110636.md",
+      "size_bytes": 185
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_115557.md",
+      "size_bytes": 192
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_115622.md",
+      "size_bytes": 199
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_124352.md",
+      "size_bytes": 320
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_124451.md",
+      "size_bytes": 196
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_124524.md",
+      "size_bytes": 196
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_124713.md",
+      "size_bytes": 193
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_133047.md",
+      "size_bytes": 318
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_133128.md",
+      "size_bytes": 195
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_133234.md",
+      "size_bytes": 197
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_155600.md",
+      "size_bytes": 192
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_155642.md",
+      "size_bytes": 193
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_155815.md",
+      "size_bytes": 193
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_201826.md",
+      "size_bytes": 193
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_202042.md",
+      "size_bytes": 193
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_202120.md",
+      "size_bytes": 199
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_210400.md",
+      "size_bytes": 211
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-22_213129.md",
+      "size_bytes": 227
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-23_112536.md",
+      "size_bytes": 207
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-23_133456.md",
+      "size_bytes": 207
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-23_190833.md",
+      "size_bytes": 207
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-23_190920.md",
+      "size_bytes": 207
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-23_190946.md",
+      "size_bytes": 207
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-23_191124.md",
+      "size_bytes": 207
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-23_191225.md",
+      "size_bytes": 207
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-23_191443.md",
+      "size_bytes": 207
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-24_152041.md",
+      "size_bytes": 887
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-24_152413.md",
+      "size_bytes": 246
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-24_152723.md",
+      "size_bytes": 246
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-24_152905.md",
+      "size_bytes": 225
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-24_160528.md",
+      "size_bytes": 219
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-24_160724.md",
+      "size_bytes": 219
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-24_170912.md",
+      "size_bytes": 232
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-24_170952.md",
+      "size_bytes": 232
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-24_171212.md",
+      "size_bytes": 232
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-24_171254.md",
+      "size_bytes": 232
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-24_171351.md",
+      "size_bytes": 232
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-24_171434.md",
+      "size_bytes": 232
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-24_171523.md",
+      "size_bytes": 232
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-24_204209.md",
+      "size_bytes": 258
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-24_204324.md",
+      "size_bytes": 258
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-24_230331.md",
+      "size_bytes": 254
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-25_000240.md",
+      "size_bytes": 254
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-25_011919.md",
+      "size_bytes": 258
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-25_014952.md",
+      "size_bytes": 245
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-25_020422.md",
+      "size_bytes": 228
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-25_020425.md",
+      "size_bytes": 230
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-25_020507.md",
+      "size_bytes": 230
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-25_024532.md",
+      "size_bytes": 242
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-25_025001.md",
+      "size_bytes": 237
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-25_025116.md",
+      "size_bytes": 237
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-25_130057.md",
+      "size_bytes": 3694
+    },
+    {
+      "path": "audit_reports/archive/UDQ_MASTER_AUDIT__2026-03-25_130215.md",
+      "size_bytes": 233
+    },
+    {
+      "path": "audit_reports/archive/UDQ_PACKAGE_AUDIT_FINDINGS__2026-03-21_215831.csv",
+      "size_bytes": 41
+    },
+    {
+      "path": "audit_reports/archive/UDQ_PACKAGE_AUDIT_INVENTORY__2026-03-21_215831.csv",
+      "size_bytes": 6448
+    },
+    {
+      "path": "audit_reports/archive/UDQ_PACKAGE_AUDIT__2026-03-21_215831.json",
+      "size_bytes": 92104
+    },
+    {
+      "path": "audit_reports/archive/UDQ_PACKAGE_AUDIT__2026-03-21_215831.md",
+      "size_bytes": 5290
+    },
+    {
+      "path": "audit_reports/archive/UDQ_PRECODE_DIAGNOSTICS__2026-03-21_235959.md",
+      "size_bytes": 189
+    },
+    {
+      "path": "audit_reports/archive/UDQ_PYTEST_STATUS__2026-03-21_235959.md",
+      "size_bytes": 2823
+    },
+    {
+      "path": "audit_reports/archive/UDQ_REPO_INVENTORY__2026-03-21_210500.json",
+      "size_bytes": 72877
+    },
+    {
+      "path": "audit_reports/archive/UDQ_REPO_INVENTORY__2026-03-21_235959.json",
+      "size_bytes": 75441
+    },
+    {
+      "path": "audit_reports/archive/UDQ_REQUIREMENT_CODE_TEST_LINKS__2026-03-21_235959.csv",
+      "size_bytes": 8866
+    },
+    {
+      "path": "audit_reports/archive/UDQ_REQUIREMENT_CODE_TEST_LINKS__2026-03-21_235959.json",
+      "size_bytes": 18287
+    },
+    {
+      "path": "audit_reports/archive/UDQ_SCHEMA_INVENTORY__2026-03-21_210500.json",
+      "size_bytes": 4151
+    },
+    {
+      "path": "audit_reports/archive/UDQ_SCHEMA_INVENTORY__2026-03-21_235959.json",
+      "size_bytes": 4151
+    },
+    {
+      "path": "audit_reports/archive/UDQ_STRUCTURE_REPORT__2026-03-21_235959.md",
+      "size_bytes": 137
+    },
+    {
+      "path": "audit_reports/archive/UDQ_TEST_TREE_STATUS__2026-03-21_235959.md",
+      "size_bytes": 211
+    },
+    {
+      "path": "audit_reports/archive/UDQ_TOOLS_TREE_STATUS__2026-03-21_235959.md",
+      "size_bytes": 179
+    },
+    {
+      "path": "audit_reports/archive/UDQ_TRACEABILITY_SNAPSHOT__2026-03-21_235959.json",
+      "size_bytes": 10301
+    },
+    {
+      "path": "audit_reports/archive/UDQ_TRACEABILITY_SNAPSHOT__2026-03-21_235959.md",
+      "size_bytes": 252
+    },
+    {
+      "path": "audit_reports/latest/README.md",
+      "size_bytes": 187
+    },
+    {
+      "path": "docs/active/UDQ-ARCH-NAR-001__System_Controls_Narrative__r4__WIP.md",
+      "size_bytes": 17806
+    },
+    {
+      "path": "docs/active/UDQ-ARCH-NAR-002__Platform_Controls_Narrative__r4__WIP.md",
+      "size_bytes": 15195
+    },
+    {
+      "path": "docs/active/UDQ-AUD-CHK-001__Local_VSCode_Review_Checklist__r2__WIP.md",
+      "size_bytes": 4862
+    },
+    {
+      "path": "docs/active/UDQ-AUD-SPEC-001__Package_Audit_Specification__r8__WIP.md",
+      "size_bytes": 2354
+    },
+    {
+      "path": "docs/active/UDQ-AUD-SPEC-002__Placeholder_and_Anti_Pattern_Scan_Policy__r2__WIP.md",
+      "size_bytes": 4702
+    },
+    {
+      "path": "docs/active/UDQ-AUD-TPL-001__Package_Audit_Report_Template__r0__WIP.md",
+      "size_bytes": 4556
+    },
+    {
+      "path": "docs/active/UDQ-AUD-TPL-002__Placeholder_and_Anti_Pattern_Scan_Report_Template__r0__WIP.md",
+      "size_bytes": 1649
+    },
+    {
+      "path": "docs/active/UDQ-DEV-SPEC-001__Device_Adapter_and_Protocol_Abstraction_Specification__r0__WIP.md",
+      "size_bytes": 10251
+    },
+    {
+      "path": "docs/active/UDQ-DIAG-SPEC-001__Diagnostics_Watchdog_and_Health_Model_Specification__r0__WIP.md",
+      "size_bytes": 7883
+    },
+    {
+      "path": "docs/active/UDQ-EVT-SPEC-001__Alarms_Events_and_Acknowledgment_Specification__r1__WIP.md",
+      "size_bytes": 10478
+    },
+    {
+      "path": "docs/active/UDQ-EXM-SPEC-001__Canonical_Worked_Examples__r3__WIP.md",
+      "size_bytes": 2472
+    },
+    {
+      "path": "docs/active/UDQ-EXP-SPEC-001__Export_Review_and_Evidence_Bundle_Specification__r0__WIP.md",
+      "size_bytes": 6760
+    },
+    {
+      "path": "docs/active/UDQ-GAP-RPT-001__Open_Implementation_Gaps__r11__WIP.md",
+      "size_bytes": 3298
+    },
+    {
+      "path": "docs/active/UDQ-GAP-TPL-001__Implementation_Gap_Assessment_Template__r0__WIP.md",
+      "size_bytes": 5107
+    },
+    {
+      "path": "docs/active/UDQ-GOV-GLO-001__Canonical_Glossary_and_Ontology__r2__WIP.md",
+      "size_bytes": 1985
+    },
+    {
+      "path": "docs/active/UDQ-GOV-LOG-001__Controlled_Document_Index__r22__WIP.md",
+      "size_bytes": 2277
+    },
+    {
+      "path": "docs/active/UDQ-GOV-MAP-001__Document_Architecture_and_Dependency_Map__r3__WIP.md",
+      "size_bytes": 1538
+    },
+    {
+      "path": "docs/active/UDQ-GOV-POL-002__README_Control_and_Classification_Policy__r0__WIP.md",
+      "size_bytes": 1690
+    },
+    {
+      "path": "docs/active/UDQ-GOV-POL-003__Document_Status_Lifecycle_Policy__r0__BASELINE.md",
+      "size_bytes": 1399
+    },
+    {
+      "path": "docs/active/UDQ-GOV-REG-001__Contradiction_and_Reconciliation_Register__r2__WIP.md",
+      "size_bytes": 7188
+    },
+    {
+      "path": "docs/active/UDQ-GOV-REG-002__Duplication_and_Consolidation_Register__r1__WIP.md",
+      "size_bytes": 3913
+    },
+    {
+      "path": "docs/active/UDQ-GOV-REG-003__Documentation_Update_Debt_Register__r3__WIP.md",
+      "size_bytes": 10281
+    },
+    {
+      "path": "docs/active/UDQ-GOV-RPT-001__Cross_Document_Consistency_Assessment__r5__WIP.md",
+      "size_bytes": 1780
+    },
+    {
+      "path": "docs/active/UDQ-GOV-RPT-002__Subsystem_Reconciliation_and_Duplication_Closure_Assessment__r2__WIP.md",
+      "size_bytes": 1938
+    },
+    {
+      "path": "docs/active/UDQ-GOV-SOP-001__Controlled_Document_Update_and_Impact_Process__r4__WIP.md",
+      "size_bytes": 4789
+    },
+    {
+      "path": "docs/active/UDQ-GOV-SOP-002__Controlled_Document_Completeness_and_Recovery_Process__r0__WIP.md",
+      "size_bytes": 4351
+    },
+    {
+      "path": "docs/active/UDQ-GOV-SPEC-002__Machine_Readable_Document_and_Cross_Reference_Scheme__r4__WIP.md",
+      "size_bytes": 2346
+    },
+    {
+      "path": "docs/active/UDQ-GOV-SPEC-003__Global_Governance_Model_and_Control_Tower_Specification__r1__WIP.md",
+      "size_bytes": 3159
+    },
+    {
+      "path": "docs/active/UDQ-GOV-SPEC-004__Implementation_Declaration_and_Traceability_Specification__r2__WIP.md",
+      "size_bytes": 1523
+    },
+    {
+      "path": "docs/active/UDQ-GOV-SPEC-005__Runtime_Conformance_and_Invariant_Monitoring_Specification__r2__WIP.md",
+      "size_bytes": 1554
+    },
+    {
+      "path": "docs/active/UDQ-GOV-SPEC-006__Executive_Summary_and_Project_Status_Specification__r1__WIP.md",
+      "size_bytes": 1741
+    },
+    {
+      "path": "docs/active/UDQ-GOV-STD-001__Document_Control_Scheme__r3__WIP.md",
+      "size_bytes": 19223
+    },
+    {
+      "path": "docs/active/UDQ-GOV-STD-002__Semantic_Precedence_and_Term_Usage_Standard__r0__WIP.md",
+      "size_bytes": 4030
+    },
+    {
+      "path": "docs/active/UDQ-GOV-STD-003__Active_Archive_and_Package_Structure_Standard__r2__WIP.md",
+      "size_bytes": 2347
+    },
+    {
+      "path": "docs/active/UDQ-GOV-TPL-001__Sprint_Documentation_Impact_Checklist__r2__WIP.md",
+      "size_bytes": 1958
+    },
+    {
+      "path": "docs/active/UDQ-GOV-TPL-002__Documentation_Review_and_Outcome_Ledger_Template__r0__WIP.md",
+      "size_bytes": 1400
+    },
+    {
+      "path": "docs/active/UDQ-GOV-WI-001__Step_by_Step_Document_Reconciliation_and_Logging_Work_Instruction__r0__WIP.md",
+      "size_bytes": 8590
+    },
+    {
+      "path": "docs/active/UDQ-HIS-SPEC-001__Historian_Events_and_Evidence_Specification__r3__WIP.md",
+      "size_bytes": 2999
+    },
+    {
+      "path": "docs/active/UDQ-IMP-GUIDE-001__Python_Typing_and_Modeling_Policy__r0__WIP.md",
+      "size_bytes": 1765
+    },
+    {
+      "path": "docs/active/UDQ-IMP-MAP-001__Frozen_Package_Structure_and_Module_Boundary_Standard__r3__WIP.md",
+      "size_bytes": 2662
+    },
+    {
+      "path": "docs/active/UDQ-IMP-PLAN-001__Implementation_Transition_and_Handoff_Plan__r7__WIP.md",
+      "size_bytes": 4059
+    },
+    {
+      "path": "docs/active/UDQ-IMP-SPEC-002__Pre_Code_Scaffolding_and_Verification_Structure_Specification__r0__WIP.md",
+      "size_bytes": 2409
+    },
+    {
+      "path": "docs/active/UDQ-LIFECYCLE-SPEC-001__Device_Point_Signal_Variable_Logic_Lifecycle_and_Reconciliation_Specification__r0__WIP.md",
+      "size_bytes": 26716
+    },
+    {
+      "path": "docs/active/UDQ-LOG-SPEC-001__Rules_Conditions_and_Actions_Specification__r2__WIP.md",
+      "size_bytes": 26647
+    },
+    {
+      "path": "docs/active/UDQ-OUT-SPEC-001__Outputs_Command_Arbitration_and_Safe_State_Specification__r2__WIP.md",
+      "size_bytes": 20806
+    },
+    {
+      "path": "docs/active/UDQ-PERF-SPEC-001__Runtime_Performance_Responsiveness_and_Scalability_Doctrine__r0__WIP.md",
+      "size_bytes": 3148
+    },
+    {
+      "path": "docs/active/UDQ-PROF-SPEC-001__Profiles_Persistence_Autosave_and_Restore_Specification__r2__WIP.md",
+      "size_bytes": 2437
+    },
+    {
+      "path": "docs/active/UDQ-PROOF-TPL-001__Implementation_Proof_Bundle_Template__r0__WIP.md",
+      "size_bytes": 5165
+    },
+    {
+      "path": "docs/active/UDQ-PROT-SPEC-001__Modbus_Integration_Specification__r1__WIP.md",
+      "size_bytes": 25680
+    },
+    {
+      "path": "docs/active/UDQ-QUAL-DEF-001__Definition_of_Complete_by_Subsystem__r2__WIP.md",
+      "size_bytes": 5486
+    },
+    {
+      "path": "docs/active/UDQ-QUAL-SPEC-002__Implementation_Proof_Model__r2__WIP.md",
+      "size_bytes": 1313
+    },
+    {
+      "path": "docs/active/UDQ-REL-SPEC-001__Release_Package_Composition_and_Baseline_Specification__r0__WIP.md",
+      "size_bytes": 7021
+    },
+    {
+      "path": "docs/active/UDQ-REL-TPL-001__Release_Manifest_Template__r1__WIP.md",
+      "size_bytes": 4376
+    },
+    {
+      "path": "docs/active/UDQ-REL-TPL-002__Release_Notes_and_Update_Summary_Template__r0__WIP.md",
+      "size_bytes": 2983
+    },
+    {
+      "path": "docs/active/UDQ-REM-SPEC-001__Remote_Observation_and_Supervision_Specification__r2__WIP.md",
+      "size_bytes": 18705
+    },
+    {
+      "path": "docs/active/UDQ-REQ-ADD-001__Variables_and_Multi_Instance_Device_Requirements_Addendum__r0__WIP.md",
+      "size_bytes": 4561
+    },
+    {
+      "path": "docs/active/UDQ-REQ-MAT-001__Requirements_Traceability_Matrix__r10__WIP.md",
+      "size_bytes": 5803
+    },
+    {
+      "path": "docs/active/UDQ-SCHEMA-POLICY-001__Governance_Schema_Conventions__r0__WIP.md",
+      "size_bytes": 1286
+    },
+    {
+      "path": "docs/active/UDQ-SCM-STD-001__Code_and_Package_Version_Control_Scheme__r0__WIP.md",
+      "size_bytes": 9136
+    },
+    {
+      "path": "docs/active/UDQ-SEC-BASELINE-001__Security_and_Trust_Boundary_Baseline__r0__WIP.md",
+      "size_bytes": 1584
+    },
+    {
+      "path": "docs/active/UDQ-SEC-SPEC-001__Roles_Permissions_and_Command_Authorization_Specification__r1__WIP.md",
+      "size_bytes": 6325
+    },
+    {
+      "path": "docs/active/UDQ-SEQ-SPEC-001__Sequences_and_Workflows_Specification__r2__WIP.md",
+      "size_bytes": 20930
+    },
+    {
+      "path": "docs/active/UDQ-SIG-SPEC-001__Signals_and_Derived_Signals_Specification__r2__WIP.md",
+      "size_bytes": 27439
+    },
+    {
+      "path": "docs/active/UDQ-UI-ARCH-001__UI_Functional_Architecture__r2__WIP.md",
+      "size_bytes": 12281
+    },
+    {
+      "path": "docs/active/UDQ-UI-DEVFLOW-001__Device_Discovery_Onboarding_and_Known_Device_UX__r1__WIP.md",
+      "size_bytes": 2912
+    },
+    {
+      "path": "docs/active/UDQ-UI-INV-001__Genesys_Feature_Inventory_and_Preservation_Map__r3__WIP.md",
+      "size_bytes": 3896
+    },
+    {
+      "path": "docs/active/UDQ-UI-MOD-001__UI_State_and_Interaction_Model__r3__WIP.md",
+      "size_bytes": 13213
+    },
+    {
+      "path": "docs/active/UDQ-UI-NAR-001__UI_Controls_Philosophy_and_HMI_Doctrine__r2__WIP.md",
+      "size_bytes": 16044
+    },
+    {
+      "path": "docs/active/UDQ-UI-SPEC-000__UI_Navigation_and_Shell_Behavior_Specification__r2__WIP.md",
+      "size_bytes": 5517
+    },
+    {
+      "path": "docs/active/UDQ-UI-SPEC-001__Workspace_and_Page_Specifications__r1__WIP.md",
+      "size_bytes": 4560
+    },
+    {
+      "path": "docs/active/UDQ-UI-SPEC-002__Widget_Status_and_Visual_Language_Specification__r1__WIP.md",
+      "size_bytes": 3732
+    },
+    {
+      "path": "docs/active/UDQ-UI-SPEC-003__Control_Authoring_Visual_and_Structured_Roundtrip_Specification__r1__WIP.md",
+      "size_bytes": 3663
+    },
+    {
+      "path": "docs/active/UDQ-UI-SPEC-004__Graphing_History_Review_and_Live_Trace_Specification__r3__WIP.md",
+      "size_bytes": 4568
+    },
+    {
+      "path": "docs/active/UDQ-UI-SPEC-005__Remote_UI_Surface_Specification__r1__WIP.md",
+      "size_bytes": 2989
+    },
+    {
+      "path": "docs/active/UDQ-UI-SPEC-006__Control_Workspace_and_Control_Authoring_Model__r0__WIP.md",
+      "size_bytes": 7734
+    },
+    {
+      "path": "docs/adr/ADR-0001__ui_naming_and_package_structure.md",
+      "size_bytes": 1118
+    },
+    {
+      "path": "docs/adr/ADR-0002__typed_domain_model_first.md",
+      "size_bytes": 996
+    },
+    {
+      "path": "docs/adr/ADR-0003__reserved_packages_and_guardrails.md",
+      "size_bytes": 846
+    },
+    {
+      "path": "docs/adr/ADR-0004__local_and_ci_gate_policy.md",
+      "size_bytes": 822
+    },
+    {
+      "path": "docs/adr/ADR-0005__support_pack_isolation_and_real_labjack_slice.md",
+      "size_bytes": 865
+    },
+    {
+      "path": "docs/adr/ADR-0006__bounded_safe_expression_evaluation.md",
+      "size_bytes": 866
+    },
+    {
+      "path": "docs/adr/ADR-0007__governance_compression_and_delivery_first.md",
+      "size_bytes": 940
+    },
+    {
+      "path": "docs/adr/ADR-0008__controller_handler_extraction.md",
+      "size_bytes": 907
+    },
+    {
+      "path": "docs/archive/UDQ-AUD-SPEC-001__Package_Audit_Specification__r3__WIP.md",
+      "size_bytes": 3267
+    },
+    {
+      "path": "docs/archive/UDQ-AUD-SPEC-001__Package_Audit_Specification__r4__WIP.md",
+      "size_bytes": 2186
+    },
+    {
+      "path": "docs/archive/UDQ-AUD-SPEC-001__Package_Audit_Specification__r5__WIP.md",
+      "size_bytes": 2060
+    },
+    {
+      "path": "docs/archive/UDQ-AUD-SPEC-001__Package_Audit_Specification__r6__WIP.md",
+      "size_bytes": 1931
+    },
+    {
+      "path": "docs/archive/UDQ-AUD-SPEC-001__Package_Audit_Specification__r7__WIP.md",
+      "size_bytes": 1652
+    },
+    {
+      "path": "docs/archive/UDQ-EVT-SPEC-001__Alarms_Events_and_Acknowledgment_Specification__r0__WIP.md",
+      "size_bytes": 9340
+    },
+    {
+      "path": "docs/archive/UDQ-EXM-SPEC-001__Canonical_Worked_Examples__r0__WIP.md",
+      "size_bytes": 2413
+    },
+    {
+      "path": "docs/archive/UDQ-EXM-SPEC-001__Canonical_Worked_Examples__r1__WIP.md",
+      "size_bytes": 3373
+    },
+    {
+      "path": "docs/archive/UDQ-EXM-SPEC-001__Canonical_Worked_Examples__r2__WIP.md",
+      "size_bytes": 2709
+    },
+    {
+      "path": "docs/archive/UDQ-GAP-RPT-001__Open_Implementation_Gaps__r3__WIP.md",
+      "size_bytes": 3841
+    },
+    {
+      "path": "docs/archive/UDQ-GAP-RPT-001__Open_Implementation_Gaps__r4__WIP.md",
+      "size_bytes": 1379
+    },
+    {
+      "path": "docs/archive/UDQ-GAP-RPT-001__Open_Implementation_Gaps__r5__WIP.md",
+      "size_bytes": 1798
+    },
+    {
+      "path": "docs/archive/UDQ-GAP-RPT-001__Open_Implementation_Gaps__r6__WIP.md",
+      "size_bytes": 1534
+    },
+    {
+      "path": "docs/archive/UDQ-GAP-RPT-001__Open_Implementation_Gaps__r7__WIP.md",
+      "size_bytes": 1786
+    },
+    {
+      "path": "docs/archive/UDQ-GAP-RPT-001__Open_Implementation_Gaps__r8__WIP.md",
+      "size_bytes": 2130
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-GLO-001__Canonical_Glossary_and_Ontology__r0__WIP.md",
+      "size_bytes": 3834
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-GLO-001__Canonical_Glossary_and_Ontology__r1__WIP.md",
+      "size_bytes": 9598
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-LOG-001__Controlled_Document_Index__r14__WIP.md",
+      "size_bytes": 3215
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-LOG-001__Controlled_Document_Index__r15__WIP.md",
+      "size_bytes": 3726
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-LOG-001__Controlled_Document_Index__r16__WIP.md",
+      "size_bytes": 3734
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-LOG-001__Controlled_Document_Index__r17__WIP.md",
+      "size_bytes": 3738
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-LOG-001__Controlled_Document_Index__r18__WIP.md",
+      "size_bytes": 1356
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-LOG-001__Controlled_Document_Index__r19__WIP.md",
+      "size_bytes": 1595
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-MAP-001__Document_Architecture_and_Dependency_Map__r0__WIP.md",
+      "size_bytes": 2845
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-MAP-001__Document_Architecture_and_Dependency_Map__r1__WIP.md",
+      "size_bytes": 3017
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-MAP-001__Document_Architecture_and_Dependency_Map__r2__WIP.md",
+      "size_bytes": 2546
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-REG-001__Contradiction_and_Reconciliation_Register__r0__WIP.md",
+      "size_bytes": 3198
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-REG-002__Duplication_and_Consolidation_Register__r0__WIP.md",
+      "size_bytes": 2287
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-REG-003__Documentation_Update_Debt_Register__r0__WIP.md",
+      "size_bytes": 5310
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-REG-003__Documentation_Update_Debt_Register__r1__WIP.md",
+      "size_bytes": 5874
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-RPT-001__Cross_Document_Consistency_Assessment__r2__WIP.md",
+      "size_bytes": 4488
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-RPT-001__Cross_Document_Consistency_Assessment__r3__WIP.md",
+      "size_bytes": 3736
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-RPT-001__Cross_Document_Consistency_Assessment__r4__WIP.md",
+      "size_bytes": 2661
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-RPT-002__Subsystem_Reconciliation_and_Duplication_Closure_Assessment__r0__WIP.md",
+      "size_bytes": 2775
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-RPT-002__Subsystem_Reconciliation_and_Duplication_Closure_Assessment__r1__WIP.md",
+      "size_bytes": 2127
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-SOP-001__Controlled_Document_Update_and_Impact_Process__r0__WIP.md",
+      "size_bytes": 2391
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-SOP-001__Controlled_Document_Update_and_Impact_Process__r1__WIP.md",
+      "size_bytes": 1198
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-SOP-001__Controlled_Document_Update_and_Impact_Process__r2__WIP.md",
+      "size_bytes": 3670
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-SOP-001__Controlled_Document_Update_and_Impact_Process__r3__WIP.md",
+      "size_bytes": 3269
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-SPEC-003__Global_Governance_Model_and_Control_Tower_Specification__r0__WIP.md",
+      "size_bytes": 4111
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-SPEC-004__Implementation_Declaration_and_Traceability_Specification__r0__WIP.md",
+      "size_bytes": 2547
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-SPEC-004__Implementation_Declaration_and_Traceability_Specification__r1__WIP.md",
+      "size_bytes": 1986
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-SPEC-005__Runtime_Conformance_and_Invariant_Monitoring_Specification__r0__WIP.md",
+      "size_bytes": 2691
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-SPEC-005__Runtime_Conformance_and_Invariant_Monitoring_Specification__r1__WIP.md",
+      "size_bytes": 2237
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-SPEC-006__Executive_Summary_and_Project_Status_Specification__r0__WIP.md",
+      "size_bytes": 2037
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-STD-003__Active_Archive_and_Package_Structure_Standard__r0__WIP.md",
+      "size_bytes": 3505
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-STD-003__Active_Archive_and_Package_Structure_Standard__r1__WIP.md",
+      "size_bytes": 1188
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-TPL-001__Sprint_Documentation_Impact_Checklist__r0__WIP.md",
+      "size_bytes": 1829
+    },
+    {
+      "path": "docs/archive/UDQ-GOV-TPL-001__Sprint_Documentation_Impact_Checklist__r1__WIP.md",
+      "size_bytes": 1604
+    },
+    {
+      "path": "docs/archive/UDQ-HIS-SPEC-001__Historian_Events_and_Evidence_Specification__r1__WIP.md",
+      "size_bytes": 21711
+    },
+    {
+      "path": "docs/archive/UDQ-HIS-SPEC-001__Historian_Events_and_Evidence_Specification__r2__WIP.md",
+      "size_bytes": 22576
+    },
+    {
+      "path": "docs/archive/UDQ-IMP-MAP-001__Frozen_Package_Structure_and_Module_Boundary_Standard__r1__WIP.md",
+      "size_bytes": 3817
+    },
+    {
+      "path": "docs/archive/UDQ-IMP-MAP-001__Frozen_Package_Structure_and_Module_Boundary_Standard__r2__WIP.md",
+      "size_bytes": 1578
+    },
+    {
+      "path": "docs/archive/UDQ-IMP-MAP-001__Proposed_Code_Architecture_and_Module_Boundary_Map__r0__WIP.md",
+      "size_bytes": 3303
+    },
+    {
+      "path": "docs/archive/UDQ-IMP-PLAN-001__Implementation_Transition_and_Handoff_Plan__r0__WIP.md",
+      "size_bytes": 2615
+    },
+    {
+      "path": "docs/archive/UDQ-IMP-PLAN-001__Implementation_Transition_and_Handoff_Plan__r1__WIP.md",
+      "size_bytes": 3005
+    },
+    {
+      "path": "docs/archive/UDQ-IMP-PLAN-001__Implementation_Transition_and_Handoff_Plan__r2__WIP.md",
+      "size_bytes": 1503
+    },
+    {
+      "path": "docs/archive/UDQ-IMP-PLAN-001__Implementation_Transition_and_Handoff_Plan__r3__WIP.md",
+      "size_bytes": 1645
+    },
+    {
+      "path": "docs/archive/UDQ-IMP-PLAN-001__Implementation_Transition_and_Handoff_Plan__r4__WIP.md",
+      "size_bytes": 2531
+    },
+    {
+      "path": "docs/archive/UDQ-IMP-PLAN-001__Implementation_Transition_and_Handoff_Plan__r5__WIP.md",
+      "size_bytes": 2888
+    },
+    {
+      "path": "docs/archive/UDQ-IMP-PLAN-001__Implementation_Transition_and_Handoff_Plan__r6__WIP.md",
+      "size_bytes": 2328
+    },
+    {
+      "path": "docs/archive/UDQ-LOG-SPEC-001__Rules_Conditions_and_Actions_Specification__r1__WIP.md",
+      "size_bytes": 25758
+    },
+    {
+      "path": "docs/archive/UDQ-OUT-SPEC-001__Outputs_Command_Arbitration_and_Safe_State_Specification__r1__WIP.md",
+      "size_bytes": 19779
+    },
+    {
+      "path": "docs/archive/UDQ-PROF-SPEC-001__Profiles_Persistence_Autosave_and_Restore_Specification__r0__WIP.md",
+      "size_bytes": 7188
+    },
+    {
+      "path": "docs/archive/UDQ-PROF-SPEC-001__Profiles_Persistence_Autosave_and_Restore_Specification__r1__WIP.md",
+      "size_bytes": 8103
+    },
+    {
+      "path": "docs/archive/UDQ-QUAL-SPEC-002__Implementation_Proof_Model__r0__WIP.md",
+      "size_bytes": 9736
+    },
+    {
+      "path": "docs/archive/UDQ-QUAL-SPEC-002__Implementation_Proof_Model__r1__WIP.md",
+      "size_bytes": 1249
+    },
+    {
+      "path": "docs/archive/UDQ-REM-SPEC-001__Remote_Observation_and_Supervision_Specification__r1__WIP.md",
+      "size_bytes": 17829
+    },
+    {
+      "path": "docs/archive/UDQ-REQ-MAT-001__Requirements_Traceability_Matrix__r4__WIP.md",
+      "size_bytes": 13505
+    },
+    {
+      "path": "docs/archive/UDQ-REQ-MAT-001__Requirements_Traceability_Matrix__r5__WIP.md",
+      "size_bytes": 14031
+    },
+    {
+      "path": "docs/archive/UDQ-REQ-MAT-001__Requirements_Traceability_Matrix__r6__WIP.md",
+      "size_bytes": 17080
+    },
+    {
+      "path": "docs/archive/UDQ-REQ-MAT-001__Requirements_Traceability_Matrix__r7__WIP.md",
+      "size_bytes": 11330
+    },
+    {
+      "path": "docs/archive/UDQ-SEC-SPEC-001__Roles_Permissions_and_Command_Authorization_Specification__r0__WIP.md",
+      "size_bytes": 5526
+    },
+    {
+      "path": "docs/archive/UDQ-SEQ-SPEC-001__Sequences_and_Workflows_Specification__r1__WIP.md",
+      "size_bytes": 20021
+    },
+    {
+      "path": "docs/archive/UDQ-SIG-SPEC-001__Signals_and_Derived_Signals_Specification__r1__WIP.md",
+      "size_bytes": 25570
+    },
+    {
+      "path": "docs/archive/UDQ-UI-MOD-001__UI_State_and_Interaction_Model__r1__WIP.md",
+      "size_bytes": 25768
+    },
+    {
+      "path": "docs/archive/UDQ-UI-SPEC-000__UI_Navigation_and_Shell_Behavior_Specification__r0__WIP.md",
+      "size_bytes": 2655
+    },
+    {
+      "path": "docs/archive/UDQ-UI-SPEC-004__Graphing_History_Review_and_Live_Trace_Specification__r0__WIP.md",
+      "size_bytes": 2263
+    },
+    {
+      "path": "docs/archive/UDQ-UI-SPEC-004__Graphing_History_Review_and_Live_Trace_Specification__r1__WIP.md",
+      "size_bytes": 2970
+    },
+    {
+      "path": "docs/handbook/AUDIT_AND_GOVERNANCE.md",
+      "size_bytes": 2048
+    },
+    {
+      "path": "docs/handbook/IMPLEMENTATION_ENTRY.md",
+      "size_bytes": 5649
+    },
+    {
+      "path": "docs/handbook/NEXT_ACTIONS.md",
+      "size_bytes": 3317
+    },
+    {
+      "path": "docs/handbook/PUBLIC_API_FREEZE.md",
+      "size_bytes": 3097
+    },
+    {
+      "path": "docs/handbook/QUICKSTART_CONTRIBUTOR.md",
+      "size_bytes": 1515
+    },
+    {
+      "path": "docs/handbook/START_HERE.md",
+      "size_bytes": 1637
+    },
+    {
+      "path": "docs/handbook/TESTS_AND_TOOLS.md",
+      "size_bytes": 5265
+    },
+    {
+      "path": "docs/release/EXEC_SUMMARY.md",
+      "size_bytes": 4051
+    },
+    {
+      "path": "docs/release/NEXT_RUN_IMPLEMENTATION_SUMMARY__2026-03-23.txt",
+      "size_bytes": 2242
+    },
+    {
+      "path": "docs/release/PACKAGE_ENTRY_REGISTRY.yaml",
+      "size_bytes": 2741
+    },
+    {
+      "path": "docs/release/PASS1_INTERNAL_LOGIC_TIGHTENING_SUMMARY__2026-03-23.md",
+      "size_bytes": 1991
+    },
+    {
+      "path": "docs/release/PASS2_REVIEW_HARDENING_SUMMARY__2026-03-23.md",
+      "size_bytes": 1778
+    },
+    {
+      "path": "docs/release/REBALANCING_SPRINT_SUMMARY__2026-03-23.md",
+      "size_bytes": 1061
+    },
+    {
+      "path": "docs/release/RELEASE_MANIFEST.yaml",
+      "size_bytes": 1149
+    },
+    {
+      "path": "docs/release/RELEASE_NOTES.md",
+      "size_bytes": 4541
+    },
+    {
+      "path": "docs/release/REVIEW_START_HERE__DOC_CLOSEOUT__2026-03-23.md",
+      "size_bytes": 1327
+    },
+    {
+      "path": "docs/release/REVIEW_START_HERE__PASS2__2026-03-23.md",
+      "size_bytes": 2533
+    },
+    {
+      "path": "docs/release/REVIEW_START_HERE__REBALANCING__2026-03-23.md",
+      "size_bytes": 1448
+    },
+    {
+      "path": "docs/release/REVIEW_START_HERE__UDQ-PKG-20260324-PACKAGE-NORMALIZATION-R01__ACTIVE.md",
+      "size_bytes": 736
+    },
+    {
+      "path": "docs/release/REVIEW_START_HERE__UDQ-PKG-20260324-SPRINT-01-CONTROLLER-DECOMPOSITION-R01__ACTIVE.md",
+      "size_bytes": 729
+    },
+    {
+      "path": "docs/release/REVIEW_START_HERE__UDQ-PKG-20260324-SPRINT-02-U6-BOUNDED-HARDENING-R01__ACTIVE.md",
+      "size_bytes": 821
+    },
+    {
+      "path": "docs/release/REVIEW_START_HERE__UDQ-PKG-20260325-DOC-ALIGNMENT-REVIEW-READY-R01__ACTIVE.md",
+      "size_bytes": 3253
+    },
+    {
+      "path": "docs/release/REVIEW_START_HERE__UDQ-PKG-20260325-FULL-REVIEW-READY-R01__ACTIVE.md",
+      "size_bytes": 1015
+    },
+    {
+      "path": "docs/release/REVIEW_START_HERE__UDQ-PKG-20260325-GAP-RUN-REVIEW-PREP-R01__ACTIVE.md",
+      "size_bytes": 1043
+    },
+    {
+      "path": "docs/release/REVIEW_START_HERE__UDQ-PKG-20260325-IMPLEMENTATION-ENTRY-OPTIMIZATION-R02__ACTIVE.md",
+      "size_bytes": 4155
+    },
+    {
+      "path": "docs/release/REVIEW_START_HERE__UDQ-PKG-20260325-SPRINT-02B-U6-RECOVERY-DETERMINISM-R01__ACTIVE.md",
+      "size_bytes": 858
+    },
+    {
+      "path": "docs/release/SAVEPOINT_SUMMARY.md",
+      "size_bytes": 2380
+    },
+    {
+      "path": "docs/release/VERTICAL_SLICE_SUMMARY__2026-03-23.md",
+      "size_bytes": 2159
+    },
+    {
+      "path": "docs/review/ASSESSMENT_FIX_RUN__2026-03-24.md",
+      "size_bytes": 1476
+    },
+    {
+      "path": "docs/review/EXTERNAL_ASSESSMENT_RESPONSE__2026-03-23.md",
+      "size_bytes": 4022
+    },
+    {
+      "path": "docs/review/HUMAN_PASS_CHECKLIST.md",
+      "size_bytes": 880
+    },
+    {
+      "path": "docs/review/PACKAGE_NORMALIZATION_SPRINT__2026-03-24.md",
+      "size_bytes": 817
+    },
+    {
+      "path": "docs/review/SAVEPOINT_DISCREPANCY_INVENTORY.md",
+      "size_bytes": 1320
+    },
+    {
+      "path": "docs/review/SAVEPOINT_REVIEW_LEDGER.md",
+      "size_bytes": 4241
+    },
+    {
+      "path": "docs/review/SPRINT_01_CONTROLLER_DECOMPOSITION__2026-03-24.md",
+      "size_bytes": 379
+    },
+    {
+      "path": "docs/review/TRUNCATION_RECOVERY_RUN__2026-03-24.md",
+      "size_bytes": 2378
+    },
+    {
+      "path": "proof/README.md",
+      "size_bytes": 197
+    },
+    {
+      "path": "proof/U6_DIAG_JOURNAL.jsonl",
+      "size_bytes": 342645
+    },
+    {
+      "path": "proof/U6_FIELD_TEST_JOURNAL.jsonl",
+      "size_bytes": 981649
+    },
+    {
+      "path": "proof/UDQ_ARCHITECTURE_STATUS.md",
+      "size_bytes": 1856
+    },
+    {
+      "path": "proof/UDQ_ASSESSMENT_FIX_VALIDATION_SUMMARY__2026-03-24.txt",
+      "size_bytes": 749
+    },
+    {
+      "path": "proof/UDQ_CLEANUP_PLAN.md",
+      "size_bytes": 1112
+    },
+    {
+      "path": "proof/UDQ_CONTROLLER_BEFORE_AFTER_COMPARISON.md",
+      "size_bytes": 762
+    },
+    {
+      "path": "proof/UDQ_CONTROLLER_RESPONSIBILITY_MAP.md",
+      "size_bytes": 985
+    },
+    {
+      "path": "proof/UDQ_CROSS_REFERENCE_EDGE_DELTA_CONFIRMATION__2026-03-25.md",
+      "size_bytes": 983
+    },
+    {
+      "path": "proof/UDQ_DANGLING_LABJACK_WORK_REGISTER.md",
+      "size_bytes": 1324
+    },
+    {
+      "path": "proof/UDQ_DOCUMENTATION_IMPACT_LEDGER__SPRINT_03.md",
+      "size_bytes": 503
+    },
+    {
+      "path": "proof/UDQ_DOCUMENTATION_INTEGRITY_REPORT.md",
+      "size_bytes": 2859
+    },
+    {
+      "path": "proof/UDQ_DOCUMENTATION_INTEGRITY_REPORT__SPRINT_03.md",
+      "size_bytes": 515
+    },
+    {
+      "path": "proof/UDQ_DOCUMENTATION_INTEGRITY_REPORT__SPRINT_03A.md",
+      "size_bytes": 947
+    },
+    {
+      "path": "proof/UDQ_DOCUMENTATION_INTEGRITY_REPORT__SPRINT_03B.md",
+      "size_bytes": 1157
+    },
+    {
+      "path": "proof/UDQ_DOCUMENTATION_UPDATE_MAP__2026-03-25.md",
+      "size_bytes": 516
+    },
+    {
+      "path": "proof/UDQ_DOCUMENTATION_UPDATE_MAP__SPRINT_03.md",
+      "size_bytes": 956
+    },
+    {
+      "path": "proof/UDQ_DOCUMENTATION_UPDATE_RUN_SUMMARY.md",
+      "size_bytes": 1060
+    },
+    {
+      "path": "proof/UDQ_DOCUMENT_COMPLETENESS_CHECK__2026-03-24.txt",
+      "size_bytes": 499
+    },
+    {
+      "path": "proof/UDQ_DOCUMENT_COMPLETENESS_CHECK__SPRINT_03A.json",
+      "size_bytes": 31923
+    },
+    {
+      "path": "proof/UDQ_DOCUMENT_COMPLETENESS_PROOF__2026-03-24.md",
+      "size_bytes": 737
+    },
+    {
+      "path": "proof/UDQ_DOCUMENT_RECOVERY_MATRIX__2026-03-24.csv",
+      "size_bytes": 1867
+    },
+    {
+      "path": "proof/UDQ_DOC_INDEX.md",
+      "size_bytes": 1709
+    },
+    {
+      "path": "proof/UDQ_EVENT_SCHEMA_GUIDE.md",
+      "size_bytes": 492
+    },
+    {
+      "path": "proof/UDQ_EXTERNAL_REVIEW_DISPOSITION__2026-03-25.md",
+      "size_bytes": 1049
+    },
+    {
+      "path": "proof/UDQ_EXTERNAL_REVIEW_PREP_GAP_REGISTER.md",
+      "size_bytes": 1206
+    },
+    {
+      "path": "proof/UDQ_EXTERNAL_REVIEW_PREP_PACKET.md",
+      "size_bytes": 1542
+    },
+    {
+      "path": "proof/UDQ_FIELD_VALIDATION_VERDICT_RECHECK__SPRINT_03A.json",
+      "size_bytes": 1864
+    },
+    {
+      "path": "proof/UDQ_FULL_REVIEW_PREP_PACKET__2026-03-25.md",
+      "size_bytes": 3349
+    },
+    {
+      "path": "proof/UDQ_GAP_RUN_SUMMARY.md",
+      "size_bytes": 1826
+    },
+    {
+      "path": "proof/UDQ_IMPLEMENTATION_ENTRY_OPTIMIZATION_SUMMARY__2026-03-25.md",
+      "size_bytes": 1327
+    },
+    {
+      "path": "proof/UDQ_IMPLEMENTATION_ENTRY_PACKET__2026-03-25.md",
+      "size_bytes": 2062
+    },
+    {
+      "path": "proof/UDQ_IMPLEMENTATION_ENTRY_VALIDATION_SUMMARY__2026-03-25.txt",
+      "size_bytes": 1051
+    },
+    {
+      "path": "proof/UDQ_LABJACK_CORE_BOUNDARY_VERIFICATION.md",
+      "size_bytes": 2308
+    },
+    {
+      "path": "proof/UDQ_NEXT_SPRINT_PLAN__RUNTIME_DIAGNOSTICS_AND_EVIDENCE_COHERENCE.md",
+      "size_bytes": 1501
+    },
+    {
+      "path": "proof/UDQ_NEXT_STEPS.txt",
+      "size_bytes": 1012
+    },
+    {
+      "path": "proof/UDQ_PACKAGE_PATH_BUDGET_COMPLIANCE.md",
+      "size_bytes": 1031
+    },
+    {
+      "path": "proof/UDQ_PROOF_GUIDE.md",
+      "size_bytes": 2517
+    },
+    {
+      "path": "proof/UDQ_RUN1_PLAN.md",
+      "size_bytes": 2826
+    },
+    {
+      "path": "proof/UDQ_RUN2_PLAN.md",
+      "size_bytes": 1362
+    },
+    {
+      "path": "proof/UDQ_RUN3_PLAN.md",
+      "size_bytes": 1237
+    },
+    {
+      "path": "proof/UDQ_RUN4_PLAN.md",
+      "size_bytes": 1469
+    },
+    {
+      "path": "proof/UDQ_RUN5_PLAN.md",
+      "size_bytes": 1925
+    },
+    {
+      "path": "proof/UDQ_RUN8_PLAN.md",
+      "size_bytes": 676
+    },
+    {
+      "path": "proof/UDQ_RUN9_PLAN.md",
+      "size_bytes": 1082
+    },
+    {
+      "path": "proof/UDQ_RUNTIME_EVENT_TAXONOMY.md",
+      "size_bytes": 562
+    },
+    {
+      "path": "proof/UDQ_RUNTIME_EVIDENCE_BUNDLE_SPEC.md",
+      "size_bytes": 537
+    },
+    {
+      "path": "proof/UDQ_RUNTIME_METRIC_AUDIENCE_POLICY.md",
+      "size_bytes": 312
+    },
+    {
+      "path": "proof/UDQ_RUNTIME_METRIC_DICTIONARY.md",
+      "size_bytes": 604
+    },
+    {
+      "path": "proof/UDQ_RUNTIME_REVIEW_SUMMARY_TEMPLATE.md",
+      "size_bytes": 369
+    },
+    {
+      "path": "proof/UDQ_RUNTIME_STATE_TRANSLATION_TABLE.md",
+      "size_bytes": 584
+    },
+    {
+      "path": "proof/UDQ_RUNTIME_TRUTH_SURFACE_INVENTORY.md",
+      "size_bytes": 1797
+    },
+    {
+      "path": "proof/UDQ_RUNTIME_VALIDATION_STATUS__SPRINT_03.txt",
+      "size_bytes": 819
+    },
+    {
+      "path": "proof/UDQ_RUNTIME_VOCABULARY_MAP.md",
+      "size_bytes": 786
+    },
+    {
+      "path": "proof/UDQ_RUN_SUMMARY.txt",
+      "size_bytes": 420
+    },
+    {
+      "path": "proof/UDQ_SPRINT_01_CONTROLLER_DECOMPOSITION_SUMMARY.md",
+      "size_bytes": 812
+    },
+    {
+      "path": "proof/UDQ_SPRINT_02A_EVIDENCE_AND_SEMANTICS_SUMMARY.md",
+      "size_bytes": 2660
+    },
+    {
+      "path": "proof/UDQ_SPRINT_02B_RECOVERY_DETERMINISM_SUMMARY.md",
+      "size_bytes": 1975
+    },
+    {
+      "path": "proof/UDQ_SPRINT_02_CLOSEOUT_STATUS_CARRYFORWARD.md",
+      "size_bytes": 706
+    },
+    {
+      "path": "proof/UDQ_SPRINT_02_EXECUTION_PLAN.md",
+      "size_bytes": 709
+    },
+    {
+      "path": "proof/UDQ_SPRINT_02_FIELD_VALIDATION_CLOSEOUT.md",
+      "size_bytes": 1341
+    },
+    {
+      "path": "proof/UDQ_SPRINT_02_SCOPE_BOUNDARY.md",
+      "size_bytes": 602
+    },
+    {
+      "path": "proof/UDQ_SPRINT_02_U6_BASELINE_MAP.md",
+      "size_bytes": 935
+    },
+    {
+      "path": "proof/UDQ_SPRINT_02_U6_HARDENING_SUMMARY.md",
+      "size_bytes": 688
+    },
+    {
+      "path": "proof/UDQ_SPRINT_03A_BASELINE_FILE_SNAPSHOT.json",
+      "size_bytes": 218153
+    },
+    {
+      "path": "proof/UDQ_SPRINT_03A_EXECUTION_PLAN.md",
+      "size_bytes": 1844
+    },
+    {
+      "path": "proof/UDQ_SPRINT_03A_SCOPE_BOUNDARY.md",
+      "size_bytes": 591
+    },
+    {
+      "path": "proof/UDQ_SPRINT_03A_TOUCHED_FILE_LEDGER.md",
+      "size_bytes": 3774
+    },
+    {
+      "path": "proof/UDQ_SPRINT_03A_TOUCHED_SURFACES.md",
+      "size_bytes": 1256
+    },
+    {
+      "path": "proof/UDQ_SPRINT_03A_VALIDATION_STATUS.txt",
+      "size_bytes": 1395
+    },
+    {
+      "path": "proof/UDQ_SPRINT_03B_BASELINE_FILE_SNAPSHOT.json",
+      "size_bytes": 225646
+    },
+    {
+      "path": "proof/UDQ_SPRINT_03B_CORRECTION_SUMMARY.md",
+      "size_bytes": 1034
+    },
+    {
+      "path": "proof/UDQ_SPRINT_03B_EXECUTION_PLAN.md",
+      "size_bytes": 2835
+    },
+    {
+      "path": "proof/UDQ_SPRINT_03B_REFERENCE_FAILURE_SPECIMEN.md",
+      "size_bytes": 7515
+    },
+    {
+      "path": "proof/UDQ_SPRINT_03B_SCOPE_BOUNDARY.md",
+      "size_bytes": 878
+    },
+    {
+      "path": "proof/UDQ_SPRINT_03B_TOUCHED_FILE_LEDGER.md",
+      "size_bytes": 1016
+    },
+    {
+      "path": "proof/UDQ_SPRINT_03B_VALIDATION_STATUS.txt",
+      "size_bytes": 594
+    },
+    {
+      "path": "proof/UDQ_SPRINT_03_BASELINE_FILE_SNAPSHOT.json",
+      "size_bytes": 212825
+    },
+    {
+      "path": "proof/UDQ_SPRINT_03_EXECUTION_PLAN.md",
+      "size_bytes": 1666
+    },
+    {
+      "path": "proof/UDQ_SPRINT_03_RUNTIME_EVIDENCE_COHERENCE_SUMMARY.md",
+      "size_bytes": 1079
+    },
+    {
+      "path": "proof/UDQ_SPRINT_03_SCOPE_BOUNDARY.md",
+      "size_bytes": 815
+    },
+    {
+      "path": "proof/UDQ_TRUNCATION_GUARD_REPORT__SPRINT_03.json",
+      "size_bytes": 182
+    },
+    {
+      "path": "proof/UDQ_TRUNCATION_GUARD_REPORT__SPRINT_03A.json",
+      "size_bytes": 182
+    },
+    {
+      "path": "proof/UDQ_TRUNCATION_GUARD_REPORT__SPRINT_03B.json",
+      "size_bytes": 182
+    },
+    {
+      "path": "proof/UDQ_TRUNCATION_RECOVERY_VALIDATION_SUMMARY__2026-03-24.txt",
+      "size_bytes": 732
+    },
+    {
+      "path": "proof/UDQ_U6_BEFORE_AFTER_BEHAVIOR.md",
+      "size_bytes": 530
+    },
+    {
+      "path": "proof/UDQ_U6_BOUNDARY_REVIEW.md",
+      "size_bytes": 542
+    },
+    {
+      "path": "proof/UDQ_U6_DEVICE_LOSS_AND_RECOVERY_NOTES.md",
+      "size_bytes": 447
+    },
+    {
+      "path": "proof/UDQ_U6_DIAGNOSTICS_INVENTORY.md",
+      "size_bytes": 528
+    },
+    {
+      "path": "proof/UDQ_U6_FIELD_VALIDATION_ARTIFACT_GUIDE.md",
+      "size_bytes": 1317
+    },
+    {
+      "path": "proof/UDQ_U6_GUIDED_FIELD_VALIDATION_SPEC.md",
+      "size_bytes": 1912
+    },
+    {
+      "path": "proof/UDQ_U6_LIFECYCLE_CONTRACT.md",
+      "size_bytes": 1432
+    },
+    {
+      "path": "proof/UDQ_U6_REAL_HARDWARE_TEST_PROTOCOL.md",
+      "size_bytes": 798
+    },
+    {
+      "path": "proof/UDQ_U6_REAL_TEST.md",
+      "size_bytes": 818
+    },
+    {
+      "path": "proof/UDQ_U6_RECONNECT_PIPELINE_MAP.md",
+      "size_bytes": 838
+    },
+    {
+      "path": "proof/UDQ_U6_RECOVERY_COUNTER_DICTIONARY.md",
+      "size_bytes": 755
+    },
+    {
+      "path": "proof/UDQ_U6_RECOVERY_EVENT_TAXONOMY.md",
+      "size_bytes": 834
+    },
+    {
+      "path": "proof/UDQ_U6_RUNTIME_FAULT_HANDLING.md",
+      "size_bytes": 568
+    },
+    {
+      "path": "proof/UDQ_U6_STARTUP_BEHAVIOR_BEFORE_AFTER.md",
+      "size_bytes": 495
+    },
+    {
+      "path": "proof/UDQ_U6_STATE_TRANSITION_TABLE.md",
+      "size_bytes": 736
+    },
+    {
+      "path": "proof/UDQ_U6_TEST_AND_SMOKE_EVIDENCE.md",
+      "size_bytes": 415
+    },
+    {
+      "path": "proof/UDQ_UI_DOCS_ONLY_RUN_SUMMARY__2026-03-25.md",
+      "size_bytes": 1791
+    },
+    {
+      "path": "proof/bundles/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "proof/field_tests/u6_field_validation_20260325_171120/START_HERE__U6_FIELD_VALIDATION.txt",
+      "size_bytes": 688
+    },
+    {
+      "path": "proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_20260325_171120__artifact_manifest.json",
+      "size_bytes": 2401
+    },
+    {
+      "path": "proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_20260325_171120__artifact_manifest.txt",
+      "size_bytes": 1769
+    },
+    {
+      "path": "proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_20260325_171120__diagnostics.json",
+      "size_bytes": 91354
+    },
+    {
+      "path": "proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_20260325_171120__events.csv",
+      "size_bytes": 4668
+    },
+    {
+      "path": "proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_20260325_171120__preflight_report.json",
+      "size_bytes": 1613
+    },
+    {
+      "path": "proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_20260325_171120__preflight_report.txt",
+      "size_bytes": 925
+    },
+    {
+      "path": "proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_20260325_171120__semantic_consistency_verdict.json",
+      "size_bytes": 1864
+    },
+    {
+      "path": "proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_20260325_171120__semantic_consistency_verdict.txt",
+      "size_bytes": 1170
+    },
+    {
+      "path": "proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_20260325_171120__smoke.txt",
+      "size_bytes": 594
+    },
+    {
+      "path": "proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_20260325_171120__summary.txt",
+      "size_bytes": 3853
+    },
+    {
+      "path": "proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_summary.md",
+      "size_bytes": 1030
+    },
+    {
+      "path": "proof/logs/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "proof/logs/UDQ_CLEAN_ROOM_VALIDATION__2026-03-23.log",
+      "size_bytes": 2479
+    },
+    {
+      "path": "proof/logs/UDQ_CLEAN_ROOM_VALIDATION__2026-03-23_pass2.log",
+      "size_bytes": 2484
+    },
+    {
+      "path": "proof/logs/UDQ_CLEAN_ROOM_VALIDATION__2026-03-23_rebalance.log",
+      "size_bytes": 2476
+    },
+    {
+      "path": "proof/logs/UDQ_DIAG_LIFECYCLE_BUNDLE__2026-03-23.json",
+      "size_bytes": 1616
+    },
+    {
+      "path": "proof/logs/UDQ_DIAG_LIFECYCLE_BUNDLE__2026-03-23.log",
+      "size_bytes": 54
+    },
+    {
+      "path": "proof/logs/UDQ_LABJACK_U6_SMOKE__2026-03-23_rebalance.log",
+      "size_bytes": 166
+    },
+    {
+      "path": "proof/logs/UDQ_LIFECYCLE_REVIEW_BUNDLE__2026-03-23_pass1.json",
+      "size_bytes": 1616
+    },
+    {
+      "path": "proof/logs/UDQ_LIFECYCLE_REVIEW_BUNDLE__2026-03-23_pass1.log",
+      "size_bytes": 62
+    },
+    {
+      "path": "proof/logs/UDQ_LIFECYCLE_REVIEW_BUNDLE__2026-03-23_pass2.json",
+      "size_bytes": 7825
+    },
+    {
+      "path": "proof/logs/UDQ_LIFECYCLE_REVIEW_BUNDLE__2026-03-23_pass2.log",
+      "size_bytes": 62
+    },
+    {
+      "path": "proof/logs/UDQ_LIFECYCLE_TRANSITION_HISTORY__2026-03-23_pass2.json",
+      "size_bytes": 5180
+    },
+    {
+      "path": "proof/logs/UDQ_LOCAL_GATE__2026-03-23.log",
+      "size_bytes": 793
+    },
+    {
+      "path": "proof/logs/UDQ_LOCAL_GATE__2026-03-23_pass2.log",
+      "size_bytes": 550
+    },
+    {
+      "path": "proof/logs/UDQ_LOCAL_GATE__2026-03-23_rebalance.log",
+      "size_bytes": 793
+    },
+    {
+      "path": "proof/logs/UDQ_PYTEST_STATUS__2026-03-23.log",
+      "size_bytes": 180
+    },
+    {
+      "path": "proof/logs/UDQ_PYTEST_STATUS__2026-03-23_pass1.log",
+      "size_bytes": 181
+    },
+    {
+      "path": "proof/logs/UDQ_PYTEST_STATUS__2026-03-23_pass2.log",
+      "size_bytes": 181
+    },
+    {
+      "path": "proof/logs/UDQ_PYTEST_STATUS__2026-03-23_rebalance.log",
+      "size_bytes": 181
+    },
+    {
+      "path": "proof/logs/UDQ_PYTEST_STATUS__2026-03-23_vertical_slice.log",
+      "size_bytes": 181
+    },
+    {
+      "path": "proof/logs/UDQ_RUNTIME_PERFORMANCE_INVENTORY__2026-03-23_pass1.json",
+      "size_bytes": 2528
+    },
+    {
+      "path": "proof/logs/UDQ_RUNTIME_PERFORMANCE_INVENTORY__2026-03-23_pass2.json",
+      "size_bytes": 3933
+    },
+    {
+      "path": "proof/logs/UDQ_VERTICAL_SLICE_REVIEW_BUNDLE__2026-03-23.json",
+      "size_bytes": 1616
+    },
+    {
+      "path": "proof/logs/udq_document_completeness_report__2026-03-24.json",
+      "size_bytes": 35218
+    },
+    {
+      "path": "proof/screenshots/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "pyproject.toml",
+      "size_bytes": 2265
+    },
+    {
+      "path": "registries/active/universalDAQ_consistency_findings_r10.csv",
+      "size_bytes": 38
+    },
+    {
+      "path": "registries/active/universalDAQ_consistency_findings_r10.json",
+      "size_bytes": 882
+    },
+    {
+      "path": "registries/active/universalDAQ_contradiction_register_r4.csv",
+      "size_bytes": 1145
+    },
+    {
+      "path": "registries/active/universalDAQ_contradiction_register_r4.json",
+      "size_bytes": 1612
+    },
+    {
+      "path": "registries/active/universalDAQ_cross_reference_edges_r17.csv",
+      "size_bytes": 23308
+    },
+    {
+      "path": "registries/active/universalDAQ_decision_log_r1.csv",
+      "size_bytes": 5489
+    },
+    {
+      "path": "registries/active/universalDAQ_decision_log_r1.json",
+      "size_bytes": 8691
+    },
+    {
+      "path": "registries/active/universalDAQ_document_registry_r21.csv",
+      "size_bytes": 44817
+    },
+    {
+      "path": "registries/active/universalDAQ_document_registry_r21.json",
+      "size_bytes": 74020
+    },
+    {
+      "path": "registries/active/universalDAQ_duplication_register_r4.csv",
+      "size_bytes": 1059
+    },
+    {
+      "path": "registries/active/universalDAQ_duplication_register_r4.json",
+      "size_bytes": 1531
+    },
+    {
+      "path": "registries/active/universalDAQ_execution_contract_r2.csv",
+      "size_bytes": 16716
+    },
+    {
+      "path": "registries/active/universalDAQ_execution_contract_r2.json",
+      "size_bytes": 30436
+    },
+    {
+      "path": "registries/active/universalDAQ_governance_model_r2.json",
+      "size_bytes": 3121
+    },
+    {
+      "path": "registries/active/universalDAQ_implementation_coverage_matrix_r2.csv",
+      "size_bytes": 10652
+    },
+    {
+      "path": "registries/active/universalDAQ_implementation_coverage_matrix_r2.json",
+      "size_bytes": 33373
+    },
+    {
+      "path": "registries/active/universalDAQ_invariant_registry_r2.csv",
+      "size_bytes": 6970
+    },
+    {
+      "path": "registries/active/universalDAQ_invariant_registry_r2.json",
+      "size_bytes": 15597
+    },
+    {
+      "path": "registries/active/universalDAQ_readme_registry_r0.csv",
+      "size_bytes": 1615
+    },
+    {
+      "path": "registries/active/universalDAQ_readme_registry_r0.json",
+      "size_bytes": 3792
+    },
+    {
+      "path": "registries/active/universalDAQ_requirement_registry_r9.csv",
+      "size_bytes": 22596
+    },
+    {
+      "path": "registries/active/universalDAQ_requirement_registry_r9.json",
+      "size_bytes": 50737
+    },
+    {
+      "path": "registries/active/universalDAQ_term_usage_matrix_r4.csv",
+      "size_bytes": 4316
+    },
+    {
+      "path": "registries/active/universalDAQ_term_usage_matrix_r4.json",
+      "size_bytes": 9974
+    },
+    {
+      "path": "registries/active/universalDAQ_test_inventory_r0.csv",
+      "size_bytes": 5241
+    },
+    {
+      "path": "registries/active/universalDAQ_test_inventory_r0.json",
+      "size_bytes": 12238
+    },
+    {
+      "path": "registries/active/universalDAQ_tool_inventory_r0.csv",
+      "size_bytes": 3846
+    },
+    {
+      "path": "registries/active/universalDAQ_tool_inventory_r0.json",
+      "size_bytes": 8335
+    },
+    {
+      "path": "registries/archive/universalDAQ_consistency_findings_r5.csv",
+      "size_bytes": 327
+    },
+    {
+      "path": "registries/archive/universalDAQ_consistency_findings_r5.json",
+      "size_bytes": 902
+    },
+    {
+      "path": "registries/archive/universalDAQ_consistency_findings_r6.csv",
+      "size_bytes": 489
+    },
+    {
+      "path": "registries/archive/universalDAQ_consistency_findings_r6.json",
+      "size_bytes": 756
+    },
+    {
+      "path": "registries/archive/universalDAQ_consistency_findings_r7.csv",
+      "size_bytes": 550
+    },
+    {
+      "path": "registries/archive/universalDAQ_consistency_findings_r7.json",
+      "size_bytes": 1002
+    },
+    {
+      "path": "registries/archive/universalDAQ_consistency_findings_r8.csv",
+      "size_bytes": 776
+    },
+    {
+      "path": "registries/archive/universalDAQ_consistency_findings_r8.json",
+      "size_bytes": 1320
+    },
+    {
+      "path": "registries/archive/universalDAQ_consistency_findings_r9.csv",
+      "size_bytes": 1
+    },
+    {
+      "path": "registries/archive/universalDAQ_consistency_findings_r9.json",
+      "size_bytes": 171
+    },
+    {
+      "path": "registries/archive/universalDAQ_contradiction_register_r1.csv",
+      "size_bytes": 1670
+    },
+    {
+      "path": "registries/archive/universalDAQ_contradiction_register_r1.json",
+      "size_bytes": 2620
+    },
+    {
+      "path": "registries/archive/universalDAQ_contradiction_register_r2.csv",
+      "size_bytes": 3970
+    },
+    {
+      "path": "registries/archive/universalDAQ_contradiction_register_r2.json",
+      "size_bytes": 5516
+    },
+    {
+      "path": "registries/archive/universalDAQ_contradiction_register_r3.csv",
+      "size_bytes": 4968
+    },
+    {
+      "path": "registries/archive/universalDAQ_contradiction_register_r3.json",
+      "size_bytes": 6920
+    },
+    {
+      "path": "registries/archive/universalDAQ_cross_reference_edges_r11.csv",
+      "size_bytes": 11293
+    },
+    {
+      "path": "registries/archive/universalDAQ_cross_reference_edges_r12.csv",
+      "size_bytes": 12887
+    },
+    {
+      "path": "registries/archive/universalDAQ_cross_reference_edges_r13.csv",
+      "size_bytes": 36082
+    },
+    {
+      "path": "registries/archive/universalDAQ_cross_reference_edges_r14.csv",
+      "size_bytes": 69942
+    },
+    {
+      "path": "registries/archive/universalDAQ_cross_reference_edges_r15.csv",
+      "size_bytes": 54270
+    },
+    {
+      "path": "registries/archive/universalDAQ_cross_reference_edges_r16.csv",
+      "size_bytes": 28649
+    },
+    {
+      "path": "registries/archive/universalDAQ_decision_log_r0.csv",
+      "size_bytes": 2199
+    },
+    {
+      "path": "registries/archive/universalDAQ_decision_log_r0.json",
+      "size_bytes": 3218
+    },
+    {
+      "path": "registries/archive/universalDAQ_document_registry_r15.csv",
+      "size_bytes": 10082
+    },
+    {
+      "path": "registries/archive/universalDAQ_document_registry_r15.json",
+      "size_bytes": 25521
+    },
+    {
+      "path": "registries/archive/universalDAQ_document_registry_r16.csv",
+      "size_bytes": 16651
+    },
+    {
+      "path": "registries/archive/universalDAQ_document_registry_r16.json",
+      "size_bytes": 29444
+    },
+    {
+      "path": "registries/archive/universalDAQ_document_registry_r17.csv",
+      "size_bytes": 28755
+    },
+    {
+      "path": "registries/archive/universalDAQ_document_registry_r17.json",
+      "size_bytes": 54260
+    },
+    {
+      "path": "registries/archive/universalDAQ_document_registry_r18.csv",
+      "size_bytes": 34371
+    },
+    {
+      "path": "registries/archive/universalDAQ_document_registry_r18.json",
+      "size_bytes": 64954
+    },
+    {
+      "path": "registries/archive/universalDAQ_document_registry_r19.csv",
+      "size_bytes": 33437
+    },
+    {
+      "path": "registries/archive/universalDAQ_document_registry_r19.json",
+      "size_bytes": 60233
+    },
+    {
+      "path": "registries/archive/universalDAQ_document_registry_r20.csv",
+      "size_bytes": 41723
+    },
+    {
+      "path": "registries/archive/universalDAQ_document_registry_r20.json",
+      "size_bytes": 82402
+    },
+    {
+      "path": "registries/archive/universalDAQ_duplication_register_r1.csv",
+      "size_bytes": 1080
+    },
+    {
+      "path": "registries/archive/universalDAQ_duplication_register_r1.json",
+      "size_bytes": 1774
+    },
+    {
+      "path": "registries/archive/universalDAQ_duplication_register_r2.csv",
+      "size_bytes": 2623
+    },
+    {
+      "path": "registries/archive/universalDAQ_duplication_register_r2.json",
+      "size_bytes": 4056
+    },
+    {
+      "path": "registries/archive/universalDAQ_duplication_register_r3.csv",
+      "size_bytes": 3289
+    },
+    {
+      "path": "registries/archive/universalDAQ_duplication_register_r3.json",
+      "size_bytes": 5098
+    },
+    {
+      "path": "registries/archive/universalDAQ_execution_contract_r0.csv",
+      "size_bytes": 10893
+    },
+    {
+      "path": "registries/archive/universalDAQ_execution_contract_r0.json",
+      "size_bytes": 21176
+    },
+    {
+      "path": "registries/archive/universalDAQ_execution_contract_r1.csv",
+      "size_bytes": 15439
+    },
+    {
+      "path": "registries/archive/universalDAQ_execution_contract_r1.json",
+      "size_bytes": 28798
+    },
+    {
+      "path": "registries/archive/universalDAQ_governance_model_r0.json",
+      "size_bytes": 197677
+    },
+    {
+      "path": "registries/archive/universalDAQ_governance_model_r1.json",
+      "size_bytes": 2759
+    },
+    {
+      "path": "registries/archive/universalDAQ_implementation_coverage_matrix_r0.csv",
+      "size_bytes": 6284
+    },
+    {
+      "path": "registries/archive/universalDAQ_implementation_coverage_matrix_r0.json",
+      "size_bytes": 21260
+    },
+    {
+      "path": "registries/archive/universalDAQ_implementation_coverage_matrix_r1.csv",
+      "size_bytes": 8920
+    },
+    {
+      "path": "registries/archive/universalDAQ_implementation_coverage_matrix_r1.json",
+      "size_bytes": 27602
+    },
+    {
+      "path": "registries/archive/universalDAQ_invariant_registry_r0.csv",
+      "size_bytes": 4050
+    },
+    {
+      "path": "registries/archive/universalDAQ_invariant_registry_r0.json",
+      "size_bytes": 8680
+    },
+    {
+      "path": "registries/archive/universalDAQ_invariant_registry_r1.csv",
+      "size_bytes": 6526
+    },
+    {
+      "path": "registries/archive/universalDAQ_invariant_registry_r1.json",
+      "size_bytes": 13015
+    },
+    {
+      "path": "registries/archive/universalDAQ_requirement_registry_r4.csv",
+      "size_bytes": 1731
+    },
+    {
+      "path": "registries/archive/universalDAQ_requirement_registry_r4.json",
+      "size_bytes": 6055
+    },
+    {
+      "path": "registries/archive/universalDAQ_requirement_registry_r5.csv",
+      "size_bytes": 1896
+    },
+    {
+      "path": "registries/archive/universalDAQ_requirement_registry_r5.json",
+      "size_bytes": 6644
+    },
+    {
+      "path": "registries/archive/universalDAQ_requirement_registry_r6.csv",
+      "size_bytes": 14710
+    },
+    {
+      "path": "registries/archive/universalDAQ_requirement_registry_r6.json",
+      "size_bytes": 29112
+    },
+    {
+      "path": "registries/archive/universalDAQ_requirement_registry_r7.csv",
+      "size_bytes": 19102
+    },
+    {
+      "path": "registries/archive/universalDAQ_requirement_registry_r7.json",
+      "size_bytes": 44708
+    },
+    {
+      "path": "registries/archive/universalDAQ_requirement_registry_r8.csv",
+      "size_bytes": 20052
+    },
+    {
+      "path": "registries/archive/universalDAQ_requirement_registry_r8.json",
+      "size_bytes": 45154
+    },
+    {
+      "path": "registries/archive/universalDAQ_term_usage_matrix_r1.csv",
+      "size_bytes": 3898
+    },
+    {
+      "path": "registries/archive/universalDAQ_term_usage_matrix_r1.json",
+      "size_bytes": 9035
+    },
+    {
+      "path": "registries/archive/universalDAQ_term_usage_matrix_r2.csv",
+      "size_bytes": 2506
+    },
+    {
+      "path": "registries/archive/universalDAQ_term_usage_matrix_r2.json",
+      "size_bytes": 5967
+    },
+    {
+      "path": "registries/archive/universalDAQ_term_usage_matrix_r3.csv",
+      "size_bytes": 3555
+    },
+    {
+      "path": "registries/archive/universalDAQ_term_usage_matrix_r3.json",
+      "size_bytes": 8198
+    },
+    {
+      "path": "runtime/README.md",
+      "size_bytes": 63
+    },
+    {
+      "path": "runtime/sample_configs/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "runtime/sample_exports/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "runtime/sample_profiles/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "src/README.md",
+      "size_bytes": 127
+    },
+    {
+      "path": "src/universaldaq/README.md",
+      "size_bytes": 326
+    },
+    {
+      "path": "src/universaldaq/__init__.py",
+      "size_bytes": 546
+    },
+    {
+      "path": "src/universaldaq/adapters/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "src/universaldaq/adapters/README.md",
+      "size_bytes": 528
+    },
+    {
+      "path": "src/universaldaq/adapters/__init__.py",
+      "size_bytes": 3297
+    },
+    {
+      "path": "src/universaldaq/adapters/contracts.py",
+      "size_bytes": 896
+    },
+    {
+      "path": "src/universaldaq/adapters/discovery.py",
+      "size_bytes": 3040
+    },
+    {
+      "path": "src/universaldaq/adapters/errors.py",
+      "size_bytes": 456
+    },
+    {
+      "path": "src/universaldaq/adapters/models.py",
+      "size_bytes": 11538
+    },
+    {
+      "path": "src/universaldaq/adapters/reconciliation.py",
+      "size_bytes": 11424
+    },
+    {
+      "path": "src/universaldaq/adapters/services.py",
+      "size_bytes": 13869
+    },
+    {
+      "path": "src/universaldaq/adapters/simulated.py",
+      "size_bytes": 7148
+    },
+    {
+      "path": "src/universaldaq/adapters/support_pack_loader.py",
+      "size_bytes": 6499
+    },
+    {
+      "path": "src/universaldaq/app/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "src/universaldaq/app/README.md",
+      "size_bytes": 150
+    },
+    {
+      "path": "src/universaldaq/app/__init__.py",
+      "size_bytes": 1559
+    },
+    {
+      "path": "src/universaldaq/app/automation_review_handler.py",
+      "size_bytes": 18912
+    },
+    {
+      "path": "src/universaldaq/app/binding_variable_handler.py",
+      "size_bytes": 2994
+    },
+    {
+      "path": "src/universaldaq/app/bootstrap.py",
+      "size_bytes": 3139
+    },
+    {
+      "path": "src/universaldaq/app/command_export_handler.py",
+      "size_bytes": 25814
+    },
+    {
+      "path": "src/universaldaq/app/controller.py",
+      "size_bytes": 31376
+    },
+    {
+      "path": "src/universaldaq/app/device_lifecycle_handler.py",
+      "size_bytes": 27070
+    },
+    {
+      "path": "src/universaldaq/app/lifecycle_orchestrator.py",
+      "size_bytes": 35556
+    },
+    {
+      "path": "src/universaldaq/app/models.py",
+      "size_bytes": 654
+    },
+    {
+      "path": "src/universaldaq/app/service_registry.py",
+      "size_bytes": 3918
+    },
+    {
+      "path": "src/universaldaq/app/session.py",
+      "size_bytes": 6170
+    },
+    {
+      "path": "src/universaldaq/app/workspace_profile_handler.py",
+      "size_bytes": 9168
+    },
+    {
+      "path": "src/universaldaq/automation/__init__.py",
+      "size_bytes": 231
+    },
+    {
+      "path": "src/universaldaq/automation/models.py",
+      "size_bytes": 1152
+    },
+    {
+      "path": "src/universaldaq/automation/services.py",
+      "size_bytes": 3655
+    },
+    {
+      "path": "src/universaldaq/backend/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "src/universaldaq/backend/README.md",
+      "size_bytes": 359
+    },
+    {
+      "path": "src/universaldaq/backend/__init__.py",
+      "size_bytes": 34
+    },
+    {
+      "path": "src/universaldaq/commands/README.md",
+      "size_bytes": 452
+    },
+    {
+      "path": "src/universaldaq/commands/__init__.py",
+      "size_bytes": 1102
+    },
+    {
+      "path": "src/universaldaq/commands/models.py",
+      "size_bytes": 8195
+    },
+    {
+      "path": "src/universaldaq/commands/services.py",
+      "size_bytes": 1784
+    },
+    {
+      "path": "src/universaldaq/common/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "src/universaldaq/common/README.md",
+      "size_bytes": 369
+    },
+    {
+      "path": "src/universaldaq/common/__init__.py",
+      "size_bytes": 1718
+    },
+    {
+      "path": "src/universaldaq/common/enums.py",
+      "size_bytes": 1267
+    },
+    {
+      "path": "src/universaldaq/common/evidence.py",
+      "size_bytes": 1510
+    },
+    {
+      "path": "src/universaldaq/common/ids.py",
+      "size_bytes": 483
+    },
+    {
+      "path": "src/universaldaq/common/metrics.py",
+      "size_bytes": 3247
+    },
+    {
+      "path": "src/universaldaq/common/protocols.py",
+      "size_bytes": 203
+    },
+    {
+      "path": "src/universaldaq/common/result.py",
+      "size_bytes": 410
+    },
+    {
+      "path": "src/universaldaq/common/timebase.py",
+      "size_bytes": 176
+    },
+    {
+      "path": "src/universaldaq/common/transport.py",
+      "size_bytes": 438
+    },
+    {
+      "path": "src/universaldaq/diagnostics/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "src/universaldaq/diagnostics/README.md",
+      "size_bytes": 359
+    },
+    {
+      "path": "src/universaldaq/diagnostics/__init__.py",
+      "size_bytes": 34
+    },
+    {
+      "path": "src/universaldaq/events/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "src/universaldaq/events/README.md",
+      "size_bytes": 70
+    },
+    {
+      "path": "src/universaldaq/events/__init__.py",
+      "size_bytes": 1120
+    },
+    {
+      "path": "src/universaldaq/events/models.py",
+      "size_bytes": 7288
+    },
+    {
+      "path": "src/universaldaq/events/services.py",
+      "size_bytes": 12385
+    },
+    {
+      "path": "src/universaldaq/historian/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "src/universaldaq/historian/README.md",
+      "size_bytes": 100
+    },
+    {
+      "path": "src/universaldaq/historian/__init__.py",
+      "size_bytes": 1647
+    },
+    {
+      "path": "src/universaldaq/historian/export_formats.py",
+      "size_bytes": 3788
+    },
+    {
+      "path": "src/universaldaq/historian/models.py",
+      "size_bytes": 4259
+    },
+    {
+      "path": "src/universaldaq/historian/proof_bundle.py",
+      "size_bytes": 2272
+    },
+    {
+      "path": "src/universaldaq/historian/serializers.py",
+      "size_bytes": 766
+    },
+    {
+      "path": "src/universaldaq/historian/services.py",
+      "size_bytes": 20424
+    },
+    {
+      "path": "src/universaldaq/outputs/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "src/universaldaq/outputs/README.md",
+      "size_bytes": 119
+    },
+    {
+      "path": "src/universaldaq/outputs/__init__.py",
+      "size_bytes": 1307
+    },
+    {
+      "path": "src/universaldaq/outputs/arbiter.py",
+      "size_bytes": 4265
+    },
+    {
+      "path": "src/universaldaq/outputs/models.py",
+      "size_bytes": 10778
+    },
+    {
+      "path": "src/universaldaq/outputs/services.py",
+      "size_bytes": 1840
+    },
+    {
+      "path": "src/universaldaq/outputs/validators.py",
+      "size_bytes": 1024
+    },
+    {
+      "path": "src/universaldaq/profiles/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "src/universaldaq/profiles/README.md",
+      "size_bytes": 97
+    },
+    {
+      "path": "src/universaldaq/profiles/__init__.py",
+      "size_bytes": 1286
+    },
+    {
+      "path": "src/universaldaq/profiles/models.py",
+      "size_bytes": 3133
+    },
+    {
+      "path": "src/universaldaq/profiles/serializers.py",
+      "size_bytes": 1724
+    },
+    {
+      "path": "src/universaldaq/profiles/store.py",
+      "size_bytes": 1319
+    },
+    {
+      "path": "src/universaldaq/remote/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "src/universaldaq/remote/README.md",
+      "size_bytes": 359
+    },
+    {
+      "path": "src/universaldaq/remote/__init__.py",
+      "size_bytes": 34
+    },
+    {
+      "path": "src/universaldaq/rules/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "src/universaldaq/rules/README.md",
+      "size_bytes": 349
+    },
+    {
+      "path": "src/universaldaq/rules/__init__.py",
+      "size_bytes": 980
+    },
+    {
+      "path": "src/universaldaq/rules/models.py",
+      "size_bytes": 2749
+    },
+    {
+      "path": "src/universaldaq/rules/services.py",
+      "size_bytes": 7611
+    },
+    {
+      "path": "src/universaldaq/runtime/__init__.py",
+      "size_bytes": 1885
+    },
+    {
+      "path": "src/universaldaq/runtime/models.py",
+      "size_bytes": 3781
+    },
+    {
+      "path": "src/universaldaq/runtime/semantics.py",
+      "size_bytes": 23229
+    },
+    {
+      "path": "src/universaldaq/runtime/services.py",
+      "size_bytes": 22203
+    },
+    {
+      "path": "src/universaldaq/security/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "src/universaldaq/security/README.md",
+      "size_bytes": 692
+    },
+    {
+      "path": "src/universaldaq/security/__init__.py",
+      "size_bytes": 1623
+    },
+    {
+      "path": "src/universaldaq/security/builtin_policies.py",
+      "size_bytes": 3139
+    },
+    {
+      "path": "src/universaldaq/security/models.py",
+      "size_bytes": 3201
+    },
+    {
+      "path": "src/universaldaq/security/policy.py",
+      "size_bytes": 3827
+    },
+    {
+      "path": "src/universaldaq/security/services.py",
+      "size_bytes": 4266
+    },
+    {
+      "path": "src/universaldaq/sequences/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "src/universaldaq/sequences/README.md",
+      "size_bytes": 432
+    },
+    {
+      "path": "src/universaldaq/sequences/__init__.py",
+      "size_bytes": 967
+    },
+    {
+      "path": "src/universaldaq/sequences/models.py",
+      "size_bytes": 2282
+    },
+    {
+      "path": "src/universaldaq/sequences/services.py",
+      "size_bytes": 11636
+    },
+    {
+      "path": "src/universaldaq/signals/README.md",
+      "size_bytes": 118
+    },
+    {
+      "path": "src/universaldaq/signals/__init__.py",
+      "size_bytes": 2023
+    },
+    {
+      "path": "src/universaldaq/signals/bindings.py",
+      "size_bytes": 20553
+    },
+    {
+      "path": "src/universaldaq/signals/dependency_graph.py",
+      "size_bytes": 1680
+    },
+    {
+      "path": "src/universaldaq/signals/models.py",
+      "size_bytes": 622
+    },
+    {
+      "path": "src/universaldaq/signals/registry.py",
+      "size_bytes": 3644
+    },
+    {
+      "path": "src/universaldaq/signals/validators.py",
+      "size_bytes": 265
+    },
+    {
+      "path": "src/universaldaq/signals/variables.py",
+      "size_bytes": 20226
+    },
+    {
+      "path": "src/universaldaq/ui/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "src/universaldaq/ui/README.md",
+      "size_bytes": 110
+    },
+    {
+      "path": "src/universaldaq/ui/__init__.py",
+      "size_bytes": 1921
+    },
+    {
+      "path": "src/universaldaq/ui/models.py",
+      "size_bytes": 5529
+    },
+    {
+      "path": "src/universaldaq/ui/session_state.py",
+      "size_bytes": 8975
+    },
+    {
+      "path": "src/universaldaq/ui/viewmodels.py",
+      "size_bytes": 15687
+    },
+    {
+      "path": "src/universaldaq_arduino/__init__.py",
+      "size_bytes": 478
+    },
+    {
+      "path": "src/universaldaq_arduino/discovery.py",
+      "size_bytes": 4566
+    },
+    {
+      "path": "src/universaldaq_arduino/models.py",
+      "size_bytes": 412
+    },
+    {
+      "path": "src/universaldaq_arduino/plugin.py",
+      "size_bytes": 1411
+    },
+    {
+      "path": "src/universaldaq_arduino/simulated_serial.py",
+      "size_bytes": 7321
+    },
+    {
+      "path": "src/universaldaq_labjack/__init__.py",
+      "size_bytes": 893
+    },
+    {
+      "path": "src/universaldaq_labjack/discovery.py",
+      "size_bytes": 6426
+    },
+    {
+      "path": "src/universaldaq_labjack/models.py",
+      "size_bytes": 4381
+    },
+    {
+      "path": "src/universaldaq_labjack/plugin.py",
+      "size_bytes": 2073
+    },
+    {
+      "path": "src/universaldaq_labjack/real_u6.py",
+      "size_bytes": 27990
+    },
+    {
+      "path": "src/universaldaq_labjack/simulated_u6.py",
+      "size_bytes": 8312
+    },
+    {
+      "path": "src/universaldaq_rpi/__init__.py",
+      "size_bytes": 477
+    },
+    {
+      "path": "src/universaldaq_rpi/discovery.py",
+      "size_bytes": 4525
+    },
+    {
+      "path": "src/universaldaq_rpi/models.py",
+      "size_bytes": 375
+    },
+    {
+      "path": "src/universaldaq_rpi/plugin.py",
+      "size_bytes": 1411
+    },
+    {
+      "path": "src/universaldaq_rpi/simulated_local.py",
+      "size_bytes": 6553
+    },
+    {
+      "path": "tests/README.md",
+      "size_bytes": 374
+    },
+    {
+      "path": "tests/__init__.py",
+      "size_bytes": 303
+    },
+    {
+      "path": "tests/baselines/README.md",
+      "size_bytes": 88
+    },
+    {
+      "path": "tests/conftest.py",
+      "size_bytes": 1933
+    },
+    {
+      "path": "tests/contract/README.md",
+      "size_bytes": 191
+    },
+    {
+      "path": "tests/contract/test_contract_action_permission_resolution.py",
+      "size_bytes": 853
+    },
+    {
+      "path": "tests/contract/test_contract_adapter_capability_inventory.py",
+      "size_bytes": 1062
+    },
+    {
+      "path": "tests/contract/test_contract_adapter_command_handoff_taxonomy.py",
+      "size_bytes": 1588
+    },
+    {
+      "path": "tests/contract/test_contract_adapter_manager_recovery_polling.py",
+      "size_bytes": 3078
+    },
+    {
+      "path": "tests/contract/test_contract_alarm_lifecycle_semantics.py",
+      "size_bytes": 1120
+    },
+    {
+      "path": "tests/contract/test_contract_ambiguous_same_family_without_serial_requires_review.py",
+      "size_bytes": 1728
+    },
+    {
+      "path": "tests/contract/test_contract_arduino_serial_support_pack.py",
+      "size_bytes": 2002
+    },
+    {
+      "path": "tests/contract/test_contract_authorization_vs_ui_enablement.py",
+      "size_bytes": 1003
+    },
+    {
+      "path": "tests/contract/test_contract_binding_review_auto_rebind_on_reprojected_device.py",
+      "size_bytes": 2391
+    },
+    {
+      "path": "tests/contract/test_contract_binding_review_scopes_to_device_identity.py",
+      "size_bytes": 2796
+    },
+    {
+      "path": "tests/contract/test_contract_denial_reason_visibility.py",
+      "size_bytes": 1022
+    },
+    {
+      "path": "tests/contract/test_contract_events_alarm_spine.py",
+      "size_bytes": 2612
+    },
+    {
+      "path": "tests/contract/test_contract_export_intent_scope_resolution.py",
+      "size_bytes": 2360
+    },
+    {
+      "path": "tests/contract/test_contract_export_permission_by_artifact_class.py",
+      "size_bytes": 1023
+    },
+    {
+      "path": "tests/contract/test_contract_generic_discovery_without_plugin_requirement.py",
+      "size_bytes": 1057
+    },
+    {
+      "path": "tests/contract/test_contract_graph_mode_semantics.py",
+      "size_bytes": 993
+    },
+    {
+      "path": "tests/contract/test_contract_known_device_identity_matching.py",
+      "size_bytes": 1468
+    },
+    {
+      "path": "tests/contract/test_contract_labjack_extension_metadata_isolation.py",
+      "size_bytes": 1745
+    },
+    {
+      "path": "tests/contract/test_contract_manifest_provenance_completeness.py",
+      "size_bytes": 1901
+    },
+    {
+      "path": "tests/contract/test_contract_multi_instance_device_records_remain_distinct.py",
+      "size_bytes": 1865
+    },
+    {
+      "path": "tests/contract/test_contract_optional_support_pack_loader.py",
+      "size_bytes": 1193
+    },
+    {
+      "path": "tests/contract/test_contract_point_projection_skips_identical_inventory_replace.py",
+      "size_bytes": 1520
+    },
+    {
+      "path": "tests/contract/test_contract_raspberry_pi_support_pack.py",
+      "size_bytes": 1897
+    },
+    {
+      "path": "tests/contract/test_contract_real_labjack_u6_adapter.py",
+      "size_bytes": 6898
+    },
+    {
+      "path": "tests/contract/test_contract_requested_applied_observed.py",
+      "size_bytes": 1483
+    },
+    {
+      "path": "tests/contract/test_contract_restore_origin_metadata.py",
+      "size_bytes": 1932
+    },
+    {
+      "path": "tests/contract/test_contract_restore_vs_machine_state.py",
+      "size_bytes": 1217
+    },
+    {
+      "path": "tests/contract/test_contract_review_artifact_non_mutating.py",
+      "size_bytes": 2452
+    },
+    {
+      "path": "tests/contract/test_contract_role_permission_mapping.py",
+      "size_bytes": 2649
+    },
+    {
+      "path": "tests/contract/test_contract_runtime_evidence_semantics.py",
+      "size_bytes": 2429
+    },
+    {
+      "path": "tests/contract/test_contract_runtime_quality_optimization_pass.py",
+      "size_bytes": 2892
+    },
+    {
+      "path": "tests/contract/test_contract_runtime_quality_queue_and_journal.py",
+      "size_bytes": 1917
+    },
+    {
+      "path": "tests/contract/test_contract_runtime_spine_processing.py",
+      "size_bytes": 2745
+    },
+    {
+      "path": "tests/contract/test_contract_safe_expression_evaluator_limits.py",
+      "size_bytes": 2955
+    },
+    {
+      "path": "tests/contract/test_contract_shell_controller_navigation_and_return_to_live.py",
+      "size_bytes": 2189
+    },
+    {
+      "path": "tests/contract/test_contract_support_pack_discovery_is_registry_driven.py",
+      "size_bytes": 804
+    },
+    {
+      "path": "tests/contract/test_contract_variable_disconnect_state_is_degraded.py",
+      "size_bytes": 1966
+    },
+    {
+      "path": "tests/contract/test_contract_variable_expression_evaluation.py",
+      "size_bytes": 2321
+    },
+    {
+      "path": "tests/contract/test_contract_variable_impacted_evaluation_scope.py",
+      "size_bytes": 2636
+    },
+    {
+      "path": "tests/data/README.md",
+      "size_bytes": 78
+    },
+    {
+      "path": "tests/data/first_slice_execution_contract.json",
+      "size_bytes": 33696
+    },
+    {
+      "path": "tests/data/first_slice_invariant_registry.json",
+      "size_bytes": 15651
+    },
+    {
+      "path": "tests/data/first_slice_requirement_pack.json",
+      "size_bytes": 38186
+    },
+    {
+      "path": "tests/data/first_slice_worked_examples.json",
+      "size_bytes": 3977
+    },
+    {
+      "path": "tests/data/sample_alarm_lifecycle_trace.json",
+      "size_bytes": 292
+    },
+    {
+      "path": "tests/data/sample_applied_observed_mismatch_trace.json",
+      "size_bytes": 270
+    },
+    {
+      "path": "tests/data/sample_blocked_command_trace.json",
+      "size_bytes": 353
+    },
+    {
+      "path": "tests/data/sample_export_intent_history_range.json",
+      "size_bytes": 456
+    },
+    {
+      "path": "tests/data/sample_graph_mode_trace.json",
+      "size_bytes": 219
+    },
+    {
+      "path": "tests/data/sample_manifest_with_alarm_command_restore_shell_mix.json",
+      "size_bytes": 428
+    },
+    {
+      "path": "tests/data/sample_restore_workspace_state.json",
+      "size_bytes": 142
+    },
+    {
+      "path": "tests/data/sample_review_artifact_markdown.md",
+      "size_bytes": 127
+    },
+    {
+      "path": "tests/fixtures/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "tests/fixtures/README.md",
+      "size_bytes": 86
+    },
+    {
+      "path": "tests/fixtures/__init__.py",
+      "size_bytes": 61
+    },
+    {
+      "path": "tests/fixtures/builders.py",
+      "size_bytes": 294
+    },
+    {
+      "path": "tests/fixtures/fake_adapter_responses.py",
+      "size_bytes": 467
+    },
+    {
+      "path": "tests/fixtures/fake_alarm_flows.py",
+      "size_bytes": 201
+    },
+    {
+      "path": "tests/fixtures/fake_command_flows.py",
+      "size_bytes": 250
+    },
+    {
+      "path": "tests/fixtures/fake_restore_states.py",
+      "size_bytes": 199
+    },
+    {
+      "path": "tests/integration/README.md",
+      "size_bytes": 175
+    },
+    {
+      "path": "tests/integration/test_integration_controller_adapter_flow.py",
+      "size_bytes": 2123
+    },
+    {
+      "path": "tests/integration/test_integration_controller_security_events_flow.py",
+      "size_bytes": 1853
+    },
+    {
+      "path": "tests/integration/test_integration_controller_security_export_flow.py",
+      "size_bytes": 2146
+    },
+    {
+      "path": "tests/integration/test_integration_controller_security_outputs_flow.py",
+      "size_bytes": 1979
+    },
+    {
+      "path": "tests/integration/test_integration_device_discovery_to_shell_viewmodel.py",
+      "size_bytes": 2510
+    },
+    {
+      "path": "tests/integration/test_integration_evidence_bundle_workflow.py",
+      "size_bytes": 2013
+    },
+    {
+      "path": "tests/integration/test_integration_export_bundle_workflow.py",
+      "size_bytes": 2719
+    },
+    {
+      "path": "tests/integration/test_integration_labjack_u6_smoke_script.py",
+      "size_bytes": 968
+    },
+    {
+      "path": "tests/integration/test_integration_lifecycle_review_bundle_consistency.py",
+      "size_bytes": 5925
+    },
+    {
+      "path": "tests/integration/test_integration_lifecycle_review_bundle_surface.py",
+      "size_bytes": 3095
+    },
+    {
+      "path": "tests/integration/test_integration_profile_roundtrip.py",
+      "size_bytes": 1063
+    },
+    {
+      "path": "tests/integration/test_integration_runtime_evidence_bundle_v1.py",
+      "size_bytes": 5300
+    },
+    {
+      "path": "tests/integration/test_integration_runtime_quality_monitoring.py",
+      "size_bytes": 4495
+    },
+    {
+      "path": "tests/integration/test_integration_runtime_spine_review_status.py",
+      "size_bytes": 3859
+    },
+    {
+      "path": "tests/integration/test_integration_shared_live_slice_across_support_packs.py",
+      "size_bytes": 4731
+    },
+    {
+      "path": "tests/integration/test_integration_shell_controller_profile_and_bundle_flow.py",
+      "size_bytes": 2528
+    },
+    {
+      "path": "tests/integration/test_integration_shell_restore_flow.py",
+      "size_bytes": 1681
+    },
+    {
+      "path": "tests/integration/test_integration_shell_smoke.py",
+      "size_bytes": 759
+    },
+    {
+      "path": "tests/integration/test_integration_shell_viewmodel_consistency_after_recovery.py",
+      "size_bytes": 4238
+    },
+    {
+      "path": "tests/integration/test_integration_u6_command_spine.py",
+      "size_bytes": 2050
+    },
+    {
+      "path": "tests/integration/test_integration_u6_diag_and_live_smoke_scripts.py",
+      "size_bytes": 2125
+    },
+    {
+      "path": "tests/integration/test_integration_u6_events_alarm_spine.py",
+      "size_bytes": 2103
+    },
+    {
+      "path": "tests/integration/test_integration_u6_field_test_harness.py",
+      "size_bytes": 4505
+    },
+    {
+      "path": "tests/integration/test_integration_u6_recovery_pipeline.py",
+      "size_bytes": 3736
+    },
+    {
+      "path": "tests/integration/test_integration_u6_rule_sequence_spine.py",
+      "size_bytes": 4492
+    },
+    {
+      "path": "tests/invariants/README.md",
+      "size_bytes": 193
+    },
+    {
+      "path": "tests/invariants/test_invariant_alarm_order.py",
+      "size_bytes": 960
+    },
+    {
+      "path": "tests/invariants/test_invariant_authorization_denial_never_reaches_adapter_handoff.py",
+      "size_bytes": 2092
+    },
+    {
+      "path": "tests/invariants/test_invariant_authorization_evidence_is_attributable.py",
+      "size_bytes": 2023
+    },
+    {
+      "path": "tests/invariants/test_invariant_command_path.py",
+      "size_bytes": 1015
+    },
+    {
+      "path": "tests/invariants/test_invariant_core_operates_without_vendor_support_pack.py",
+      "size_bytes": 947
+    },
+    {
+      "path": "tests/invariants/test_invariant_denial_is_distinct_from_arbitration_block.py",
+      "size_bytes": 1884
+    },
+    {
+      "path": "tests/invariants/test_invariant_denied_actions_are_non_actuating.py",
+      "size_bytes": 2210
+    },
+    {
+      "path": "tests/invariants/test_invariant_evidence_requirements.py",
+      "size_bytes": 997
+    },
+    {
+      "path": "tests/invariants/test_invariant_export_manifest_matches_bundle_contents.py",
+      "size_bytes": 2107
+    },
+    {
+      "path": "tests/invariants/test_invariant_graph_mode_separation.py",
+      "size_bytes": 941
+    },
+    {
+      "path": "tests/invariants/test_invariant_logical_signals_survive_point_rebinding.py",
+      "size_bytes": 1842
+    },
+    {
+      "path": "tests/invariants/test_invariant_missing_support_pack_dependency_does_not_break_core_startup.py",
+      "size_bytes": 1644
+    },
+    {
+      "path": "tests/invariants/test_invariant_no_direct_labjack_imports_in_core.py",
+      "size_bytes": 831
+    },
+    {
+      "path": "tests/invariants/test_invariant_no_direct_optional_support_pack_imports_in_core.py",
+      "size_bytes": 935
+    },
+    {
+      "path": "tests/invariants/test_invariant_no_vendor_markers_in_core.py",
+      "size_bytes": 1385
+    },
+    {
+      "path": "tests/invariants/test_invariant_restore_path.py",
+      "size_bytes": 1018
+    },
+    {
+      "path": "tests/invariants/test_invariant_ui_enablement_is_not_authorization.py",
+      "size_bytes": 1108
+    },
+    {
+      "path": "tests/meta/README.md",
+      "size_bytes": 193
+    },
+    {
+      "path": "tests/meta/test_meta_ci_and_local_gate_presence.py",
+      "size_bytes": 760
+    },
+    {
+      "path": "tests/meta/test_meta_controller_decomposition.py",
+      "size_bytes": 1034
+    },
+    {
+      "path": "tests/meta/test_meta_document_completeness_rules.py",
+      "size_bytes": 1119
+    },
+    {
+      "path": "tests/meta/test_meta_documentation_debt_rules.py",
+      "size_bytes": 1084
+    },
+    {
+      "path": "tests/meta/test_meta_documentation_impact_rules.py",
+      "size_bytes": 1813
+    },
+    {
+      "path": "tests/meta/test_meta_execution_contract_links.py",
+      "size_bytes": 664
+    },
+    {
+      "path": "tests/meta/test_meta_first_slice_readiness_consistency.py",
+      "size_bytes": 722
+    },
+    {
+      "path": "tests/meta/test_meta_invariant_references.py",
+      "size_bytes": 884
+    },
+    {
+      "path": "tests/meta/test_meta_no_archived_reference_ids.py",
+      "size_bytes": 774
+    },
+    {
+      "path": "tests/meta/test_meta_no_root_audit_wrappers.py",
+      "size_bytes": 745
+    },
+    {
+      "path": "tests/meta/test_meta_package_build_exclusions.py",
+      "size_bytes": 1152
+    },
+    {
+      "path": "tests/meta/test_meta_package_entry_surfaces.py",
+      "size_bytes": 1129
+    },
+    {
+      "path": "tests/meta/test_meta_pass2_reviewer_guide_present.py",
+      "size_bytes": 754
+    },
+    {
+      "path": "tests/meta/test_meta_readme_control.py",
+      "size_bytes": 1552
+    },
+    {
+      "path": "tests/meta/test_meta_release_package_hygiene.py",
+      "size_bytes": 1441
+    },
+    {
+      "path": "tests/meta/test_meta_requirement_references.py",
+      "size_bytes": 896
+    },
+    {
+      "path": "tests/meta/test_meta_reserved_package_guardrails.py",
+      "size_bytes": 938
+    },
+    {
+      "path": "tests/meta/test_meta_root_layer_allowlist.py",
+      "size_bytes": 813
+    },
+    {
+      "path": "tests/meta/test_meta_run_artifact_naming.py",
+      "size_bytes": 1234
+    },
+    {
+      "path": "tests/meta/test_meta_schema_conventions.py",
+      "size_bytes": 1198
+    },
+    {
+      "path": "tests/meta/test_meta_tools_registry_config_usage.py",
+      "size_bytes": 967
+    },
+    {
+      "path": "tests/regression/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "tests/regression/README.md",
+      "size_bytes": 90
+    },
+    {
+      "path": "tests/regression/test_regression_controller_workspace_and_command_spines.py",
+      "size_bytes": 2960
+    },
+    {
+      "path": "tests/regression/test_regression_multi_provider_discovery_collects_all_providers.py",
+      "size_bytes": 1957
+    },
+    {
+      "path": "tests/regression/test_regression_partial_recovery_only_marks_affected_bindings.py",
+      "size_bytes": 3574
+    },
+    {
+      "path": "tests/regression/test_regression_published_signal_count_tracks_resolved_bindings.py",
+      "size_bytes": 1086
+    },
+    {
+      "path": "tests/regression/test_regression_repeated_reconnect_does_not_duplicate_projected_points.py",
+      "size_bytes": 3270
+    },
+    {
+      "path": "tests/regression/test_regression_review_summary_clears_stale_disconnect_artifacts.py",
+      "size_bytes": 3880
+    },
+    {
+      "path": "tests/regression/test_regression_unknown_discovered_device_is_controlled.py",
+      "size_bytes": 742
+    },
+    {
+      "path": "tests/regression/test_regression_unsupported_export_artifact_denied_without_keyerror.py",
+      "size_bytes": 1144
+    },
+    {
+      "path": "tests/scenario/README.md",
+      "size_bytes": 198
+    },
+    {
+      "path": "tests/scenario/test_scenario_adapter_poll_and_snapshot_flow.py",
+      "size_bytes": 755
+    },
+    {
+      "path": "tests/scenario/test_scenario_alarm_ack_command_spine.py",
+      "size_bytes": 2033
+    },
+    {
+      "path": "tests/scenario/test_scenario_alarm_assert_ack_rtn.py",
+      "size_bytes": 1445
+    },
+    {
+      "path": "tests/scenario/test_scenario_blocked_command.py",
+      "size_bytes": 1414
+    },
+    {
+      "path": "tests/scenario/test_scenario_command_applied_observed_mismatch.py",
+      "size_bytes": 1494
+    },
+    {
+      "path": "tests/scenario/test_scenario_device_reconnect_different_port_rebind.py",
+      "size_bytes": 1971
+    },
+    {
+      "path": "tests/scenario/test_scenario_empty_scope_warning_bundle.py",
+      "size_bytes": 1572
+    },
+    {
+      "path": "tests/scenario/test_scenario_export_denied_is_non_mutating.py",
+      "size_bytes": 1940
+    },
+    {
+      "path": "tests/scenario/test_scenario_graph_live_review_live_trace.py",
+      "size_bytes": 1507
+    },
+    {
+      "path": "tests/scenario/test_scenario_missing_signal_degrades_variable.py",
+      "size_bytes": 1511
+    },
+    {
+      "path": "tests/scenario/test_scenario_observer_cannot_ack_alarm.py",
+      "size_bytes": 1835
+    },
+    {
+      "path": "tests/scenario/test_scenario_observer_cannot_issue_command.py",
+      "size_bytes": 2001
+    },
+    {
+      "path": "tests/scenario/test_scenario_operator_can_ack_and_export.py",
+      "size_bytes": 2219
+    },
+    {
+      "path": "tests/scenario/test_scenario_operator_command_handoff_to_adapter.py",
+      "size_bytes": 2025
+    },
+    {
+      "path": "tests/scenario/test_scenario_rejected_dry_run_command.py",
+      "size_bytes": 1422
+    },
+    {
+      "path": "tests/scenario/test_scenario_restore_without_output_reassertion.py",
+      "size_bytes": 1386
+    },
+    {
+      "path": "tests/scenario/test_scenario_review_export_from_history_range.py",
+      "size_bytes": 2299
+    },
+    {
+      "path": "tests/scenario/test_scenario_rule_sequence_spine.py",
+      "size_bytes": 4321
+    },
+    {
+      "path": "tests/scenario/test_scenario_shell_restore_review_live_bundle.py",
+      "size_bytes": 2706
+    },
+    {
+      "path": "tests/scenario/test_scenario_u6_advanced_setup_disconnect_reconnect.py",
+      "size_bytes": 2686
+    },
+    {
+      "path": "tests/scenario/test_scenario_u6_quick_start_onboarding_flow.py",
+      "size_bytes": 2442
+    },
+    {
+      "path": "tests/scenario/test_scenario_vertical_slice_ambiguous_rebind_requires_manual_review.py",
+      "size_bytes": 5308
+    },
+    {
+      "path": "tests/scenario/test_scenario_vertical_slice_binding_variable_disconnect_reconnect.py",
+      "size_bytes": 4591
+    },
+    {
+      "path": "tests/scenario/test_scenario_vertical_slice_partial_recovery_after_inventory_drift.py",
+      "size_bytes": 4593
+    },
+    {
+      "path": "tests/scenario/test_scenario_vertical_slice_repeated_disconnect_reconnect_stability.py",
+      "size_bytes": 3939
+    },
+    {
+      "path": "tests/smoke/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "tests/smoke/README.md",
+      "size_bytes": 80
+    },
+    {
+      "path": "tests/smoke/test_smoke_adapter_inventory_diagnostic.py",
+      "size_bytes": 850
+    },
+    {
+      "path": "tests/smoke/test_smoke_auth_diagnostic_inventory.py",
+      "size_bytes": 938
+    },
+    {
+      "path": "tests/smoke/test_smoke_device_discovery_inventory.py",
+      "size_bytes": 876
+    },
+    {
+      "path": "tests/smoke/test_smoke_export_diagnostic_inventory.py",
+      "size_bytes": 921
+    },
+    {
+      "path": "tests/smoke/test_smoke_first_slice_snapshots_load.py",
+      "size_bytes": 742
+    },
+    {
+      "path": "tests/smoke/test_smoke_governance_assets_load.py",
+      "size_bytes": 836
+    },
+    {
+      "path": "tests/smoke/test_smoke_lifecycle_inventory_diagnostic.py",
+      "size_bytes": 954
+    },
+    {
+      "path": "tests/smoke/test_smoke_lifecycle_transition_history_diagnostic.py",
+      "size_bytes": 1010
+    },
+    {
+      "path": "tests/smoke/test_smoke_package_layout.py",
+      "size_bytes": 801
+    },
+    {
+      "path": "tests/smoke/test_smoke_runtime_performance_inventory.py",
+      "size_bytes": 1040
+    },
+    {
+      "path": "tests/smoke/test_smoke_shell_state_inventory_diagnostic.py",
+      "size_bytes": 1221
+    },
+    {
+      "path": "tests/smoke/test_smoke_src_package_markers.py",
+      "size_bytes": 915
+    },
+    {
+      "path": "tools/README.md",
+      "size_bytes": 559
+    },
+    {
+      "path": "tools/__init__.py",
+      "size_bytes": 22
+    },
+    {
+      "path": "tools/_registry_paths.py",
+      "size_bytes": 2934
+    },
+    {
+      "path": "tools/_shared.py",
+      "size_bytes": 806
+    },
+    {
+      "path": "tools/_time.py",
+      "size_bytes": 500
+    },
+    {
+      "path": "tools/audit/__init__.py",
+      "size_bytes": 22
+    },
+    {
+      "path": "tools/audit/check_first_slice_readiness.py",
+      "size_bytes": 856
+    },
+    {
+      "path": "tools/audit/check_generated_snapshots.py",
+      "size_bytes": 702
+    },
+    {
+      "path": "tools/audit/check_root_summary_sync.py",
+      "size_bytes": 490
+    },
+    {
+      "path": "tools/audit/check_tests_tree.py",
+      "size_bytes": 684
+    },
+    {
+      "path": "tools/audit/check_tools_tree.py",
+      "size_bytes": 636
+    },
+    {
+      "path": "tools/audit/run_master_audit.py",
+      "size_bytes": 11030
+    },
+    {
+      "path": "tools/dev/__init__.py",
+      "size_bytes": 22
+    },
+    {
+      "path": "tools/dev/_u6_field_test_support.py",
+      "size_bytes": 33222
+    },
+    {
+      "path": "tools/dev/_u6_live_support.py",
+      "size_bytes": 8402
+    },
+    {
+      "path": "tools/dev/list_first_slice_invariants.py",
+      "size_bytes": 285
+    },
+    {
+      "path": "tools/dev/list_first_slice_requirements.py",
+      "size_bytes": 308
+    },
+    {
+      "path": "tools/dev/run_arduino_smoke.py",
+      "size_bytes": 3414
+    },
+    {
+      "path": "tools/dev/run_clean_room_validation.py",
+      "size_bytes": 2499
+    },
+    {
+      "path": "tools/dev/run_labjack_u6_smoke.py",
+      "size_bytes": 2448
+    },
+    {
+      "path": "tools/dev/run_local_gate.py",
+      "size_bytes": 2263
+    },
+    {
+      "path": "tools/dev/run_rpi_smoke.py",
+      "size_bytes": 3335
+    },
+    {
+      "path": "tools/dev/run_shell_smoke.py",
+      "size_bytes": 4456
+    },
+    {
+      "path": "tools/dev/run_type_gate.py",
+      "size_bytes": 788
+    },
+    {
+      "path": "tools/dev/run_u6_command_smoke.bat",
+      "size_bytes": 425
+    },
+    {
+      "path": "tools/dev/run_u6_command_smoke.py",
+      "size_bytes": 3806
+    },
+    {
+      "path": "tools/dev/run_u6_diag.bat",
+      "size_bytes": 337
+    },
+    {
+      "path": "tools/dev/run_u6_diag.py",
+      "size_bytes": 5976
+    },
+    {
+      "path": "tools/dev/run_u6_event_alarm_smoke.bat",
+      "size_bytes": 437
+    },
+    {
+      "path": "tools/dev/run_u6_event_alarm_smoke.py",
+      "size_bytes": 3350
+    },
+    {
+      "path": "tools/dev/run_u6_field_test_harness.bat",
+      "size_bytes": 457
+    },
+    {
+      "path": "tools/dev/run_u6_field_test_harness.py",
+      "size_bytes": 11783
+    },
+    {
+      "path": "tools/dev/run_u6_live_smoke.bat",
+      "size_bytes": 465
+    },
+    {
+      "path": "tools/dev/run_u6_live_value_smoke.py",
+      "size_bytes": 3942
+    },
+    {
+      "path": "tools/dev/run_u6_rule_sequence_smoke.bat",
+      "size_bytes": 443
+    },
+    {
+      "path": "tools/dev/run_u6_rule_sequence_smoke.py",
+      "size_bytes": 6177
+    },
+    {
+      "path": "tools/dev/run_u6_startup_open_smoke.bat",
+      "size_bytes": 442
+    },
+    {
+      "path": "tools/diagnostics/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "tools/diagnostics/__init__.py",
+      "size_bytes": 22
+    },
+    {
+      "path": "tools/diagnostics/dump_adapter_inventory.py",
+      "size_bytes": 3054
+    },
+    {
+      "path": "tools/diagnostics/dump_authorization_inventory.py",
+      "size_bytes": 2985
+    },
+    {
+      "path": "tools/diagnostics/dump_device_discovery_inventory.py",
+      "size_bytes": 2395
+    },
+    {
+      "path": "tools/diagnostics/dump_export_inventory.py",
+      "size_bytes": 2929
+    },
+    {
+      "path": "tools/diagnostics/dump_governance_status.py",
+      "size_bytes": 1347
+    },
+    {
+      "path": "tools/diagnostics/dump_lifecycle_inventory.py",
+      "size_bytes": 5780
+    },
+    {
+      "path": "tools/diagnostics/dump_lifecycle_review_bundle.py",
+      "size_bytes": 3940
+    },
+    {
+      "path": "tools/diagnostics/dump_lifecycle_transition_history.py",
+      "size_bytes": 3632
+    },
+    {
+      "path": "tools/diagnostics/dump_repo_inventory.py",
+      "size_bytes": 1032
+    },
+    {
+      "path": "tools/diagnostics/dump_runtime_performance_inventory.py",
+      "size_bytes": 3953
+    },
+    {
+      "path": "tools/diagnostics/dump_savepoint_baseline.py",
+      "size_bytes": 854
+    },
+    {
+      "path": "tools/diagnostics/dump_schema_inventory.py",
+      "size_bytes": 1129
+    },
+    {
+      "path": "tools/diagnostics/dump_service_inventory.py",
+      "size_bytes": 811
+    },
+    {
+      "path": "tools/diagnostics/dump_shell_state_inventory.py",
+      "size_bytes": 7955
+    },
+    {
+      "path": "tools/diagnostics/emit_governance_snapshot_report.py",
+      "size_bytes": 1070
+    },
+    {
+      "path": "tools/diagnostics/emit_structure_report.py",
+      "size_bytes": 679
+    },
+    {
+      "path": "tools/diagnostics/emit_test_inventory.py",
+      "size_bytes": 787
+    },
+    {
+      "path": "tools/diagnostics/run_precode_diagnostics.py",
+      "size_bytes": 611
+    },
+    {
+      "path": "tools/diagnostics/run_profile_roundtrip_diagnostic.py",
+      "size_bytes": 1300
+    },
+    {
+      "path": "tools/diagnostics/validate_runtime_evidence_consistency.py",
+      "size_bytes": 12258
+    },
+    {
+      "path": "tools/governance/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "tools/governance/__init__.py",
+      "size_bytes": 22
+    },
+    {
+      "path": "tools/governance/build_first_slice_execution_contract.py",
+      "size_bytes": 787
+    },
+    {
+      "path": "tools/governance/build_first_slice_invariant_snapshot.py",
+      "size_bytes": 1038
+    },
+    {
+      "path": "tools/governance/build_first_slice_requirement_pack.py",
+      "size_bytes": 955
+    },
+    {
+      "path": "tools/governance/build_first_slice_worked_example_snapshot.py",
+      "size_bytes": 419
+    },
+    {
+      "path": "tools/governance/build_implementation_coverage_snapshot.py",
+      "size_bytes": 940
+    },
+    {
+      "path": "tools/governance/guard_against_truncation.py",
+      "size_bytes": 3820
+    },
+    {
+      "path": "tools/governance/validate_document_completeness.py",
+      "size_bytes": 9104
+    },
+    {
+      "path": "tools/governance/validate_document_debt.py",
+      "size_bytes": 2537
+    },
+    {
+      "path": "tools/governance/validate_document_impact.py",
+      "size_bytes": 2687
+    },
+    {
+      "path": "tools/governance/validate_package_entry_surfaces.py",
+      "size_bytes": 5107
+    },
+    {
+      "path": "tools/governance/validate_readme_control.py",
+      "size_bytes": 1594
+    },
+    {
+      "path": "tools/governance/validate_run_artifact_naming.py",
+      "size_bytes": 1386
+    },
+    {
+      "path": "tools/package_build/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "tools/package_build/__init__.py",
+      "size_bytes": 22
+    },
+    {
+      "path": "tools/package_build/build_precode_package.py",
+      "size_bytes": 2839
+    },
+    {
+      "path": "tools/package_build/clean_generated_artifacts.py",
+      "size_bytes": 240
+    },
+    {
+      "path": "tools/package_build/stamp_generated_reports.py",
+      "size_bytes": 293
+    },
+    {
+      "path": "tools/package_build/validate_windows_path_budget.py",
+      "size_bytes": 1126
+    },
+    {
+      "path": "tools/proof/__init__.py",
+      "size_bytes": 22
+    },
+    {
+      "path": "tools/proof/init_proof_bundle.py",
+      "size_bytes": 643
+    },
+    {
+      "path": "tools/proof/validate_proof_bundle.py",
+      "size_bytes": 468
+    },
+    {
+      "path": "tools/traceability/.gitkeep",
+      "size_bytes": 0
+    },
+    {
+      "path": "tools/traceability/__init__.py",
+      "size_bytes": 22
+    },
+    {
+      "path": "tools/traceability/dump_requirement_to_code_and_test_links.py",
+      "size_bytes": 2543
+    },
+    {
+      "path": "tools/traceability/generate_traceability_snapshot.py",
+      "size_bytes": 755
+    },
+    {
+      "path": "tools/traceability/report_traceability_gaps.py",
+      "size_bytes": 935
+    },
+    {
+      "path": "tools/traceability/validate_invariant_links.py",
+      "size_bytes": 954
+    },
+    {
+      "path": "tools/traceability/validate_requirement_links.py",
+      "size_bytes": 962
+    },
+    {
+      "path": "tools/traceability/validate_worked_example_links.py",
+      "size_bytes": 912
+    }
+  ]
+}

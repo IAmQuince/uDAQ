@@ -1,0 +1,19 @@
+20260325_07 reconnect-reacquire path verification and fix
+
+Targeted pytest:
+- tests/contract/test_contract_real_labjack_u6_adapter.py
+- tests/integration/test_integration_u6_recovery_pipeline.py
+- tests/integration/test_integration_u6_field_test_harness.py
+- result: 13 passed
+
+Governance / package validation:
+- validate_package_entry_surfaces: PASS
+- validate_document_completeness: PASS
+- validate_windows_path_budget: PASS
+- validate_run_artifact_naming (new 20260325_07 proof files): PASS
+- truncation guard vs 20260325_06 baseline: PASS
+- run_shell_smoke.py: PASS
+
+Notes:
+- This package is a bounded reconnect-path verification and fix pass.
+- Real-hardware closure still requires rerunning the ordered probe -> startup smoke -> guided unplug/replug sequence on the user machine.

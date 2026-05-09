@@ -1,0 +1,11 @@
+document_id,target_path,donor_path,base_size_bytes,donor_size_bytes,recovery_action
+UDQ-ARCH-NAR-001,docs/active/UDQ-ARCH-NAR-001__System_Controls_Narrative__r4__WIP.md,docs/active/UDQ-ARCH-NAR-001__System_Controls_Narrative__r3__WIP.md,2121,16938,restored_from_donor_with_current_note
+UDQ-ARCH-NAR-002,docs/active/UDQ-ARCH-NAR-002__Platform_Controls_Narrative__r4__WIP.md,docs/active/UDQ-ARCH-NAR-002__Platform_Controls_Narrative__r3__WIP.md,2216,14338,restored_from_donor_with_current_note
+UDQ-GOV-REG-001,docs/active/UDQ-GOV-REG-001__Contradiction_and_Reconciliation_Register__r2__WIP.md,docs/active/UDQ-GOV-REG-001__Contradiction_and_Reconciliation_Register__r1__WIP.md,1843,5276,restored_from_donor_plus_current_rows
+UDQ-GOV-REG-003,docs/active/UDQ-GOV-REG-003__Documentation_Update_Debt_Register__r3__WIP.md,docs/active/UDQ-GOV-REG-003__Documentation_Update_Debt_Register__r2__WIP.md,1966,8457,restored_from_donor_plus_current_rows
+UDQ-REQ-MAT-001,docs/active/UDQ-REQ-MAT-001__Requirements_Traceability_Matrix__r9__WIP.md,docs/active/UDQ-REQ-MAT-001__Requirements_Traceability_Matrix__r8__WIP.md,1472,3830,restored_from_donor_plus_current_addendum
+UDQ-GAP-RPT-001,docs/active/UDQ-GAP-RPT-001__Open_Implementation_Gaps__r10__WIP.md,docs/active/UDQ-GAP-RPT-001__Open_Implementation_Gaps__r9__WIP.md,1509,2496,restored_from_donor_plus_current_addendum
+RELEASE_NOTES.md,docs/release/RELEASE_NOTES.md,docs/release/RELEASE_NOTES.md,1196,6238,restored_from_donor_plus_current_addendum
+START_HERE.md,docs/handbook/START_HERE.md,docs/handbook/START_HERE.md,1109,2354,restored_from_donor_plus_current_addendum
+NEXT_ACTIONS.md,docs/handbook/NEXT_ACTIONS.md,docs/handbook/NEXT_ACTIONS.md,1196,2042,restored_from_donor_plus_current_addendum
+UDQ_U6_REAL_TEST.md,proof/UDQ_U6_REAL_TEST.md,proof/UDQ_U6_REAL_TEST.md,424,690,restored_from_donor_plus_current_addendum

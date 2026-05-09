@@ -1,0 +1,88 @@
+UDQ U6 Guided Field Validation Summary
+=====================================
+bundle_dir: /mnt/data/s3cfinal/proof/field_tests/20260325_00_simulated-u6-guided-validation
+validation_flow: guided_unplug_replug_validation
+run_stem: 20260325_00_simulated-u6-guided-validation
+mode_requested: simulated
+mode_entered: simulated
+serial_number: AUTO
+capture_count: 4
+semantic_verdict: PASS
+semantic_verdict_reason: Runtime evidence consistency checks passed.
+
+Session Inventory
+-----------------
+discovered_support_pack_device_count: 3
+- generic_adapter_inventory:SIM-READ-001: SIM-READ-001 (provider=generic_adapter_inventory, serial=)
+- generic_adapter_inventory:SIM-WRITE-001: SIM-WRITE-001 (provider=generic_adapter_inventory, serial=)
+- labjack_u6_support:470211: LabJack U6 (470211) (provider=labjack_u6_support, serial=470211)
+
+Incident Summary
+----------------
+disconnect_count: 0
+recovery_count: 0
+session_had_disconnect: False
+session_recovered_after_disconnect: False
+last_disconnect_at: None
+last_disconnect_reason: None
+last_recovery_at: None
+last_recovery_reason: None
+
+Recovery Analysis
+-----------------
+reconnect_attempt_started: False
+backend_reopen_observed: False
+active_adapter_rebound_observed: False
+post_disconnect_successful_poll_observed: False
+recovered: False
+recovery_stage: unknown
+stabilization_state_family: live_ready_healthy
+last_recovery_failure_stage: None
+last_recovery_failure_reason: None
+
+Phase Timeline
+--------------
+- baseline: status=PASS observed=live / ready / healthy (family=live_ready_healthy) expected=live / ready / healthy
+- device_loss_window: status=ADVISORY observed=live / ready / healthy (family=live_ready_healthy) expected=disconnected
+- recovery_window: status=PASS observed=live / ready / healthy (family=live_ready_healthy) expected=recovering
+- post_recovery_stabilization: status=PASS observed=live / ready / healthy (family=live_ready_healthy) expected=live / ready / healthy
+
+Reviewer Runtime Rollup
+-----------------------
+state_family: live_ready_healthy
+reviewer_label: live / ready / healthy
+summary: Runtime posture is live / ready / healthy; alarms=0, disconnects=0, recoveries=0.
+
+Canonical Runtime Evidence Bundle
+---------------------------------
+bundle_version: v1
+recent_runtime_event_count: 0
+recent_alarm_event_count: 0
+recent_operator_action_count: 0
+
+Semantic Consistency Checks
+---------------------------
+- PASS: rollup_matches_canonical_state — rollup state family `live_ready_healthy` matches canonical runtime state family.
+- PASS: reviewer_summary_matches_canonical_bundle — reviewer summary matches the canonical bundle renderer.
+- PASS: final_phase_matches_rollup — final phase posture matches the reviewer rollup state family.
+- PASS: phase_expectations_hold — all strict phase expectations passed.
+- PASS: operator_markers_are_distinct — operator and harness markers remain distinct from runtime event rows.
+- PASS: disconnect_has_runtime_evidence — no disconnect evidence was required for this run.
+- PASS: recovery_has_runtime_evidence — no recovery evidence was required for this run.
+- PASS: phase_records_complete — required phase records are present.
+- PASS: simulated_mode_note — simulated mode permits observation-only disconnect/recovery phases without requiring a physical disturbance.
+
+Output Files
+------------
+20260325_00_simulated-u6-guided-validation__start-here.txt
+20260325_00_simulated-u6-guided-validation__summary.txt
+20260325_00_simulated-u6-guided-validation__review-summary.md
+20260325_00_simulated-u6-guided-validation__preflight-report.json
+20260325_00_simulated-u6-guided-validation__preflight-report.txt
+20260325_00_simulated-u6-guided-validation__events.csv
+20260325_00_simulated-u6-guided-validation__diagnostics.json
+20260325_00_simulated-u6-guided-validation__semantic-consistency-verdict.json
+20260325_00_simulated-u6-guided-validation__semantic-consistency-verdict.txt
+20260325_00_simulated-u6-guided-validation__artifact-manifest.json
+20260325_00_simulated-u6-guided-validation__artifact-manifest.txt
+20260325_00_simulated-u6-guided-validation__smoke.txt

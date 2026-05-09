@@ -1,0 +1,84 @@
+{
+  "package_id": "UDQ-PKG-20260327-USABILITY-ENTRY-FIRST-SIGNAL-PATH-R01",
+  "package_slug": "usability-entry-first-signal-path",
+  "selected_device": {
+    "device_key": "generic_adapter_inventory:DEMO-FIRST-SIGNAL-001",
+    "display_name": "First Signal Demo Device",
+    "serial_number": "DEMO-001",
+    "support_tier": "generic"
+  },
+  "timings_ms": {
+    "discover_ms": 0.701,
+    "select_ms": 0.652,
+    "quick_start_ms": 8.022
+  },
+  "device_phase": "live",
+  "published_signal_count": 1,
+  "first_signal_summary": {
+    "signal_id": "first_signal__generic_demo_first_signal_001",
+    "display_name": "Wave 0",
+    "point_key": "DEMO-FIRST-SIGNAL-001:demo_wave_0",
+    "point_class": "analog",
+    "latest_value": "2.750",
+    "latest_numeric_value": 2.75,
+    "quality_label": "simulated",
+    "engineering_units": "V",
+    "trace_point_count": 9,
+    "auto_bound": true
+  },
+  "replay_tape": {
+    "signal_id": "first_signal__generic_demo_first_signal_001",
+    "display_name": "Wave 0",
+    "engineering_units": "V",
+    "quality_label": "simulated",
+    "trace_points": [
+      {
+        "timestamp": 5,
+        "value": "2.750",
+        "numeric_value": 2.75
+      },
+      {
+        "timestamp": 6,
+        "value": "2.000",
+        "numeric_value": 2.0
+      },
+      {
+        "timestamp": 7,
+        "value": "1.250",
+        "numeric_value": 1.25
+      },
+      {
+        "timestamp": 8,
+        "value": "0.701",
+        "numeric_value": 0.701
+      },
+      {
+        "timestamp": 9,
+        "value": "0.500",
+        "numeric_value": 0.5
+      },
+      {
+        "timestamp": 10,
+        "value": "0.701",
+        "numeric_value": 0.701
+      },
+      {
+        "timestamp": 11,
+        "value": "1.250",
+        "numeric_value": 1.25
+      },
+      {
+        "timestamp": 12,
+        "value": "2.000",
+        "numeric_value": 2.0
+      },
+      {
+        "timestamp": 13,
+        "value": "2.750",
+        "numeric_value": 2.75
+      }
+    ]
+  },
+  "shell_evidence_count": 11,
+  "runtime_transition_count": 11
+}

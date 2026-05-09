@@ -1,0 +1,20 @@
+{
+  "trace": [
+    {
+      "t": 0,
+      "event": "assert",
+      "alarm": "ALM-001"
+    },
+    {
+      "t": 2,
+      "event": "acknowledge",
+      "alarm": "ALM-001",
+      "actor": "operator"
+    },
+    {
+      "t": 5,
+      "event": "return_to_normal",
+      "alarm": "ALM-001"
+    }
+  ]
+}

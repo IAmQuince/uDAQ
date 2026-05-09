@@ -1,0 +1,576 @@
+{
+  "package_id": "UDQ-PKG-2026-03-21-governance-control-tower-sprint1",
+  "package_disposition": "ALIGNMENT_INFRA_READY",
+  "allowed_slice_name": "governance-aware baseline shell + signals + historian + profiles + graph semantics + package-governance infrastructure",
+  "entries": [
+    {
+      "requirement_id": "UDQ-REQ-ARCH-001",
+      "title": "The backend shall remain the authoritative source of runtime truth, command arbitration, and applied state publication.",
+      "subsystem": "Architecture",
+      "governed_by": [
+        "UDQ-ARCH-NAR-002",
+        "UDQ-OUT-SPEC-001",
+        "UDQ-SEC-SPEC-001",
+        "UDQ-REM-SPEC-001"
+      ],
+      "semantic_tags": [
+        "first_slice",
+        "authority",
+        "state_publication"
+      ],
+      "readiness_status": "INVARIANT_DEFINED",
+      "open_decisions": [],
+      "prohibited_conflations": [
+        "requested state != applied state",
+        "applied state != observed state"
+      ],
+      "worked_example_ids": [
+        "UDQ-EXM-001",
+        "UDQ-EXM-002"
+      ],
+      "expected_invariant_ids": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-TRANS-001"
+      ],
+      "expected_proof_type": "published state trace, command log, proof bundle",
+      "intended_module_area": "src/universaldaq/app + src/universaldaq/common",
+      "notes_for_implementation": "Infrastructure-first slice; do not broaden scope beyond the package-approved boundary."
+    },
+    {
+      "requirement_id": "UDQ-REQ-ARCH-002",
+      "title": "The UI shall never silently imply authority that it does not possess.",
+      "subsystem": "Architecture",
+      "governed_by": [
+        "UDQ-UI-NAR-001",
+        "UDQ-UI-MOD-001",
+        "UDQ-UI-SPEC-002",
+        "UDQ-UI-SPEC-005"
+      ],
+      "semantic_tags": [
+        "first_slice",
+        "authority",
+        "state_publication"
+      ],
+      "readiness_status": "INVARIANT_DEFINED",
+      "open_decisions": [],
+      "prohibited_conflations": [
+        "workspace/profile restore != machine state restore",
+        "UI state != command authority"
+      ],
+      "worked_example_ids": [
+        "UDQ-EXM-003"
+      ],
+      "expected_invariant_ids": [
+        "UDQ-INV-STATE-002"
+      ],
+      "expected_proof_type": "screenshots, interaction trace",
+      "intended_module_area": "src/universaldaq/app + src/universaldaq/common",
+      "notes_for_implementation": "Infrastructure-first slice; do not broaden scope beyond the package-approved boundary."
+    },
+    {
+      "requirement_id": "UDQ-REQ-SIG-001",
+      "title": "Every signal shall have stable identity independent of user-facing display name.",
+      "subsystem": "Signals",
+      "governed_by": [
+        "UDQ-SIG-SPEC-001",
+        "UDQ-DEV-SPEC-001",
+        "UDQ-PROF-SPEC-001"
+      ],
+      "semantic_tags": [
+        "first_slice",
+        "signal_identity",
+        "signal_quality"
+      ],
+      "readiness_status": "INVARIANT_DEFINED",
+      "open_decisions": [],
+      "prohibited_conflations": [],
+      "worked_example_ids": [],
+      "expected_invariant_ids": [],
+      "expected_proof_type": "signal registry export, migration test",
+      "intended_module_area": "src/universaldaq/signals",
+      "notes_for_implementation": "Infrastructure-first slice; do not broaden scope beyond the package-approved boundary."
+    },
+    {
+      "requirement_id": "UDQ-REQ-SIG-002",
+      "title": "Derived signals shall be dependency-tracked and cycle-checked before activation.",
+      "subsystem": "Signals",
+      "governed_by": [
+        "UDQ-SIG-SPEC-001",
+        "UDQ-LOG-SPEC-001",
+        "UDQ-UI-SPEC-003"
+      ],
+      "semantic_tags": [
+        "first_slice",
+        "signal_identity",
+        "signal_quality"
+      ],
+      "readiness_status": "INVARIANT_DEFINED",
+      "open_decisions": [],
+      "prohibited_conflations": [
+        "requested state != applied state",
+        "applied state != observed state"
+      ],
+      "worked_example_ids": [],
+      "expected_invariant_ids": [
+        "UDQ-INV-STATE-001"
+      ],
+      "expected_proof_type": "validation report, dependency graph export",
+      "intended_module_area": "src/universaldaq/signals",
+      "notes_for_implementation": "Infrastructure-first slice; do not broaden scope beyond the package-approved boundary."
+    },
+    {
+      "requirement_id": "UDQ-REQ-HIS-001",
+      "title": "Historian data and event evidence shall preserve context linking runtime values, commands, alarms, rules, sequences, and diagnostics.",
+      "subsystem": "Historian",
+      "governed_by": [
+        "UDQ-HIS-SPEC-001",
+        "UDQ-EXP-SPEC-001",
+        "UDQ-PROOF-TPL-001"
+      ],
+      "semantic_tags": [
+        "first_slice",
+        "historian",
+        "evidence"
+      ],
+      "readiness_status": "INVARIANT_DEFINED",
+      "open_decisions": [],
+      "prohibited_conflations": [],
+      "worked_example_ids": [
+        "UDQ-EXM-004",
+        "UDQ-EXM-005"
+      ],
+      "expected_invariant_ids": [
+        "UDQ-INV-TRANS-004",
+        "UDQ-INV-EVID-001",
+        "UDQ-INV-EVID-002",
+        "UDQ-INV-EVID-003",
+        "UDQ-INV-EVID-004"
+      ],
+      "expected_proof_type": "evidence bundle, historian export",
+      "intended_module_area": "src/universaldaq/historian",
+      "notes_for_implementation": "Infrastructure-first slice; do not broaden scope beyond the package-approved boundary."
+    },
+    {
+      "requirement_id": "UDQ-REQ-HIS-002",
+      "title": "Live and historical review modes shall remain distinct and reversible without losing operator clarity.",
+      "subsystem": "Historian",
+      "governed_by": [
+        "UDQ-HIS-SPEC-001",
+        "UDQ-UI-MOD-001",
+        "UDQ-UI-SPEC-004"
+      ],
+      "semantic_tags": [
+        "first_slice",
+        "historian",
+        "evidence"
+      ],
+      "readiness_status": "INVARIANT_DEFINED",
+      "open_decisions": [],
+      "prohibited_conflations": [],
+      "worked_example_ids": [
+        "UDQ-EXM-004"
+      ],
+      "expected_invariant_ids": [
+        "UDQ-INV-TRANS-004",
+        "UDQ-INV-EVID-001",
+        "UDQ-INV-EVID-004"
+      ],
+      "expected_proof_type": "review screenshots, interaction capture",
+      "intended_module_area": "src/universaldaq/historian",
+      "notes_for_implementation": "Infrastructure-first slice; do not broaden scope beyond the package-approved boundary."
+    },
+    {
+      "requirement_id": "UDQ-REQ-PROF-001",
+      "title": "Profiles, autosave, and restore shall preserve user/session continuity without silently implying restored live machine state.",
+      "subsystem": "Profiles",
+      "governed_by": [
+        "UDQ-PROF-SPEC-001",
+        "UDQ-UI-MOD-001",
+        "UDQ-UI-SPEC-000",
+        "UDQ-UI-SPEC-001"
+      ],
+      "semantic_tags": [
+        "first_slice",
+        "profile",
+        "restore",
+        "workspace_state"
+      ],
+      "readiness_status": "INVARIANT_DEFINED",
+      "open_decisions": [],
+      "prohibited_conflations": [
+        "workspace/profile restore != machine state restore",
+        "UI state != command authority"
+      ],
+      "worked_example_ids": [
+        "UDQ-EXM-003"
+      ],
+      "expected_invariant_ids": [
+        "UDQ-INV-STATE-002",
+        "UDQ-INV-TRANS-002",
+        "UDQ-INV-EVID-003"
+      ],
+      "expected_proof_type": "restore log, screenshots",
+      "intended_module_area": "src/universaldaq/profiles",
+      "notes_for_implementation": "Infrastructure-first slice; do not broaden scope beyond the package-approved boundary."
+    },
+    {
+      "requirement_id": "UDQ-REQ-PROF-002",
+      "title": "Layout persistence and profile restore shall preserve workspace arrangements, subject to current live capability and authorization checks.",
+      "subsystem": "Profiles",
+      "governed_by": [
+        "UDQ-PROF-SPEC-001",
+        "UDQ-UI-SPEC-000",
+        "UDQ-SEC-SPEC-001"
+      ],
+      "semantic_tags": [
+        "first_slice",
+        "profile",
+        "restore",
+        "workspace_state"
+      ],
+      "readiness_status": "INVARIANT_DEFINED",
+      "open_decisions": [],
+      "prohibited_conflations": [
+        "workspace/profile restore != machine state restore",
+        "UI state != command authority"
+      ],
+      "worked_example_ids": [
+        "UDQ-EXM-003"
+      ],
+      "expected_invariant_ids": [
+        "UDQ-INV-STATE-002",
+        "UDQ-INV-TRANS-002",
+        "UDQ-INV-EVID-003"
+      ],
+      "expected_proof_type": "profile export, interaction trace",
+      "intended_module_area": "src/universaldaq/profiles",
+      "notes_for_implementation": "Infrastructure-first slice; do not broaden scope beyond the package-approved boundary."
+    },
+    {
+      "requirement_id": "UDQ-REQ-UI-003",
+      "title": "Graphing shall support live, review, and live-trace modes with explicit mode indicators and return-to-live behavior.",
+      "subsystem": "UI",
+      "governed_by": [
+        "UDQ-UI-SPEC-004",
+        "UDQ-HIS-SPEC-001",
+        "UDQ-PROF-SPEC-001"
+      ],
+      "semantic_tags": [
+        "first_slice",
+        "ui",
+        "operator_context"
+      ],
+      "readiness_status": "INVARIANT_DEFINED",
+      "open_decisions": [],
+      "prohibited_conflations": [
+        "historical/review != live",
+        "live trace != general review mode"
+      ],
+      "worked_example_ids": [
+        "UDQ-EXM-005"
+      ],
+      "expected_invariant_ids": [
+        "UDQ-INV-STATE-003"
+      ],
+      "expected_proof_type": "screenshots, interaction trace",
+      "intended_module_area": "src/universaldaq/ui",
+      "notes_for_implementation": "Infrastructure-first slice; do not broaden scope beyond the package-approved boundary."
+    },
+    {
+      "requirement_id": "UDQ-REQ-UI-004",
+      "title": "The graphing surface shall support event, alarm, command, rule, and sequence overlays where evidence relationships are relevant.",
+      "subsystem": "UI",
+      "governed_by": [
+        "UDQ-UI-SPEC-004",
+        "UDQ-HIS-SPEC-001",
+        "UDQ-EVT-SPEC-001",
+        "UDQ-EXP-SPEC-001"
+      ],
+      "semantic_tags": [
+        "first_slice",
+        "ui",
+        "operator_context"
+      ],
+      "readiness_status": "INVARIANT_DEFINED",
+      "open_decisions": [],
+      "prohibited_conflations": [
+        "historical/review != live",
+        "live trace != general review mode"
+      ],
+      "worked_example_ids": [
+        "UDQ-EXM-005"
+      ],
+      "expected_invariant_ids": [
+        "UDQ-INV-STATE-003"
+      ],
+      "expected_proof_type": "export capture, screenshots",
+      "intended_module_area": "src/universaldaq/ui",
+      "notes_for_implementation": "Infrastructure-first slice; do not broaden scope beyond the package-approved boundary."
+    },
+    {
+      "requirement_id": "UDQ-REQ-UI-006",
+      "title": "Widget language shall distinguish live, stale, invalid, disconnected, simulated, blocked, pending, acknowledged, manual, sequence, rule, and remote states in a consistent manner.",
+      "subsystem": "UI",
+      "governed_by": [
+        "UDQ-UI-SPEC-002",
+        "UDQ-EVT-SPEC-001",
+        "UDQ-DIAG-SPEC-001",
+        "UDQ-REM-SPEC-001"
+      ],
+      "semantic_tags": [
+        "first_slice",
+        "ui",
+        "operator_context"
+      ],
+      "readiness_status": "INVARIANT_DEFINED",
+      "open_decisions": [],
+      "prohibited_conflations": [
+        "historical/review != live",
+        "live trace != general review mode"
+      ],
+      "worked_example_ids": [
+        "UDQ-EXM-005"
+      ],
+      "expected_invariant_ids": [
+        "UDQ-INV-STATE-003"
+      ],
+      "expected_proof_type": "screenshot set, style reference",
+      "intended_module_area": "src/universaldaq/ui",
+      "notes_for_implementation": "Infrastructure-first slice; do not broaden scope beyond the package-approved boundary."
+    },
+    {
+      "requirement_id": "UDQ-REQ-AUD-001",
+      "title": "Every send-out package shall be auditable by the package-root audit tool and governed package audit specification.",
+      "subsystem": "Audit",
+      "governed_by": [
+        "UDQ-AUD-SPEC-001",
+        "UDQ-REL-SPEC-001",
+        "UDQ-AUD-TPL-001"
+      ],
+      "semantic_tags": [
+        "governance",
+        "traceability",
+        "governance"
+      ],
+      "readiness_status": "CONTRACT_DEFINED",
+      "open_decisions": [],
+      "prohibited_conflations": [
+        "narrative requirement != executable contract",
+        "claimed readiness != evidence-backed readiness"
+      ],
+      "worked_example_ids": [],
+      "expected_invariant_ids": [],
+      "expected_proof_type": "audit report, manifest",
+      "intended_module_area": "tools/traceability + registries/active + audit_reports/active",
+      "notes_for_implementation": "Package-governance artifact; keep implementation attached to active registries and generated reports."
+    },
+    {
+      "requirement_id": "UDQ-REQ-AUD-002",
+      "title": "Draft-residue/anti-pattern scanning shall use rule-scoped allowed-pattern logic by document class and shall not permit structural-integrity waivers.",
+      "subsystem": "Audit",
+      "governed_by": [
+        "UDQ-AUD-SPEC-002",
+        "UDQ-GOV-SPEC-002",
+        "UDQ-AUD-TPL-002"
+      ],
+      "semantic_tags": [
+        "governance",
+        "traceability",
+        "governance"
+      ],
+      "readiness_status": "CONTRACT_DEFINED",
+      "open_decisions": [],
+      "prohibited_conflations": [
+        "narrative requirement != executable contract",
+        "claimed readiness != evidence-backed readiness"
+      ],
+      "worked_example_ids": [],
+      "expected_invariant_ids": [],
+      "expected_proof_type": "scan report",
+      "intended_module_area": "tools/traceability + registries/active + audit_reports/active",
+      "notes_for_implementation": "Package-governance artifact; keep implementation attached to active registries and generated reports."
+    },
+    {
+      "requirement_id": "UDQ-REQ-AUD-003",
+      "title": "The package-root master auditor shall perform structure, semantic, contradiction, and duplication audits for hardening packages.",
+      "subsystem": "Audit",
+      "governed_by": [
+        "UDQ-AUD-SPEC-001",
+        "UDQ-GOV-REG-001",
+        "UDQ-GOV-REG-002",
+        "UDQ-IMP-PLAN-001"
+      ],
+      "semantic_tags": [
+        "governance",
+        "traceability",
+        "governance"
+      ],
+      "readiness_status": "CONTRACT_DEFINED",
+      "open_decisions": [],
+      "prohibited_conflations": [
+        "narrative requirement != executable contract",
+        "claimed readiness != evidence-backed readiness"
+      ],
+      "worked_example_ids": [],
+      "expected_invariant_ids": [],
+      "expected_proof_type": "audit report, governed registers",
+      "intended_module_area": "tools/traceability + registries/active + audit_reports/active",
+      "notes_for_implementation": "Package-governance artifact; keep implementation attached to active registries and generated reports."
+    },
+    {
+      "requirement_id": "UDQ-REQ-REL-001",
+      "title": "Every release package shall declare package ID, code baseline ID, document baseline ID, compatibility statement, included artifacts, and change summary.",
+      "subsystem": "Release",
+      "governed_by": [
+        "UDQ-SCM-STD-001",
+        "UDQ-REL-SPEC-001",
+        "UDQ-REL-TPL-001",
+        "UDQ-REL-TPL-002"
+      ],
+      "semantic_tags": [
+        "governance",
+        "traceability",
+        "governance"
+      ],
+      "readiness_status": "CONTRACT_DEFINED",
+      "open_decisions": [],
+      "prohibited_conflations": [],
+      "worked_example_ids": [],
+      "expected_invariant_ids": [],
+      "expected_proof_type": "manifest, release notes",
+      "intended_module_area": "tools/traceability + registries/active + audit_reports/active",
+      "notes_for_implementation": "Package-governance artifact; keep implementation attached to active registries and generated reports."
+    },
+    {
+      "requirement_id": "UDQ-REQ-GOV-001",
+      "title": "Controlled documents, requirement IDs, and cross-references shall remain machine-readable and internally consistent across the active corpus.",
+      "subsystem": "Governance",
+      "governed_by": [
+        "UDQ-GOV-STD-001",
+        "UDQ-GOV-SPEC-002",
+        "UDQ-AUD-SPEC-001"
+      ],
+      "semantic_tags": [
+        "governance",
+        "traceability",
+        "governance"
+      ],
+      "readiness_status": "CONTRACT_DEFINED",
+      "open_decisions": [],
+      "prohibited_conflations": [
+        "narrative requirement != executable contract",
+        "claimed readiness != evidence-backed readiness"
+      ],
+      "worked_example_ids": [],
+      "expected_invariant_ids": [],
+      "expected_proof_type": "registry artifacts, audit report",
+      "intended_module_area": "tools/traceability + registries/active + audit_reports/active",
+      "notes_for_implementation": "Package-governance artifact; keep implementation attached to active registries and generated reports."
+    },
+    {
+      "requirement_id": "UDQ-REQ-GOV-002",
+      "title": "Every project-critical term shall have one canonical owner, declared alias policy, and governed anti-conflation treatment.",
+      "subsystem": "Governance",
+      "governed_by": [
+        "UDQ-GOV-GLO-001",
+        "UDQ-GOV-STD-002",
+        "UDQ-GOV-REG-001",
+        "UDQ-GOV-REG-002"
+      ],
+      "semantic_tags": [
+        "governance",
+        "traceability",
+        "governance"
+      ],
+      "readiness_status": "CONTRACT_DEFINED",
+      "open_decisions": [],
+      "prohibited_conflations": [
+        "narrative requirement != executable contract",
+        "claimed readiness != evidence-backed readiness"
+      ],
+      "worked_example_ids": [],
+      "expected_invariant_ids": [],
+      "expected_proof_type": "term-usage matrix, audit report",
+      "intended_module_area": "tools/traceability + registries/active + audit_reports/active",
+      "notes_for_implementation": "Package-governance artifact; keep implementation attached to active registries and generated reports."
+    },
+    {
+      "requirement_id": "UDQ-REQ-GOV-003",
+      "title": "Material contradictions and semantic ambiguities shall be registered, resolved, or explicitly elevated before downstream implementation relies on them.",
+      "subsystem": "Governance",
+      "governed_by": [
+        "UDQ-GOV-STD-002",
+        "UDQ-GOV-REG-001",
+        "UDQ-IMP-PLAN-001"
+      ],
+      "semantic_tags": [
+        "governance",
+        "traceability",
+        "governance"
+      ],
+      "readiness_status": "CONTRACT_DEFINED",
+      "open_decisions": [],
+      "prohibited_conflations": [
+        "narrative requirement != executable contract",
+        "claimed readiness != evidence-backed readiness"
+      ],
+      "worked_example_ids": [],
+      "expected_invariant_ids": [],
+      "expected_proof_type": "contradiction register, consistency report",
+      "intended_module_area": "tools/traceability + registries/active + audit_reports/active",
+      "notes_for_implementation": "Package-governance artifact; keep implementation attached to active registries and generated reports."
+    },
+    {
+      "requirement_id": "UDQ-REQ-GOV-004",
+      "title": "Meaningful duplication in normative content shall be classified as intentional, governed boilerplate, shadow definition, or consolidation-required before release-candidate use.",
+      "subsystem": "Governance",
+      "governed_by": [
+        "UDQ-GOV-STD-002",
+        "UDQ-GOV-REG-002",
+        "UDQ-AUD-SPEC-001"
+      ],
+      "semantic_tags": [
+        "governance",
+        "traceability",
+        "governance"
+      ],
+      "readiness_status": "CONTRACT_DEFINED",
+      "open_decisions": [],
+      "prohibited_conflations": [
+        "narrative requirement != executable contract",
+        "claimed readiness != evidence-backed readiness"
+      ],
+      "worked_example_ids": [],
+      "expected_invariant_ids": [],
+      "expected_proof_type": "duplication register, audit report",
+      "intended_module_area": "tools/traceability + registries/active + audit_reports/active",
+      "notes_for_implementation": "Package-governance artifact; keep implementation attached to active registries and generated reports."
+    },
+    {
+      "requirement_id": "UDQ-REQ-IMPL-001",
+      "title": "Future implementation packages shall be anchored to a governed file/module structure with declared boundary rules.",
+      "subsystem": "Implementation",
+      "governed_by": [
+        "UDQ-IMP-MAP-001",
+        "UDQ-IMP-PLAN-001",
+        "UDQ-AUD-SPEC-001"
+      ],
+      "semantic_tags": [
+        "governance",
+        "traceability",
+        "governance"
+      ],
+      "readiness_status": "CONTRACT_DEFINED",
+      "open_decisions": [],
+      "prohibited_conflations": [
+        "narrative requirement != executable contract",
+        "claimed readiness != evidence-backed readiness"
+      ],
+      "worked_example_ids": [],
+      "expected_invariant_ids": [],
+      "expected_proof_type": "module-boundary map, audit report",
+      "intended_module_area": "tools/traceability + registries/active + audit_reports/active",
+      "notes_for_implementation": "Package-governance artifact; keep implementation attached to active registries and generated reports."
+    }
+  ]
+}
