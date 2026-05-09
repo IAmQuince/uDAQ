@@ -10,3 +10,66 @@ build/
 *.zip
 *.log
 .DS_Store
+
+# --- Repo hygiene / security append ---
+
+# Secrets and local config
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+secrets/
+private/
+local_config.*
+config.local.*
+
+# Runtime databases and local state
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+runtime/
+state/
+sessions/
+instance/
+
+# Logs and diagnostics that may contain private paths or lab/network details
+*.log
+logs/
+diagnostics/
+support_bundles/
+crash_dumps/
+
+# Generated packages and archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+build/
+dist/
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Editor and OS clutter
+.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db

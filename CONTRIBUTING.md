@@ -1,42 +1,34 @@
-# Contributing to UniversalDAQ
+# Contributing
 
-## Purpose
-UniversalDAQ is still a bounded pre-production package, so contributions should favor clear delivered value, low churn, and strong automated proof. The current priority is the narrow real-device LabJack U6 slice plus the maintainability and safety fixes that support it.
+uDAQ is a device-agnostic data acquisition and hardware-control framework. Contributions should preserve universality, data integrity, graceful degradation, safe-state behavior, and clear diagnostics.
 
-## Working rules
-- Do not expand scope into new device families, streaming engines, deep historian work, remote/rules/sequences, or broad UI polish unless the active sprint explicitly says so.
-- Keep vendor specifics inside support packs and keep the universal core vendor-agnostic.
-- Prefer thin orchestration, typed models, and regression-backed changes over broad rewrites.
-- Do not remove public behavior or frozen interfaces without an ADR or explicit sprint decision.
+## Before opening an issue or pull request
 
-## Practical contributor flow
-1. Read `README.md`, `docs/handbook/START_HERE.md`, and `docs/handbook/QUICKSTART_CONTRIBUTOR.md`.
-2. Confirm the change fits the current sprint scope.
-3. Check the documentation impact map and identify the one authoritative status record you need to update.
-4. Follow the update order from `docs/active/UDQ-GOV-WI-001__Step_by_Step_Document_Reconciliation_and_Logging_Work_Instruction__r0__WIP.md` (`UDQ-GOV-WI-001`) and record any still-open items in `docs/active/UDQ-GOV-REG-003__Documentation_Update_Debt_Register__r3__WIP.md`.
-5. Update only the directly impacted docs, tests, and proof artifacts, and use `docs/active/UDQ-GOV-TPL-002__Documentation_Review_and_Outcome_Ledger_Template__r0__WIP.md` for the required review payload when a human pass is needed.
-6. Run `python -m tools.dev.run_local_gate --package-root .`.
-7. If the change touches the LabJack slice, also run `python -m tools.dev.run_labjack_u6_smoke --package-root .` in simulated mode and note whether a real-device check is still pending.
+- Do not post secrets, private lab configuration, device credentials, real historian files, private keys, or logs containing private network details.
+- Do not post exploit details publicly. Use the security process in `SECURITY.md`.
+- State the operating system, Python version, device/adapter, driver/library version, and whether hardware was connected.
 
-## Required update discipline
-For ordinary bug fixes or bounded features, update:
-- the code,
-- the directly affected tests,
-- the sprint/release summary,
-- and only the docs that actually changed meaning.
+## Development principles
 
-Do not treat every bounded code change as a trigger to touch broad governance surfaces. The automated validators and local gate remain required; the manual procedure is intentionally lighter for this sprint line.
+- Keep the core device-agnostic. Do not bake one vendor or board into the central architecture.
+- Preserve existing public APIs unless a breaking change is explicitly approved and documented.
+- Preserve existing features unless removal is explicitly requested.
+- Prefer adapter-based hardware support with graceful fallback when optional libraries are missing.
+- Treat data ordering, timestamps, historian writes, and exports as integrity-critical.
+- Treat outputs, actuation, shutdown, and disconnect handling as safety-critical.
+- Include diagnostics that help reproduce field failures without requiring private lab information.
 
-## Review payload
-A review package should show:
-- what changed,
-- why it changed,
-- what tests and proof artifacts were run,
-- whether the LabJack real-device smoke remains pending or was verified,
-- and what is intentionally deferred.
+## Pull request checklist
 
-## Controlled documentation references
-The controlled READMEs and handbook entrypoints remain part of the contributor path, but this sprint compresses the manual burden: keep the controlled readmes in sync with the active sprint summary, follow the update order, and treat the documentation impact map plus the required review payload as the minimum manual checklist rather than expanding broad governance edits by default.
+Before requesting review, confirm:
 
-## Deferred documentation handling
-When a bounded code change cannot immediately update every related controlled document, record the intentionally deferred docs in `docs/active/UDQ-GOV-REG-003__Documentation_Update_Debt_Register__r3__WIP.md` and note the review ledger entry or review ledger payload used to explain the deferral.
+- Imports and startup smoke tests pass.
+- The app or package still runs without optional hardware libraries installed.
+- Hardware-output changes define safe-state behavior.
+- Historian/export changes preserve timestamp truthfulness and data ordering.
+- No generated DBs, logs, local profiles, secrets, or private paths were committed.
+- README or docs were updated for user-visible behavior changes.
+
+## Testing
+
+Run the available smoke tests and any relevant adapter diagnostics. If hardware is not available, document that limitation and include simulated-mode results when possible.
