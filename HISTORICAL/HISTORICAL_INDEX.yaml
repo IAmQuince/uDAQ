@@ -1,0 +1,25 @@
+current_package_id: UDQ-PKG-20260515-HANDOFF-BASELINE-REFURBISHMENT-R01
+historical_root: HISTORICAL
+path_budget_policy: exact prior packages are retained as archives and indexed, not deeply extracted
+sections:
+  package_archives:
+    role: original uploaded zip archives retained for exact provenance and complete prior content
+  package_snapshot_indexes:
+    role: compact CSV/JSON indexes of package archive contents
+  package_snapshots:
+    role: explanation of archive-index snapshot strategy
+  superseded_docs:
+    role: selected documents moved out of ACTIVE or retained for direct review
+  superseded_audits:
+    role: selected previous audit evidence
+  superseded_registries:
+    role: previous registry archive notes
+  external_reference:
+    role: non-uDAQ reference package material
+  reconciliation_ledgers:
+    role: rationale for baseline, May reconciliation, and active/historical partitioning
+archives:
+  - 20260330_06_full-documentation-reconciliation-and-review-package-closeout.zip
+  - 20260330_10_controller-authorized-mapping-apply-dry-run-commit-boundary__original-upload.zip
+  - 20260507_controlled-mapping-apply-preflight-and-review-path__stale-identity-original-upload.zip
+  - 20260502_01_AISOP_SEED__reference.zip

@@ -1,0 +1,147 @@
+{
+  "package_id": "UDQ-PKG-20260515-02-MAPPING-R02",
+  "rows": [
+    {
+      "doc_id": "UDQ-README-ROOT-001",
+      "path": "README.md",
+      "authority_level": "PRIMARY",
+      "owner": "Core Architecture",
+      "status": "ACTIVE",
+      "revision": "r33",
+      "source_doc_ids": [
+        "UDQ-GOV-LOG-001",
+        "UDQ-IMP-PLAN-001",
+        "UDQ-GOV-POL-002",
+        "UDQ-GOV-REG-003"
+      ]
+    },
+    {
+      "doc_id": "UDQ-README-START-001",
+      "path": "docs/handbook/START_HERE.md",
+      "authority_level": "PRIMARY",
+      "owner": "Core Architecture",
+      "status": "ACTIVE",
+      "revision": "rSprint0",
+      "source_doc_ids": [
+        "UDQ-IMP-PLAN-001",
+        "UDQ-GOV-SOP-001",
+        "UDQ-GOV-POL-002"
+      ]
+    },
+    {
+      "doc_id": "UDQ-README-EXEC-001",
+      "path": "docs/release/EXEC_SUMMARY.md",
+      "authority_level": "DERIVED",
+      "owner": "Core Architecture",
+      "status": "ACTIVE",
+      "revision": "rSprint0",
+      "source_doc_ids": [
+        "UDQ-IMP-PLAN-001",
+        "UDQ-GOV-LOG-001",
+        "UDQ-REQ-MAT-001",
+        "UDQ-GOV-REG-003"
+      ]
+    },
+    {
+      "doc_id": "UDQ-README-SAVEPOINT-001",
+      "path": "docs/release/SAVEPOINT_SUMMARY.md",
+      "authority_level": "DERIVED",
+      "owner": "Core Architecture",
+      "status": "ACTIVE",
+      "revision": "rSprint0",
+      "source_doc_ids": [
+        "UDQ-IMP-PLAN-001",
+        "UDQ-GAP-RPT-001",
+        "UDQ-GOV-REG-003"
+      ]
+    },
+    {
+      "doc_id": "UDQ-README-API-001",
+      "path": "docs/handbook/PUBLIC_API_FREEZE.md",
+      "authority_level": "PRIMARY",
+      "owner": "Core Architecture",
+      "status": "ACTIVE",
+      "revision": "r0",
+      "source_doc_ids": [
+        "UDQ-IMP-PLAN-001",
+        "UDQ-GOV-WI-001"
+      ]
+    },
+    {
+      "doc_id": "UDQ-README-IMPL-001",
+      "path": "docs/handbook/IMPLEMENTATION_ENTRY.md",
+      "authority_level": "PRIMARY",
+      "owner": "Core Architecture",
+      "status": "ACTIVE",
+      "revision": "rSprint0",
+      "source_doc_ids": [
+        "UDQ-IMP-PLAN-001",
+        "UDQ-IMP-GUIDE-001",
+        "UDQ-GOV-SOP-001"
+      ]
+    },
+    {
+      "doc_id": "UDQ-README-NEXT-001",
+      "path": "docs/handbook/NEXT_ACTIONS.md",
+      "authority_level": "DERIVED",
+      "owner": "Core Architecture",
+      "status": "ACTIVE",
+      "revision": "rSprint0",
+      "source_doc_ids": [
+        "UDQ-IMP-PLAN-001",
+        "UDQ-GAP-RPT-001",
+        "UDQ-GOV-REG-003"
+      ]
+    },
+    {
+      "doc_id": "UDQ-README-TOOLS-001",
+      "path": "docs/handbook/TESTS_AND_TOOLS.md",
+      "authority_level": "PRIMARY",
+      "owner": "Core Architecture",
+      "status": "ACTIVE",
+      "revision": "rSprint0",
+      "source_doc_ids": [
+        "UDQ-GOV-SOP-001",
+        "UDQ-IMP-PLAN-001"
+      ]
+    },
+    {
+      "doc_id": "UDQ-README-AUDIT-001",
+      "path": "docs/handbook/AUDIT_AND_GOVERNANCE.md",
+      "authority_level": "PRIMARY",
+      "owner": "Core Architecture",
+      "status": "ACTIVE",
+      "revision": "rSprint0",
+      "source_doc_ids": [
+        "UDQ-GOV-SOP-001",
+        "UDQ-GOV-SPEC-003"
+      ]
+    },
+    {
+      "doc_id": "UDQ-README-HUMAN-001",
+      "path": "docs/review/HUMAN_PASS_CHECKLIST.md",
+      "authority_level": "DERIVED",
+      "owner": "Core Architecture",
+      "status": "ACTIVE",
+      "revision": "r1",
+      "source_doc_ids": [
+        "UDQ-GOV-SOP-001",
+        "UDQ-IMP-PLAN-001"
+      ]
+    },
+    {
+      "doc_id": "UDQ-README-RELNOTE-001",
+      "path": "docs/release/RELEASE_NOTES.md",
+      "authority_level": "DERIVED",
+      "owner": "Core Architecture",
+      "status": "ACTIVE",
+      "revision": "rSprint0",
+      "source_doc_ids": [
+        "UDQ-IMP-PLAN-001",
+        "UDQ-GOV-LOG-001",
+        "UDQ-GAP-RPT-001",
+        "UDQ-GOV-REG-003"
+      ]
+    }
+  ]
+}

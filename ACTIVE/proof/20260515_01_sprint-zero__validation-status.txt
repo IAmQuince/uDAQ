@@ -1,0 +1,10 @@
+validate_handoff_package: rc=0
+validate_readme_control: rc=0
+validate_document_completeness: rc=0
+validate_package_entry_surfaces: rc=0
+validate_document_classification: rc=0
+validate_document_debt: rc=0
+validate_active_lane_boundedness: rc=0
+validate_windows_path_budget: rc=0
+focused_mapping_boundary_pytest: rc=0
+post_clean_handoff_package: rc=0

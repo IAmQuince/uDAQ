@@ -1,0 +1,27 @@
+{
+  "package_id": "20260502_01_ai_sop_reference_package",
+  "version": "0.1.0",
+  "revision": "REV-001",
+  "status": "DRAFT-REFERENCE",
+  "created": "2026-05-02",
+  "purpose": "AI-assisted coding SOP reference package and structure example",
+  "required_root_files": [
+    "README_START_HERE.md",
+    "CHANGELOG.md",
+    "FEATURE_INVENTORY.md",
+    "ACCEPTANCE_TEST_PLAN.md",
+    "KNOWN_LIMITATIONS.md",
+    "WORKPLAN_CURRENT_RUN.md",
+    "PACKAGE_MANIFEST.md",
+    "REQUIREMENTS_TRACEABILITY_MATRIX.md"
+  ],
+  "required_directories": [
+    "docs",
+    "tools",
+    "tests",
+    "reports",
+    "src",
+    "requirements",
+    "config"
+  ]
+}

@@ -1,0 +1,23 @@
+package_id: UDQ-PKG-20260515-02-MAPPING-R02
+package_slug: mapping
+entries:
+  - role: active_start
+    path: README_START_HERE.md
+    entry_status: canonical
+    canonical: true
+  - role: active_manifest
+    path: PACKAGE_MANIFEST.md
+    entry_status: canonical
+    canonical: true
+  - role: active_review
+    path: docs/release/REVIEW_START_HERE__UDQ-PKG-20260515-02-MAPPING-R02__ACTIVE.md
+    entry_status: canonical
+    canonical: true
+  - role: active_handbook
+    path: docs/handbook/START_HERE.md
+    entry_status: canonical
+    canonical: true
+  - role: active_readme
+    path: README.md
+    entry_status: canonical
+    canonical: true

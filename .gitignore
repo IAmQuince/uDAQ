@@ -1,75 +1,37 @@
+# Python caches
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
 .pytest_cache/
-.mypy_cache/
 .ruff_cache/
-.venv/
-venv/
-dist/
-build/
-*.zip
-*.log
-.DS_Store
-
-# --- Repo hygiene / security append ---
-
-# Secrets and local config
-.env
-.env.*
-*.pem
-*.key
-*.crt
-*.csr
-*.p12
-*.pfx
-id_rsa
-id_rsa.*
-id_ed25519
-id_ed25519.*
-secrets/
-private/
-local_config.*
-config.local.*
-
-# Runtime databases and local state
-*.sqlite
-*.sqlite3
-*.db
-*.db-shm
-*.db-wal
-runtime/
-state/
-sessions/
-instance/
-
-# Logs and diagnostics that may contain private paths or lab/network details
-*.log
-logs/
-diagnostics/
-support_bundles/
-crash_dumps/
-
-# Generated packages and archives
-*.zip
-*.tar
-*.tar.gz
-*.7z
-*.rar
-build/
-dist/
-
-# Python caches and virtual environments
-__pycache__/
-*.py[cod]
-.pytest_cache/
 .mypy_cache/
-.ruff_cache/
+
+# Virtual environments
 .venv/
 venv/
 env/
 
-# Editor and OS clutter
-.vscode/settings.json
+# Local editor/system files
+.vscode/
 .idea/
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Runtime/generated diagnostics
+ACTIVE/diagnostics/*
+!ACTIVE/diagnostics/README.md
+
+# Generated local logs/reports if produced during field testing
+ACTIVE/audit_reports/testing/*.tmp
+ACTIVE/audit_reports/testing/*local*
+ACTIVE/proof/*local*
+
+# Build/dist outputs
+build/
+dist/
+*.egg-info/
+
+# Zips/packages generated from the repo
+*.zip

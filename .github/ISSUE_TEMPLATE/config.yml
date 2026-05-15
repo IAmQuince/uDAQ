@@ -1,5 +1,0 @@
-blank_issues_enabled: true
-contact_links:
-  - name: Security vulnerability
-    url: https://github.com/IAmQuince/uDAQ/security
-    about: Please report security vulnerabilities privately through the repository Security page when available. Do not open a public issue with exploit details.

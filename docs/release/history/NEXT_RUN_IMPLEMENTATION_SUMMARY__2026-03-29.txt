@@ -1,8 +1,0 @@
-2026-03-29 backend-shell boundary hardening summary
-
-1. Removed the visible shell direct dependency on optional device support-pack modules by refactoring the live runtime bridge onto the generic service registry seam.
-2. Added a generic visible-runtime specimen path so live-mode read/write posture can still be exercised when no support packs are loaded.
-3. Added runtime capability surveying so discovery, activation availability, and support-pack state can be reported without shell-local device logic.
-4. Re-labeled the current System mapping surface as draft/preview only so the shell no longer implies backend-applied mapping authority.
-5. Added invariant coverage blocking direct device SDK and optional support-pack imports in shell and application layers.
-6. Added a boundary smoke harness to emit a compact diagnostic line proving the generic baseline discovery and live runtime seam.

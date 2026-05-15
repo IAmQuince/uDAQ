@@ -1,0 +1,227 @@
+{
+  "archive": "20260502_01_AISOP_SEED__reference.zip",
+  "file_count": 44,
+  "document_like_count": 42,
+  "files": [
+    {
+      "path": "20260502_01_ai_sop_reference_package/ACCEPTANCE_TEST_PLAN.md",
+      "size": 2926,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/CHANGELOG.md",
+      "size": 1135,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/FEATURE_INVENTORY.md",
+      "size": 2361,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/KNOWN_LIMITATIONS.md",
+      "size": 1646,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/PACKAGE_MANIFEST.md",
+      "size": 5115,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/README_START_HERE.md",
+      "size": 2216,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/REQUIREMENTS_TRACEABILITY_MATRIX.md",
+      "size": 1437,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/WORKPLAN_CURRENT_RUN.md",
+      "size": 1658,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/config/package_metadata.json",
+      "size": 639,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/000_DOCUMENTATION_INDEX.md",
+      "size": 2646,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/000_USER_GUIDE_OVERVIEW.md",
+      "size": 4055,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/005_PRODUCT_REQUIREMENTS.md",
+      "size": 5600,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/010_WINDOWS_SOFTWARE_DOWNLOAD_AND_INSTALLATION_GUIDE.md",
+      "size": 25999,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/020_AI_COLLABORATION_OPERATING_INSTRUCTIONS.md",
+      "size": 12948,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/030_CONCEPT_DEVELOPMENT_AND_REQUIREMENTS_BRIEF.md",
+      "size": 14139,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/040_MONOLITHIC_PLANNING_DOCUMENT_SOP.md",
+      "size": 20287,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/050_MONOLITHIC_PROTOTYPE_CODE_SOP.md",
+      "size": 10766,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/055_MONOLITHIC_PROTOTYPE_CODE_EXAMPLE.md",
+      "size": 33936,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/060_MONOLITH_TO_PACKAGE_MIGRATION_SOP.md",
+      "size": 29121,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/070_ZIP_PACKAGE_REVIEW_AND_HANDOFF_SOP.md",
+      "size": 18854,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/170_COMPATIBILITY_LESSONS_LEARNED.md",
+      "size": 37610,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/180_HARDWARE_DAQ_CONTROL_INTERFACE_DOCTRINE.md",
+      "size": 36586,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/185_DAQ_CONTROL_CODE_PATTERNS_AND_THREADING.md",
+      "size": 65637,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/190_INLINE_QC_DEFECT_DETECTION_AND_ANALYSIS_DOCTRINE.md",
+      "size": 30206,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/195_QC_DEFECT_CODE_PATTERNS_AND_DATABASE_EXAMPLES.md",
+      "size": 61040,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/200_FILE_DOWNLOAD_INSTALLATION_AND_COMMAND_SHELL_GUIDE.md",
+      "size": 22673,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/205_PYTHON_LIBRARY_REFERENCE_AND_ENVIRONMENT_BUNDLE.md",
+      "size": 11016,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/210_RASPBERRY_PI_ARDUINO_ESP32_SETUP_AND_LIBRARY_GUIDE.md",
+      "size": 41695,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/220_PYGAME_SIMULATION_AND_EXPLORATION_GUIDE.md",
+      "size": 37259,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/240_MIDI_PYTHON_AND_COMPUTER_INSTRUMENT_CONTROL_GUIDE.md",
+      "size": 41852,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/250_LABJACK_U3_U6_LABJACKPYTHON_GUIDE.md",
+      "size": 27825,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/260_I2C_COMMUNICATION_GUIDE.md",
+      "size": 26687,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/270_PYDROID_ANDROID_PYTHON_AND_AI_CODING_WORKFLOW_GUIDE.md",
+      "size": 29329,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/280_NETWORKING_IP_ADDRESSES_COMMAND_LINE_FILE_TRANSFER_GUIDE.md",
+      "size": 15951,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/290_GUI_DEVELOPMENT_PLATFORM_AND_DESIGN_GUIDE.md",
+      "size": 28549,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/docs/999_SOURCE_CLEANUP_NOTES.md",
+      "size": 1291,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/reports/README.md",
+      "size": 389,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/reports/package_structure_audit_report.txt",
+      "size": 3691,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/reports/smoke_test_report.txt",
+      "size": 668,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/requirements/requirements_catalog.json",
+      "size": 5850,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/src/README.md",
+      "size": 624,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/tests/README.md",
+      "size": 415,
+      "is_document_like": true
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/tests/smoke_test.py",
+      "size": 3205,
+      "is_document_like": false
+    },
+    {
+      "path": "20260502_01_ai_sop_reference_package/tools/package_structure_audit.py",
+      "size": 7294,
+      "is_document_like": false
+    }
+  ]
+}

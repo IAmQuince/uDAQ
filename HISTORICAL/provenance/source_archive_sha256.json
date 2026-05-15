@@ -1,0 +1,11 @@
+{
+  "created": "2026-05-15",
+  "source_archives": {
+    "20260330_06_full-documentation-reconciliation-and-review-package-closeout.zip": "a61836c3ec1a719ab1b093048c87930039d1aefc234f589130557d8744159f8a",
+    "20260330_10_controller-authorized-mapping-apply-dry-run-commit-boundary__original-upload.zip": "862f44affc701da928a7299b7c94f2a3dc448b28d19dc890aaeb7aa7319a9bc7",
+    "20260507_controlled-mapping-apply-preflight-and-review-path__stale-identity-original-upload.zip": "1412e96f37fe24c993ff93127e466e235c1c6f326a4cf6a3f8e82158470b80fc",
+    "20260502_01_AISOP_SEED__reference.zip": "a7dc531f2e13a7eca7b2b6d3ef77baa0d63f88557f24ca368fd87fbb83d95c37"
+  },
+  "source_baseline": "/mnt/data/udaq_refurb_work/input/pkg10/20260330_10_controller-authorized-mapping-apply-dry-run-commit-boundary",
+  "note": "SHA-256 values are for original uploaded archives copied into HISTORICAL/package_archives."
+}

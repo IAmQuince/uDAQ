@@ -1,6 +1,0 @@
-finding_id,severity,domain,summary
-UDQ-CONS-001,PASS,active_archive,Active and archived controlled revisions are structurally separated.
-UDQ-CONS-002,PASS,semantic_closure,High-risk subsystem docs received targeted anti-conflation language.
-UDQ-CONS-003,PASS,contradictions,Material contradiction register items are resolved.
-UDQ-CONS-004,PASS,duplication,Major duplication clusters are classified and shadow definitions reduced.
-UDQ-CONS-005,WIP,implementation,No runnable implementation baseline exists yet; code remains intentionally gated.
