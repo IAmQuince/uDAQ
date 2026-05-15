@@ -1,0 +1,32 @@
+# Default: normalize text in repo, let Git manage checkout safely
+* text=auto
+
+# Source/config/docs should stay LF in the repository
+*.py     text eol=lf
+*.md     text eol=lf
+*.txt    text eol=lf
+*.json   text eol=lf
+*.jsonl  text eol=lf
+*.yaml   text eol=lf
+*.yml    text eol=lf
+*.toml   text eol=lf
+*.csv    text eol=lf
+*.html   text eol=lf
+*.css    text eol=lf
+*.js     text eol=lf
+
+# Windows launchers should be CRLF
+*.bat    text eol=crlf
+*.cmd    text eol=crlf
+*.ps1    text eol=crlf
+
+# Binary / packaged artifacts
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.pdf    binary
+*.zip    binary
+*.sqlite binary
+*.db     binary
