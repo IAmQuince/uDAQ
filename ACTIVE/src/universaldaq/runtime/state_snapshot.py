@@ -2,10 +2,8 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from .state import (
-    RuntimeStateSnapshot,
-    build_authoritative_runtime_snapshot as _build_authoritative_runtime_snapshot,
-)
+from .state import RuntimeStateSnapshot
+from .state import build_authoritative_runtime_snapshot as _build_authoritative_runtime_snapshot
 
 
 def get_authoritative_runtime_state_snapshot(*, package_root: Path | str | None = None) -> RuntimeStateSnapshot:
