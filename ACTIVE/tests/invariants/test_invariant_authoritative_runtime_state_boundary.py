@@ -2,7 +2,18 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import pytest
+
 from universaldaq.runtime import build_authoritative_runtime_snapshot
+
+TEST_DECLARATION = {
+    'test_id': 'UDQ-TST-INV-STATE-20260515-03',
+    'verifies_requirements': ['UDQ-REQ-ARCH-001', 'UDQ-REQ-DIAG-001'],
+    'checks_invariants': ['UDQ-INV-STATE-001', 'UDQ-INV-STATE-004'],
+    'worked_example_reference': None,
+    'expected_proof_output': 'authoritative runtime state boundary remains vendor-neutral and non-actuating',
+}
+pytestmark = pytest.mark.invariants
 
 
 def test_authoritative_runtime_state_has_no_vendor_or_write_path_imports() -> None:

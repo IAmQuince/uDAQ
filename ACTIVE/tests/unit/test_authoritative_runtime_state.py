@@ -3,6 +3,8 @@ from __future__ import annotations
 import inspect
 import json
 
+import pytest
+
 from universaldaq.common import as_event_time
 from universaldaq.mapping import build_demo_sandbox_state
 from universaldaq.runtime import (
@@ -22,6 +24,15 @@ from universaldaq.runtime import (
     SandboxMappingLifecycle,
     build_authoritative_runtime_snapshot,
 )
+
+TEST_DECLARATION = {
+    'test_id': 'UDQ-TST-UNIT-STATE-001',
+    'verifies_requirements': ['UDQ-REQ-ARCH-001', 'UDQ-REQ-DIAG-001'],
+    'checks_invariants': ['UDQ-INV-STATE-001', 'UDQ-INV-STATE-003'],
+    'worked_example_reference': None,
+    'expected_proof_output': 'authoritative runtime state snapshot serialization and authority separation',
+}
+pytestmark = pytest.mark.regression
 
 
 def _source(*, simulated: bool = False) -> RuntimeSourceIdentity:
