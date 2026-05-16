@@ -1,11 +1,11 @@
-# Known limitations — Sprint 1 mapping package
+# Known limitations — Sprint 2 runtime-state package
 
 Package ID: `UDQ-PKG-20260515-02-MAPPING-R02`
 
 ## Still deferred
 
 - Live mapping apply is not implemented.
-- Sandbox mappings are not promoted into authoritative runtime state.
+- Sandbox mappings are projected into authoritative runtime snapshots only as non-authoritative requested/review state.
 - Output authority and physical writes remain unavailable.
 - Modbus support remains a planned support-pack sprint.
 - Historian production storage and review remain planned work.
@@ -14,7 +14,11 @@ Package ID: `UDQ-PKG-20260515-02-MAPPING-R02`
 
 ## Current implemented boundary
 
-Mapping apply can mutate a sandbox store only. Rollback restores the sandbox hash, diff reports are generated, and automated testing evidence can be exported without hardware.
+Runtime-state snapshots are authoritative read/review projections. Mapping apply can mutate a sandbox store only. Rollback restores the sandbox hash, diff reports are generated, and automated testing evidence can be exported without hardware.
+
+## Accepted integration debt
+
+The meta controller decomposition check remains the only accepted non-blocking failure for this closeout. `src/universaldaq/app/controller.py` is still above the current threshold in `tests/meta/test_meta_controller_decomposition.py`; broad controller extraction is deferred to a bounded future decomposition pass.
 
 ## Testing caveat
 

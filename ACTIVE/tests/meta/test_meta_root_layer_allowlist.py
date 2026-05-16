@@ -9,8 +9,33 @@ pytestmark = pytest.mark.meta
 
 
 ALLOWED_ROOT_NAMES = {
-    '.github', '.gitignore', '.pre-commit-config.yaml', 'CODEOWNERS', 'CONTRIBUTING.md', 'README.md',
-    'audit_reports', 'docs', 'proof', 'pyproject.toml', 'registries', 'runtime', 'src', 'tests', 'tools',
+    '.github',
+    '.gitignore',
+    '.pre-commit-config.yaml',
+    'ACCEPTANCE_TEST_PLAN.md',
+    'audit_reports',
+    'CHANGELOG.md',
+    'CODEOWNERS',
+    'config',
+    'CONTRIBUTING.md',
+    'diagnostics',
+    'docs',
+    'FEATURE_INVENTORY.md',
+    'KNOWN_LIMITATIONS.md',
+    'PACKAGE_MANIFEST.md',
+    'proof',
+    'pyproject.toml',
+    'README.md',
+    'README_START_HERE.md',
+    'registries',
+    'REQUIREMENTS_TRACEABILITY_MATRIX.md',
+    'RUN_DIAGNOSTICS.bat',
+    'RUN_UDAQ.bat',
+    'runtime',
+    'src',
+    'tests',
+    'tools',
+    'WORKPLAN_CURRENT_RUN.md',
 }
 
 
