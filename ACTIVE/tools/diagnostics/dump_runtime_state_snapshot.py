@@ -9,10 +9,10 @@ import os
 import platform
 import subprocess
 import sys
-from datetime import datetime, timezone
+from collections.abc import Mapping
+from datetime import UTC, datetime
 from pathlib import Path
-from typing import Any, Mapping
-
+from typing import Any
 
 ARTIFACT_VERSION = 'udq.runtime_state_snapshot.diagnostic.v1'
 DEFAULT_PROVIDER_CANDIDATES: tuple[str, ...] = (
@@ -73,7 +73,7 @@ REQUIRED_FIELDS: tuple[str, ...] = (
 
 
 def _now_utc() -> datetime:
-    return datetime.now(timezone.utc)
+    return datetime.now(UTC)
 
 
 def _iso_utc(now: datetime) -> str:
