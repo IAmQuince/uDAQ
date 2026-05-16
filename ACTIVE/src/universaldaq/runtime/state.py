@@ -1,8 +1,9 @@
 from __future__ import annotations
 
+from collections.abc import Mapping, Sequence
 from dataclasses import dataclass, field
 from enum import StrEnum
-from typing import TYPE_CHECKING, Any, Mapping, Sequence
+from typing import TYPE_CHECKING, Any, Protocol, runtime_checkable
 
 from universaldaq.common import EventTime, as_event_time
 
@@ -11,6 +12,11 @@ if TYPE_CHECKING:
 
 
 RUNTIME_STATE_MODEL_VERSION = 'udq.runtime.state.v1'
+
+
+@runtime_checkable
+class _ToDict(Protocol):
+    def to_dict(self) -> dict[str, object]: ...
 
 
 class RuntimeTruthKind(StrEnum):
@@ -92,8 +98,8 @@ def _event_time(value: EventTime | int | None) -> EventTime | None:
 def _json_value(value: object) -> object:
     if isinstance(value, StrEnum):
         return value.value
-    if hasattr(value, 'to_dict') and callable(getattr(value, 'to_dict')):
-        return getattr(value, 'to_dict')()
+    if isinstance(value, _ToDict):
+        return value.to_dict()
     if isinstance(value, Mapping):
         return {str(key): _json_value(item) for key, item in sorted(value.items(), key=lambda row: str(row[0]))}
     if isinstance(value, tuple | list):

@@ -1,12 +1,13 @@
 from __future__ import annotations
 
-from dataclasses import asdict, dataclass, field, replace
-from enum import StrEnum
 import copy
 import hashlib
 import json
+from collections.abc import Iterable, Mapping
+from dataclasses import asdict, dataclass, field, replace
+from enum import StrEnum
 from pathlib import Path
-from typing import Any, Iterable, Mapping
+from typing import Any
 from uuid import uuid4
 
 from universaldaq.app.mapping_apply_preflight import (
@@ -52,7 +53,7 @@ class MappingBindingRecord:
         return asdict(self)
 
     @staticmethod
-    def from_dict(payload: Mapping[str, Any]) -> 'MappingBindingRecord':
+    def from_dict(payload: Mapping[str, Any]) -> MappingBindingRecord:
         return MappingBindingRecord(
             logical_id=str(payload.get('logical_id', '')),
             direction=str(payload.get('direction', '')),
@@ -109,7 +110,7 @@ class MappingSandboxState:
         }
 
     @staticmethod
-    def from_dict(payload: Mapping[str, Any]) -> 'MappingSandboxState':
+    def from_dict(payload: Mapping[str, Any]) -> MappingSandboxState:
         return MappingSandboxState(
             sandbox_id=str(payload.get('sandbox_id', 'mapping-sandbox')),
             device_identity_key=str(payload.get('device_identity_key', '')),
@@ -534,7 +535,8 @@ def build_demo_sandbox_state() -> MappingSandboxState:
     )
 
 
-def build_demo_apply_request(*, timestamp: EventTime = as_event_time(1001)) -> MappingApplyRequest:
+def build_demo_apply_request(*, timestamp: EventTime | None = None) -> MappingApplyRequest:
+    timestamp = as_event_time(1001) if timestamp is None else timestamp
     authoritative_rows = (
         {
             'logical_id': 'SIG-DEMO-TEMP',
