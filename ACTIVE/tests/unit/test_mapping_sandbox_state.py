@@ -9,7 +9,7 @@ def test_mapping_sandbox_state_hash_is_stable_for_same_payload() -> None:
     state_b = build_demo_sandbox_state()
 
     assert state_a.state_hash() == state_b.state_hash()
-    assert state_a.binding_by_logical_id()['SIG-DEMO-TEMP'].endpoint == 'AIN0'
+    assert state_a.binding_by_logical_id()['SIG-DEMO-TEMP'].endpoint == 'ANALOG_IN_0'
 
 
 def test_mapping_sandbox_store_snapshot_does_not_mutate_state() -> None:
