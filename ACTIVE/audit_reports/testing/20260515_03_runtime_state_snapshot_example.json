@@ -1,0 +1,53 @@
+{
+  "applied_mapping_count": 0,
+  "artifact_id": "udq-runtime-state-snapshot-20260515T000000Z",
+  "artifact_version": "udq.runtime_state_snapshot.diagnostic.v1",
+  "command_posture": "non-authoritative",
+  "degraded_count": 0,
+  "device_count": 0,
+  "generated_at_utc": "2026-05-15T00:00:00Z",
+  "git_branch": "cursor/20260515_03_state-diagnostics-codex53",
+  "git_commit": "EXAMPLE_ONLY",
+  "hardware_mutation_enabled": false,
+  "known_limitations": [
+    "Live mapping apply is not implemented in this diagnostic helper.",
+    "Hardware writes and physical output authority remain disabled.",
+    "Sandbox mapping state is non-authoritative and must not be interpreted as live state."
+  ],
+  "live_mapping_apply_enabled": false,
+  "mapping_count": 0,
+  "optional_dependency_status": {
+    "PySide6": "missing",
+    "pymodbus": "missing",
+    "pyqtgraph": "missing",
+    "universaldaq_arduino": "missing",
+    "universaldaq_labjack": "missing",
+    "universaldaq_rpi": "missing"
+  },
+  "package_root": "/workspace/ACTIVE",
+  "point_count": 0,
+  "proposal_mapping_count": 0,
+  "python_version": "3.12.3",
+  "runtime_state_api_available": false,
+  "runtime_state_model_version": null,
+  "safety_posture": "safe-readonly",
+  "sandbox_is_authoritative": false,
+  "sandbox_mapping_count": 0,
+  "signal_count": 0,
+  "snapshot_id": null,
+  "snapshot_timestamp": null,
+  "stale_count": 0,
+  "unavailable_count": 0,
+  "validation_summary": {
+    "missing_required_fields": [],
+    "required_fields_present": true,
+    "strict_fail_reasons": [],
+    "strict_mode": false,
+    "validation_passed": true
+  },
+  "variable_count": 0,
+  "warnings": [
+    "Authoritative runtime snapshot API is pending leader branch integration.",
+    "Diagnostic artifact is placeholder-only and does not claim live runtime authority."
+  ]
+}
