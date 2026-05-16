@@ -24,8 +24,8 @@ from .services import (
     load_session,
     save_session,
     state_hash,
-    validate_session_checkpoint,
     validate_checkpoint_payload,
+    validate_session_checkpoint,
     write_json,
 )
 

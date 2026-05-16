@@ -211,6 +211,10 @@ def _read_bool(payload: Mapping[str, object], *keys: str, default: bool = False)
 def _normalize_session_payload(payload: Mapping[str, object]) -> dict[str, object]:
     normalized = {str(key): value for key, value in payload.items()}
 
+    normalized.setdefault('session_model_version', payload.get('schema_version'))
+    normalized.setdefault('checkpoint_timestamp', payload.get('checkpoint_timestamp'))
+    normalized.setdefault('event_count', len(payload.get('event_log', ())) if isinstance(payload.get('event_log'), list | tuple) else 0)
+
     checkpoint = payload.get('checkpoint')
     if isinstance(checkpoint, Mapping):
         normalized.setdefault('checkpoint_id', checkpoint.get('checkpoint_id'))
@@ -220,8 +224,23 @@ def _normalize_session_payload(payload: Mapping[str, object]) -> dict[str, objec
 
     runtime_snapshot = payload.get('runtime_snapshot')
     if isinstance(runtime_snapshot, Mapping):
+        identity = runtime_snapshot.get('identity')
+        if isinstance(identity, Mapping):
+            normalized.setdefault('runtime_snapshot_id', identity.get('snapshot_id'))
+            normalized.setdefault('runtime_state_model_version', identity.get('model_version'))
         normalized.setdefault('runtime_snapshot_id', runtime_snapshot.get('snapshot_id'))
         normalized.setdefault('runtime_state_model_version', runtime_snapshot.get('model_version'))
+        for source_key, count_key in (
+            ('degraded_state', 'degraded_count'),
+            ('stale_state', 'stale_count'),
+            ('unavailable_state', 'unavailable_count'),
+        ):
+            state = runtime_snapshot.get(source_key)
+            if not isinstance(state, Mapping):
+                continue
+            value = state.get('value')
+            if isinstance(value, Mapping):
+                normalized.setdefault(count_key, value.get('count'))
 
     identity = payload.get('identity')
     if isinstance(identity, Mapping):
@@ -232,6 +251,11 @@ def _normalize_session_payload(payload: Mapping[str, object]) -> dict[str, objec
     warnings = payload.get('warnings')
     if isinstance(warnings, list | tuple):
         normalized.setdefault('warning_count', len(warnings))
+    safety = payload.get('safety')
+    if isinstance(safety, Mapping):
+        normalized.setdefault('replay_is_live', safety.get('replay_is_live'))
+        normalized.setdefault('hardware_mutation_enabled', safety.get('hardware_mutation_enabled'))
+        normalized.setdefault('live_mapping_apply_enabled', safety.get('live_mapping_apply_enabled'))
     normalized.setdefault('checkpoint_count', 1 if normalized.get('checkpoint_id') else 0)
     normalized.setdefault('event_count', _read_int(normalized, 'event_count', default=0))
     normalized.setdefault('warning_count', _read_int(normalized, 'warning_count', default=0))

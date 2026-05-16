@@ -17,7 +17,11 @@ from tests.session_contract_support import (
     to_dict,
     validate_checkpoint,
 )
-from universaldaq.runtime import RuntimeAvailability, RuntimeSignalState, build_authoritative_runtime_snapshot
+from universaldaq.runtime import (
+    RuntimeAvailability,
+    RuntimeSignalState,
+    build_authoritative_runtime_snapshot,
+)
 from universaldaq.session import SessionCheckpoint
 
 TEST_DECLARATION = {
