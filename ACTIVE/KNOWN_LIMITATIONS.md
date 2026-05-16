@@ -1,6 +1,6 @@
 # Known limitations — Sprint 2 runtime-state package
 
-Package ID: `UDQ-PKG-20260515-03-STATE-R01`
+Package ID: `UDQ-PKG-20260515-02-MAPPING-R02`
 
 ## Still deferred
 

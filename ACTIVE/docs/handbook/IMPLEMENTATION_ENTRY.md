@@ -9,7 +9,7 @@ Revision: r22
 Owner: Core Architecture  
 Authority: DERIVED  
 Source docs: UDQ-IMP-PLAN-001, UDQ-IMP-GUIDE-001, UDQ-GOV-SOP-001, UDQ-ROADMAP-SPEC-001  
-Package ID: `UDQ-PKG-20260515-03-STATE-R01`
+Package ID: `UDQ-PKG-20260515-02-MAPPING-R02`
 
 ## Current implementation baseline
 

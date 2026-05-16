@@ -7,7 +7,7 @@ Revision: r0
 Owner: Core Architecture / GPT-5.5 Integration
 Authority: DERIVED  
 Source docs: UDQ-HANDBOOK-NEXT-001, UDQ-ROADMAP-SPEC-001, UDQ-SPRINT-REG-001  
-Package ID: `UDQ-PKG-20260515-03-STATE-R01`
+Package ID: `UDQ-PKG-20260515-02-MAPPING-R02`
 
 ## Closeout status
 

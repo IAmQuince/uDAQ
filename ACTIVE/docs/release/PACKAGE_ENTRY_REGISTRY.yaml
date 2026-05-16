@@ -1,5 +1,5 @@
-package_id: UDQ-PKG-20260515-03-STATE-R01
-package_slug: 20260515_03_state
+package_id: UDQ-PKG-20260515-02-MAPPING-R02
+package_slug: mapping
 entries:
   - role: active_start
     path: README_START_HERE.md

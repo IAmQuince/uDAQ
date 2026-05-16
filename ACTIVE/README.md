@@ -10,7 +10,7 @@ Source docs: UDQ-GOV-LOG-001, UDQ-ARCH-NAR-001, UDQ-ARCH-NAR-002, UDQ-REQ-MAT-00
 
 ## Package identity
 
-- Package ID: `UDQ-PKG-20260515-03-STATE-R01`
+- Package ID: `UDQ-PKG-20260515-02-MAPPING-R02`
 - Package slug: `20260515_03_state`
 - Package date: `2026-05-15`
 - Run ID: `R01`

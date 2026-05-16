@@ -9,7 +9,7 @@ Revision: r1
 Owner: Core Architecture  
 Authority: PRIMARY  
 Source docs: UDQ-ROADMAP-SPEC-001, UDQ-SPRINT-SOP-001, UDQ-LIFECYCLE-SPEC-001, UDQ-EXP-SPEC-001  
-Package ID: `UDQ-PKG-20260515-03-STATE-R01`
+Package ID: `UDQ-PKG-20260515-02-MAPPING-R02`
 
 ## What this package is
 
