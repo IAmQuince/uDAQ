@@ -4,7 +4,20 @@ from dataclasses import replace
 
 from universaldaq.app import MappingApplyMode
 from universaldaq.common import as_event_time
-from universaldaq.mapping import MappingSandboxController, MappingSandboxStateStore, build_demo_apply_request, build_demo_sandbox_state
+from universaldaq.mapping import (
+    MappingSandboxController,
+    MappingSandboxStateStore,
+    build_demo_apply_request,
+    build_demo_sandbox_state,
+)
+
+TEST_DECLARATION = {
+    'test_id': 'UDQ-TST-MAPPING-SANDBOX-003',
+    'verifies_requirements': ['UDQ-REQ-ARCH-001', 'UDQ-REQ-QUAL-001'],
+    'checks_invariants': ['UDQ-INV-STATE-004'],
+    'worked_example_reference': None,
+    'expected_proof_output': 'sandbox apply boundary proof with live execution rejected',
+}
 
 
 def test_sandbox_apply_mutates_only_the_sandbox_store() -> None:

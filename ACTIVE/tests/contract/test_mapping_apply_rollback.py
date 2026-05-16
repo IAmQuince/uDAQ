@@ -1,7 +1,20 @@
 from __future__ import annotations
 
 from universaldaq.common import as_event_time
-from universaldaq.mapping import MappingSandboxController, MappingSandboxStateStore, build_demo_apply_request, build_demo_sandbox_state
+from universaldaq.mapping import (
+    MappingSandboxController,
+    MappingSandboxStateStore,
+    build_demo_apply_request,
+    build_demo_sandbox_state,
+)
+
+TEST_DECLARATION = {
+    'test_id': 'UDQ-TST-MAPPING-SANDBOX-004',
+    'verifies_requirements': ['UDQ-REQ-ARCH-001', 'UDQ-REQ-QUAL-001'],
+    'checks_invariants': ['UDQ-INV-STATE-004'],
+    'worked_example_reference': None,
+    'expected_proof_output': 'sandbox rollback restores original state hash without live execution',
+}
 
 
 def test_sandbox_rollback_restores_original_hash() -> None:

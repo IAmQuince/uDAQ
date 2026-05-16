@@ -517,7 +517,7 @@ def build_demo_sandbox_state() -> MappingSandboxState:
             MappingBindingRecord(
                 logical_id='SIG-DEMO-TEMP',
                 direction='device_input_to_internal_signal',
-                endpoint='ANALOG_IN_0',
+                endpoint='DEMO-IN-0',
                 display_name='demo_temperature_c',
                 units='C',
                 device_identity_key='DEMO-DEVICE-001',
@@ -525,7 +525,7 @@ def build_demo_sandbox_state() -> MappingSandboxState:
             MappingBindingRecord(
                 logical_id='SIG-DEMO-PRESSURE',
                 direction='device_input_to_internal_signal',
-                endpoint='ANALOG_IN_1',
+                endpoint='DEMO-IN-1',
                 display_name='demo_pressure_bar',
                 units='bar',
                 device_identity_key='DEMO-DEVICE-001',
@@ -536,12 +536,13 @@ def build_demo_sandbox_state() -> MappingSandboxState:
 
 
 def build_demo_apply_request(*, timestamp: EventTime | None = None) -> MappingApplyRequest:
-    timestamp = as_event_time(1001) if timestamp is None else timestamp
+    if timestamp is None:
+        timestamp = as_event_time(1001)
     authoritative_rows = (
         {
             'logical_id': 'SIG-DEMO-TEMP',
             'direction': 'device_input_to_internal_signal',
-            'source_endpoint': 'ANALOG_IN_0',
+            'source_endpoint': 'DEMO-IN-0',
             'destination_endpoint': '',
             'logical_display_name': 'demo_temperature_c',
             'engineering_units': 'C',
@@ -550,7 +551,7 @@ def build_demo_apply_request(*, timestamp: EventTime | None = None) -> MappingAp
         {
             'logical_id': 'SIG-DEMO-PRESSURE',
             'direction': 'device_input_to_internal_signal',
-            'source_endpoint': 'ANALOG_IN_1',
+            'source_endpoint': 'DEMO-IN-1',
             'destination_endpoint': '',
             'logical_display_name': 'demo_pressure_bar',
             'engineering_units': 'bar',
@@ -561,17 +562,17 @@ def build_demo_apply_request(*, timestamp: EventTime | None = None) -> MappingAp
         {
             'row_id': 'SIG-DEMO-TEMP',
             'direction': 'device_input_to_internal_signal',
-            'source_endpoint': 'ANALOG_IN_2',
+            'source_endpoint': 'DEMO-IN-2',
             'destination_endpoint': '',
             'internal_signal_name': 'demo_temperature_c',
             'engineering_units': 'C',
             'enabled': True,
-            'note': 'Move temperature demo signal to ANALOG_IN_2 in sandbox only.',
+            'note': 'Move temperature demo signal to DEMO-IN-2 in sandbox only.',
         },
         {
             'row_id': 'SIG-DEMO-PRESSURE',
             'direction': 'device_input_to_internal_signal',
-            'source_endpoint': 'ANALOG_IN_1',
+            'source_endpoint': 'DEMO-IN-1',
             'destination_endpoint': '',
             'internal_signal_name': 'demo_pressure_bar',
             'engineering_units': 'bar',
@@ -581,7 +582,7 @@ def build_demo_apply_request(*, timestamp: EventTime | None = None) -> MappingAp
         {
             'row_id': 'SIG-DEMO-FLOW',
             'direction': 'device_input_to_internal_signal',
-            'source_endpoint': 'ANALOG_IN_3',
+            'source_endpoint': 'DEMO-IN-3',
             'destination_endpoint': '',
             'internal_signal_name': 'demo_flow_slpm',
             'engineering_units': 'slpm',
@@ -597,7 +598,7 @@ def build_demo_apply_request(*, timestamp: EventTime | None = None) -> MappingAp
     )
     preflight = MappingPreflightValidator(
         known_signal_ids=('SIG-DEMO-TEMP', 'SIG-DEMO-PRESSURE', 'SIG-DEMO-FLOW'),
-        available_endpoints=('ANALOG_IN_0', 'ANALOG_IN_1', 'ANALOG_IN_2', 'ANALOG_IN_3'),
+        available_endpoints=('DEMO-IN-0', 'DEMO-IN-1', 'DEMO-IN-2', 'DEMO-IN-3'),
     ).validate(change_set)
     return prepare_mapping_apply_request(
         preflight_result=preflight,
