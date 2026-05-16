@@ -2,8 +2,6 @@ from __future__ import annotations
 
 import pytest
 
-from universaldaq.runtime import build_authoritative_runtime_snapshot
-
 from tests.session_contract_support import (
     accepted_session_api_names,
     append_checkpoint,
@@ -13,6 +11,7 @@ from tests.session_contract_support import (
     to_dict,
     validate_session,
 )
+from universaldaq.runtime import build_authoritative_runtime_snapshot
 
 TEST_DECLARATION = {
     'test_id': 'UDQ-TST-CON-SESSION-HELPER-001',

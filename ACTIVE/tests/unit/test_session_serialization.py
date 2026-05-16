@@ -4,13 +4,6 @@ import json
 
 import pytest
 
-from universaldaq.common import as_event_time
-from universaldaq.runtime import (
-    RuntimeAvailability,
-    RuntimeSignalState,
-    build_authoritative_runtime_snapshot,
-)
-
 from tests.session_contract_support import (
     append_checkpoint,
     canonical_json,
@@ -23,6 +16,12 @@ from tests.session_contract_support import (
     state_hash,
     to_dict,
     validate_checkpoint,
+)
+from universaldaq.common import as_event_time
+from universaldaq.runtime import (
+    RuntimeAvailability,
+    RuntimeSignalState,
+    build_authoritative_runtime_snapshot,
 )
 
 TEST_DECLARATION = {

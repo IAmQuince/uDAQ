@@ -2,12 +2,11 @@ from __future__ import annotations
 
 import importlib
 import json
-from collections.abc import Callable, Mapping
+from collections.abc import Mapping
 from pathlib import Path
 from typing import Any
 
 import pytest
-
 
 _PENDING_SESSION_API_REASON = (
     'pending durable session/checkpoint/replay API merge from GPT-5.5; '

@@ -1,10 +1,6 @@
 from __future__ import annotations
 
-from pathlib import Path
-
 import pytest
-
-from universaldaq.runtime import build_authoritative_runtime_snapshot
 
 from tests.conftest import PACKAGE_ROOT
 from tests.session_contract_support import (
@@ -14,6 +10,7 @@ from tests.session_contract_support import (
     create_session,
     to_dict,
 )
+from universaldaq.runtime import build_authoritative_runtime_snapshot
 
 TEST_DECLARATION = {
     'test_id': 'UDQ-TST-INV-SESSION-HELPER-001',
