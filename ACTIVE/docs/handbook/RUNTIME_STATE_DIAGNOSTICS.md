@@ -33,17 +33,19 @@ The JSON structure is deterministic by key and always contains required safety f
 - `live_mapping_apply_enabled: false`
 - `sandbox_is_authoritative: false`
 
-## Pending-authoritative API behavior
+## Authoritative API behavior
 
-Before GPT-5.5 runtime-state integration is merged, the tool emits an explicit placeholder artifact with:
-- `runtime_state_api_available: false`
-- warning text stating authoritative API integration is pending.
+After the `20260515_03_state` integration merge, the tool resolves the authoritative runtime-state API through `universaldaq.runtime.state_snapshot` and emits:
+- `runtime_state_api_available: true`
+- `hardware_mutation_enabled: false`
+- `live_mapping_apply_enabled: false`
+- `sandbox_is_authoritative: false`
 
-`--strict` converts that missing API condition into a non-zero exit code.
+`--strict` now passes when the authoritative API is present and those safety flags remain false.
 
-## Wiring after GPT-5.5 merge
+## Provider wiring
 
-When the authoritative runtime snapshot API is available, expose a callable provider that returns a mapping payload with runtime counts/posture fields and one of these references:
+The default provider candidates are:
 - `universaldaq.runtime.state_snapshot:get_authoritative_runtime_state_snapshot`
 - `universaldaq.runtime.state_snapshot:build_authoritative_runtime_state_snapshot`
 - `universaldaq.runtime.state_snapshot:get_runtime_state_snapshot`

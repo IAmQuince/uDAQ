@@ -2,12 +2,16 @@
 
 **Controlled release companion document**  
 ID: UDQ-REL-STATE-ACCEPT-20260515-03  
-Status: REVIEW  
+Status: CLOSED
 Revision: r0  
-Owner: GPT-5.4 Helper  
+Owner: Core Architecture / GPT-5.5 Integration
 Authority: DERIVED  
 Source docs: UDQ-HANDBOOK-NEXT-001, UDQ-ROADMAP-SPEC-001, UDQ-SPRINT-REG-001  
-Package ID: `UDQ-PKG-20260515-02-MAPPING-R02`
+Package ID: `UDQ-PKG-20260515-03-STATE-R01`
+
+## Closeout status
+
+The integrated `20260515_03_state` package is closed for merge/release handoff on branch `cursor/20260515_03_state-integration`. It merges the leader runtime-state spine, contract/governance helper coverage, and runtime-state diagnostic tooling without starting the next feature sprint.
 
 ## Sprint objective
 

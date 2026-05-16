@@ -5,15 +5,15 @@
 **Controlled document**  
 ID: UDQ-HANDBOOK-IMPLEMENTATION-ENTRY-001  
 Status: ACTIVE  
-Revision: r21  
+Revision: r22
 Owner: Core Architecture  
 Authority: DERIVED  
 Source docs: UDQ-IMP-PLAN-001, UDQ-IMP-GUIDE-001, UDQ-GOV-SOP-001, UDQ-ROADMAP-SPEC-001  
-Package ID: `UDQ-PKG-20260515-02-MAPPING-R02`
+Package ID: `UDQ-PKG-20260515-03-STATE-R01`
 
 ## Current implementation baseline
 
-The active implementation baseline is the Sprint 1 mapping package built on the prior save point and save-point reconciliation baseline rather than the earlier dry-run-only boundary.
+The active implementation baseline is the closed Sprint 2 runtime-state integration package built on the Sprint 1 mapping package and the prior save point / save-point reconciliation baseline rather than the earlier dry-run-only boundary.
 
 ## Phase guidance
 
@@ -32,6 +32,7 @@ These paths are relative to `ACTIVE/`.
 
 - Controller-authorized dry-run mapping apply commit is present and non-mutating.
 - Sandbox mapping mutation is now implemented for Sprint 1, but only inside the sandbox store.
+- Authoritative runtime-state snapshots are implemented for Sprint 2 through `RuntimeStateSnapshot` and compatibility API aliases.
 - Draft shell edits remain non-authoritative.
 - Live mapping apply remains deferred.
 - Hardware-specific support remains outside core architecture.
