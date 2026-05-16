@@ -9,6 +9,14 @@ from universaldaq.mapping import (
     export_mapping_diff_markdown,
 )
 
+TEST_DECLARATION = {
+    'test_id': 'UDQ-TST-MAPPING-SANDBOX-002',
+    'verifies_requirements': ['UDQ-REQ-ARCH-001', 'UDQ-REQ-QUAL-001'],
+    'checks_invariants': ['UDQ-INV-STATE-004'],
+    'worked_example_reference': None,
+    'expected_proof_output': 'sandbox diff report stays reviewable and explicitly non-live',
+}
+
 
 def test_mapping_sandbox_apply_generates_diff_without_live_execution() -> None:
     store = MappingSandboxStateStore(state=build_demo_sandbox_state())

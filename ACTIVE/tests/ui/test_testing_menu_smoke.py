@@ -2,6 +2,14 @@ from __future__ import annotations
 
 from universaldaq.ui.qt_shell import build_visible_shell_spec_for_demo
 
+TEST_DECLARATION = {
+    'test_id': 'UDQ-TST-MAPPING-SANDBOX-006',
+    'verifies_requirements': ['UDQ-REQ-ARCH-001', 'UDQ-REQ-DIAG-001'],
+    'checks_invariants': ['UDQ-INV-STATE-004'],
+    'worked_example_reference': None,
+    'expected_proof_output': 'visible shell exposes bounded testing menu actions without implying live authority',
+}
+
 
 def test_visible_shell_spec_exposes_testing_menu_actions() -> None:
     spec = build_visible_shell_spec_for_demo()

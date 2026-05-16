@@ -20,7 +20,7 @@ Source docs: UDQ-GOV-LOG-001, UDQ-ARCH-NAR-001, UDQ-ARCH-NAR-002, UDQ-REQ-MAT-00
 
 ## What this package is
 
-This Sprint 1 package implements sandbox-only mapping mutation proof while preserving the live hardware and output-authority boundaries.
+This Sprint 1 package implements sandbox-only mapping mutation proof while preserving the live hardware and output-authority boundaries on top of the save-point reconciliation baseline.
 
 ## What changed in this package
 
@@ -32,7 +32,7 @@ This Sprint 1 package implements sandbox-only mapping mutation proof while prese
 
 ## Current implementation boundary
 
-This package implements sandbox mutation only. It does not implement live mapping apply authority, physical output authority, Modbus support, historian production, or runtime logic deployment.
+This package implements sandbox mutation only. It does not implement live mapping apply authority, physical output authority, Modbus support, historian production, or runtime logic deployment; those capabilities are still intentionally deferred.
 
 ## Start here
 

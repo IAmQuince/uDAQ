@@ -9,7 +9,7 @@ entries:
     path: PACKAGE_MANIFEST.md
     entry_status: canonical
     canonical: true
-  - role: active_review
+  - role: review_entry
     path: docs/release/REVIEW_START_HERE__UDQ-PKG-20260515-02-MAPPING-R02__ACTIVE.md
     entry_status: canonical
     canonical: true

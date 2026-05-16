@@ -19,6 +19,8 @@ Package ID: `UDQ-PKG-20260515-02-MAPPING-R02`
 
 Sprint 1 now proves sandbox-only mapping apply, diff, rollback, and diagnostics. The next safe implementation move is the authoritative runtime state model so devices, points, mappings, signals, variables, logic, commands, and UI projections share one controlled truth boundary before live mutation is considered.
 
+This next step should preserve the recent reconciliation work: keep package-root/document alignment coherent while adding the runtime-state truth spine instead of opening a competing authority path.
+
 ## Required Sprint 2 boundaries
 
 - Define authoritative runtime state without granting live output authority.
@@ -40,4 +42,5 @@ Future work should modify `ACTIVE/` by default. `HISTORICAL/` should be updated 
 - Controller-authorized dry-run commit is implemented and non-mutating.
 - Sprint Zero roadmap and sprint register are implemented.
 - Sprint 1 sandbox mapping apply, rollback, diff, Testing menu, and diagnostic bundle are implemented.
+- Phase 3 remains the later durable session/checkpoint/replay spine; Sprint 2 should prepare that path without collapsing requested, applied, and observed runtime semantics.
 - Live hardware apply, runtime logic deployment, and hardware-in-loop verification remain deferred until prerequisite sprints are separately reviewed and tested.
