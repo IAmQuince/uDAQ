@@ -40,6 +40,7 @@ def test_checkpoint_tool_default_placeholder_without_api(monkeypatch) -> None:
     assert exit_code == 0
     assert payload['session_api_available'] is False
     assert payload['warnings']
+    assert payload['warning_count'] == len(payload['warnings'])
     for field in checkpoint_tool.REQUIRED_FIELDS:
         assert field in payload
     assert payload['replay_is_live'] is False
@@ -158,6 +159,7 @@ def test_checkpoint_tool_demo_mode_output_path_and_pretty_json(tmp_path: Path) -
     assert payload['replay_is_live'] is False
     assert payload['hardware_mutation_enabled'] is False
     assert payload['live_mapping_apply_enabled'] is False
+    assert payload['warning_count'] == len(payload['warnings'])
 
 
 def test_checkpoint_tool_does_not_import_optional_hardware_packages(monkeypatch) -> None:

@@ -313,7 +313,7 @@ def build_session_checkpoint_artifact(
         'live_mapping_apply_enabled': False,
         'checkpoint_count': _read_int(payload, 'checkpoint_count', default=0),
         'event_count': _read_int(payload, 'event_count', default=0),
-        'warning_count': _read_int(payload, 'warning_count', default=len(warnings)),
+        'warning_count': max(_read_int(payload, 'warning_count', default=0), len(warnings)),
         'degraded_count': _read_int(payload, 'degraded_count', default=0),
         'stale_count': _read_int(payload, 'stale_count', default=0),
         'unavailable_count': _read_int(payload, 'unavailable_count', default=0),
