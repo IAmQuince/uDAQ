@@ -1,0 +1,216 @@
+{
+  "timestamp": "2026-05-16T01:11:07Z",
+  "branch": "cursor/first-pass-status-229a",
+  "commit_hash": "ccbc650715c37e6d29dee4d64369cc7cde7fa7a9",
+  "repository_root": "/workspace",
+  "package_root": "/workspace/ACTIVE",
+  "active_directory_present": true,
+  "pyproject_location": "/workspace/ACTIVE/pyproject.toml",
+  "package": {
+    "project_name": "universaldaq",
+    "project_version": "0.1.0",
+    "package_id": "UDQ-PKG-20260515-02-MAPPING-R02",
+    "package_date": "2026-05-15",
+    "readme_revision": "r36",
+    "release_review_revision": "r1"
+  },
+  "python": {
+    "python_command_available": false,
+    "python3_version": "Python 3.12.3",
+    "note": "The command named python was not found on PATH; python3 was used for verification."
+  },
+  "install": {
+    "command": "python3 -m pip install -e \".[ui,dev]\"",
+    "cwd": "/workspace/ACTIVE",
+    "status": "pass",
+    "summary": "Editable install completed successfully with ui and dev extras."
+  },
+  "imports": {
+    "command": "python3 -c \"import universaldaq, universaldaq_labjack, universaldaq_arduino, universaldaq_rpi; print('imports-ok universaldaq support_packs')\"",
+    "status": "pass",
+    "summary": "Core and current support-pack packages imported successfully."
+  },
+  "command_results": [
+    {
+      "name": "shell_smoke",
+      "command": "python3 -m tools.dev.run_shell_smoke --package-root .",
+      "cwd": "/workspace/ACTIVE",
+      "status": "pass",
+      "summary": "profile=PROF-SMOKE page=review mode=live device_phase=live detected=4 command_allowed=False manifest=MAN-SMOKE-001"
+    },
+    {
+      "name": "labjack_u6_smoke_simulated",
+      "command": "python3 -m tools.dev.run_labjack_u6_smoke --package-root .",
+      "cwd": "/workspace/ACTIVE",
+      "status": "pass",
+      "summary": "hardware_mode=simulated active_adapter=LABJACK-U6-470001 phase=live projected_points=12 published_signals=3 variable_total=4"
+    },
+    {
+      "name": "focused_mapping_tests",
+      "command": "python3 -m pytest tests/unit/test_mapping_sandbox_state.py tests/unit/test_mapping_sandbox_diff.py tests/contract/test_mapping_apply_sandbox_boundary.py tests/contract/test_mapping_apply_rollback.py tests/contract/test_contract_mapping_apply_preflight_review_path.py tests/contract/test_contract_mapping_apply_dry_run_commit_boundary.py -q",
+      "cwd": "/workspace/ACTIVE",
+      "status": "pass",
+      "summary": "18 passed in 0.25s"
+    },
+    {
+      "name": "sprint_mapping_acceptance_diagnostics",
+      "command": "python3 -m tools.dev.run_sprint_diagnostics --package-root . --acceptance-only",
+      "cwd": "/workspace/ACTIVE",
+      "status": "pass",
+      "summary": "Sprint acceptance suite passed: smoke, sandbox demo, apply/rollback, diff report, and visible-shell wiring audit."
+    },
+    {
+      "name": "full_pytest",
+      "command": "python3 -m pytest -q",
+      "cwd": "/workspace/ACTIVE",
+      "status": "fail",
+      "summary": "9 failed, 266 passed in 30.43s"
+    },
+    {
+      "name": "meta_pytest",
+      "command": "python3 -m pytest tests/meta -q",
+      "cwd": "/workspace/ACTIVE",
+      "status": "fail",
+      "summary": "8 failed, 24 passed in 0.44s"
+    },
+    {
+      "name": "ruff_check",
+      "command": "python3 -m ruff check . --statistics",
+      "cwd": "/workspace/ACTIVE",
+      "status": "fail",
+      "summary": "518 errors; 388 fixable with --fix."
+    },
+    {
+      "name": "ruff_format_check",
+      "command": "python3 -m ruff format --check .",
+      "cwd": "/workspace/ACTIVE",
+      "status": "fail",
+      "summary": "416 files would be reformatted, 35 files already formatted."
+    },
+    {
+      "name": "mypy",
+      "command": "python3 -m mypy src tests tools",
+      "cwd": "/workspace/ACTIVE",
+      "status": "fail",
+      "summary": "1205 errors in 109 files across 451 checked source files."
+    },
+    {
+      "name": "aggregate_local_gate",
+      "command": "python3 -m tools.dev.run_local_gate --package-root .",
+      "cwd": "/workspace/ACTIVE",
+      "status": "fail",
+      "summary": "Stopped in tools.audit.run_master_audit because TEST_DECLARATION is missing in tests/contract/test_mapping_apply_rollback.py."
+    },
+    {
+      "name": "installed_console_script_without_pythonpath",
+      "command": "$HOME/.local/bin/udq-shell-smoke --package-root .",
+      "cwd": "/workspace/ACTIVE",
+      "status": "fail",
+      "summary": "ModuleNotFoundError: No module named 'tools'."
+    },
+    {
+      "name": "installed_console_script_with_pythonpath",
+      "command": "PYTHONPATH=. $HOME/.local/bin/udq-shell-smoke --package-root .",
+      "cwd": "/workspace/ACTIVE",
+      "status": "pass",
+      "summary": "Console entry succeeds when ACTIVE is on PYTHONPATH."
+    }
+  ],
+  "pytest_summary": {
+    "full": {
+      "passed": 266,
+      "failed": 9
+    },
+    "meta": {
+      "passed": 24,
+      "failed": 8
+    }
+  },
+  "failing_test_names": [
+    "tests/invariants/test_invariant_no_vendor_markers_in_core.py::test_universal_core_contains_no_vendor_markers_in_python_modules",
+    "tests/meta/test_meta_controller_decomposition.py::test_controller_concentration_reduced_and_handlers_exist",
+    "tests/meta/test_meta_documentation_impact_rules.py::test_documentation_impact_validator_passes",
+    "tests/meta/test_meta_invariant_references.py::test_all_referenced_invariants_exist",
+    "tests/meta/test_meta_no_archived_reference_ids.py::test_test_declarations_do_not_reference_archive_paths",
+    "tests/meta/test_meta_package_entry_surfaces.py::test_package_entry_assets_exist",
+    "tests/meta/test_meta_pass2_reviewer_guide_present.py::test_legacy_pass2_hardening_guide_is_retained_for_traceability",
+    "tests/meta/test_meta_requirement_references.py::test_all_referenced_requirements_exist",
+    "tests/meta/test_meta_root_layer_allowlist.py::test_root_layer_contains_only_allowed_front_door_entries"
+  ],
+  "ruff_summary": {
+    "total_errors": 518,
+    "fixable": 388,
+    "categories": {
+      "I001": 167,
+      "UP037": 97,
+      "E702": 62,
+      "UP035": 55,
+      "E402": 52,
+      "F401": 36,
+      "UP017": 18,
+      "B009": 8,
+      "UP006": 6,
+      "F841": 5,
+      "E401": 4,
+      "B008": 2,
+      "invalid-syntax": 1,
+      "B018": 1,
+      "B905": 1,
+      "F541": 1,
+      "F811": 1,
+      "F821": 1
+    }
+  },
+  "format_check_summary": {
+    "command": "python3 -m ruff format --check .",
+    "files_would_reformat": 416,
+    "files_already_formatted": 35
+  },
+  "mypy_summary": {
+    "total_errors": 1205,
+    "files_with_errors": 109,
+    "checked_source_files": 451,
+    "categories": {
+      "attr-defined": 354,
+      "index": 335,
+      "arg-type": 138,
+      "call-overload": 88,
+      "no-untyped-def": 85,
+      "union-attr": 70,
+      "operator": 30,
+      "no-any-return": 26,
+      "assignment": 26,
+      "dict-item": 12,
+      "var-annotated": 9,
+      "type-arg": 7,
+      "return-value": 5,
+      "list-item": 5,
+      "unused-ignore": 4,
+      "misc": 4,
+      "import-untyped": 3,
+      "has-type": 2,
+      "no-redef": 1,
+      "used-before-def": 1
+    }
+  },
+  "changed_files": [
+    "ACTIVE/docs/release/20260516_00_cursor-first-pass-status.md",
+    "ACTIVE/docs/release/20260516_00_next-sprint-recommendation.md",
+    "ACTIVE/audit_reports/active/20260516_00_cursor-first-pass-diagnostics.json"
+  ],
+  "recommended_next_sprint": [
+    "Phase 0: root/package reconciliation and contributor command clarity.",
+    "Phase 1: governance/meta-test closure before broad feature work.",
+    "Phase 2: lint, format, and type baseline debt registry.",
+    "Phase 3: controller-authorized mapping apply only after governance is green.",
+    "Phase 4: clarify Device Explorer, Signal Explorer, and Mapping UI boundaries.",
+    "Phase 5: degraded-condition simulation and replay coverage.",
+    "Phase 6: UI validation after headless/core stability."
+  ],
+  "assumptions_or_uncertainties": [
+    "No root or ACTIVE SECURITY.md was present; the active security baseline document was treated as the security authority for this pass.",
+    "Manual GUI launch was not performed because no UI code was changed and the requested verification path was command/package diagnostics.",
+    "Generated audit_reports/testing and proof journal changes were produced by diagnostics and are intentionally not part of this first-pass artifact set.",
+    "The missing pass2 hardening guide was not found under HISTORICAL by exact filename search."
+  ]
+}
