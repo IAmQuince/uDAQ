@@ -5,7 +5,12 @@ import json
 import pytest
 
 from universaldaq.runtime import build_authoritative_runtime_snapshot
-from universaldaq.session import DurableSessionService, SessionCheckpoint, canonical_json, state_hash
+from universaldaq.session import (
+    DurableSessionService,
+    SessionCheckpoint,
+    canonical_json,
+    state_hash,
+)
 
 TEST_DECLARATION = {
     'test_id': 'UDQ-TST-UNIT-SESSION-002',

@@ -5,7 +5,11 @@ import json
 import pytest
 
 from universaldaq.common import as_event_time
-from universaldaq.runtime import RuntimeAvailability, RuntimeSignalState, build_authoritative_runtime_snapshot
+from universaldaq.runtime import (
+    RuntimeAvailability,
+    RuntimeSignalState,
+    build_authoritative_runtime_snapshot,
+)
 from universaldaq.session import DurableSessionService, SessionMode
 
 TEST_DECLARATION = {

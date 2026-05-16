@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import hashlib
 import json
+from collections.abc import Mapping
 from pathlib import Path
-from typing import Mapping
 
 from universaldaq.common import EventTime, as_event_time
 from universaldaq.runtime import RuntimeStateSnapshot, build_authoritative_runtime_snapshot

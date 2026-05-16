@@ -1,8 +1,8 @@
 from __future__ import annotations
 
+from collections.abc import Mapping, Sequence
 from dataclasses import dataclass, field, replace
 from enum import StrEnum
-from typing import Any, Mapping
 
 from universaldaq.common import EventTime, as_event_time
 
@@ -38,14 +38,29 @@ def _json_value(value: object) -> object:
 def _event_time(value: object, *, default: int = 0) -> EventTime:
     if value is None:
         return as_event_time(default)
-    return as_event_time(int(value))
+    if isinstance(value, int | str):
+        return as_event_time(int(value))
+    raise TypeError('event time must be an integer-compatible value')
+
+
+def _payload_mapping(value: object, *, field_name: str) -> Mapping[str, object]:
+    if isinstance(value, Mapping):
+        return value
+    raise TypeError(f'{field_name} must be a mapping')
+
+
+def _payload_sequence(value: object, *, field_name: str) -> Sequence[object]:
+    if value is None:
+        return ()
+    if isinstance(value, list | tuple):
+        return value
+    raise TypeError(f'{field_name} must be a sequence')
 
 
 def _mapping_tuple(rows: object) -> tuple[dict[str, object], ...]:
     if rows is None:
         return ()
-    if not isinstance(rows, list | tuple):
-        raise TypeError('expected a sequence of mapping rows')
+    rows = _payload_sequence(rows, field_name='mapping rows')
     return tuple({str(key): _json_value(value) for key, value in dict(row).items()} for row in rows if isinstance(row, Mapping))
 
 
@@ -151,6 +166,10 @@ class SessionCheckpoint:
 
     @staticmethod
     def from_dict(payload: Mapping[str, object]) -> SessionCheckpoint:
+        runtime_snapshot = _payload_mapping(payload.get('runtime_snapshot', {}), field_name='runtime_snapshot')
+        warnings = _payload_sequence(payload.get('warnings', ()), field_name='warnings')
+        known_limitations = _payload_sequence(payload.get('known_limitations', ()), field_name='known_limitations')
+        safety_payload = payload.get('safety')
         return SessionCheckpoint(
             schema_version=str(payload.get('schema_version', SESSION_CHECKPOINT_SCHEMA_VERSION)),
             checkpoint_id=str(payload['checkpoint_id']),
@@ -161,12 +180,12 @@ class SessionCheckpoint:
             runtime_snapshot_model_version=None
             if payload.get('runtime_snapshot_model_version') in {None, ''}
             else str(payload.get('runtime_snapshot_model_version')),
-            runtime_snapshot=dict(payload.get('runtime_snapshot', {})),
+            runtime_snapshot={str(key): value for key, value in runtime_snapshot.items()},
             event_log=_mapping_tuple(payload.get('event_log', ())),
-            warnings=tuple(str(item) for item in payload.get('warnings', ())),
-            known_limitations=tuple(str(item) for item in payload.get('known_limitations', ())),
+            warnings=tuple(str(item) for item in warnings),
+            known_limitations=tuple(str(item) for item in known_limitations),
             safety=SessionSafetyPosture.from_dict(
-                payload.get('safety') if isinstance(payload.get('safety'), Mapping) else None
+                safety_payload if isinstance(safety_payload, Mapping) else None
             ),
         )
 
@@ -222,6 +241,11 @@ class DurableSession:
 
     @staticmethod
     def from_dict(payload: Mapping[str, object]) -> DurableSession:
+        operator_context = _payload_mapping(payload.get('operator_context', {}), field_name='operator_context')
+        checkpoint_rows = _payload_sequence(payload.get('checkpoints', ()), field_name='checkpoints')
+        warnings = _payload_sequence(payload.get('warnings', ()), field_name='warnings')
+        known_limitations = _payload_sequence(payload.get('known_limitations', ()), field_name='known_limitations')
+        safety_payload = payload.get('safety')
         return DurableSession(
             model_version=str(payload.get('model_version', SESSION_MODEL_VERSION)),
             session_id=str(payload['session_id']),
@@ -230,17 +254,17 @@ class DurableSession:
             source_package_id=str(payload.get('source_package_id', DEFAULT_SOURCE_PACKAGE_ID)),
             source_package_tag=None if payload.get('source_package_tag') in {None, ''} else str(payload.get('source_package_tag')),
             mode=SessionMode(str(payload.get('mode', SessionMode.REVIEW.value))),
-            operator_context=dict(payload.get('operator_context', {})),
+            operator_context={str(key): value for key, value in operator_context.items()},
             checkpoints=tuple(
                 SessionCheckpoint.from_dict(dict(item))
-                for item in payload.get('checkpoints', ())
+                for item in checkpoint_rows
                 if isinstance(item, Mapping)
             ),
             events=_mapping_tuple(payload.get('events', ())),
-            warnings=tuple(str(item) for item in payload.get('warnings', ())),
-            known_limitations=tuple(str(item) for item in payload.get('known_limitations', ())),
+            warnings=tuple(str(item) for item in warnings),
+            known_limitations=tuple(str(item) for item in known_limitations),
             safety=SessionSafetyPosture.from_dict(
-                payload.get('safety') if isinstance(payload.get('safety'), Mapping) else None
+                safety_payload if isinstance(safety_payload, Mapping) else None
             ),
         )
 
