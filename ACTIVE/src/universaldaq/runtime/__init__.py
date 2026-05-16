@@ -50,6 +50,9 @@ from .state import (
     RuntimeVariableState,
     SandboxMappingLifecycle,
     build_authoritative_runtime_snapshot,
+    build_runtime_state_snapshot,
+    get_authoritative_runtime_state_snapshot,
+    get_runtime_state_snapshot,
 )
 
 MODULE_DECLARATION = {
@@ -115,6 +118,9 @@ __all__ = [
     'SandboxMappingLifecycle',
     'VariableUpdateStats',
     'build_authoritative_runtime_snapshot',
+    'build_runtime_state_snapshot',
+    'get_authoritative_runtime_state_snapshot',
+    'get_runtime_state_snapshot',
     'reviewer_label_for_family',
     'state_family_for',
 ]

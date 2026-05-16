@@ -137,6 +137,8 @@ def _call_provider(provider: Any, package_root: Path) -> Mapping[str, object]:
         payload = provider()
     else:
         payload = provider(package_root=package_root)
+    if hasattr(payload, 'to_dict') and callable(payload.to_dict):
+        payload = payload.to_dict()
     if not isinstance(payload, Mapping):
         raise TypeError('runtime snapshot provider must return a mapping payload')
     return payload
@@ -209,6 +211,85 @@ def _read_bool(payload: Mapping[str, object], *keys: str, default: bool = False)
     return default
 
 
+def _truth_count(payload: Mapping[str, object], key: str) -> int:
+    truth = payload.get(key)
+    if not isinstance(truth, Mapping):
+        return 0
+    value = truth.get('value')
+    if not isinstance(value, Mapping):
+        return 0
+    count = value.get('count')
+    if isinstance(count, int) and not isinstance(count, bool):
+        return count
+    return 0
+
+
+def _normalize_runtime_snapshot_payload(payload: Mapping[str, object]) -> dict[str, object]:
+    normalized = {str(key): value for key, value in payload.items()}
+    identity = payload.get('identity')
+    if isinstance(identity, Mapping):
+        normalized.setdefault('model_version', identity.get('model_version'))
+        normalized.setdefault('snapshot_id', identity.get('snapshot_id'))
+        normalized.setdefault('snapshot_timestamp', identity.get('timestamp'))
+
+    devices = payload.get('devices')
+    points = payload.get('points')
+    signals = payload.get('signals')
+    variables = payload.get('variables')
+    mappings = payload.get('mappings')
+    if isinstance(devices, list | tuple):
+        normalized.setdefault('device_count', len(devices))
+    if isinstance(points, list | tuple):
+        normalized.setdefault('point_count', len(points))
+    if isinstance(signals, list | tuple):
+        normalized.setdefault('signal_count', len(signals))
+    if isinstance(variables, list | tuple):
+        normalized.setdefault('variable_count', len(variables))
+    if isinstance(mappings, list | tuple):
+        normalized.setdefault('mapping_count', len(mappings))
+        normalized.setdefault(
+            'sandbox_mapping_count',
+            sum(1 for item in mappings if isinstance(item, Mapping) and item.get('authority_zone') == 'sandbox'),
+        )
+        normalized.setdefault(
+            'proposal_mapping_count',
+            sum(
+                1
+                for item in mappings
+                if isinstance(item, Mapping)
+                and item.get('lifecycle') in {'draft', 'proposal', 'preflight', 'review', 'prepared-request', 'diagnostic'}
+            ),
+        )
+        normalized.setdefault(
+            'applied_mapping_count',
+            sum(1 for item in mappings if isinstance(item, Mapping) and item.get('authoritative_applied') is True),
+        )
+        normalized.setdefault(
+            'sandbox_is_authoritative',
+            any(
+                isinstance(item, Mapping)
+                and item.get('authority_zone') == 'sandbox'
+                and item.get('authoritative_applied') is True
+                for item in mappings
+            ),
+        )
+
+    normalized.setdefault('stale_count', _truth_count(payload, 'stale_state'))
+    normalized.setdefault('degraded_count', _truth_count(payload, 'degraded_state'))
+    normalized.setdefault('unavailable_count', _truth_count(payload, 'unavailable_state'))
+
+    command_posture = payload.get('command_posture')
+    if isinstance(command_posture, Mapping):
+        normalized['command_posture'] = command_posture.get('summary') or command_posture.get('posture_id')
+        normalized['hardware_mutation_enabled'] = bool(command_posture.get('authority_enabled'))
+    safety_posture = payload.get('safety_posture')
+    if isinstance(safety_posture, Mapping):
+        normalized['safety_posture'] = safety_posture.get('summary') or safety_posture.get('posture_id')
+    normalized.setdefault('live_mapping_apply_enabled', False)
+    normalized.setdefault('sandbox_is_authoritative', False)
+    return normalized
+
+
 def build_runtime_state_snapshot_artifact(
     *,
     package_root: Path,
@@ -233,7 +314,7 @@ def build_runtime_state_snapshot_artifact(
     if demo:
         warnings.append('Demo mode enabled; values remain non-authoritative diagnostic placeholders.')
 
-    payload = {} if snapshot_payload is None else dict(snapshot_payload)
+    payload = {} if snapshot_payload is None else _normalize_runtime_snapshot_payload(snapshot_payload)
     artifact: dict[str, object] = {
         'artifact_id': artifact_id,
         'artifact_version': ARTIFACT_VERSION,

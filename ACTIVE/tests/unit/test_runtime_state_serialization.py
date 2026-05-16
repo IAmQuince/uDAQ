@@ -27,7 +27,7 @@ def test_runtime_state_serialization_survives_unknown_and_degraded_values() -> N
     snapshot = materialize_runtime_state_snapshot(build_degraded_runtime_state_payload())
     serialized = canonical_runtime_state_json(snapshot)
 
-    assert '"freshness_state":"stale"' in serialized
-    assert '"freshness_state":"unknown"' in serialized
-    assert '"availability_state":"recovering"' in serialized
-    assert '"state":"degraded"' in serialized
+    assert '"availability":"stale"' in serialized
+    assert '"availability":"unknown"' in serialized
+    assert '"posture":"degraded"' in serialized
+    assert '"status":"degraded"' in serialized

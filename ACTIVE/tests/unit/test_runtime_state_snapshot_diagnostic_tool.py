@@ -26,27 +26,27 @@ def _run_tool(*args: str) -> subprocess.CompletedProcess[str]:
     )
 
 
-def test_runtime_snapshot_tool_emits_required_fields_without_runtime_api() -> None:
+def test_runtime_snapshot_tool_emits_required_fields_with_runtime_api() -> None:
     result = _run_tool('--package-root', str(PACKAGE_ROOT), '--pretty')
     assert result.returncode == 0, result.stdout + result.stderr
     payload = json.loads(result.stdout)
 
     for field in snapshot_tool.REQUIRED_FIELDS:
         assert field in payload
-    assert payload['runtime_state_api_available'] is False
+    assert payload['runtime_state_api_available'] is True
     assert payload['hardware_mutation_enabled'] is False
     assert payload['live_mapping_apply_enabled'] is False
     assert payload['sandbox_is_authoritative'] is False
 
 
-def test_runtime_snapshot_tool_strict_mode_fails_without_runtime_api() -> None:
+def test_runtime_snapshot_tool_strict_mode_passes_with_runtime_api() -> None:
     result = _run_tool('--package-root', str(PACKAGE_ROOT), '--strict')
     payload = json.loads(result.stdout)
 
-    assert result.returncode == 2
-    assert payload['runtime_state_api_available'] is False
+    assert result.returncode == 0
+    assert payload['runtime_state_api_available'] is True
     assert payload['validation_summary']['strict_mode'] is True
-    assert payload['validation_summary']['strict_fail_reasons']
+    assert payload['validation_summary']['strict_fail_reasons'] == []
 
 
 def test_runtime_snapshot_tool_output_path_and_pretty_json(tmp_path: Path) -> None:

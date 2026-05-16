@@ -679,6 +679,11 @@ def build_authoritative_runtime_snapshot(
     )
 
 
+build_runtime_state_snapshot = build_authoritative_runtime_snapshot
+get_authoritative_runtime_state_snapshot = build_authoritative_runtime_snapshot
+get_runtime_state_snapshot = build_authoritative_runtime_snapshot
+
+
 @dataclass(frozen=True, slots=True)
 class RuntimeStateService:
     def build_snapshot(

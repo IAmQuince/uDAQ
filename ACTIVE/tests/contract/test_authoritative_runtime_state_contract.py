@@ -23,10 +23,10 @@ def test_runtime_state_snapshot_exposes_model_version_identity_and_empty_state_c
     snapshot = materialize_runtime_state_snapshot(build_empty_runtime_state_payload())
     payload = runtime_state_to_dict(snapshot)
 
-    assert payload['model_version'] == 'udq.runtime_state.v1'
-    assert payload['snapshot_id'] == 'RTSNAP-EMPTY-001'
-    assert payload['captured_at'] == 1000
-    assert payload['runtime_mode'] == 'simulated'
+    assert payload['identity']['model_version'] == 'udq.runtime.state.v1'
+    assert payload['identity']['snapshot_id'] == 'RTSNAP-EMPTY-001'
+    assert payload['identity']['timestamp'] == 1000
+    assert payload['simulated_state']['status'] == 'simulated'
     assert payload['devices'] == []
     assert payload['points'] == []
     assert payload['signals'] == []
@@ -50,10 +50,10 @@ def test_runtime_state_snapshot_makes_simulated_unavailable_recovering_and_stale
     snapshot = materialize_runtime_state_snapshot(build_degraded_runtime_state_payload())
     payload = runtime_state_to_dict(snapshot)
 
-    availability_states = {device['availability_state'] for device in payload['devices']}
-    assert {'simulated', 'unavailable', 'recovering'}.issubset(availability_states)
-    freshness_states = {signal['freshness_state'] for signal in payload['signals']}
-    assert 'stale' in freshness_states
+    availability_states = {device['posture'] for device in payload['devices']}
+    assert {'simulated', 'unavailable', 'degraded'}.issubset(availability_states)
+    freshness_states = {signal['availability'] for signal in payload['signals']}
+    assert {'stale', 'unknown'}.issubset(freshness_states)
     assert 'unknown' in freshness_states
 
 
@@ -61,15 +61,15 @@ def test_runtime_state_snapshot_preserves_sandbox_boundary_and_non_authoritative
     snapshot = materialize_runtime_state_snapshot(build_degraded_runtime_state_payload())
     payload = runtime_state_to_dict(snapshot)
 
-    draft_mapping = payload['mappings']['drafts'][0]
-    applied_mapping = payload['mappings']['applied'][0]
-    assert draft_mapping['posture'] == 'sandbox-only'
-    assert draft_mapping['authoritative_applied'] is False
+    sandbox_mapping = next(item for item in payload['mappings'] if item['authority_zone'] == 'sandbox')
+    applied_mapping = next(item for item in payload['mappings'] if item['authority_zone'] == 'authoritative')
+    assert sandbox_mapping['lifecycle'] == 'preflight'
+    assert sandbox_mapping['authoritative_applied'] is False
     assert applied_mapping['authoritative_applied'] is True
 
-    assert payload['command_posture']['hardware_write_authorized'] is False
-    assert payload['safety_posture']['hardware_write_authorized'] is False
-    assert payload['logic_posture']['deployment_state'] == 'draft_only'
+    assert payload['command_posture']['authority_enabled'] is False
+    assert payload['safety_posture']['authority_enabled'] is False
+    assert payload['logic_posture']['authority_enabled'] is False
 
 
 def test_runtime_state_snapshot_handles_near_simultaneous_device_and_signal_degradation() -> None:
@@ -79,12 +79,12 @@ def test_runtime_state_snapshot_handles_near_simultaneous_device_and_signal_degr
     degraded_device_ids = {
         device['device_id']
         for device in payload['devices']
-        if device['availability_state'] in {'unavailable', 'recovering'}
+        if device['posture'] in {'unavailable', 'degraded'}
     }
     degraded_signal_ids = {
         signal['signal_id']
         for signal in payload['signals']
-        if signal['freshness_state'] in {'stale', 'unknown'}
+        if signal['availability'] in {'stale', 'unknown'}
     }
 
     assert degraded_device_ids == {'DEV-REAL-001', 'DEV-REAL-002'}

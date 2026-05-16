@@ -40,7 +40,10 @@ def test_authoritative_runtime_snapshot_contract_keeps_sandbox_mappings_non_auth
     snapshot = materialize_runtime_state_snapshot(build_degraded_runtime_state_payload())
     payload = runtime_state_to_dict(snapshot)
 
-    assert payload['mappings']['drafts'][0]['posture'] == 'sandbox-only'
-    assert payload['mappings']['drafts'][0]['authoritative_applied'] is False
-    assert payload['mappings']['applied'][0]['authoritative_applied'] is True
-    assert payload['command_posture']['hardware_write_authorized'] is False
+    sandbox_mapping = next(item for item in payload['mappings'] if item['authority_zone'] == 'sandbox')
+    applied_mapping = next(item for item in payload['mappings'] if item['authority_zone'] == 'authoritative')
+
+    assert sandbox_mapping['lifecycle'] == 'preflight'
+    assert sandbox_mapping['authoritative_applied'] is False
+    assert applied_mapping['authoritative_applied'] is True
+    assert payload['command_posture']['authority_enabled'] is False
