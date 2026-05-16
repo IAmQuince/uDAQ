@@ -187,3 +187,93 @@ class DurableSessionService:
             replay_id=replay_id,
             created_at=created_at,
         )
+
+
+def create_session(
+    *,
+    session_id: str = 'SES-DIAGNOSTIC-001',
+    created_at: EventTime | int = 0,
+    mode: SessionMode = SessionMode.DIAGNOSTIC,
+    source_package_id: str = DEFAULT_SOURCE_PACKAGE_ID,
+    source_package_tag: str | None = DEFAULT_SOURCE_PACKAGE_ID,
+    operator_context: Mapping[str, object] | None = None,
+) -> DurableSession:
+    return DurableSessionService().create_session(
+        session_id=session_id,
+        created_at=created_at,
+        mode=mode,
+        source_package_id=source_package_id,
+        source_package_tag=source_package_tag,
+        operator_context=operator_context,
+    )
+
+
+def build_session_checkpoint(
+    *,
+    session: DurableSession | None = None,
+    checkpoint_id: str = 'CHK-DIAGNOSTIC-001',
+    timestamp: EventTime | int = 0,
+    runtime_snapshot: RuntimeStateSnapshot | Mapping[str, object] | None = None,
+    package_root: Path | str | None = None,
+) -> SessionCheckpoint:
+    _ = package_root
+    service = DurableSessionService()
+    resolved_session = session or service.create_session(session_id='SES-DIAGNOSTIC-001', created_at=timestamp)
+    return service.create_checkpoint(
+        session=resolved_session,
+        checkpoint_id=checkpoint_id,
+        timestamp=timestamp,
+        runtime_snapshot=runtime_snapshot,
+    )
+
+
+def create_checkpoint_from_runtime_state(
+    *,
+    session: DurableSession | None = None,
+    checkpoint_id: str = 'CHK-DIAGNOSTIC-001',
+    timestamp: EventTime | int = 0,
+    runtime_snapshot: RuntimeStateSnapshot | Mapping[str, object] | None = None,
+    package_root: Path | str | None = None,
+) -> SessionCheckpoint:
+    return build_session_checkpoint(
+        session=session,
+        checkpoint_id=checkpoint_id,
+        timestamp=timestamp,
+        runtime_snapshot=runtime_snapshot,
+        package_root=package_root,
+    )
+
+
+def get_current_session_checkpoint(*, package_root: Path | str | None = None) -> SessionCheckpoint:
+    return build_session_checkpoint(package_root=package_root)
+
+
+def build_replay_from_checkpoint(
+    *,
+    session: DurableSession | None = None,
+    checkpoint: SessionCheckpoint,
+    replay_id: str = 'REPLAY-DIAGNOSTIC-001',
+    created_at: EventTime | int = 0,
+) -> ReplayView:
+    service = DurableSessionService()
+    resolved_session = session or service.create_session(session_id=checkpoint.session_id, created_at=checkpoint.checkpoint_timestamp)
+    return service.build_replay_view(
+        session=resolved_session,
+        checkpoint=checkpoint,
+        replay_id=replay_id,
+        created_at=created_at,
+    )
+
+
+def save_session(*, session: DurableSession, path: Path) -> Path:
+    return DurableSessionService().save_session(session=session, path=path)
+
+
+def load_session(*, path: Path) -> DurableSession:
+    return DurableSessionService().load_session(path=path)
+
+
+def validate_session_checkpoint(checkpoint: SessionCheckpoint | Mapping[str, object]) -> SessionValidationResult:
+    if isinstance(checkpoint, SessionCheckpoint):
+        return DurableSessionService().validate_checkpoint(checkpoint)
+    return validate_checkpoint_payload(checkpoint)

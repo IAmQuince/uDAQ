@@ -15,8 +15,16 @@ from .models import (
 )
 from .services import (
     DurableSessionService,
+    build_replay_from_checkpoint,
+    build_session_checkpoint,
     canonical_json,
+    create_checkpoint_from_runtime_state,
+    create_session,
+    get_current_session_checkpoint,
+    load_session,
+    save_session,
     state_hash,
+    validate_session_checkpoint,
     validate_checkpoint_payload,
     write_json,
 )
@@ -52,8 +60,16 @@ __all__ = [
     'SessionMode',
     'SessionSafetyPosture',
     'SessionValidationResult',
+    'build_replay_from_checkpoint',
+    'build_session_checkpoint',
     'canonical_json',
+    'create_checkpoint_from_runtime_state',
+    'create_session',
+    'get_current_session_checkpoint',
+    'load_session',
+    'save_session',
     'state_hash',
+    'validate_session_checkpoint',
     'validate_checkpoint_payload',
     'write_json',
 ]

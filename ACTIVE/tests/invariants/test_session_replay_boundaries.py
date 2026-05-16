@@ -3,8 +3,14 @@ from __future__ import annotations
 import pytest
 
 from tests.conftest import PACKAGE_ROOT
+from tests.session_contract_support import (
+    append_checkpoint,
+    build_replay_from_checkpoint,
+    create_checkpoint,
+    create_session,
+    to_dict,
+)
 from universaldaq.runtime import build_authoritative_runtime_snapshot
-from universaldaq.session import DurableSessionService
 
 TEST_DECLARATION = {
     'test_id': 'UDQ-TST-INV-SESSION-001',
@@ -17,26 +23,27 @@ pytestmark = pytest.mark.invariants
 
 
 def test_replay_view_is_never_live_or_write_authoritative() -> None:
-    service = DurableSessionService()
-    session = service.create_session(session_id='SES-REPLAY-BOUNDARY-001', created_at=600)
-    checkpoint = service.create_checkpoint(
+    session = create_session(session_id='SES-REPLAY-BOUNDARY-001', created_at=600)
+    checkpoint = create_checkpoint(
         session=session,
         checkpoint_id='CHK-REPLAY-BOUNDARY-001',
         timestamp=601,
         runtime_snapshot=build_authoritative_runtime_snapshot(timestamp=601),
     )
-    replay = service.build_replay_view(
+    session = append_checkpoint(session=session, checkpoint=checkpoint)
+    replay = build_replay_from_checkpoint(
         session=session,
         checkpoint=checkpoint,
         replay_id='REPLAY-BOUNDARY-001',
         created_at=602,
     )
-    payload = replay.to_dict()
+    payload = to_dict(replay)
 
     assert payload['replay_is_live'] is False
     assert payload['safety']['hardware_mutation_enabled'] is False
     assert payload['safety']['live_mapping_apply_enabled'] is False
     assert payload['safety']['production_historian_enabled'] is False
+    assert payload['runtime_snapshot']['observed_state']['truth_kind'] == 'observed'
 
 
 def test_session_package_does_not_import_hardware_support_packs_or_write_paths() -> None:

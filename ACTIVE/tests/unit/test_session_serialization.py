@@ -4,13 +4,21 @@ import json
 
 import pytest
 
-from universaldaq.runtime import build_authoritative_runtime_snapshot
-from universaldaq.session import (
-    DurableSessionService,
-    SessionCheckpoint,
+from tests.session_contract_support import (
+    append_checkpoint,
     canonical_json,
+    create_checkpoint,
+    create_session,
+    load_checkpoint,
+    load_session,
+    save_checkpoint,
+    save_session,
     state_hash,
+    to_dict,
+    validate_checkpoint,
 )
+from universaldaq.runtime import RuntimeAvailability, RuntimeSignalState, build_authoritative_runtime_snapshot
+from universaldaq.session import SessionCheckpoint
 
 TEST_DECLARATION = {
     'test_id': 'UDQ-TST-UNIT-SESSION-002',
@@ -23,28 +31,26 @@ pytestmark = pytest.mark.regression
 
 
 def test_session_save_load_round_trip_is_deterministic(tmp_path) -> None:
-    service = DurableSessionService()
-    session = service.create_session(session_id='SES-ROUNDTRIP-001', created_at=400)
-    checkpoint = service.create_checkpoint(
+    session = create_session(session_id='SES-ROUNDTRIP-001', created_at=400)
+    checkpoint = create_checkpoint(
         session=session,
         checkpoint_id='CHK-ROUNDTRIP-001',
         timestamp=401,
         runtime_snapshot=build_authoritative_runtime_snapshot(timestamp=401, simulated=True),
     )
-    session = service.append_checkpoint(session=session, checkpoint=checkpoint)
+    session = append_checkpoint(session=session, checkpoint=checkpoint)
     path = tmp_path / 'session.json'
 
-    service.save_session(session=session, path=path)
-    loaded = service.load_session(path=path)
+    save_session(session=session, path=path)
+    loaded = load_session(path=path)
 
-    assert canonical_json(session.to_dict()) == canonical_json(loaded.to_dict())
-    assert state_hash(session.to_dict()) == state_hash(loaded.to_dict())
+    assert canonical_json(to_dict(session)) == canonical_json(to_dict(loaded))
+    assert state_hash(to_dict(session)) == state_hash(to_dict(loaded))
 
 
 def test_checkpoint_save_load_round_trip_preserves_runtime_snapshot(tmp_path) -> None:
-    service = DurableSessionService()
-    session = service.create_session(session_id='SES-CHECKPOINT-001', created_at=410)
-    checkpoint = service.create_checkpoint(
+    session = create_session(session_id='SES-CHECKPOINT-001', created_at=410)
+    checkpoint = create_checkpoint(
         session=session,
         checkpoint_id='CHK-CHECKPOINT-001',
         timestamp=411,
@@ -52,27 +58,55 @@ def test_checkpoint_save_load_round_trip_preserves_runtime_snapshot(tmp_path) ->
     )
     path = tmp_path / 'checkpoint.json'
 
-    service.save_checkpoint(checkpoint=checkpoint, path=path)
-    loaded = service.load_checkpoint(path=path)
+    save_checkpoint(checkpoint=checkpoint, path=path)
+    loaded = load_checkpoint(path=path)
 
-    assert loaded.to_dict() == checkpoint.to_dict()
+    assert to_dict(loaded) == to_dict(checkpoint)
     json.loads(path.read_text(encoding='utf-8'))
 
 
+def test_checkpoint_serialization_preserves_degraded_snapshot_fields(tmp_path) -> None:
+    session = create_session(session_id='SES-DEGRADED-ROUNDTRIP-001', created_at=412)
+    snapshot = build_authoritative_runtime_snapshot(
+        timestamp=413,
+        signals=(
+            RuntimeSignalState(
+                signal_id='SIG-STALE',
+                display_name='stale signal',
+                availability=RuntimeAvailability.STALE,
+            ),
+        ),
+    )
+    checkpoint = create_checkpoint(
+        session=session,
+        checkpoint_id='CHK-DEGRADED-ROUNDTRIP-001',
+        timestamp=414,
+        runtime_snapshot=snapshot,
+    )
+    path = tmp_path / 'degraded-checkpoint.json'
+
+    save_checkpoint(checkpoint=checkpoint, path=path)
+    payload = to_dict(load_checkpoint(path=path))
+
+    assert payload == to_dict(checkpoint)
+    assert payload['runtime_snapshot']['stale_state']['status'] == 'stale'
+    assert payload['runtime_snapshot']['unavailable_state']['status'] == 'unavailable'
+    assert payload['runtime_snapshot']['signals'][0]['availability'] == 'stale'
+
+
 def test_unsafe_checkpoint_flags_are_rejected() -> None:
-    service = DurableSessionService()
-    session = service.create_session(session_id='SES-UNSAFE-001', created_at=420)
-    checkpoint = service.create_checkpoint(
+    session = create_session(session_id='SES-UNSAFE-001', created_at=420)
+    checkpoint = create_checkpoint(
         session=session,
         checkpoint_id='CHK-UNSAFE-001',
         timestamp=421,
         runtime_snapshot=build_authoritative_runtime_snapshot(timestamp=421),
     )
-    payload = checkpoint.to_dict()
+    payload = to_dict(checkpoint)
     payload['safety']['hardware_mutation_enabled'] = True
     unsafe = SessionCheckpoint.from_dict(payload)
 
-    result = service.validate_checkpoint(unsafe)
+    result = validate_checkpoint(unsafe)
 
     assert result.ok is False
     assert 'hardware_mutation_enabled must be false' in result.errors
