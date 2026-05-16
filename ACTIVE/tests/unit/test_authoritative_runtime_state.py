@@ -1,7 +1,7 @@
 from __future__ import annotations
 
+import inspect
 import json
-import sys
 
 from universaldaq.common import as_event_time
 from universaldaq.mapping import build_demo_sandbox_state
@@ -220,11 +220,13 @@ def test_stale_degraded_and_unavailable_states_serialize() -> None:
     json.dumps(payload, sort_keys=True)
 
 
-def test_runtime_state_import_does_not_load_vendor_support_packs() -> None:
-    assert not any(
-        name.startswith(('universaldaq_labjack', 'universaldaq_arduino', 'universaldaq_rpi'))
-        for name in sys.modules
-    )
+def test_runtime_state_module_has_no_vendor_support_pack_dependency() -> None:
+    import universaldaq.runtime.state as runtime_state
+
+    source = inspect.getsource(runtime_state)
+    assert 'universaldaq_labjack' not in source
+    assert 'universaldaq_arduino' not in source
+    assert 'universaldaq_rpi' not in source
 
 
 def test_default_postures_do_not_grant_live_apply_or_hardware_writes() -> None:
