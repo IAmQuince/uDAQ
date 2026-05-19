@@ -1,0 +1,26 @@
+current_package_id: UDQ-PKG-20260515-02-MAPPING-R02
+transitions:
+  - from: docs/release/history
+    to: HISTORICAL/superseded_docs/release_history_from_20260330_10
+    reason: Moved inherited release history out of active lane.
+    date: 2026-05-15
+  - from: docs/archive
+    to: HISTORICAL/superseded_docs/docs_archive_from_20260330_10
+    reason: Moved inherited document archive out of active lane.
+    date: 2026-05-15
+  - from: audit_reports/archive
+    to: HISTORICAL/superseded_audits/audit_archive_from_20260330_10
+    reason: Moved inherited audit archive out of active lane.
+    date: 2026-05-15
+  - from: registries/archive
+    to: HISTORICAL/superseded_registries/registry_archive_from_20260330_10
+    reason: Moved inherited registry archive out of active lane.
+    date: 2026-05-15
+  - from: docs/release/*_20260330_10 prior active
+    to: HISTORICAL/superseded_docs/release/20260330_10_prior_active
+    reason: Retired prior baseline active release docs.
+    date: 2026-05-15
+  - from: audit_reports/active/*_20260330_10 prior active
+    to: HISTORICAL/superseded_audits/20260330_10_prior_active
+    reason: Retired prior baseline active audit reports.
+    date: 2026-05-15

@@ -1,3 +1,0 @@
-finding_id,severity,area,message
-CONS-UDQ-001,info,human_reconciliation,"A deliberate human pass on terminology, authority wording, and state wording is still recommended before coding begins."
-CONS-UDQ-002,info,worked_examples,Canonical worked examples remain desirable but do not block the current documentation baseline.

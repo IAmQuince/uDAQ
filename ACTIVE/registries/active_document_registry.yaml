@@ -1,0 +1,2311 @@
+current_package_id: UDQ-PKG-20260515-02-MAPPING-R02
+active_root: ACTIVE
+documents:
+  - path: .github/ISSUE_TEMPLATE/docs_change.yml
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: .github/ISSUE_TEMPLATE/implementation_change.yml
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: .github/PULL_REQUEST_TEMPLATE/typed_domain_model_sprint.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: .github/workflows/ci.yml
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: .pre-commit-config.yaml
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: ACCEPTANCE_TEST_PLAN.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: CHANGELOG.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: CONTRIBUTING.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: FEATURE_INVENTORY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: KNOWN_LIMITATIONS.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: PACKAGE_MANIFEST.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: README.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: README_START_HERE.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: REQUIREMENTS_TRACEABILITY_MATRIX.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: WORKPLAN_CURRENT_RUN.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: audit_reports/latest/README.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: config/package_metadata.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/20260326_08_cross-device-tag-and-acquisition-spine__architecture.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-ARCH-NAR-001__System_Controls_Narrative__r4__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-ARCH-NAR-002__Platform_Controls_Narrative__r4__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-AUD-CHK-001__Local_VSCode_Review_Checklist__r2__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-AUD-SPEC-001__Package_Audit_Specification__r8__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-AUD-SPEC-002__Placeholder_and_Anti_Pattern_Scan_Policy__r2__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-AUD-TPL-001__Package_Audit_Report_Template__r0__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-AUD-TPL-002__Placeholder_and_Anti_Pattern_Scan_Report_Template__r0__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-DEV-SPEC-001__Device_Adapter_and_Protocol_Abstraction_Specification__r0__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-DIAG-SPEC-001__Diagnostics_Watchdog_and_Health_Model_Specification__r0__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-EVT-SPEC-001__Alarms_Events_and_Acknowledgment_Specification__r1__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-EXM-SPEC-001__Canonical_Worked_Examples__r3__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-EXP-SPEC-001__Export_Review_and_Evidence_Bundle_Specification__r0__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GAP-RPT-001__Open_Implementation_Gaps__r11__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GAP-TPL-001__Implementation_Gap_Assessment_Template__r0__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-GLO-001__Canonical_Glossary_and_Ontology__r2__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-LOG-001__Controlled_Document_Index__r22__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-MAP-001__Document_Architecture_and_Dependency_Map__r3__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-POL-002__README_Control_and_Classification_Policy__r0__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-POL-003__Document_Status_Lifecycle_Policy__r0__BASELINE.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-REG-001__Contradiction_and_Reconciliation_Register__r2__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-REG-002__Duplication_and_Consolidation_Register__r1__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-REG-003__Documentation_Update_Debt_Register__r3__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-RPT-001__Cross_Document_Consistency_Assessment__r5__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-RPT-002__Subsystem_Reconciliation_and_Duplication_Closure_Assessment__r2__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-SOP-001__Controlled_Document_Update_and_Impact_Process__r4__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-SOP-002__Controlled_Document_Completeness_and_Recovery_Process__r0__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-SPEC-002__Machine_Readable_Document_and_Cross_Reference_Scheme__r4__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-SPEC-003__Global_Governance_Model_and_Control_Tower_Specification__r1__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-SPEC-004__Implementation_Declaration_and_Traceability_Specification__r2__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-SPEC-005__Runtime_Conformance_and_Invariant_Monitoring_Specification__r2__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-SPEC-006__Executive_Summary_and_Project_Status_Specification__r1__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-STD-001__Document_Control_Scheme__r3__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-STD-002__Semantic_Precedence_and_Term_Usage_Standard__r0__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-STD-003__Active_Archive_and_Package_Structure_Standard__r2__WIP.md
+    state: REFERENCE
+    owner_lane: ACTIVE
+    authoritative: false
+  - path: docs/active/UDQ-GOV-TPL-001__Sprint_Documentation_Impact_Checklist__r2__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-TPL-002__Documentation_Review_and_Outcome_Ledger_Template__r0__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-GOV-WI-001__Step_by_Step_Document_Reconciliation_and_Logging_Work_Instruction__r0__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-HIS-SPEC-001__Historian_Events_and_Evidence_Specification__r3__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-IMP-GUIDE-001__Python_Typing_and_Modeling_Policy__r0__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-IMP-MAP-001__Frozen_Package_Structure_and_Module_Boundary_Standard__r3__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-IMP-PLAN-001__Implementation_Transition_and_Handoff_Plan__r7__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-IMP-SPEC-002__Pre_Code_Scaffolding_and_Verification_Structure_Specification__r0__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-LIFECYCLE-SPEC-001__Device_Point_Signal_Variable_Logic_Lifecycle_and_Reconciliation_Specification__r0__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-LOG-SPEC-001__Rules_Conditions_and_Actions_Specification__r2__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-OUT-SPEC-001__Outputs_Command_Arbitration_and_Safe_State_Specification__r2__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-PERF-SPEC-001__Runtime_Performance_Responsiveness_and_Scalability_Doctrine__r2__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-PROF-SPEC-001__Profiles_Persistence_Autosave_and_Restore_Specification__r4__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-PROOF-TPL-001__Implementation_Proof_Bundle_Template__r0__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-PROT-SPEC-001__Modbus_Integration_Specification__r1__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-QUAL-DEF-001__Definition_of_Complete_by_Subsystem__r2__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-QUAL-SPEC-002__Implementation_Proof_Model__r2__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-REL-SPEC-001__Release_Package_Composition_and_Baseline_Specification__r0__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-REL-TPL-001__Release_Manifest_Template__r1__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-REL-TPL-002__Release_Notes_and_Update_Summary_Template__r0__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-REM-SPEC-001__Remote_Observation_and_Supervision_Specification__r2__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-REQ-ADD-001__Variables_and_Multi_Instance_Device_Requirements_Addendum__r0__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-REQ-MAT-001__Requirements_Traceability_Matrix__r10__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-SCHEMA-POLICY-001__Governance_Schema_Conventions__r0__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-SCM-STD-001__Code_and_Package_Version_Control_Scheme__r0__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-SEC-BASELINE-001__Security_and_Trust_Boundary_Baseline__r0__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-SEC-SPEC-001__Roles_Permissions_and_Command_Authorization_Specification__r1__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-SEQ-SPEC-001__Sequences_and_Workflows_Specification__r2__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-SIG-SPEC-001__Signals_and_Derived_Signals_Specification__r3__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-UI-ARCH-001__UI_Functional_Architecture__r3__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-UI-DEVFLOW-001__Device_Discovery_Onboarding_and_Known_Device_UX__r1__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-UI-INV-001__Genesys_Feature_Inventory_and_Preservation_Map__r3__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-UI-MOD-001__UI_State_and_Interaction_Model__r4__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-UI-NAR-001__UI_Controls_Philosophy_and_HMI_Doctrine__r2__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-UI-SPEC-000__UI_Navigation_and_Shell_Behavior_Specification__r3__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-UI-SPEC-001__Workspace_and_Page_Specifications__r2__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-UI-SPEC-002__Widget_Status_and_Visual_Language_Specification__r2__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-UI-SPEC-003__Control_Authoring_Visual_and_Structured_Roundtrip_Specification__r1__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-UI-SPEC-004__Graphing_History_Review_and_Live_Trace_Specification__r4__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-UI-SPEC-005__Remote_UI_Surface_Specification__r1__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-UI-SPEC-006__Logic_Designer_Workspace_and_Control_Authoring_Model__r1__WIP.md
+    state: WIP
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/adr/ADR-0001__ui_naming_and_package_structure.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/adr/ADR-0002__typed_domain_model_first.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/adr/ADR-0003__reserved_packages_and_guardrails.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/adr/ADR-0004__local_and_ci_gate_policy.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/adr/ADR-0005__support_pack_isolation_and_real_labjack_slice.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/adr/ADR-0006__bounded_safe_expression_evaluation.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/adr/ADR-0007__governance_compression_and_delivery_first.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/adr/ADR-0008__controller_handler_extraction.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/architecture/AUTHORITATIVE_BINDING_READBACK_NOTES__20260330_08.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/architecture/MAPPING_APPLY_DRY_RUN_COMMIT_BOUNDARY__20260330_10.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/architecture/MAPPING_APPLY_PREFLIGHT_AND_REVIEW_PATH__20260330_09.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/governance/SPRINT_TIMING_AND_EFFICIENCY_NOTES.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/governance/UDQ-DOC-LANE-GOV-001__Active_Historical_Document_Lane_Governance__r0__ACTIVE.md
+    state: REFERENCE
+    owner_lane: ACTIVE
+    authoritative: false
+  - path: docs/governance/UDQ-PKG-HANDOFF-GOV-001__Handoff_Package_Governance__r0__ACTIVE.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/handbook/AUDIT_AND_GOVERNANCE.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/handbook/IMPLEMENTATION_ENTRY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/handbook/NEXT_ACTIONS.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/handbook/PUBLIC_API_FREEZE.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/handbook/QUICKSTART_CONTRIBUTOR.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/handbook/REQUIREMENTS_ENTRY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/handbook/START_HERE.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/handbook/TESTS_AND_TOOLS.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/release/20260515_02_mapping__implementation-summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/release/20260515_02_mapping__validation-summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/release/ASSESSMENT_RECONCILIATION_LEDGER.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/release/ASSESSMENT_RESPONSE_PLAN.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/release/EXEC_SUMMARY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/release/MAY_2026_RECONCILIATION_SUMMARY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/release/PACKAGE_ENTRY_REGISTRY.yaml
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/release/RELEASE_MANIFEST.yaml
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/release/RELEASE_NOTES.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/release/REVIEW_START_HERE__UDQ-PKG-20260515-02-MAPPING-R02__ACTIVE.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/release/SAVEPOINT_SUMMARY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/review/20260329_03_widget_runtime_gap_fill_and_shell_polish__implementation_summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/review/20260329_04_desktop_bench_verification_and_authoritative_state_bridge_prep__implementation_summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/review/20260330_05_device_io_unification_trace_wiring_and_logic_slice__implementation_summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/review/20260330_06_documentation_impact_matrix.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/review/20260330_06_full_documentation_reconciliation_and_review_package_closeout__implementation_summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/review/ASSESSMENT_FIX_RUN__2026-03-24.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/review/EXTERNAL_ASSESSMENT_RESPONSE__2026-03-23.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/review/HUMAN_PASS_CHECKLIST.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/review/PACKAGE_NORMALIZATION_SPRINT__2026-03-24.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/review/SAVEPOINT_DISCREPANCY_INVENTORY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/review/SAVEPOINT_REVIEW_LEDGER.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/review/SPRINT_01_CONTROLLER_DECOMPOSITION__2026-03-24.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/review/TRUNCATION_RECOVERY_RUN__2026-03-24.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_00_sprint-3c-startup-open-diagnostic-correction__baseline-file-snapshot.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_00_sprint-3c-startup-open-diagnostic-correction__documentation-integrity-report.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_00_sprint-3c-startup-open-diagnostic-correction__execution-plan.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_00_sprint-3c-startup-open-diagnostic-correction__reference-specimen.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_00_sprint-3c-startup-open-diagnostic-correction__scope-boundary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_00_sprint-3c-startup-open-diagnostic-correction__touched-file-ledger.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_00_sprint-3c-startup-open-diagnostic-correction__truncation-guard-report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_00_sprint-3c-startup-open-diagnostic-correction__validation-status.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_03_sprint-3d-direct-open-probe-and-handoff-correction__baseline-file-snapshot.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_03_sprint-3d-direct-open-probe-and-handoff-correction__correction-summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_03_sprint-3d-direct-open-probe-and-handoff-correction__documentation-integrity-report.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_03_sprint-3d-direct-open-probe-and-handoff-correction__execution-plan.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_03_sprint-3d-direct-open-probe-and-handoff-correction__scope-boundary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_03_sprint-3d-direct-open-probe-and-handoff-correction__touched-file-ledger.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_03_sprint-3d-direct-open-probe-and-handoff-correction__truncation-guard-report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_03_sprint-3d-direct-open-probe-and-handoff-correction__validation-status.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_06_reconnect-path-alignment-correction__baseline-file-snapshot.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_06_reconnect-path-alignment-correction__correction-summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_06_reconnect-path-alignment-correction__documentation-integrity-report.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_06_reconnect-path-alignment-correction__execution-plan.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_06_reconnect-path-alignment-correction__reference-specimens.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_06_reconnect-path-alignment-correction__scope-boundary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_06_reconnect-path-alignment-correction__touched-file-ledger.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_06_reconnect-path-alignment-correction__truncation-guard-report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_06_reconnect-path-alignment-correction__validation-status.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_07_reconnect-reacquire-path-verification-and-fix__baseline-file-snapshot.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_07_reconnect-reacquire-path-verification-and-fix__correction-summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_07_reconnect-reacquire-path-verification-and-fix__document-completeness-check.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_07_reconnect-reacquire-path-verification-and-fix__documentation-integrity-report.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_07_reconnect-reacquire-path-verification-and-fix__execution-plan.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_07_reconnect-reacquire-path-verification-and-fix__reference-specimens.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_07_reconnect-reacquire-path-verification-and-fix__scope-boundary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_07_reconnect-reacquire-path-verification-and-fix__touched-file-ledger.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_07_reconnect-reacquire-path-verification-and-fix__truncation-guard-report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_07_reconnect-reacquire-path-verification-and-fix__validation-status.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__artifact-authority-map.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__baseline-file-snapshot.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__document-classification-matrix.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__document-classification-standard.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__documentation-integrity-report.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__generic-vs-specimen-boundary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__lane-acceptance-criteria.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__legacy-status-migration-map.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__main-app-value-of-lane.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-a-hardening-summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-a-reference-specimens.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-a-scope-boundary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-b-authoritative-inputs.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-b-baseline-file-snapshot.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-b-documentation-integrity-report.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-b-scope-boundary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-b-touched-file-ledger.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-b-truncation-guard-report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-b-validation-status.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-authoritative-reading-set.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-baseline-file-snapshot.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-claim-evidence-audit.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-documentation-integrity-report.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-no-touch-zones.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-open-items-and-deferred-work.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-review-narrative.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-review-questions.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-review-reading-order.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-scope-boundary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-touched-file-ledger.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-truncation-guard-report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__pass-c-validation-status.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__reconnect-churn-rca.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__requirement-proof-crosswalk.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__startup-advisory-disposition.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__touched-file-ledger.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__truncation-guard-report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__validated-lifecycle-seam.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260325_08_reconnect-hardening-and-external-review-prep__validation-status.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260326_00_assessment-reconciliation-sprint__validation-status.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260326_01_evidence-survivability-and-recovery-sprint__summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260326_01_evidence-survivability-and-recovery-sprint__validation-status.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260326_04_nonzero-tail-replay-and-bounded-specimen-depth__execution-summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260326_05_richer-recovery-and-longer-bounded-session-sprint__summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260326_05_richer-recovery-and-longer-bounded-session-sprint__validation-status.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260326_08_cross-device-tag-and-acquisition-spine__acceptance-summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260326_08_cross-device-tag-and-acquisition-spine__scope-boundary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260326_09_cross-device-recovery-and-repeatability-closure__acceptance-summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260327_02_performance-baseline-and-usability-gate__baseline-report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260327_02_performance-baseline-and-usability-gate__cost-center-summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260327_03_usability-entry-first-signal-path__first-signal-disconnect-inventory.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260327_03_usability-entry-first-signal-path__first-signal-inventory.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260327_03_usability-entry-first-signal-path__validation-report.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260327_04_trusted-session-hardening__trusted-session-inventory.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260327_04_trusted-session-hardening__trusted-session-reconnect-inventory.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260327_05_operator-flow-and-channel-control-hardening__first-signal-inventory.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260327_05_operator-flow-and-channel-control-hardening__session-flight-record.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260327_05_operator-flow-and-channel-control-hardening__trusted-session-inventory.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260327_05_operator-flow-and-channel-control-hardening__validation-report.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260327_06_session-persistence-and-bench-ergonomics__bench-persistence-inventory.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260327_06_session-persistence-and-bench-ergonomics__validation-report.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260327_07_session-review-and-lightweight-reporting__lightweight-session-report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260327_07_session-review-and-lightweight-reporting__lightweight-session-report.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260327_07_session-review-and-lightweight-reporting__session-review-inventory.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260328_00_ui-architecture-documentation-update__document-ledger.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/20260328_01_launchable-operator-shell-and-user-demo-foundation__user-demo-inventory.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/README.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_ARCHITECTURE_STATUS.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_ASSESSMENT_FIX_VALIDATION_SUMMARY__2026-03-24.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_ASSESSMENT_RECONCILIATION_CLOSEOUT__2026-03-26.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_CLEANUP_PLAN.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_CONTROLLER_BEFORE_AFTER_COMPARISON.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_CONTROLLER_RESPONSIBILITY_MAP.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_CROSS_REFERENCE_EDGE_DELTA_CONFIRMATION__2026-03-25.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_CROSS_REFERENCE_EDGE_DELTA_NOTE__2026-03-26.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_DANGLING_LABJACK_WORK_REGISTER.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_DOCUMENTATION_IMPACT_LEDGER__SPRINT_03.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_DOCUMENTATION_INTEGRITY_REPORT.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_DOCUMENTATION_INTEGRITY_REPORT__SPRINT_03.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_DOCUMENTATION_INTEGRITY_REPORT__SPRINT_03A.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_DOCUMENTATION_INTEGRITY_REPORT__SPRINT_03B.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_DOCUMENTATION_UPDATE_MAP__2026-03-25.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_DOCUMENTATION_UPDATE_MAP__SPRINT_03.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_DOCUMENTATION_UPDATE_RUN_SUMMARY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_DOCUMENT_COMPLETENESS_CHECK__2026-03-24.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_DOCUMENT_COMPLETENESS_CHECK__SPRINT_03A.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_DOCUMENT_COMPLETENESS_PROOF__2026-03-24.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_DOCUMENT_RECOVERY_MATRIX__2026-03-24.csv
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_DOC_INDEX.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_EVENT_SCHEMA_GUIDE.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_EXTERNAL_REVIEW_DISPOSITION__2026-03-25.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_EXTERNAL_REVIEW_PREP_GAP_REGISTER.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_EXTERNAL_REVIEW_PREP_PACKET.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_FIELD_VALIDATION_VERDICT_RECHECK__SPRINT_03A.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_FULL_REVIEW_PREP_PACKET__2026-03-25.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_GAP_RUN_SUMMARY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_IMPLEMENTATION_ENTRY_OPTIMIZATION_SUMMARY__2026-03-25.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_IMPLEMENTATION_ENTRY_PACKET__2026-03-25.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_IMPLEMENTATION_ENTRY_VALIDATION_SUMMARY__2026-03-25.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_LABJACK_CORE_BOUNDARY_VERIFICATION.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_NEXT_SPRINT_CANDIDATE_REGISTER__2026-03-26.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_NEXT_SPRINT_PLAN__RUNTIME_DIAGNOSTICS_AND_EVIDENCE_COHERENCE.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_NEXT_STEPS.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_PACKAGE_PATH_BUDGET_COMPLIANCE.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_PROOF_GUIDE.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_REAL_HARDWARE_SPECIMEN_BRIDGE_SUMMARY__2026-03-27.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_RUN1_PLAN.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_RUN2_PLAN.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_RUN3_PLAN.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_RUN4_PLAN.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_RUN5_PLAN.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_RUN8_PLAN.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_RUN9_PLAN.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_RUNTIME_EVENT_TAXONOMY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_RUNTIME_EVIDENCE_BUNDLE_SPEC.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_RUNTIME_METRIC_AUDIENCE_POLICY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_RUNTIME_METRIC_DICTIONARY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_RUNTIME_REVIEW_SUMMARY_TEMPLATE.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_RUNTIME_STATE_TRANSLATION_TABLE.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_RUNTIME_TRUTH_SURFACE_INVENTORY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_RUNTIME_VALIDATION_STATUS__SPRINT_03.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_RUNTIME_VOCABULARY_MAP.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_RUN_SUMMARY.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_01_CONTROLLER_DECOMPOSITION_SUMMARY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_02A_EVIDENCE_AND_SEMANTICS_SUMMARY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_02B_RECOVERY_DETERMINISM_SUMMARY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_02_CLOSEOUT_STATUS_CARRYFORWARD.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_02_EXECUTION_PLAN.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_02_FIELD_VALIDATION_CLOSEOUT.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_02_SCOPE_BOUNDARY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_02_U6_BASELINE_MAP.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_02_U6_HARDENING_SUMMARY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_03A_BASELINE_FILE_SNAPSHOT.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_03A_EXECUTION_PLAN.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_03A_SCOPE_BOUNDARY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_03A_TOUCHED_FILE_LEDGER.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_03A_TOUCHED_SURFACES.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_03A_VALIDATION_STATUS.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_03B_BASELINE_FILE_SNAPSHOT.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_03B_CORRECTION_SUMMARY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_03B_EXECUTION_PLAN.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_03B_REFERENCE_FAILURE_SPECIMEN.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_03B_SCOPE_BOUNDARY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_03B_TOUCHED_FILE_LEDGER.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_03B_VALIDATION_STATUS.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_03_BASELINE_FILE_SNAPSHOT.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_03_EXECUTION_PLAN.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_03_RUNTIME_EVIDENCE_COHERENCE_SUMMARY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_SPRINT_03_SCOPE_BOUNDARY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_TRUNCATION_GUARD_REPORT__SPRINT_03.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_TRUNCATION_GUARD_REPORT__SPRINT_03A.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_TRUNCATION_GUARD_REPORT__SPRINT_03B.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_TRUNCATION_RECOVERY_VALIDATION_SUMMARY__2026-03-24.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_U6_BEFORE_AFTER_BEHAVIOR.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_U6_BOUNDARY_REVIEW.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_U6_DEVICE_LOSS_AND_RECOVERY_NOTES.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_U6_DIAGNOSTICS_INVENTORY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_U6_FIELD_VALIDATION_ARTIFACT_GUIDE.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_U6_GUIDED_FIELD_VALIDATION_SPEC.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_U6_LIFECYCLE_CONTRACT.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_U6_REAL_HARDWARE_TEST_PROTOCOL.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_U6_REAL_TEST.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_U6_RECONNECT_PIPELINE_MAP.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_U6_RECOVERY_COUNTER_DICTIONARY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_U6_RECOVERY_EVENT_TAXONOMY.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_U6_RUNTIME_FAULT_HANDLING.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_U6_STARTUP_BEHAVIOR_BEFORE_AFTER.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_U6_STATE_TRANSITION_TABLE.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_U6_TEST_AND_SMOKE_EVIDENCE.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/UDQ_UI_DOCS_ONLY_RUN_SUMMARY__2026-03-25.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/acceptance_report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/acceptance_report.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/cross_device_recovery_closure_report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/cross_device_recovery_closure_report.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/degraded_adapter_timeline.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/degraded_adapter_timeline.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/fallback_recovery_detail.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/fallback_recovery_detail.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/repeatability_report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/repeatability_report.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/degraded_adapter_timeline.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/degraded_adapter_timeline.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/fallback_recovery_detail.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/fallback_recovery_detail.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/review_summary.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/session_timeline.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/session_timeline.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/tag_inventory.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_01/tag_inventory.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_02/degraded_adapter_timeline.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_02/degraded_adapter_timeline.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_02/fallback_recovery_detail.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_02/fallback_recovery_detail.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_02/review_summary.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_02/session_timeline.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_02/session_timeline.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_02/tag_inventory.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_02/tag_inventory.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_03/degraded_adapter_timeline.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_03/degraded_adapter_timeline.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_03/fallback_recovery_detail.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_03/fallback_recovery_detail.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_03/review_summary.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_03/session_timeline.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_03/session_timeline.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_03/tag_inventory.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability/run_03/tag_inventory.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability_report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/repeatability_report.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/review_summary.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/session/degraded_adapter_timeline.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/session/degraded_adapter_timeline.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/session/fallback_recovery_detail.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/session/fallback_recovery_detail.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/session/review_summary.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/session/session_timeline.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/session/session_timeline.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/session/tag_inventory.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/session/tag_inventory.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/session_timeline.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/session_timeline.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/tag_inventory.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_acquisition/tag_inventory.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_command_arbitration/command_timeline.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_command_arbitration/command_timeline.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_command_arbitration/cross_device_command_arbitration_report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_command_arbitration/cross_device_command_arbitration_report.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_command_arbitration/ownership_ledger.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_command_arbitration/ownership_ledger.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_command_arbitration/review_summary.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_command_arbitration/writable_tag_inventory.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/cross_device_command_arbitration/writable_tag_inventory.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/fault_injection/fallback_recovery_detail.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/fault_injection/fallback_recovery_detail.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/fault_injection/session_timeline.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/fault_injection/session_timeline.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/real_hardware_bridge/real_hardware_bridge_report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/real_hardware_bridge/real_hardware_bridge_report.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/repeatability_report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/repeatability_report.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_01/checkpoint_ladder.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_01/checkpoint_ladder.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_01/longrun_characterization.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_01/longrun_characterization.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_01/replay_detail.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_01/replay_detail.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_01/review_summary.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_01/review_summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_01/session_timeline.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_01/session_timeline.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_02/checkpoint_ladder.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_02/checkpoint_ladder.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_02/longrun_characterization.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_02/longrun_characterization.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_02/replay_detail.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_02/replay_detail.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_02/review_summary.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_02/review_summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_02/session_timeline.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_02/session_timeline.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_03/checkpoint_ladder.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_03/checkpoint_ladder.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_03/longrun_characterization.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_03/longrun_characterization.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_03/replay_detail.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_03/replay_detail.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_03/review_summary.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_03/review_summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_03/session_timeline.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/repeatability/run_03/session_timeline.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/reviewability/checkpoint_ladder.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/reviewability/checkpoint_ladder.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/reviewability/longrun_characterization.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/reviewability/longrun_characterization.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/reviewability/replay_detail.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/reviewability/replay_detail.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/reviewability/review_summary.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/reviewability/review_summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/reviewability/session_timeline.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/acceptance/20260327_025549/reviewability/session_timeline.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/archive/20260327_01_retention-audit-active-lane-slimming__active-proof-lane-manifest__HISTORICAL.md
+    state: REFERENCE
+    owner_lane: ACTIVE
+    authoritative: false
+  - path: proof/archive/acceptance/20260327_023724/acceptance_report.json
+    state: REFERENCE
+    owner_lane: ACTIVE
+    authoritative: false
+  - path: proof/archive/acceptance/20260327_023724/acceptance_report.md
+    state: REFERENCE
+    owner_lane: ACTIVE
+    authoritative: false
+  - path: proof/archive/acceptance/20260327_023724/historical_artifact_manifest.json
+    state: REFERENCE
+    owner_lane: ACTIVE
+    authoritative: false
+  - path: proof/archive/acceptance/20260327_023724/historical_artifact_manifest.md
+    state: REFERENCE
+    owner_lane: ACTIVE
+    authoritative: false
+  - path: proof/bundles/20260328_04_shell-ergonomics-and-mapping-clarity-hardening__validation.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/bundles/20260329_02_runtime_capability_evidence.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/bundles/20260329_02_shell_geometry_policy.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/bundles/20260329_02_splitter-shell-replatform-and-generic-runtime-evidence-hardening__validation.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/bundles/20260329_03_shell_geometry_policy.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/bundles/20260329_03_visible_shell_inventory.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/bundles/20260329_03_workspace_design_inventory.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/bundles/20260329_04_authoritative_binding_inventory.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/bundles/20260329_04_desktop_bench_diagnostics.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/bundles/20260329_04_desktop_bench_plan.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/bundles/20260329_04_harness_smoke_diagnostics.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-guided-validation/20260325_00_simulated-u6-guided-validation__artifact-manifest.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-guided-validation/20260325_00_simulated-u6-guided-validation__artifact-manifest.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-guided-validation/20260325_00_simulated-u6-guided-validation__diagnostics.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-guided-validation/20260325_00_simulated-u6-guided-validation__events.csv
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-guided-validation/20260325_00_simulated-u6-guided-validation__preflight-report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-guided-validation/20260325_00_simulated-u6-guided-validation__preflight-report.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-guided-validation/20260325_00_simulated-u6-guided-validation__review-summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-guided-validation/20260325_00_simulated-u6-guided-validation__semantic-consistency-verdict.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-guided-validation/20260325_00_simulated-u6-guided-validation__semantic-consistency-verdict.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-guided-validation/20260325_00_simulated-u6-guided-validation__smoke.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-guided-validation/20260325_00_simulated-u6-guided-validation__start-here.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-guided-validation/20260325_00_simulated-u6-guided-validation__summary.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-startup-open-smoke/20260325_00_simulated-u6-startup-open-smoke__artifact-manifest.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-startup-open-smoke/20260325_00_simulated-u6-startup-open-smoke__artifact-manifest.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-startup-open-smoke/20260325_00_simulated-u6-startup-open-smoke__diagnostics.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-startup-open-smoke/20260325_00_simulated-u6-startup-open-smoke__events.csv
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-startup-open-smoke/20260325_00_simulated-u6-startup-open-smoke__preflight-report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-startup-open-smoke/20260325_00_simulated-u6-startup-open-smoke__preflight-report.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-startup-open-smoke/20260325_00_simulated-u6-startup-open-smoke__review-summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-startup-open-smoke/20260325_00_simulated-u6-startup-open-smoke__semantic-consistency-verdict.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-startup-open-smoke/20260325_00_simulated-u6-startup-open-smoke__semantic-consistency-verdict.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-startup-open-smoke/20260325_00_simulated-u6-startup-open-smoke__smoke.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-startup-open-smoke/20260325_00_simulated-u6-startup-open-smoke__start-here.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_00_simulated-u6-startup-open-smoke/20260325_00_simulated-u6-startup-open-smoke__summary.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_01_real-u6-startup-open-smoke/20260325_01_real-u6-startup-open-smoke__artifact-manifest.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_01_real-u6-startup-open-smoke/20260325_01_real-u6-startup-open-smoke__artifact-manifest.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_01_real-u6-startup-open-smoke/20260325_01_real-u6-startup-open-smoke__diagnostics.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_01_real-u6-startup-open-smoke/20260325_01_real-u6-startup-open-smoke__events.csv
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_01_real-u6-startup-open-smoke/20260325_01_real-u6-startup-open-smoke__preflight-report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_01_real-u6-startup-open-smoke/20260325_01_real-u6-startup-open-smoke__preflight-report.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_01_real-u6-startup-open-smoke/20260325_01_real-u6-startup-open-smoke__review-summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_01_real-u6-startup-open-smoke/20260325_01_real-u6-startup-open-smoke__semantic-consistency-verdict.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_01_real-u6-startup-open-smoke/20260325_01_real-u6-startup-open-smoke__semantic-consistency-verdict.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_01_real-u6-startup-open-smoke/20260325_01_real-u6-startup-open-smoke__smoke.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_01_real-u6-startup-open-smoke/20260325_01_real-u6-startup-open-smoke__start-here.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_01_real-u6-startup-open-smoke/20260325_01_real-u6-startup-open-smoke__summary.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_02_real-u6-guided-unplug-replug-validation/20260325_02_real-u6-guided-unplug-replug-validation__artifact-manifest.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_02_real-u6-guided-unplug-replug-validation/20260325_02_real-u6-guided-unplug-replug-validation__artifact-manifest.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_02_real-u6-guided-unplug-replug-validation/20260325_02_real-u6-guided-unplug-replug-validation__diagnostics.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_02_real-u6-guided-unplug-replug-validation/20260325_02_real-u6-guided-unplug-replug-validation__events.csv
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_02_real-u6-guided-unplug-replug-validation/20260325_02_real-u6-guided-unplug-replug-validation__preflight-report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_02_real-u6-guided-unplug-replug-validation/20260325_02_real-u6-guided-unplug-replug-validation__preflight-report.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_02_real-u6-guided-unplug-replug-validation/20260325_02_real-u6-guided-unplug-replug-validation__review-summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_02_real-u6-guided-unplug-replug-validation/20260325_02_real-u6-guided-unplug-replug-validation__semantic-consistency-verdict.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_02_real-u6-guided-unplug-replug-validation/20260325_02_real-u6-guided-unplug-replug-validation__semantic-consistency-verdict.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_02_real-u6-guided-unplug-replug-validation/20260325_02_real-u6-guided-unplug-replug-validation__smoke.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_02_real-u6-guided-unplug-replug-validation/20260325_02_real-u6-guided-unplug-replug-validation__start-here.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_02_real-u6-guided-unplug-replug-validation/20260325_02_real-u6-guided-unplug-replug-validation__summary.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_04_real-u6-direct-open-probe/20260325_04_real-u6-direct-open-probe__artifact-manifest.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_04_real-u6-direct-open-probe/20260325_04_real-u6-direct-open-probe__artifact-manifest.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_04_real-u6-direct-open-probe/20260325_04_real-u6-direct-open-probe__report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_04_real-u6-direct-open-probe/20260325_04_real-u6-direct-open-probe__report.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/20260325_04_real-u6-direct-open-probe/20260325_04_real-u6-direct-open-probe__start-here.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/u6_field_validation_20260325_171120/START_HERE__U6_FIELD_VALIDATION.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_20260325_171120__artifact_manifest.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_20260325_171120__artifact_manifest.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_20260325_171120__diagnostics.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_20260325_171120__events.csv
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_20260325_171120__preflight_report.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_20260325_171120__preflight_report.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_20260325_171120__semantic_consistency_verdict.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_20260325_171120__semantic_consistency_verdict.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_20260325_171120__smoke.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_20260325_171120__summary.txt
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/field_tests/u6_field_validation_20260325_171120/u6_field_validation_summary.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/logs/UDQ_DIAG_LIFECYCLE_BUNDLE__2026-03-23.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/logs/UDQ_LIFECYCLE_REVIEW_BUNDLE__2026-03-23_pass1.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/logs/UDQ_LIFECYCLE_REVIEW_BUNDLE__2026-03-23_pass2.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/logs/UDQ_LIFECYCLE_TRANSITION_HISTORY__2026-03-23_pass2.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/logs/UDQ_RUNTIME_PERFORMANCE_INVENTORY__2026-03-23_pass1.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/logs/UDQ_RUNTIME_PERFORMANCE_INVENTORY__2026-03-23_pass2.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/logs/UDQ_VERTICAL_SLICE_REVIEW_BUNDLE__2026-03-23.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: proof/logs/udq_document_completeness_report__2026-03-24.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_consistency_findings_r10.csv
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_consistency_findings_r10.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_contradiction_register_r4.csv
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_contradiction_register_r4.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_cross_reference_edges_r17.csv
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_decision_log_r1.csv
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_decision_log_r1.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_document_registry_r21.csv
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_document_registry_r21.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_duplication_register_r4.csv
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_duplication_register_r4.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_execution_contract_r2.csv
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_execution_contract_r2.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_governance_model_r2.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_implementation_coverage_matrix_r2.csv
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_implementation_coverage_matrix_r2.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_invariant_registry_r2.csv
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_invariant_registry_r2.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_readme_registry_r0.csv
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_readme_registry_r0.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_requirement_registry_r9.csv
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_requirement_registry_r9.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_term_usage_matrix_r4.csv
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_term_usage_matrix_r4.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_test_inventory_r0.csv
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_test_inventory_r0.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_tool_inventory_r0.csv
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_tool_inventory_r0.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: runtime/README.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: tools/README.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-ROADMAP-SPEC-001__Completed_Product_Roadmap_and_Sprint_Sequence__r0__ACTIVE.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: docs/active/UDQ-SPRINT-SOP-001__Sprint_Planning_Execution_and_Closeout_Process__r0__ACTIVE.md
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_sprint_sequence_register_r0.json
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true
+  - path: registries/active/universalDAQ_sprint_sequence_register_r0.csv
+    state: ACTIVE
+    owner_lane: ACTIVE
+    authoritative: true

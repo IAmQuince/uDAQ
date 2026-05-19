@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "active_root_exists": true,
+    "demo_request_available": true,
+    "manual_checklist_exists": true,
+    "mapping_module_imported": true,
+    "no_live_execution_claim": true,
+    "package_root_exists": true,
+    "run_diagnostics_bat_exists": true,
+    "run_udaq_bat_exists": true,
+    "sandbox_state_hash_available": true
+  },
+  "cwd": "/mnt/data/udaq_fix/20260515_02_mapping/ACTIVE",
+  "package_id": "UDQ-PKG-20260515-02-MAPPING-R02",
+  "passed": true,
+  "platform": "Linux-4.4.0-x86_64-with-glibc2.41",
+  "python": "3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]",
+  "test_name": "smoke"
+}

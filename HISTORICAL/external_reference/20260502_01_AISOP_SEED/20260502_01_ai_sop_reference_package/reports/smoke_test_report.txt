@@ -1,0 +1,16 @@
+PACKAGE SMOKE TEST REPORT
+========================================================================
+timestamp: 2026-05-02 20:46:18
+python: 3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]
+package_root: /mnt/data/20260502_01_ai_sop_reference_package
+
+PASS README exists: README_START_HERE.md
+PASS Product requirements exists: docs/005_PRODUCT_REQUIREMENTS.md
+PASS Feature inventory exists: FEATURE_INVENTORY.md
+PASS Acceptance test plan exists: ACCEPTANCE_TEST_PLAN.md
+PASS Requirement catalog exists: requirements/requirements_catalog.json
+PASS loaded requirement catalog with 11 entries
+PASS feature IDs counted: 9
+PASS acceptance test IDs counted: 11
+
+SUMMARY: PASS

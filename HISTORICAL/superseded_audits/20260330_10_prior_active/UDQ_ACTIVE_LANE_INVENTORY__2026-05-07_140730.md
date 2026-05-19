@@ -1,0 +1,34 @@
+# Active Lane Inventory
+
+- package_id: `UDQ-PKG-20260330-CONTROLLER-AUTHORIZED-MAPPING-APPLY-DRY-RUN-COMMIT-BOUNDARY-R01`
+- canonical_review_entry: `docs/release/REVIEW_START_HERE__UDQ-PKG-20260330-CONTROLLER-AUTHORIZED-MAPPING-APPLY-DRY-RUN-COMMIT-BOUNDARY-R01__ACTIVE.md`
+- release_top_level_file_count: `10`
+- historical_release_file_count: `85`
+- active_acceptance_runs: `20260327_025549`
+- archived_acceptance_summaries: `20260327_023724`
+- active_audit_file_count: `6`
+
+## Active audit files
+- `SPRINT_TIME_LEDGER__20260330_10.jsonl`
+- `SPRINT_TIME_LEDGER__20260330_10.md`
+- `SPRINT_TIME_SUMMARY__20260330_10.md`
+- `UDQ_MASTER_AUDIT__2026-05-07_140530.md`
+- `UDQ_MASTER_AUDIT__2026-05-07_140554.md`
+- `UDQ_VALIDATION_STATUS__2026-05-07_140700.md`
+
+## Top-level release files
+- `20260330_10_controller-authorized-mapping-apply-dry-run-commit-boundary__implementation-summary.md`
+- `20260330_10_controller-authorized-mapping-apply-dry-run-commit-boundary__validation-summary.md`
+- `ASSESSMENT_RECONCILIATION_LEDGER.md`
+- `ASSESSMENT_RESPONSE_PLAN.md`
+- `EXEC_SUMMARY.md`
+- `PACKAGE_ENTRY_REGISTRY.yaml`
+- `RELEASE_MANIFEST.yaml`
+- `RELEASE_NOTES.md`
+- `REVIEW_START_HERE__UDQ-PKG-20260330-CONTROLLER-AUTHORIZED-MAPPING-APPLY-DRY-RUN-COMMIT-BOUNDARY-R01__ACTIVE.md`
+- `SAVEPOINT_SUMMARY.md`
+
+## Active acceptance tree
+- file_count: `110`
+- byte_count: `1896964`
+

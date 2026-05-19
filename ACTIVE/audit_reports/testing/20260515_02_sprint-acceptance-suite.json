@@ -1,0 +1,493 @@
+{
+  "package_id": "UDQ-PKG-20260515-02-MAPPING-R02",
+  "passed": true,
+  "results": [
+    {
+      "details": {
+        "checks": {
+          "active_root_exists": true,
+          "demo_request_available": true,
+          "manual_checklist_exists": true,
+          "mapping_module_imported": true,
+          "no_live_execution_claim": true,
+          "package_root_exists": true,
+          "run_diagnostics_bat_exists": true,
+          "run_udaq_bat_exists": true,
+          "sandbox_state_hash_available": true
+        },
+        "cwd": "/mnt/data/udaq_fix/20260515_02_mapping/ACTIVE",
+        "package_id": "UDQ-PKG-20260515-02-MAPPING-R02",
+        "passed": true,
+        "platform": "Linux-4.4.0-x86_64-with-glibc2.41",
+        "python": "3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]",
+        "test_name": "smoke"
+      },
+      "name": "Smoke Test",
+      "passed": true,
+      "report_path": "/mnt/data/udaq_fix/20260515_02_mapping/ACTIVE/audit_reports/testing/20260515_02_smoke-test.json",
+      "summary": "Smoke test passed"
+    },
+    {
+      "details": {
+        "events": [
+          {
+            "accepted": true,
+            "after_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+            "before_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+            "event_id": "map-sandbox-audit::3fa754fb-e8a1-45ac-b5b4-ee2bb0a5d963",
+            "event_kind": "snapshot_created",
+            "executed_live": false,
+            "message": "Sandbox snapshot captured for rollback; no live execution occurred.",
+            "request_id": null,
+            "rollback_token": "map-sandbox-rollback::c415dbc6-6ffa-472d-9fd4-d89740f3c1b6",
+            "timestamp": 1002
+          },
+          {
+            "accepted": true,
+            "after_hash": "71bf4de59f6fd71e652c17ad2fedd0b475f2202e5c43d72a0f6971e48270bef0",
+            "before_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+            "event_id": "map-sandbox-audit::603efedf-e9a5-4672-b338-920990b564fc",
+            "event_kind": "apply_accepted",
+            "executed_live": false,
+            "message": "Sandbox apply accepted for 2 mapping change(s); no live execution occurred.",
+            "request_id": "REQ-DEMO-SANDBOX-MAPPING-001",
+            "rollback_token": "map-sandbox-rollback::c415dbc6-6ffa-472d-9fd4-d89740f3c1b6",
+            "timestamp": 1002
+          }
+        ],
+        "final_state": {
+          "bindings": [
+            {
+              "device_identity_key": "DEMO-DEVICE-001",
+              "direction": "device_input_to_internal_signal",
+              "display_name": "demo_flow_slpm",
+              "enabled": true,
+              "endpoint": "AIN3",
+              "logical_id": "SIG-DEMO-FLOW",
+              "note": "sandbox-applied:add",
+              "units": "slpm"
+            },
+            {
+              "device_identity_key": "DEMO-DEVICE-001",
+              "direction": "device_input_to_internal_signal",
+              "display_name": "demo_pressure_bar",
+              "enabled": true,
+              "endpoint": "AIN1",
+              "logical_id": "SIG-DEMO-PRESSURE",
+              "note": "",
+              "units": "bar"
+            },
+            {
+              "device_identity_key": "DEMO-DEVICE-001",
+              "direction": "device_input_to_internal_signal",
+              "display_name": "demo_temperature_c",
+              "enabled": true,
+              "endpoint": "AIN2",
+              "logical_id": "SIG-DEMO-TEMP",
+              "note": "sandbox-applied:replace",
+              "units": "C"
+            }
+          ],
+          "created_timestamp": 1000,
+          "device_identity_key": "DEMO-DEVICE-001",
+          "notes": [
+            "Demo state for Sprint 1 sandbox-only mapping mutation proof."
+          ],
+          "revision": 1,
+          "sandbox_id": "demo-mapping-sandbox",
+          "updated_timestamp": 1002
+        },
+        "initial_state": {
+          "bindings": [
+            {
+              "device_identity_key": "DEMO-DEVICE-001",
+              "direction": "device_input_to_internal_signal",
+              "display_name": "demo_temperature_c",
+              "enabled": true,
+              "endpoint": "AIN0",
+              "logical_id": "SIG-DEMO-TEMP",
+              "note": "",
+              "units": "C"
+            },
+            {
+              "device_identity_key": "DEMO-DEVICE-001",
+              "direction": "device_input_to_internal_signal",
+              "display_name": "demo_pressure_bar",
+              "enabled": true,
+              "endpoint": "AIN1",
+              "logical_id": "SIG-DEMO-PRESSURE",
+              "note": "",
+              "units": "bar"
+            }
+          ],
+          "created_timestamp": 1000,
+          "device_identity_key": "DEMO-DEVICE-001",
+          "notes": [
+            "Demo state for Sprint 1 sandbox-only mapping mutation proof."
+          ],
+          "revision": 0,
+          "sandbox_id": "demo-mapping-sandbox",
+          "updated_timestamp": 1000
+        },
+        "package_id": "UDQ-PKG-20260515-02-MAPPING-R02",
+        "passed": true,
+        "result": {
+          "accepted": true,
+          "after_hash": "71bf4de59f6fd71e652c17ad2fedd0b475f2202e5c43d72a0f6971e48270bef0",
+          "applied_change_count": 2,
+          "audit_event": {
+            "accepted": true,
+            "after_hash": "71bf4de59f6fd71e652c17ad2fedd0b475f2202e5c43d72a0f6971e48270bef0",
+            "before_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+            "event_id": "map-sandbox-audit::603efedf-e9a5-4672-b338-920990b564fc",
+            "event_kind": "apply_accepted",
+            "executed_live": false,
+            "message": "Sandbox apply accepted for 2 mapping change(s); no live execution occurred.",
+            "request_id": "REQ-DEMO-SANDBOX-MAPPING-001",
+            "rollback_token": "map-sandbox-rollback::c415dbc6-6ffa-472d-9fd4-d89740f3c1b6",
+            "timestamp": 1002
+          },
+          "before_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+          "blocked_reason": "",
+          "diff_report": {
+            "added_count": 1,
+            "after_hash": "71bf4de59f6fd71e652c17ad2fedd0b475f2202e5c43d72a0f6971e48270bef0",
+            "before_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+            "changed_count": 1,
+            "entries": [
+              {
+                "after_display_name": "demo_flow_slpm",
+                "after_endpoint": "AIN3",
+                "after_units": "slpm",
+                "before_display_name": "",
+                "before_endpoint": "",
+                "before_units": null,
+                "change_kind": "add",
+                "direction": "device_input_to_internal_signal",
+                "logical_id": "SIG-DEMO-FLOW"
+              },
+              {
+                "after_display_name": "demo_pressure_bar",
+                "after_endpoint": "AIN1",
+                "after_units": "bar",
+                "before_display_name": "demo_pressure_bar",
+                "before_endpoint": "AIN1",
+                "before_units": "bar",
+                "change_kind": "unchanged",
+                "direction": "device_input_to_internal_signal",
+                "logical_id": "SIG-DEMO-PRESSURE"
+              },
+              {
+                "after_display_name": "demo_temperature_c",
+                "after_endpoint": "AIN2",
+                "after_units": "C",
+                "before_display_name": "demo_temperature_c",
+                "before_endpoint": "AIN0",
+                "before_units": "C",
+                "change_kind": "replace",
+                "direction": "device_input_to_internal_signal",
+                "logical_id": "SIG-DEMO-TEMP"
+              }
+            ],
+            "removed_count": 0,
+            "total_change_count": 2,
+            "unchanged_count": 1
+          },
+          "executed_live": false,
+          "rejected_change_count": 0,
+          "request_id": "REQ-DEMO-SANDBOX-MAPPING-001",
+          "result_id": "MAP-SANDBOX-DEMO-RESULT-001",
+          "rollback_token": "map-sandbox-rollback::c415dbc6-6ffa-472d-9fd4-d89740f3c1b6",
+          "warnings": []
+        },
+        "test_name": "mapping_sandbox_demo"
+      },
+      "name": "Mapping Sandbox Demo",
+      "passed": true,
+      "report_path": "/mnt/data/udaq_fix/20260515_02_mapping/ACTIVE/audit_reports/testing/20260515_02_mapping-sandbox-demo.json",
+      "summary": "Sandbox demo applied mapping changes without live execution"
+    },
+    {
+      "details": {
+        "after_apply_hash": "10969c7e4628528488e7cbe4c0ca49c3b97750571c27f277b9248595b33022cb",
+        "apply_result": {
+          "accepted": true,
+          "after_hash": "10969c7e4628528488e7cbe4c0ca49c3b97750571c27f277b9248595b33022cb",
+          "applied_change_count": 2,
+          "audit_event": {
+            "accepted": true,
+            "after_hash": "10969c7e4628528488e7cbe4c0ca49c3b97750571c27f277b9248595b33022cb",
+            "before_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+            "event_id": "map-sandbox-audit::ad984230-7585-4566-81bc-8ba4dd58a95f",
+            "event_kind": "apply_accepted",
+            "executed_live": false,
+            "message": "Sandbox apply accepted for 2 mapping change(s); no live execution occurred.",
+            "request_id": "REQ-DEMO-SANDBOX-MAPPING-001",
+            "rollback_token": "map-sandbox-rollback::a97d466c-0aa2-49c5-aa3b-6575ccefe42d",
+            "timestamp": 1003
+          },
+          "before_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+          "blocked_reason": "",
+          "diff_report": {
+            "added_count": 1,
+            "after_hash": "10969c7e4628528488e7cbe4c0ca49c3b97750571c27f277b9248595b33022cb",
+            "before_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+            "changed_count": 1,
+            "entries": [
+              {
+                "after_display_name": "demo_flow_slpm",
+                "after_endpoint": "AIN3",
+                "after_units": "slpm",
+                "before_display_name": "",
+                "before_endpoint": "",
+                "before_units": null,
+                "change_kind": "add",
+                "direction": "device_input_to_internal_signal",
+                "logical_id": "SIG-DEMO-FLOW"
+              },
+              {
+                "after_display_name": "demo_pressure_bar",
+                "after_endpoint": "AIN1",
+                "after_units": "bar",
+                "before_display_name": "demo_pressure_bar",
+                "before_endpoint": "AIN1",
+                "before_units": "bar",
+                "change_kind": "unchanged",
+                "direction": "device_input_to_internal_signal",
+                "logical_id": "SIG-DEMO-PRESSURE"
+              },
+              {
+                "after_display_name": "demo_temperature_c",
+                "after_endpoint": "AIN2",
+                "after_units": "C",
+                "before_display_name": "demo_temperature_c",
+                "before_endpoint": "AIN0",
+                "before_units": "C",
+                "change_kind": "replace",
+                "direction": "device_input_to_internal_signal",
+                "logical_id": "SIG-DEMO-TEMP"
+              }
+            ],
+            "removed_count": 0,
+            "total_change_count": 2,
+            "unchanged_count": 1
+          },
+          "executed_live": false,
+          "rejected_change_count": 0,
+          "request_id": "REQ-DEMO-SANDBOX-MAPPING-001",
+          "result_id": "MAP-SANDBOX-APPLY-RESULT-001",
+          "rollback_token": "map-sandbox-rollback::a97d466c-0aa2-49c5-aa3b-6575ccefe42d",
+          "warnings": []
+        },
+        "events": [
+          {
+            "accepted": true,
+            "after_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+            "before_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+            "event_id": "map-sandbox-audit::ab82ba3c-3d8b-404b-9f2f-a13245018483",
+            "event_kind": "snapshot_created",
+            "executed_live": false,
+            "message": "Sandbox snapshot captured for rollback; no live execution occurred.",
+            "request_id": null,
+            "rollback_token": "map-sandbox-rollback::a97d466c-0aa2-49c5-aa3b-6575ccefe42d",
+            "timestamp": 1003
+          },
+          {
+            "accepted": true,
+            "after_hash": "10969c7e4628528488e7cbe4c0ca49c3b97750571c27f277b9248595b33022cb",
+            "before_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+            "event_id": "map-sandbox-audit::ad984230-7585-4566-81bc-8ba4dd58a95f",
+            "event_kind": "apply_accepted",
+            "executed_live": false,
+            "message": "Sandbox apply accepted for 2 mapping change(s); no live execution occurred.",
+            "request_id": "REQ-DEMO-SANDBOX-MAPPING-001",
+            "rollback_token": "map-sandbox-rollback::a97d466c-0aa2-49c5-aa3b-6575ccefe42d",
+            "timestamp": 1003
+          },
+          {
+            "accepted": true,
+            "after_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+            "before_hash": "10969c7e4628528488e7cbe4c0ca49c3b97750571c27f277b9248595b33022cb",
+            "event_id": "map-sandbox-audit::8fe85228-b720-43a9-85bf-3d9a948ffec5",
+            "event_kind": "rollback_accepted",
+            "executed_live": false,
+            "message": "Sandbox rollback accepted; live state and hardware remained untouched.",
+            "request_id": null,
+            "rollback_token": "map-sandbox-rollback::a97d466c-0aa2-49c5-aa3b-6575ccefe42d",
+            "timestamp": 1004
+          }
+        ],
+        "final_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+        "original_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+        "package_id": "UDQ-PKG-20260515-02-MAPPING-R02",
+        "passed": true,
+        "rollback_result": {
+          "accepted": true,
+          "after_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+          "applied_change_count": 1,
+          "audit_event": {
+            "accepted": true,
+            "after_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+            "before_hash": "10969c7e4628528488e7cbe4c0ca49c3b97750571c27f277b9248595b33022cb",
+            "event_id": "map-sandbox-audit::8fe85228-b720-43a9-85bf-3d9a948ffec5",
+            "event_kind": "rollback_accepted",
+            "executed_live": false,
+            "message": "Sandbox rollback accepted; live state and hardware remained untouched.",
+            "request_id": null,
+            "rollback_token": "map-sandbox-rollback::a97d466c-0aa2-49c5-aa3b-6575ccefe42d",
+            "timestamp": 1004
+          },
+          "before_hash": "10969c7e4628528488e7cbe4c0ca49c3b97750571c27f277b9248595b33022cb",
+          "blocked_reason": "",
+          "diff_report": {
+            "added_count": 0,
+            "after_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+            "before_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+            "changed_count": 0,
+            "entries": [
+              {
+                "after_display_name": "demo_pressure_bar",
+                "after_endpoint": "AIN1",
+                "after_units": "bar",
+                "before_display_name": "demo_pressure_bar",
+                "before_endpoint": "AIN1",
+                "before_units": "bar",
+                "change_kind": "unchanged",
+                "direction": "device_input_to_internal_signal",
+                "logical_id": "SIG-DEMO-PRESSURE"
+              },
+              {
+                "after_display_name": "demo_temperature_c",
+                "after_endpoint": "AIN0",
+                "after_units": "C",
+                "before_display_name": "demo_temperature_c",
+                "before_endpoint": "AIN0",
+                "before_units": "C",
+                "change_kind": "unchanged",
+                "direction": "device_input_to_internal_signal",
+                "logical_id": "SIG-DEMO-TEMP"
+              }
+            ],
+            "removed_count": 0,
+            "total_change_count": 0,
+            "unchanged_count": 2
+          },
+          "executed_live": false,
+          "rejected_change_count": 0,
+          "request_id": null,
+          "result_id": "map-sandbox-rollback::a4840928-554a-44ba-b6f9-a694fff2304e",
+          "rollback_token": "map-sandbox-rollback::a97d466c-0aa2-49c5-aa3b-6575ccefe42d",
+          "warnings": []
+        },
+        "test_name": "apply_rollback"
+      },
+      "name": "Apply/Rollback Test",
+      "passed": true,
+      "report_path": "/mnt/data/udaq_fix/20260515_02_mapping/ACTIVE/audit_reports/testing/20260515_02_apply-rollback-test.json",
+      "summary": "Apply/rollback restored the sandbox state hash"
+    },
+    {
+      "details": {
+        "markdown_report_path": "/mnt/data/udaq_fix/20260515_02_mapping/ACTIVE/audit_reports/testing/20260515_02_mapping-diff-report.md",
+        "package_id": "UDQ-PKG-20260515-02-MAPPING-R02",
+        "passed": true,
+        "result": {
+          "accepted": true,
+          "after_hash": "c0e02c9abc01d5e6c5d92294d43752b96cf1b0ecfda0ba16115f6d9d39a079ce",
+          "applied_change_count": 2,
+          "audit_event": {
+            "accepted": true,
+            "after_hash": "c0e02c9abc01d5e6c5d92294d43752b96cf1b0ecfda0ba16115f6d9d39a079ce",
+            "before_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+            "event_id": "map-sandbox-audit::36ac907f-886c-45fc-b3f2-f608f64661d8",
+            "event_kind": "apply_accepted",
+            "executed_live": false,
+            "message": "Sandbox apply accepted for 2 mapping change(s); no live execution occurred.",
+            "request_id": "REQ-DEMO-SANDBOX-MAPPING-001",
+            "rollback_token": "map-sandbox-rollback::d4d8bb40-b2be-4be8-82fa-7e87eb1a134f",
+            "timestamp": 1005
+          },
+          "before_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+          "blocked_reason": "",
+          "diff_report": {
+            "added_count": 1,
+            "after_hash": "c0e02c9abc01d5e6c5d92294d43752b96cf1b0ecfda0ba16115f6d9d39a079ce",
+            "before_hash": "434fafdf81b561e2ad655a86901a76d245d7922a11054f033811ea965359bc6b",
+            "changed_count": 1,
+            "entries": [
+              {
+                "after_display_name": "demo_flow_slpm",
+                "after_endpoint": "AIN3",
+                "after_units": "slpm",
+                "before_display_name": "",
+                "before_endpoint": "",
+                "before_units": null,
+                "change_kind": "add",
+                "direction": "device_input_to_internal_signal",
+                "logical_id": "SIG-DEMO-FLOW"
+              },
+              {
+                "after_display_name": "demo_pressure_bar",
+                "after_endpoint": "AIN1",
+                "after_units": "bar",
+                "before_display_name": "demo_pressure_bar",
+                "before_endpoint": "AIN1",
+                "before_units": "bar",
+                "change_kind": "unchanged",
+                "direction": "device_input_to_internal_signal",
+                "logical_id": "SIG-DEMO-PRESSURE"
+              },
+              {
+                "after_display_name": "demo_temperature_c",
+                "after_endpoint": "AIN2",
+                "after_units": "C",
+                "before_display_name": "demo_temperature_c",
+                "before_endpoint": "AIN0",
+                "before_units": "C",
+                "change_kind": "replace",
+                "direction": "device_input_to_internal_signal",
+                "logical_id": "SIG-DEMO-TEMP"
+              }
+            ],
+            "removed_count": 0,
+            "total_change_count": 2,
+            "unchanged_count": 1
+          },
+          "executed_live": false,
+          "rejected_change_count": 0,
+          "request_id": "REQ-DEMO-SANDBOX-MAPPING-001",
+          "result_id": "MAP-SANDBOX-DIFF-RESULT-001",
+          "rollback_token": "map-sandbox-rollback::d4d8bb40-b2be-4be8-82fa-7e87eb1a134f",
+          "warnings": []
+        },
+        "test_name": "diff_report"
+      },
+      "name": "Diff Report Test",
+      "passed": true,
+      "report_path": "/mnt/data/udaq_fix/20260515_02_mapping/ACTIVE/audit_reports/testing/20260515_02_mapping-diff-report.md",
+      "summary": "Diff report generated"
+    },
+    {
+      "details": {
+        "checks": {
+          "operator_shell_class_found": true,
+          "qt_shell_exists": true,
+          "remove_logic_method_is_not_stub": true,
+          "required_logic_methods_present": true,
+          "system_summary_refresh_is_meaningful": true,
+          "system_workspace_before_tab_signal": true
+        },
+        "missing_logic_methods": [],
+        "package_id": "UDQ-PKG-20260515-02-MAPPING-R02",
+        "passed": true,
+        "source_path": "/mnt/data/udaq_fix/20260515_02_mapping/ACTIVE/src/universaldaq/ui/qt_shell.py",
+        "test_name": "visible_shell_wiring_audit"
+      },
+      "name": "Visible Shell Wiring Audit",
+      "passed": true,
+      "report_path": "/mnt/data/udaq_fix/20260515_02_mapping/ACTIVE/audit_reports/testing/20260515_02_visible-shell-wiring-audit.json",
+      "summary": "Visible shell wiring audit passed"
+    }
+  ],
+  "test_name": "sprint_acceptance_suite"
+}

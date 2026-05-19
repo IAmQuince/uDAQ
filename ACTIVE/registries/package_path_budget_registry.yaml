@@ -1,0 +1,56 @@
+current_package_id: UDQ-PKG-20260515-02-MAPPING-R02
+intended_unzip_parent: C:\Users\iaq16\Documents\Code\uDAQ
+max_path_length: 243
+paths_over_245: 0
+active_paths_over_245: 0
+longest_paths:
+  - length: 243
+    path: HISTORICAL/superseded_docs/release/20260330_10_prior_active/REVIEW_START_HERE__UDQ-PKG-20260330-CONTROLLER-AUTHORIZED-MAPPING-APPLY-DRY-RUN-COMMIT-BOUNDARY-R01__HISTORICAL.md
+  - length: 232
+    path: ACTIVE/proof/field_tests/20260325_02_real-u6-guided-unplug-replug-validation/20260325_02_real-u6-guided-unplug-replug-validation__semantic-consistency-verdict.json
+  - length: 231
+    path: ACTIVE/proof/field_tests/20260325_02_real-u6-guided-unplug-replug-validation/20260325_02_real-u6-guided-unplug-replug-validation__semantic-consistency-verdict.txt
+  - length: 227
+    path: HISTORICAL/superseded_docs/release/20260330_10_prior_active/20260330_10_controller-authorized-mapping-apply-dry-run-commit-boundary__implementation-summary.md
+  - length: 227
+    path: HISTORICAL/external_reference/20260502_01_AISOP_SEED/20260502_01_ai_sop_reference_package/docs/280_NETWORKING_IP_ADDRESSES_COMMAND_LINE_FILE_TRANSFER_GUIDE.md
+  - length: 223
+    path: HISTORICAL/superseded_docs/release/20260330_10_prior_active/20260330_10_controller-authorized-mapping-apply-dry-run-commit-boundary__validation-summary.md
+  - length: 222
+    path: HISTORICAL/external_reference/20260502_01_AISOP_SEED/20260502_01_ai_sop_reference_package/docs/270_PYDROID_ANDROID_PYTHON_AND_AI_CODING_WORKFLOW_GUIDE.md
+  - length: 221
+    path: HISTORICAL/external_reference/20260502_01_AISOP_SEED/20260502_01_ai_sop_reference_package/docs/210_RASPBERRY_PI_ARDUINO_ESP32_SETUP_AND_LIBRARY_GUIDE.md
+  - length: 221
+    path: HISTORICAL/external_reference/20260502_01_AISOP_SEED/20260502_01_ai_sop_reference_package/docs/200_FILE_DOWNLOAD_INSTALLATION_AND_COMMAND_SHELL_GUIDE.md
+  - length: 221
+    path: ACTIVE/proof/field_tests/20260325_02_real-u6-guided-unplug-replug-validation/20260325_02_real-u6-guided-unplug-replug-validation__artifact-manifest.json
+  - length: 220
+    path: HISTORICAL/external_reference/20260502_01_AISOP_SEED/20260502_01_ai_sop_reference_package/docs/240_MIDI_PYTHON_AND_COMPUTER_INSTRUMENT_CONTROL_GUIDE.md
+  - length: 220
+    path: ACTIVE/proof/field_tests/20260325_02_real-u6-guided-unplug-replug-validation/20260325_02_real-u6-guided-unplug-replug-validation__preflight-report.json
+  - length: 220
+    path: ACTIVE/proof/field_tests/20260325_02_real-u6-guided-unplug-replug-validation/20260325_02_real-u6-guided-unplug-replug-validation__artifact-manifest.txt
+  - length: 219
+    path: HISTORICAL/external_reference/20260502_01_AISOP_SEED/20260502_01_ai_sop_reference_package/docs/190_INLINE_QC_DEFECT_DETECTION_AND_ANALYSIS_DOCTRINE.md
+  - length: 219
+    path: HISTORICAL/external_reference/20260502_01_AISOP_SEED/20260502_01_ai_sop_reference_package/docs/010_WINDOWS_SOFTWARE_DOWNLOAD_AND_INSTALLATION_GUIDE.md
+  - length: 219
+    path: ACTIVE/proof/field_tests/20260325_02_real-u6-guided-unplug-replug-validation/20260325_02_real-u6-guided-unplug-replug-validation__preflight-report.txt
+  - length: 218
+    path: HISTORICAL/external_reference/20260502_01_AISOP_SEED/20260502_01_ai_sop_reference_package/docs/205_PYTHON_LIBRARY_REFERENCE_AND_ENVIRONMENT_BUNDLE.md
+  - length: 216
+    path: HISTORICAL/external_reference/20260502_01_AISOP_SEED/20260502_01_ai_sop_reference_package/docs/195_QC_DEFECT_CODE_PATTERNS_AND_DATABASE_EXAMPLES.md
+  - length: 216
+    path: ACTIVE/proof/field_tests/20260325_02_real-u6-guided-unplug-replug-validation/20260325_02_real-u6-guided-unplug-replug-validation__review-summary.md
+  - length: 216
+    path: ACTIVE/proof/field_tests/20260325_00_simulated-u6-startup-open-smoke/20260325_00_simulated-u6-startup-open-smoke__semantic-consistency-verdict.json
+  - length: 215
+    path: ACTIVE/proof/field_tests/20260325_02_real-u6-guided-unplug-replug-validation/20260325_02_real-u6-guided-unplug-replug-validation__diagnostics.json
+  - length: 215
+    path: ACTIVE/proof/field_tests/20260325_00_simulated-u6-startup-open-smoke/20260325_00_simulated-u6-startup-open-smoke__semantic-consistency-verdict.txt
+  - length: 214
+    path: ACTIVE/proof/field_tests/20260325_00_simulated-u6-guided-validation/20260325_00_simulated-u6-guided-validation__semantic-consistency-verdict.json
+  - length: 213
+    path: HISTORICAL/external_reference/20260502_01_AISOP_SEED/20260502_01_ai_sop_reference_package/docs/030_CONCEPT_DEVELOPMENT_AND_REQUIREMENTS_BRIEF.md
+  - length: 213
+    path: ACTIVE/proof/field_tests/20260325_02_real-u6-guided-unplug-replug-validation/20260325_02_real-u6-guided-unplug-replug-validation__start-here.txt

@@ -1,0 +1,20 @@
+{
+  "active_root": "ACTIVE",
+  "created_by": "ChatGPT Sprint 1 mapping sandbox mutation proof R2 visible shell hotfix run",
+  "historical_root": "HISTORICAL",
+  "intended_unzip_parent": "C:\\Users\\iaq16\\Documents\\Code\\uDAQ",
+  "live_mapping_apply": "deferred",
+  "package_date": "2026-05-15",
+  "package_id": "UDQ-PKG-20260515-02-MAPPING-R02",
+  "package_slug": "mapping",
+  "root_folder": "20260515_02_mapping-r2",
+  "run_id": "R02",
+  "runtime_behavior_changes": true,
+  "sandbox_mapping_apply": "implemented",
+  "source_baseline": "20260515_01_sprint-zero",
+  "status": "active_sprint_1_mapping_sandbox_mutation_proof_r2_visible_shell_hotfix",
+  "supersedes": [
+    "UDQ-PKG-20260515-02-MAPPING-R01",
+    "UDQ-PKG-20260515-SPRINT-ZERO-ROADMAP-AND-GOVERNANCE-STABILIZATION-R01"
+  ]
+}

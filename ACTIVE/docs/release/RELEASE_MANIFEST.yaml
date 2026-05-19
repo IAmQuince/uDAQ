@@ -1,0 +1,19 @@
+package_id: UDQ-PKG-20260515-02-MAPPING-R02
+package_slug: mapping
+root_folder: 20260515_02_mapping-r2
+status: active
+canonical_review_entry: docs/release/REVIEW_START_HERE__UDQ-PKG-20260515-02-MAPPING-R02__ACTIVE.md
+release_documents:
+  - README_START_HERE.md
+  - PACKAGE_MANIFEST.md
+  - docs/release/REVIEW_START_HERE__UDQ-PKG-20260515-02-MAPPING-R02__ACTIVE.md
+  - docs/release/EXEC_SUMMARY.md
+  - docs/release/RELEASE_NOTES.md
+  - docs/release/20260515_02_mapping__implementation-summary.md
+  - docs/release/20260515_02_mapping__validation-summary.md
+  - docs/testing/20260515_02_manual-test-checklist.md
+runtime_claims:
+  sandbox_mapping_apply: implemented
+  live_mapping_apply: deferred
+  physical_output_writes: deferred
+  hardware_required_for_tests: false

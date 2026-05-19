@@ -1,7 +1,0 @@
-finding_id,severity,domain,summary
-UDQ-CONS-001,PASS,governance_model,The package now contains an explicit governance model and execution contract.
-UDQ-CONS-002,PASS,human_facing,"Root human-facing guidance files are present and distinguish orientation, status, actions, and audit/governance flow."
-UDQ-CONS-003,PASS,invariants,A first invariant registry exists for the highest-risk semantic boundaries.
-UDQ-CONS-004,PASS,contradictions,Contradiction register items remain resolved or intentionally classified.
-UDQ-CONS-005,PASS,duplication,Duplication is classified and intentional where the human-facing layer overlaps for navigation reasons.
-UDQ-CONS-006,WIP,implementation,No runnable implementation baseline exists yet; the package remains intentionally pre-code.

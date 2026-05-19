@@ -1,0 +1,21 @@
+current_package:
+  package_id: UDQ-PKG-20260515-02-MAPPING-R02
+  package_root: 20260515_02_mapping
+  active_root: ACTIVE
+  historical_root: HISTORICAL
+  date: 2026-05-15
+  derived_from:
+    - UDQ-PKG-20260330-CONTROLLER-AUTHORIZED-MAPPING-APPLY-DRY-RUN-COMMIT-BOUNDARY-R01
+  reconciles:
+    - 20260330_06_full-documentation-reconciliation-and-review-package-closeout
+    - 20260330_09_controlled-mapping-apply-preflight-and-review-path
+    - 20260507_controlled-mapping-apply-preflight-and-review-path__stale_identity
+    - 20260502_01_AISOP_SEED__handoff_reference
+  runtime_behavior_changes: false
+prior_packages:
+  - package_id: UDQ-PKG-20260330-CONTROLLER-AUTHORIZED-MAPPING-APPLY-DRY-RUN-COMMIT-BOUNDARY-R01
+    role: source_baseline
+    lane: HISTORICAL
+  - package_id: UDQ-PKG-20260330-CONTROLLED-MAPPING-APPLY-PREFLIGHT-AND-REVIEW-PATH-R01
+    role: reconciled_prior
+    lane: HISTORICAL

@@ -1,0 +1,119 @@
+{
+  "package_id": "20260502_01_ai_sop_reference_package",
+  "version": "0.1.0",
+  "revision": "REV-001",
+  "last_updated": "2026-05-02",
+  "requirements": [
+    {
+      "id": "REQ-PKG-001",
+      "title": "Package naming match",
+      "requirement": "The zip filename and internal top-level folder name shall match.",
+      "rationale": "Matching names make package intake, auditing, and handoff less ambiguous.",
+      "acceptance_test": "Open the zip and verify the top-level folder name equals the zip basename.",
+      "priority": "Must",
+      "status": "Implemented",
+      "verification": "TEST-PKG-001"
+    },
+    {
+      "id": "REQ-PKG-002",
+      "title": "Start-here documentation",
+      "requirement": "The package shall include `README_START_HERE.md` at the root.",
+      "rationale": "A reviewer or AI agent needs a deterministic first file to read.",
+      "acceptance_test": "Confirm the file exists and explains package purpose, usage, and audit commands.",
+      "priority": "Must",
+      "status": "Implemented",
+      "verification": "TEST-PKG-002"
+    },
+    {
+      "id": "REQ-DOC-001",
+      "title": "Document control metadata",
+      "requirement": "Every markdown document shall include a machine-readable document-control header with document ID, title, version, revision, status, last-updated date, package ID, and normative status.",
+      "rationale": "The package itself should demonstrate the documentation discipline it recommends.",
+      "acceptance_test": "Run `python tools/package_structure_audit.py` and verify all markdown files pass the metadata check.",
+      "priority": "Must",
+      "status": "Implemented",
+      "verification": "TEST-DOC-001"
+    },
+    {
+      "id": "REQ-DOC-002",
+      "title": "Machine-referenceable requirements",
+      "requirement": "Every normative package requirement shall have a stable ID using the `REQ-*` pattern.",
+      "rationale": "Requirements must be traceable across acceptance tests, feature inventory, workplans, and audit reports.",
+      "acceptance_test": "Confirm this document contains no unnumbered normative requirements and that each `REQ-*` has a linked verification item.",
+      "priority": "Must",
+      "status": "Implemented",
+      "verification": "TEST-DOC-002"
+    },
+    {
+      "id": "REQ-DOC-003",
+      "title": "Documentation index",
+      "requirement": "The package shall include a documentation index listing the major documents and their intended use.",
+      "rationale": "Reviewers should be able to navigate the package without hidden chat context.",
+      "acceptance_test": "Confirm `docs/000_DOCUMENTATION_INDEX.md` exists and lists the package documents.",
+      "priority": "Must",
+      "status": "Implemented",
+      "verification": "TEST-DOC-003"
+    },
+    {
+      "id": "REQ-FEAT-001",
+      "title": "Feature inventory",
+      "requirement": "The package shall include `FEATURE_INVENTORY.md` with stable `FEAT-*` IDs.",
+      "rationale": "Feature preservation depends on knowing what the package currently contains.",
+      "acceptance_test": "Confirm each listed feature has an ID, description, status, and verification method.",
+      "priority": "Must",
+      "status": "Implemented",
+      "verification": "TEST-FEAT-001"
+    },
+    {
+      "id": "REQ-TEST-001",
+      "title": "Acceptance test plan",
+      "requirement": "The package shall include `ACCEPTANCE_TEST_PLAN.md` with stable `TEST-*` IDs mapped to requirements.",
+      "rationale": "A requirement without a test is not enforceable.",
+      "acceptance_test": "Confirm every Must requirement in this file has at least one mapped `TEST-*` item.",
+      "priority": "Must",
+      "status": "Implemented",
+      "verification": "TEST-TEST-001"
+    },
+    {
+      "id": "REQ-AUDIT-001",
+      "title": "Structure audit tool",
+      "requirement": "The package shall include a runnable structure audit tool under `tools/`.",
+      "rationale": "The package should be self-checking and should generate copy/pasteable reports.",
+      "acceptance_test": "Run `python tools/package_structure_audit.py` and confirm the report is written to `reports/package_structure_audit_report.txt`.",
+      "priority": "Must",
+      "status": "Implemented",
+      "verification": "TEST-AUDIT-001"
+    },
+    {
+      "id": "REQ-SMOKE-001",
+      "title": "Smoke test",
+      "requirement": "The package shall include a runnable smoke test under `tests/`.",
+      "rationale": "The package should demonstrate the minimum test harness expected of future code packages.",
+      "acceptance_test": "Run `python tests/smoke_test.py` and confirm the report is written to `reports/smoke_test_report.txt`.",
+      "priority": "Should",
+      "status": "Implemented",
+      "verification": "TEST-SMOKE-001"
+    },
+    {
+      "id": "REQ-GEN-001",
+      "title": "Generalized wording",
+      "requirement": "The deliverable package shall not contain direct personal-name references from the source draft.",
+      "rationale": "The package is intended as a reusable consumer-facing seed, not a personal working note.",
+      "acceptance_test": "Run the audit tool and confirm the personal-reference scan passes.",
+      "priority": "Must",
+      "status": "Implemented",
+      "verification": "TEST-GEN-001"
+    },
+    {
+      "id": "REQ-LIMIT-001",
+      "title": "Known limitations",
+      "requirement": "The package shall include known limitations and make clear that it is an example seed, not a complete production application.",
+      "rationale": "The package should not overclaim completeness.",
+      "acceptance_test": "Confirm `KNOWN_LIMITATIONS.md` exists and includes first-pass limitations.",
+      "priority": "Should",
+      "status": "Implemented",
+      "verification": "TEST-LIMIT-001",
+      "the_machine-readable_requirement_catalog_is_also_stored_at": ""
+    }
+  ]
+}

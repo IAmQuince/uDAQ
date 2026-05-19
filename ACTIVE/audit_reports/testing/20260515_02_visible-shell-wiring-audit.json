@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "operator_shell_class_found": true,
+    "qt_shell_exists": true,
+    "remove_logic_method_is_not_stub": true,
+    "required_logic_methods_present": true,
+    "system_summary_refresh_is_meaningful": true,
+    "system_workspace_before_tab_signal": true
+  },
+  "missing_logic_methods": [],
+  "package_id": "UDQ-PKG-20260515-02-MAPPING-R02",
+  "passed": true,
+  "source_path": "/mnt/data/udaq_fix/20260515_02_mapping/ACTIVE/src/universaldaq/ui/qt_shell.py",
+  "test_name": "visible_shell_wiring_audit"
+}
