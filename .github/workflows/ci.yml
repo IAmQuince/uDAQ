@@ -20,8 +20,16 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install -e .[dev]
-      - name: Run local gate
-        run: python -m tools.dev.run_local_gate --package-root . --strict-dev-tools
+      - name: Run current quality gate
+        run: |
+          python -m tools.audit.run_master_audit --package-root . --profile package-normalization
+          python -m tools.governance.validate_document_impact --package-root .
+          python -m tools.governance.validate_package_entry_surfaces --package-root .
+          python -m tools.governance.validate_readme_control --package-root .
+          python -m tools.governance.validate_document_debt --package-root .
+          python -m tools.package_build.validate_windows_path_budget --package-root . --delivery-root udq_s02b_r01
+          python -m tools.dev.run_shell_smoke --package-root .
+          python -m pytest tests/ -q
 
   simulated-u6-smoke:
     runs-on: ubuntu-latest

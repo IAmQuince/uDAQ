@@ -3802,7 +3802,7 @@ def launch_visible_operator_shell(*, initial_scenario_id: str = 'logic_control_d
             chosen = visible_signal_ids[:3]
             if self._active_signal_id in visible_signal_ids:
                 chosen = [self._active_signal_id] + [sid for sid in visible_signal_ids if sid != self._active_signal_id][:2]
-            self.pip_overlay.title_label.setText(f'Graph — {self._graph_presentation.replace('_', ' ')}')
+            self.pip_overlay.title_label.setText(f"Graph — {self._graph_presentation.replace('_', ' ')}")
             for signal_id in chosen:
                 state = self._trace_states.get(signal_id)
                 if state is None:
