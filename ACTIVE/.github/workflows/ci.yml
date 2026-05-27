@@ -24,7 +24,9 @@ jobs:
           python -m tools.governance.validate_readme_control --package-root .
           python -m tools.governance.validate_document_debt --package-root .
           python -m tools.package_build.validate_windows_path_budget --package-root . --delivery-root udq_s02b_r01
+          python -m tools.dev.run_session_checkpoint_smoke --package-root .
           python -m tools.dev.run_shell_smoke --package-root .
+          rm -rf .ruff_cache
           python -m pytest tests/ -q
 
   simulated-u6-smoke:

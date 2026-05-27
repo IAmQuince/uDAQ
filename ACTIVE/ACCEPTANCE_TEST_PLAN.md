@@ -35,6 +35,7 @@ PYTHONDONTWRITEBYTECODE=1 python -m tools.governance.validate_package_entry_surf
 PYTHONDONTWRITEBYTECODE=1 python -m tools.governance.validate_readme_control --package-root .
 PYTHONDONTWRITEBYTECODE=1 python -m tools.governance.validate_document_debt --package-root .
 PYTHONDONTWRITEBYTECODE=1 python -m tools.package_build.validate_windows_path_budget --package-root . --delivery-root udq_s02b_r01
+PYTHONDONTWRITEBYTECODE=1 python -m tools.dev.run_session_checkpoint_smoke --package-root .
 PYTHONDONTWRITEBYTECODE=1 python -m tools.dev.run_shell_smoke --package-root .
 PYTHONDONTWRITEBYTECODE=1 python -m tools.dev.run_labjack_u6_smoke --package-root .
 ```

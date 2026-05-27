@@ -35,6 +35,7 @@
 
 - Updated active workplan and next-action surfaces for `20260515_04_session`.
 - Added Sprint 3 acceptance expectations for session persistence, checkpoint restore, and replay evidence.
+- Added deterministic session checkpoint hashing, filesystem checkpoint store, review restore result, and no-hardware checkpoint smoke command.
 - Marked Sprint 3 active in the sprint sequence register.
 
 ### Preserved
