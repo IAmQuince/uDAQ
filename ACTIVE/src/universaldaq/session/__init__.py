@@ -14,9 +14,11 @@ from .models import (
     SessionSafetyPosture,
     SessionValidationResult,
 )
+from .replay import REPLAY_EVIDENCE_SCHEMA_VERSION, build_checkpoint_replay_evidence
 from .restore import SessionRestoreResult, restore_review_session
 from .services import (
     DurableSessionService,
+    build_replay_evidence_from_checkpoint,
     build_replay_from_checkpoint,
     build_session_checkpoint,
     canonical_json,
@@ -64,6 +66,7 @@ __all__ = [
     "DurableSessionService",
     "FileSystemSessionCheckpointStore",
     "MODULE_DECLARATION",
+    "REPLAY_EVIDENCE_SCHEMA_VERSION",
     "ReplayMode",
     "ReplayView",
     "SessionCheckpoint",
@@ -72,6 +75,8 @@ __all__ = [
     "SessionRestoreResult",
     "SessionSafetyPosture",
     "SessionValidationResult",
+    "build_checkpoint_replay_evidence",
+    "build_replay_evidence_from_checkpoint",
     "build_replay_from_checkpoint",
     "build_session_checkpoint",
     "canonical_json",

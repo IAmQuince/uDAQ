@@ -44,3 +44,5 @@
 - No hardware output writes.
 - No historian production storage.
 - No runtime logic deployment.
+
+- Added deterministic checkpoint replay evidence export with a summary-only hash payload that excludes full runtime snapshot history.

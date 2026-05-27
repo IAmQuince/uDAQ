@@ -42,3 +42,5 @@ The sandbox controller accepts only prepared/dry-run mapping requests and never 
 - Defined session/checkpoint/replay acceptance around deterministic no-hardware evidence.
 - Reaffirmed that Sprint 3 does not grant live mapping apply, physical output authority, historian production, or runtime logic deployment.
 - Kept existing Sprint 1 sandbox and Sprint 2 runtime-state boundaries as inherited regression requirements.
+
+- Added deterministic checkpoint replay evidence export with a summary-only hash payload that excludes full runtime snapshot history.

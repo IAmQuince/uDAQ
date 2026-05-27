@@ -50,12 +50,20 @@ def main() -> int:
         replay_id="REPLAY-SMOKE-001",
         created_at=103,
     )
+    replay_evidence = service.build_replay_evidence(
+        session=service.append_checkpoint(session=session, checkpoint=loaded),
+        checkpoint=loaded,
+        replay_id="REPLAY-SMOKE-001",
+        created_at=103,
+    )
     payload = {
         "session_id": session.session_id,
         "checkpoint_id": loaded.checkpoint_id,
         "authority_scope": restored.authority_scope,
         "checkpoint_hash": loaded.checkpoint_hash,
         "runtime_snapshot_hash": loaded.runtime_snapshot_hash,
+        "replay_evidence_hash": replay_evidence["replay_evidence_hash"],
+        "replay_evidence": replay_evidence,
         "replay_is_live": replay.replay_is_live,
         "hardware_mutation_enabled": replay.safety.hardware_mutation_enabled,
         "live_mapping_apply_enabled": replay.safety.live_mapping_apply_enabled,
