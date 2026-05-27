@@ -2,6 +2,7 @@
 
 from .models import (
     DEFAULT_SOURCE_PACKAGE_ID,
+    SESSION_AUTHORITY_SCOPE,
     SESSION_CHECKPOINT_SCHEMA_VERSION,
     SESSION_MODEL_VERSION,
     SESSION_REPLAY_SCHEMA_VERSION,
@@ -13,6 +14,7 @@ from .models import (
     SessionSafetyPosture,
     SessionValidationResult,
 )
+from .restore import SessionRestoreResult, restore_review_session
 from .services import (
     DurableSessionService,
     build_replay_from_checkpoint,
@@ -28,48 +30,59 @@ from .services import (
     validate_session_checkpoint,
     write_json,
 )
+from .store import (
+    CheckpointNotFoundError,
+    FileSystemSessionCheckpointStore,
+    SessionCheckpointStoreError,
+)
 
 MODULE_DECLARATION = {
-    'module_id': 'UDQ-CODE-PKG-SESSION',
-    'implements_requirements': [
-        'UDQ-REQ-DIAG-001',
-        'UDQ-REQ-HIS-001',
+    "module_id": "UDQ-CODE-PKG-SESSION",
+    "implements_requirements": [
+        "UDQ-REQ-DIAG-001",
+        "UDQ-REQ-HIS-001",
     ],
-    'governed_by': [
-        'UDQ-ROADMAP-SPEC-001',
+    "governed_by": [
+        "UDQ-ROADMAP-SPEC-001",
     ],
-    'subsystem': 'SessionCheckpointReplay',
-    'invariant_hooks': [
-        'UDQ-INV-STATE-001',
-        'UDQ-INV-STATE-004',
+    "subsystem": "SessionCheckpointReplay",
+    "invariant_hooks": [
+        "UDQ-INV-STATE-001",
+        "UDQ-INV-STATE-004",
     ],
-    'proof_scope': 'durable review-only session checkpoints and non-live replay views over authoritative runtime snapshots',
+    "proof_scope": "durable review-only session checkpoints and non-live replay views over authoritative runtime snapshots",
 }
 
 __all__ = [
-    'DEFAULT_SOURCE_PACKAGE_ID',
-    'SESSION_CHECKPOINT_SCHEMA_VERSION',
-    'SESSION_MODEL_VERSION',
-    'SESSION_REPLAY_SCHEMA_VERSION',
-    'DurableSession',
-    'DurableSessionService',
-    'MODULE_DECLARATION',
-    'ReplayMode',
-    'ReplayView',
-    'SessionCheckpoint',
-    'SessionMode',
-    'SessionSafetyPosture',
-    'SessionValidationResult',
-    'build_replay_from_checkpoint',
-    'build_session_checkpoint',
-    'canonical_json',
-    'create_checkpoint_from_runtime_state',
-    'create_session',
-    'get_current_session_checkpoint',
-    'load_session',
-    'save_session',
-    'state_hash',
-    'validate_session_checkpoint',
-    'validate_checkpoint_payload',
-    'write_json',
+    "DEFAULT_SOURCE_PACKAGE_ID",
+    "SESSION_AUTHORITY_SCOPE",
+    "SESSION_CHECKPOINT_SCHEMA_VERSION",
+    "SESSION_MODEL_VERSION",
+    "SESSION_REPLAY_SCHEMA_VERSION",
+    "CheckpointNotFoundError",
+    "DurableSession",
+    "DurableSessionService",
+    "FileSystemSessionCheckpointStore",
+    "MODULE_DECLARATION",
+    "ReplayMode",
+    "ReplayView",
+    "SessionCheckpoint",
+    "SessionCheckpointStoreError",
+    "SessionMode",
+    "SessionRestoreResult",
+    "SessionSafetyPosture",
+    "SessionValidationResult",
+    "build_replay_from_checkpoint",
+    "build_session_checkpoint",
+    "canonical_json",
+    "create_checkpoint_from_runtime_state",
+    "create_session",
+    "get_current_session_checkpoint",
+    "load_session",
+    "restore_review_session",
+    "save_session",
+    "state_hash",
+    "validate_checkpoint_payload",
+    "validate_session_checkpoint",
+    "write_json",
 ]

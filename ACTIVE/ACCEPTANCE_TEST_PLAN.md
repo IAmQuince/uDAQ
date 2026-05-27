@@ -1,43 +1,49 @@
-# Acceptance test plan — 20260515_02_mapping
+# Acceptance test plan — 20260515_04_session
 
 Package ID: `UDQ-PKG-20260515-02-MAPPING-R02`
+Active sprint target: `20260515_04_session`
 
 ## Required automated tests
 
 ```bash
-PYTHONDONTWRITEBYTECODE=1 python -m pytest tests/unit/test_mapping_sandbox_state.py tests/unit/test_mapping_sandbox_diff.py tests/contract/test_mapping_apply_sandbox_boundary.py tests/contract/test_mapping_apply_rollback.py tests/ui/test_testing_menu_smoke.py tests/contract/test_sprint_mapping_diagnostics.py -q
+PYTHONDONTWRITEBYTECODE=1 python -m pytest tests/session/ tests/contract/ -q
 ```
+
+Expected Sprint 3 coverage:
+
+- session metadata creation and schema versioning,
+- checkpoint serialization round trip,
+- deterministic checkpoint hash,
+- restore into non-authoritative review/session projection,
+- corrupt or unsupported checkpoint rejection,
+- replay evidence summary generation.
 
 ## Required inherited regression tests
 
 ```bash
-PYTHONDONTWRITEBYTECODE=1 python -m pytest tests/contract/test_contract_mapping_apply_preflight_review_path.py tests/contract/test_contract_mapping_apply_shell_review_hooks.py tests/contract/test_contract_mapping_apply_dry_run_commit_boundary.py -q
+PYTHONDONTWRITEBYTECODE=1 python -m pytest tests/ -q
 ```
+
+Inherited tests must continue to prove the Sprint 1 sandbox mapping boundary and Sprint 2 runtime-state projection boundary.
 
 ## Required package checks
 
 ```bash
-PYTHONDONTWRITEBYTECODE=1 python -m tools.package_build.validate_handoff_package
-PYTHONDONTWRITEBYTECODE=1 python -m tools.governance.validate_package_entry_surfaces
-PYTHONDONTWRITEBYTECODE=1 python -m tools.governance.validate_readme_control
-PYTHONDONTWRITEBYTECODE=1 python -m tools.governance.validate_document_completeness
-PYTHONDONTWRITEBYTECODE=1 python -m tools.governance.validate_document_classification
-PYTHONDONTWRITEBYTECODE=1 python -m tools.package_build.validate_active_lane_boundedness
-PYTHONDONTWRITEBYTECODE=1 python -m tools.package_build.validate_windows_path_budget --package-root . --delivery-root 20260515_02_mapping
+PYTHONDONTWRITEBYTECODE=1 python -m tools.audit.run_master_audit --package-root . --profile package-normalization
+PYTHONDONTWRITEBYTECODE=1 python -m tools.governance.validate_document_impact --package-root .
+PYTHONDONTWRITEBYTECODE=1 python -m tools.governance.validate_package_entry_surfaces --package-root .
+PYTHONDONTWRITEBYTECODE=1 python -m tools.governance.validate_readme_control --package-root .
+PYTHONDONTWRITEBYTECODE=1 python -m tools.governance.validate_document_debt --package-root .
+PYTHONDONTWRITEBYTECODE=1 python -m tools.package_build.validate_windows_path_budget --package-root . --delivery-root udq_s02b_r01
+PYTHONDONTWRITEBYTECODE=1 python -m tools.dev.run_session_checkpoint_smoke --package-root .
+PYTHONDONTWRITEBYTECODE=1 python -m tools.dev.run_shell_smoke --package-root .
+PYTHONDONTWRITEBYTECODE=1 python -m tools.dev.run_labjack_u6_smoke --package-root .
 ```
 
 ## Manual user test
 
-Follow `docs/testing/20260515_02_manual-test-checklist.md`.
+When Sprint 3 UI hooks exist, use the Testing menu to create a session checkpoint, restore it into review/session state, and export replay evidence. Until then, use the no-hardware CLI/dev harness.
 
+## Safety boundary
 
-## R2 hotfix acceptance addendum
-
-Run:
-
-```bash
-PYTHONDONTWRITEBYTECODE=1 python -m pytest tests/contract/test_contract_visible_shell_wiring_hotfix.py -q
-PYTHONDONTWRITEBYTECODE=1 python -m tools.dev.run_sprint_diagnostics --package-root . --acceptance-only
-```
-
-Expected result: visible-shell wiring audit passes and the active shell class has non-stub Logic node callbacks.
+Passing Sprint 3 acceptance must not imply live mapping apply, hardware output writes, historian production storage, or runtime logic deployment.
