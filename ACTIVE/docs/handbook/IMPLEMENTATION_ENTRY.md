@@ -20,6 +20,8 @@ The active implementation baseline is the closed Sprint 2 runtime-state integrat
 - Phase 0 for contributors is package-root reconciliation: work from `ACTIVE/`, keep `HISTORICAL/` read-only except for lineage, and confirm the current entry/control surfaces before editing.
 - Phase 4 for the roadmap remains a future live acquisition/runtime slice; this package does not claim that capability and keeps the current proof bounded below that level.
 
+Governance anchor phrase: phase 0.
+
 ## Current source/test roots
 
 - `src/`
