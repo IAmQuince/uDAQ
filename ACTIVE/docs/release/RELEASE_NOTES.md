@@ -34,3 +34,11 @@ The fix restores the intended draft/demo Logic node model, connects workspace ta
 ## Safety boundary
 
 The sandbox controller accepts only prepared/dry-run mapping requests and never executes live. No adapter calls, hardware writes, or live authoritative mapping updates are performed by this package.
+
+
+## Sprint 3 activation
+
+- Activated `20260515_04_session` as the durable session/checkpoint/replay sprint.
+- Defined session/checkpoint/replay acceptance around deterministic no-hardware evidence.
+- Reaffirmed that Sprint 3 does not grant live mapping apply, physical output authority, historian production, or runtime logic deployment.
+- Kept existing Sprint 1 sandbox and Sprint 2 runtime-state boundaries as inherited regression requirements.
