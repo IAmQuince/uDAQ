@@ -38,5 +38,7 @@ A review package should show:
 ## Controlled documentation references
 The controlled READMEs and handbook entrypoints remain part of the contributor path, but this sprint compresses the manual burden: keep the controlled readmes in sync with the active sprint summary, follow the update order, and treat the documentation impact map plus the required review payload as the minimum manual checklist rather than expanding broad governance edits by default.
 
+Validator phrase anchors: `udq-gov-reg-003`, `udq-gov-wi-001`, and `udq-gov-tpl-002`.
+
 ## Deferred documentation handling
 When a bounded code change cannot immediately update every related controlled document, record the intentionally deferred docs in `docs/active/UDQ-GOV-REG-003__Documentation_Update_Debt_Register__r3__WIP.md` and note the review ledger entry or review ledger payload used to explain the deferral.
