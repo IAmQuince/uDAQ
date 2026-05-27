@@ -20,6 +20,8 @@ from universaldaq.mapping import (
     build_demo_sandbox_state,
     export_mapping_diff_markdown,
 )
+from universaldaq.runtime import build_authoritative_runtime_snapshot
+from universaldaq.session import DurableSessionService
 
 PACKAGE_SLUG = '20260515_02_mapping'
 PACKAGE_ID = 'UDQ-PKG-20260515-02-MAPPING-R02'
@@ -277,6 +279,49 @@ def run_visible_shell_wiring_audit(*, package_root: Path | None = None) -> Sprin
         passed=passed,
         report_path=str(report_path),
         summary='Visible shell wiring audit passed' if passed else 'Visible shell wiring audit failed',
+        details=payload,
+    )
+
+
+def run_session_replay_evidence_export(*, package_root: Path | None = None) -> SprintTestResult:
+    root = package_root_from(package_root)
+    report_path = _report_dir(root) / '20260515_04_session-replay-evidence.json'
+    service = DurableSessionService()
+    session = service.create_session(session_id='SES-TESTING-MENU-001', created_at=800)
+    checkpoint = service.create_checkpoint(
+        session=session,
+        checkpoint_id='CHK-TESTING-MENU-001',
+        timestamp=801,
+        runtime_snapshot=build_authoritative_runtime_snapshot(timestamp=801, sequence_number=41),
+    )
+    session = service.append_checkpoint(session=session, checkpoint=checkpoint)
+    evidence = service.build_replay_evidence(
+        session=session,
+        checkpoint=checkpoint,
+        replay_id='REPLAY-TESTING-MENU-001',
+        created_at=802,
+    )
+    checks = {
+        'authority_scope_review_only': evidence['authority_scope'] == 'review_session_only',
+        'replay_is_not_live': evidence['replay_is_live'] is False,
+        'hardware_mutation_disabled': evidence['safety']['hardware_mutation_enabled'] is False,
+        'live_mapping_apply_disabled': evidence['safety']['live_mapping_apply_enabled'] is False,
+        'evidence_hash_available': bool(evidence['replay_evidence_hash']),
+        'summary_only_payload': 'runtime_snapshot' not in evidence,
+    }
+    payload = {
+        'package_id': PACKAGE_ID,
+        'test_name': 'session_replay_evidence_export',
+        'passed': all(checks.values()),
+        'checks': checks,
+        'evidence': evidence,
+    }
+    _write_json(report_path, payload)
+    return SprintTestResult(
+        name='Session Replay Evidence Export',
+        passed=payload['passed'],
+        report_path=str(report_path),
+        summary='Session replay evidence exported' if payload['passed'] else 'Session replay evidence export failed',
         details=payload,
     )
 
