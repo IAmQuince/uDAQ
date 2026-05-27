@@ -44,3 +44,5 @@ The sandbox controller accepts only prepared/dry-run mapping requests and never 
 - Kept existing Sprint 1 sandbox and Sprint 2 runtime-state boundaries as inherited regression requirements.
 
 - Added deterministic checkpoint replay evidence export with a summary-only hash payload that excludes full runtime snapshot history.
+
+- Added a visible-shell Testing-menu action for review-only session replay evidence export.

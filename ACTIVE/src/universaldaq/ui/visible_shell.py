@@ -167,6 +167,7 @@ def build_visible_operator_shell_spec(
                 MenuActionSpec(action_id='testing_run_apply_rollback', label='Run Apply/Rollback Test', tooltip='Apply demo mapping changes, rollback, and verify the sandbox state hash is restored.'),
                 MenuActionSpec(action_id='testing_run_diff_report', label='Run Diff Report Test', tooltip='Generate a human-readable mapping diff report.'),
                 MenuActionSpec(action_id='testing_run_shell_wiring_audit', label='Run Visible Shell Wiring Audit', tooltip='Check visible-shell callback wiring and startup summary ordering.'),
+                MenuActionSpec(action_id='testing_export_session_replay_evidence', label='Export Session Replay Evidence', tooltip='Export deterministic review-only session checkpoint replay evidence.'),
                 MenuActionSpec(action_id='testing_export_bundle', label='Export Diagnostic Bundle', tooltip='Generate an easy-to-return diagnostic bundle with acceptance reports.'),
                 MenuActionSpec(action_id='testing_open_manual_checklist', label='Open Manual Test Checklist', tooltip='Open the Sprint 1 manual testing checklist.'),
                 MenuActionSpec(action_id='testing_open_report_folder', label='Open Latest Report Folder', tooltip='Open the folder containing automated Sprint 1 test reports.'),

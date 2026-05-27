@@ -469,6 +469,8 @@ def launch_visible_operator_shell(*, initial_scenario_id: str = 'logic_control_d
                 self._menu_actions['testing_run_diff_report'].triggered.connect(lambda: self._run_testing_action('diff_report'))
             if 'testing_run_shell_wiring_audit' in self._menu_actions:
                 self._menu_actions['testing_run_shell_wiring_audit'].triggered.connect(lambda: self._run_testing_action('visible_shell_wiring_audit'))
+            if 'testing_export_session_replay_evidence' in self._menu_actions:
+                self._menu_actions['testing_export_session_replay_evidence'].triggered.connect(lambda: self._run_testing_action('session_replay_evidence'))
             if 'testing_export_bundle' in self._menu_actions:
                 self._menu_actions['testing_export_bundle'].triggered.connect(lambda: self._run_testing_action('diagnostic_bundle'))
             if 'testing_open_manual_checklist' in self._menu_actions:
@@ -492,6 +494,7 @@ def launch_visible_operator_shell(*, initial_scenario_id: str = 'logic_control_d
                 run_apply_rollback_test,
                 run_diff_report_test,
                 run_mapping_sandbox_demo,
+                run_session_replay_evidence_export,
                 run_smoke_test,
                 run_visible_shell_wiring_audit,
             )
@@ -501,6 +504,7 @@ def launch_visible_operator_shell(*, initial_scenario_id: str = 'logic_control_d
                 'apply_rollback': run_apply_rollback_test,
                 'diff_report': run_diff_report_test,
                 'visible_shell_wiring_audit': run_visible_shell_wiring_audit,
+                'session_replay_evidence': run_session_replay_evidence_export,
                 'diagnostic_bundle': export_diagnostic_bundle,
             }
             runner = runners.get(action_id)
@@ -2205,6 +2209,8 @@ def launch_visible_operator_shell(*, initial_scenario_id: str = 'logic_control_d
                 self._menu_actions['testing_run_diff_report'].triggered.connect(lambda: self._run_testing_action('diff_report'))
             if 'testing_run_shell_wiring_audit' in self._menu_actions:
                 self._menu_actions['testing_run_shell_wiring_audit'].triggered.connect(lambda: self._run_testing_action('visible_shell_wiring_audit'))
+            if 'testing_export_session_replay_evidence' in self._menu_actions:
+                self._menu_actions['testing_export_session_replay_evidence'].triggered.connect(lambda: self._run_testing_action('session_replay_evidence'))
             if 'testing_export_bundle' in self._menu_actions:
                 self._menu_actions['testing_export_bundle'].triggered.connect(lambda: self._run_testing_action('diagnostic_bundle'))
             if 'testing_open_manual_checklist' in self._menu_actions:
@@ -2228,6 +2234,7 @@ def launch_visible_operator_shell(*, initial_scenario_id: str = 'logic_control_d
                 run_apply_rollback_test,
                 run_diff_report_test,
                 run_mapping_sandbox_demo,
+                run_session_replay_evidence_export,
                 run_smoke_test,
                 run_visible_shell_wiring_audit,
             )
@@ -2237,6 +2244,7 @@ def launch_visible_operator_shell(*, initial_scenario_id: str = 'logic_control_d
                 'apply_rollback': run_apply_rollback_test,
                 'diff_report': run_diff_report_test,
                 'visible_shell_wiring_audit': run_visible_shell_wiring_audit,
+                'session_replay_evidence': run_session_replay_evidence_export,
                 'diagnostic_bundle': export_diagnostic_bundle,
             }
             runner = runners.get(action_id)

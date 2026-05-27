@@ -48,3 +48,5 @@ When Sprint 3 UI hooks exist, use the Testing menu to create a session checkpoin
 ## Safety boundary
 
 Passing Sprint 3 acceptance must not imply live mapping apply, hardware output writes, historian production storage, or runtime logic deployment.
+
+- Testing menu exposes `Export Session Replay Evidence` as a review-only no-hardware proof path.
