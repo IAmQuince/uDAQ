@@ -2,7 +2,7 @@
 
 **Controlled release companion document**  
 ID: UDQ-REL-SESSION-ACCEPT-20260515-04  
-Status: REVIEW  
+Status: ACTIVE  
 Revision: r0  
 Owner: Core Architecture / GPT-5.5 Integration  
 Authority: DERIVED  

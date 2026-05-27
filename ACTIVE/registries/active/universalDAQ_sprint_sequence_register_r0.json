@@ -68,11 +68,11 @@
       "sprint_id": "UDQ-SPRINT-03",
       "package_slug": "20260515_04_session",
       "title": "Durable session/checkpoint/replay spine",
-      "status": "active",
+      "status": "complete",
       "phase_group": "foundation",
       "objective": "Crash-tolerant reconstruction and replay",
       "preconditions": "Sprint 2 authoritative runtime-state model complete; CI stabilization gate passes.",
-      "primary_outputs": "Session metadata/checkpoint model, deterministic serialization/hash, restore review projection, replay evidence export, focused validation summary.",
+      "primary_outputs": "Session metadata/checkpoint model, deterministic serialization/hash, filesystem store, review restore, replay evidence export, Testing-menu hook, focused validation summary.",
       "source_surfaces": "Runtime state snapshot model, session/checkpoint/replay helpers, diagnostics/dev harness; core remains device-agnostic and support-pack isolated.",
       "doc_surfaces": "Roadmap, NEXT_ACTIONS, WORKPLAN_CURRENT_RUN, release notes, known limitations, affected subsystem specs.",
       "test_gate": "Session/checkpoint/replay focused tests plus inherited package quality gate, shell smoke, and simulated LabJack U6 smoke.",
@@ -82,7 +82,7 @@
       "unlocks": "UDQ-SPRINT-04",
       "blocked_by": "UDQ-SPRINT-02",
       "non_goals": "No live mapping apply; no hardware writes; no historian production; no runtime logic deployment; no remote command authority.",
-      "acceptance_summary": "Active sprint; closeout requires deterministic no-hardware checkpoint/replay evidence and preservation of requested/applied/observed authority boundaries."
+      "acceptance_summary": "No-hardware checkpoint store/load, review-only restore, deterministic replay evidence (CLI and Testing menu), corrupt payload rejection, and requested/applied/observed boundaries preserved."
     },
     {
       "sprint_id": "UDQ-SPRINT-04",

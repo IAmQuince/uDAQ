@@ -1,23 +1,21 @@
-# Workplan — 20260515_04_session
+# Workplan — 20260515_04_session (closeout)
 
 Package ID: `UDQ-PKG-20260515-02-MAPPING-R02`
-Active sprint target: `20260515_04_session`
+Sprint status: **complete** (`UDQ-SPRINT-03`)
 
-## Objective
+## Objective delivered
 
-Open Sprint 3 with a durable session/checkpoint/replay spine that attaches to the Sprint 2 authoritative runtime-state model without granting live mapping apply, hardware writes, historian production, or runtime logic deployment authority.
+Durable session/checkpoint/replay spine over the Sprint 2 authoritative runtime-state model, without live mapping apply, hardware writes, historian production, or runtime logic deployment authority.
 
-## In scope
+## Delivered in scope
 
-- Session metadata model with schema version, actor/source context, and runtime snapshot hash.
-- Checkpoint payloads that reference `RuntimeStateSnapshot` as the source of review truth.
-- Deterministic JSON serialization and checkpoint hashing.
-- Filesystem-backed save/load path for local no-hardware proof.
-- Restore into non-authoritative review/session projection only.
-- Replay evidence summary suitable for diagnostics/export.
-- Focused tests for persistence, restore boundaries, corrupt payload rejection, and deterministic replay evidence.
+- Session metadata and checkpoint models with deterministic serialization and checkpoint hashing.
+- Filesystem checkpoint store with path-safe IDs and corrupt-payload rejection.
+- Review-only restore (`restore_review_session`) with `review_session_only` authority scope.
+- Deterministic replay evidence export (`udq-session-replay-evidence`, dev smoke, Testing menu).
+- Focused tests under `tests/session/` plus inherited contract/invariant session coverage.
 
-## Out of scope
+## Out of scope (unchanged)
 
 - Live mapping apply.
 - Hardware output writes.
@@ -26,14 +24,8 @@ Open Sprint 3 with a durable session/checkpoint/replay spine that attaches to th
 - Remote command authority.
 - Broad UI redesign or controller decomposition.
 
-## Gates
+## Next sprint handoff
 
-1. Governance validators and package audit pass.
-2. Session/checkpoint unit and contract tests pass.
-3. Shell smoke and simulated LabJack U6 smoke continue to pass.
-4. Evidence export proves checkpoint/replay behavior without hardware.
-5. Requested/applied/observed semantics remain separated.
+**Best next sprint:** `20260515_05_acquire` (`UDQ-SPRINT-04`)
 
-## Closeout expectation
-
-Sprint 3 is complete when a no-hardware user can persist a runtime-state-backed session checkpoint, restore it into review/session state, replay it into deterministic evidence, and run the package quality gate without introducing live output authority.
+Live acquisition runtime should attach to the session and runtime-state spine without collapsing requested/applied/observed semantics or reopening sandbox-only mapping boundaries.
