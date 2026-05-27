@@ -10,7 +10,6 @@ from universaldaq.runtime import RuntimeStateSnapshot, build_authoritative_runti
 
 from .models import (
     DEFAULT_SOURCE_PACKAGE_ID,
-    SESSION_AUTHORITY_SCOPE,
     DurableSession,
     ReplayMode,
     ReplayView,
@@ -19,6 +18,7 @@ from .models import (
     SessionSafetyPosture,
     SessionValidationResult,
 )
+from .replay import build_checkpoint_replay_evidence
 
 
 def canonical_json(payload: Mapping[str, object]) -> str:
@@ -66,9 +66,6 @@ def validate_checkpoint_payload(payload: Mapping[str, object]) -> SessionValidat
         errors.append("runtime_snapshot is missing or invalid")
     elif not _truth_keys_present(runtime_snapshot):
         errors.append("runtime_snapshot must preserve requested/applied/observed state")
-    authority_scope = payload.get("authority_scope", SESSION_AUTHORITY_SCOPE)
-    if authority_scope != SESSION_AUTHORITY_SCOPE:
-        errors.append(f"authority_scope must be {SESSION_AUTHORITY_SCOPE}")
     if payload.get("schema_version") != "udq.session.checkpoint.v1":
         warnings.append("checkpoint schema version differs from current version")
     return SessionValidationResult(ok=not errors, errors=tuple(errors), warnings=tuple(warnings))
@@ -201,6 +198,28 @@ class DurableSessionService:
             created_at=created_at,
         )
 
+    def build_replay_evidence(
+        self,
+        *,
+        session: DurableSession,
+        checkpoint: SessionCheckpoint,
+        replay_id: str,
+        created_at: EventTime | int,
+        replay_mode: ReplayMode = ReplayMode.REVIEW,
+    ) -> dict[str, object]:
+        replay = self.build_replay_view(
+            session=session,
+            checkpoint=checkpoint,
+            replay_id=replay_id,
+            created_at=created_at,
+            replay_mode=replay_mode,
+        )
+        return build_checkpoint_replay_evidence(
+            replay=replay,
+            checkpoint=checkpoint,
+            session=session,
+        )
+
 
 def create_session(
     *,
@@ -275,6 +294,26 @@ def build_replay_from_checkpoint(
         session_id=checkpoint.session_id, created_at=checkpoint.checkpoint_timestamp
     )
     return service.build_replay_view(
+        session=resolved_session,
+        checkpoint=checkpoint,
+        replay_id=replay_id,
+        created_at=created_at,
+    )
+
+
+def build_replay_evidence_from_checkpoint(
+    *,
+    session: DurableSession | None = None,
+    checkpoint: SessionCheckpoint,
+    replay_id: str = "REPLAY-DIAGNOSTIC-001",
+    created_at: EventTime | int = 0,
+) -> dict[str, object]:
+    service = DurableSessionService()
+    resolved_session = session or service.create_session(
+        session_id=checkpoint.session_id,
+        created_at=checkpoint.checkpoint_timestamp,
+    )
+    return service.build_replay_evidence(
         session=resolved_session,
         checkpoint=checkpoint,
         replay_id=replay_id,
