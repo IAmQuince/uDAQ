@@ -31,18 +31,24 @@ The fix restores the intended draft/demo Logic node model, connects workspace ta
 - Package identity advanced to `UDQ-PKG-20260515-02-MAPPING-R02`.
 - Sprint sequence register marks Sprint 1 as complete and points next work toward the runtime state sprint.
 
+## 2026-05-27 — Sprint 3 session spine closeout
+
+### Added
+
+- Filesystem session checkpoint store with hash verification and corrupt-payload rejection.
+- Review-only session restore and deterministic replay evidence export.
+- `udq-session-replay-evidence` console script and Testing-menu replay evidence export.
+- Session-focused tests under `tests/session/`.
+
+### Changed
+
+- Sprint sequence register marks Sprint 3 (`20260515_04_session`) complete; next sprint is `20260515_05_acquire`.
+- `NEXT_ACTIONS.md` and workplan surfaces hand off to live acquisition runtime.
+
+### Preserved
+
+- No live mapping apply, hardware writes, historian production, or runtime logic deployment in this closeout.
+
 ## Safety boundary
 
 The sandbox controller accepts only prepared/dry-run mapping requests and never executes live. No adapter calls, hardware writes, or live authoritative mapping updates are performed by this package.
-
-
-## Sprint 3 activation
-
-- Activated `20260515_04_session` as the durable session/checkpoint/replay sprint.
-- Defined session/checkpoint/replay acceptance around deterministic no-hardware evidence.
-- Reaffirmed that Sprint 3 does not grant live mapping apply, physical output authority, historian production, or runtime logic deployment.
-- Kept existing Sprint 1 sandbox and Sprint 2 runtime-state boundaries as inherited regression requirements.
-
-- Added deterministic checkpoint replay evidence export with a summary-only hash payload that excludes full runtime snapshot history.
-
-- Added a visible-shell Testing-menu action for review-only session replay evidence export.

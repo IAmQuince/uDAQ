@@ -48,3 +48,22 @@
 - Added deterministic checkpoint replay evidence export with a summary-only hash payload that excludes full runtime snapshot history.
 
 - Added Testing-menu access for deterministic session replay evidence export.
+
+## 2026-05-27 — Sprint 3 closeout
+
+### Changed
+
+- Marked `UDQ-SPRINT-03` complete in the sprint sequence register (JSON and CSV).
+- Updated `WORKPLAN_CURRENT_RUN.md`, `NEXT_ACTIONS.md`, known limitations, and release surfaces for Sprint 4 handoff.
+- Set `docs/release/20260515_04_session_acceptance.md` to ACTIVE after acceptance criteria were met.
+
+### Added
+
+- Corrupt-checkpoint hardening tests (`invalid JSON`, missing fields, unsafe restore rejection).
+
+### Preserved
+
+- No live mapping apply.
+- No hardware output writes.
+- No historian production storage.
+- No runtime logic deployment.
