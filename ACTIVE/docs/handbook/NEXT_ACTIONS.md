@@ -19,7 +19,7 @@ Package ID: `UDQ-PKG-20260515-02-MAPPING-R02`
 
 Sprint 3 closed the durable session/checkpoint/replay spine: checkpoints embed authoritative runtime snapshots, restore stays review-only, replay evidence is deterministic, and corrupt payloads fail closed at the store boundary.
 
-The next safe move is live acquisition runtime (`UDQ-SPRINT-04`), building canonical live samples with health/quality states while preserving requested/applied/observed separation and keeping sandbox mapping apply isolated.
+The next safe move is live acquisition runtime (`UDQ-SPRINT-04`), building canonical live samples with health/quality states while preserving requested/applied/observed separation, keeping sandbox mapping apply isolated, and carrying forward the recent reconciliation work without reopening a competing authority path.
 
 ## Required Sprint 4 boundaries
 
@@ -42,6 +42,6 @@ Future work should modify `ACTIVE/` by default. `HISTORICAL/` should be updated 
 - Sprint Zero roadmap and sprint register are implemented.
 - Sprint 1 sandbox mapping apply, rollback, diff, Testing menu, and diagnostic bundle are implemented.
 - Sprint 2 authoritative runtime state, compatibility API aliases, contract/invariant coverage, and runtime-state diagnostic strict mode are implemented.
-- Sprint 3 session/checkpoint store, review restore, replay evidence (CLI + Testing menu), and corrupt-checkpoint hardening are implemented.
+- Phase 3 / `20260515_04_session` (durable session/checkpoint/replay spine) is complete: checkpoint store, review restore, replay evidence (CLI + Testing menu), and corrupt-checkpoint hardening are implemented.
 - Phase 4 / `20260515_05_acquire` is the live acquisition runtime sprint and must not collapse requested, applied, and observed runtime semantics.
 - Live hardware apply, runtime logic deployment, and hardware-in-loop verification remain deferred until prerequisite sprints are separately reviewed and tested.
